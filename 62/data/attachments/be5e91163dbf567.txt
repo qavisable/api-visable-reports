@@ -1,0 +1,15 @@
+folder=Spike | Profiles link user to company
+method=POST
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3276115b-6275-46d8-9b6d-c064b11e17f0
+Host: {{token_url}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{'mode': 'urlencoded', 'urlencoded': [{'description': {'content': 'Supplier Facts OAuth client credentials', 'type': 'text/plain'}, 'key': 'grant_type', 'value': 'client_credentials'}, {'key': 'client_id', 'value': '{{client_id_SF}}'}, {'key': 'client_secret', 'value': '{{client_secret_SF}}'}, {'key': 'scope', 'value': 'supplier_facts/*.rw'}]}

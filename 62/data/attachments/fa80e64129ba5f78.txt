@@ -1,0 +1,15 @@
+folder=Visitors
+method=GET
+url=
+query=page={{page}}&per={{size}}&start_date=2024-06-22&end_date=2024-07-21&platform=wlw&types=All&countries=ALL
+headers=
+Accept: application/json;version=1
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 6762017e-f626-442b-ad3e-8389167b4f7f
+Host: statistics.internal.wlw-1.staging.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

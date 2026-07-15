@@ -1,0 +1,19 @@
+folder=company-controller
+method=GET
+url=
+query=searchTerm=%27%20OR%201=1%20--&includeNonSimilarItem={{includeNonSimilarItem}}&page={{page}}&size={{size}}
+headers=
+Authorization: Bearer ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8de68548-d9ed-4819-a8cc-51a49ccd6ab6
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

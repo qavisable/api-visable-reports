@@ -1,0 +1,19 @@
+folder=conversation-controller
+method=GET
+url=
+query=conversationRequest={{conversationRequest}}
+headers=
+Authorization: Bearer ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+user-source: WLW
+application-source: {{applicationSource}}
+x-application-version: {{xApplicationVersion}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d316140a-6427-44ab-ae1e-eec84c81d079
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

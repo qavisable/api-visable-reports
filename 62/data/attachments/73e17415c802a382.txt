@@ -1,0 +1,16 @@
+folder=Dashboard smoke flow
+method=GET
+url=
+query=uuid=00505682-f25b-1ee9-bd91-d280914c97fb&startDate=2025-07-15&endDate=2026-07-14&Platform=wlw
+headers=
+withUserInfo: true
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 372252a6-2963-4dbb-bf4f-755cda593cd5
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

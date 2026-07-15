@@ -1,0 +1,25 @@
+folder=Statistics visitor drill-down
+method=POST
+url=
+query=Platform=wlw
+headers=
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: df167aa4-3178-435b-afca-9b4d119a2374
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "countries": "GB,NL,US,PT,TR,CH,AT,LU,RU",
+  "language": "fr",
+  "types": [
+    "profile"
+  ],
+  "start_date": "2025-05-01",
+  "end_date": "2025-05-23",
+  "platform": "ep"
+}

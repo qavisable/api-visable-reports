@@ -1,0 +1,24 @@
+folder=conversation-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 38a45df9-879a-4a0e-ba5e-e47954441b3b
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "participantId": "example",
+  "messageContent": "example",
+  "tags": [
+    "example"
+  ]
+}

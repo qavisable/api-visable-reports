@@ -1,0 +1,19 @@
+folder=Account
+method=PUT
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 4118d729-6bb0-47aa-8d93-e2a4a292cc53
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+          "enabled_for_sales": true
+      }

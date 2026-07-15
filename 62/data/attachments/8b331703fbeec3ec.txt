@@ -1,0 +1,24 @@
+folder=dynamic-links-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+x-api-key: {{apiKey}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 694a9ab2-7eab-4918-bc9c-abae795e4de5
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "route": "CONVERSATION",
+  "data": "example",
+  "redirect_link": "example"
+}

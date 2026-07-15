@@ -1,0 +1,15 @@
+folder=Spike | Profiles link user to company
+method=POST
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5e50047d-5913-49dd-a437-39adb9b24983
+Host: {{token_url}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{'mode': 'urlencoded', 'urlencoded': [{'key': 'grant_type', 'value': 'client_credentials'}, {'key': 'client_id', 'value': '{{client_id_US}}'}, {'key': 'client_secret', 'value': '{{client_secret_US}}'}, {'key': 'scope', 'value': ''}]}

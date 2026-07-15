@@ -1,0 +1,20 @@
+folder=company-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d58f5b8a-2ed2-49b7-af8c-90414875fd28
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,19 @@
+folder=supplier-visitors-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+x-api-key: {{apiKey}}
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a3188596-722a-4009-b831-bae1922043fd
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

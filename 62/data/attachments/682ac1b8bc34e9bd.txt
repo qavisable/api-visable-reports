@@ -1,0 +1,16 @@
+folder=Spike | Profiles link user to company
+method=GET
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e6e99542-7f69-4c2e-b717-21dff69d0175
+Host: www.wlw-staging.de
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: ab_testing_variants_v2=%7B%22template%22%3A%7B%22name%22%3A%22control%22%2C%22dimension%22%3A%22wlwTestGroup%22%2C%22active%22%3Atrue%2C%22expiry%22%3A1784701906%7D%7D; ufs_session_id=d9dc80c238a95728; csrf_token_c760e1814d6af440c29ad96ed564e348ff2331608eb9f4ff3c68fbc624618102=70TR1caVtiXJ+JpoLalD/R7RRUXWRP3K/OO4d1UIBj0=
+
+body=
+(empty request body)

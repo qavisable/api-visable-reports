@@ -1,0 +1,16 @@
+folder=currency-exchange-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8f524737-c20d-4093-ad56-a2a14759da06
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

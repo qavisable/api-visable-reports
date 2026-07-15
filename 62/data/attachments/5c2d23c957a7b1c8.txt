@@ -1,0 +1,15 @@
+folder=API register, publish, and verify in UI
+method=GET
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7b363ec0-99c8-42b6-90ca-ef979cb68d10
+Host: www.wlw-staging.de
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

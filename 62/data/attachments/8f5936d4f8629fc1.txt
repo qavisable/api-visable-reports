@@ -1,0 +1,22 @@
+folder=conversation-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 379ce66e-7bc4-41ef-a35c-afd82dd63c1d
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "targetLanguages": [
+    "example"
+  ]
+}

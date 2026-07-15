@@ -1,0 +1,22 @@
+folder=User settings
+method=GET
+url=
+query=uuid=c855226f-16a6-49d2-9f64-ed8c1322bb2e
+headers=
+accept: */*
+application-source: PURCHASER_APP
+user-source: EUROPAGES
+x-application-version: 3.6.3
+Authorization: Bearer ory_st_IBHsOypRvqoUO8r42qEoERB57CqJNCa7
+x-session-token: ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-application-currency: EUR
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 0412096e-92b5-4e92-bf2f-a615b3cd317a
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

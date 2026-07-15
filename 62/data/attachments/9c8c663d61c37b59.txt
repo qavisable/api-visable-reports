@@ -1,0 +1,16 @@
+folder=Shop Import & Onboarding Backend
+method=GET
+url=
+query=supplier_id={{supplier_id}}&search_phrase=&page_size=
+headers=
+Authorization: Bearer ory_at_GdHxrDsyfnDd64PO3BquxeivbeLfbmGyt0bTlOxnuhU.VcfA_Rlc03VHcpu2vRbccjurXW1MxscXm2ZRG7zuUvA
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3d90f93f-3522-4e7f-b17f-7389e67dff3f
+Host: {{supplieronboardingbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

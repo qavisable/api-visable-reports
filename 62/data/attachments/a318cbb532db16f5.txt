@@ -1,0 +1,15 @@
+folder=rfq-marketing-controller
+method=POST
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 57c840a0-d686-476a-a9b0-67f66e0f2ea4
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

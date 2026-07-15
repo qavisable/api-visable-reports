@@ -1,0 +1,17 @@
+folder=Business Insights
+method=GET
+url=
+query=(no query params)
+headers=
+Platform: wlw
+withUserInfo: false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 111a9510-9c97-4aa9-a3b3-2f813edabd6e
+Host: {{internal}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

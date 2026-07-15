@@ -1,0 +1,18 @@
+folder=login-controller
+method=DELETE
+url=
+query=(no query params)
+headers=
+user-source: WLW
+x-session-token: {{sessionToken}}
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ce55e846-6018-4f40-9a43-0851d7f281fd
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

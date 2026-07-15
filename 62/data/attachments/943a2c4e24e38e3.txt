@@ -1,0 +1,16 @@
+folder=conversation-controller
+method=POST
+url=
+query=(no query params)
+headers=
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 4f5dfa67-5f45-4c24-80bd-cb966201b779
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'participantId', 'value': 'example', 'type': 'text'}, {'key': 'file', 'type': 'file', 'fileName': ''}, {'key': 'tags', 'value': '["example"]', 'type': 'text'}]}

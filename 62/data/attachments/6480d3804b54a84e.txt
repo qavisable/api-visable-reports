@@ -1,0 +1,19 @@
+folder=Account
+method=PUT
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 446d8664-428d-4f55-8e56-8cb1c8383ea9
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 36
+Cookie: AWSALBAuthNonce=VGMDMTCeUnWELiVP
+
+body=
+{"website" : "https://example.com/"}

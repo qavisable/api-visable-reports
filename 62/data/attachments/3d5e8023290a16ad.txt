@@ -1,0 +1,18 @@
+folder=Homepage, products
+method=GET
+url=
+query=user_setting_id=ac1ecc45-f5b1-4151-96c6-d992aed06109
+headers=
+accept: */*
+Accept-Language: en
+user-source: EUROPAGES
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 3a019497-7337-47f3-bf2a-d5c0b4ee5e83
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,19 @@
+folder=euro-pages-controller
+method=DELETE
+url=
+query=(no query params)
+headers=
+application-source: {{applicationSource}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 476e381a-51e4-43bd-beb3-e1c40c458d88
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "email": "example"
+}

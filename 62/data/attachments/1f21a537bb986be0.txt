@@ -1,0 +1,16 @@
+folder=Shop Import & Onboarding Backend
+method=GET
+url=
+query=siteId=wlw&language=en&categoryText=scanner
+headers=
+Authorization: Bearer ory_at_8diiXLmUvCC73Eu9I0bzs6ZGKnFNHfY768iKzHzQS7g.hrvN9R24y65GvCbPtcLTzHJpiRmjlyotHLtXepZ_wjc
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1948f38d-9ad8-4ade-8d45-a106700134a9
+Host: {{supplieronboardingbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

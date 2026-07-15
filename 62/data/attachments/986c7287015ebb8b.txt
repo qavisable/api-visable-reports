@@ -1,0 +1,32 @@
+folder=ai-company-search-controller
+method=POST
+url=
+query=(no query params)
+headers=
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 19ccb9ff-1116-40d9-85c8-f06c76687c7c
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "companyList": [
+    {
+      "companyId": "example",
+      "rank": "example",
+      "productList": []
+    }
+  ],
+  "qpInfo": {
+    "productQpKeywords": "example",
+    "queryProduct": "example",
+    "qpListData": "example"
+  },
+  "verifiedManufactory": true
+}

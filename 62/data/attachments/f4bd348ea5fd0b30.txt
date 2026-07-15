@@ -1,0 +1,19 @@
+folder=feedback-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cdf515b6-3ca9-4a11-b396-763d8bfb9622
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

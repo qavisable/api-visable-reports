@@ -1,0 +1,19 @@
+folder=categories-controller
+method=GET
+url=
+query=user_setting_id={{user_setting_id}}
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: c9119524-ef5b-4667-b0c3-2a3fba95b279
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,15 @@
+folder=One Platform — User Profile API
+method=GET
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1c27c4e8-94cf-4ac3-92d5-6e1d32507c86
+Host: user-backend.internal.wlw-1.staging.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

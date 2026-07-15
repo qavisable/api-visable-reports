@@ -1,0 +1,25 @@
+folder=purchaser-user-setting-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+Accept-Language: {{acceptLanguage}}
+application-source: {{applicationSource}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 62d14196-8a71-435c-a2a6-d1982ba1c7d4
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "isActive": true,
+  "isSupplier": true,
+  "notifyByPush": true
+}

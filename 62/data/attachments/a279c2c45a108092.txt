@@ -1,0 +1,19 @@
+folder=search-controller
+method=GET
+url=
+query=keyword=cnc
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 47247370-f036-45e1-9b58-651544cb455a
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,18 @@
+folder=search-term-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: daf262cb-bcea-4bfd-856e-dbad5018ad64
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

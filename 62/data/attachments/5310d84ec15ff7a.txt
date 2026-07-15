@@ -1,0 +1,20 @@
+folder=trending-products-controller
+method=GET
+url=
+query=page={{page}}&size={{size}}
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+Accept-Language: {{acceptLanguage}}
+x-application-currency: {{xApplicationCurrency}}
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a851fa5c-d787-4421-ad87-7321a02108aa
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

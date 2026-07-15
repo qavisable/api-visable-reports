@@ -1,0 +1,15 @@
+folder=GoogleAd
+method=GET
+url=
+query=(no query params)
+headers=
+accept: application/vnd.api+json
+user-agent: PostmanRuntime/7.39.1
+cache-control: no-cache
+postman-token: 353a2e02-110c-4a1c-b428-83df2fd7743c
+host: {{ucl_domain}}
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+body=
+(empty request body)

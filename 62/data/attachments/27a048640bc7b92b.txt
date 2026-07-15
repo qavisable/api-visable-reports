@@ -1,0 +1,17 @@
+folder=Dashboard smoke flow
+method=GET
+url=
+query=uuid=00505682-f25b-1ee9-bd91-d280914c97fb&Platform=wlw
+headers=
+Platform: wlw
+withUserInfo: false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 442c0158-30cc-42f1-a8e8-3faf665b652d
+Host: {{internal}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,32 @@
+folder=Company create and update for UI
+method=POST
+url=
+query=(no query params)
+headers=
+Accept: application/json
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 1035dd67-a642-4ddc-a29e-41fd32db8091
+Host: {{url_sf}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "address": {
+    "city": "Hamburg",
+    "countryCode": "DE",
+    "postalCode": "20354"
+  },
+  "name": "QA Postman Company",
+  "platform": {
+    "ep": {
+      "published": true
+    },
+    "wlw": {
+      "published": true
+    }
+  },
+  "vatId": "DE263357612"
+}

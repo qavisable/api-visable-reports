@@ -1,0 +1,19 @@
+folder=Search
+method=GET
+url=
+query=searchKeyword=bague
+headers=
+accept: */*
+Accept-Language: fr
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+application-source: EP_PLATFORM_APP
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 18a1a3f0-3eb4-4be9-9ed5-e1c4238b847d
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

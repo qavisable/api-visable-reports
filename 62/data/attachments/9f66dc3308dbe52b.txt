@@ -1,0 +1,16 @@
+folder=API register, publish, and verify in UI
+method=PUT
+url=
+query=(no query params)
+headers=
+Accept: application/json
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: b711d918-c19e-49e5-b017-c08c7472ad86
+Host: {{supplierregistrationbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{}

@@ -1,0 +1,15 @@
+folder=Elixir (supplier-app)
+method=GET
+url=
+query=platform=wlw&start_date=2025-08-01&end_date=2025-08-31&include_website_leads=true&website_leads_stand_alone=false&types={{visit_types}}
+headers=
+Accept: application/json; version=1
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: af97d878-54f2-4b4f-8644-1532a8a62cd5
+Host: {{vp_env}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

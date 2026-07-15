@@ -1,0 +1,16 @@
+folder=User & Company Context
+method=GET
+url=
+query=(no query params)
+headers=
+x-visable-auth-token: VcmGEE+P2xm1w3v688Wt+kUD57v/sNxSc9LO4TWP/uw
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e019be70-239a-4164-9ab4-8148c7949689
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

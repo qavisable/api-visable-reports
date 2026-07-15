@@ -1,0 +1,26 @@
+folder=Meetings
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ec504548-9fbd-428e-ae75-1d55717d9976
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "QA Postman Meeting 20260715-063142",
+  "deleted": false,
+  "status": "Planned",
+  "date_start": "2026-07-15T06:31:42",
+  "duration_hours": 0,
+  "duration_minutes": "30",
+  "location": "Postman Test Location",
+  "assigned_user_id": "5a587cce-2223-11e8-8691-0050568a0df7"
+}

@@ -1,0 +1,32 @@
+folder=Account
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9cce82b3-1f0e-4f35-ba41-634a0f4e19c7
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "Full Test Account 20260715063140",
+  "billing_address_street": "",
+  "billing_address_city": "",
+  "billing_address_postalcode": "",
+  "billing_address_country": "",
+  "telephone_nr": "{{accountPhone}}",
+  "language": "",
+  "email1": "",
+  "website": "",
+  "vat": "DE123456789",
+  "description": "Test account created via Postman with all fields",
+  "industry": "Technology",
+  "employees": 50,
+  "annual_revenue": "1000000"
+}

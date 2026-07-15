@@ -1,0 +1,20 @@
+folder=product-controller
+method=GET
+url=
+query=(no query params)
+headers=
+user-source: WLW
+x-application-currency: {{xApplicationCurrency}}
+Accept-Language: {{acceptLanguage}}
+application-source: {{applicationSource}}
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 323f951d-0faa-418e-9f62-f826c27b4975
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

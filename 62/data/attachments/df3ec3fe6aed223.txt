@@ -1,0 +1,22 @@
+folder=conversation-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a1ba0758-9981-4b69-9cdc-0457c22dc75e
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "conversationTags": [
+    "example"
+  ],
+  "userId": "example"
+}

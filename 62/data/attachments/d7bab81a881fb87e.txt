@@ -1,0 +1,16 @@
+folder=Spike | Profiles link user to company
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer 
+Accept: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: efe520ec-c2c4-4e7d-8ab9-6f4832a9b305
+Host: {{url_user_storage}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

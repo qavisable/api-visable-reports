@@ -1,0 +1,15 @@
+folder=Retargeting
+method=GET
+url=
+query=(no query params)
+headers=
+accept: application/vnd.api+json
+user-agent: PostmanRuntime/7.39.1
+cache-control: no-cache
+postman-token: 112cc7ab-bb83-446b-afea-434a58326de6
+host: {{ucl_domain}}
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+body=
+(empty request body)

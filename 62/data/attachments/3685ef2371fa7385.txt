@@ -1,0 +1,16 @@
+folder=conversation-controller
+method=GET
+url=
+query=url={{url}}&organizationId={{organizationId}}
+headers=
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d46899f0-18ef-49cf-8e9d-be2308e14e6c
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

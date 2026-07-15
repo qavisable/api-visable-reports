@@ -1,0 +1,20 @@
+folder=Homepage, products
+method=GET
+url=
+query=(no query params)
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-application-currency: EUR
+application-source: PURCHASER_APP
+user-source: WLW
+Accept-Language: en
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: bd3216b5-ace5-4da5-bf25-5315aee26cfd
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

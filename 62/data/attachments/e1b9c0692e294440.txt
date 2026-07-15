@@ -1,0 +1,20 @@
+folder=purchaser-support-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ee196d88-ee0c-4905-ba31-335f1eeb7e9e
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

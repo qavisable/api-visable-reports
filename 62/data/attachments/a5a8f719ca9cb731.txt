@@ -1,0 +1,20 @@
+folder=euro-pages-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+application-source: {{applicationSource}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d68c9c2b-1de2-441f-8b03-91d0dd8682f9
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "email": "example"
+}

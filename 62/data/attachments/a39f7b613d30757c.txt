@@ -1,0 +1,24 @@
+folder=login-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+x-api-key: {{apiKey}}
+user-source: WLW
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 21ac744c-6e7b-43e5-a05d-4c0b61405265
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "email": "example",
+  "set_ory_session_token": "example",
+  "password": "example"
+}

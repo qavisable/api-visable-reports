@@ -1,0 +1,17 @@
+folder=Technical Tests
+method=GET
+url=
+query=supplierId=1acad524-bb62-4d4d-bb81-e8ecb1b7f254&page=1&pageSize=10&platform=wlw
+headers=
+X-Platform: wlw
+X-Forwarded-Auth-User-Profile: {{authHeader}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 66b8fefe-8567-476b-901b-dc24b3d19b81
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

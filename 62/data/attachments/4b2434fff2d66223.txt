@@ -1,0 +1,24 @@
+folder=Disable Hubspot
+method=PUT
+url=
+query=(no query params)
+headers=
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/json
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+host: crmtest.visable.com
+X-Visable-Bypass-Token: 
+Cache-Control: no-cache
+Postman-Token: 364d0a2e-e7f1-47e2-8e38-3e5187d53719
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{"hubspot_enabled": "false"}

@@ -1,0 +1,16 @@
+folder=Spike | Profiles link user to company
+method=GET
+url=
+query=email=testwlw2@test.de
+headers=
+Authorization: Bearer 
+Accept: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 03d2f9c7-22da-4c58-80ae-c295baee6106
+Host: {{url_user_storage}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

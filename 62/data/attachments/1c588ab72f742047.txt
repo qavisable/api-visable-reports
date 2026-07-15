@@ -1,0 +1,17 @@
+folder=supplier-visitors-controller
+method=GET
+url=
+query=start_date=&end_date=&types={{types}}&countries={{countries}}&dates={{dates}}
+headers=
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7a5595a1-bd6f-4a44-90c1-b8996c2e0813
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

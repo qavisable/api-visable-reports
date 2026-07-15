@@ -1,0 +1,19 @@
+folder=supplier-visitors-controller
+method=GET
+url=
+query=start_date=%27%20OR%201=1%20--&end_date=&types={{types}}&countries={{countries}}&dates={{dates}}
+headers=
+Authorization: Bearer ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+x-api-key: {{apiKey}}
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: afd628a6-cad3-4e2f-aae4-fb3e507f3b79
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

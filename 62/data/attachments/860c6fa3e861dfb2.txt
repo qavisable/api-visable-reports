@@ -1,0 +1,16 @@
+folder=feedback-controller
+method=POST
+url=
+query=(no query params)
+headers=
+application-source: {{applicationSource}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: edd178e1-66cb-4e33-84c9-4178bf42e824
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'feedbackDTO', 'value': '{"email": "example", "message": "example", "subject": "example"}', 'type': 'text'}, {'key': 'files', 'value': '["example"]', 'type': 'text'}]}

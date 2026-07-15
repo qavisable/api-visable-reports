@@ -1,0 +1,17 @@
+folder=Business Scenario Tests
+method=GET
+url=
+query=supplierId={{rfq_supplierId}}
+headers=
+accept: */*
+X-Forwarded-Auth-User-Profile: {{authHeader}}
+X-Platform: wlw
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 0961de45-b6bc-44af-b1f4-0dacdfc2afa1
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,20 @@
+folder=product-controller
+method=GET
+url=
+query=page={{page}}&size={{size}}&name={{name}}&onlyTopProducts={{onlyTopProducts}}&page_token={{page_token}}
+headers=
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+application-source: {{applicationSource}}
+x-application-currency: {{xApplicationCurrency}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0b97e7a5-f78b-45af-9b36-533b4b32a5dc
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

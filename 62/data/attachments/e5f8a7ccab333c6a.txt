@@ -1,0 +1,15 @@
+folder=Java (statistics-app)
+method=GET
+url=
+query=Platform=wlw&startDate=2025-07-15&endDate=2026-07-14&types={{visit_type}}
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 977b85dc-cf65-4e71-96b7-df91926caa09
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

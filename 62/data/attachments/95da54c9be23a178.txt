@@ -1,0 +1,15 @@
+folder=User & Company Context
+method=GET
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cb62fbe0-8a3f-41fb-8964-b226ae080d5c
+Host: {{url_sf}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

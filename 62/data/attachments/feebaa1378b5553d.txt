@@ -1,0 +1,17 @@
+folder=search-controller
+method=GET
+url=
+query=keyword=cnc
+headers=
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: c0e1589d-7274-41df-9334-e946374e4dbf
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

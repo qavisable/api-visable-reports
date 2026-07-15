@@ -1,0 +1,19 @@
+folder=company-controller
+method=GET
+url=
+query=searchTerm={{searchTerm}}&includeNonSimilarItem={{includeNonSimilarItem}}&page={{page}}&size={{size}}
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 68a3e903-c8e0-4a0f-bf37-1eb31220a3e2
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

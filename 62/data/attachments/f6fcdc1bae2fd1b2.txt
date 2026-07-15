@@ -1,0 +1,19 @@
+folder=conversation-controller
+method=GET
+url=
+query=organizationId=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+application-source: {{applicationSource}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8bbedf31-846c-4686-b04b-d724312de978
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

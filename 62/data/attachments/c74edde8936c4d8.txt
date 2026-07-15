@@ -1,0 +1,18 @@
+folder=Business Insights
+method=GET
+url=
+query=uuid=00505682-f25b-1ee9-bd91-d25be7c577fb&startDate=2025-07-15&endDate=2026-07-14&Platform=wlw
+headers=
+X-User-Id: {{user_1}}
+Platform: wlw
+withUserInfo: false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1443a3cc-95e8-4154-9609-cc7d03ca64a7
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

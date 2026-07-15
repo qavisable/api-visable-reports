@@ -1,0 +1,17 @@
+folder=ai-company-search-controller
+method=GET
+url=
+query=prompts={{prompts}}&scene={{scene}}
+headers=
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5da5daf9-87e9-4adc-a977-34d653c0c979
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

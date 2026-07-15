@@ -1,0 +1,19 @@
+folder=conversation-controller
+method=PUT
+url=
+query=organizationId={{organizationId}}
+headers=
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6e67875e-a931-46b2-b4b8-1ad43c57ed48
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "userId": "example"
+}

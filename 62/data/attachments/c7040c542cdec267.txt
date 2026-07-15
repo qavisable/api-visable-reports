@@ -1,0 +1,17 @@
+folder=ai-company-search-controller
+method=GET
+url=
+query=SearchText={{SearchText}}&SearchScene={{SearchScene}}&from={{from}}
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 305e090e-945c-4aa1-a9c8-b5974402dabc
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

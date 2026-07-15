@@ -1,0 +1,23 @@
+folder=Manual VAT check
+method=POST
+url=
+query=(no query params)
+headers=
+x-csrf-token: ZMvCdV3L-N9TrY31hWkEus2anuZJJth9n5ik
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d5b5176e-90e1-4914-8870-34239c8cc461
+Host: promote-your-business.europages.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 78
+
+body=
+{
+  "data": {
+    "country_code": "DEU",
+    "vat_number": "DE263357612"
+  }
+}

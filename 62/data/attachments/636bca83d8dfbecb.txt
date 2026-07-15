@@ -1,0 +1,30 @@
+folder=Account
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a7a2604a-c64e-481d-a8f1-c53c42456faf
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "Test Account For Contact 20260715063140",
+  "billing_address_street": "Bahnhofstrasse 100",
+  "billing_address_city": "Hamburg",
+  "billing_address_postalcode": "20354",
+  "billing_address_country": "DE",
+  "email": [
+    {
+      "email_address": "company@example.com",
+      "primary_address": true,
+      "opt_out": false
+    }
+  ]
+}

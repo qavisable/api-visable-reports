@@ -1,0 +1,19 @@
+folder=Support
+method=GET
+url=
+query=(no query params)
+headers=
+Accept-Language: en
+Content-Type: application/json
+user-source: EUROPAGES
+application-source: EP_PLATFORM_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: def9139e-d95c-4740-a957-0934d266e341
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

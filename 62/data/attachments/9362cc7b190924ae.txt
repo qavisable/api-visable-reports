@@ -1,0 +1,26 @@
+folder=Account
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 10693f62-4a45-4896-b482-f91609920a67
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+      "name": "Test Account 1784097101",
+      "billing_address_street": "Test Street 123",
+      "billing_address_city": "Hamburg",
+      "billing_address_postalcode": "20095",
+      "billing_address_country": "DE",
+      "website": "https://test-account.example.com",
+      "sap_enabled": false,
+      "hubspot_enabled": false
+  }

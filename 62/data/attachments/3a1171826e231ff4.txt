@@ -1,0 +1,16 @@
+folder=Technical Tests
+method=GET
+url=
+query=supplierId=not-a-uuid
+headers=
+X-Platform: wlw
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 442ccc46-feb4-4083-896f-9d949ee9e97f
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

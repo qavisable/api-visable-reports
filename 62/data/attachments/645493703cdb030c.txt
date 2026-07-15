@@ -1,0 +1,16 @@
+folder=search-term-controller
+method=POST
+url=
+query=searchKeyword={{searchKeyword}}
+headers=
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dd211f2c-29e3-4c26-84c8-10210d3cdb6a
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

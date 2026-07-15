@@ -1,0 +1,19 @@
+folder=supplier-visitors-controller
+method=GET
+url=
+query=group_by=%27%20OR%201=1%20--&start_date=&end_date=&pageIndex={{pageIndex}}&itemsPerPage={{itemsPerPage}}&location={{location}}&radius={{radius}}&types={{types}}&countries={{countries}}&dates={{dates}}
+headers=
+Authorization: Bearer ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+x-api-key: {{apiKey}}
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 62e15211-1b19-423c-8871-2ddcb5d02e6b
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

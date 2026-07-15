@@ -1,0 +1,26 @@
+folder=ai-company-search-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+user-source: WLW
+x-api-key: {{apiKey}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0e654289-43f5-48eb-8221-a7f73e594702
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "deviceType": "example",
+  "isFileSearch": true,
+  "isImageSearch": true,
+  "prompts": "example",
+  "scene": "example"
+}

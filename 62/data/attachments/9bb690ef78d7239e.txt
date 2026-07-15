@@ -1,0 +1,41 @@
+folder=User settings
+method=POST
+url=
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+x-application-reference: MOBILE
+x-application-version: 3.6.3
+x-application-currency: EUR
+application-source: PURCHASER_APP
+user-source: WLW
+mobile-session-id: null
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: de
+x-session-token: ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: c6946b95-8960-4776-9727-bc95aa6b1dd5
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+    "notify_by_push":false,
+    "email":"visableapp@gmail.com",
+    "push_notification_token":"flCCdKXGS3y3zN5XpVrwdp:APA91bG9KVQPVJSn8hrBBRsK-U9GBqf0-fdr1XyiUEJL6hFgdwq9pmQYswD7BU8dHQIBNynW7_0QIxxnMS2LfmJj51ENZsI3ky46ANI14vKDoUs4JpoLdWA",
+    "shouldCollectConsent":false,
+    "countryCode":"DE",
+    "appleAdsAllowed":true,
+    "googleAdsAllowed":true,
+    "firebaseAnalyticsAllowed":true,
+    "firebaseCrashlyticsAllowed":true,
+    "branchConsentAllowed":true,
+    "iSATTTrackingAllowed":true,
+    "singularConsentAllowed":true,
+    "is_google_available":true,
+    "os_type":"ANDROID"
+    }

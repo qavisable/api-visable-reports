@@ -1,0 +1,17 @@
+folder=rfq-marketing-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8bafe0ae-332e-4d3b-be5f-a69e61d3f364
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

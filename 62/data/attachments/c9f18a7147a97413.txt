@@ -1,0 +1,18 @@
+folder=Business Insights
+method=GET
+url=
+query=Platform=wlw&userUuid={{user_uuid}}
+headers=
+fields: all
+Forwarded-Auth-User-Profile: id={{user_uuid}}
+Platform: wlw
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 97804abf-f609-442b-9b30-92aca0b34d64
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

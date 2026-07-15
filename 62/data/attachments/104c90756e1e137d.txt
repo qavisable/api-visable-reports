@@ -1,0 +1,15 @@
+folder=trending-products-controller
+method=POST
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cae3ad6f-5159-425b-9600-e16db9a2df10
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

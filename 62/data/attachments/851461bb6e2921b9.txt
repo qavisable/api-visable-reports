@@ -1,0 +1,32 @@
+folder=api/v1
+method=POST
+url=
+query=(no query params)
+headers=
+Accept: application/json
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: fbf46e6b-7a18-40c7-8249-0ed50793c7dd
+Host: {{supplierregistrationbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+    "data": {
+  "source": "non_free_listing",
+  "referer": "connect",
+  "language": "EN",
+  "platform": "ep",
+  "firstname": "Alberto",
+  "lastname": "Dietrich",
+  "company_name": "Coffee Brew Co. 3",
+  "email": "alberto.dietrich@gmail.com",
+  "website": "www.coffeebrewco.co.za",
+  "country\"": "ZAF",
+  "phone_country_code": "+27_EN",
+  "phone": "722041444",
+  "comment": "I would like a paid account on your platform"
+}
+}

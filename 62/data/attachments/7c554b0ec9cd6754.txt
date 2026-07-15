@@ -1,0 +1,66 @@
+folder=EP - Lead create and update
+method=PUT
+url=
+query=(no query params)
+headers=
+Accept: application/json
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: fbaa5571-0db0-4118-918e-6617daa8af0b
+Host: {{supplierregistrationbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "data": {
+    "platform": "ep",
+    "language": "en",
+    "user": {
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "",
+      "phone": "17612345678",
+      "country_code": "+49_DEU"
+    },
+    "company": {
+      "name": "John Doe International",
+      "vat": "FI12345AE",
+      "sector": "Furniture",
+      "sector_id": 12345,
+      "activity": "Manufacturing",
+      "keywords": [
+        {
+          "name": "Tables",
+          "type": "fkd"
+        },
+        {
+          "id": 78223,
+          "name": "Chairs",
+          "type": "hea"
+        },
+        {
+          "id": 78224,
+          "name": "Cupboards",
+          "type": "hea"
+        }
+      ],
+      "website": "https://www.johndoe.de",
+      "address": {
+        "street": "Bonnstraße 16",
+        "country": "FIN",
+        "county": "New South Wales",
+        "city": "Berlin",
+        "postal_code": "12223"
+      },
+      "contacts": [
+        {
+          "email": "shelly.nell@example.com",
+          "phone": "17633388777",
+          "country_code": "+49_DEU"
+        }
+      ]
+    }
+  }
+}

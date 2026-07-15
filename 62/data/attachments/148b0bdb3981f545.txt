@@ -1,0 +1,31 @@
+folder=Account
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: aa9cf32e-2fc4-48d7-bcb5-ca8357aa4cfe
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "salutation": "male",
+  "first_name": "Purchaser",
+  "last_name": "Contact 20260715063140",
+  "email": [
+    {
+      "email_address": "purchaser.20260715063140@example.com",
+      "primary_address": true,
+      "opt_out": false
+    }
+  ],
+  "preferred_language": "en",
+  "is_purchaser": true,
+  "account_id": ""
+}

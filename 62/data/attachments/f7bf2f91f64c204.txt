@@ -1,0 +1,24 @@
+folder=Endpoints Tests
+method=GET
+url=
+query=(no query params)
+headers=
+OAuth-Token: {{refreshedTokenCRM}}
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2dfcd876-b44b-4181-8a19-decacb011e8b
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+	"ids" : [
+		"0002377823",
+		"0102125380"
+	]
+}

@@ -1,0 +1,15 @@
+folder=API register, publish, and verify in UI
+method=GET
+url=
+query=email={{email}}
+headers=
+Accept: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 94c42555-b2d6-4f34-8fcc-2997f66f6c99
+Host: {{url_user_storage}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,23 @@
+folder=user-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+x-api-key: {{apiKey}}
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ad8d1e47-eada-470a-8160-3a61bf8e3d08
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "preferred_language": "example",
+  "country_code": "example",
+  "is_admin": true
+}
