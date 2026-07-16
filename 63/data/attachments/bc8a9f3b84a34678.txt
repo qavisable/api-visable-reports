@@ -1,0 +1,22 @@
+folder=login-controller
+method=POST
+url=
+query=(no query params)
+headers=
+user-source: WLW
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ea91eb85-a455-4d81-a42f-fec2567bd774
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "flow": "example",
+  "email": "example",
+  "code": "example"
+}

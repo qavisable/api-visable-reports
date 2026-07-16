@@ -1,0 +1,20 @@
+folder=Conversations
+method=GET
+url=
+query=pageSize=25&organizationId=00505682-f25b-1ee9-bd91-d259d4c4d7fb
+headers=
+user-source: EUROPAGES
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+application-source: EP_PLATFORM_APP
+Accept-Language: de
+x-session-token: ory_st_AMB8x2WTjtlcJpt4fuo4d5NplpwTrvym
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 97cd28f2-6369-48d9-80a5-1be452df7316
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

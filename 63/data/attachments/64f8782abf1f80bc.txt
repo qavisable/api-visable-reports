@@ -1,0 +1,16 @@
+folder=Functional Tests
+method=POST
+url=
+query=(no query params)
+headers=
+X-Forwarded-Auth-User-Profile: {{authHeader}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 695f958a-5f39-468d-9fa7-8045d3a955a7
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'request', 'value': '{"supplierId":"{{rfq_supplierId}}","message":"We can supply this product."}', 'type': 'text'}]}

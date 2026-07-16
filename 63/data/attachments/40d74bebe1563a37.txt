@@ -1,0 +1,18 @@
+folder=Support
+method=GET
+url=
+query=(no query params)
+headers=
+application-source: PURCHASER_APP
+user-source: WLW
+accept-language: {{
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f75783ac-1db5-4793-a53c-f3d291d6a894
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

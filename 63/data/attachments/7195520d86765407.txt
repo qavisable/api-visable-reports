@@ -1,0 +1,21 @@
+folder=conversation-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a540bfa2-96cb-4d4a-99f7-6e2c4ce33632
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "declinedBy": "00000000-0000-4000-8000-000000000000",
+  "reason": "example",
+  "description": "example"
+}

@@ -1,0 +1,16 @@
+folder=Supplier Facts (CPP)
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{accessToken_SF}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ddc72cac-c3f9-4f05-a978-119f72e6b884
+Host: {{url_sf}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

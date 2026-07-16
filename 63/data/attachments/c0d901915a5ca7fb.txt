@@ -1,0 +1,21 @@
+folder=api/v1
+method=POST
+url=
+query=(no query params)
+headers=
+Accept: application/json
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 2d06ba65-5206-4400-b516-b60538a73b9b
+Host: {{supplierregistrationbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "data": {
+    "country_code": "DEU",
+    "vat_number": "DE263357612"
+  }
+}

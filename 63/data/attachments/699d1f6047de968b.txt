@@ -1,0 +1,19 @@
+folder=Business Insights
+method=GET
+url=
+query=Platform=wlw&startDate=2025-07-16&endDate=2026-07-15&score_types={{score_type}}&weekly=true&daily=true&monthly=true&mainBusinessArea={{mainBusinessArea}}
+headers=
+X-User-Id: {{user_1}}
+X-Platform: wlw
+withUserInfo: true
+X-Visable-Token: {{X-Visable-Token}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 19f393ac-4e8d-4588-b406-8df8e45f72f0
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

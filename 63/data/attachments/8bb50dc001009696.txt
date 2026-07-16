@@ -1,0 +1,16 @@
+folder=api/v1
+method=GET
+url=
+query=(no query params)
+headers=
+Accept: application/json
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 3c4b80df-b942-47ad-8839-b5aaa7b4eacc
+Host: {{supplierregistrationbackendbaseurlforgetrequests}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

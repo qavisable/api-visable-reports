@@ -1,0 +1,21 @@
+folder=login-controller
+method=POST
+url=
+query=(no query params)
+headers=
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a5752586-5616-4af8-9211-3b67b109eb52
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "flow": "example",
+  "email": "example",
+  "is_registration": true
+}

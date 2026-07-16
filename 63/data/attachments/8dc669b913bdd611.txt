@@ -1,0 +1,15 @@
+folder=WebsiteLead
+method=GET
+url=
+query=(no query params)
+headers=
+accept: application/vnd.api+json
+user-agent: PostmanRuntime/7.39.1
+cache-control: no-cache
+postman-token: 3d11f4db-2bbf-44b3-b147-8d27e250e662
+host: {{ucl_domain}}
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+body=
+(empty request body)

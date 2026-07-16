@@ -1,0 +1,15 @@
+folder=Membership
+method=GET
+url=
+query=filterParams=example&pager=example
+headers=
+accept: application/vnd.api+json
+user-agent: PostmanRuntime/7.39.1
+cache-control: no-cache
+postman-token: 7b4fd0b1-a470-403b-84d6-330055a8ce94
+host: {{ucl_domain}}
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+body=
+(empty request body)

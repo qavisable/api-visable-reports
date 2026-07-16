@@ -1,0 +1,19 @@
+folder=Conversations
+method=GET
+url=
+query=(no query params)
+headers=
+user-source: EUROPAGES
+Accept-Language: de
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-session-token: ory_st_AMB8x2WTjtlcJpt4fuo4d5NplpwTrvym
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0da96bc7-0897-4789-bc6d-a0ba937a4ae5
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,16 @@
+folder=Shop Import & Onboarding Backend
+method=GET
+url=
+query=siteId=wlw&language=en&categoryId=100004
+headers=
+Authorization: Bearer ory_at_dMKv4Zi93Ovws9SxUw8ZgN42eSRzv8p2N5gkv9kc9O4.FxRie7Q9akrt3t7xv6WfXK4qxH-R7u8OGAlN_qA8U0g
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ebbd573a-ae7d-42d1-8f4f-184c9930ffba
+Host: {{supplieronboardingbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

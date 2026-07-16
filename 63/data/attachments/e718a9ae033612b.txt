@@ -1,0 +1,18 @@
+folder=Support
+method=GET
+url=
+query=topic=ALIBABA
+headers=
+Accept-Language: fr
+User-source: EUROPAGES
+application-source: EP_PLATFORM_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8e90bee9-7e5b-498c-b4c6-a7dcffc76328
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

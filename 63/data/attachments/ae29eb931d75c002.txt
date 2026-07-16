@@ -1,0 +1,20 @@
+folder=product-controller
+method=GET
+url=
+query=company_uuid={{company_uuid}}&search_term={{search_term}}&page={{page}}&size={{size}}
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+x-application-version: {{xApplicationVersion}}
+application-source: {{applicationSource}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 54e6eaef-693d-4ddd-b746-34f9e3354399
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

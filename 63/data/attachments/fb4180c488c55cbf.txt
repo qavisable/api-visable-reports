@@ -1,0 +1,15 @@
+folder=Membership Management (PGS-861)
+method=GET
+url=
+query=(no query params)
+headers=
+Accept: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 6d7af15c-0026-4668-923c-2b33968c69e4
+Host: {{url_sf}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

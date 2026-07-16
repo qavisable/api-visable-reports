@@ -1,0 +1,22 @@
+folder=EP - Lead create and update
+method=POST
+url=
+query=(no query params)
+headers=
+Accept: application/json
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: da2639a7-2d34-43a6-9467-d0a7679ee605
+Host: {{supplierregistrationbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "data": {
+    "platform": "ep",
+    "language": "fr",
+    "ip_address": "192.168.0.1"
+  }
+}

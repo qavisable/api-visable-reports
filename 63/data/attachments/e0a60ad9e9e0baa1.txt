@@ -1,0 +1,20 @@
+folder=ab-test-record-controller
+method=POST
+url=
+query=(no query params)
+headers=
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3ac4260e-ce3e-4c2d-9800-5293038c51bb
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "experimentName": "example",
+  "experimentVariant": "example"
+}

@@ -1,0 +1,29 @@
+folder=Conversations
+method=POST
+url=
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+x-application-reference: MOBILE
+x-application-version: 3.6.3
+x-application-currency: EUR
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+mobile-session-id: ac1ecc45-f5b1-4151-96c6-d992aed06109
+x-session-token: ory_st_AMB8x2WTjtlcJpt4fuo4d5NplpwTrvym
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7934d1f1-6d91-4d73-b713-c9e56d2d0c1e
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+"participantId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc",
+"messageContent":"Postman. Automated API test. Decline message",
+"tags":["not-interested"]
+}

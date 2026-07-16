@@ -1,0 +1,18 @@
+folder=company-controller
+method=GET
+url=
+query=organization_id={{organization_id}}&slug_id={{slug_id}}
+headers=
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 70e6c064-cd64-49ed-a31c-2610e9a67a0c
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,19 @@
+folder=Search
+method=GET
+url=
+query=searchKeyword=cnc&site_code=DE&page=1&sort=distance&location_latitude=52.5161&location_longitude=13.4958&location_radius=250
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: WLW
+Accept-Language: en
+application-source: PURCHASER_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3dbce043-f6d7-467a-8860-481a46528f3a
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

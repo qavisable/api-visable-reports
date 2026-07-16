@@ -1,0 +1,18 @@
+httpStatus=200
+responseTimeMs=114
+responseSize=211241
+headers=
+Date: Thu, 16 Jul 2026 03:14:32 GMT
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Set-Cookie: ab_testing_variants_v2=%7B%221098-recommendation-module-update%22%3A%7B%22name%22%3A%22treatment%22%2C%22dimension%22%3A%22wlwTestGroup10%22%2C%22active%22%3Atrue%2C%22expiry%22%3A1784776472%2C%22splitVersion%22%3A1%7D%2C%22772-quick-responder%22%3A%7B%22name%22%3A%22control%22%2C%22dimension%22%3A%22wlwTestGroup11%22%2C%22active%22%3Atrue%2C%22expiry%22%3A1784776472%2C%22splitVersion%22%3A1%7D%2C%22arise-962-mobile-banner-salt%22%3A%7B%22name%22%3A%22bottom%22%2C%22dimension%22%3A%22wlwTestGroup2%22%2C%22active%22%3Atrue%2C%22expiry%22%3A1784776472%2C%22splitVersion%22%3A0%7D%2C%22fe-769-image-opt%22%3A%7B%22name%22%3A%22control%22%2C%22dimension%22%3A%22wlwTestGroup13%22%2C%22active%22%3Atrue%2C%22expiry%22%3A1784776472%7D%7D; Max-Age=5184000; Path=/
+X-Powered-By: Nuxt
+Content-Encoding: gzip
+
+body=
+(empty response body)

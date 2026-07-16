@@ -1,0 +1,18 @@
+folder=Mobile_Feedback
+method=GET
+url=
+query=(no query params)
+headers=
+Accept-Language: fr
+user-source: WLW
+application-source: PURCHASER_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cf152f07-6eed-4166-b28e-df839aa1c525
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

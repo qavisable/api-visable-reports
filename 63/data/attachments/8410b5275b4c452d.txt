@@ -1,0 +1,17 @@
+folder=WLW Price Compaigns
+method=GET
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b2d8b980-481f-4bcb-bae8-07bd84a10924
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: AWSALBAuthNonce=uCrheLDfB5HrmBgL
+
+body=
+(empty request body)

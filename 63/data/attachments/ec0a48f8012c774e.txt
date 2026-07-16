@@ -1,0 +1,16 @@
+folder=api/v1
+method=GET
+url=
+query=lang=en&query=Biscuits
+headers=
+Accept: application/json
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: fb77958f-9d3b-4c68-8051-fca1e8b13d57
+Host: {{supplierregistrationbackendbaseurlforgetrequests}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

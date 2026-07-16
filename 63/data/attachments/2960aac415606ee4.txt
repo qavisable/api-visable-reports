@@ -1,0 +1,16 @@
+folder=Dashboard smoke flow
+method=GET
+url=
+query=Platform=wlw&startDate=2026-07-06&endDate=2026-07-15
+headers=
+Platform: wlw
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0a6db495-777d-4549-8c1e-04330a084597
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

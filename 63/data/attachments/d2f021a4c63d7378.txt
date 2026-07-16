@@ -1,0 +1,16 @@
+folder=Technical Tests
+method=GET
+url=
+query=(no query params)
+headers=
+X-Forwarded-Auth-User-Profile: {{authHeader}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a61275f4-7756-429c-a693-91988fd39b1e
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

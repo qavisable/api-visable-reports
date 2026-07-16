@@ -1,0 +1,19 @@
+folder=Conversations
+method=GET
+url=
+query=(no query params)
+headers=
+user-source: WLW
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: de
+x-session-token: ory_st_iNNePlICuORtVsIHhcFGsgeHCjYGXquT
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 75cd3818-ac4e-45b0-915a-f746875febd1
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

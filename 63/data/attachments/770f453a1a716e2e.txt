@@ -1,0 +1,20 @@
+httpStatus=200
+responseTimeMs=2553
+responseSize=345148
+headers=
+Date: Thu, 16 Jul 2026 03:14:36 GMT
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+Set-Cookie: ab_testing_variants_v2=%7B%22template%22%3A%7B%22name%22%3A%22treatment%22%2C%22dimension%22%3A%22wlwTestGroup%22%2C%22active%22%3Atrue%2C%22expiry%22%3A1784776476%7D%7D; Max-Age=5184000; Path=/
+X-Powered-By: Nuxt
+Strict-Transport-Security: max-age=31536000
+X-User-Traffic: external
+Content-Encoding: gzip
+
+body=
+(empty response body)

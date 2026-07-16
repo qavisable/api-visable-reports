@@ -1,0 +1,22 @@
+folder=API register, publish, and verify in UI
+method=POST
+url=
+query=(no query params)
+headers=
+Accept: application/json
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 8a53c8e5-ada2-469b-af14-a54704089d36
+Host: {{supplierregistrationbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "data": {
+    "platform": "wlw",
+    "language": "de",
+    "ip_address": "192.168.0.1"
+  }
+}

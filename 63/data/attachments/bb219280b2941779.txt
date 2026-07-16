@@ -1,0 +1,17 @@
+folder=Functional Tests
+method=GET
+url=
+query=supplierId={{rfq_supplierId}}&page=1&pageSize=10
+headers=
+X-Platform: wlw
+X-Forwarded-Auth-User-Profile: {{authHeader}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1e6da073-13bc-4425-bcaa-cd35631d5dc6
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

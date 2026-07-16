@@ -1,0 +1,15 @@
+folder=Visitor profiler
+method=GET
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 844712e6-1229-45c2-9156-a5c154d0009f
+Host: null
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

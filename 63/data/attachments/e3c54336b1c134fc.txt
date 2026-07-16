@@ -1,0 +1,15 @@
+folder=SponsoredBrand
+method=GET
+url=
+query=filter=example&include=example&pager=example&sort=example
+headers=
+accept: application/vnd.api+json
+user-agent: PostmanRuntime/7.39.1
+cache-control: no-cache
+postman-token: 7e0a514f-0c4b-4907-91d2-7b0885873765
+host: {{ucl_domain}}
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+body=
+(empty request body)

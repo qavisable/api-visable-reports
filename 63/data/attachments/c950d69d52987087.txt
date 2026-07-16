@@ -1,0 +1,17 @@
+folder=Shop Import & Onboarding Backend
+method=GET
+url=
+query=supplier_id={{supplier_id}}
+headers=
+Content-Type: application/json
+Authorization: Bearer ory_at_Tih7W7wLC-zY6C1C3YEG1fd4gmRKv_BFnlPFqNGP6w8.cvnegghWzGVcznQK32RYQ8IWpgF2WgYM5fAbU_lXEFc
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b7a7f1d2-b532-4c5c-832c-ccc8a503168c
+Host: {{supplieronboardingbackendbaseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

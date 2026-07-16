@@ -1,0 +1,16 @@
+folder=Technical Tests
+method=POST
+url=
+query=(no query params)
+headers=
+X-Forwarded-Auth-User-Profile: {{authHeader}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 96253cf8-71c1-4c91-b8af-f1fee7714021
+Host: {{baseurl}}
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'files', 'value': '', 'type': 'text'}, {'key': 'request', 'value': '{"supplierId":"00000000-0000-0000-0000-000000000000","message":"\'; DROP TABLE users; --"}', 'type': 'text'}]}
