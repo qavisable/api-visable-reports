@@ -1,0 +1,25 @@
+folder=Technical Tests / login-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+x-api-key: {{apiKey}}
+user-source: WLW
+mobile-session-id: 1dc81017-ec74-4c97-99ca-f1d7bcb30fbd
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 392e7e2b-9181-4b06-bea6-b1b99b011dd8
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 77
+
+body=
+{
+  "email": "example",
+  "first_name": "example",
+  "last_name": "example"
+}

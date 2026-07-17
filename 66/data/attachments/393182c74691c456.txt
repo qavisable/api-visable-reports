@@ -1,0 +1,19 @@
+folder=Endpoint tests / Search
+method=GET
+url=
+query=searchKeyword=cnc&site_code=DE&page=1&user_latitude=53.5511&user_longtitude=9.9937&user_radius=250
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+Accept-Language: en
+application-source: EP_PLATFORM_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3fb00dda-14c7-4df5-98e9-b0b0168b1b6f
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

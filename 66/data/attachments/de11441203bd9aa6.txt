@@ -1,0 +1,21 @@
+httpStatus=404
+responseTimeMs=58
+responseSize=141
+headers=
+Date: Fri, 17 Jul 2026 03:30:21 GMT
+Content-Type: application/problem+json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+
+body=
+(empty response body)

@@ -1,0 +1,21 @@
+folder=Technical Tests / euro-pages-controller
+method=DELETE
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_4vqD7MqdlG52IN9pHS4QilxS5OWYztKI
+application-source: {{applicationSource}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d3c65fe1-6c5e-4800-a150-29811dd67733
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 24
+
+body=
+{
+  "email": "example"
+}

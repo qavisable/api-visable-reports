@@ -1,0 +1,19 @@
+httpStatus=200
+responseTimeMs=97
+responseSize=265829
+headers=
+x-amz-id-2: Fs27GsY5u3K4+56gmYiUUeCbebfMNoTiEDkRKiFzv/xfKZdUC4oOdQYG6dlwmJLhTbh8PTzHOPRl+5rwhzXO87jGltKuyasj
+x-amz-request-id: JKNBZ45WBXE3W8NA
+Date: Fri, 17 Jul 2026 03:30:30 GMT
+Last-Modified: Fri, 17 Jul 2026 02:27:38 GMT
+ETag: "89ed2e94615679961bd62dc25ce846b1"
+x-amz-server-side-encryption: AES256
+Content-Disposition: attachment; filename="2025-12-01_2025-12-30_visitors_ucuj.csv"
+x-amz-version-id: q7cJ29A_akvvoy_SQZHC0PGQ2XllZpTc
+Accept-Ranges: bytes
+Content-Type: text/csv
+Content-Length: 265829
+Server: AmazonS3
+
+body=
+(empty response body)

@@ -1,0 +1,30 @@
+folder=Business Scenarios Tests / Account
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e49638c5-00c2-47d1-b6a0-bd25bef5791a
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "Test Account For Contact 20260717052129",
+  "billing_address_street": "Bahnhofstrasse 100",
+  "billing_address_city": "Hamburg",
+  "billing_address_postalcode": "20354",
+  "billing_address_country": "DE",
+  "email": [
+    {
+      "email_address": "company@example.com",
+      "primary_address": true,
+      "opt_out": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+folder=Business Scenarios Tests / Tasks
+method=PUT
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 333a69c8-8976-467e-a1d8-850580d20031
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "QA Postman Task 1784265688586-changed",
+  "modified_user_id": "{{testAssignUserId}}",
+  "assigned_user_id": "{{testAssignUserId}}",
+  "priority": "Medium"
+}

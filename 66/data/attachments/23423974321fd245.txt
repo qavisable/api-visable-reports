@@ -1,0 +1,20 @@
+folder=Technical Tests / euro-pages-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+application-source: {{applicationSource}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e11e01cd-df29-4b96-8b94-88499d5dfa05
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 24
+
+body=
+{
+  "email": "example"
+}

@@ -1,0 +1,17 @@
+folder=Business Scenarios Tests / Platform Profile
+method=PUT
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cad2f6ab-3466-489d-b6c2-121a5eb81269
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{"website" : "https://example.com/path?param1=value+with+spaces&param2=special%20characters%26symbols"}

@@ -1,0 +1,22 @@
+folder=Endpoint tests / User settings
+method=GET
+url=
+query=uuid=32d6052e-9254-42af-8157-fe5d247d5e69
+headers=
+accept: */*
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+x-application-version: 3.6.3
+Authorization: Bearer ory_st_IBHsOypRvqoUO8r42qEoERB57CqJNCa7
+x-session-token: ory_st_CNTeB0tLlIkWwIgf43tuXdtvCOE9VZlG
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-application-currency: EUR
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: d47a065a-3085-4950-a5a4-2c0d5632509c
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

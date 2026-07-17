@@ -1,0 +1,73 @@
+folder=Business Scenarios Tests / Quote
+method=POST
+url=
+query=(no query params)
+headers=
+Host: crmtest.visable.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: de,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/json
+X-Requested-With: XMLHttpRequest
+Origin: https://crmtest.visable.com
+Connection: keep-alive
+Referer: https://crmtest.visable.com/
+Cookie: __hstc=93275394.ba817784da2b8b0b48acf20f5cd0755f.1687881661808.1715588820162.1717053480224.16; hubspotutk=ba817784da2b8b0b48acf20f5cd0755f; _ga_3V0FW6D4KY=GS1.1.1717066175.5.0.1717066175.0.0.2027685754; _ga=GA1.1.1381818508.1714988500; __hssrc=1; PHPSESSID=b0641b28-9fa7-4dc5-88fd-6fde0eb936d3; AWSALBAuthNonce=rrtkLq03MVvj7nZa; AWSELBAuthSessionCookie-0=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...(truncated)
+
+body=
+{
+    "name": "QA Postman quote 20260717-052128",
+    "description": "",
+    "product_bundles": {
+        "create": [
+            {
+                "name": "Product Bundle",
+                "products": {
+                    "create": [
+                        {
+                            "name": "wlw AT Sponsored Brands - D",
+                            "description": "",
+                            "mft_part_num": "760-2204",
+                            "product_template_id": "a5c78772-75a5-11ef-85d5-0a58a9feac02",
+                            "quantity": "00.0",
+                            "price": "0,00",
+                            "target_market": "^g_ch^",
+                            "price_campaign": null,
+                            "currency_id": "-99",
+                            "discount_select": false,
+                            "discount_amount": null,
+                            "runtime_category":  "individual_free_runtime",
+                            "sales_campaign": null,
+                            "service_fee": null,
+                            "service_start": "2027-09-19",
+                            "service_end": null,
+                            "expiry_date": null,
+                            "topranking_reservation_id": null,
+                            "topranking_category_id": null,
+                            "topranking_category_text": null,
+                            "account_id": "911b2140-02d6-11ef-9134-022a3268d79b"
+                        }
+                    ]
+                },
+                "bundle_stage": "Draft",
+                "default_group": true
+            }
+        ]
+    },
+    "billing_account_id": "911b2140-02d6-11ef-9134-022a3268d79b",
+    "assigned_user_id": "742f8804-e30a-11ef-af7b-0a58a9feac02",
+    "assigned_user_name": "lossenko",
+    "quote_stage": "Negotiation",
+    "order_type": "new_business",
+    "order_stage": "Pending",
+    "date_quote_expected_closed": "2024-10-05",
+    "entered_iban": "nil",
+    "payment_method": "bank_transfer",
+    "payment_interval": "yearly",
+    "currency_id": "-99",
+    "show_line_nums": true,
+    "quote_type": "Quote",
+    "purchase_order_num": "",
+    "invoice_format": ""
+}
