@@ -1,0 +1,32 @@
+folder=Business Scenarios Tests / Account
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: db340623-1103-4e75-8385-4990013526d1
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "Full Test Account 20260717071527",
+  "billing_address_street": "",
+  "billing_address_city": "",
+  "billing_address_postalcode": "",
+  "billing_address_country": "",
+  "telephone_nr": "{{accountPhone}}",
+  "language": "",
+  "email1": "",
+  "website": "",
+  "vat": "DE123456789",
+  "description": "Test account created via Postman with all fields",
+  "industry": "Technology",
+  "employees": 50,
+  "annual_revenue": "1000000"
+}

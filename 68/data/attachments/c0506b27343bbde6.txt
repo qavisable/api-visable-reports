@@ -1,0 +1,20 @@
+folder=Technical Tests / search-controller
+method=GET
+url=
+query=country=%27%20OR%201=1%20--&page={{page}}&page_size={{page_size}}
+headers=
+Authorization: Bearer ory_st_0GFlbV1rsUx7zA3OWMoVtQuEtPsaS1kI
+x-api-key: {{apiKey}}
+mobile-session-id: 1dc81017-ec74-4c97-99ca-f1d7bcb30fbd
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ec2dc43c-8ffc-4e3b-9049-a76db3c3db29
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,17 @@
+folder=Business Scenarios Tests / WLW Price Compaigns
+method=GET
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 423901c5-c370-4988-b273-aa21cbb2840a
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: AWSALBAuthNonce=nZrcM3AUwgmkZRd4
+
+body=
+(empty request body)

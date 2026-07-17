@@ -1,0 +1,23 @@
+folder=Business Scenarios Tests / Cases
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6c423ab2-d478-4050-b4f7-91cf2ae393e3
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "QA Postman Case 20260717-071528",
+  "type": "General",
+  "status": "New",
+  "priority": "P3",
+  "description": "Test case created by Postman automation"
+}

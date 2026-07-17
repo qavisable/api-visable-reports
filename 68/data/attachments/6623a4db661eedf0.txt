@@ -1,0 +1,19 @@
+folder=Technical Tests / company-controller
+method=GET
+url=
+query=searchTerm={{searchTerm}}&includeNonSimilarItem={{includeNonSimilarItem}}&page={{page}}&size={{size}}
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 02d875cd-6dca-41a9-a3b5-8e8d36664ca4
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

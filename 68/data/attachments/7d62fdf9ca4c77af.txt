@@ -1,0 +1,13 @@
+httpStatus=400
+responseTimeMs=38
+responseSize=435
+headers=
+Date: Fri, 17 Jul 2026 06:55:11 GMT
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Content-Language: en
+
+body=
+(empty response body)

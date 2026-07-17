@@ -1,0 +1,25 @@
+folder=Endpoint tests / Visitor profiler
+method=GET
+url=
+query=start_date=2025-12-01&end_date=2025-12-30
+headers=
+Content-Type: application/json
+mobile-request: true
+source: mobile
+x-application-reference: MOBILE
+x-application-version: 3.0.0
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: de
+x-session-token: ory_st_26NdQVFVvyt0g8s9XQ6dz7Mb9shYkZiT
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 40ab2314-a190-4fe2-86df-0af51d7354f0
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
