@@ -1,0 +1,25 @@
+folder=Endpoint tests / Mobile_Feedback
+method=POST
+url=
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+source: mobile
+x-application-reference: MOBILE
+x-application-version: 1.1.0
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Content-Length: 578
+Accept-Language: en
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f980cb6c-f772-48ce-9770-f3fe11e72392
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'email', 'value': 'visableapp@gmail.com', 'type': 'text'}, {'key': 'subject', 'value': 'The Experience of the app', 'type': 'text'}, {'key': 'message', 'value': 'Postman 2026-07-18T03:12:00.716Z automated test', 'type': 'text'}, {'key': 'userConsent', 'value': 'true', 'type': 'text'}]}

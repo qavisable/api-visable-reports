@@ -1,0 +1,20 @@
+folder=Endpoint tests / Company
+method=GET
+url=
+query=company_uuid=00505682-f25b-1ee9-bd91-d259d4c4d7fb&search_term=AlNiCo%20Special%20Adhesive%20Systems%20(%22Red%20Series%22)
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-application-version: {{app_ver
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+Accept-Language: de
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 205de04e-7910-4597-9d2e-a9a826c7e461
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

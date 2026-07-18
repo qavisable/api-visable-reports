@@ -1,0 +1,26 @@
+folder=Business Scenarios Tests / Account
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2de0d3ff-7216-4b67-bcc6-2e7b4d897feb
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+      "name": "Test Account 1784345639",
+      "billing_address_street": "Test Street 123",
+      "billing_address_city": "Hamburg",
+      "billing_address_postalcode": "20095",
+      "billing_address_country": "DE",
+      "website": "https://test-account.example.com",
+      "sap_enabled": false,
+      "hubspot_enabled": false
+  }

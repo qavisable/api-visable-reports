@@ -1,0 +1,17 @@
+folder=Technical Tests / feedback-controller
+method=POST
+url=
+query=(no query params)
+headers=
+application-source: {{applicationSource}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e13818e7-1e11-4199-824d-50f0b2c75662
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 345
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'feedbackDTO', 'value': '{"email": "example", "message": "example", "subject": "example"}', 'type': 'text'}, {'key': 'files', 'value': '["example"]', 'type': 'text'}]}

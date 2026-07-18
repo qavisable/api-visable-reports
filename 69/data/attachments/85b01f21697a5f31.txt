@@ -1,0 +1,24 @@
+folder=Technical Tests / feedback-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+application-source: {{applicationSource}}
+x-api-key: {{apiKey}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 951b9706-4176-4b3c-88b6-e8805e119a92
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 72
+
+body=
+{
+  "email": "example",
+  "message": "example",
+  "subject": "example"
+}

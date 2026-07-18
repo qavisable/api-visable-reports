@@ -1,0 +1,19 @@
+folder=Technical Tests / supplier-visitors-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_g9Mf6KwIPftJu6jq4ZWiftX5kS6Y25SH
+x-api-key: {{apiKey}}
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f30972d4-7afc-43cd-b1cb-5c994d93d486
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

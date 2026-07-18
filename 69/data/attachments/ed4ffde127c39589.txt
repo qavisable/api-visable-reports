@@ -1,0 +1,26 @@
+folder=Technical Tests / purchaser-user-setting-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+Accept-Language: {{acceptLanguage}}
+application-source: {{applicationSource}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 798fb933-7d7d-4e32-b13e-70879429f091
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 68
+
+body=
+{
+  "isActive": true,
+  "isSupplier": true,
+  "notifyByPush": true
+}

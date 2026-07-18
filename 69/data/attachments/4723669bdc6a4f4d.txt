@@ -1,0 +1,16 @@
+folder=Business Scenarios Tests / Tasks
+method=GET
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fd50fd11-f110-4aed-8c06-87a87ee34c5d
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,33 @@
+folder=Technical Tests / ai-company-search-controller
+method=POST
+url=
+query=(no query params)
+headers=
+mobile-session-id: 1dc81017-ec74-4c97-99ca-f1d7bcb30fbd
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9d97e71f-0312-40ef-b79b-65ddda9ca434
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 262
+
+body=
+{
+  "companyList": [
+    {
+      "companyId": "example",
+      "rank": "example",
+      "productList": []
+    }
+  ],
+  "qpInfo": {
+    "productQpKeywords": "example",
+    "queryProduct": "example",
+    "qpListData": "example"
+  },
+  "verifiedManufactory": true
+}

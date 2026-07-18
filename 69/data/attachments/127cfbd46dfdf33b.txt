@@ -1,0 +1,19 @@
+folder=Technical Tests / rfq-controller
+method=POST
+url=
+query=(no query params)
+headers=
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+mobile-session-id: 1dc81017-ec74-4c97-99ca-f1d7bcb30fbd
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6d0d7f0f-5283-449d-b6b7-39c499a6e763
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 354
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'tenderRequest', 'value': '{"title": "example", "description": "example", "keywords": ["example"]}', 'type': 'text'}, {'key': 'files', 'value': '["example"]', 'type': 'text'}]}

@@ -1,0 +1,18 @@
+folder=Endpoint tests / Mobile_Feedback
+method=GET
+url=
+query=(no query params)
+headers=
+Accept-Language: de
+user-source: EUROPAGES
+application-source: EP_PLATFORM_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b0ee8d39-9507-439e-bccd-56e67bb607ba
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

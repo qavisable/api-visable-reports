@@ -1,0 +1,17 @@
+folder=Technical Tests / search-controller
+method=GET
+url=
+query=keyword=cnc
+headers=
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: acc3b25f-24ad-420a-94e3-899d81282eaf
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

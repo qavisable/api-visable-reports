@@ -1,0 +1,17 @@
+folder=Functional Tests
+method=POST
+url=
+query=(no query params)
+headers=
+X-Forwarded-Auth-User-Profile: id=1df26612-5d0c-58fd-a170-77acb028b4c7;is_admin=false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e0a6bb77-a496-4d51-8746-18cd45c7e87d
+Host: rfq-backend.internal.wlw-1.production.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 354
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'request', 'value': '{"supplierId":"1acad524-bb62-4d4d-bb81-e8ecb1b7f254","message":"We can supply this product."}', 'type': 'text'}, {'key': '', 'value': '', 'type': 'text'}]}

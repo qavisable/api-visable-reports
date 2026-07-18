@@ -1,0 +1,19 @@
+httpStatus=200
+responseTimeMs=62
+responseSize=52391
+headers=
+x-amz-id-2: 1uMadjDq6qM7A+NgTiiObk7pUSrbZFDweKpbyyrtMAqdU7yU/pEKNAzMACciOTvyij8YrYs09Fb8HzNUASWswxKMNqPLZ6Cz
+x-amz-request-id: AFCQFYW5JWWQ0NG5
+Date: Sat, 18 Jul 2026 03:13:27 GMT
+Last-Modified: Sat, 18 Jul 2026 03:13:25 GMT
+ETag: "e0a8c3d3316966865eb68e94ee7929c8"
+x-amz-server-side-encryption: AES256
+Content-Disposition: attachment; filename="2025-12-01_2025-12-30_visitors_khvs.csv"
+x-amz-version-id: yIaXE2mfmggVX2Ym1c_tQ0TvOg1K13UC
+Accept-Ranges: bytes
+Content-Type: text/csv
+Content-Length: 52391
+Server: AmazonS3
+
+body=
+(empty response body)

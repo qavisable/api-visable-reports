@@ -1,0 +1,15 @@
+folder=Endpoint tests / Visitor profiler
+method=GET
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ee2def76-aa4d-4922-90d3-8cb1446794cb
+Host: null
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
