@@ -1,0 +1,17 @@
+folder=Technical Tests / conversation-controller
+method=GET
+url=
+query=url=%27%20OR%201=1%20--&organizationId={{organizationId}}
+headers=
+Authorization: Bearer ory_st_9qSbNFWyItoe68UVEDdPpS5AAxv9ydGB
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7a990c6e-ea64-4847-b58b-7f9f47583b0c
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

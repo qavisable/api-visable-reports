@@ -1,0 +1,17 @@
+folder=Business Scenarios Tests / Account
+method=GET
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8f151159-c376-45a2-8956-c8d518080155
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: AWSALBAuthNonce=dJeNwW8QxfP5a3bp
+
+body=
+(empty request body)

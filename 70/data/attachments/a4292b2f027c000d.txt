@@ -1,0 +1,20 @@
+folder=Technical Tests / product-controller
+method=GET
+url=
+query=company_uuid=%27%20OR%201=1%20--&search_term={{search_term}}&page={{page}}&size={{size}}
+headers=
+Authorization: Bearer ory_st_9qSbNFWyItoe68UVEDdPpS5AAxv9ydGB
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+x-application-version: {{xApplicationVersion}}
+application-source: {{applicationSource}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 67aa65d0-07f5-4be0-acaf-62dc49359e96
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,19 @@
+folder=Business Scenarios Tests / Products
+method=PUT
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 397abe87-e7f5-46ea-a6d9-37c5c18738de
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+ "expiry_date" : "2027-12-30"
+}

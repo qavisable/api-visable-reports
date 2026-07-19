@@ -1,0 +1,26 @@
+folder=Business Scenarios Tests / Meetings
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 572caea0-c36f-4b80-94bf-dd171b60d314
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "QA Postman Meeting 20260719-033053",
+  "deleted": false,
+  "status": "Planned",
+  "date_start": "2026-07-19T03:30:53",
+  "duration_hours": 0,
+  "duration_minutes": "30",
+  "location": "Postman Test Location",
+  "assigned_user_id": "5a587cce-2223-11e8-8691-0050568a0df7"
+}

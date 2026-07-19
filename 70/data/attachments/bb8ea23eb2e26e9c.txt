@@ -1,0 +1,32 @@
+folder=Endpoint tests / Company
+method=POST
+url=
+query=(no query params)
+headers=
+application-source: PURCHASER_APP
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: WLW
+Accept-Language: de
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 917b7095-ff6d-478c-8ec1-9bfee46989de
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 667
+
+body=
+{
+  "redirect_link": "https://www.europages.de/de/firma/visable-gmbh-20041664/produkte/wlw-ihr-firmenprofil-fuer-online-sichtbarkeit-in-der-dach-region-35325929",
+  "source": "EP_PLATFORM_APP",
+  "medium": "product_share",
+  "route": "PRODUCT_PROFILE",
+  "data": "a698320f-08b8-5aa1-b330-24441517ccba",
+  "social": {
+    "socialTitle": "wlw - Ihr Firmenprofil für Online-Sichtbarkeit in der DACH Region",
+    "socialDescription": "Auf wlw präsentieren Sie sich Einkaufs-Entscheidern in der nachfragestarken DACH-Region.",
+    "socialImageLink": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/47b7ff43-6ca2-11ef-be9a-0a58a9feac02.jpeg"
+  }
+}

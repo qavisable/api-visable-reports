@@ -1,0 +1,19 @@
+folder=Endpoint tests / Search
+method=GET
+url=
+query=searchKeyword=bague
+headers=
+accept: */*
+Accept-Language: fr
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+application-source: EP_PLATFORM_APP
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 967b3e7d-fd0f-4020-8bb9-f701ec9ab5fb
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

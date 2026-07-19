@@ -1,0 +1,22 @@
+folder=Business Scenarios Tests / Contacts
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 41578779-f829-4030-a9b1-ef843eee7eb8
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+          "first_name": "Purchaser",
+          "last_name": "Contact",
+         "email1": "purchaser@example.com",
+          "account_name": ""
+      }
