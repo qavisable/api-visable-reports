@@ -1,0 +1,17 @@
+folder=Technical Tests / conversation-controller
+method=GET
+url=
+query=organizationId={{organizationId}}
+headers=
+Authorization: Bearer ory_st_mywFsrdq9Vc50pIrLCHpDXPLePUxSlgK
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8c3180c6-4692-4462-830f-b572047c3bc9
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

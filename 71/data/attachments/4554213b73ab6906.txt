@@ -1,0 +1,18 @@
+folder=Endpoint tests / Support
+method=GET
+url=
+query=(no query params)
+headers=
+Accept-Language: fr
+application-source: PURCHASER_APP
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b61c9fc4-dd03-4d7e-8137-7fde9e91c96a
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,17 @@
+folder=Technical Tests / conversation-controller
+method=GET
+url=
+query=messageListRequest={{messageListRequest}}
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 77d61271-a5cc-4c37-91f4-384a2aadae50
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

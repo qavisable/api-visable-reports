@@ -1,0 +1,23 @@
+folder=Technical Tests / conversation-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 052693c0-7659-4f34-8c8e-46000c9e81b2
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 68
+
+body=
+{
+  "conversationTags": [
+    "example"
+  ],
+  "userId": "example"
+}

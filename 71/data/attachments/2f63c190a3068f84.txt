@@ -1,0 +1,19 @@
+folder=Endpoint tests / Search
+method=GET
+url=
+query=searchKeyword=cnc&site_code=DE&page=1&sort=distance&location_latitude=52.5161&location_longitude=13.4958&location_radius=250
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: WLW
+Accept-Language: en
+application-source: PURCHASER_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8cc29779-3d54-4601-b7b0-f99a7b8fa388
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

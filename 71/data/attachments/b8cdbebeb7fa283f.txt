@@ -1,0 +1,19 @@
+httpStatus=200
+responseTimeMs=68
+responseSize=52391
+headers=
+x-amz-id-2: g0fN20O9oH+f+JE+KOAHHjtpUU+oxRgfU3YazJMwU/7GPsRS26qmO/xCHLa5qPmoQf6rKfD0N+E=
+x-amz-request-id: 80FN38GKPQDZG2VS
+Date: Mon, 20 Jul 2026 03:15:35 GMT
+Last-Modified: Mon, 20 Jul 2026 03:15:33 GMT
+ETag: "e0a8c3d3316966865eb68e94ee7929c8"
+x-amz-server-side-encryption: AES256
+Content-Disposition: attachment; filename="2025-12-01_2025-12-30_visitors_3l4k.csv"
+x-amz-version-id: EvqWDFzoQYckBkdBVDM2oSv0eVGM2pXK
+Accept-Ranges: bytes
+Content-Type: text/csv
+Content-Length: 52391
+Server: AmazonS3
+
+body=
+(empty response body)

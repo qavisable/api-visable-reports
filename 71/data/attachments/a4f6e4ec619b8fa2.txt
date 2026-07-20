@@ -1,0 +1,18 @@
+folder=Technical Tests / search-controller
+method=GET
+url=
+query=searchRequest={{searchRequest}}
+headers=
+user-source: WLW
+application-source: {{applicationSource}}
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f6dae391-3dd2-4413-b39a-439dc518e963
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

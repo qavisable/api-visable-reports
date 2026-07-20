@@ -1,0 +1,32 @@
+folder=Endpoints Tests
+method=PUT
+url=
+query=(no query params)
+headers=
+X-Visable-Auth-Token: SRJJqyrbdheOQiT8eNqYzgtA4jjMZrbiAyvsYl++oRc
+OAuth-Token: 
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 56bd96ea-ff65-49ef-8f4a-d79d9d7b47d4
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+	"companies": [
+		{
+			"id": "cd27de7b-47db-458b-a5c3-5174690dcf0d",
+			"wlw_connect_received": 42,
+			"wlw_connect_answered": 23
+		},
+		{
+			"id": "cd27de7b-47db-458b-a5c3-5174690dcf0d",
+			"wlw_connect_received": 17,
+			"wlw_connect_answered": 7
+		}		
+	]
+}

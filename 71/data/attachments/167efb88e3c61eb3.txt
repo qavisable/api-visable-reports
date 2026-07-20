@@ -1,0 +1,19 @@
+folder=Endpoint tests / Conversations
+method=GET
+url=
+query=(no query params)
+headers=
+user-source: WLW
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: de
+x-session-token: ory_st_mywFsrdq9Vc50pIrLCHpDXPLePUxSlgK
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 703904f1-efe5-4b89-a76d-5e1755009162
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,26 @@
+folder=Business Scenarios Tests / Contacts
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 411254a6-e9b0-475c-b9c1-6d3d46991465
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "first_name": "Test",
+  "last_name": "Contact_1784518561405",
+  "email1": "test.contact_1784518561405@example.com",
+  "account_id": "",
+  "preferred_language": "en",
+  "hubspot_enabled": true,
+  "primary_address_city": "Hamburg",
+  "primary_address_country": "DE"
+}

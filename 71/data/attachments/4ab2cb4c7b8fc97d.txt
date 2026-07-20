@@ -1,0 +1,19 @@
+folder=Technical Tests / user-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_mywFsrdq9Vc50pIrLCHpDXPLePUxSlgK
+x-api-key: {{apiKey}}
+application_source: {{applicationSource}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f93fd989-4e90-4700-b072-fecb6802a558
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

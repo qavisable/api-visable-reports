@@ -1,0 +1,18 @@
+folder=Technical Tests / rfq-marketing-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_mywFsrdq9Vc50pIrLCHpDXPLePUxSlgK
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 760cf0fa-9a2d-492e-ae83-c7b06a2bf717
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)

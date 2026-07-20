@@ -1,0 +1,25 @@
+folder=Endpoint tests
+method=DELETE
+url=
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+x-application-reference: MOBILE
+x-application-version: 3.7.0
+x-application-currency: EUR
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+mobile-session-id: 13ab577f-a7fe-44a9-8ca6-9a8d996503ec
+x-session-token: ory_st_EHLx7EPNUQVBNF7bZ7l5Vw3bPDQO1F0y
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a6b21b55-fc10-497b-9b9c-b036c38c34b7
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

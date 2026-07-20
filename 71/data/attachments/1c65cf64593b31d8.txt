@@ -1,0 +1,19 @@
+folder=Technical Tests / purchaser-user-setting-controller
+method=GET
+url=
+query=id={{id}}&uuid=
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+application-source: {{applicationSource}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a1fec79f-7dc8-468f-9544-f355250ce9b0
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

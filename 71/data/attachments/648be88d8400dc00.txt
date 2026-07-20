@@ -1,0 +1,16 @@
+folder=Technical Tests / trending-products-controller
+method=POST
+url=
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dbeed0ce-d48e-4869-ab51-2b95892f1dc4
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)

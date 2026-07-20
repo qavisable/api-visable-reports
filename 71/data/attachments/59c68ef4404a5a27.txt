@@ -1,0 +1,20 @@
+folder=Technical Tests / search-controller
+method=GET
+url=
+query=country={{country}}
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+x-api-key: {{apiKey}}
+mobile-session-id: 1dc81017-ec74-4c97-99ca-f1d7bcb30fbd
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6b5f9c8d-c978-448b-9da5-d2272e3ef455
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

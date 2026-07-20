@@ -1,0 +1,27 @@
+folder=Endpoints Tests
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+Authorization: 
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a7278c92-0134-455a-ba25-1c092cfd6873
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+    "event_source": "insomnia@localhost",
+    "event_type": "paid_media_lead",
+    "external_system": "hubspot",
+    "external_id": "220212310907",
+    "mode": "synchronous",
+    "direction": "inbound",
+    "data": ""
+}

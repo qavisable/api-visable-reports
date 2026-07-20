@@ -1,0 +1,25 @@
+folder=Technical Tests / dynamic-links-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_mywFsrdq9Vc50pIrLCHpDXPLePUxSlgK
+x-api-key: {{apiKey}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 463d0131-b8fa-4036-88c0-24871f975625
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 80
+
+body=
+{
+  "route": "CONVERSATION",
+  "data": "example",
+  "redirect_link": "example"
+}

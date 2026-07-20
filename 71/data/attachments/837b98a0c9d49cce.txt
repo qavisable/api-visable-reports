@@ -1,0 +1,19 @@
+folder=Technical Tests / supplier-visitors-controller
+method=GET
+url=
+query=group_by=%27%20OR%201=1%20--&start_date=&end_date=&pageIndex={{pageIndex}}&itemsPerPage={{itemsPerPage}}&location={{location}}&radius={{radius}}&types={{types}}&countries={{countries}}&dates={{dates}}
+headers=
+Authorization: Bearer ory_st_mywFsrdq9Vc50pIrLCHpDXPLePUxSlgK
+x-api-key: {{apiKey}}
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: db9df4dc-e2c5-42c6-9852-e1cc8d080342
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

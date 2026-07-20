@@ -1,0 +1,19 @@
+folder=Technical Tests / categories-controller
+method=GET
+url=
+query=user_setting_id=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_mywFsrdq9Vc50pIrLCHpDXPLePUxSlgK
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cdc05a0a-2a14-4752-9898-a1d98b5be0ae
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

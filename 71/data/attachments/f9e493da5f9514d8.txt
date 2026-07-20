@@ -1,0 +1,19 @@
+folder=Business Scenarios Tests / Account
+method=PUT
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 72bc4112-2c7c-4e80-804d-86c1e053f279
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+          "enabled_for_sales": true
+      }
