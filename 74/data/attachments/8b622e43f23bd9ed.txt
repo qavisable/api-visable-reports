@@ -1,0 +1,24 @@
+folder=Business Scenarios Tests / Lead
+method=POST
+url=
+query=(no query params)
+headers=
+sec-ch-ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Content-Type: application/json
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+host: crmtest.visable.com
+X-Visable-Bypass-Token: 
+Cache-Control: no-cache
+Postman-Token: 83fd2fc4-8333-422a-ad41-4fbc9629aa89
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{"deleted":false,"salutation":"female","do_not_call":false,"converted":false,"status":"New","dp_business_purpose":[],"preferred_language":"en","mkto_sync":false,"market_interest_prediction_score":"","mykit_id":"","turnover_size":"unknown","s_id":"","manually_assign_user":false,"gtc_accepted":false,"visable_business_process_group":"","preferred_timezone":"","preferred_locale":"","hubspot_enabled":false,"is_european_company":true,"cs_common_score":"","assigned_user_id":"01dc9246-1772-11eb-8c15-00505682779b","is_dach":true,"lead_source":"free_listing","primary_address_country":"DE","country_code_office":"+49","country_code":"+49","country_code_mobile":"","country_code_fax":"","supplier_type":"","employee_count":"","full_name":"Mrs CreateLead ViaAutomation","first_name":"CreateLead","last_name":"ViaAutomation","account_name":"ViaAutomation","primary_address_street":"Bahnhofstrasse 1001","email":[{"email_address":"leadViaAutomation@example.com","primary_address":true,"opt_out":false}],"telephone_nr_office":"07567465610","primary_address_postalcode":"20354","email1":"leadViaAutomation@example.com","primary_address_city":"Hamburg","telephone_nr":"3465374643"}

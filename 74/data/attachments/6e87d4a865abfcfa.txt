@@ -1,0 +1,22 @@
+folder=Business Scenarios Tests / Feedback
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7d47816a-d214-44c0-897f-b4a4fef680ff
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+    "name" : "whatever",
+    "account_id": "02d41b10-e073-11ee-81ce-5a3fda81d038",
+    "csat_sentiment" : "unhappy",
+    "description": "nothing specific just a test"
+}

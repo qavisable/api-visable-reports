@@ -1,0 +1,17 @@
+folder=Technical Tests
+method=GET
+url=
+query=supplierId=1acad524-bb62-4d4d-bb81-e8ecb1b7f254
+headers=
+X-Platform: web
+X-Forwarded-Auth-User-Profile: id=expired;is_admin=false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3b06a17a-5881-4258-8347-209d3c0b3faa
+Host: rfq-backend.internal.wlw-1.production.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

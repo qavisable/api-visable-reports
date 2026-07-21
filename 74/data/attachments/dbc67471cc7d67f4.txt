@@ -1,0 +1,17 @@
+folder=Technical Tests
+method=GET
+url=
+query=supplierId=1acad524-bb62-4d4d-bb81-e8ecb1b7f254&page=1&pageSize=10&platform=wlw
+headers=
+X-Platform: wlw
+X-Forwarded-Auth-User-Profile: id=1df26612-5d0c-58fd-a170-77acb028b4c7;is_admin=false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: bdb2b881-0c73-4b43-9ae6-385e3f3a8f9f
+Host: rfq-backend.internal.wlw-1.production.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

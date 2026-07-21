@@ -1,0 +1,19 @@
+httpStatus=200
+responseTimeMs=120
+responseSize=265829
+headers=
+x-amz-id-2: cmiXmdF/U/eJENpC3Cs9JjdIH1sXpBEVBjX/9STbWcx+oVykLd04xvidBEVqjIySHQEaLfeW/ck=
+x-amz-request-id: 0TEV863X8NEXFJD4
+Date: Tue, 21 Jul 2026 06:09:28 GMT
+Last-Modified: Tue, 21 Jul 2026 03:14:44 GMT
+ETag: "89ed2e94615679961bd62dc25ce846b1"
+x-amz-server-side-encryption: AES256
+Content-Disposition: attachment; filename="2025-12-01_2025-12-30_visitors_rsbf.csv"
+x-amz-version-id: tAjEFCnR26EKfZTd6kBHw2T9_y3dg9kJ
+Accept-Ranges: bytes
+Content-Type: text/csv
+Content-Length: 265829
+Server: AmazonS3
+
+body=
+(empty response body)
