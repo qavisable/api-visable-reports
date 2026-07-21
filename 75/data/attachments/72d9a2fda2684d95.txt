@@ -1,0 +1,18 @@
+folder=Endpoint tests / Homepage, products
+method=GET
+url=
+query=user_setting_id=1ee6c136-d748-4454-b55e-12f1018d1307
+headers=
+accept: */*
+Accept-Language: en
+user-source: WLW
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: a3b622f7-07af-4d66-9bf0-c418e4f3d0bd
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

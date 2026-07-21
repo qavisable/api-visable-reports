@@ -1,0 +1,39 @@
+folder=Business Scenarios Tests / Lead
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0d2d60e4-0388-47d4-b60b-2be2043af5c3
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "modules": {
+    "Contacts": {
+      "first_name": "Lead_1784620212138",
+      "last_name": "ConversionTest",
+      "preferred_language": "en",
+      "email": [
+        {
+          "email_address": "lead_1784620212138@example.com",
+          "primary_address": true,
+          "opt_out": false
+        }
+      ]
+    },
+    "Accounts": {
+      "name": "Company_1784620212138",
+      "billing_address_street": "Bahnhofstrasse 1001",
+      "billing_address_city": "Hamburg",
+      "billing_address_postalcode": "20354",
+      "billing_address_country": "DE"
+    }
+  }
+}

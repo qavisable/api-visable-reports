@@ -1,0 +1,17 @@
+folder=Technical Tests / inside-business-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_JfiD9sHrpf31Ff1gUpwGpMXIzcw5xFom
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2be4039a-58ae-48e7-bd00-577b0422e99c
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

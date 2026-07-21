@@ -1,0 +1,21 @@
+folder=Endpoint tests / Homepage, products
+method=PUT
+url=
+query=user_setting_id=1ee6c136-d748-4454-b55e-12f1018d1307
+headers=
+Accept-Language: en
+Content-Type: application/json
+Authorization: Bearer ory_at_7tImkdSZ1ftS_96LCmx0LN7bRvReSsIDP6F8mCQM8Yc.L3yOu_6W-34wyPwbkSsGW-t8yp-7e2e4IwY3eLZN5qg
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: faefccbf-a97d-4a47-9f58-44d92f4781c1
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 48
+
+body=
+{     "category_ids":["11", "19", "999999999"] }

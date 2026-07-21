@@ -1,0 +1,20 @@
+folder=Business Scenarios Tests / Platform Profile
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Auth-Token: OoBRUhKkj6nRO8Cafh+Gr54Yq62vKG9U3IqI/Ba0e1c
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: baae9e6c-173e-4139-b645-a19d80b2860f
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+          "platform_types": ["ep"]
+      }

@@ -1,0 +1,20 @@
+folder=Technical Tests / company-controller
+method=GET
+url=
+query=organization_id={{organization_id}}&slug_id={{slug_id}}
+headers=
+Authorization: Bearer ory_st_JfiD9sHrpf31Ff1gUpwGpMXIzcw5xFom
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+mobile-session-id: 1ee6c136-d748-4454-b55e-12f1018d1307
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f0d79512-3648-40f1-8571-93d473ad3178
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

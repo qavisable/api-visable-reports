@@ -1,0 +1,22 @@
+folder=Technical Tests / product-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+user-source: WLW
+x-application-currency: {{xApplicationCurrency}}
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+mobile-session-id: 1ee6c136-d748-4454-b55e-12f1018d1307
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2f3a0b3b-e97b-41a7-be95-7ab0f13ffdb8
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,19 @@
+folder=Technical Tests / search-term-controller
+method=POST
+url=
+query=searchKeyword=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_JfiD9sHrpf31Ff1gUpwGpMXIzcw5xFom
+mobile-session-id: 1ee6c136-d748-4454-b55e-12f1018d1307
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a0163afc-2f3d-48f6-ba08-2c8ad70ea1e6
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)

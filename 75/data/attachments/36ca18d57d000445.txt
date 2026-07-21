@@ -1,0 +1,20 @@
+folder=Endpoint tests / Support
+method=GET
+url=
+query=email=visableapp@gmail.com&page=1&size=10
+headers=
+x-application-version: {{app_version}}
+user-source: WLW
+application-source: PURCHASER_APP
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-session-token: ory_st_JfiD9sHrpf31Ff1gUpwGpMXIzcw5xFom
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 42e9167d-7f16-4f43-a6b4-bf73089853a4
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

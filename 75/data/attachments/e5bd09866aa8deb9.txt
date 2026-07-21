@@ -1,0 +1,19 @@
+folder=Technical Tests / ai-company-search-controller
+method=GET
+url=
+query=prompts={{prompts}}&scene={{scene}}
+headers=
+Authorization: Bearer ory_st_JfiD9sHrpf31Ff1gUpwGpMXIzcw5xFom
+mobile-session-id: 1ee6c136-d748-4454-b55e-12f1018d1307
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b6bb602d-e107-4b94-a9d1-121723005a4d
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

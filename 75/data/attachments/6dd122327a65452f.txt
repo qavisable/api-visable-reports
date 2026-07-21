@@ -1,0 +1,23 @@
+folder=Endpoints Tests
+method=POST
+url=
+query=(no query params)
+headers=
+X-Visable-Auth-Token: SRJJqyrbdheOQiT8eNqYzgtA4jjMZrbiAyvsYl++oRc
+Authorization: 
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 41ac88d4-379b-46fe-9226-ffa417bdf63b
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "subject": "Test",
+  "description": "Test description"
+  
+}

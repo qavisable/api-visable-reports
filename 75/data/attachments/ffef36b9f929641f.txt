@@ -1,0 +1,27 @@
+folder=Technical Tests / ai-company-search-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_JfiD9sHrpf31Ff1gUpwGpMXIzcw5xFom
+mobile-session-id: 1ee6c136-d748-4454-b55e-12f1018d1307
+user-source: WLW
+x-api-key: {{apiKey}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6b481bcd-87f1-4cb3-8fca-8a9354187cfd
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 124
+
+body=
+{
+  "deviceType": "example",
+  "isFileSearch": true,
+  "isImageSearch": true,
+  "prompts": "example",
+  "scene": "example"
+}

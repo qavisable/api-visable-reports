@@ -1,0 +1,22 @@
+folder=Technical Tests / product-controller
+method=GET
+url=
+query=page={{page}}&size={{size}}&name={{name}}&onlyTopProducts={{onlyTopProducts}}&page_token={{page_token}}
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+x-application-version: {{xApplicationVersion}}
+application-source: {{applicationSource}}
+x-application-currency: {{xApplicationCurrency}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5d305eea-aadf-495f-9c6a-960b8ed9a730
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

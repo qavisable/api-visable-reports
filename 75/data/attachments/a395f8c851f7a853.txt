@@ -1,0 +1,19 @@
+folder=Endpoint tests / Search
+method=GET
+url=
+query=searchKeyword=bague
+headers=
+accept: */*
+Accept-Language: fr
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: WLW
+application-source: PURCHASER_APP
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 6feea97c-31d8-4c92-9c0e-2bdd9c806b4d
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,21 @@
+folder=Technical Tests / search-controller
+method=GET
+url=
+query=searchRequest=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_JfiD9sHrpf31Ff1gUpwGpMXIzcw5xFom
+x-api-key: {{apiKey}}
+x-application-currency: {{xApplicationCurrency}}
+mobile-session-id: 1ee6c136-d748-4454-b55e-12f1018d1307
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 858c98b4-4588-4c83-a57e-dbbc37480852
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

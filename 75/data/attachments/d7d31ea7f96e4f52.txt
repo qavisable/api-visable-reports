@@ -1,0 +1,17 @@
+folder=Endpoint tests / Conversations
+method=GET
+url=
+query=url=null&organizationId=00505682-f25b-1ee9-bd91-d259d4c4d7fb
+headers=
+accept: */*
+user-source: EUROPAGES
+x-session-token: ory_st_7RYikfmIUow4S6BHAy3NVqWnKLoZBM3v
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 39a57ae5-51e7-4a97-bf64-c2e178b3333d
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

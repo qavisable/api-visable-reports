@@ -1,0 +1,18 @@
+folder=Technical Tests / conversation-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_JfiD9sHrpf31Ff1gUpwGpMXIzcw5xFom
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a5dc61e9-b3a6-4aa4-99ec-1757c618e6dc
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 405
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'participantId', 'value': 'example', 'type': 'text'}, {'key': 'file', 'type': 'file', 'fileName': ''}, {'key': 'tags', 'value': '["example"]', 'type': 'text'}]}

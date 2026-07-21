@@ -1,0 +1,19 @@
+folder=Endpoint tests / Conversations
+method=POST
+url=
+query=(no query params)
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d15accb0-3747-4bc9-84fd-9f6c68f6abfb
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 227
+
+body=
+{"link": "https://www.wlw.de/en/conversations?tab=REQUESTS_GROUP&organizationId=00505682-f25b-1ee9-bd91-d259d4c4d7fb&conversationId=dea4c544-0399-4c47-a7ff-c99160f5e719","conversation_id":"df754657-dd83-43ba-abd1-c62fa3fb49e2"}
