@@ -1,0 +1,21 @@
+folder=Endpoint tests / Visitor profiler
+method=GET
+url=
+query=start_date=2025-12-01&end_date=2025-12-30
+headers=
+accept: */*
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: WLW
+Accept-Language: de
+x-application-version: {{app_version}}
+application-source: PURCHASER_APP
+x-session-token: ory_st_cS79mbN3ccUL30gaCe91XXkgyZpn0VC5
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: e770aaf4-6c86-42c5-a0ce-e3aa12b66ad6
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

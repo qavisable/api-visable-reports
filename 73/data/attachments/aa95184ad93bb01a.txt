@@ -1,0 +1,21 @@
+folder=Technical Tests / push-notification-by-email-controller
+method=PUT
+url=
+query=id={{id}}&email={{email}}
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+x-application-version: {{xApplicationVersion}}
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 660cd592-9127-41b9-a1c4-1ec68b8eec7a
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)

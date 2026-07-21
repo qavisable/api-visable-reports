@@ -1,0 +1,23 @@
+folder=Technical Tests / conversation-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0a9f2231-cffb-417a-ac8c-c518d2a2cf42
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 109
+
+body=
+{
+  "declinedBy": "00000000-0000-4000-8000-000000000000",
+  "reason": "example",
+  "description": "example"
+}

@@ -1,0 +1,28 @@
+folder=Endpoint tests / Conversations
+method=POST
+url=
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+source: mobile
+x-application-reference: MOBILE
+x-application-version: {{app_version}}
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-session-token: ory_st_zl4eBgS8xgf22ysoWiw31RR8OGkBsRrf
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2a805d59-9139-42b8-a8a3-998a4036ff0f
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 139
+
+body=
+{
+    "participantId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc",
+    "messageContent":"2026-07-21T03:26:26.278Z Postman. Automated API test"
+}

@@ -1,0 +1,15 @@
+folder=Endpoint tests / Visitor profiler
+method=GET
+url=
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJQPZRMD44%2F20260721%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260721T032653Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIG8lk0c4nixtWKnmXTBSdOA7%2F6iEheq129hbcDmZfAtiAiEAtTyHm2%2BSfbde8O5mVcFn%2FX8JQKxJ0G7vx8Bdgnxxtq0q7QMItP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODk3MjgxMzIwNTEiDPv4avWF4DbJSxixmyrBA%2BubxhTcOmdMCQghxGWgfF5T%2F3CWK9i8fbwC0z6uK%2FUeNH5nLyJMPJoNVwT6Dltl7bEe6Psx2kEHKbfn%2ByVyQhaCuEuO6L5oACVVoprv3hd%2Frj8Y0JcxurpJUFuyoqpH14OEzsdO0lKzwAjR4bd8wczDzz2ZEFLYnWNw1rUL16MMXa%2BK1T7JfNYrjWWha38YYUzS%2BOQKOPUkqiy36qeCAzFE4xX%2FkPcppyttaJx6UQpG4gfAe7IXgy%2F0ozcj6Z5Vi1m407HHr9MIZPQHLgFgWpFo98GaRPuaSZhpF4SDUYdVV3i9A%2BHiwoZChawigQ9Aw6I7DvWhXRSfOSv9hUuVVXe15zC1XaSysos7sGd08uIWdFm91Ub1S00y01CFFrdtGtQupeHJUiaUvz%2FmsLXMkJwy9iDeYakG%2Fykjjz%2FgVTRDY3IHoYo67652iaP1yXt4hsW71vIEHZ9xQEkvmt8c7mtgZk7VPxxXswlVbbnON44AsTgtV0QgTnx0rf9jgTyk86j1JzwbIwo7r7%2ByOxHMkPjZO0iewT9U4Vpmsc9uwZ1%2FdLZ30mpA3n9dZ%2BpTOK7iy6vehfkEaaRZltJV6kHX91w3MI%2FJ%2B9IGOqUBlbkKt%2FmnCooj%2Bea2NHNJVDTTKJtChCylEKQMYds1jXu0%2BQMln%2F3p8VxR4t3Y6W1%2BMM1Z56xyJTG2Lws5ch6FdTtDqMsUFGv8V5ZUv0VnWfxbbnzT7IFFAVB0A6t9PbupxUfSj46mCi1Jkp8eYqBkAbf27GGeTwDRBc7ISNLvM94bHADHOikXvGH8LgQo3yO%2BGYn6sSarCzsCBfC6O7mImmGKeUrc&X-Amz-SignedHeaders=host&X-Amz-Signature=0edfa49fa52c3bcf668512a3dec00c6bf858861d5fb2ab85f526d05065d5c1b2
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fb48624e-dd05-4837-88f3-90bf0cecfff6
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

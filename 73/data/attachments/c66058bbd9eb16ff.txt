@@ -1,0 +1,20 @@
+folder=Endpoint tests / Support
+method=GET
+url=
+query=email=visableapp@gmail.com&page=1&size=10
+headers=
+x-application-version: {{app_version}}
+user-source: EUROPAGES
+application-source: EP_PLATFORM_APP
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-session-token: ory_st_zl4eBgS8xgf22ysoWiw31RR8OGkBsRrf
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f52c7fea-7934-4a79-8c41-4473582d6279
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
