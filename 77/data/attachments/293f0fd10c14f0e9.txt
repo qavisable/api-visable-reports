@@ -1,0 +1,20 @@
+folder=Endpoint tests / Conversations
+method=GET
+url=
+query=pageSize=25&stateFilter=RECEIVED&organizationId=fd0d84d0-7646-3eb0-8953-249204c51bdb
+headers=
+user-source: EUROPAGES
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+application-source: EP_PLATFORM_APP
+Accept-Language: de
+x-session-token: ory_st_rlMbLnZ5IQtLihRLtS2kwkxRusvlbF73
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9fc952e0-f4ef-4a41-b4c6-e8044d7f8fe6
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

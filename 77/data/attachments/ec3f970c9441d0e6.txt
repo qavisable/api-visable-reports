@@ -1,0 +1,16 @@
+folder=Technical Tests
+method=GET
+url=
+query=supplierId=not-a-uuid
+headers=
+X-Platform: wlw
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b932aa76-b678-4a88-9a95-31f21add6cf9
+Host: rfq-backend.internal.wlw-1.production.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,16 @@
+folder=Technical Tests / currency-exchange-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_UA21JScBpM8cuqHY7tb6bnpDaSu4BnYi
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6bbd41aa-8923-4bd4-bdf3-7ff01362f591
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

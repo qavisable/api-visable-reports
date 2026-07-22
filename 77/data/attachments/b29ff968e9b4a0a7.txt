@@ -1,0 +1,25 @@
+folder=Endpoint tests / Login
+method=POST
+url=
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+x-application-reference: MOBILE
+x-application-version: {{app_version}}
+x-application-currency: EUR
+application-source: PURCHASER_APP
+user-source: WLW
+mobile-session-id: 246971fa-c633-4c62-ba89-c3d42fa67c42
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+content-length: 58
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 49815106-ca53-46cf-8469-34425ca772f9
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{"email":"visableapp@gmail.com","password":"supplier1234"}

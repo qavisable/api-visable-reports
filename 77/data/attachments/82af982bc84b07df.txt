@@ -1,0 +1,21 @@
+folder=Technical Tests / push-notification-by-email-controller
+method=GET
+url=
+query=email=%27%20OR%201=1%20--&page={{page}}&size={{size}}
+headers=
+Authorization: Bearer ory_st_UA21JScBpM8cuqHY7tb6bnpDaSu4BnYi
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 71b63292-50e9-47bc-80b2-c1dbf56d885b
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

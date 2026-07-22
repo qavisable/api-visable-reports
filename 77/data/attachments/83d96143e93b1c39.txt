@@ -1,0 +1,17 @@
+folder=Functional Tests
+method=GET
+url=
+query=lang=en
+headers=
+X-Platform: wlw
+X-Forwarded-Auth-User-Profile: id=1df26612-5d0c-58fd-a170-77acb028b4c7;is_admin=false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 07364d11-6712-4331-8ae4-2f8cb086f0c4
+Host: rfq-backend.internal.wlw-1.production.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

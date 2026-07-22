@@ -1,0 +1,17 @@
+folder=Technical Tests / trending-products-controller
+method=GET
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_UA21JScBpM8cuqHY7tb6bnpDaSu4BnYi
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 85374cdd-e910-4147-9ef2-7495093b9980
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

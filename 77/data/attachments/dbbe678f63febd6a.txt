@@ -1,0 +1,17 @@
+folder=Technical Tests / categories-controller
+method=GET
+url=
+query=user_setting_id={{user_setting_id}}
+headers=
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 17270eb8-bec6-4ce8-a5f1-de22d1176e6d
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

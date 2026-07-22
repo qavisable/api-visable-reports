@@ -1,0 +1,25 @@
+folder=Technical Tests / conversation-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 70d67f83-a6ce-40f8-82a2-41117e0ff5ad
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+body=
+{
+  "participantId": "example",
+  "messageContent": "example",
+  "tags": [
+    "example"
+  ]
+}

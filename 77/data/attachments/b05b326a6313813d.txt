@@ -1,0 +1,18 @@
+folder=Endpoint tests / Support
+method=GET
+url=
+query=(no query params)
+headers=
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+accept-language: {{
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e089216e-b0ca-406c-8046-b4945d6f37a1
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

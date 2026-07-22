@@ -1,0 +1,18 @@
+folder=Technical Tests / purchaser-support-controller
+method=GET
+url=
+query=topic={{topic}}
+headers=
+Accept-Language: {{acceptLanguage}}
+application-source: {{applicationSource}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0ef3e2c7-1309-4dbf-8e3a-730374c36b95
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

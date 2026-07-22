@@ -1,0 +1,25 @@
+folder=Technical Tests / login-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_UA21JScBpM8cuqHY7tb6bnpDaSu4BnYi
+x-api-key: {{apiKey}}
+user-source: WLW
+mobile-session-id: 5d13a837-303d-4c73-9653-3e8abc254303
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 613849ab-8c66-46e7-aedc-abce1a735141
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 87
+
+body=
+{
+  "email": "example",
+  "set_ory_session_token": "example",
+  "password": "example"
+}

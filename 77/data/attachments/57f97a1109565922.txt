@@ -1,0 +1,18 @@
+folder=Technical Tests / search-controller
+method=GET
+url=
+query=mock={{mock}}&personalize={{personalize}}
+headers=
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+mobile-session-id: 5d13a837-303d-4c73-9653-3e8abc254303
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f1e79b28-2df4-4780-bc21-0fcdda95a0e9
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

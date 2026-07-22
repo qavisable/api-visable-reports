@@ -1,0 +1,20 @@
+folder=Endpoint tests / Homepage, products
+method=GET
+url=
+query=user_latitude=53.5511&user_longitude=9.9937
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: WLW
+Accept-Language: de
+application-source: PURCHASER_APP
+x-application-version: {{app_version}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7396b64e-a4a9-4704-9ea3-451eec73b54a
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

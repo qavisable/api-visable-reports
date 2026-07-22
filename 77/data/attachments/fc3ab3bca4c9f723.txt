@@ -1,0 +1,21 @@
+folder=Technical Tests / conversation-controller
+method=PUT
+url=
+query=organizationId=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_UA21JScBpM8cuqHY7tb6bnpDaSu4BnYi
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3d85027c-208f-41c0-8dfc-fc43ba9bccc7
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 25
+
+body=
+{
+  "userId": "example"
+}

@@ -1,0 +1,21 @@
+folder=Technical Tests / push-notification-by-email-controller
+method=PUT
+url=
+query=id=%27%20OR%201=1%20--&email={{email}}
+headers=
+Authorization: Bearer ory_st_UA21JScBpM8cuqHY7tb6bnpDaSu4BnYi
+x-application-version: {{xApplicationVersion}}
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 810e17fd-c88d-469c-b81e-9971105addde
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)

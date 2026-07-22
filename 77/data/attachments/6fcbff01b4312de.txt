@@ -1,0 +1,24 @@
+folder=Technical Tests / login-controller
+method=POST
+url=
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_UA21JScBpM8cuqHY7tb6bnpDaSu4BnYi
+x-api-key: {{apiKey}}
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 02128a14-86f7-43c9-bd11-6de84c860d1b
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 72
+
+body=
+{
+  "flow": "example",
+  "email": "example",
+  "is_registration": true
+}

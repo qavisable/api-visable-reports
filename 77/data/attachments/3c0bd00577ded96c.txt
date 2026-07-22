@@ -1,0 +1,18 @@
+folder=Endpoint tests / Support
+method=GET
+url=
+query=topic=ALIBABA
+headers=
+Accept-Language: fr
+User-source: WLW
+application-source: PURCHASER_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f93c07e9-6062-4348-b1a7-2fd8fe1b9c83
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

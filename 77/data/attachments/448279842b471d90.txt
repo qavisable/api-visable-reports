@@ -1,0 +1,17 @@
+folder=Technical Tests / ai-company-search-controller
+method=GET
+url=
+query=SearchText={{SearchText}}&SearchScene={{SearchScene}}&from={{from}}
+headers=
+Authorization: Bearer ory_st_UA21JScBpM8cuqHY7tb6bnpDaSu4BnYi
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3923ae17-7283-4b23-b24e-b117eb98d8fb
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

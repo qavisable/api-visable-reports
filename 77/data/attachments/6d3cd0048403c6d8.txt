@@ -1,0 +1,28 @@
+folder=Endpoint tests / Conversations
+method=POST
+url=
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+source: mobile
+x-application-reference: MOBILE
+x-application-version: {{app_version}}
+application-source: PURCHASER_APP
+user-source: WLW
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-session-token: ory_st_UA21JScBpM8cuqHY7tb6bnpDaSu4BnYi
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0a5bb81c-6524-4ffa-b0a1-0fd837c75d7e
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 139
+
+body=
+{
+    "participantId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc",
+    "messageContent":"2026-07-22T02:52:13.114Z Postman. Automated API test"
+}

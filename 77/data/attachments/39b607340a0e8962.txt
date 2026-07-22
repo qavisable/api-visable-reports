@@ -1,0 +1,27 @@
+folder=Technical Tests / contact-form-controller
+method=POST
+url=
+query=(no query params)
+headers=
+source: {{source}}
+Accept-Language: {{acceptLanguage}}
+application-source: {{applicationSource}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+mobile-session-id: 5d13a837-303d-4c73-9653-3e8abc254303
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 71a95a70-c15b-43e0-9f98-e0bf14ec2f57
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 82
+
+body=
+{
+  "salutation": "example",
+  "first_name": "example",
+  "last_name": "example"
+}

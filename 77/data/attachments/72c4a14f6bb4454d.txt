@@ -1,0 +1,21 @@
+folder=Technical Tests / ab-test-record-controller
+method=POST
+url=
+query=(no query params)
+headers=
+mobile-session-id: 5d13a837-303d-4c73-9653-3e8abc254303
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ceebc1b8-7a74-4e8a-8a83-376df46f25f3
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 67
+
+body=
+{
+  "experimentName": "example",
+  "experimentVariant": "example"
+}

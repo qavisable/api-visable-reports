@@ -1,0 +1,18 @@
+folder=Endpoint tests / Mobile_Feedback
+method=GET
+url=
+query=(no query params)
+headers=
+Accept-Language: de
+user-source: WLW
+application-source: PURCHASER_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: be8c056f-2b02-4d2b-874c-c0d7a41bb3f0
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

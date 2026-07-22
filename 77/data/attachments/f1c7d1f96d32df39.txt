@@ -1,0 +1,17 @@
+folder=Technical Tests / search-term-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+mobile-session-id: 5d13a837-303d-4c73-9653-3e8abc254303
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 910528fc-c147-479a-998b-3fb2db8b6bfc
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)

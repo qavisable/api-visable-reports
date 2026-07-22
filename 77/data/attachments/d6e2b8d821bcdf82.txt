@@ -1,0 +1,29 @@
+folder=Endpoint tests / Login
+method=POST
+url=
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+x-application-reference: MOBILE
+x-application-version: 3.7.0
+x-application-currency: EUR
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+mobile-session-id: ac1ecc45-f5b1-4151-96c6-d992aed06109
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a8f8b1b9-b1a3-497d-9350-7661aef5c4cf
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 124
+
+body=
+{
+    "flow":"3cad1c53-9c4f-4f90-86f8-58796a84c25b",
+    "email":"fzuioooii@hjk.com",
+    "business_type":"reset_password"
+}
