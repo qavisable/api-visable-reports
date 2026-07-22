@@ -1,0 +1,18 @@
+folder=Endpoint tests / Homepage, products
+method=GET
+url=
+query=user_setting_id=1046aef4-9f67-4a86-b3f8-1a586e9c1d02
+headers=
+accept: */*
+Accept-Language: en
+user-source: EUROPAGES
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: e6e04972-6607-4398-85a4-b20218eb0893
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

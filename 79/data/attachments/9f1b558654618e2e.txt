@@ -1,0 +1,21 @@
+folder=Endpoint tests / Homepage, products
+method=PUT
+url=
+query=user_setting_id=1046aef4-9f67-4a86-b3f8-1a586e9c1d02
+headers=
+Accept-Language: en
+Content-Type: application/json
+Authorization: Bearer ory_at_7tImkdSZ1ftS_96LCmx0LN7bRvReSsIDP6F8mCQM8Yc.L3yOu_6W-34wyPwbkSsGW-t8yp-7e2e4IwY3eLZN5qg
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d317aa40-e839-4e9b-bcba-f31162591bea
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 48
+
+body=
+{     "category_ids":["11", "19", "999999999"] }

@@ -1,0 +1,20 @@
+folder=Endpoint tests / Company
+method=GET
+url=
+query=company_uuid=00505682-f25b-1ee9-bd91-d2504a0377fb&search_term=Milled%20Parts
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-application-version: {{app_ver
+application-source: PURCHASER_APP
+user-source: WLW
+Accept-Language: de
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6e379dbb-1260-4326-bff6-4876a02cc382
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

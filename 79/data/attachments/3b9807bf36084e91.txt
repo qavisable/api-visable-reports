@@ -1,0 +1,28 @@
+folder=Endpoint tests / Conversations
+method=PUT
+url=
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+x-application-reference: MOBILE
+x-application-version: 3.6.3
+x-application-currency: EUR
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+mobile-session-id: 1046aef4-9f67-4a86-b3f8-1a586e9c1d02
+x-session-token: ory_st_kmfQvQRet7DzdnOY2Ug1fu1u89fTd7Jm
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 55a02679-d024-45b6-ad63-dc74c78a50b0
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 54
+
+body=
+{
+"reason":"Not enough information","description":""
+}

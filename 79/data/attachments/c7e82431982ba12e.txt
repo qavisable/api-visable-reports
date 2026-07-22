@@ -1,0 +1,19 @@
+httpStatus=200
+responseTimeMs=100
+responseSize=265829
+headers=
+x-amz-id-2: kAHCjcySSa988AouWjzCgfECma4tIAMGjTg3RwJdn9JCl2OlMz50BJw8WsUb3oFzHkBMHZX5FJpekIZE9TgPF6fq7c/ev2op
+x-amz-request-id: 36KNXR1Q9KEK536Y
+Date: Wed, 22 Jul 2026 03:25:49 GMT
+Last-Modified: Wed, 22 Jul 2026 01:55:25 GMT
+ETag: "89ed2e94615679961bd62dc25ce846b1"
+x-amz-server-side-encryption: AES256
+Content-Disposition: attachment; filename="2025-12-01_2025-12-30_visitors_lwak.csv"
+x-amz-version-id: okI3ngP6ku_BOR_fXze_ZDJtkE2qA_sA
+Accept-Ranges: bytes
+Content-Type: text/csv
+Content-Length: 265829
+Server: AmazonS3
+
+body=
+(empty response body)

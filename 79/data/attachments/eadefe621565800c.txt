@@ -1,0 +1,32 @@
+folder=Endpoint tests / Company
+method=POST
+url=
+query=(no query params)
+headers=
+application-source: EP_PLATFORM_APP
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+Accept-Language: de
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d0916619-c74e-496e-8335-0ba3cd1fa8e6
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 1542
+
+body=
+{
+  "redirect_link": "https://www.wlw.de/de/firma/visable-gmbh-00000003995851-264806001",
+  "source": "EP_PLATFORM_APP",
+  "medium": "company_share",
+  "route": "COMPANY_PROFILE",
+  "data": "67c9e8c8-50a1-30e2-907a-7fe9f34d60f9",
+  "social": {
+    "socialTitle": "VISABLE GMBH",
+    "socialDescription": "Visable – das setzt sich zusammen aus \"visible\" und \"enable\" und erklärt in einem Wort, was wir sind: Sichtbar - und Möglichmacher für unsere Kunden. Als solche unterstützen wir den industriellen Mittelstand, seine Produkte und Dienstleistungen für Einkäufer international zugänglich zu machen: Als speziell auf Geschäftskunden zugeschnittene Verbindung aus eigenen B2B-Plattformen und Online-Marketing-Services bieten wir ein breit gefächertes Portfolio zur Reichweiten-Steigerung im Internet.  Mit über 350 Mitarbeitern in ganz Europa engagieren wir uns für die Sichtbarkeit und den Erfolg unserer Kunden – und sind ihnen damit der verlässliche Wegbegleiter und Berater im digitalen Europa.\n\nBei uns gehen jahrzehntelange Mittelstandsexpertise und Start-up-Mentalität Hand in Hand. Wissen und Erfahrung treffen auf Begeisterung für neue Ideen und Wege! Dieser Mix ist überall spürbar: in unserem Management, dessen Mitglieder über Online-Erfahrung in großen internationalen Unternehmen verfügen. In unseren bunt gemischten Teams mit den richtigen Leuten an der richtigen Stelle. Und in der Zusammenarbeit mit unseren Kunden, die mit uns erfolgreich durchstarten können!",
+    "socialImageLink": null
+  }
+}

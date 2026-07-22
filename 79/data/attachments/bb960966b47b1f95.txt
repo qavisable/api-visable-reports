@@ -1,0 +1,19 @@
+folder=Endpoint tests / Search
+method=GET
+url=
+query=searchKeyword=baguette&site_code=DE&page=1&user_latitude=53.5511&user_longtitude=9.9937&user_radius=50
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: WLW
+Accept-Language: fr
+application-source: PURCHASER_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fe18f845-bce6-40a8-995c-62a3ed8194b3
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

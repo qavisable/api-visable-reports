@@ -1,0 +1,18 @@
+folder=Endpoints Tests
+method=GET
+url=
+query=(no query params)
+headers=
+OAuth-Token: 
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+X-Visable-Bypass-Token: 
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d1d912e1-9870-40d1-b0cd-ffcec3ce6310
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
