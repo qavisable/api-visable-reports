@@ -1,9 +1,0 @@
-folder=User & Company Context
-method=GET
-url=
-query=(no query params)
-headers=
-(no headers)
-
-body=
-(empty request body)
