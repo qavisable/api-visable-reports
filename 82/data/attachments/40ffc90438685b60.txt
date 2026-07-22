@@ -1,0 +1,22 @@
+folder=Endpoints Tests
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11/Accounts/create_platform_profile/4d120712-d73b-11f0-a6aa-0631834a3ceb
+query=(no query params)
+headers=
+X-Visable-Auth-Token: 3taW4aqRuXTsyLw4AvMKTUhy7yf0RQ1P87N+wK8wNdM
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 40cf27a8-0397-4914-a4bf-dfd27ae17f7f
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+   "platform_types": ["ep"] 
+}

@@ -1,0 +1,30 @@
+folder=Business Scenarios Tests / Account
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11_20/Accounts
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: bc6564b6-52e1-4753-b447-d5e9a890ec4d
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "Test Account",
+  "billing_address_street": "Bahnhofstrasse 100",
+  "billing_address_city": "Hamburg",
+  "billing_address_postalcode": "20354",
+  "billing_address_country": "DE",
+  "telephone_nr": "+49 40 123456789",
+  "language": "en",
+  "email1": "test@example.com",
+  "website": "https://www.example.com",
+  "account_type": "potential_customer"
+}

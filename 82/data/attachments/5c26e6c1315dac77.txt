@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=20
+responseSize=1072
+headers=
+Date: Wed, 22 Jul 2026 07:55:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"currency_rates":[{"currency":"USD","rate":"1.1418"},{"currency":"JPY","rate":"185.82"},{"currency":"CZK","rate":"24.168"},{"currency":"DKK","rate":"7.4756"},{"currency":"GBP","rate":"0.85205"},{"currency":"HUF","rate":"360.40"},{"currency":"PLN","rate":"4.3305"},{"currency":"RON","rate":"5.2365"},{"currency":"SEK","rate":"11.0485"},{"currency":"CHF","rate":"0.9259"},{"currency":"ISK","rate":"143.00"},{"currency":"NOK","rate":"10.9870"},{"currency":"TRY","rate":"53.8757"},{"currency":"AUD","rate":"1.6276"},{"currency":"BRL","rate":"5.7997"},{"currency":"CAD","rate":"1.6069"},{"currency":"CNY","rate":"7.7255"},{"currency":"HKD","rate":"8.9525"},{"currency":"IDR","rate":"20435.94"},{"currency":"ILS","rate":"3.4820"},{"currency":"INR","rate":"109.8820"},{"currency":"KRW","rate":"1688.04"},{"currency":"MXN","rate":"19.8608"},{"currency":"MYR","rate":"4.6688"},{"currency":"NZD","rate":"1.9533"},{"currency":"PHP","rate":"70.496"},{"currency":"SGD","rate":"1.4734"},{"currency":"THB","rate":"38.439"},{"currency":"ZAR","rate":"18.7763"}],"rates_date":"2026-07-21"}

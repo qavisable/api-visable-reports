@@ -1,0 +1,26 @@
+folder=Endpoints Tests
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11_20/WLW_SyncEvents/signal_inbound_event
+query=(no query params)
+headers=
+Content-Type: application/json
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+X-Visable-Bypass-Token: 
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b29ec6ec-17f9-4416-a07d-3d65e5b54b60
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+    "event_source": "insomnia@localhost",
+    "event_type": "request_for_consultation",
+    "external_system": "hubspot",
+    "external_id": "220212310907",
+    "mode": "synchronous"
+}

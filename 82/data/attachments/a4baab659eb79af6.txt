@@ -1,0 +1,19 @@
+folder=Technical Tests / trending-products-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/trending/notifications
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_GPkkuxgL4CQ1IxmyXFOETlWtNAgDkSd1
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d1c4c389-b952-4410-a78b-75475ff1e236
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

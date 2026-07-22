@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=29
+responseSize=2173
+headers=
+Date: Wed, 22 Jul 2026 07:55:10 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+[{"id":"10000001","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/super_categories_images/industrial_manufacturing.png","key":"industrial_manufacturing","name":"Industrial & Manufacturing","order":1,"search_keyword":"Industrial & Manufacturing","selected":false},{"id":"10000002","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/super_categories_images/construction_raw_materials.png","key":"construction_raw_materials","name":"Construction & Raw Materials","order":2,"search_keyword":"Construction & Raw Materials","selected":false},{"id":"10000003","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/super_categories_images/electronics_energy_hvac.png","key":"electronics_energy_hvac","name":"Electronics, Energy & HVAC","order":3,"search_keyword":"Electronics, Energy & HVAC","selected":false},{"id":"10000004","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/super_categories_images/business_services_operations.png","key":"business_services_operations","name":"Business Services & Operations","order":4,"search_keyword":"Business Services & Operations","selected":false},{"id":"10000005","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/super_categories_images/logistics_transport_safety.png","key":"logistics_transport_safety","name":"Logistics, Transport & Safety","order":5,"search_keyword":"Logistics, Transport & Safety","selected":false},{"id":"10000006","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/super_categories_images/agriculture_food_health.png","key":"agriculture_food_health","name":"Agriculture, Food & Health","order":6,"search_keyword":"Agriculture, Food & Health","selected":false},{"id":"10000007","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/super_categories_images/consumer_goods_lifestyle.png","key":"consumer_goods_lifestyle","name":"Consumer Goods & Lifestyle","order":7,"search_keyword":"Consumer Goods & Lifestyle","selected":false}]

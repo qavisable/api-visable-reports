@@ -1,0 +1,52 @@
+folder=Endpoint tests / Contact request
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/contact-form/messages
+query=(no query params)
+headers=
+mobile-request: true
+mobile-session-id: 9405f450-c534-472e-a74a-6b57e805a434
+x-session-token: ory_st_R7T5EZD85VUDNbTyInNq3lAqXtIo6mIQ
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: en
+Accept: */*
+application-source: PURCHASER_APP
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: d73cbd6c-8fd1-439f-a97f-f1894b0803d3
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 3105
+
+body=
+{
+  "first_name": "Bruce",
+  "is_private_request": "false",
+  "is_forward_request": "true",
+  "last_name": "Wayne",
+  "message": "Postman. Automated API test\nmessage field\n5788\nhjp643468ig6\n86zjg489ojt68ih47\n8ontz",
+  "message_type": "request_type_quote_price",
+  "salutation": "MR",
+  "sender_company_name": "Wayne LLC",
+  "sender_email": "purchaserapp1@gmail.com",
+  "subject": "request_type_quote_price",
+  "sender_phone_number": "",
+  "product_id": "",
+  "receiver_company_uuid": "fd0d84d0-7646-3eb0-8953-249204c51bdb",
+  "title": "regular qdr",
+  "quantity": "12334",
+  "location": "Berlin, Germany",
+  "country_code": "DE",
+  "supplier_type_list": [
+    "service",
+    "wholesaler",
+    "production",
+    "distribution",
+    "customerspecificmanufacturing"
+  ],
+  "source": "APP_COMPANY_PROFILE",
+  "visitorsList 41.pdf": "(file)"
+}

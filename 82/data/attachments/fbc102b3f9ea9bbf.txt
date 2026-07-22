@@ -1,0 +1,41 @@
+folder=Business Scenarios Tests / Lead
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11_20/Leads/convert
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: eb9f7434-fb32-47a5-9bf4-4fc4f93bc695
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "modules": {
+    "Contacts": {
+      "first_name": "Lead_1784708184328",
+      "last_name": "ConversionTest",
+      "preferred_language": "en",
+      "email": [
+        {
+          "email_address": "lead_1784708184328@example.com",
+          "primary_address": true,
+          "opt_out": false
+        }
+      ]
+    },
+    "Accounts": {
+      "name": "Company_1784708184328",
+      "billing_address_street": "Bahnhofstrasse 1001",
+      "billing_address_city": "Hamburg",
+      "billing_address_postalcode": "20354",
+      "billing_address_country": "DE"
+    }
+  }
+}

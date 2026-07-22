@@ -1,0 +1,22 @@
+folder=Endpoint tests / User settings
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/userSetting
+query=uuid=81316e7a-cfdb-4fec-bc59-69de42349c83
+headers=
+accept: */*
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+x-application-version: 3.6.3
+x-session-token: ory_st_rTb1x1WlikT9qK3nRrbuJbmxeUU46VW3
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: c5ff1180-e0a2-4b93-a482-b334f10df9c4
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

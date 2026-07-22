@@ -1,0 +1,21 @@
+folder=Endpoint tests / Homepage, products
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/products/recommendations
+query=searchKeyword=cnc&user_latitude=53.5511&user_longitude=9.9937&device_id=016c3387566c1bcc&location_latitude=48.8567879&location_longitude=2.3510768&location_radius=100km
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+Accept-Language: en
+application-source: EP_PLATFORM_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: da77e5e7-620b-48d8-b740-c5034e6e490e
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

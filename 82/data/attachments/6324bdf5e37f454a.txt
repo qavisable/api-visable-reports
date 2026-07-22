@@ -1,0 +1,26 @@
+folder=Endpoints Tests
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=GET
+url=http://rest/v11/Accounts/resolve_external_id/sap_customer_number/bulk
+query=(no query params)
+headers=
+OAuth-Token: 
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 747daf61-1f37-443a-88e2-c171a92ed6b6
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+	"ids" : [
+		"0002377823",
+		"0102125380"
+	]
+}

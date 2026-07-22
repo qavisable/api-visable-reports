@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=111
+responseSize=3429
+headers=
+Date: Wed, 22 Jul 2026 07:55:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"conversationType":"REQUEST_FOR_INFORMATION","country":"DE","createdAt":"2026-07-22T07:16:52.504399Z","email":"purchaserapp1@gmail.com","id":"d7dc4735-d69a-4276-9e00-fdb05a03283a","isEnded":false,"isFrozen":false,"isImportant":false,"isOutbound":false,"isSpam":false,"lastMessage":"Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n\nProduct : request a callback\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 10500 pcs.\nCompany Name : Wayne LLC","lastMessageCreatedAt":"2026-07-22T07:16:52.534752Z","messageLinks":[],"metadata":{"productName":"request a callback","hiddenFromSender":"false","quantity":"10500 pcs.","buyerCountry":"DE","supplierTypes":"service,wholesaler,production,distribution,customerspecificmanufacturing","deliveryLocation":"Berlin, Germany","requestFrequency":"ONE_TIME_REQUIREMENT","purchaserCompanyName":"Wayne LLC","sourceChannel":"MOBILE","requestReceivedAt":"2026-07-22T07:16:36.714330532Z","userClassification":"{  \"requestReason\" : \"GET_QUOTE\",  \"targetDepartment\" : null}","convertDirectRequestToRfq":"{  \"convertToRfq\" : true,  \"companyName\" : null}","transactionId":"5c14c688-f30d-4850-8d31-5f92dcfeffa3","requestIterationId":"5c14c688-f30d-4850-8d31-5f92dcfeffa3","recipientOrganizationId":"fd0d84d0-7646-3eb0-8953-249204c51bdb"},"participants":[{"belongsToOrganization":"fd0d84d0-7646-3eb0-8953-249204c51bdb","email":"visableapp@gmail.com","id":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","name":"Thiery Henry","profileId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc"},{"belongsToOrganization":"fd0d84d0-7646-3eb0-8953-249204c51bdb","email":"magnus.alander@visable.com","id":"b745d66c-3824-4aca-ba44-70049b5d1517","name":"Karl-Magnus Alander","profileId":"b745d66c-3824-4aca-ba44-70049b5d1517"},{"belongsToOrganization":"fd0d84d0-7646-3eb0-8953-249204c51bdb","email":"madhuri.varikuti@visablelabs.com","id":"c83924a0-6e12-45bd-b214-16ba1f806968","name":"Madhuri Varikuti","profileId":"c83924a0-6e12-45bd-b214-16ba1f806968"},{"belongsToOrganization":"fd0d84d0-7646-3eb0-8953-249204c51bdb","email":"qa-ep-supplier-customer@gmx.de","id":"5b8cb740-fb43-525e-aeaa-f58c9e7b9d6e","name":"Katharina Gillmann","profileId":"5b8cb740-fb43-525e-aeaa-f58c9e7b9d6e"},{"belongsToOrganization":"fd0d84d0-7646-3eb0-8953-249204c51bdb","email":"gao.aldexdal@visable.com","id":"48ff7bde-66eb-45cc-852f-d0ad528cfe07","name":"Gao Aldexdal","profileId":"48ff7bde-66eb-45cc-852f-d0ad528cfe07"},{"belongsToOrganization":"fd0d84d0-7646-3eb0-8953-249204c51bdb","email":"naveenkumar.chindaluri@visablelabs.com","id":"d1ab94ae-8ec8-4331-8169-de0515e8d85e","name":"Naveenkumar Chindaluriss","profileId":"d1ab94ae-8ec8-4331-8169-de0515e8d85e"},{"belongsToOrganization":"fd0d84d0-7646-3eb0-8953-249204c51bdb","email":"visablesso@gmail.com","id":"5055e6b4-f0f6-42e2-bf9a-2ef6514ff013","name":"Patrick Viera","profileId":"5055e6b4-f0f6-42e2-bf9a-2ef6514ff013"},{"belongsToOrganization":"fd0d84d0-7646-3eb0-8953-249204c51bdb","email":"alexey.frolov@visablelabs.com","id":"9f5e226f-01ee-4c26-a8c7-2ed5bdc867d6","name":"Alexey Frolov","profileId":"9f5e226f-01ee-4c26-a8c7-2ed5bdc867d6"},{"country":"DE","email":"purchaserapp1@gmail.com","id":"ab9dfbf3-729e-56c8-911d-8502013e60ce","name":"Bruce Wayne","profileId":"ab9dfbf3-729e-56c8-911d-8502013e60ce"}],"subTitle":"","tags":[],"title":"Bruce Wayne","unreadMessageCount":1,"is_alibaba_request":false}
