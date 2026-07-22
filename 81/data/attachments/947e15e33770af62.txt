@@ -1,0 +1,24 @@
+folder=Endpoint tests / Contact request
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/contact-form/messages
+query=(no query params)
+headers=
+mobile-request: true
+x-session-token: ory_st_MRptEBYD0Krr9QbRGF2Whp6zqRWN0foL
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: en
+Accept: */*
+application-source: EP_PLATFORM_APP
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 70d7c84c-6e59-4972-8450-a4a3cfe53eb0
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 1825
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'first_name', 'value': 'Bruce', 'type': 'text'}, {'key': 'is_private_request', 'value': 'false', 'type': 'text'}, {'key': 'is_forward_request', 'value': 'false', 'type': 'text'}, {'key': 'last_name', 'value': 'Wayne', 'type': 'text'}, {'key': 'message', 'value': 'Postman. Automated API test\nother requwst\n\nmessge fiekd 98766544 qwweerrrtttzzzuuuii', 'type': 'text'}, {'key': 'message_type', 'value': 'others', 'type': 'text'}, {'key': 'salutation', 'value': 'MR', 'type': 'text'}, {'key': 'sender_company_name', 'value': 'Wayne LLC', 'type': 'text'}, {'key': 'sender_email', 'value': 'purchaserapp1@gmail.com', 'type': 'text'}, {'key': 'subject', 'value': 'others', 'type': 'text'}, {'key': 'sender_phone_number', 'value': '', 'type': 'text'}, {'key': 'product_id', 'value': '', 'type': 'text'}, {'key': 'receiver_company_uuid', 'value': 'fd0d84d0-7646-3eb0-8953-249204c51bdb', 'type': 'text'}, {'key': 'source', 'value': 'APP_COMPANY_PROFILE', 'type': 'text'}]}

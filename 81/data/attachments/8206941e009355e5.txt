@@ -1,0 +1,26 @@
+folder=Endpoints Tests
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=GET
+url=http://rest/v11/lead_management/get_duplicate_records
+query=(no query params)
+headers=
+X-Visable-Auth-Token: OoBRUhKkj6nRO8Cafh+Gr54Yq62vKG9U3IqI/Ba0e1c
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6b6cd104-fd91-4ddb-800f-8c702b6d1044
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+   
+                "company_name": "regressionfrance8130",
+                
+                "company_email_address": "regr.8.13.0@test.example.com"
+                
+}

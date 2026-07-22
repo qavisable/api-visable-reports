@@ -1,0 +1,19 @@
+folder=Technical Tests
+env=Dragon_Staging
+envUid=10155542-25c0a86d-aaaf-4744-a598-081db628c578
+method=POST
+url=https://rfq-backend.internal.wlw-1.production.visable.cloud/rfq-backend/v1/rfqs/1651c878-6dad-4e4c-a026-e2dec345e749/respond
+query=(no query params)
+headers=
+X-Forwarded-Auth-User-Profile: id=1df26612-5d0c-58fd-a170-77acb028b4c7;is_admin=false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 23f970e0-7dd6-4655-bc68-bd9f692d3ed5
+Host: rfq-backend.internal.wlw-1.production.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 355
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'files', 'value': '', 'type': 'text'}, {'key': 'request', 'value': '{"supplierId":"00000000-0000-0000-0000-000000000000","message":"\'; DROP TABLE users; --"}', 'type': 'text'}]}

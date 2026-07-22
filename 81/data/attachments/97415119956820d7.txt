@@ -1,0 +1,24 @@
+folder=Business Scenarios Tests / Feedback
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11/WLW_Feedback
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7d5127c8-75b4-44f2-8b2f-9b0c3bd3260c
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+    "name" : "whatever",
+    "account_id": "02d41b10-e073-11ee-81ce-5a3fda81d038",
+    "csat_sentiment" : "unhappy",
+    "description": "nothing specific just a test"
+}

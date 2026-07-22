@@ -1,0 +1,21 @@
+folder=Endpoint tests / Homepage, products
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/products/recommendations
+query=user_latitude=53.5511&user_longitude=9.9937
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+Accept-Language: de
+application-source: EP_PLATFORM_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 844d13f1-439b-4276-ab13-2ef4d94dd733
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

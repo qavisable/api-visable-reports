@@ -1,0 +1,19 @@
+folder=Technical Tests / conversation-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/conversation/userConversations/%7B%7BuserId%7D%7D/unreadCount
+query=organizationId=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_wI88EacHjInUfLxdBTEHCARFXwONAOGP
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8213adad-5b14-4e97-9a11-6e19a9437023
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

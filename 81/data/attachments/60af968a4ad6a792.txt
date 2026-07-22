@@ -1,0 +1,21 @@
+folder=Endpoint tests / Conversations
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/conversation/dynamiclink
+query=(no query params)
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2fdd1d39-f95f-41d4-8c5b-10477b54f1f2
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 227
+
+body=
+{"link": "https://www.wlw.de/en/conversations?tab=REQUESTS_GROUP&organizationId=00505682-f25b-1ee9-bd91-d2504a0377fb&conversationId=dea4c544-0399-4c47-a7ff-c99160f5e719","conversation_id":"53d5b947-b6a2-4d48-bc8d-5a11172f3e30"}

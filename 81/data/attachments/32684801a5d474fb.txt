@@ -1,0 +1,31 @@
+folder=Technical Tests / contact-form-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/contact-form/messages
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_wI88EacHjInUfLxdBTEHCARFXwONAOGP
+source: {{source}}
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+mobile-session-id: ad066fae-eeae-4504-88c0-9ba1c6db4496
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d1a913ff-a114-42b1-b084-34a8ee2b36ef
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 82
+
+body=
+{
+  "salutation": "example",
+  "first_name": "example",
+  "last_name": "example"
+}

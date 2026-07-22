@@ -1,0 +1,28 @@
+folder=Business Scenarios Tests / Meetings
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11_20/Meetings
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5ac13b55-bfc0-4e0b-b16e-7efc1df5e60b
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "QA Postman Meeting 20260722-073220",
+  "deleted": false,
+  "status": "Planned",
+  "date_start": "2026-07-22T07:32:20",
+  "duration_hours": 0,
+  "duration_minutes": "30",
+  "location": "Postman Test Location",
+  "assigned_user_id": "5a587cce-2223-11e8-8691-0050568a0df7"
+}

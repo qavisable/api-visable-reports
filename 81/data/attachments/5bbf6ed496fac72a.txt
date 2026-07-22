@@ -1,0 +1,24 @@
+folder=Business Scenarios Tests / Contacts
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11_20/Contacts
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a235b36f-65ae-4f25-a07d-6d7230a5e668
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+          "first_name": "Purchaser",
+          "last_name": "Contact",
+         "email1": "purchaser@example.com",
+          "account_name": ""
+      }

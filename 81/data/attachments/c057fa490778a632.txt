@@ -1,0 +1,30 @@
+folder=Endpoint tests / Conversations
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=PUT
+url=https://api.staging.visable.io/mobile/public_api/conversation/userConversations/2016bb33-7803-49a4-b4d8-40f5313485e4/decline
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+x-application-reference: MOBILE
+x-application-version: 3.6.3
+x-application-currency: EUR
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+mobile-session-id: 8d7a35d3-f27d-4845-a844-cc21b1a1d0ed
+x-session-token: ory_st_cokfBfr4iTtOwZ9CWBLqSQVxsD6VoFJ7
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7037b6c8-db79-4f04-9587-af0e1d29c1c5
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 54
+
+body=
+{
+"reason":"Not enough information","description":""
+}

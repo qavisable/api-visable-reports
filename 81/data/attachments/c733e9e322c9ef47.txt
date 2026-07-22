@@ -1,0 +1,18 @@
+folder=Business Scenarios Tests / Tasks
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=GET
+url=http://rest/v11_20/Tasks
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a48cb14a-b7c3-4df6-8517-04f3469d6d7c
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

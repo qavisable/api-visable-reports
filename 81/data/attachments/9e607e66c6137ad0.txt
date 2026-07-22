@@ -1,0 +1,21 @@
+folder=Endpoint tests / Company
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/companies/269672/products
+query=(no query params)
+headers=
+application-source: EP_PLATFORM_APP
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+Accept-Language: fr
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a3b4ebae-1372-4e23-ba00-2ef13fba53f6
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

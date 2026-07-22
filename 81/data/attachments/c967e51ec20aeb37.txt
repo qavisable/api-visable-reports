@@ -1,0 +1,22 @@
+folder=Technical Tests / search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/search/autoComplete
+query=searchKeyword={{searchKeyword}}&abtest={{abtest}}
+headers=
+Authorization: Bearer ory_st_wI88EacHjInUfLxdBTEHCARFXwONAOGP
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+user-source: WLW
+mobile-session-id: ad066fae-eeae-4504-88c0-9ba1c6db4496
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a949be13-68c4-4e40-8c41-7f7dadf76839
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

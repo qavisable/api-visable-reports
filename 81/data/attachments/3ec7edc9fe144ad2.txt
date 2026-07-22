@@ -1,0 +1,21 @@
+httpStatus=400
+responseTimeMs=15
+responseSize=186
+headers=
+Date: Wed, 22 Jul 2026 07:16:52 GMT
+Content-Type: application/problem+json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+
+body=
+{"detail":"Failed to convert 'Accept-Language' with value: '{{acceptLanguage}}'","instance":"/mobile_backend/support-master-data","status":400,"title":"Bad Request","type":"about:blank"}

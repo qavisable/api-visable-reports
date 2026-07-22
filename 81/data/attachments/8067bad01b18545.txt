@@ -1,0 +1,24 @@
+folder=Business Scenarios Tests / Tasks
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=PUT
+url=http://rest/v11_20/Tasks
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e45cd200-3373-4e05-a405-43fb7646b8bd
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "name": "QA Postman Task 1784705537557-changed",
+  "modified_user_id": "{{testAssignUserId}}",
+  "assigned_user_id": "{{testAssignUserId}}",
+  "priority": "Medium"
+}

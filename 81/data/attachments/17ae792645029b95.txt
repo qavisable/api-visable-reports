@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=15
+responseSize=2839
+headers=
+Date: Wed, 22 Jul 2026 07:16:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+[{"id":"1","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/packaging_material.png","key":"packaging_material","name":"Packaging Materials","order":1,"search_keyword":"Packaging Materials","selected":false},{"id":"2","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/machining_forming.png","key":"machining_forming","name":"Machining & Forming","order":2,"search_keyword":"Machining & Forming","selected":false},{"id":"3","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/food_beverage.png","key":"food_beverage","name":"Food & Beverage","order":3,"search_keyword":"Food & Beverage","selected":false},{"id":"4","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/containers_logistics_storage_supplies.png","key":"containers_logistics_storage_supplies","name":"Containers & Logistics","order":4,"search_keyword":"Containers & Logistics","selected":false},{"id":"5","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/furniture_contract_furnishing.png","key":"furniture_contract_furnishing","name":"Furniture & Furnishing","order":5,"search_keyword":"Furniture & Furnishing","selected":false},{"id":"6","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/raw_materials_chemistry.png","key":"raw_materials_chemistry","name":"Raw Materials & Chemicals","order":6,"search_keyword":"Raw Materials & Chemicals","selected":false},{"id":"7","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/plastics_plastic_products.png","key":"plastics_plastic_products","name":"Plastics & Products","order":7,"search_keyword":"Plastics & Products","selected":false},{"id":"8","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/fastening_joining_fittings.png","key":"fastening_joining_fittings","name":"Fastening & Fittings","order":8,"search_keyword":"Fastening & Fittings","selected":false},{"id":"9","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/refrigeration_air_conditioning_ventilation_heating.png","key":"refrigeration_air_conditioning_ventilation_heating","name":"Cooling & Heating","order":9,"search_keyword":"Cooling & Heating","selected":false},{"id":"10","image":"https://wlw-1-mobile-files20201104160048851700000001.s3.eu-central-1.amazonaws.com/categories_images/metal_metal_products.png","key":"metal_metal_products","name":"Metals & Products","order":10,"search_keyword":"Metals & Products","selected":false}]

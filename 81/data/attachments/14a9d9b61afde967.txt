@@ -1,0 +1,26 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/suppliers/00505682-f25b-1ee9-bd91-d2504a0377fb/visits/2025-12-30-5102405037
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+source: mobile
+x-application-reference: MOBILE
+application-source: PURCHASER_APP
+user-source: WLW
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: de
+x-session-token: ory_st_wI88EacHjInUfLxdBTEHCARFXwONAOGP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 80528fa2-1bd3-4653-9543-20780de4a6fa
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

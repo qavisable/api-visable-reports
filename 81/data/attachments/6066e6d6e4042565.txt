@@ -1,0 +1,29 @@
+folder=Technical Tests / ai-company-search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/search/ai/supplier/recall
+query=(no query params)
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+mobile-session-id: ad066fae-eeae-4504-88c0-9ba1c6db4496
+x-api-key: {{apiKey}}
+Accept-Language: {{acceptLanguage}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a71b66d2-54ed-4826-9750-f4708289748e
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 114
+
+body=
+{
+  "page": 1,
+  "pageSize": 1,
+  "productQpKeywords": "example",
+  "query": "example",
+  "requestId": "example"
+}

@@ -1,0 +1,21 @@
+httpStatus=400
+responseTimeMs=53
+responseSize=737
+headers=
+Date: Wed, 22 Jul 2026 07:16:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+
+body=
+{"message":"[GET] https://conversations-service.internal.wlw-1.staging.visable.cloud/conversations-service/v0/conversations/53d5b947-b6a2-4d48-bc8d-5a11172f3e30/file?url=null&userId=d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc&organizationId=00505682-f25b-1ee9-bd91-d2504a0377fb ->> org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : \"{\"status\":400,\"code\":\"ILLEGAL_PARAMETER\",\"message\":\"No Message ID found in URL\"}\".statusCode org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : \"{\"status\":400,\"code\":\"ILLEGAL_PARAMETER\",\"message\":\"No Message ID found in URL\"}\".statusText 400 : \"{\"status\":400,\"code\":\"ILLEGAL_PARAMETER\",\"message\":\"No Message ID found in URL\"}\""}

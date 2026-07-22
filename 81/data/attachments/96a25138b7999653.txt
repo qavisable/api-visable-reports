@@ -1,0 +1,23 @@
+folder=Endpoint tests
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=DELETE
+url=https://api.staging.visable.io/mobile/public_api/auth/sso/logout
+query=(no query params)
+headers=
+Content-Type: application/json
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+mobile-session-id: 13ab577f-a7fe-44a9-8ca6-9a8d996503ec
+x-session-token: ory_st_P9kRXMxYRcxs0oDCeS6iREm7Tz3QIDB1
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b7a6f5a6-9a0d-45f0-a397-2cb3f20c3f07
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

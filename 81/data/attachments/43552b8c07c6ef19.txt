@@ -1,0 +1,29 @@
+folder=Endpoints Tests
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11_20/WLW_SyncEvents/signal_inbound_event
+query=(no query params)
+headers=
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+Authorization: 
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1d8862c1-0878-4124-b177-42b1fe9ca623
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+       "event_source": "conversation_platform",
+       "external_system": "web",
+       "event_type": "buyer_lead",
+       "external_id": "0081e8a3-6582-5933-aa5d-718d2927cdc4",
+       "mode": "synchronous",
+       "direction": "inbound",
+        "data": {}
+      }

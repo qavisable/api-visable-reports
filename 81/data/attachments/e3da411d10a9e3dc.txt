@@ -1,0 +1,23 @@
+folder=Technical Tests / rfq-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/connect/purchaser/tenders
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_wI88EacHjInUfLxdBTEHCARFXwONAOGP
+x-api-key: {{apiKey}}
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+mobile-session-id: ad066fae-eeae-4504-88c0-9ba1c6db4496
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: da231fd4-342f-4201-a6c9-282226b141f2
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 354
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'tenderRequest', 'value': '{"title": "example", "description": "example", "keywords": ["example"]}', 'type': 'text'}, {'key': 'files', 'value': '["example"]', 'type': 'text'}]}

@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=15
+responseSize=1816
+headers=
+Date: Wed, 22 Jul 2026 07:16:29 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+[{"answer":"Bevor Sie eine Anfrage abschicken, sollten Sie prüfen, ob das Unternehmen eine hohe Antwortquote hat und schnell antwortet. Diese Informationen sind auf der Detailseite des Unternehmens auf unserer Plattform verfügbar und können Ihre Chancen auf eine Antwort erhöhen. Wenn Sie immer noch keine Antwort erhalten, teilen Sie uns bitte Ihr Feedback mit, damit wir Ihre Erfahrungen weiter verbessern können","language":"de","question":"Warum bekomme ich keine Antworten von den Anbietern?","ranking":1},{"answer":"Sie können überprüfen, ob das Unternehmen von unserem Team verifiziert wurde - das bedeutet, dass wir seine Geschäftsdaten auf Echtheit überprüft haben. Wenn Ihnen ein verdächtiges Verhalten eines verifizierten Unternehmens auffällt oder Sie einen Betrug vermuten, melden Sie es uns bitte sofort, damit wir es untersuchen können.","language":"de","question":"Wie kann ich einem Unternehmen vertrauen?","ranking":2},{"answer":"Zuerst müssen Sie sich auf unserer Plattform als Käufer registrieren und dann müssen Sie sich auf der Website als Lieferant registrieren.wlw - Lieferantenregistrierung(https://www.wlw.de/de/supplier-registration)Sobald Ihr Unternehmen verifiziert ist, können Sie Ihre Unternehmensdaten und Produkte direkt auf der Website zur Plattform hinzufügen.","language":"de","question":"Wie möchte ich mein Unternehmen und meine Produkte in die Plattform aufnehmen?","ranking":3},{"answer":"Eine Angebotsanfrage ist eine B2B Einkaufslösung von Visable GmbH. Sie verbindet Käufer mit Lieferanten, spart Zeit und Anstrengung für beide Parteien. Hinweis: Europages oder Wer liefert was sind nicht an Transaktionen zwischen den beiden Parteien beteiligt - sie handhaben nur die Angebote.","language":"de","question":"Was sind Angebotsanfragen? ","ranking":4}]

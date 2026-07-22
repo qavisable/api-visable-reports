@@ -1,0 +1,27 @@
+folder=Technical Tests / login-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/auth/changePassword
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_wI88EacHjInUfLxdBTEHCARFXwONAOGP
+x-api-key: {{apiKey}}
+user-source: WLW
+mobile-session-id: ad066fae-eeae-4504-88c0-9ba1c6db4496
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8abd6c6e-031b-49a6-a3d6-6bd4a75e4e8e
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 87
+
+body=
+{
+  "email": "example",
+  "set_ory_session_token": "example",
+  "password": "example"
+}

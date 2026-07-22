@@ -1,0 +1,33 @@
+folder=Business Scenarios Tests / Contacts
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11_20/Contacts
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cbdb1c8f-caad-4e1d-bcc6-8eedab7e2c4c
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+
+    "description": "",
+    "salutation": "female",
+    "first_name": "test",
+    "last_name": "aircall",
+    "title": "",
+    "do_not_call": false,
+    "phone_mobile": "",
+    "telephone_nr_office": "07567465610",
+    "phone_fax": "",
+    "picture": "",
+    "account_name": "",
+    "email1": "johndoe@example.com"
+}
