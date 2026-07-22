@@ -1,0 +1,28 @@
+folder=Business Scenarios Tests / Contacts
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=POST
+url=http://rest/v11_20/Contacts
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 217dafe5-f1a1-43a1-b6b6-e6c125d526c1
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "first_name": "Test",
+  "last_name": "Contact_1784702426384",
+  "email1": "test.contact_1784702426384@example.com",
+  "account_id": "",
+  "preferred_language": "en",
+  "hubspot_enabled": true,
+  "primary_address_city": "Hamburg",
+  "primary_address_country": "DE"
+}

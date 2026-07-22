@@ -1,0 +1,25 @@
+folder=Technical Tests / conversation-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/conversation/userConversations/%7B%7BconversationId%7D%7D/messages/10737855/translate
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_TbxehyPTmNJFrXLACdmucLAipsoFBczP
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 87e880cd-a451-4b0d-b74a-ae3dc497da5d
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 44
+
+body=
+{
+  "targetLanguages": [
+    "example"
+  ]
+}

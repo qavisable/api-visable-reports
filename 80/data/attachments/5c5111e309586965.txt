@@ -1,0 +1,19 @@
+folder=Business Scenarios Tests / Platform Profile
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=PUT
+url=http://rest/v11_20/WLW_PlatformProfiles/e6d73c3a-6e52-11ef-a831-0a58a9feac02
+query=(no query params)
+headers=
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d030a778-5472-4726-9689-855c1afa936e
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{"website" : "https://example.com/path?param1=value+with+spaces&param2=special%20characters%26symbols"}

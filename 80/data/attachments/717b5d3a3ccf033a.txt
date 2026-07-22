@@ -1,0 +1,34 @@
+folder=Endpoint tests / Company
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/branchio/dynamiclink
+query=(no query params)
+headers=
+application-source: EP_PLATFORM_APP
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+Accept-Language: de
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 606bc283-fed7-48e2-8b16-b9d83dee165c
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 667
+
+body=
+{
+  "redirect_link": "https://www.europages.de/de/firma/visable-gmbh-20041664/produkte/wlw-ihr-firmenprofil-fuer-online-sichtbarkeit-in-der-dach-region-35325929",
+  "source": "EP_PLATFORM_APP",
+  "medium": "product_share",
+  "route": "PRODUCT_PROFILE",
+  "data": "a698320f-08b8-5aa1-b330-24441517ccba",
+  "social": {
+    "socialTitle": "wlw - Ihr Firmenprofil für Online-Sichtbarkeit in der DACH Region",
+    "socialDescription": "Auf wlw präsentieren Sie sich Einkaufs-Entscheidern in der nachfragestarken DACH-Region.",
+    "socialImageLink": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/47b7ff43-6ca2-11ef-be9a-0a58a9feac02.jpeg"
+  }
+}

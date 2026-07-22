@@ -1,0 +1,21 @@
+folder=Endpoint tests / Conversations
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/conversation/userConversations/94407aa7-1055-4811-ac69-2b9bbdfba074/messages
+query=(no query params)
+headers=
+user-source: EUROPAGES
+Accept-Language: de
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-session-token: ory_st_88AHDmdHlak2Cfq5BhSPkHU5Q01u2DQz
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b44c6772-0968-441d-a3be-90ed008ae126
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

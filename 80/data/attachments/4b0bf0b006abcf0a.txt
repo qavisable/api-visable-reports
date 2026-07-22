@@ -1,0 +1,22 @@
+folder=Endpoint tests / Homepage, products
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=PUT
+url=https://api.staging.visable.io/mobile/preferred/categories
+query=user_setting_id=0dd84e69-4633-43a9-99be-c9b12baff58f
+headers=
+Accept-Language: en
+Content-Type: application/json
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+user-source: EUROPAGES
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 22ab53f2-f567-429b-8d6b-917bc84c7f2a
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 48
+
+body=
+{     "category_ids":["11", "19", "999999999"] }

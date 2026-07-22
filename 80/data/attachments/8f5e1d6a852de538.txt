@@ -1,0 +1,20 @@
+folder=Endpoint tests / Support
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/support-faq
+query=(no query params)
+headers=
+Accept-Language: en
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1500ee80-0079-4078-8714-0f0ba31b95f2
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

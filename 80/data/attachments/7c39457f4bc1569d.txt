@@ -1,0 +1,25 @@
+folder=Endpoint tests / Mobile_Feedback
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/v1/feedback
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+source: mobile
+x-application-reference: MOBILE
+application-source: PURCHASER_APP
+user-source: WLW
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: en
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a7366a14-9753-40d3-9718-86a6f6894ea4
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'email', 'value': 'visableapp@gmail.com', 'type': 'text'}, {'key': 'subject', 'value': 'The Experience of the app', 'type': 'text'}, {'key': 'message', 'value': 'Postman 2026-07-22T06:24:29.618Z automated test', 'type': 'text'}, {'key': 'userConsent', 'value': 'true', 'type': 'text'}]}

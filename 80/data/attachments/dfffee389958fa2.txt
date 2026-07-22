@@ -1,0 +1,20 @@
+folder=Endpoints Tests
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=GET
+url=http://rest/v11/Accounts/get_company_data/crm_id/e2206d28-dbf8-11f0-96ad-06b509b07d6f
+query=(no query params)
+headers=
+OAuth-Token: 
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+X-Visable-Bypass-Token: 
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ce284f7e-6584-48df-bc05-9a2475a966a9
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

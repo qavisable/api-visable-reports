@@ -1,0 +1,33 @@
+folder=Endpoints Tests
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=PUT
+url=http://rest/v11/Accounts/update_wlw_connect/sf_id
+query=(no query params)
+headers=
+X-Visable-Auth-Token: SRJJqyrbdheOQiT8eNqYzgtA4jjMZrbiAyvsYl++oRc
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e4225415-483f-42ab-9cc5-655f754062b3
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+	"companies": [
+		{
+			"id": "cd27de7b-47db-458b-a5c3-5174690dcf0d",
+			"wlw_connect_received": 42,
+			"wlw_connect_answered": 23
+		},
+		{
+			"id": "cd27de7b-47db-458b-a5c3-5174690dcf0d",
+			"wlw_connect_received": 17,
+			"wlw_connect_answered": 7
+		}		
+	]
+}

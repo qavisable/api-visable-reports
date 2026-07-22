@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d259d4c4d7fb/2025-12-01_2025-12-30_visitors_lwak.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJXNKZ3MTC%2F20260722%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260722T062411Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaDGV1LWNlbnRyYWwtMSJIMEYCIQCoAWFwbPxPB2DM4on6j%2FsXJlEsUpv02IOrVVIf0fIF%2FAIhAO6FcR%2BJVEyzt1YZaqGEN3V%2F4JirQd9XYCWNbUKbYIR%2BKu0DCM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzg5NzI4MTMyMDUxIgwJASO%2FM7NGa%2FPluY4qwQOMimE9fOzpuRwDPng3yM68fYtZoZKsuqn41pPbL3Cp9L1A2tfzVFfS%2FXLaYSlATYABrxmjXJPf%2BM89%2BwFzbFuBcsvx50T1cyBMRyKdXaRkjFzEEigUSpBF4i0sadUc0S%2FGfcKIrj7H1gGnfm93um4ZY4kYFusC44aInbnLkwvpfxGAbOknCZPbqAmbdiThkSIIItrcPMbVHF38mSmg5WZrbCHlmc3RZgjnxWoAL%2BqOuO0Iz3NtGdW%2FoYcN4Mi8yGo7mqxZBZwmZ9rlmMA5%2FeNGCbfv%2FI637l5ld7AWHtQ5ed9Tpkmyf30qyrFirrK1qhkikgB0dbWACp7dCZg59jIs7rPjMaS8fdkw0iX%2B%2Bzk30AJZFrWf9C8nmfXaMIGGnrGqc6Zxlioid%2FnVJOem8zF9tlHrSlfcQNbPu7%2BNTedCnd1z6I%2BHs18gatG%2BsDlF%2BhYUysmp%2BqresjlZrTiYxovXjP%2BYGeciqe69HA6%2BVXfZJX06jTEduZFDTliJBEhmxRaQfeVQIB5sk0cAuR%2Ffr0dB%2B%2FcbhWVcScZov3gs9%2FMQfGz0hyr%2ByEt6JlyKE2%2BzW5UrWMelnyYqY3fb8T%2FZzdtpejCkvoHTBjqkAXHjroJFHuC6XhmOK2%2F6RbAZ90gYvd7akRrdGBuLjg2xLGPBO4elyRq4Z8DFnYUXMW5qE%2BZ8kpBgqbctTuT1m1Xu3olVuOhD3hYVjS5yRyGsYQe9xqGf2juDocDWAn8iQkzNtrTIe57bQkI%2BRP%2FPpRbZI3ngBLVm7rYXvlDV70B0w%2FfE2%2FI%2Bq1Rub88j8pQ4UEKipz3YTbtc%2FY%2BnCYa3vxn5RdzW&X-Amz-SignedHeaders=host&X-Amz-Signature=2a399841307faacc5a3601611d5298ccd16f81e105d182e1ae9772cbeda78f87
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 23db2794-57e3-4162-aaea-5b593ecfb778
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

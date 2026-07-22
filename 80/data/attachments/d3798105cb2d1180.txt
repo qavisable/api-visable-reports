@@ -1,0 +1,27 @@
+folder=Endpoints Tests
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=PUT
+url=http://rest/v11/Accounts/update_website_leads/sf_id/00505682-635e-1eea-9bba-9c63070457fb
+query=(no query params)
+headers=
+X-Visable-Auth-Token: SRJJqyrbdheOQiT8eNqYzgtA4jjMZrbiAyvsYl++oRc
+X-Visable-Bypass-Token: 
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: da9a2777-dd48-49f7-8aed-d152c8538e75
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "website_leads_domains": "test.com",
+  "had_website_leads_traffic": true,
+   "id_type": "sf_id",
+   "lookup_id": "00505682-635e-1eea-9bba-9c63070457fb"
+
+
+}

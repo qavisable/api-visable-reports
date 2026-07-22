@@ -1,0 +1,24 @@
+folder=Endpoint tests / Contact request
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/contact-form/messages
+query=(no query params)
+headers=
+mobile-request: true
+x-session-token: ory_st_1wgeImJMivXKVPu0hZ5mlHS3ZpfyQg3a
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: en
+Accept: */*
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: d7836c72-e2d9-4aea-8064-f30980702ac7
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 2347
+
+body=
+{'mode': 'formdata', 'formdata': [{'key': 'first_name', 'value': 'Bruce', 'type': 'text'}, {'key': 'is_private_request', 'value': 'false', 'type': 'text'}, {'key': 'is_forward_request', 'value': 'true', 'type': 'text'}, {'key': 'last_name', 'value': 'Wayne', 'type': 'text'}, {'key': 'message', 'value': 'Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n', 'type': 'text'}, {'key': 'message_type', 'value': 'request_type_quote_price', 'type': 'text'}, {'key': 'salutation', 'value': 'MR', 'type': 'text'}, {'key': 'sender_company_name', 'value': 'Wayne LLC', 'type': 'text'}, {'key': 'sender_email', 'value': 'purchaserapp1@gmail.com', 'type': 'text'}, {'key': 'subject', 'value': 'request_type_quote_price', 'type': 'text'}, {'key': 'sender_phone_number', 'value': '+2580007004999', 'type': 'text'}, {'key': 'product_id', 'value': '', 'type': 'text'}, {'key': 'receiver_company_uuid', 'value': 'fd0d84d0-7646-3eb0-8953-249204c51bdb', 'type': 'text'}, {'key': 'title', 'value': 'request a callback', 'type': 'text'}, {'key': 'quantity', 'value': '10500 pcs.', 'type': 'text'}, {'key': 'location', 'value': 'Berlin, Germany', 'type': 'text'}, {'key': 'country_code', 'value': 'DE', 'type': 'text'}, {'key': 'source', 'value': 'APP_COMPANY_PROFILE', 'type': 'text'}]}

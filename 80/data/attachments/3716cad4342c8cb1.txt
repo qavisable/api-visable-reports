@@ -1,0 +1,26 @@
+folder=Business Scenarios Tests / Disable Hubspot
+env=Stage_CRM_Customized
+envUid=10574263-1ed787d4-84ae-429a-ac51-28d6cbd48a18
+method=PUT
+url=http://rest/v11_20/Accounts/c5050e1c-9b86-a7c5-a5d6-55fc34f7783f
+query=(no query params)
+headers=
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/json
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+host: crmtest.visable.com
+X-Visable-Bypass-Token: 
+Cache-Control: no-cache
+Postman-Token: 876ea89e-452f-4ba6-932c-5e0be1efa4e7
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{"hubspot_enabled": "false"}
