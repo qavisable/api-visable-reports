@@ -1,0 +1,22 @@
+folder=Technical Tests / user-controller
+method=PUT
+url=
+query=(no query params)
+headers=
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7748e69c-7ab4-4b8c-8094-a3c89003bd1a
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 86
+
+body=
+{
+  "preferred_language": "example",
+  "country_code": "example",
+  "is_admin": true
+}

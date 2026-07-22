@@ -1,0 +1,20 @@
+folder=Technical Tests / login-controller
+method=DELETE
+url=
+query=(no query params)
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+x-api-key: {{apiKey}}
+user-source: WLW
+x-session-token: {{sessionToken}}
+mobile-session-id: fcf709ba-da18-44d6-a20a-67ccd2b1dc15
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 797620da-b510-4b4b-a38a-bc42b2fbd253
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

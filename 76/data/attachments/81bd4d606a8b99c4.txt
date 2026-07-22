@@ -1,0 +1,35 @@
+httpStatus=200
+responseTimeMs=117
+responseSize=45225
+headers=
+Cache-Control: no-store, no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="coop-endpoint"
+Reporting-Endpoints: coop-endpoint="https://coop.msauth.net:443/api/coopReport?client_type=none-none&client_id=6e5f5d29-9f6f-4c3e-9c9a-ab66207d28e3&correlation_id=3500f0ad-1523-41b3-8058-44094156d088"
+Link: <https://aadcdn.msftauth.net>; rel=preconnect; crossorigin
+Link: <https://aadcdn.msftauth.net>; rel=preconnect; crossorigin,<https://aadcdn.msftauth.net>; rel=dns-prefetch
+Link: <https://aadcdn.msftauth.net>; rel=preconnect; crossorigin,<https://aadcdn.msftauth.net>; rel=dns-prefetch,<https://aadcdn.msauth.net>; rel=dns-prefetch
+X-DNS-Prefetch-Control: on
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+x-ms-request-id: a6a7930e-d1a3-4a5d-8a56-ceaeb1706900
+x-ms-ests-server: 2.1.24860.5 - WEULR1 ProdSlices
+x-ms-srs: 1.P
+Content-Security-Policy-Report-Only: object-src 'none'; base-uri 'self'; script-src 'self' 'nonce-4Vyop0-uB-R_03O9l_c_HA' 'unsafe-inline' 'unsafe-eval' https://*.msauth.net https://*.msftauth.net https://*.msftauthimages.net https://*.msauthimages.net https://*.msidentity.com https://*.microsoftonline-p.com https://*.microsoftazuread-sso.com https://*.azureedge.net https://*.outlook.com https://*.office.com https://*.office365.com https://*.microsoft.com https://*.bing.com 'report-sample'; report-uri https://csp.microsoft.com/report/ESTS-UX-All
+X-XSS-Protection: 0
+Set-Cookie: buid=1.ATEAmTU4P-Rj10WyFm9ctvNIZCldX25vnz5MnJqrZiB9KOMAAAAxAA.AQABGgEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzAwAAAAAALBPYVHBfVdJtC_J7u42-ynW2QMQSAmuPtHDhkf7XdNBGsCK_I5o2Jz09heDGdK6T02I0Gu2NuAH4-xowg9VzAEoBbvXYAW_sBHaNOcT8_oAgAA; expires=Fri, 21-Aug-2026 02:16:27 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: esctx=PBgABBwEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAAke1B0qP-KtdIicUtP1UrKq5JoaGbqr6uwR7dw6tjyh5k9h8AJl_GaLHBcSGj8bwfXgfNtFL5TiZcILQbQSGgpMMJQdedQwvtHaLV-cHdr5WWLNUvkOAtdz6pxLsPfx-46kRPV9fR3W28pL3NExWPzpC8a0oudzillVMXWepFbob5CDqJ0m7VZu6RdUb31_92ZXy7PTSUSktbylwrOAR0jki_E-Mt9-jMis_OKYEVdrbtD2ASmM5Cgk0E7xoKxBfhxpKugE5Cwo94bmsdO6WYuodqeQ1QX62_Hnx0-m7ysz3324euwPYgjD7TjsTLSPmUCzuXyDUZtTDtTxkYpYYt1oyg4TjC0uoFZ5XbJXfKxwRoyryjW_dYdjC_lvywnixnZWYP2JKL86IayuQrKvprhy-18zApAlpSCKmtySK8UfiiDIwtlqFGtATXm4pPXNBFojHzEgw10_eOaPJ1XoWGf0VPQCwQC4dXBw94_jgg_DbXmh6kuXMaGaaUSPUD7D_eKgWDmis3sBkzW150a4dN-Mwqh9F0eUtZgqQOi3t3usa7-u8h0TZzv_VMgtJHiW2FAc4Yn3VF4SKgylYzaJC5wVC46o8R6_h9eRLdixQRGGDn4ijED1HpK3jZSUU5AwM4t53pqTWfKaQ4lGNb8q6YWk0WuTFOzQ2b06-FypKQpufsvJKxF2xdKZ8ZwFNY1HRUGxLsu1Ywdny1NZGE8MXF6wLZ62lvqvx__mXXelouL7ggAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: esctx-1j2iYTN1hAI=AQABCQEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzDQAAAAAAN3VabZ7KfivjjnvVCd_p2TkknRUn-G664QOnwfQvZGWC-oHDB24U7amm9lkpva1phlr2BFLVrt2_Q9uBXbV57qYhKkwjxrB0983VwYPetRehZnxFbPBoPTrH4hGKhjTSOHvJkur9hOheIi_tvyTzNCAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: fpc=Aruq5WoXtkdJn_NRSp6QtXPxIZg2BQAAAPoe8uEOAAAA; expires=Fri, 21-Aug-2026 02:16:27 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly
+Date: Wed, 22 Jul 2026 02:16:26 GMT
+Content-Length: 17764
+
+body=
+(empty response body)

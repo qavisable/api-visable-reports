@@ -1,0 +1,22 @@
+folder=Technical Tests / search-controller
+method=GET
+url=
+query=searchRequestWrapper={{searchRequestWrapper}}
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+x-api-key: {{apiKey}}
+x-application-currency: {{xApplicationCurrency}}
+mobile-session-id: fcf709ba-da18-44d6-a20a-67ccd2b1dc15
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+x-application-version: {{xApplicationVersion}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ee069088-2001-4924-b492-51191e44c3ab
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

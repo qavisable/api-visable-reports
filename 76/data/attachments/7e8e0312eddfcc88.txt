@@ -1,0 +1,28 @@
+folder=Technical Tests / help-and-support-controller
+method=POST
+url=
+query=(no query params)
+headers=
+application-source: {{applicationSource}}
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: bfe858d6-8e5d-4241-b6b9-4bab9d5b4ee0
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 211
+
+body=
+{
+  "applicationSource": "example",
+  "companyName": "example",
+  "email": "example",
+  "message": "example",
+  "phoneNumber": "example",
+  "subject": "example",
+  "upgradePackage": true,
+  "userConsent": true
+}

@@ -1,0 +1,20 @@
+folder=Endpoint tests / Conversations
+method=GET
+url=
+query=pageSize=25&stateFilter=RECEIVED&organizationId=00505682-f25b-1ee9-bd91-d259d4c4d7fb
+headers=
+user-source: WLW
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+application-source: PURCHASER_APP
+Accept-Language: de
+x-session-token: ory_st_19ZX4aPoslVfNXDM4z4A547c0dpfC1Xk
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6c705f12-5566-4400-b3bb-f9d2f731e55b
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

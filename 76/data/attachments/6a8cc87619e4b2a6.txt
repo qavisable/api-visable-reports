@@ -1,0 +1,19 @@
+folder=Technical Tests / search-term-controller
+method=POST
+url=
+query=searchKeyword={{searchKeyword}}
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+mobile-session-id: fcf709ba-da18-44d6-a20a-67ccd2b1dc15
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 22c89157-9af6-4ff1-9590-ad4fc3b2a927
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)

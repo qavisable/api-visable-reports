@@ -1,0 +1,28 @@
+folder=Technical Tests / categories-controller
+method=PUT
+url=
+query=user_setting_id={{user_setting_id}}
+headers=
+Authorization: Bearer ory_st_19ZX4aPoslVfNXDM4z4A547c0dpfC1Xk
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+x-api-key: {{apiKey}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 55ef90eb-a9e3-4acd-a66d-d09779a8d7d6
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 75
+
+body=
+{
+  "categoryIds": [
+    "example"
+  ],
+  "superCategoryIds": [
+    1
+  ]
+}
