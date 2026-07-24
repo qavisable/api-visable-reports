@@ -1,0 +1,36 @@
+folder=Endpoints Tests
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=PUT
+url=https://crmtest-api.visable.com/rest/v11/Accounts/update_wlw_connect/sf_id
+query=(no query params)
+headers=
+X-Visable-Auth-Token: SRJJqyrbdheOQiT8eNqYzgtA4jjMZrbiAyvsYl++oRc
+OAuth-Token: 89827d11-ec5a-400a-9165-8bf8e3c62ade
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f0fc7f42-112f-4910-9b84-6fece2b4911d
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 261
+Cookie: download_token_base=bd456f20-e150-4efd-b142-6c6eade5dffd; AWSALBAuthNonce=ImLSvE4asWJdqz7I
+
+body=
+ {
+	"companies": [
+		{
+			"id": "cd27de7b-47db-458b-a5c3-5174690dcf0d",
+			"wlw_connect_received": 42,
+			"wlw_connect_answered": 23
+		},
+		{
+			"id": "cd27de7b-47db-458b-a5c3-5174690dcf0d",
+			"wlw_connect_received": 17,
+			"wlw_connect_answered": 7
+		}		
+	]
+}

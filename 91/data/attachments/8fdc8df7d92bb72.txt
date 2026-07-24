@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=22
+responseSize=3554
+headers=
+Date: Fri, 24 Jul 2026 02:35:33 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+[{"answer":"Visable et Alibaba ont conclu leur partenariat en novembre 2023. L'objectif est d'accélérer la croissance de Visable en tirant parti du leadership d'Alibaba.com dans les domaines de la technologie, du commerce électronique et de l'expérience en matière d'expansion internationale. Ce faisant, Visable continuera d'opérer en tant qu'entreprise indépendante avec sa propre marque et sa propre stratégie de croissance. La structure organisationnelle existante sera maintenue et l'équipe de direction actuelle continuera à diriger l'entreprise et à piloter sa croissance.","language":"fr","question":"Pourquoi et depuis quand Visable et Alibaba sont-ils partenaires ?","ranking":1},{"answer":"En tant que client de Visable, vous bénéficiez d'un profil sur Alibaba.com qui sera classé comme une liste payante, et cela est entièrement gratuit pour vous. Les modifications apportées au contenu sont synchronisées automatiquement. Au final, vos produits et services bénéficieront d'une visibilité accrue et la demande émanant de toute l'Europe augmentera.","language":"fr","question":"Quels avantages puis-je tirer de l'inscription de mon profil d'entreprise sur Alibaba.com ?","ranking":2},{"answer":"Nous ne partageons que des informations sur Alibaba.com qui sont déjà disponibles publiquement sur votre profil d'entreprise europages. Nous ne partageons pas de données sensibles telles que les adresses électroniques, les noms, etc.","language":"fr","question":"Comment mes données sont-elles protégées ?","ranking":3},{"answer":"Si vous ne souhaitez pas que votre profil d'entreprise europages soit publié sur Alibaba.com, il vous suffit de décocher la case pour l'inscription sur Alibaba.com. Pour ce faire, connectez-vous et naviguez jusqu'à la section \"Profil de l'entreprise\". Si vous décidez de republier votre profil après un certain temps, vous pouvez le faire à tout moment.","language":"fr","question":"Je ne veux pas que mon profil apparaisse sur Alibaba.com - que puis-je faire ?","ranking":4},{"answer":"Pour que vos produits apparaissent dans la recherche de produits, et pas seulement dans la recherche d'entreprises sur Alibaba.com, il est important que vous ayez fixé des prix pour vos produits. En outre, l'ajout d'un maximum d'autres informations telles que la quantité minimale de commande, le matériau, le lien vers le site web, etc. contribuera à accroître la visibilité de vos produits.","language":"fr","question":"Comment puis-je améliorer la visibilité de mes produits sur Alibaba.com ?","ranking":5},{"answer":"Dans le profil de votre entreprise, nous afficherons les éléments suivants : - Nom de l'entreprise - Site web de l'entreprise - Adresse et pays de l'entreprise - Secteur d'activité - Nombre d'employés Dans les pages détaillées de vos produits, nous afficherons les éléments suivants : - Titre du produit - Catégorie de produit - Description - Mots-clés - Images Toutes les autres valeurs : - Prix - Unité - Quantité minimale de commande - Lien vers le site web, etc.   ","language":"fr","question":"Quelles sont les données qui apparaissent sur mon profil Alibaba.com ?","ranking":6},{"answer":"Votre visibilité auprès des acheteurs sur Alibaba.com sera limitée en fonction des marchés que vous ciblez avec votre profil d'entreprise europages. Cela signifie qu'en tant que client d'europages, vous pouvez être vu par les acheteurs de toute l'Europe.","language":"fr","question":"Qui voit mon profil et mes produits sur Alibaba.com ?","ranking":7}]

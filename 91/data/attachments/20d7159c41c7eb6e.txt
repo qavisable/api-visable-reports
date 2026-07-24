@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d2504a0377fb/2025-12-01_2025-12-30_visitors_f35f.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJ6CGFMMBI%2F20260724%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T023703Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaDGV1LWNlbnRyYWwtMSJIMEYCIQDcW%2FQU5BQS6H0nXWGKnn%2BBrXFLp2ufPgtaOhJaSZxg8QIhAOxWwMv6YtLPITEgPlO7W7s8KSCHv%2Ft%2FpQBZgndDREYxKu0DCPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzg5NzI4MTMyMDUxIgx%2FcJDX1sbDjGGuF6AqwQOFPI9xFvRZSDS4ahR2M7FxfwX8eEn1WNv7OR%2FsHKnbKJlUq3%2BRIufPSxpIfkLOqgiuwwT7ebUjp2%2BD4zjoz0VnlltbToyFEzdajSCDmQjLuX8mvhXKX4XZyLxMNIKZ4mt%2BmFfz%2FLNijqaYvYxAChQUSt5Wu4HqdqWxFIeEM7UF%2FN0srTIAUPWBpUvFMZ8nF0Jp6zc%2FZgQvO8hqngKFGUqiXDlNSWhTCSW5oFDJ%2FXLaGgerW%2BkhoF4nwqySniy1ofZ8UOgtPwE2Gy9AHRbjLr4xEaBgI5m3X1SayC9ZwhYcvATMJkJAx5jY%2BvvoX4iskKZHJF8mm0vPlS2S8ch1zwk4AroQS31bSMD2yO1C9B8sNSbRoDVqKfqY2TOfQbguFbDf66ZcEf1dl6ErPqkU4gamUkbj3Y%2FiK%2BIhBsby9vu5KILv4ywHV99qD8qiP7TsSAvkFaiI7h35lrwsu4ISeBZlpfPSM7MMdOWMCXGpEVULnIhhlil%2BBDlEHOTHpgYogq%2Bg8WlszgXdywbVqdUJwTasq8s0lE6TtdqJ%2F12kIARpvCEnSLE%2BeiJzjZAwkqpyZkN5DYoW5WlWVJm3om9JrPdYxDC%2FnIvTBjqkAWtawyC%2FXASMPoxMQcy1ylAeovHCIk8Z8aGWQT4TZrSYXdcQELAS0%2BVhzvmWBaVH0nBPpGc1%2BMdEF4kpux%2FJ0pZfcYjC4sddd%2BFn7Cn7ZSlAWlf90dhLNUMK95BMYUZR%2BPE7z%2BcI1dfvC0wBNZFzFWSXxL35XB7pda6G1aPlWmSQDTC0pmqNhcZoYHu1zaG6qCypukxuf52%2FZmH93akfPILTX0nO&X-Amz-SignedHeaders=host&X-Amz-Signature=3fb6c97a93b4f626f178228716c89d78dba5b7c974a717eb32cc1d2e5d6cbdc9
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: bea4cf25-9801-4c3a-b7bb-b8189ab41c61
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

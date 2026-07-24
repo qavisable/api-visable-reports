@@ -1,0 +1,16 @@
+httpStatus=200
+responseTimeMs=47
+responseSize=235
+headers=
+Date: Fri, 24 Jul 2026 02:39:51 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Cache-Control: max-age=0, private
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"crm_account_id":"b8854bbd-644f-351c-a401-55fc33dece26","sap_company_id":"0000114295","responsible_field_sales_user":"5501035","first_seller":null,"created_by_user":null,"responsible_adwords_manager":null,"responsible_user":"5500124"}

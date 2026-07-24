@@ -1,0 +1,39 @@
+folder=Endpoint tests / Contact request
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/contact-form/messages
+query=(no query params)
+headers=
+mobile-request: true
+x-session-token: ory_st_GtXsjh9Dd0ngkynLSb0MEDuxtdXJSL9z
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: en
+Accept: */*
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 51c12cc7-d776-4c2e-81bd-7c24cbe92eb8
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 1825
+
+body=
+{
+  "first_name": "Bruce",
+  "is_private_request": "false",
+  "is_forward_request": "false",
+  "last_name": "Wayne",
+  "message": "Postman. Automated API test\nother requwst\n\nmessge fiekd 98766544 qwweerrrtttzzzuuuii",
+  "message_type": "others",
+  "salutation": "MR",
+  "sender_company_name": "Wayne LLC",
+  "sender_email": "purchaserapp1@gmail.com",
+  "subject": "others",
+  "sender_phone_number": "",
+  "product_id": "",
+  "receiver_company_uuid": "fd0d84d0-7646-3eb0-8953-249204c51bdb",
+  "source": "APP_COMPANY_PROFILE"
+}

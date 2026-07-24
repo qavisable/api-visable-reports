@@ -1,0 +1,16 @@
+httpStatus=200
+responseTimeMs=97
+responseSize=518
+headers=
+Date: Fri, 24 Jul 2026 02:39:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Server: nginx
+Vary: Accept-Encoding
+Cache-Control: max-age=0, private
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"has_duplicates":true,"duplicates":[{"id":"f43af470-f1ff-11f0-bb4a-0a58a9feac02","normalized_data":{"company_name":"regressionfrance8130","company_address":"selovoiur23987parisfr","company_city_country":"","vat_number":"FR30906879391","company_phone_office":"+33726472864782642467","company_phone_work":"","company_phone_mobile":"","company_email_address":"regr.8.13.0@test.example.com","company_website":"","company_domain":"","company_email_domain":"test.example.com","person_name":"","hubspot_id":""},"score":55}]}

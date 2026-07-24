@@ -1,0 +1,45 @@
+folder=Endpoint tests / Contact request
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/contact-form/messages
+query=(no query params)
+headers=
+mobile-request: true
+mobile-session-id: 88f3c070-26e1-4bb0-9180-5981fbed9c6c
+x-session-token: ory_st_GxwveJkKQ2KcuLsh7mIu9IWdb5IEgIzu
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: en
+application-source: PURCHASER_APP
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 04950871-df2e-4e35-9e1b-6fe391c22404
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 2561
+
+body=
+{
+  "first_name": "Bruce",
+  "is_private_request": "false",
+  "is_forward_request": "true",
+  "last_name": "Wayne",
+  "message": "product request\n845ws85d5p55py, fzp5fzof5pxo5xpx5pfzlxz",
+  "message_type": "request_type_quote_price",
+  "salutation": "MR",
+  "sender_company_name": "Wayne LLC",
+  "sender_email": "purchaserapp1@gmail.com",
+  "subject": "request_type_quote_price",
+  "sender_phone_number": "",
+  "product_id": "c9d27a8c-02c6-4895-bd22-cd7952b722c3",
+  "receiver_company_uuid": "fd0d84d0-7646-3eb0-8953-249204c51bdb",
+  "title": "Daewoo Minidumper Dwfmd500 - Your Reliable Helper For Heavy Loads",
+  "quantity": "007",
+  "location": "Ingolstadt, Germany",
+  "country_code": "DE",
+  "product_name": "Daewoo Minidumper Dwfmd500 - Your Reliable Helper For Heavy Loads",
+  "source": "APP_PRODUCT_PROFILE"
+}

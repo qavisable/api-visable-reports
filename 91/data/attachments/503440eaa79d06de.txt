@@ -1,0 +1,36 @@
+folder=Business Scenarios Tests / Contacts
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/Contacts
+query=(no query params)
+headers=
+OAuth-Token: b540117b-1fcb-470d-bb1a-12cd923a90fc
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 13264b4a-50c5-4eb1-a6f7-755ebddb7c8e
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 318
+Cookie: download_token_base=9b73c6a5-e46a-4a3c-ad97-d2aab310842a; AWSALBAuthNonce=ImLSvE4asWJdqz7I
+
+body=
+{
+
+    "description": "",
+    "salutation": "female",
+    "first_name": "test",
+    "last_name": "aircall",
+    "title": "",
+    "do_not_call": false,
+    "phone_mobile": "",
+    "telephone_nr_office": "07567465610",
+    "phone_fax": "",
+    "picture": "",
+    "account_name": "",
+    "email1": "johndoe@example.com"
+}

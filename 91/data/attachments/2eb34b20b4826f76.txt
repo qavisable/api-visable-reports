@@ -1,0 +1,29 @@
+folder=Business Scenarios Tests / Disable Hubspot
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=PUT
+url=https://crmtest-api.visable.com/rest/v11_20/Accounts/c5050e1c-9b86-a7c5-a5d6-55fc34f7783f
+query=(no query params)
+headers=
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Type: application/json
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+host: crmtest.visable.com
+OAuth-Token: ce0fa50a-dcac-47f0-91a8-54f35b8ddc48
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Cache-Control: no-cache
+Postman-Token: 8f2df29e-0eba-41ea-a859-1a8c17c591c8
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 27
+Cookie: download_token_base=1ad08c3b-9389-418b-bad2-f4a46885c7b4; AWSALBAuthNonce=ImLSvE4asWJdqz7I
+
+body=
+{"hubspot_enabled": "true"}

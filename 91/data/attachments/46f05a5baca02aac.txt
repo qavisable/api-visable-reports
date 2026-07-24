@@ -1,0 +1,20 @@
+httpStatus=200
+responseTimeMs=173
+responseSize=903
+headers=
+Date: Fri, 24 Jul 2026 02:35:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+
+body=
+{"userProfileId":"1df26612-5d0c-58fd-a170-77acb028b4c7","userName":"Katharina Gillmann","email":"qa-wlw-supplier-customer@gmx.de","supplierProfiles":[{"supplierId":"1acad524-bb62-4d4d-bb81-e8ecb1b7f254","supplierName":"Quality Assurance @ Visable","isCustomer":true,"logo":"https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/7c9e95dc-10cd-4ad7-ac2a-06e62ef1c3ed.jpeg","totalResponsesAvailable":25,"responsesAvailable":25,"platform":{"ep":true,"wlw":true},"allowedCountries":[]},{"supplierId":"afd8a9f3-3b02-4a8a-badb-b0ef183c1508","supplierName":"Quality Assurance Automation Visablelabs GmbH","isCustomer":false,"logo":"https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/6bb3e71f-fde3-44be-8656-db4cdcacf948.jpeg","totalResponsesAvailable":2,"responsesAvailable":2,"platform":{"ep":false,"wlw":true},"allowedCountries":[]}]}

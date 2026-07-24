@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=79
+responseSize=321
+headers=
+Date: Fri, 24 Jul 2026 02:36:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"content":[],"empty":true,"first":true,"last":true,"number":0,"number_of_elements":0,"pageable":{"page_number":0,"page_size":20,"sort":{"empty":true,"sorted":false,"unsorted":true},"offset":0,"paged":true,"unpaged":false},"size":20,"sort":{"empty":true,"sorted":false,"unsorted":true},"total_elements":0,"total_pages":0}

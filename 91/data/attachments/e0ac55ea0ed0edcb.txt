@@ -1,0 +1,21 @@
+httpStatus=500
+responseTimeMs=165
+responseSize=144
+headers=
+Date: Fri, 24 Jul 2026 02:36:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+
+body=
+{"timestamp":"2026-07-24T02:36:50.821+00:00","status":500,"error":"Internal Server Error","path":"/mobile_backend/public_api/trending/products"}

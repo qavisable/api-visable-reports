@@ -1,0 +1,23 @@
+folder=Technical Tests / push-notification-by-email-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/v1/pushNotification
+query=email=%27%20OR%201=1%20--&page={{page}}&size={{size}}
+headers=
+Authorization: Bearer ory_st_AfSZEIkDjzJ4pO58VWqNcTln150zpEVH
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: df9ad40e-9637-42c9-bddd-4f879173d613
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,20 @@
+folder=Business Scenarios Tests / Lead
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=GET
+url=https://crmtest-api.visable.com/rest/v11_20/Leads/e3beb228-8708-11f1-9c0a-0a58a9feac02
+query=(no query params)
+headers=
+OAuth-Token: e10b856d-fd7e-41d1-97a2-2d8588ebd0c7
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b4383f93-1808-4e0c-83e9-5edbab1b517c
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: download_token_base=f0c5d1b7-5acb-406c-89d6-1e9de9742d9b; AWSALBAuthNonce=ImLSvE4asWJdqz7I
+
+body=
+(empty request body)

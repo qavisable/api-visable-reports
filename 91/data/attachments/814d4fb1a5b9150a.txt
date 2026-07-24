@@ -1,0 +1,18 @@
+httpStatus=200
+responseTimeMs=803
+responseSize=48
+headers=
+Date: Fri, 24 Jul 2026 02:39:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"message":"Platform Profile has been created."}

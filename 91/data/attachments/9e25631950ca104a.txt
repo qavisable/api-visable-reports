@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=122
+responseSize=1705
+headers=
+Date: Fri, 24 Jul 2026 02:35:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"paging":{"current_page":1,"total":2,"total_pages":1},"products":[{"company":{"average_response_time":"less_than_24h","country_code":"DE","is_email_existing":false,"is_quick_responder":false,"name":"Deutsche Techna Dr. Hahn GmbH & Co. KG","response_rate":0.4286,"uuid":"00505682-f25b-1ee9-bd91-d259d4c4d7fb"},"description":"Plastic-bonded magnets are hot-pressed in mold tools.\n\nUnlike conventional magnetic materials, they can therefore be machined using cutting proce...","image":{"url":"https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/16451958-de9a-11ed-961b-0a58a9feac02.jpeg"},"images":[],"language":"de","name":"Kunststoffgebundene Neodym-Magnete Isotrope Eigenschaften Spanabhebende Bearbeitbarkeit Korrosionsbeständige Beschichtung","sell_points":[],"slug":"plastic-bonded-neodymium-magnets-isotropic-properties-chip-removing-machinability-corrosion-resistant-coating-8376962","uuid":"22a4182c-4728-55e3-90b8-c88abd579dc7"},{"company":{"average_response_time":"less_than_24h","country_code":"DE","is_email_existing":false,"is_quick_responder":false,"name":"Deutsche Techna Dr. Hahn GmbH & Co. KG","response_rate":0.4286,"uuid":"00505682-f25b-1ee9-bd91-d259d4c4d7fb"},"description":"AlNiCo Topfmagnete mit Abdrückvorrichtung sind leistungsstarke Magnete, die speziell für Anwendungen entwickelt wurden, bei denen eine hohe Haftk...","image":{"url":"https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d7267aa1-99be-11f0-b2ac-0a58a9feac02.png"},"images":[],"language":"de","name":"AlNiCo Topfmagnete mit Abdrückvorrichtung","sell_points":[],"slug":"alnico-topfmagnete-mit-abdrueckvorrichtung-36381602","uuid":"fc3d9ea3-b804-4346-924d-f6cf5b9b100e"}]}

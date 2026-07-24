@@ -1,0 +1,45 @@
+folder=Endpoint tests / User settings
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=PUT
+url=https://api.staging.visable.io/mobile/userSetting/88f3c070-26e1-4bb0-9180-5981fbed9c6c
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+x-application-reference: MOBILE
+x-application-version: 3.6.3
+x-application-currency: EUR
+application-source: PURCHASER_APP
+user-source: WLW
+mobile-session-id: 88f3c070-26e1-4bb0-9180-5981fbed9c6c
+x-session-token: ory_st_AfSZEIkDjzJ4pO58VWqNcTln150zpEVH
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+Accept-Language: de
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 941cdefc-10c5-4959-958e-c9cbe0fe50f8
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 595
+
+body=
+{
+    "notify_by_push":true,
+    "email":"visableapp@gmail.com",
+    "push_notification_token":"flCCdKXGS3y3zN5XpVrwdp:APA91bG9KVQPVJSn8hrBBRsK-U9GBqf0-fdr1XyiUEJL6hFgdwq9pmQYswD7BU8dHQIBNynW7_0QIxxnMS2LfmJj51ENZsI3ky46ANI14vKDoUs4JpoLdWA",
+    "shouldCollectConsent":false,
+    "countryCode":"DE",
+    "appleAdsAllowed":true,
+    "googleAdsAllowed":true,
+    "firebaseAnalyticsAllowed":true,
+    "firebaseCrashlyticsAllowed":true,
+    "branchConsentAllowed":true,
+    "iSATTTrackingAllowed":true,
+    "singularConsentAllowed":true,
+    "is_google_available":true,
+    "os_type":"ANDROID"
+}
+    

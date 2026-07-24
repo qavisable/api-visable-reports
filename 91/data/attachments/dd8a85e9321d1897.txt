@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=61
+responseSize=1093
+headers=
+Date: Fri, 24 Jul 2026 02:36:44 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"results":[{"highlighted":"<mark>pack</mark>ungs materialen","text":"packungs materialen"},{"highlighted":"<mark>pack</mark>ungsmaterialien","text":"packungsmaterialien"},{"highlighted":"<mark>pack</mark>stoffe","text":"packstoffe"},{"highlighted":"<mark>pack</mark>ungsmaterialen","text":"packungsmaterialen"},{"highlighted":"<mark>pack</mark>stoffen","text":"packstoffen"},{"highlighted":"<mark>pack</mark>stoff","text":"packstoff"},{"highlighted":"<mark>pack</mark>mittel für lebensmittel","text":"packmittel für lebensmittel"},{"highlighted":"<mark>pack</mark>ung aus plastik","text":"packung aus plastik"},{"highlighted":"<mark>pack</mark>mitteln","text":"packmitteln"},{"highlighted":"<mark>pack</mark>mittelsysteme","text":"packmittelsysteme"},{"highlighted":"<mark>pack</mark>papier","text":"packpapier"},{"highlighted":"<mark>pack</mark>ung","text":"packung"},{"highlighted":"<mark>pack</mark>ungen","text":"packungen"},{"highlighted":"<mark>pack</mark>ungsgestaltungen","text":"packungsgestaltungen"},{"highlighted":"<mark>pack</mark>ungsgestaltung","text":"packungsgestaltung"}]}

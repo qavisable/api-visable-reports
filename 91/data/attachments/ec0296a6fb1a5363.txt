@@ -1,0 +1,16 @@
+httpStatus=200
+responseTimeMs=52
+responseSize=1152
+headers=
+Date: Fri, 24 Jul 2026 02:40:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Cache-Control: max-age=0, private
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"crm_company_id":"00001e40-00ea-11ec-8dde-00505682779b","sap_customer_number":"0002551602","sap_company_id":"0001934014","sf_id":"538281da-4822-40a9-b938-370863512a0e","wlw_platform_sf_id":"538281da-4822-40a9-b938-370863512a0e","ep_platform_sf_id":"06f02880-4cf9-4f5c-b20b-f15bac7fecf2","hubspot_id":"43655376172","customer_name":"CyberSecurity manufaktur GmbH","street":"Marienstra\u00dfe 6","postal_code":"87629","city":"F\u00fcssen","country":"DE","vat_id":"DE307346164","email_invoice":null,"website":"https:\/\/example.com\/","email":"info@cybersecurity-manufaktur.de","phone":"+4983629241160","iban":null,"has_contract_cof_so":0,"invoice_recipient_account":null,"account_type":"potential_customer","account_type_details":null,"last_end_date":null,"platform_category_type":"product_categories","sales_organization":"visable_germany","payment_upfront_required":false,"dunning_block":null,"dunning_level":"level_0","home_market":"g_de","allowed_sales_teams":[""],"has_monthly_payment":0,"has_yearly_payment":0,"sales_organization_sap_id":"2110","contact_salutation":null,"contact_first_name":null,"contact_last_name":null,"contractinformations":[]}

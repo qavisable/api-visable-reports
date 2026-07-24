@@ -1,0 +1,29 @@
+folder=Endpoint tests / Login
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=PUT
+url=https://api.staging.visable.io/mobile/public_api/user/userInfo
+query=(no query params)
+headers=
+Content-Type: application/json
+application-source: PURCHASER_APP
+user-source: WLW
+mobile-session-id: c855226f-16a6-49d2-9f64-ed8c1322bb2e
+x-session-token: ory_st_AfSZEIkDjzJ4pO58VWqNcTln150zpEVH
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0fae015b-0510-4f81-9468-79557308b7cc
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 136
+
+body=
+{
+    "salutation":"mr",
+    "given_name":"Thiery",
+    "surname":"Henry ",
+    "organisation":{"name":"Alfred Schweizer Gmbh Co. Kg"}
+}
