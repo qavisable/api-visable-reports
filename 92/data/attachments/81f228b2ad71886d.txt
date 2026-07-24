@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=20
+responseSize=1214
+headers=
+Date: Fri, 24 Jul 2026 03:13:56 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"company_selection":"https://www.europages-staging.co.uk/de/my-account/company-selection","employees":["Keine Beschränkung","1-4","5-9","10-19","20-49","50-99","100-199","200-499","500-999","1000+"],"radius":["10km","25km","50km","100km","125km","250km"],"request_type_list":["request_type_quote_price","request_type_information","request_type_make_an_offer","request_type_job"],"supplier_type":["Händler","MANUFACTURER","SERVICE_PROVIDER","Großhändler"],"support_links":[{"about_us":"https://www.visable.com/de_de/b2b-plattformen/europages","data_privacy":"https://www.europages.co.uk/company/legal-notice/terms-of-use?utm_source=supplier&utm_medium=app&utm_campaign=legal","imprint":"https://www.europages.co.uk/company/legal-notice/terms-of-use?utm_source=supplier&utm_medium=app&utm_campaign=legal","legal_url":"https://www.europages.co.uk/company/legal-notice/terms-of-use?utm_source=supplier&utm_medium=app&utm_campaign=legal","terms_and_conditions":"https://www.europages.co.uk/company/legal-notice/terms-of-use?utm_source=supplier&utm_medium=app&utm_campaign=legal","terms_of_use":"https://www.europages.co.uk/company/legal-notice/terms-of-use?utm_source=supplier&utm_medium=app&utm_campaign=legal"}]}

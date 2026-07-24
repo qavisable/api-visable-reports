@@ -1,0 +1,16 @@
+httpStatus=200
+responseTimeMs=54
+responseSize=445
+headers=
+Date: Fri, 24 Jul 2026 03:19:53 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Server: nginx
+Vary: Accept-Encoding
+Cache-Control: max-age=0, private
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+[{"crm_id":null,"sap_company_id":null,"sap_customer_number":"0002377823","legacy_sap_company_id":null,"legacy_sap_customer_number":"0002377823","mykit_u_id":null,"mykit_s_id":null,"supplierfacts_id":null,"hubspot_id":null},{"crm_id":null,"sap_company_id":null,"sap_customer_number":"0102125380","legacy_sap_company_id":null,"legacy_sap_customer_number":"0102125380","mykit_u_id":null,"mykit_s_id":null,"supplierfacts_id":null,"hubspot_id":null}]

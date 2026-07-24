@@ -1,0 +1,56 @@
+folder=Business Scenarios Tests / Tasks
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/Tasks
+query=(no query params)
+headers=
+Referer: https://crmtest.visable.com/
+Cookie: download_token_base=f43f4956-2c57-47f8-979f-7b0a8b26b00f
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+DNT: 1
+Sec-GPC: 1
+host: crmtest.visable.com
+OAuth-Token: 4a0b9c5a-494e-447d-b328-b614d57cf9e2
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b3a4e2fe-9093-4359-81b5-1ff4453c8d61
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 769
+
+body=
+{
+  "deleted": false,
+  "status": "Not Started",
+  "date_due_flag": false,
+  "date_start_flag": false,
+  "task_results_details": "",
+  "account_order_value": 0,
+  "account_order_value_usdollar": "0.000000",
+  "account_postalcode": "",
+  "account_country": "",
+  "type": "",
+  "type_details": "",
+  "task_results": "",
+  "unassign_user": false,
+  "autoassign_user": false,
+  "currency_id": "-99",
+  "base_rate": "1.000000",
+  "wlw_process": "",
+  "wlw_process_step": "",
+  "wlw_process_source": "manual",
+  "auto_update_assignee": "",
+  "redirect_access_token": "",
+  "assigned_user_id": "5a587cce-2223-11e8-8691-0050568a0df7",
+  "task_results_details_condition": "__",
+  "priority": "High",
+  "parent_type": "Accounts",
+  "name": "QA Postman Task 1784862789254"
+}
+     

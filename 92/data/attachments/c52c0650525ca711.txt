@@ -1,0 +1,16 @@
+httpStatus=200
+responseTimeMs=111
+responseSize=720
+headers=
+Date: Fri, 24 Jul 2026 03:19:44 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Cache-Control: max-age=0, private
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"sf_id":"00505682-f25b-1ee9-bd91-d257bdf6d7fb","crm_id":"d0e0bfad-120e-b63a-1c4d-55fc337de480","company_email_address":"info@rafi-group.com","dunning_block":false,"opt_out":null,"preferred_locale":"de_DE","language":"de","connect_recipients":[{"id":"091ff254-f304-11ec-b52c-00505682779b","salutation":"male","first_name":"David","last_name":"Polka","job_title":null,"email_address":"david.polka@rafi-group.com","preferred_locale":"de_DE","preferred_language":"de"}],"purchasers":[{"id":"f9bef630-6bbd-11f0-8713-025287dffcdb","salutation":"female","first_name":"Anissa","last_name":"Fr\u00f6hlich","job_title":null,"email_address":"anissa.froehlich@rafi-group.com","preferred_locale":"de_DE","preferred_language":"de"}]}

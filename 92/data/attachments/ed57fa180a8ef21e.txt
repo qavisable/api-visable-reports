@@ -1,0 +1,18 @@
+httpStatus=200
+responseTimeMs=75
+responseSize=119
+headers=
+Date: Fri, 24 Jul 2026 03:19:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+[{"id":"cd27de7b-47db-458b-a5c3-5174690dcf0d","affected":1},{"id":"cd27de7b-47db-458b-a5c3-5174690dcf0d","affected":1}]

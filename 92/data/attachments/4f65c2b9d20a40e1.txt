@@ -1,0 +1,17 @@
+httpStatus=404
+responseTimeMs=672
+responseSize=78
+headers=
+Date: Fri, 24 Jul 2026 03:14:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Encoding: gzip
+
+body=
+{"error":"no_method","error_message":"Could not find a route with 1 elements"}

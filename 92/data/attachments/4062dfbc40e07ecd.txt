@@ -1,0 +1,23 @@
+folder=Technical Tests / search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/products/recommendations
+query=searchRequest=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_TW5XFsyAjbdsHYeZXxdx4oqlNqx1yoRY
+x-api-key: {{apiKey}}
+x-application-currency: {{xApplicationCurrency}}
+mobile-session-id: f76e8fe0-a9c5-4620-82eb-96f48aa64bcc
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3aa76f43-cc83-457f-8c53-4ceb09517152
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

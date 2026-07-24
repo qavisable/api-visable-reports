@@ -1,0 +1,13 @@
+httpStatus=401
+responseTimeMs=18791
+responseSize=845
+headers=
+Date: Fri, 24 Jul 2026 03:17:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Cache-Control: no-store
+
+body=
+{"error":"need_login","error_message":"No valid authentication for user.","url":"https:\/\/login.microsoftonline.com\/3f383599-63e4-45d7-b216-6f5cb6f34864\/saml2?SAMLRequest=fZJLj9MwFIX3%2FRWjLNjl0SRNW9MUhSmIjNJO1KRIsBm5jtNa%2BBF8nWHg1%2BMmAwNI1Mvr%2Bx2fc5IVYME7lPXmLPf0a0%2FBTG7seRJcAhouU6fXEikMDJDEggIyBFXZtkChF6BOK6OI4s4%2F2HUKA1BtmJIjlm9SJ99sH34U28Xubn8qi3rB90H56bSrDkTqL8WDfLfsClnl55H4SDVYPHWsmjMZRQB6mkswWBo7D8LEDeZuGNdBhKZzFC8%2Fj%2BjGZmQSmwE%2FG9MB8n2uTkx6ghGtQLVGSc4k9YgSftRGi2i2XLpJRGM3njVz9xhOEzdpZ%2BSYtFG8SGL%2Fkjgc5cvnQt4y2TB5ut7DcVwC9KGuS7e8r%2BpRJPvVz62S0AuqK6ofGaGHffHimWhhbBbvkQE%2B8tGt1aNPXnfu3gjV9JymBysEr7DoXmMyRL58aioNI9hQZz28trrYR0N%2Fen1NfeX%2FufnCdmhno%2BWbUnFGvg%2Fzy3mvtMDm%2Fw1MvekwYY3bDquICsx41jSaAji%2FdTLO1bdbTa3j1DG6p86Nv55MRjd%2F%2F7zrnw%3D%3D\u0026RelayState=eyJwbGF0Zm9ybSI6ImJhc2UifQ%3D%3D","platform":"base"}

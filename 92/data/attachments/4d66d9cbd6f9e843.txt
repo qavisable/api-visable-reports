@@ -1,0 +1,20 @@
+httpStatus=200
+responseTimeMs=44
+responseSize=815
+headers=
+Date: Fri, 24 Jul 2026 03:13:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+
+body=
+{"rfqId":"1651c878-6dad-4e4c-a026-e2dec345e749","title":"circuit breaker analyzer","description":"I am interested in circuit breaker analyzer, could you send me more details such as type, size, MOQ, material, etc. Thanks! Waiting for your reply.","quantity":"78 Twenty-Foot Container","deliveryLocation":"DE","requestFrequency":"ONE_TIME_REQUIREMENT","supplierTypes":["PRODUCTION"],"createdAt":"2025-08-29T08:32:09.358580Z","rfqOrigin":"ALI","platform":"WLW","interestedCount":0,"conversationId":null,"sender":{"userId":"76ffae01-e9d5-495b-bdc0-dd4509c25ac8","name":"Baer","company":"Baer Jeremias","email":"alibaba_o6mwvlsusxmhritczqh/ow==@visable.com","country":null},"attachments":[],"isBlocked":false,"status":"EXPIRED","convertedFromQdr":false,"hasReachedLimit":false,"isRecommended":false,"isResponded":false}

@@ -1,0 +1,27 @@
+folder=Technical Tests / conversation-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/conversation/userConversations/%7B%7BconversationId%7D%7D/messages
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_TW5XFsyAjbdsHYeZXxdx4oqlNqx1yoRY
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 58ce045f-6d24-4f26-8ca5-c72bbb30d2a6
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+body=
+{
+  "participantId": "example",
+  "messageContent": "example",
+  "tags": [
+    "example"
+  ]
+}

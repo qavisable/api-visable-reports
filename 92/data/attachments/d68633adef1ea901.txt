@@ -1,0 +1,22 @@
+folder=Technical Tests / search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/search/autoComplete
+query=searchKeyword=%27%20OR%201=1%20--&abtest={{abtest}}
+headers=
+Authorization: Bearer ory_st_TW5XFsyAjbdsHYeZXxdx4oqlNqx1yoRY
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+user-source: WLW
+mobile-session-id: f76e8fe0-a9c5-4620-82eb-96f48aa64bcc
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5690440b-f9ec-4dd2-9b71-ee52d3074eb2
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

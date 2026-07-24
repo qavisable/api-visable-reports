@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=156
+responseSize=2250
+headers=
+Date: Fri, 24 Jul 2026 03:14:46 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"conversationStatus":"REPLY_REQUIRED","conversationType":"RFQ_CONNECT","createdAt":"2026-02-17T13:37:49.214986Z","email":"test@raz.com","id":"53d5b947-b6a2-4d48-bc8d-5a11172f3e30","isClosed":false,"isEnded":false,"isFrozen":true,"isImportant":false,"isLastMessageOutbound":false,"isOutbound":false,"isSpam":false,"lastMessage":"Postman. Automated API test. Decline message","lastMessageCreatedAt":"2026-07-24T02:36:56.538733Z","messageLinks":[],"metadata":{"hiddenFromSender":"true","title":"Beer","referenceNo":"260217/68","deliveryLocation":"Berlin, Germany","quantity":"100 l","sourcePlatform":"WLW","languageCode":"en","rfqId":"2e739339-4a12-4d83-8516-fc77d291b37f","matchingId":"0fa3c0bf-d452-4b92-839e-0e8ce00b15a0","requestFrequency":"ONE_TIME_REQUIREMENT","rfqVersion":"1.0","rfqOrigin":"CONNECT_ONE_FORM","rfqCompany":"Berliner Beer GmbH","matchingOrigin":"ADMIN","recipientOrganizationId":"00505682-f25b-1ee9-bd91-d259d4c4d7fb"},"participants":[{"belongsToOrganization":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","country":"DE","email":"m.schwebe@deutsche-techna.de","id":"ffbd06df-491f-57a7-8384-f7be849d4827","name":"Marc Schwebe","profileId":"ffbd06df-491f-57a7-8384-f7be849d4827"},{"belongsToOrganization":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","email":"visableapp@gmail.com","id":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","name":"Thiery Henry","profileId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc"},{"email":"test@raz.com","id":"b9262723-3eff-4830-a3f6-d6e04897211c","name":"Raz Oltean","profileId":"b9262723-3eff-4830-a3f6-d6e04897211c"},{"belongsToOrganization":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","country":"DE","email":"info@deutsche-techna.de","id":"f1d28b44-f95e-5ff4-b0d9-2afc28bddbb2","name":"info@deutsche-techna.de","profileId":"f1d28b44-f95e-5ff4-b0d9-2afc28bddbb2"},{"address":"Inactive user","belongsToOrganization":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","country":"Inactive user","email":"inactive_user_-2026-03-18T13:17:40.608904100Z-wave2@mail.de","id":"test@raz.com","name":"Inactive user"}],"platform":"WLW","recipientOrganizationId":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","subTitle":"","tags":["interested","not-interested","request-expired"],"title":"Berliner Beer GmbH","unreadMessageCount":0,"is_alibaba_request":false}

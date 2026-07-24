@@ -1,0 +1,18 @@
+httpStatus=200
+responseTimeMs=713
+responseSize=171
+headers=
+Date: Fri, 24 Jul 2026 03:19:48 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"id":"86a475cc-870e-11f1-b564-0a58a9feac02","subject":"Test","description":"Test description","parent_type":"Accounts","parent_id":"00001e40-00ea-11ec-8dde-00505682779b"}

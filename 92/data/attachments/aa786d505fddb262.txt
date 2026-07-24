@@ -1,0 +1,77 @@
+folder=Business Scenarios Tests / Lead
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/Leads
+query=(no query params)
+headers=
+sec-ch-ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Content-Type: application/json
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+host: crmtest.visable.com
+OAuth-Token: 38a1a6ed-50ec-46fb-97b0-608b995cd5ed
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Cache-Control: no-cache
+Postman-Token: 0e9c6f95-7cfd-4504-a25f-aa4c2784af21
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 1572
+Cookie: download_token_base=0f7e890a-ee7d-49ce-99ab-ad1e4770cf66; AWSALBAuthNonce=BIok4IkVgCK511oG
+
+body=
+{
+    "deleted": false,
+    "salutation": "female",
+    "do_not_call": false,
+    "converted": false,
+    "status": "New",
+    "dp_business_purpose": [],
+    "preferred_language": "en",
+    "mkto_sync": false,
+    "market_interest_prediction_score": "",
+    "mykit_id": "",
+    "turnover_size": "unknown",
+    "s_id": "",
+    "manually_assign_user": false,
+    "gtc_accepted": false,
+    "visable_business_process_group": "",
+    "preferred_timezone": "",
+    "preferred_locale": "",
+    "hubspot_enabled": false,
+    "is_european_company": true,
+    "cs_common_score": "",
+    "assigned_user_id": "f0370917-2016-47e5-82e6-51d5b0264240",
+    "is_dach": true,
+    "lead_source": "free_listing",
+    "primary_address_country": "PL",
+    "country_code_office": "+48",
+    "country_code": "+48",
+    "country_code_mobile": "",
+    "country_code_fax": "",
+    "supplier_type": "",
+    "employee_count": "",
+    "full_name": "QA Postman lead 20260724-031914",
+    "first_name": "CreateLead",
+    "last_name": "QA Postman lead 20260724-031914",
+    "account_name": "QA Postman lead 20260724-031914",
+    "primary_address_street": "Bahnhofstrasse 1001",
+    "email": [
+        {
+            "email_address": "leadViaAutomation@example.com",
+            "primary_address": true,
+            "opt_out": false
+        }
+    ],
+    "telephone_nr_office": "07567465610",
+    "primary_address_postalcode": "48-100",
+    "email1": "leadViaAutomation@example.com",
+    "primary_address_city": "Glubczyce",
+    "telephone_nr": "3465374643"
+}

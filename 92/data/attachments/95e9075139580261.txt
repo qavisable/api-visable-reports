@@ -1,0 +1,22 @@
+folder=Technical Tests / trending-products-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/trending/products
+query=page=%27%20OR%201=1%20--&size={{size}}
+headers=
+Authorization: Bearer ory_st_TW5XFsyAjbdsHYeZXxdx4oqlNqx1yoRY
+Accept-Language: {{acceptLanguage}}
+x-application-currency: {{xApplicationCurrency}}
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a69a5dd6-1810-48b2-b47f-5cb7a728b641
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

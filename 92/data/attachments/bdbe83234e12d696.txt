@@ -1,0 +1,19 @@
+folder=Technical Tests / supplier-visitors-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/suppliers/%7B%7Bsupplier_id%7D%7D/visits
+query=group_by={{group_by}}&start_date=&end_date=&pageIndex={{pageIndex}}&itemsPerPage={{itemsPerPage}}&location={{location}}&radius={{radius}}&types={{types}}&countries={{countries}}&dates={{dates}}
+headers=
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 27cc08f0-ef6e-4147-b068-ba67bd2c448a
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

@@ -1,0 +1,19 @@
+folder=Technical Tests
+env=Dragon_Staging
+envUid=10155542-25c0a86d-aaaf-4744-a598-081db628c578
+method=GET
+url=https://rfq-backend.internal.wlw-1.production.visable.cloud/rfq-backend/v1/categories
+query=lang=en;%20DROP%20TABLE%20categories;
+headers=
+X-Platform: web
+X-Forwarded-Auth-User-Profile: id=1df26612-5d0c-58fd-a170-77acb028b4c7;is_admin=false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ae4fafaa-9a0c-42c3-816b-f6a444617efd
+Host: rfq-backend.internal.wlw-1.production.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
