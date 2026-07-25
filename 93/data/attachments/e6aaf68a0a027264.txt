@@ -1,0 +1,29 @@
+folder=Business Scenarios Tests / Calls
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/Calls
+query=(no query params)
+headers=
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5574d4af-2bab-43b7-8d15-0c36f99d4cb2
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 269
+Cookie: download_token_base=b57e1252-ef16-4f46-971f-bee7377bd5bb; AWSALBAuthNonce=hWW1d4PVZJ2nemWW
+
+body=
+{
+  "name": "QA Postman Call 20260725-031854",
+  "deleted": false,
+  "status": "Planned",
+  "direction": "Outbound",
+  "date_start": "2026-07-25T03:18:54",
+  "duration_hours": 0,
+  "duration_minutes": "15",
+  "assigned_user_id": "5a587cce-2223-11e8-8691-0050568a0df7"
+}
