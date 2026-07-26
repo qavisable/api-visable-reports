@@ -1,0 +1,24 @@
+folder=Technical Tests / search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/search/products
+query=searchRequestWrapper=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_V5IfZgLt92SpWdjTbBtH40OZ1Ou2xWb8
+x-api-key: {{apiKey}}
+x-application-currency: {{xApplicationCurrency}}
+mobile-session-id: b557ecb4-e46b-457a-b2d4-be91c20b7f92
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+x-application-version: {{xApplicationVersion}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b012d673-46d9-4c03-9ddc-8ae093d850dd
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
