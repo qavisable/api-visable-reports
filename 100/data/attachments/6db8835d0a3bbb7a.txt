@@ -1,0 +1,22 @@
+folder=Endpoints Tests
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=GET
+url=https://crmtest-api.visable.com/rest/v11/Accounts/responsible_employees/crm_id/b8854bbd-644f-351c-a401-55fc33dece26
+query=(no query params)
+headers=
+OAuth-Token: {{refreshedTokenCRM}}
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+OAuth-Token: 474a09d5-8c8e-4ed5-82d7-a3baa51eb18d
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 68bc401a-5386-49a8-8eca-9cd4a6801efc
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: download_token_base=99848ad0-196c-4bf3-8c35-db922f9d92ea; AWSALBAuthNonce=sY1qzefTslskWUAf
+
+body=
+(empty request body)

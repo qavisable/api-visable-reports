@@ -1,0 +1,27 @@
+folder=Business Scenarios Tests / Contacts
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/Contacts
+query=(no query params)
+headers=
+OAuth-Token: 01c2e3c0-bddb-4ab7-9728-f4f77ec23e90
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cad8cac5-5a5e-4288-82b5-4a54942526c7
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 153
+Cookie: download_token_base=01b2dc93-37cb-4fcb-afb1-b1fec51e147e
+
+body=
+{
+          "first_name": "Purchaser",
+          "last_name": "Contact",
+         "email1": "purchaser@example.com",
+          "account_name": ""
+      }
