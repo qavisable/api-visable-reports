@@ -1,0 +1,17 @@
+folder=Business Scenarios Tests / Contacts
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=GET
+url=http://rest/v11_20/Contacts/3971635e-896c-11f1-beac-0a58a9feac02
+query=(no query params)
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f58feb66-9ee2-4c6b-bef1-6cb1cc6c1863
+Host: 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

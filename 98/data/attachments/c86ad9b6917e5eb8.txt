@@ -1,0 +1,20 @@
+folder=Endpoint tests / Support
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/exchange/fetch-rates
+query=(no query params)
+headers=
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+accept-language: {{
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d3b85fb9-2063-4d5f-ad7a-4f02d8d9be60
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
