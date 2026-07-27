@@ -1,0 +1,19 @@
+folder=Technical Tests / trending-products-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/trending/import
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_LR14iCGqxfBEZefnngM5FkMF879SS1Xf
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fd231d6d-7531-449c-8738-b8a4709c494a
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)

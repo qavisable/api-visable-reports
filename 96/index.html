@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Allure Report</title>
+    <link rel="favicon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="plugin/screen-diff/styles.css">
+</head>
+<body>
+    <div id="alert"></div>
+    <div id="content">
+        <span class="spinner">
+            <span class="spinner__circle"></span>
+        </span>
+    </div>
+    <div id="popup"></div>
+    <script src="app.js"></script>
+    <script src="plugin/behaviors/index.js"></script>
+    <script src="plugin/screen-diff/index.js"></script>
+    <script src="plugin/packages/index.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVWC4GKEYS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FVWC4GKEYS');
+        gtag('allureVersion', 'dev')
+        gtag('reportUuid', '08435897-12f3-4371-8201-8b3904164007')
+    </script>
+
+<script>
+/* allure-ui-customization */
+(function () {
+  function hideModules() {
+    var hiddenRoutes = ['#categories', '#graphs', '#timeline', '#behaviors', '#packages'];
+    var links = document.querySelectorAll('a[href]');
+    links.forEach(function (a) {
+      var href = a.getAttribute('href') || '';
+      if (hiddenRoutes.indexOf(href) >= 0) {
+        var row = a.closest('li') || a.parentElement;
+        if (row) row.style.display = 'none';
+      }
+    });
+  }
+
+  function keepOverviewSummaryAndSuitesOnly() {
+    var titles = document.querySelectorAll('.widget__title, .graph__title, .chart__title, h2');
+    titles.forEach(function (title) {
+      var text = (title.textContent || '').trim().toUpperCase();
+      if (!text) return;
+      var keep = text.indexOf('ALLURE REPORT') >= 0 || text.indexOf('SUITES') >= 0;
+      if (keep) return;
+      var block = title.closest('.widget, .chart, .dashboard__widget, .pane, .col, section');
+      if (block && block.parentElement) {
+        block.style.display = 'none';
+      }
+    });
+  }
+
+  function apply() {
+    hideModules();
+    keepOverviewSummaryAndSuitesOnly();
+  }
+
+  apply();
+  var observer = new MutationObserver(function () { apply(); });
+  observer.observe(document.documentElement, { childList: true, subtree: true });
+  window.addEventListener('hashchange', apply);
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=244
+responseSize=1584
+headers=
+Date: Mon, 27 Jul 2026 02:55:20 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"status":"processed","url":"https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d259d4c4d7fb/2025-12-01_2025-12-30_visitors_400g.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJ7FRJOKKY%2F20260727%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260727T025520Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaDGV1LWNlbnRyYWwtMSJIMEYCIQCOjDzYXFggCBD8Iv5mMak%2FOAS%2BUoeOsTvychVqw3bBIQIhAJ07gQbafoWwVpM9lN2N2EVTX27dO6kcv12jHYVRfxtbKuQDCEQQBBoMMzg5NzI4MTMyMDUxIgxRCKnijw7AvhdseZcqwQPJUW7IacLd6MulqDqUjL%2Bsb2X7SmA9i5IpLYfSA%2FoWlW%2FJYeO%2Fhpijh39awR2lQVmvG100c5b%2FS2s1%2F9ZyVOBRfGaVPsGa7%2FQ2jwTKsYTN1dY%2FudPjw8BqDmrGviKyOBF3TRBkfjclSM5VbTZkzFByUnRo%2FwonwGHQVFGOuQXw1vDxIagDrfT17OM2sqGy2oJC2zecuT6WYByYv0QUH6tQm94wR%2FXBG3reD%2BtBAI7c9%2BUwSiTTKCWg0o%2BdBOAjIA%2BO4pJukNAtkOgMMqmbjD1TiMZqlsgEaolO%2F%2F8u9LcyFefPyvT1BtKLLPH6mFzJJin5rU5K%2BUaDou25EK0NQBaJcMbmMBjH9dniU9mvKtnYM%2BI9s%2BVKc4lkrdngfl3YHP6bkTW8cuiEI20VACByYiTqVKaaVeUqYTaVdiz%2B%2BFYReE%2Be%2FKOoFKf3%2BcBI424LvSAYpA07NJe5cnKsSUYmrUpqvt61Jc9%2BfU%2BSm%2BtUapbYWm%2FCtVT5ZX5B4wqdO1KpCN9UcFBA6AzV9Nmj2sHP7pYnv95oukr%2FcIjhISKEv13J7zU3n2hrZBPeCj0bo%2Bm5q0WRdYfLHWzhy0WPpGcAYAumCTDzkJvTBjqkAfumNgG3u52WdRfI4SnRrxnn9ady074FQifhYZoTFg7evLb56Jql88AbzRTAqrJ4Rp%2BvAurFaGJnoP3H3Zq9CwxeYu7DKTAaYc06fq0cKuqXQ7BewaN1zZtwckiZbD2%2BD4B1f4C3kvE51e%2B%2F%2B2ml5xQQhRcd9kMqEx55D3OpWaI6aYqHugU7ItTrLWcuDiIzD9B3s8r8ehJ6OQXW%2FFDLcD7156vF&X-Amz-SignedHeaders=host&X-Amz-Signature=2f7a84c2d1007ab5e3e8181f01178ee1192a87f551687efbb5377121f85ce059"}

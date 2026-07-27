@@ -1,0 +1,20 @@
+folder=Technical Tests / login-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=DELETE
+url=https://api.staging.visable.io/mobile/public_api/auth/sso/logout
+query=(no query params)
+headers=
+user-source: WLW
+x-session-token: {{sessionToken}}
+mobile-session-id: f9c8426f-6a67-433a-9d81-87797a8c3ab7
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 42781e7f-0376-4a00-92f6-9eeb49ea2b57
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
