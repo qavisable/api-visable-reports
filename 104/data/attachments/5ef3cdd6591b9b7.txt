@@ -1,0 +1,31 @@
+folder=Business Scenarios Tests / Meetings
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/Meetings
+query=(no query params)
+headers=
+OAuth-Token: e006f072-736e-4dfa-afa3-7142b5b5574d
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5ad93b10-5c1d-4523-ad03-eda75a0ac7ff
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 284
+Cookie: download_token_base=5be4b570-1229-4991-a97d-eda6c345f405; AWSALBAuthNonce=qlxOdTvffnZMMhiu
+
+body=
+{
+  "name": "QA Postman Meeting 20260727-083406",
+  "deleted": false,
+  "status": "Planned",
+  "date_start": "2026-07-27T08:34:06",
+  "duration_hours": 0,
+  "duration_minutes": "30",
+  "location": "Postman Test Location",
+  "assigned_user_id": "5a587cce-2223-11e8-8691-0050568a0df7"
+}
