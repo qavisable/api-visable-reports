@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d259d4c4d7fb/2025-12-01_2025-12-30_visitors_400g.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJRXJAH7RQ%2F20260727%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260727T073440Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEID%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQD3%2FpYhcGXOfpFm7PZLieJWt3c51OwHct9ycfZomk8OegIgP2KEamOAO1xAU3sGQPiQ5%2FisEweJRnESdAd%2B8sleIGYq5AMISRAEGgwzODk3MjgxMzIwNTEiDM%2BhDbuNUhoC0k0mhCrBA6HlqnltQ9beyMLzx9QCLt0FlydyUa8WdRDit2nO7QNVwkohc9u9o6O1%2FTyIXD3Jwy0vXho5Rz1pYJhsmCy2fTKoYdVdaaL%2FzGTD7RgcnvaIevolwUUoaGisBthTfLAGN6%2BWA%2BCG%2Fm5ZP%2BP%2FoPodrHHoqMrLV6vkFweBXOQmNfRnFJi%2FvLbamYFn%2Bx7TSk42%2B5CMnSnqYeGBlYXuEdri5adEKTWt4mtZmCWFRE8CoXh%2FqpijEBli1VS%2BWW8NlIm2C6%2FaOvd8iHM6YDLi35Wcoxaz7iv0bqPeY6qjvp1hXkKoNJ9cW2%2FPrl8B1%2BOxIsZ%2Fs8SZt34OSaSFYnAIqCX4PiUBPV6pPpA2%2BxEpRuPQTLLQCmhaVrds9briBVQI7cX7%2Fi%2B5fminzNb9Z5tK3eP6TkqUAoEbNG33MEquBKukmXJPxOpOC4d8BtGMOEYJOpYzzA8pBYg7pAwC3Wm2o12Ruygt9Cp7Ou9ddBzE9NuSr0OmFrdistzOGcbGjVR8%2BwoAlaaWEHCWND2NpgCPqhQiuLzyal6ViYtIHuzwbsBa299kXq45aDYC4hdn0TXAlJcGHK2mGXiUhQ%2BuvQlHjR%2FNSES8MIeQnNMGOqUBka7aW%2FwvjPTzc3u2aPWxGHf98zIUE7pwJp8kyjBAoj8s0CsJntrBvw7YqGvnTr7le5I4CjGaMf4DagHqmRWzgeDbCuADCxZazIZF2NSdx04hqO37pBz1e%2FBeRsvBBzfTOl9QPZ67Ig%2Ff5SZONB9yLnXeNWpOxfBf%2Fgs2EWD%2FpTVWNXSplt7cVyTb1t5oaJvTcCrj5VjEAPIkr8FCye6rSV3LwFqq&X-Amz-SignedHeaders=host&X-Amz-Signature=589513789559f7d66590505c01abc7e31b9a7c39635bdeab7498068ef6414556
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5ed6460d-70fb-4888-a25d-8a1b3f32a3bb
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
