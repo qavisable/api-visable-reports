@@ -1,0 +1,22 @@
+folder=Technical Tests / search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/categories/recommendations
+query=country=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_bnGcSm3Hhu8VziAcfmuxhNM2CxkpAr89
+x-api-key: {{apiKey}}
+mobile-session-id: 4c04319b-2f9f-4389-949e-beafbdc55307
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 892b3fa0-863f-4bc7-a8ae-2d450afa6107
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
