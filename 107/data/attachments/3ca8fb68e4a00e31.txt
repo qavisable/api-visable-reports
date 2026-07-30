@@ -1,0 +1,20 @@
+folder=Business Scenarios Tests / WLW Price Compaigns
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=GET
+url=https://crmtest-api.visable.com/rest/v11_20/WLW_PriceCampaigns/0a3baf5a-8218-11ec-b2d4-00505682f441
+query=(no query params)
+headers=
+OAuth-Token: 292be6c9-40e1-46a1-a4eb-3ddbf53608a0
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d9a9fb84-da42-4122-b65a-7bcff958e86a
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: download_token_base=2e1a5364-8fa3-47ba-9ba5-3a4ccc1c2ecd; AWSALBAuthNonce=BjDFWnKlPl1SzNsa
+
+body=
+(empty request body)
