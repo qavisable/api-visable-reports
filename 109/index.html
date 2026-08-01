@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Allure Report</title>
+    <link rel="favicon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="plugin/screen-diff/styles.css">
+</head>
+<body>
+    <div id="alert"></div>
+    <div id="content">
+        <span class="spinner">
+            <span class="spinner__circle"></span>
+        </span>
+    </div>
+    <div id="popup"></div>
+    <script src="app.js"></script>
+    <script src="plugin/behaviors/index.js"></script>
+    <script src="plugin/screen-diff/index.js"></script>
+    <script src="plugin/packages/index.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVWC4GKEYS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FVWC4GKEYS');
+        gtag('allureVersion', 'dev')
+        gtag('reportUuid', '3a3caf81-77a4-4392-90b5-c9336f07d7ca')
+    </script>
+
+<script>
+/* allure-ui-customization:start */
+(function () {
+  var POSTMAN_URL = 'https://qa-62.postman.co/workspace/ff37cf16-0011-4920-87e2-1e4203967ab5/overview?sideView=agentMode';
+  var TESTNG_URL = 'https://github.com/visable-dev/v-china-autotest';
+  var VISABLE_LOGO_DATA_URI = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAflBMVEUAAACStiSIuhaJuhiJuheJuheIuRiJuRaJuheJuheKuxaqqgCJuheJuReKuhaJuRaJuheIuReAvyCIuReKuhiJuxeKuReJuheJuxaJuheJuxeJuheJuhiKuheZzACJuheJuheJuReIuRiIuheJuheJuhaKuReJuhf////vJqlYAAAAKHRSTlMAB1yt3e6sW1Tf3lMDkY+UUP5NCFhVqKXb2PPy9NnXBdSGhKHV96BX34/iOQAAAAFiS0dEKcq3hSQAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfjBRQLIQ215AqLAAAAi0lEQVQ4y2NgGG6AkYmZhZWVhY2dEbs8B6cGFHBxY5Hm4dVAAnw8GAr4NVAAL7q8AKq8hqAQqrwwJ5oCDS5Ul4poYABRFAVimArEURRIYCqQRFEghalAGkWBDCEFspgK5EhzJEFvymPYoYAWG4SCmoFBEVWBEunRTTDBgJKciLKKqqqKmjqOJDeEAQDEHC+ZU/w9DwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wNS0yMFQxMTozMzoxMyswMjowMFujNwsAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDUtMjBUMTE6MzM6MTMrMDI6MDAq/o+3AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==';
+
+  function hideModules() {
+    var hiddenRoutes = ['#categories', '#graphs', '#timeline', '#behaviors', '#packages'];
+    var hiddenNames = ['categories', 'graphs', 'timeline', 'behaviors', 'packages'];
+    var navRoot = document.querySelector('aside, .side-nav, .sidebar') || document;
+    var links = navRoot.querySelectorAll('a[href]');
+    links.forEach(function (a) {
+      var href = a.getAttribute('href') || '';
+      var text = (a.textContent || '').trim().toLowerCase();
+      var routeHit = hiddenRoutes.indexOf(href) >= 0;
+      var nameHit = hiddenNames.some(function (name) { return text === name || text.indexOf(name) >= 0; });
+      if (!routeHit && !nameHit) return;
+      var row = a.closest('li') || a.parentElement;
+      if (row) row.style.display = 'none';
+    });
+
+    // Fallback for nav items rendered without href; keep scope in sidebar only.
+    var maybeNavItems = navRoot.querySelectorAll('li, a, span');
+    maybeNavItems.forEach(function (el) {
+      var txt = (el.textContent || '').trim().toLowerCase();
+      if (!txt) return;
+      if (!hiddenNames.some(function (name) { return txt === name; })) return;
+      var row = el.closest('li') || el.parentElement;
+      if (row) row.style.display = 'none';
+    });
+  }
+
+  function customizeBrand() {
+    var brandLink = document.querySelector('.side-nav__brand');
+    if (!brandLink) return;
+    var textNode = brandLink.querySelector('.side-nav__brand-text');
+    if (!textNode) return;
+
+    textNode.textContent = 'QA';
+    textNode.style.color = '#ffffff';
+    textNode.style.fontWeight = '700';
+    textNode.style.margin = '0';
+
+    brandLink.style.display = 'flex';
+    brandLink.style.alignItems = 'center';
+    brandLink.style.gap = '10px';
+
+    var iconNodes = brandLink.querySelectorAll('svg, i, [class*="icon"], img:not([data-visable-logo="true"])');
+    iconNodes.forEach(function (node) {
+      node.style.display = 'none';
+    });
+
+    var img = brandLink.querySelector('img[data-visable-logo="true"]');
+    if (!img) {
+      img = document.createElement('img');
+      img.setAttribute('data-visable-logo', 'true');
+      img.src = VISABLE_LOGO_DATA_URI;
+      img.alt = 'visable';
+      img.style.width = '24px';
+      img.style.height = '24px';
+      img.style.objectFit = 'contain';
+      brandLink.insertBefore(img, textNode);
+    }
+  }
+
+  function replaceOverviewTitle() {
+    // Only touch likely heading nodes to avoid flattening container DOM.
+    var nodes = document.querySelectorAll('h1, h2, h3, .widget__title, .graph__title, .chart__title');
+    nodes.forEach(function (node) {
+      if (!node) return;
+      var text = (node.textContent || '').trim();
+      if (!text) return;
+      if (text.toUpperCase().indexOf('ALLURE REPORT') !== 0) return;
+      node.textContent = text.replace(/ALLURE REPORT/i, 'API Execution Report');
+    });
+  }
+
+  function keepOverviewSummaryAndSuitesOnly() {
+    var titles = document.querySelectorAll('.widget__title, .graph__title, .chart__title');
+    titles.forEach(function (title) {
+      var text = (title.textContent || '').trim().toUpperCase();
+      if (!text) return;
+      var keep = text.indexOf('ALLURE REPORT') >= 0 || text.indexOf('API EXECUTION REPORT') >= 0 || text.indexOf('SUITES') >= 0;
+      if (keep) return;
+      var block = title.closest('.widget, .chart, .dashboard__widget, .pane, .col, section');
+      if (block && block.parentElement) {
+        block.style.display = 'none';
+      }
+    });
+  }
+
+  function injectQuickLinks() {
+    var hash = window.location.hash || '';
+    if (hash && hash !== '#' && hash !== '#overview') return;
+    var root = document.querySelector('.app__content, .layout__content, .dashboard, main, .main');
+    if (!root) return;
+    if (document.getElementById('qa-quick-links')) return;
+
+    var box = document.createElement('div');
+    box.id = 'qa-quick-links';
+    box.style.margin = '12px 0';
+    box.style.padding = '12px 16px';
+    box.style.border = '1px solid #e5e5e5';
+    box.style.borderRadius = '8px';
+    box.style.background = '#fff';
+    box.style.display = 'flex';
+    box.style.alignItems = 'center';
+    box.style.gap = '12px';
+    box.style.flexWrap = 'wrap';
+
+    var title = document.createElement('strong');
+    title.textContent = 'Quick Links';
+    title.style.marginRight = '8px';
+    box.appendChild(title);
+
+    function addLink(label, url) {
+      var a = document.createElement('a');
+      a.href = url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = label;
+      a.style.padding = '6px 10px';
+      a.style.borderRadius = '6px';
+      a.style.border = '1px solid #d0d0d0';
+      a.style.textDecoration = 'none';
+      a.style.color = '#1f4d9a';
+      box.appendChild(a);
+    }
+    addLink('Postman Workspace', POSTMAN_URL);
+    addLink('TestNG Repository', TESTNG_URL);
+
+    var firstWidget = root.querySelector('.widget, section, .dashboard__widget, .col');
+    if (firstWidget && firstWidget.parentElement) {
+      firstWidget.parentElement.insertBefore(box, firstWidget);
+    } else {
+      root.insertBefore(box, root.firstChild);
+    }
+  }
+
+  function apply() {
+    hideModules();
+    customizeBrand();
+    replaceOverviewTitle();
+    keepOverviewSummaryAndSuitesOnly();
+    injectQuickLinks();
+  }
+
+  function safeApply() {
+    try {
+      apply();
+    } catch (e) {
+      console.warn('allure customization skipped due to runtime error', e);
+    }
+  }
+
+  var applyScheduled = false;
+  function scheduleApply() {
+    if (applyScheduled) return;
+    applyScheduled = true;
+    window.requestAnimationFrame(function () {
+      applyScheduled = false;
+      safeApply();
+    });
+  }
+
+  safeApply();
+  var observer = new MutationObserver(function () { scheduleApply(); });
+  observer.observe(document.documentElement, { childList: true, subtree: true });
+  window.addEventListener('hashchange', scheduleApply);
+})();
+/* allure-ui-customization:end */
+</script>
+
+</body>
+</html>
