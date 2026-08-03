@@ -1,0 +1,25 @@
+folder=Business Scenarios Tests / Platform Profile
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11/Accounts/create_platform_profile/f0e647d8-8f12-11f1-8c63-0a58a9feac02
+query=(no query params)
+headers=
+X-Visable-Auth-Token: OoBRUhKkj6nRO8Cafh+Gr54Yq62vKG9U3IqI/Ba0e1c
+OAuth-Token: c57065de-d241-4040-9184-d0e661a16814
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d7a8e652-d308-4ac8-8b6e-a40cea4b3786
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 44
+Cookie: download_token_base=48b30dce-f661-4f07-848e-c8d5d9fe5313; AWSALBAuthNonce=zLfB174KrBbBMfUr
+
+body=
+{
+          "platform_types": ["ep"]
+      }
