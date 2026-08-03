@@ -1,0 +1,28 @@
+folder=Business Scenarios Tests / Quote
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=GET
+url=https://crmtest-api.visable.com/rest/v11_20/Quotes/291dd2b8-8eed-11f1-93be-0a58a9feac02
+query=(no query params)
+headers=
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+host: crmtest.visable.com
+OAuth-Token: ffac9702-e634-4704-bd82-5778f126f7c5
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Cache-Control: no-cache
+Postman-Token: 91426508-aafa-4807-8d1b-ff9184a7ffbc
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: download_token_base=9ce62cfb-c7aa-45df-afb0-571976ba150c
+
+body=
+(empty request body)

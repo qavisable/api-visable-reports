@@ -1,0 +1,24 @@
+folder=Business Scenarios Tests / Products
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=PUT
+url=https://crmtest-api.visable.com/rest/v11_20/Products/f153497a-2791-11f1-a1ab-0248cdd2ef6b
+query=(no query params)
+headers=
+OAuth-Token: d37bcad2-8b8b-4d6a-94d6-d9df5efd389c
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e5dc8132-25ad-42a1-9b5a-759fd90fa481
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 33
+Cookie: download_token_base=54bff3d1-3ab6-4030-83eb-14e83b6ecb99; AWSALBAuthNonce=wem57v0ngrfl2jGx
+
+body=
+{
+ "expiry_date" : "2027-12-30"
+}

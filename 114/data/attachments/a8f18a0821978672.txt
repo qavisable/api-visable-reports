@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d259d4c4d7fb/2025-12-01_2025-12-30_visitors_z45k.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJ44GFIK7U%2F20260803%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T034111Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECQaDGV1LWNlbnRyYWwtMSJHMEUCIQCffe2L%2B8%2F0OkbRFyGGK9ZkG6cH6%2FwAQLD8%2FbQMnGoCbwIgMVynBE8n8FZTGlhAOosE%2Bza05EZc624iBPMv3vyGQiAq7QMI7f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODk3MjgxMzIwNTEiDOX5y7%2BnZxWeYcVpVirBA5fPyFF6%2FMwL2kxg1ytKC0AsT39FS%2B7Z7Y%2BvVFZMHV9McHvUJhISRu6mOLCJ41kjSPJLnMKCNLjQkBLm2V9ed%2BrFhL2fytWHAYNckiBKZ5VMG79i%2BMJefNblie5i7wWhOzxAVNcauVo%2B1a5j85iTVq%2Fnwgx%2FUay8DFoEZR8%2Fea4VBBCVMDcC6TS3SkfDW%2FPWVInQtAg40%2BMMygCjq7XHdAwQYM%2B98%2BrkNgqH9AtHvLDlPM%2FBNs7LtNWoR4VWEcYqhD1%2BpaKzOTlBWEE3SwV%2F8%2Fyblw8km7QvqzjhFgRmKJyzMJkKE1lC%2BplFBBQHcrHuzXKyRU%2FbJ5eiIOcY0gl5mq0XJbEy0vrkAOlgJD3SRcD1n9Ul4ZHmvjx6mcd7TTr3r4SCx3EosfOhL83LSFyZVzIqkyorsxybqNM4mukzAyhZGq5BgyoIGGYVPaK0SY%2BNN8m%2Fq4FbTjDAvSCdv7MWbcjxR0YXPEIb8qvZrNo%2FScp7c4GLs8VDfEIdON3dBVE9%2BO2X1Au7uZUV8PNnD5NdGEA8x1JSt4s2wQGPbMQmOcrOVo1l4tQGT%2BD0rAR6tSo7bBYmITOEUSmvR3KH3y8pjVuwMJOYwNMGOqUB%2BIT46HQFyndIi8w5MHI%2F6egwa3HbbSABnl9xtvPMviyrf7xNdhlMxZMPKpFXxVNI7ZCzuVsWvq744OV04t8viMKI5qozwMza01sI5MArIPkl2DafnkuvJLjxtlGI4dmyukiDK9%2F5frldBtSxhRs2Rhy5YZ9ZqhCubVlgKPs0zwH%2FSDIgK59PLp6uhcRQKFw6YAS1EE2bzW%2BVtVteSLngd%2BVLogn%2F&X-Amz-SignedHeaders=host&X-Amz-Signature=043fad604c0bfee81abf628f973799c0e59010284bb346720fd02cff65a6fe2e
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8ab2c1b3-7102-4fc4-8089-c2390e5fd60c
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
