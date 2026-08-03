@@ -1,0 +1,27 @@
+folder=Business Scenarios Tests / Feedback
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11/WLW_Feedback
+query=(no query params)
+headers=
+OAuth-Token: 60d60487-1ca4-406d-9b81-191902b86e3b
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2becee50-727f-4091-994e-7d4cfd34a9d1
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 171
+Cookie: download_token_base=3b6c0a13-6538-4827-88a4-fb6fb7a65110; AWSALBAuthNonce=0O6rRUzGKBgMiBCK
+
+body=
+{
+    "name" : "whatever",
+    "account_id": "02d41b10-e073-11ee-81ce-5a3fda81d038",
+    "csat_sentiment" : "unhappy",
+    "description": "nothing specific just a test"
+}
