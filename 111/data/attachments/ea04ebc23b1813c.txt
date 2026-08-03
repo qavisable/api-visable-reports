@@ -1,0 +1,24 @@
+folder=Business Scenarios Tests / Account
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=PUT
+url=https://crmtest-api.visable.com/rest/v11_20/Accounts/bb8caf62-8ee7-11f1-9451-0a58a9feac02
+query=(no query params)
+headers=
+OAuth-Token: 184d699d-5dc4-4d21-984b-9e28fcff3c87
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8141b108-fa03-4ad9-9640-a8ce3926333e
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 48
+Cookie: download_token_base=ed048015-0f40-4b13-8f59-c48584ef1ff1
+
+body=
+   {
+          "enabled_for_sales": true
+      }

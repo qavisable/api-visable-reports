@@ -1,0 +1,30 @@
+folder=Endpoints Tests
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=PUT
+url=https://crmtest-api.visable.com/rest/v11/Accounts/update_website_leads/sf_id/00505682-635e-1eea-9bba-9c63070457fb
+query=(no query params)
+headers=
+X-Visable-Auth-Token: SRJJqyrbdheOQiT8eNqYzgtA4jjMZrbiAyvsYl++oRc
+OAuth-Token: c7c49e53-6912-4046-a6bb-44cead37a2e2
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: c902d88b-3d96-4c5e-ac54-70cbb380c0a9
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 159
+Cookie: download_token_base=26f85fdb-307c-4882-8f81-9f0685a76833; AWSALBAuthNonce=1lxtx2Yzq7KjV0ye
+
+body=
+{
+  "website_leads_domains": "test.com",
+  "had_website_leads_traffic": true,
+   "id_type": "sf_id",
+   "lookup_id": "00505682-635e-1eea-9bba-9c63070457fb"
+
+
+}

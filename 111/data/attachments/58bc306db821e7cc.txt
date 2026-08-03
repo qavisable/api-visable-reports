@@ -1,0 +1,32 @@
+folder=Endpoint tests / Search
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/search/track
+query=searchKeyword=cnc
+headers=
+Content-Type: application/json
+application-source: PURCHASER_APP
+user-source: WLW
+mobile-session-id: 6840f66c-fa5b-4d34-93f0-84b81f655faf
+x-session-token: ory_st_gtDi3P63ejNx63zL4Y7zEOgozvv2sNCD
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5ab0b9cf-f28b-4d13-8970-0d113815f568
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+{
+  "mode": "raw",
+  "raw": "",
+  "options": {
+    "raw": {
+      "language": "json"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+folder=Technical Tests / ai-company-search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/search/ai/supplier/pv-match
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_gtDi3P63ejNx63zL4Y7zEOgozvv2sNCD
+mobile-session-id: 6840f66c-fa5b-4d34-93f0-84b81f655faf
+user-source: WLW
+x-api-key: {{apiKey}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ecaf1cf2-4e8e-4275-b087-78f3cad0b2b4
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 262
+
+body=
+{
+  "companyList": [
+    {
+      "companyId": "example",
+      "rank": "example",
+      "productList": []
+    }
+  ],
+  "qpInfo": {
+    "productQpKeywords": "example",
+    "queryProduct": "example",
+    "qpListData": "example"
+  },
+  "verifiedManufactory": true
+}
