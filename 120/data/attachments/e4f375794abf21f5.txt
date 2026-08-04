@@ -1,0 +1,30 @@
+folder=Endpoints Tests
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11/WLW_SyncEvents/signal_inbound_event
+query=(no query params)
+headers=
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+Authorization: {{refreshedTokenCRM}}
+OAuth-Token: 1da9cd10-25e6-4aa7-94a8-cd0dc8f8a6fd
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 545fdc82-ae9f-4a92-a977-25bc81dff3a3
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 187
+Cookie: download_token_base=f92cfc78-ad79-473e-8e46-be88972c10f8; AWSALBAuthNonce=Y03hUIo0hGz5qF0D
+
+body=
+{
+ "event_source": "curl@localhost",
+ "event_type": "update_profile",
+ "external_system": "supplierfacts",
+ "external_id": "31bbce77-d461-481f-81b6-073092d451e4",
+ "mode": "synchronous"
+}
