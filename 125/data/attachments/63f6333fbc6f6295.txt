@@ -1,0 +1,29 @@
+folder=Endpoints Tests
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=GET
+url=https://crmtest-api.visable.com/rest/v11/lead_management/get_duplicate_records
+query=(no query params)
+headers=
+X-Visable-Auth-Token: OoBRUhKkj6nRO8Cafh+Gr54Yq62vKG9U3IqI/Ba0e1c
+OAuth-Token: 639fe83a-b95c-48e2-b4fa-c564d433a15c
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 42cbff72-c52c-423a-b35e-422980030caf
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 170
+Cookie: download_token_base=f69a7809-c03c-4683-9935-ecc737927952; AWSALBAuthNonce=2PeMKFrNt0M1jYdb
+
+body=
+{
+   
+                "company_name": "regressionfrance8130",
+                
+                "company_email_address": "regr.8.13.0@test.example.com"
+                
+}
