@@ -1,0 +1,24 @@
+folder=Business Scenarios Tests / Contacts
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=PUT
+url=https://crmtest-api.visable.com/rest/v11_20/Contacts/7379b450-9094-11f1-9bb4-0a58a9feac02
+query=(no query params)
+headers=
+OAuth-Token: 37aec161-6fbb-4a7e-bfaf-13f382c38c2d
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3c70470c-8d9b-43e2-9c10-73346741e28b
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 63
+Cookie: download_token_base=998c53db-cc41-4b6c-bad3-3b44de3131b7
+
+body=
+{
+   "last_name":"QA Postman Contact 20260805-061108_changed"
+}

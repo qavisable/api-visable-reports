@@ -1,0 +1,18 @@
+httpStatus=200
+responseTimeMs=318
+responseSize=109
+headers=
+Date: Wed, 05 Aug 2026 06:13:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"result":"event_processed","result_text":"Event was processed.","id":"d7a67328-9094-11f1-8408-0a58a9feac02"}

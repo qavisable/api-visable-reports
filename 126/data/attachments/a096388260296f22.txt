@@ -1,0 +1,22 @@
+folder=Technical Tests / search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/categories/recommendations
+query=country={{country}}
+headers=
+Authorization: Bearer {{forbiddenBearerToken}}
+x-api-key: {{apiKey}}
+mobile-session-id: d58cd7ef-4926-4939-b63f-4c3a58be9b44
+user-source: WLW
+Accept-Language: {{acceptLanguage}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 71a587de-536e-4c00-b539-a58b32a33e61
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

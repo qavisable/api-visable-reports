@@ -1,0 +1,28 @@
+folder=Business Scenarios Tests / Contacts
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=GET
+url=https://crmtest-api.visable.com/rest/v11_20/Contacts/7379b450-9094-11f1-9bb4-0a58a9feac02
+query=(no query params)
+headers=
+OAuth-Token: 00cd2c98-7647-41f2-ab46-ff286db628cb
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 718c2ee4-7e9a-4993-a0e2-21036688461d
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: download_token_base=bfb8c2a7-37b0-46a2-95e4-f935c4d36473
+
+body=
+{
+  "mode": "raw",
+  "raw": "",
+  "options": {
+    "raw": {
+      "language": "json"
+    }
+  }
+}
