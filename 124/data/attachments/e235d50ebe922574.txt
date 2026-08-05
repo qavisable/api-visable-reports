@@ -1,0 +1,35 @@
+folder=Business Scenarios Tests / Account
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/Accounts
+query=(no query params)
+headers=
+OAuth-Token: 2ac71b2d-91c1-4a2d-a936-585d958043e8
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 63119a8e-6e33-4751-a58b-a9b1dd001c13
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 349
+Cookie: download_token_base=b6457216-0563-4754-a9af-f1119326d68a
+
+body=
+{
+  "name": "Test Account For Contact 20260805014706",
+  "billing_address_street": "Bahnhofstrasse 100",
+  "billing_address_city": "Hamburg",
+  "billing_address_postalcode": "20354",
+  "billing_address_country": "DE",
+  "email": [
+    {
+      "email_address": "company@example.com",
+      "primary_address": true,
+      "opt_out": false
+    }
+  ]
+}

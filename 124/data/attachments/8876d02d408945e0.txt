@@ -1,0 +1,27 @@
+folder=Business Scenarios Tests / Tasks
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=PUT
+url=https://crmtest-api.visable.com/rest/v11_20/Tasks/5d46256c-906f-11f1-bea2-02f56b07bfd9
+query=(no query params)
+headers=
+OAuth-Token: a49ffc63-8649-4488-b4a4-0e6b8bb8667d
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: c356c27c-c455-4bdb-b1a4-99fa4855911b
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 170
+Cookie: download_token_base=e16aa46d-11fe-49f4-8d58-dc7f309658a6
+
+body=
+{
+  "name": "QA Postman Task 1785894340476-changed",
+  "modified_user_id": "{{testAssignUserId}}",
+  "assigned_user_id": "{{testAssignUserId}}",
+  "priority": "Medium"
+}

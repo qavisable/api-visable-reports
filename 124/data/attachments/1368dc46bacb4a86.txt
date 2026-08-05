@@ -1,0 +1,29 @@
+folder=Endpoints Tests
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/WLW_SyncEvents/signal_inbound_event
+query=(no query params)
+headers=
+Content-Type: application/json
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+OAuth-Token: b8d6b9d4-df52-41ff-a9f3-1b65dd86c9b5
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 54699e8a-e47b-4888-b70b-dd1494e3fafc
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 186
+Cookie: download_token_base=05d6bb5c-b5da-4fcd-8550-bd5854ba3720; AWSALBAuthNonce=OihnIFd44Uyo6cS6
+
+body=
+{
+    "event_source": "insomnia@localhost",
+    "event_type": "request_for_consultation",
+    "external_system": "hubspot",
+    "external_id": "220212310907",
+    "mode": "synchronous"
+}
