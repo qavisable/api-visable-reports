@@ -1,0 +1,29 @@
+folder=Endpoints Tests
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=GET
+url=https://crmtest-api.visable.com/rest/v11/Accounts/resolve_external_id/sap_customer_number/bulk
+query=(no query params)
+headers=
+OAuth-Token: {{refreshedTokenCRM}}
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+OAuth-Token: d1f6bbe1-395b-4df2-b6c6-3ad88fc80b57
+X-Visable-Bypass-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ba37a261-c824-40bb-81cd-937d9bb1c46c
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 55
+Cookie: download_token_base=0c229be5-aee8-4e54-8e4c-d12e63194625; AWSALBAuthNonce=PKENM7FOujQoMyxS
+
+body=
+{
+	"ids" : [
+		"0002377823",
+		"0102125380"
+	]
+}
