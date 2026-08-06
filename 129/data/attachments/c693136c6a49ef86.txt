@@ -1,0 +1,21 @@
+folder=Technical Tests / purchaser-user-setting-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/userSetting
+query=id={{id}}&uuid=
+headers=
+Authorization: Bearer ory_st_9UiRB4FY38DmQVUHVRUlTojUqkPbx8cj
+application-source: {{applicationSource}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 20d7f24b-995b-4cf6-b732-3087dd89fc37
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

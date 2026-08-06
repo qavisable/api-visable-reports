@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=102
+responseSize=1952
+headers=
+Date: Thu, 06 Aug 2026 03:12:24 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"messages":[{"conversationId":"4a6002b0-7ff7-4535-a3f7-a0d5ed493538","createdAt":"2026-08-05T01:46:54.480053Z","createdBy":"ab9dfbf3-729e-56c8-911d-8502013e60ce","id":10835336,"isDeleted":false,"isOutbound":false,"isRemoved":false,"messageContent":"product request\n845ws85d5p55py, fzp5fzof5pxo5xpx5pfzlxz\nProduct : Daewoo Minidumper Dwfmd500 - Your Reliable Helper For Heavy Loads\nRequest Frequency : Onetime Requirement\nDelivery Location : Ingolstadt, Germany\nQuantity : 007\nCompany Name : Wayne LLC","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"1ed25b5d-949e-402f-a491-11865652455f"},{"conversationId":"4a6002b0-7ff7-4535-a3f7-a0d5ed493538","createdAt":"2026-08-05T05:55:25.364789Z","createdBy":"ab9dfbf3-729e-56c8-911d-8502013e60ce","id":10836761,"isDeleted":false,"isOutbound":false,"isRemoved":false,"messageContent":"hello","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"169f302b-37dc-4af9-a762-d4e95df4b292"},{"conversationId":"4a6002b0-7ff7-4535-a3f7-a0d5ed493538","createdAt":"2026-08-05T06:12:34.931416Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","id":10836784,"isDeleted":false,"isOutbound":true,"isRemoved":false,"messageContent":"2026-08-05T06:12:34.861Z Postman. Automated API test","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"fadbdcce-4605-49b8-9c2b-ef9aed23cd4d"},{"conversationId":"4a6002b0-7ff7-4535-a3f7-a0d5ed493538","createdAt":"2026-08-06T02:58:53.819615Z","createdBy":"ab9dfbf3-729e-56c8-911d-8502013e60ce","fileName":"image_picker_9C612C23-383B-4CC4-BC83-2323D5A256DD-36600-00000D02ED5441F9.jpg","id":10840410,"isDeleted":false,"isOutbound":false,"isRemoved":false,"messageContent":"image_picker_9C612C23-383B-4CC4-BC83-2323D5A256DD-36600-00000D02ED5441F9.jpg","messageLinks":[],"metadata":{},"type":"FILE","url":"20260806/c4000ab4-e930-4a6e-b5d4-5336b4fe0222/image_picker_9C612C23-383B-4CC4-BC83-2323D5A256DD-36600-00000D02ED5441F9.jpg","uuid":"c4000ab4-e930-4a6e-b5d4-5336b4fe0222"}]}
