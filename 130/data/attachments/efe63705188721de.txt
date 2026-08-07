@@ -1,0 +1,20 @@
+folder=Technical Tests / company-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/company/%7B%7Bid%7D%7D
+query=(no query params)
+headers=
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+mobile-session-id: 25263fb3-242e-4055-beea-5b8727fa1ef7
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 97fffde2-ac90-4fb5-8dc3-a90b9a89c84e
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
