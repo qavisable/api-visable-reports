@@ -1,0 +1,19 @@
+folder=Functional Tests
+env=Dragon_Staging
+envUid=10155542-25c0a86d-aaaf-4744-a598-081db628c578
+method=GET
+url=https://rfq-backend.internal.wlw-1.production.visable.cloud/rfq-backend/v1/categories
+query=lang=en
+headers=
+X-Platform: wlw
+X-Forwarded-Auth-User-Profile: id=1df26612-5d0c-58fd-a170-77acb028b4c7;is_admin=false
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fd636e29-35e3-4e08-83c4-b3dcc60dbe2a
+Host: rfq-backend.internal.wlw-1.production.visable.cloud
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

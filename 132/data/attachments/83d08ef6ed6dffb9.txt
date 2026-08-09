@@ -1,0 +1,24 @@
+folder=Technical Tests / feedback-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/v1/feedback
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_q0QksunlXQZR2QAVEGfhWRbQ4gx02H9U
+application-source: {{applicationSource}}
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6559d976-90ab-4771-9c7e-246f2ecf2506
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 345
+
+body=
+{
+  "feedbackDTO": "{\"email\": \"example\", \"message\": \"example\", \"subject\": \"example\"}",
+  "files": "[\"example\"]"
+}

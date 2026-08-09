@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d2504a0377fb/2025-12-01_2025-12-30_visitors_vpfl.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJ6H43S7P3%2F20260809%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260809T025102Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIAdAkQJMJGToU1HXm%2B6m4%2FUjGjifVd8FpC%2BmxfTfEKoqAiEAv1XzEu4tI3MiyBSu7pZUhJz2bzONandXoWpbAhIECmwq5AMIfBAEGgwzODk3MjgxMzIwNTEiDGfN3T%2BjjAqWJdXZ5CrBA7LZMdXBOiXtV%2BvF8pi1ss%2FWmy%2F5LODZZHRjhrTUAruwZJdVzBffMzcD9FlxCYDO7Cb2IVQ7GuPoC1d%2BZnHPZUqVtqCupCLNkCKRir4Wz%2FZ3FfoxqrGlYdmRW11g1VDznCcTCX%2FY4WcPbpHD%2BdIVCmWyYaBAoIFzi6a11bWnC8VyhNOzhcHcaQ4rSibS%2FDhoY7OC23YQaCU%2FlCQw3ZWMONa5%2B2oPtLCXVoO%2FaWqWdiyncZ4iD3CqwfZuQQuKPgMqIuW%2FIN8XA2IG8o3Nkyp%2BW328j2MIu%2BTQdZ2Z99ctSaoPmM4wiNNAHFXCi3NFxpAvkdZnKlESR90YO4onZPhAOq7UZDgKd9Ydo5wfWtP907EaYHrKUMguXrOvPKB0fF%2BO0wOMAF3ExMG6FRlfW%2BtpgYn%2Fdj24fgTE8tD%2B3vvr9PC3Mu2aeyUK%2BRYK%2FU7SFypXuND9ib57DcDWKrtryzbrSTNRdsVoGE2lp4QKuoaUucx10pQNdTPvIK%2FAZNJU7YVzjQnxiHLe5bAXH2pfEmDfHfandh4%2FhwDPrf1xqL4kzA9qNHB%2BKWSwGvReJs%2BV7k1BrrMFc3ZwW49kHo6q4NwX1QTrMJPP39MGOqUBMkEg5q8z66%2BL3UaRQZVV5ETNhyK4YeN2ar83rvtMncK%2F4C8lp41bgxAj9PYBM6SWqsdUPNixU2tnhP3LOHnXHQEPpsjz8EqRcQZOn%2BJZ7UK9fGg1sCLsnr0poCXvbRUwaQAaSrN7w6HN%2BxJOB8gTCH6hlhDdUrgtNWLktLcdhUBTc3ZWcD52wMhYFoC1YZs6x8Y7FGC7nPRFGGCX5WSo7TZVjxNa&X-Amz-SignedHeaders=host&X-Amz-Signature=1ee11544dc86522125bba600349886d1630fa8998c8ca66538ee191f824af11f
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e25a6606-1d83-4388-ae95-6a1f69aac824
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
