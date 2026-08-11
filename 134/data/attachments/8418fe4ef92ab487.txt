@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d2504a0377fb/2025-12-01_2025-12-30_visitors_7fui.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJW4MCQCQA%2F20260811%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260811T025042Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIGmutfgddssOFwF8AUCbc1%2FOXbLcksce07dGFz9CFZCoAiEApeu6ZMsWslqqbIUTUhK5%2F1aFNsinf34NNhxNm402Cssq7QMIrP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzODk3MjgxMzIwNTEiDO9%2B9BiwCAlvme7PYSrBA1CwmuxJHqzbYKUM0QI9IK%2FOibUtPTQ8gae9RXoZvpEr9p2R6y%2BoCgTeI1p57w5CF3OqzbYTiih46MikhCRks2hxPaN0PvWCXtjhpQOdxdZADb7%2BEWv%2FsXi8NK7qEqVi%2F%2FoYNIcZYBJM3kHV1eL1LYHSq8WYd3xPWVTE7H01uMj0LaZ3B95spz6hAA6plmsF1eK92rB47oG1mJh6zrX7lT86yuvpFEsEyNlGbP3P5eF4cV9wkFYKtPrdovc%2BGBps3hd%2BupONnWN7D9StoIEELMyBRGCxh%2B6lVtv5NznPi9atxPW1NaWol6erOLDbve7qQRLnKW8lcwnq4CT07E0q4m7G9NRRqijx3Yar4QIS0EGzmj3WGu9zLWIo8d%2Fncn9JBH8mtWv5IxPrgGaNHZmqAnLJ%2Fkwv83VC50aPlhIceYOmRCOhe9pZE0JBzL9SPYMtGukCvliGp0PDTyA9lDIO9drvBkGRHs0iZJPUBb1wxSEr8jJ7di2GiRSzkjjFWqHti8O%2FbZ4ra5edGA2M02rVLZWHzPRIrx12%2FfrCHybUIGSXEb9vNPS3A5rq436OJ0N7bpoonumX%2B5aw6cyDSd7c%2Bp0BMKOb6tMGOqUBLAt4YJ2aL%2FLEPJcwYXruqMNpML85pzRoqTqsUirrSx8lU7LZFIpyR8kXo54DWoJ74%2BrnAJxTL5%2FrtJWaaJAsvJ22z2Gexxe36zPj%2F6ilzAw1xGxmMuXMxAQPNRteWQgwAhtIAPbRL5Pi53aTVIxJ%2F2w5nHyvhXjwRuk8XM7ycEkVZBPaN6Jcp2hrELlh35%2BPKuKtbYc53zPhIJk%2FbSBmqJcBxHPN&X-Amz-SignedHeaders=host&X-Amz-Signature=6f2c02bd662b745748c857b61ab096c8c5eb33fac6e8a4b604c0740e747e6c5f
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: abe01fa4-642b-43f1-b7fc-21d8c701d7fe
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
