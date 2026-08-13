@@ -1,0 +1,32 @@
+folder=Endpoint tests / Conversations
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/conversation/userConversations/e454a893-b3c6-4407-8426-245e38cc95bf/messages
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+x-application-reference: MOBILE
+x-application-version: 3.6.3
+x-application-currency: EUR
+application-source: PURCHASER_APP
+user-source: WLW
+mobile-session-id: f08643f5-acb7-470f-859d-82b715012682
+x-session-token: ory_st_gBhr0Ppx7XI4yhUkPTOgPi2oXj9J7BnV
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 43f2b00b-1477-41cb-8c92-5b952fe209d1
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 150
+
+body=
+{
+"participantId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc",
+"messageContent":"Postman. Automated API test. Decline message",
+"tags":["not-interested"]
+}

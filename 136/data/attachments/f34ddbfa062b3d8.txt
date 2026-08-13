@@ -1,0 +1,31 @@
+folder=Technical Tests / help-and-support-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/help
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_gBhr0Ppx7XI4yhUkPTOgPi2oXj9J7BnV
+application-source: {{applicationSource}}
+user-source: WLW
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d4e44d3e-7b0a-4d9a-a21a-6b71da7e832f
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 211
+
+body=
+{
+  "applicationSource": "example",
+  "companyName": "example",
+  "email": "example",
+  "message": "example",
+  "phoneNumber": "example",
+  "subject": "example",
+  "upgradePackage": true,
+  "userConsent": true
+}
