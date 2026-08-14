@@ -1,0 +1,23 @@
+httpStatus=404
+responseTimeMs=331
+responseSize=808
+headers=
+Date: Fri, 14 Aug 2026 03:02:29 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Encoding: gzip
+
+body=
+{"message":"[PUT] https://conversations-service.internal.wlw-1.staging.visable.cloud/conversations-service/v0/conversations/2016bb33-7803-49a4-b4d8-40f5313485e4/decline ->> org.springframework.web.client.HttpClientErrorException$NotFound: 404 : \"{\"status\":404,\"code\":\"NOT_FOUND\",\"message\":\"Conversation Conversation has not been found: 2016bb33-7803-49a4-b4d8-40f5313485e4 not found.\"}\".statusCode org.springframework.web.client.HttpClientErrorException$NotFound: 404 : \"{\"status\":404,\"code\":\"NOT_FOUND\",\"message\":\"Conversation Conversation has not been found: 2016bb33-7803-49a4-b4d8-40f5313485e4 not found.\"}\".statusText 404 : \"{\"status\":404,\"code\":\"NOT_FOUND\",\"message\":\"Conversation Conversation has not been found: 2016bb33-7803-49a4-b4d8-40f5313485e4 not found.\"}\""}
