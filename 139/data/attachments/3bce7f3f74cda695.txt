@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=53
+responseSize=3466
+headers=
+Date: Sun, 16 Aug 2026 02:34:51 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"data":[{"company_id":"00505682-f25b-1ee9-bd91-d2504a0377fb","conversation_id":"41cb313e-ba34-4240-9837-d6e6e119a775","created_at":"2026-08-15T02:30:05.885844Z","de_message":"Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n\nProduct : request a callback\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 10500 pcs.\nCompany Name : Wayne LLC","delivered":true,"email":"visableapp@gmail.com","en_message":"Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n\nProduct : request a callback\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 10500 pcs.\nCompany Name : Wayne LLC","fr_message":"Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n\nProduct : request a callback\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 10500 pcs.\nCompany Name : Wayne LLC","hash_id":"41cb313e-ba34-4240-9837-d6e6e119a775","id":"27a41de8-4558-4168-8392-482dea6ed058","message":"Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n\nProduct : request a callback\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 10500 pcs.\nCompany Name : Wayne LLC","message_from":"PURCHASER","message_read":false,"notification_source":"CONVERSATION","notification_type":"NEW_CONVERSATION","profile_id":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","sender_id":"purchaserapp1@gmail.com","sender_profile_id":"ab9dfbf3-729e-56c8-911d-8502013e60ce","title":"New request","user_setting_uuid":"1f1e8ca5-cb3a-4d56-a2ea-3d6399fa113f","user_source":"WLW"},{"company_id":"00505682-f25b-1ee9-bd91-d2504a0377fb","conversation_id":"b4423cdd-f580-4d3c-b61e-2e0efc56aea6","created_at":"2026-08-14T03:04:11.391596Z","de_message":"Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n\nProduct : request a callback\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 10500 pcs.\nCompany Name : Wayne LLC","delivered":true,"email":"visableapp@gmail.com","en_message":"Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n\nProduct : request a callback\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 10500 pcs.\nCompany Name : Wayne LLC","fr_message":"Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n\nProduct : request a callback\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 10500 pcs.\nCompany Name : Wayne LLC","hash_id":"b4423cdd-f580-4d3c-b61e-2e0efc56aea6","id":"6e78c256-fae1-4adc-8d71-3e2ebd7ea157","message":"Postman. Automated API test\nmessage field\n445678900987666 76554321138ü85884279z36\n\nProduct : request a callback\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 10500 pcs.\nCompany Name : Wayne LLC","message_from":"PURCHASER","message_read":false,"notification_source":"CONVERSATION","notification_type":"NEW_CONVERSATION","profile_id":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","sender_id":"purchaserapp1@gmail.com","sender_profile_id":"ab9dfbf3-729e-56c8-911d-8502013e60ce","title":"New request","user_setting_uuid":"575bb559-0897-4fec-9e17-831035be57ab","user_source":"WLW"}],"page":1,"size":10,"total_pages":1,"unread_count":2}
