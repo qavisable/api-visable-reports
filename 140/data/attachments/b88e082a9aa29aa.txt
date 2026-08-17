@@ -1,0 +1,28 @@
+folder=Endpoint tests / Mobile_Feedback
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/feedback/subject
+query=(no query params)
+headers=
+Accept-Language: de
+user-source: WLW
+application-source: PURCHASER_APP
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 289efab9-b505-44a4-8eae-d8c5150f5d01
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+{
+  "mode": "raw",
+  "raw": "",
+  "options": {
+    "raw": {
+      "language": "json"
+    }
+  }
+}

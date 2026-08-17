@@ -1,0 +1,36 @@
+folder=Business Scenarios Tests / Account
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/Accounts
+query=(no query params)
+headers=
+X-Visable-Auth-Token: MSPowerAutohUF4triBAA/E/QMyN7vZxC7ULwP/LAWh
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6ef3e9de-22ba-40e9-9513-aac8a5eb021c
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 439
+Cookie: AWSALBAuthNonce=PqAyQAfankCii6Zd
+
+body=
+{
+  "name": "Full Test Account 20260817023340",
+  "billing_address_street": "",
+  "billing_address_city": "",
+  "billing_address_postalcode": "",
+  "billing_address_country": "",
+  "telephone_nr": "{{accountPhone}}",
+  "language": "",
+  "email1": "",
+  "website": "",
+  "vat": "DE123456789",
+  "description": "Test account created via Postman with all fields",
+  "industry": "Technology",
+  "employees": 50,
+  "annual_revenue": "1000000"
+}
