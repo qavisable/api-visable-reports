@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=109
+responseSize=3189
+headers=
+Date: Tue, 18 Aug 2026 02:31:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"conversationStatus":"AWAITING_REPLY","conversationType":"RFQ_MARKETPLACE","createdAt":"2026-08-01T09:22:57.977357Z","daysLeft":11,"hasAttachment":true,"hasUnreadMessage":false,"id":"e9fc7064-0d55-4a8c-8679-f21026072ef5","isAnswered":true,"isClosed":false,"isEnded":false,"isFrozen":false,"isImportant":false,"isLastMessageOutbound":true,"isOutbound":true,"isSpam":false,"lastMessage":"2026-08-17T02:35:16.738Z Postman. Automated API test","lastMessageCreatedAt":"2026-08-17T02:35:16.807863Z","lastModifiedAt":"2026-08-17T02:35:16.967259Z","logoUrl":"https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/d6fe1842-bcf7-46c1-997f-a8e85850deee.gif","messageLinks":[],"metadata":{"hiddenFromSender":"true","title":"walking shoes","referenceNo":"260730/554","deliveryLocation":"杭州市, 中国","quantity":"10 - 50","sourcePlatform":"EP","languageCode":"en","rfqId":"a2be2c2b-ecba-44a7-92d6-90c31398e2ea","matchingId":"75eb5169-5bcf-4c4f-a0aa-92a94afbfc16","requestFrequency":"ONE_TIME_REQUIREMENT","rfqVersion":"1.0","rfqOrigin":"APP","rfqCompany":"Quality Assurance @ Visable","matchingOrigin":"MARKET_PLACE","recipientOrganizationId":"dfd316ac-0705-3370-b1fa-c3848b04952f"},"organization":{"country":"TR","id":"dfd316ac-0705-3370-b1fa-c3848b04952f","logoUrl":"https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/d6fe1842-bcf7-46c1-997f-a8e85850deee.gif","name":"MAJESTYGO SHOES"},"organizationId":"dfd316ac-0705-3370-b1fa-c3848b04952f","originalRequestInfo":{"additionalData":{},"categoryId":100033,"convertedFromQdr":false,"createdDate":"2026-07-30T07:30:07.833Z","deliveryLocation":"杭州市, 中国","expiryDate":"2026-08-29","originAli":false,"originalRequestId":"a2be2c2b-ecba-44a7-92d6-90c31398e2ea","purchaserCompany":"Quality Assurance @ Visable","quantity":"10 - 50","referenceNo":"260730/554","requestDescription":"    I am looking for\n    product : walking shoes\n    • Quantity : 10 - 50\n    • Demand : One-time\n    • Details : shoes\n    ","requestFrequency":"ONE_TIME_REQUIREMENT","requestLanguage":"en","requestPlatform":"EP","requestType":"RFQ","suppliersRepliedCount":0,"title":"walking shoes","translations":{"description":{"de":"Ich suche\nProdukt: Wanderschuhe\n• Menge: 10 - 50\n• Nachfrage: einmalig\n• Einzelheiten: Schuhe\n"},"quantity":{"de":"10 - 50"},"title":{"de":"Laufschuhe"}},"viewedSuppliersCount":5},"participants":[{"belongsToOrganization":"dfd316ac-0705-3370-b1fa-c3848b04952f","email":"hkturk@gmail.com","id":"4ec1e2d8-1e82-506d-8594-6fb48741b8cc","name":"Halil KORKMAZ","profileId":"4ec1e2d8-1e82-506d-8594-6fb48741b8cc"},{"email":"visableapp@gmail.com","id":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","name":"Thiery Henry","profileId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc"}],"platform":"EP","recipientOrganizationId":"dfd316ac-0705-3370-b1fa-c3848b04952f","replyRequired":false,"sender":{"email":"visableapp@gmail.com","id":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","name":"Thiery Henry","profileId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc"},"subTitle":"Halil KORKMAZ","tags":["interested"],"title":"MAJESTYGO SHOES","unreadMessageCount":0,"is_alibaba_request":false}

@@ -1,0 +1,19 @@
+folder=Technical Tests / search-term-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=PUT
+url=https://api.staging.visable.io/mobile/public_api/search/notification-opened
+query=(no query params)
+headers=
+mobile-session-id: c77dba48-2bbc-4efd-bde3-2ace942cc0ec
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f287f006-0259-4728-9fb7-f853e6b62ade
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)

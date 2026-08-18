@@ -1,0 +1,22 @@
+folder=Technical Tests / search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/search/ai/termRecommend
+query=mock={{mock}}&personalize={{personalize}}
+headers=
+Authorization: Bearer {{expiredBearerToken}}
+Accept-Language: {{acceptLanguage}}
+user-source: WLW
+mobile-session-id: c77dba48-2bbc-4efd-bde3-2ace942cc0ec
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 17a4e944-38b3-4b24-a3a5-7dd6b95ca731
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
