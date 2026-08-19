@@ -1,0 +1,20 @@
+folder=Endpoint tests / Homepage, products
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/preferred/categories
+query=user_setting_id=a513dd4d-07c1-45ac-92c5-574684b2bc05
+headers=
+accept: */*
+Accept-Language: en
+user-source: WLW
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: a1b17bfc-38d8-414c-ab94-cc164fcf04cb
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
