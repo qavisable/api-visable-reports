@@ -1,0 +1,17 @@
+folder=Technical Tests / Membership
+env=Techno_Staging
+envUid=10155542-ac41d6c3-1393-4f00-942d-44bbeaf44665
+method=GET
+url=http://unified_commercial_logic/internal_api/api/membership
+query=filterParams=example&pager=example
+headers=
+accept: application/vnd.api+json
+user-agent: PostmanRuntime/7.39.1
+cache-control: no-cache
+postman-token: a7419a5a-8960-420b-85ae-0ff0fcbbffa8
+host: 
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+body=
+(empty request body)
