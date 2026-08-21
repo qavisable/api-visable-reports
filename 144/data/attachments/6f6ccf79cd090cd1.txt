@@ -1,0 +1,17 @@
+folder=Technical Tests / TopRanking
+env=Techno_Staging
+envUid=10155542-ac41d6c3-1393-4f00-942d-44bbeaf44665
+method=GET
+url=http://unified_commercial_logic/internal_api/api/top_ranking_v1/example
+query=(no query params)
+headers=
+accept: application/vnd.api+json
+user-agent: PostmanRuntime/7.39.1
+cache-control: no-cache
+postman-token: 2490d42e-4f39-47b2-8cbf-a69fe616e753
+host: 
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+body=
+(empty request body)

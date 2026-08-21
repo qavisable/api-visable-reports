@@ -1,0 +1,17 @@
+folder=Technical Tests / GoogleAd
+env=Techno_Staging
+envUid=10155542-ac41d6c3-1393-4f00-942d-44bbeaf44665
+method=GET
+url=http://unified_commercial_logic/internal_api/api/google_ad/example
+query=(no query params)
+headers=
+accept: application/vnd.api+json
+user-agent: PostmanRuntime/7.39.1
+cache-control: no-cache
+postman-token: 46aa382a-a974-4254-9dbb-1ab4adacc40b
+host: 
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+
+body=
+(empty request body)
