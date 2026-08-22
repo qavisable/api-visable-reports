@@ -1,0 +1,32 @@
+folder=Endpoints Tests
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/WLW_SyncEvents/signal_inbound_event
+query=(no query params)
+headers=
+X-Visable-Auth-Token: QbWweSKrPYjZT8pfx97EsUp4tI7aR6h6LYltMbqsMIk
+Authorization: {{refreshedTokenCRM}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6e319555-9fc5-43c9-ad8b-83a6a4e94a22
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 270
+Cookie: AWSALBAuthNonce=qu8YzQdziyR4yaM5
+
+body=
+{
+       "event_source": "conversation_platform",
+       "external_system": "web",
+       "event_type": "buyer_lead",
+       "external_id": "0081e8a3-6582-5933-aa5d-718d2927cdc4",
+       "mode": "synchronous",
+       "direction": "inbound",
+        "data": {}
+      }
+
+ 

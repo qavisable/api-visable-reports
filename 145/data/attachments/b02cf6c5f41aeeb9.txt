@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=222
+responseSize=1787
+headers=
+Date: Sat, 22 Aug 2026 02:30:45 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"messages":[{"conversationId":"1bfebbda-a275-4cbc-80d0-39d5a25da7f7","createdAt":"2026-08-20T09:21:04.422681Z","createdBy":"f9f415c2-7693-556e-b1c5-c47fb5c156fa","id":27331530,"isDeleted":false,"isOutbound":false,"isRemoved":false,"messageContent":"Request for quotation for a CNC machine featuring an automatic tool changer, suitable for multi-operation machining with minimal downtime.\n\nTitle : CNC machine featuring\nDelivery Location : Amsterdam, Netherlands\nQuantity : 100\nRequest Frequency : Onetime Requirement\nCompany Name : Test Name1","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"3029c43c-d745-4baf-a33b-130fe0e084ca"},{"conversationId":"1bfebbda-a275-4cbc-80d0-39d5a25da7f7","createdAt":"2026-08-20T09:21:26.251374Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","id":27331561,"isDeleted":false,"isOutbound":true,"isRemoved":false,"messageContent":"pinning","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"e885801b-1976-418f-bf92-4c0c6f5e7658"},{"conversationId":"1bfebbda-a275-4cbc-80d0-39d5a25da7f7","createdAt":"2026-08-20T09:52:40.637365Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","fileName":"546.jpg","id":27331715,"isDeleted":false,"isOutbound":true,"isRemoved":false,"messageContent":"546.jpg","messageLinks":[],"metadata":{},"type":"FILE","url":"20260820/5773b153-2565-4228-82ba-bae9bb7ac054/546.jpg","uuid":"5773b153-2565-4228-82ba-bae9bb7ac054"},{"conversationId":"1bfebbda-a275-4cbc-80d0-39d5a25da7f7","createdAt":"2026-08-21T02:37:20.296705Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","id":27335175,"isDeleted":false,"isOutbound":true,"isRemoved":false,"messageContent":"2026-08-21T02:37:20.227Z Postman. Automated API test","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"9cdbad68-e1f8-4796-8faa-ae8ff96dedff"}]}

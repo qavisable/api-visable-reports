@@ -1,0 +1,20 @@
+folder=Business Scenarios Tests / Platform Profile
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=PUT
+url=https://crmtest-api.visable.com/rest/v11_20/WLW_PlatformProfiles/e6d73c3a-6e52-11ef-a831-0a58a9feac02
+query=(no query params)
+headers=
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 200c4fcc-cff4-46f0-a437-b2184a4034ef
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 104
+Cookie: AWSALBAuthNonce=Bm608gVKVnnFpe57
+
+body=
+{"website" : "https://example.com/path?param1=value+with+spaces&param2=special%20characters%26symbols"}

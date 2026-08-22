@@ -1,0 +1,24 @@
+folder=Technical Tests / product-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/products/%7B%7BproductId%7D%7D
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_4okME83H4H2MRTL2cIfeXFuOaCKsrj6X
+user-source: WLW
+x-application-currency: {{xApplicationCurrency}}
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+mobile-session-id: fdedf493-82ba-42a6-a9de-e613627d3c1d
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e5bf0a1b-d1a1-437c-ac4b-05ea68dd04f5
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
