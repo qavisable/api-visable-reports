@@ -1,0 +1,23 @@
+folder=Technical Tests / login-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/auth/session/extend
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_hWHKt73fc0ZeMJQ84qKePleRnwdmPSZ3
+x-api-key: {{apiKey}}
+user-source: WLW
+x-session-token: {{sessionToken}}
+mobile-session-id: 2e01c1f0-fdcd-464d-8ffa-1c4c7da6e4f1
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: da7c6f5a-d9ab-4ea5-9874-4ab6e17230ed
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)
