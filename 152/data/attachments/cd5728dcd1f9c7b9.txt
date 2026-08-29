@@ -1,0 +1,18 @@
+folder=Technical Tests / currency-exchange-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/exchange/fetch-rates
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_9tJ6H3gSy60iUcj583wsulO4PmG5zyKK
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 337c57f9-f695-4202-8c90-c45ee0ecd0bf
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)

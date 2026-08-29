@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=143
+responseSize=2457
+headers=
+Date: Sat, 29 Aug 2026 02:26:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"messages":[{"conversationId":"e3a8f936-ca68-401e-8645-3f5230c5ddb4","createdAt":"2026-08-27T06:25:34.120991Z","createdBy":"9be9d64f-68f6-5b17-9bb0-6d0d772448df","id":27368373,"isDeleted":false,"isOutbound":false,"isRemoved":false,"messageContent":"Vi ønsker å innhente tilbud på iPhone 18 smarttelefoner, med ulike lagringskapasiteter og fargevalg. Vennligst oppgi tilgjengelige modeller, spesifikasjoner, og en oversikt over lagringsalternativer. \n- Oppgi minste bestillingsantall (MOQ), volumpriser og leveringstid.\n- Beskriv tilgjengelige lagringskapasiteter og farger.\n- Oppgi garantivilkår og eventuelle sertifiseringer.\n- Leveringsdestinasjon: oppgi mulighet for levering til Norge.\n- Oppgi emballasjealternativer og logistikkdetaljer.\nVi ber om tekniske datablad og informasjon om prøveordrer dersom det er relevant.\nBetreff : i am looking for iphone18\nLieferort : Amsterdam, Niederlande\nMenge : 10\nBedarfstyp : Einmalbedarf\nFirmenname : Visable GmbH","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"9b0d46e0-feed-4bff-93d6-90e7e4448970"},{"conversationId":"e3a8f936-ca68-401e-8645-3f5230c5ddb4","createdAt":"2026-08-27T06:26:13.639380Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","id":27368376,"isDeleted":false,"isOutbound":true,"isRemoved":false,"messageContent":"hi","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"742a7a72-feff-4993-b7ee-57971c40c621"},{"conversationId":"e3a8f936-ca68-401e-8645-3f5230c5ddb4","createdAt":"2026-08-28T02:05:31.473324Z","createdBy":"9be9d64f-68f6-5b17-9bb0-6d0d772448df","id":27371082,"isDeleted":false,"isOutbound":false,"isRemoved":false,"messageContent":"hi","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"2339e7a6-12a4-4051-aab6-f30152cf47cc"},{"conversationId":"e3a8f936-ca68-401e-8645-3f5230c5ddb4","createdAt":"2026-08-28T04:54:43.632702Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","id":27371863,"isDeleted":false,"isOutbound":true,"isRemoved":false,"messageContent":"2026-08-28T04:54:43.567Z Postman. Automated API test","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"18712547-2018-4b64-820e-d55ee1073547"},{"conversationId":"e3a8f936-ca68-401e-8645-3f5230c5ddb4","createdAt":"2026-08-28T05:44:05.580300Z","createdBy":"9be9d64f-68f6-5b17-9bb0-6d0d772448df","id":27371980,"isDeleted":false,"isOutbound":false,"isRemoved":false,"messageContent":"agbc","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"51ec081a-6f4e-4e27-b4f0-c7e954ac8f1e"}]}
