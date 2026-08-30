@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d2504a0377fb/2025-12-01_2025-12-30_visitors_rexl.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJ46Z4LB6O%2F20260830%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260830T023047Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJGMEQCIHTHQvijY2DRO%2B8TfpBTg7r3rCBGWKUcHLMIA%2F0EO5cWAiAsSYUFk9KnOQJSF75rQyEBlkLMPjU1l51pPugCCEPMpirkAwhzEAQaDDM4OTcyODEzMjA1MSIMY13Oj4InU2m6r0kdKsEDL3zl82pHgGXLsDcopA%2BRPtdkkNO7lpbhkdwwEoGHKwhsWTuUBp5f%2Bw%2FnhHfXfl0n82YyZO78GLCEDRW9NKLV6ztyJG7o6qRKuJAfY2D2HV9VUoDUMNKzQgKB4r8U6JSKbzH%2BkOYZB0JVRZ0IHgaAHAhFIsV29W30NfYYhQuK9sR%2FmUif9SWqaeuu69YdLcQ4sAmTyppBlaVnezxsrzGcExdBnc9M0moW0iTrdtOCxqeuqb%2BZoyaSmLvxQk%2FvLhw%2FgjAjJAbT2a%2BYuk%2FmrXw0QZTu33hLQHjkuGpWp5MjTxfu3Bf64U5vlrFmgzZhTwGk6wTi6UDBAhhtBLKe4SJ6gHr%2F3IBlUPP95YV8F1pz20SpIZpaXq0BW5n9w%2FixS3CPLfqXNY1RpA1Mf1s8EiOvVkFO5%2BjOh2E%2FkJnFMmnfvk9IWE0rXKBcXX%2Fn2TQ12WKyjAMnWYMI5vDmsRf4ZgCgkJH7yO%2BbYoVXyB5Umlot2mAMWwfPKmv%2Bp%2BOG4K6tarxA%2FqCll023sS3tDRAyOkvcGBiipMNKbp9Y0gBz747l5qzpxO0zJzK6qKa1WiMQYlHwF9FZLa9IDwpji1Es9i6x6rgwyKXO1AY6pgF%2F8UGnD3I32IMcKOBRfhSpazgv%2B6UIZcVod0vLD%2FUXxeTKi8uZVETCtMW%2BZ15NNMKAdpszeRIg5lZTbKXMVOiZ35mrY3vTQLpRIhHOLbXBynkuBRrDIi9xFkkbwpFmbvCoGNUHDDAfY4wrOMYYaOtfbniNXJK81Usr3iPV3jk6CP1yqI1a5JixBfgqw81bI5RK90C%2FGeKHzGzH4ar7jufIwrzk1tT5&X-Amz-SignedHeaders=host&X-Amz-Signature=ff0ec70e7621f5f17acd4086b4751116d5d69276e1297ee2c78400bb1eb9492b
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b7152163-38ec-42cc-a925-67aeb4ac3c67
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
