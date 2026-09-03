@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=119
+responseSize=3426
+headers=
+Date: Thu, 03 Sep 2026 03:08:16 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"conversationStatus":"AWAITING_REPLY","conversationType":"RFQ_CONNECT","country":"DE","createdAt":"2026-08-18T06:30:57.781656Z","email":"purchaserapp1@gmail.com","hasAttachment":false,"hasUnreadMessage":false,"id":"7e32b4e5-3d15-4641-842b-b37ecd0cd4c5","isAnswered":true,"isClosed":false,"isEnded":false,"isFrozen":false,"isImportant":false,"isLastMessageOutbound":true,"isOutbound":false,"isSpam":false,"lastMessage":"hello.","lastMessageCreatedAt":"2026-09-03T02:37:59.746860Z","lastModifiedAt":"2026-09-03T02:38:00.971801Z","messageLinks":[],"metadata":{"hiddenFromSender":"true","title":"test. pls ignore.Cooling & Heating","referenceNo":"250415/353","deliveryLocation":"Ingolstadt, Germany","quantity":"10 - 50","sourcePlatform":"WLW","languageCode":"en","rfqId":"d40d0185-baa9-49a5-b5a7-18fcf6b37935","matchingId":"d7125146-af10-420e-883d-f237b5443249","requestFrequency":"SERIAL_REQUIREMENT","rfqVersion":"1.0","rfqOrigin":"APP","rfqCompany":"Wayne LLC","matchingOrigin":"ADMIN","recipientOrganizationId":"00505682-f25b-1ee9-bd91-d2504a0377fb"},"organization":{"country":"DE","id":"00505682-f25b-1ee9-bd91-d2504a0377fb","logoUrl":"https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/9847fb78-2a45-458b-b36d-9596e90d67e7.jpeg","name":"Alfred Schweizer GmbH Co. KG"},"originalRequestInfo":{"additionalData":{},"convertedFromQdr":false,"createdDate":"2025-04-15T12:28:34.223Z","deliveryLocation":"Ingolstadt, Germany","originAli":false,"originalRequestId":"d40d0185-baa9-49a5-b5a7-18fcf6b37935","purchaserCompany":"Wayne LLC","quantity":"10 - 50","referenceNo":"250415/353","requestDescription":"    I am looking for\n    product : test. pls ignore.Cooling & Heating\n    • Quantity : 10 - 50\n    • Demand : Repeating\n    • Details : zest\n    ","requestFrequency":"SERIAL_REQUIREMENT","requestLanguage":"en","requestPlatform":"WLW","requestType":"RFQ","suppliersRepliedCount":1,"title":"test. pls ignore.Cooling & Heating","translations":{"description":{"de":"Ich suche\nProdukt: Test. Bitte ignorieren. Kühlung & Heizung\n• Menge: 10 - 50\n• Nachfrage: Wiederholend\n• Einzelheiten: zest"},"quantity":{"de":"10 - 50"},"title":{"de":"Kühlen und Heizen"}},"viewedSuppliersCount":0},"participants":[{"belongsToOrganization":"00505682-f25b-1ee9-bd91-d2504a0377fb","email":"s.bogensperger@alfred-schweizer.de","id":"purchaserapp1@gmail.com","name":"Stefan Bogensperger"},{"country":"DE","email":"purchaserapp1@gmail.com","id":"ab9dfbf3-729e-56c8-911d-8502013e60ce","name":"James Bond","profileId":"ab9dfbf3-729e-56c8-911d-8502013e60ce"},{"belongsToOrganization":"00505682-f25b-1ee9-bd91-d2504a0377fb","email":"visableapp@gmail.com","id":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","name":"Thiery Henry","profileId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc"},{"belongsToOrganization":"00505682-f25b-1ee9-bd91-d2504a0377fb","country":"DE","email":"info@alfred-schweizer.de","id":"3c15cf98-5488-587f-aebd-48fb4d8facbe","name":"Kristina Engel","profileId":"3c15cf98-5488-587f-aebd-48fb4d8facbe"}],"platform":"WLW","recipientOrganizationId":"00505682-f25b-1ee9-bd91-d2504a0377fb","replyRequired":false,"sender":{"country":"DE","email":"purchaserapp1@gmail.com","id":"ab9dfbf3-729e-56c8-911d-8502013e60ce","name":"James Bond","profileId":"ab9dfbf3-729e-56c8-911d-8502013e60ce"},"subTitle":"","tags":["interested"],"title":"Wayne LLC","unreadMessageCount":0,"is_alibaba_request":false}
