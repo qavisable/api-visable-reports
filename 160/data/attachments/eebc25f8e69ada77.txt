@@ -1,0 +1,19 @@
+folder=Endpoint tests / Conversations
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/conversation/userConversations/dccfd844-1fb1-4232-9c4a-8e37cada70c4/file
+query=url=null&organizationId=00505682-f25b-1ee9-bd91-d2504a0377fb
+headers=
+accept: */*
+user-source: WLW
+x-session-token: ory_st_tKcZU3ufXRfeNbWFJ4ShtJEmJzq9Y4RH
+User-Agent: PostmanRuntime/7.39.1
+Cache-Control: no-cache
+Postman-Token: 1a5e68ef-1622-48b2-b978-b34c49c7a0ac
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
