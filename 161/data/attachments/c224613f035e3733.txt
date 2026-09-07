@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=128
+responseSize=880
+headers=
+Date: Mon, 07 Sep 2026 02:30:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"conversationId":"dccfd844-1fb1-4232-9c4a-8e37cada70c4","createdAt":"2026-09-04T10:58:03.642726Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","id":27422666,"isOutbound":false,"isRemoved":false,"messageContent":"Testinghsjsnsnsndndnnsnsndndndnndndndndndn\nTestingnsns\nProduct : Food Packaging Bags with Adhesive Tape | Printed or perforated plastic bags for the food industry\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 100\nCompany Name : Alfred Schweizer Gmbh Co. Kg","metadata":{},"translations":{"en":"Testinghsjsnsnsndndnnsnsndndndnndndndndndn\nTestingnsns\nProduct : Food Packaging Bags with Adhesive Tape | Printed or perforated plastic bags for the food industry\nRequest Frequency : Onetime Requirement\nDelivery Location : Berlin, Germany\nQuantity : 100\nCompany Name : Alfred Schweizer Gmbh Co. Kg"},"type":"TEXT"}

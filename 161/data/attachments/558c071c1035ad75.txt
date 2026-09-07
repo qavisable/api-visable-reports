@@ -1,0 +1,21 @@
+httpStatus=500
+responseTimeMs=102
+responseSize=208
+headers=
+Date: Mon, 07 Sep 2026 02:29:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+
+body=
+{"timestamp":"2026-09-07T02:29:15.367+00:00","status":500,"error":"Internal Server Error","path":"/mobile_backend/public_api/conversation/userConversations/baec7d0d-01c3-4702-8f4f-02f7ba027b82/messages/file"}
