@@ -1,0 +1,21 @@
+httpStatus=401
+responseTimeMs=55
+responseSize=391
+headers=
+Date: Tue, 08 Sep 2026 02:28:54 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+
+body=
+{"message":"[GET] https://supplier-facts.internal.wlw-1.staging.visable.cloud/companies/7027c830-32ac-34c0-8abc-26118509a848 ->> org.springframework.web.client.HttpClientErrorException$Unauthorized: 401 Unauthorized: [no body].statusCode org.springframework.web.client.HttpClientErrorException$Unauthorized: 401 Unauthorized: [no body].statusText 401 Unauthorized: [no body]","status":"401"}
