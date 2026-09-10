@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d2504a0377fb/2025-12-01_2025-12-30_visitors_82g3.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJ2UKHAEDC%2F20260910%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260910T022919Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJIMEYCIQCXTZF8k9ROCQ0yAPun97I7cTpxLucJlloD0UOIvYHMTwIhALNC3OG4euUn%2BQ9qOhXicRWoT353NbG%2BFVnwB%2BSOCjg8KuQDCHsQBBoMMzg5NzI4MTMyMDUxIgySWyXq1l1MwzpJ2uQqwQOJuFCaguhjdtch8odYRA3oBWj0%2FzM%2FNU6cjQAdTPy1j40tR6EwJ6URCNQQfLidJEAifDBALWAucvlYpCWUOdnCvbU0jxu5QYO40ml95iQC%2Ff9ExRR5uR0LiJ3C%2BosCYccu6vaOn6eX46vA%2FzmnEZeMzijBPim6a0cru1DD5wfN%2FqLu%2Bu34nnWjTAIN973ST76Ol7JvzNnppnXaOpXBLZC3dDgMf7%2B6pxesuMQCk5qnv6bsoDNbr%2BJ89E17IMYLv%2B%2BtPagUuCBDz4iXYW1i2RDd3ucjTzj7tgchFLY%2FaaKkIeISLwLxViQwuXei6Hrsnok732pPCOvX897JhdCY6l8a7VMv8SrWJ0XJaJqSx52OFcnSJxJFVM%2Bnidi1TPDHIUcbtoUGFpB%2B39MhNVzNGVTGxUols7gUEkKZV35f%2FRO75TU7J2TKdlDkwT02r5Xmt%2FwtBAxEwDNYgj1NsaFbi5GFtBfMeejbjgMjk4j1qpR8UqpG2QT%2FVFAc5ofiz4zW9oK3lOFf15OhRj21D3tiPY0Hy6kgOERVTwAqff10bJipu9ceHF0c2ZfyJqadY0hluyYF%2FQP7Nr9MX3KqbwLPxziq0DCdp4jVBjqkAUifly9fd46pfAn3cDBiwX4Mhr4Rsfzz%2BHAEaVW8nymJd1Eq91Zy0843z0LVN1PQcXeUzBrcZFcSPcIXbuKA71HVcv2R35gmIzLe7zTk7jlpmg%2BGa3din18tvgt%2FszZs4p7lCxxu2M%2BVgb6XHkA0u%2FhtOAUz3bgzYQhngJcSoP3of4q%2FMILtr%2BBbcbgygdgew2ihT1zxpnm%2FuhbtRAlUhzGQBZq1&X-Amz-SignedHeaders=host&X-Amz-Signature=38521e8704d536d82d220a5522bea0aea7cca076f69dcbb6e701020236612b74
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: de04502e-c0f6-41b1-b8a3-c4d2a9430f33
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
