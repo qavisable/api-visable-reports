@@ -1,0 +1,21 @@
+httpStatus=400
+responseTimeMs=81
+responseSize=1719
+headers=
+Date: Fri, 11 Sep 2026 02:30:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+
+body=
+{"message":"[PATCH] https://user-backend.internal.wlw-1.staging.visable.cloud/api/profiles/d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc ->> org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: \"{\"code\":400,\"status\":\"BAD_REQUEST\",\"error\":\"Request does not match specification.\",\"details\":[\"{\\\"instancePath\\\":\\\"/requestBody/mobile\\\",\\\"schemaPath\\\":\\\"#/properties/requestBody/properties/mobile/additionalProperties\\\",\\\"keyword\\\":\\\"additionalProperties\\\",\\\"params\\\":{\\\"additionalProperty\\\":\\\"status\\\"},\\\"message\\\":\\\"must NOT have additional properties\\\"}\"],\"trace_id\":\"6303221668511533686\"}\".statusCode org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: \"{\"code\":400,\"status\":\"BAD_REQUEST\",\"error\":\"Request does not match specification.\",\"details\":[\"{\\\"instancePath\\\":\\\"/requestBody/mobile\\\",\\\"schemaPath\\\":\\\"#/properties/requestBody/properties/mobile/additionalProperties\\\",\\\"keyword\\\":\\\"additionalProperties\\\",\\\"params\\\":{\\\"additionalProperty\\\":\\\"status\\\"},\\\"message\\\":\\\"must NOT have additional properties\\\"}\"],\"trace_id\":\"6303221668511533686\"}\".statusText 400 Bad Request: \"{\"code\":400,\"status\":\"BAD_REQUEST\",\"error\":\"Request does not match specification.\",\"details\":[\"{\\\"instancePath\\\":\\\"/requestBody/mobile\\\",\\\"schemaPath\\\":\\\"#/properties/requestBody/properties/mobile/additionalProperties\\\",\\\"keyword\\\":\\\"additionalProperties\\\",\\\"params\\\":{\\\"additionalProperty\\\":\\\"status\\\"},\\\"message\\\":\\\"must NOT have additional properties\\\"}\"],\"trace_id\":\"6303221668511533686\"}\""}
