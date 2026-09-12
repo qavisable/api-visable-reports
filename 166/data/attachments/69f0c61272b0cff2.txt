@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=156
+responseSize=3001
+headers=
+Date: Sat, 12 Sep 2026 02:30:25 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"conversationStatus":"AWAITING_REPLY","conversationType":"REQUEST_FOR_INFORMATION","createdAt":"2026-05-15T10:16:53.434702Z","email":"roman.einikis@fractalitics.com","hasAttachment":false,"hasUnreadMessage":false,"id":"ba34056f-1345-41c8-90ad-5de8fe15273b","isAnswered":true,"isClosed":false,"isEnded":false,"isFrozen":true,"isImportant":false,"isLastMessageOutbound":true,"isOutbound":false,"isSpam":false,"lastMessage":"Postman. Automated API test. Decline message","lastMessageCreatedAt":"2026-09-11T02:31:21.152482Z","lastModifiedAt":"2026-09-11T02:31:21.310733Z","messageLinks":[],"metadata":{"productId":"36381578","productName":"NdFeB magnets","hiddenFromSender":"false","quantity":"20000 pieces","buyerCountry":"de","requestTitle":"Certificate of Origin of the Ore","supplierTypes":"production","deliveryLocation":"Konstanz, Germany","requestFrequency":"SERIAL_REQUIREMENT","purchaserCompanyName":"Fractalitics GmbH","sourceChannel":"WEB_PRODUCTS","requestReceivedAt":"2026-05-15T10:16:09.355902295Z","offerId":"b22df178-a33e-420f-9c8b-1844b3c338f0","userClassification":"{  \"requestReason\" : \"GET_MORE_INFORMATION\",  \"targetDepartment\" : null}","convertDirectRequestToRfq":"{  \"convertToRfq\" : true,  \"companyName\" : null}","transactionId":"04a064f4-80b8-4790-ab01-393eda4e651b","requestIterationId":"04a064f4-80b8-4790-ab01-393eda4e651b","recipientOrganizationId":"00505682-f25b-1ee9-bd91-d259d4c4d7fb"},"organization":{"country":"DE","id":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","logoUrl":"https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/0730f07d-11ab-42e6-8d08-242a98c9d985.jpeg","name":"Deutsche Techna Dr. Hahn GmbH & Co. KG"},"participants":[{"belongsToOrganization":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","country":"DE","email":"m.schwebe@deutsche-techna.de","id":"ffbd06df-491f-57a7-8384-f7be849d4827","name":"Marc Schwebe","profileId":"ffbd06df-491f-57a7-8384-f7be849d4827"},{"belongsToOrganization":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","country":"DE","email":"info@deutsche-techna.de","id":"f1d28b44-f95e-5ff4-b0d9-2afc28bddbb2","name":"Rafik Dogan","profileId":"f1d28b44-f95e-5ff4-b0d9-2afc28bddbb2"},{"belongsToOrganization":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","email":"visableapp@gmail.com","id":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","name":"Thiery Henry","profileId":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc"},{"email":"roman.einikis@fractalitics.com","id":"e855c78c-bce4-47d8-a65d-739dde58f597","name":"Roman Einikis","profileId":"e855c78c-bce4-47d8-a65d-739dde58f597"}],"platform":"EP","productId":"b22df178-a33e-420f-9c8b-1844b3c338f0","recipientOrganizationId":"00505682-f25b-1ee9-bd91-d259d4c4d7fb","replyRequired":false,"sender":{"email":"roman.einikis@fractalitics.com","id":"e855c78c-bce4-47d8-a65d-739dde58f597","name":"Roman Einikis","profileId":"e855c78c-bce4-47d8-a65d-739dde58f597"},"subTitle":"","tags":["interested","not-interested"],"title":"Roman Einikis","unreadMessageCount":0,"is_alibaba_request":false}
