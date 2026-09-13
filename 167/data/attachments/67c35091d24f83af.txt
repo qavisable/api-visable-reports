@@ -1,0 +1,23 @@
+folder=Technical Tests / euro-pages-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=PUT
+url=https://api.staging.visable.io/mobile/public_api/euro-pages/auth/delete
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_jM9B6MyV9BE5aqD1vW0AQUjFvkjmXxBI
+application-source: {{applicationSource}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: c24389b5-e4c3-47b9-8383-dbf174e55f46
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 24
+
+body=
+{
+  "email": "example"
+}
