@@ -1,0 +1,20 @@
+folder=Technical Tests / rfq-marketing-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/rfq-marketing/trigger
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_CVdJFg65ydgMzsMlHy1rxvSMvMS1lH3G
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f6a3b77e-cd5c-4eba-8392-8a620471c45f
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)
