@@ -1,0 +1,23 @@
+folder=Technical Tests / ab-test-record-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/abtest/record
+query=(no query params)
+headers=
+mobile-session-id: 50090995-4cf0-47a5-9047-d2b039293993
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dea691c7-7f65-4ee3-a9f9-c7f8ea2bd8ff
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 67
+
+body=
+{
+  "experimentName": "example",
+  "experimentVariant": "example"
+}
