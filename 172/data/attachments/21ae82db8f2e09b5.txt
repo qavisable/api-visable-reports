@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=131
+responseSize=1044
+headers=
+Date: Fri, 18 Sep 2026 02:31:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"messages":[{"conversationId":"ab11abbb-b53c-477c-8de5-2a932e953848","createdAt":"2026-09-17T09:58:36.366015Z","createdBy":"daba2b3b-9915-43e0-8af5-4f28bfabb41c","id":27528538,"isDeleted":false,"isOutbound":false,"isRemoved":false,"messageContent":" I am looking for\n product : please \n • Quantity : 1-10\n • Demand : One-time\n • Details : please don’t \n\nTitle : please \nDelivery Location : 杭州市, 中国\nQuantity : 1-10\nRequest Frequency : Onetime Requirement\nCompany Name : The ","messageLinks":[],"metadata":{},"type":"TEXT","uuid":"dcdba8fe-ffe6-425e-b969-44d8d1291afc"},{"conversationId":"ab11abbb-b53c-477c-8de5-2a932e953848","createdAt":"2026-09-17T09:58:38.521822Z","createdBy":"daba2b3b-9915-43e0-8af5-4f28bfabb41c","fileName":"Attachment0.jpg","id":27528540,"isDeleted":false,"isOutbound":false,"isRemoved":false,"messageContent":"Attachment0.jpg","messageLinks":[],"metadata":{},"type":"FILE","url":"20260917/9841f008-4809-4362-9981-44066492c332/Attachment0.jpg","uuid":"9841f008-4809-4362-9981-44066492c332"}]}

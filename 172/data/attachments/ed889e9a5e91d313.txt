@@ -1,0 +1,22 @@
+folder=Technical Tests / purchaser-support-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/support-faq
+query=topic=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_bTH5A3Pu2PakiwWJDJ2i6bfbBHGDLRkm
+Accept-Language: {{acceptLanguage}}
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 83f45918-9d3a-4445-8da5-454b3074e02d
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
