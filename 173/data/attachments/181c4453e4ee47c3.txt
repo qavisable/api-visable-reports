@@ -1,0 +1,21 @@
+folder=Technical Tests / search-term-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/search/track
+query=searchKeyword=%27%20OR%201=1%20--
+headers=
+Authorization: Bearer ory_st_Ds35TrlfeNXa667iDFXzdrAs49fSncEE
+mobile-session-id: 34d706fc-0dc7-4f00-b7ed-ecbbbaf24316
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3853de53-97f3-490c-9ee3-efae4ee854b9
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)
