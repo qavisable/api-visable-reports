@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d2504a0377fb/2025-12-01_2025-12-30_visitors_uiz6.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJX63FRF6J%2F20260921%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260921T023354Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJGMEQCIEMeQ0AyiMbc6ZxuqNQBxUuHDUKnHJlOdhMzTaDKjFwzAiBk2WXepkR8tEJsTNidL%2BD2kWz5qouiDuZVWyi1gaNajCrtAwiE%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAQaDDM4OTcyODEzMjA1MSIMgS%2B8fU6XXKRnSyZNKsEDy3kqoEPJrAeKFTZrsQ%2B0UNxC4bUeHFrVS79eXaBlmmSo2q13xQW8EKRVARBbAHzTLtG9jgbrP3K9%2FNHm17PELlezOa9uG096kodONgfy6pruDDjh5XnguiLnSLvu2Ovlp2Yyfnnq%2FZkG9llFehdVM8T5blUOrkxPun%2F4awZo2WnEEvCb7AEz5qB1T6FehXvgxIp9SAWCfFTQj3v%2FS09SSWRCoLL3DNi53WFcYm2b4SzHH6ld91oYNKcrFxQ02Yfd43MzpTKKJpe9q0CQXvKuSRopYRjL2OTmcZ4akqW57Mk790e4uKi%2FxXZygj5fWqOmSgePKk4WORDLlZAWP1sDIPTd6KhLyBqIn3JDKr5viOLas9m52J713dMvyp%2B6zeDvINfZcXn3dJ2M4q73d2wsuOIbpfs8QvmFsrxEKQRAVhCAkM0ax3PdINRhkmfq7U8zpMI4cAnDw5xMlM45PtvWHvdOfyUqcb3HavUESnjt%2FJHwx0jPgfEVmxNDoGt%2Fwg34gHR9Q5JiXYop1Hsp6RjZkNoUl3si4WYjBszAJIJDZr5dO4T8KfX7H6mLfS1JGDtMKp2i%2B33RxuP93qUw9nXfePkwoq3C1QY6pgFmot49GTQr4QqVPjmtLUWmJaXMvLgz3Icy%2Fe%2Fp5f3greVkIVKE1g%2F7pQ1oRgV1i1MwapTzd8x%2FBGi%2B1iw2baG2eitkqMxTShafg%2BVEWtz7Pr9nJWtd4WPHY7m6NZJtER0yFmnrUeXsoqZgnOXfHzWJmDaPIsWbyHFhUKbwcR7xKP4t5P%2F7GMHOocMVYmsYkydjtO6Z4plbwG72nipyZHNytglA05yN&X-Amz-SignedHeaders=host&X-Amz-Signature=773410fb242cc374a58866cdffa4132f1e1d6a484b358d19b8ed1bc5e91a0f81
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2cff21fb-7b2d-4e3d-bc53-afd0782482c8
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
