@@ -1,0 +1,17 @@
+folder=Endpoint tests / Visitor profiler
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d2504a0377fb/2025-12-01_2025-12-30_visitors_ov18.csv
+query=X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJTL7SO764%2F20260922%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260922T023053Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJGMEQCIElSIC8ay%2BKEUS1VQ5hjSQNpepLydSp0icVvr%2BM2YqrpAiB210tgpKXW2EoFNfvd%2BNwbZeS3nIbkR%2F3I%2FZNhLuDH8irtAwib%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAQaDDM4OTcyODEzMjA1MSIMwuY2LInef0XF1g9OKsEDvXOkMItgrj6rCGUvyvXy4LatBqziEDrlFy4tkgS0lS7NQVq4udHRqtpS2zOwPJDEcP%2BzBJTGvc2AU90tS0hdwILhJ9GzEeap5P%2Fa157AzANr%2F2nWIS4entP6IXWdlODCzwtKyotpbISlG7VlNR3GBYqGd%2FP98%2BZhOow2sCF2dMIfV4hsgU0DQ%2BLxUU3ufUOn9VSQ4vOb8Z2Qnkw4UX77Xf9wJsrpruzki%2F77zSQAa%2FUwadjA%2B2Kh97gtIJpsq1%2BzYY1oftjivzbttkqVzjEQgZ365IvJNtl4mZS1TyWCkITwLId12%2BOw%2Boso2UcmaFkqEL83Jx8YBB5sBrwCcvt9%2Fp6WZagLoanjvEyCfSi28EmikOTwDmK%2FBecv%2BbyjfpXCP9NQGjff8VdpH0Qif6oAcvPPJRlD2Khxykp8GoM9tkiDDeab1eEV%2FFwrujndp7Y43kVDJMcvMbCs9oHHPBKJDpQVPLSCMt16O1ogCMlj4c65pqEZDUGqanPUPswkGLtdQQ5Q3%2FiVc%2F34sve6ARwPxwYLxjeCmxqB46tjmy6SRFp2Uuv53hTl23%2Bc8Q7EHrtYdxgled0szsZSFKmB3u6CzYMwwcbH1QY6pgFpq4OsN9gNCqHpJNpBZaDECqoA69QScMoSSpq%2BSIvlgno40HaymyKq4vZdPsIqZsm57uXMvxvuPuy%2FtEGiL8POiZRn3wYLuq%2FVALYpkRhIDyixCJB4EzhBd4TtwMrTkZ4b%2BsfkR0NRK7dniWRDFcgt%2B3bhBKsL9UVyB28Cy3RplX7sNAUssu%2Fms%2Bw7bI%2BRzxZDGq3c0QtXzDmBPgQjN038i6y9T%2F82&X-Amz-SignedHeaders=host&X-Amz-Signature=07040ece2b3b96c01c2118a4b8469195546ef477ee7bbd9c132c08912f140c16
+headers=
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: c0329364-2517-4507-94fa-f4b2ac4eb8ce
+Host: wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
