@@ -1,0 +1,22 @@
+httpStatus=201
+responseTimeMs=188
+responseSize=147
+headers=
+Date: Thu, 24 Sep 2026 02:29:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+
+body=
+{"id":"c1016c82-cb0c-413a-8a44-1ebde3ac3a94","message":"Search term saved successfully","user_setting_uuid":"56335e9e-8396-4398-b572-3a5fdc3d3648"}
