@@ -1,0 +1,27 @@
+folder=Technical Tests / dynamic-links-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/branchio/dynamiclink
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_p3cRhyvHED0vhEsx5x5QESD7rl7r3MLl
+x-api-key: {{apiKey}}
+user-source: WLW
+x-application-version: {{xApplicationVersion}}
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ab7a8191-7362-4ce1-8fb8-c246a5a5fb50
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 80
+
+body=
+{
+  "route": "CONVERSATION",
+  "data": "example",
+  "redirect_link": "example"
+}
