@@ -1,0 +1,26 @@
+folder=Business Scenarios Tests / Cases
+env=Stage_CRM_Standard
+envUid=10574263-582250ca-a284-4327-a333-b09a14ec7fc7
+method=POST
+url=https://crmtest-api.visable.com/rest/v11_20/Cases
+query=(no query params)
+headers=
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9b1c80de-9098-4350-b319-dcbd821c68f7
+Host: crmtest-api.visable.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 167
+Cookie: AWSALBAuthNonce=rouYebyL4HxiaSnZ
+
+body=
+{
+  "name": "QA Postman Case 20261014-022612",
+  "type": "General",
+  "status": "New",
+  "priority": "P3",
+  "description": "Test case created by Postman automation"
+}
