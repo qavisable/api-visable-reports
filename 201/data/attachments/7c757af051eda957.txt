@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=574
+responseSize=400
+headers=
+Date: Sat, 17 Oct 2026 02:25:35 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"conversationId":"d9b7cd1c-a413-4776-8ac5-41422a4ad760","createdAt":"2026-10-17T02:25:35.380996Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","id":27582263,"isDeleted":false,"isOutbound":true,"isRemoved":false,"messageContent":"2026-10-17T02:25:35.288Z Postman. Automated API test","messageLinks":[],"metadata":{},"translations":{},"type":"TEXT","uuid":"4396f52f-4f6a-4d4e-9b77-591e1f7a903f"}
