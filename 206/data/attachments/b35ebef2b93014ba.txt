@@ -1,0 +1,27 @@
+folder=Technical Tests / login-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/auth/code/verify
+query=(no query params)
+headers=
+Authorization: Bearer ory_st_jid5aqyFZwKsebY7kz27Pa4oOXJ1nhTT
+x-api-key: {{apiKey}}
+user-source: WLW
+mobile-session-id: 00ecfe27-5ec5-41f3-a7bf-1418d1cf6662
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 28bb2d1c-c5ad-4357-9b1d-f86e3d754ca9
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 66
+
+body=
+{
+  "flow": "example",
+  "email": "example",
+  "code": "example"
+}
