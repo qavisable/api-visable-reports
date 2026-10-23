@@ -1,0 +1,21 @@
+folder=Endpoint tests / Company
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/products
+query=company_uuid=00505682-f25b-1ee9-bd91-d24f16aa57fb&search_term=Professional%20object%20furnishing%20for%20companies%20%E2%80%93%20planning,%20equipment%20&%20implementation%20from%20a%20single%20source=
+headers=
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+application-source: PURCHASER_APP
+user-source: WLW
+Accept-Language: de
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b489b0f5-a989-405f-8a69-b92f257a4831
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
