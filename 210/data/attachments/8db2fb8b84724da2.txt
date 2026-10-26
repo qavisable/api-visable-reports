@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=3234
+responseSize=1602
+headers=
+Date: Mon, 26 Oct 2026 02:32:13 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"status":"processed","url":"https://wlw-1-statistics-visitors-csv20230713141453691300000001.s3.eu-central-1.amazonaws.com/00505682-f25b-1ee9-bd91-d24f16aa57fb/2025-12-01_2025-12-30_visitors_atgw.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVVPM3LPJ36OJ53FP%2F20261026%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T023213Z&X-Amz-Expires=600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAIaDGV1LWNlbnRyYWwtMSJIMEYCIQCUhJbNtmXDyRrueCPjoJK%2FkIJUS1ZGCaiISWfUesCcXAIhAJHkqLRHJ1snZ%2BOQN7G%2B7JSYsvl7jlaJN%2Fe0QE%2BwnYb1Ku0DCMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzg5NzI4MTMyMDUxIgwYl4xEY4qDI9dBy9UqwQOg5n%2F6ySgd8jnxQrr7R9zQsohzM8apJoyB%2FI9KjTb5xbTtIKVRpTs6ukWq7Nnh8GTQJhsXVxCYwtDuWddOBBKF3BVtVxVLmVmaTLLF%2B%2FBnj2%2FD6ocbTGpjVUrJU3AMJjJg64V4L34FBz5B%2FErm0sNHVWZ95Gg%2FN74j9ndWsSuny862PUYz%2F9UwCSpbhOoqsegB5wBcyWMjp6Yfbd549xabJkdwE%2BZT8iMf6ArPpAcjG%2Fz1irsMHagCyzVAcgT2MpyXJdACWLVexg8jxstPVkAnYuAMgB4wnpzc8vcW%2B%2FLCynjYJiZLWPCUoebEw0nt9gaDQFN%2BiALY%2F6xmtjN2u%2FHzWhh4SjCA1k1NnDrhzGAC%2B%2BMwe827Q5ptWj5q739qjhGZgLWRprHLhf82bfRofLY7X819UoDY9bI9z2s5ozk9NroRnzASw4nZr2m%2FD63o2C6SsWRfDjPLXZ11XzBOnxPBAw4CghLerSGvOC6W5SVk5KQtHB5beL1fE%2FZrNOckIBFNg05DsYrzoY2igpKGowrK%2BUybOr%2FAlDoIkcGfDh4Amp7dpCOihY8aXlXK4%2BDBB1zylxTirAxVpj0hQArOmyXHFDD38vrWBjqkAYm3%2FPCH0Ltjx3d73CvdLJDIJqi6eJyFT5QxvEAzeJeuZt7lc7k1%2B0YVtHvPG1IttqO1dZoRzWsPYfky2M9yuEFjw8zUwFTIrmaW1dyEzUs9xJtomc%2BI%2BAnu9MjTRtO2DM4gtSx94dUQLX2zYYm5kpkv6mkHELHIbro2DQqnoA24rOHGzVpkBmXuNIgitBrRZMxEB7GYNIExksWGegSjkIs97UYF&X-Amz-SignedHeaders=host&X-Amz-Signature=7e7eca39e20219c3e74eb9b7b168ae743c7325971321e205597b750260f373ac"}
