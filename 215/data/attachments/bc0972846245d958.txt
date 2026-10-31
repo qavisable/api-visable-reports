@@ -1,0 +1,21 @@
+folder=Technical Tests / ai-company-search-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=GET
+url=https://api.staging.visable.io/mobile/public_api/search/ai/company/search
+query=prompts={{prompts}}&scene={{scene}}
+headers=
+Authorization: Bearer ory_st_iYhlrtm25NnkVr1QDRxFGFWgfuPCvKXb
+mobile-session-id: 7ba37ada-a302-4a9f-8d7c-9ccadcffce74
+user-source: WLW
+x-api-key: {{apiKey}}
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2dd07318-ea94-4760-88b0-634d987e501d
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+body=
+(empty request body)
