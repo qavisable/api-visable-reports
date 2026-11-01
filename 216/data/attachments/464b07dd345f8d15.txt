@@ -1,0 +1,8 @@
+httpStatus=0
+responseTimeMs=
+responseSize=
+headers=
+(no headers)
+
+body=
+(empty response body)
