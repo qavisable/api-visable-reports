@@ -1,0 +1,23 @@
+folder=Technical Tests / push-notification-by-email-controller
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=PUT
+url=https://api.staging.visable.io/mobile/v1/pushNotification
+query=id={{id}}&email={{email}}
+headers=
+Authorization: Bearer ory_st_itzMoBaMNOgAdwxz88JY3koNiKl5WH2J
+x-application-version: {{xApplicationVersion}}
+x-api-key: {{apiKey}}
+application-source: {{applicationSource}}
+user-source: WLW
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 334a2500-9488-431f-aa22-29dfec78cb55
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+body=
+(empty request body)
