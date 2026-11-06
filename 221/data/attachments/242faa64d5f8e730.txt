@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=169
+responseSize=3951
+headers=
+Date: Fri, 06 Nov 2026 02:18:28 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"messages":[{"conversationId":"3f497409-3a79-4f7b-bc53-ebcf245ee176","createdAt":"2026-09-23T02:16:50.639053Z","createdBy":"e0c18b61-61ed-453e-9dae-c0ae3a561293","id":27547939,"isDeleted":false,"isOutbound":false,"isRemoved":false,"isRequireFollowUp":false,"messageContent":"part is a bit of an inconvenience for me and my parents and \nProduct : Google Ads - More \"visibility\" For Your B2b Company\nRequest Frequency : Onetime Requirement\nDelivery Location : 杭州市, 中国\nQuantity : 1\nCompany Name : y","messageLinks":[],"metadata":{},"translations":{"de":"Teil ist für mich und meine Eltern ein wenig umständlich und \n <b>Produkt : </b>Google Ads - Mehr \"Sichtbarkeit\" für Ihr B2B-Unternehmen\n <b>Anforderungsfrequenz : </b>Einmalige Anforderung\n <b>Lieferort : </b>Hangzhou, China\n <b>Menge : </b>1\n <b>Firmenname : </b>y","en":"The part is a bit of an inconvenience for me and my parents and \n <b>Product : </b>Google Ads - More \"visibility\" For Your B2B Company\n <b>Request Frequency : </b>Onetime Requirement\n <b>Delivery Location : </b>Hangzhou, China\n <b>Quantity : </b>1\n <b>Company Name : </b>y","fr":"la pièce est un peu une gêne pour moi et mes parents et \n <b>Produit : </b>Google Ads - Plus de \"visibilité\" pour votre entreprise B2B\n <b>Fréquence de demande : </b>Besoins ponctuels\n <b>Lieu de livraison : </b>Hangzhou, Chine\n <b>Quantité : </b>1\n <b>Nom de l'entreprise : </b>y"},"type":"TEXT","uuid":"90728998-c108-491a-ba5a-e1b23b3ed821"},{"conversationId":"3f497409-3a79-4f7b-bc53-ebcf245ee176","createdAt":"2026-09-23T08:02:28.399724Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","id":27549805,"isDeleted":false,"isOutbound":true,"isRemoved":false,"isRequireFollowUp":false,"messageContent":"part","messageLinks":[],"metadata":{},"translations":{},"type":"TEXT","uuid":"642c5bba-9644-4681-b472-b9f03397f73c"},{"conversationId":"3f497409-3a79-4f7b-bc53-ebcf245ee176","createdAt":"2026-11-05T06:36:03.730772Z","createdBy":"d151d06e-8d6e-4cc0-8fa9-c12aaae1b0fc","id":27637746,"isDeleted":false,"isOutbound":true,"isRemoved":false,"isRequireFollowUp":false,"messageContent":"\nHello, I hope you are well. I am following up on our previous discussion regarding Google Ads visibility for your B2B company. Since some time has passed, I wanted to check if this initiative is still a priority or if you have any new questions we can address. We remain available to support your marketing goals whenever you are ready. Best regards Visable GmbH","messageLinks":[],"metadata":{},"translations":{"de":"Hallo, ich hoffe, es geht Ihnen gut. Ich möchte auf unser vorheriges Gespräch bezüglich der Sichtbarkeit von Google Ads für Ihr B2B-Unternehmen zurückkommen. Da einige Zeit vergangen ist, wollte ich nachfragen, ob diese Initiative weiterhin eine Priorität für Sie hat oder ob Sie neue Fragen haben, die wir klären können. Wir stehen Ihnen jederzeit zur Verfügung, um Ihre Marketingziele zu unterstützen, wann immer Sie bereit sind. Mit freundlichen Grüßen\nVisable GmbH","en":"Hello, I hope you are well. I am following up on our previous discussion regarding Google Ads visibility for your B2B company. Since some time has passed, I wanted to check if this initiative is still a priority or if you have any new questions we can address. We remain available to support your marketing goals whenever you are ready. Best regards, Visable GmbH","fr":"Bonjour, j'espère que vous allez bien. Je fais suite à notre précédente discussion concernant la visibilité des annonces Google pour votre entreprise B2B. Étant donné qu'un certain temps s'est écoulé, je voulais vérifier si cette initiative est toujours une priorité ou si vous avez de nouvelles questions auxquelles nous pouvons répondre. Nous restons disponibles pour soutenir vos objectifs marketing dès que vous êtes prêt. Cordialement, Visable GmbH"},"type":"TEXT","uuid":"55c1f96f-55f6-4932-ac90-c1deeac2cbe1"}]}

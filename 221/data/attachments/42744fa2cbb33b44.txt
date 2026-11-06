@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=183
+responseSize=1254
+headers=
+Date: Fri, 06 Nov 2026 02:19:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"conversationId":"3f497409-3a79-4f7b-bc53-ebcf245ee176","createdAt":"2026-09-23T02:16:50.639053Z","createdBy":"e0c18b61-61ed-453e-9dae-c0ae3a561293","id":27547939,"isOutbound":false,"isRemoved":false,"messageContent":"part is a bit of an inconvenience for me and my parents and \nProduct : Google Ads - More \"visibility\" For Your B2b Company\nRequest Frequency : Onetime Requirement\nDelivery Location : 杭州市, 中国\nQuantity : 1\nCompany Name : y","metadata":{},"translations":{"de":"Teil ist für mich und meine Eltern ein wenig umständlich und \nProdukt : Google Ads - Mehr \"Sichtbarkeit\" für Ihr B2B-Unternehmen\nAnforderungsfrequenz : Einmalige Anforderung\nLieferort : Hangzhou, China\nMenge : 1\nFirmenname : y","en":"The part is a bit of an inconvenience for me and my parents and \nProduct : Google Ads - More \"visibility\" For Your B2B Company\nRequest Frequency : Onetime Requirement\nDelivery Location : Hangzhou, China\nQuantity : 1\nCompany Name : y","fr":"la pièce est un peu une gêne pour moi et mes parents et \nProduit : Google Ads - Plus de \"visibilité\" pour votre entreprise B2B\nFréquence de demande : Besoins ponctuels\nLieu de livraison : Hangzhou, Chine\nQuantité : 1\nNom de l'entreprise : y"},"type":"TEXT"}
