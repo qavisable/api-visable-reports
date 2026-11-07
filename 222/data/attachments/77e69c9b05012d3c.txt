@@ -1,0 +1,29 @@
+folder=Endpoint tests / Conversations
+env=Hummingbird_Staging
+envUid=10155542-4ef9191e-ae13-46f4-bfc1-7b40219e3634
+method=POST
+url=https://api.staging.visable.io/mobile/public_api/conversation/userConversations/0124409b-c189-4220-91b6-70a62ca9aab3/messages
+query=(no query params)
+headers=
+Content-Type: application/json
+mobile-request: true
+source: mobile
+x-application-reference: MOBILE
+application-source: EP_PLATFORM_APP
+user-source: EUROPAGES
+x-api-key: 7aed1e9aef099b585abc36a38ed9695e71f89bde
+x-session-token: ory_st_KM8E6r4V4HQx0jtXX0S8STXQqFY3fmWH
+User-Agent: PostmanRuntime/7.39.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 53332273-0b7a-49b2-9406-d96265923013
+Host: api.staging.visable.io
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 139
+
+body=
+{
+    "participantId":"8f610db9-3cb3-5107-83d7-71c3aa2f5045",
+    "messageContent":"2026-11-07T02:18:24.657Z Postman. Automated API test"
+}
