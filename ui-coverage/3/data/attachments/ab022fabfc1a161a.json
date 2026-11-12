@@ -1,0 +1,77 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 151,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 07:52:42 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "x-kratos-authenticated-identity-id": "2a39b46b-0c6b-499f-89c8-5954b3a7a0b1",
+    "x-envoy-upstream-service-time": "14",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "9d8aaec2-8abe-4a58-8f71-8c89d53bbb1e",
+    "active": true,
+    "expires_at": "2026-12-12T07:52:42.535935Z",
+    "authenticated_at": "2026-11-12T07:52:42.535935Z",
+    "authenticator_assurance_level": "aal1",
+    "authentication_methods": [
+      {
+        "method": "password",
+        "aal": "aal1",
+        "completed_at": "2026-11-12T07:52:42.535805686Z"
+      }
+    ],
+    "issued_at": "2026-11-12T07:52:42.535935Z",
+    "identity": {
+      "id": "2a39b46b-0c6b-499f-89c8-5954b3a7a0b1",
+      "schema_id": "v2",
+      "schema_url": "https://www.wlw-staging.de/.ory/kratos/schemas/djI",
+      "state": "active",
+      "state_changed_at": "2024-09-06T10:25:13.650055Z",
+      "traits": {
+        "email": "info@delta-werbetechnik.de"
+      },
+      "verifiable_addresses": [
+        {
+          "id": "210b6101-75a6-4a55-aa7d-addb5a66fe01",
+          "value": "info@delta-werbetechnik.de",
+          "verified": true,
+          "via": "email",
+          "status": "completed",
+          "verified_at": "2026-06-22T04:16:20.970657Z",
+          "created_at": "2024-09-06T10:25:13.653356Z",
+          "updated_at": "2024-09-06T10:25:13.653356Z"
+        }
+      ],
+      "recovery_addresses": [
+        {
+          "id": "c1863129-7962-407b-a19b-f58e18b3e2e3",
+          "value": "info@delta-werbetechnik.de",
+          "via": "email",
+          "created_at": "2024-09-06T10:25:13.655291Z",
+          "updated_at": "2024-09-06T10:25:13.655291Z"
+        }
+      ],
+      "metadata_public": null,
+      "created_at": "2024-09-06T10:25:13.651798Z",
+      "updated_at": "2026-06-22T04:16:34.992367Z",
+      "organization_id": null
+    },
+    "devices": [
+      {
+        "id": "edad516d-bdc4-488b-92c1-fbe7b17b403e",
+        "ip_address": "64.236.200.86",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+        "location": ""
+      }
+    ]
+  }
+}
