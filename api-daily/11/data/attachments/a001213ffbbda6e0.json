@@ -1,0 +1,12 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/findByPlatformAndLanguage?platform=ep&language=en",
+  "durationMs": 896,
+  "params": {
+    "platform": "ep",
+    "language": "en"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

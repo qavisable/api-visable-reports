@@ -1,0 +1,367 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 225,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 05:46:48 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "bsList": null,
+      "breadCrumbs": [
+        {
+          "name": "Alle Geschäftsbereiche",
+          "url": "/bs"
+        },
+        {
+          "name": "Gesundheit",
+          "url": "/bs/gesundheit"
+        },
+        {
+          "name": "Biotechnologien",
+          "url": null
+        }
+      ],
+      "banner": null,
+      "title": "Biotechnologien",
+      "pageText": {
+        "viewMore": "MEHR ANZEIGEN",
+        "seeLess": "WENIGER ANZEIGEN",
+        "pserp": "Alle Produkte",
+        "pserpDesc": "Klicken Sie auf ein beliebiges Schlüsselwort, um relevante Produkte in den Suchergebnissen zu sehen.",
+        "cserp": "Alle Unternehmen",
+        "cserpDesc": "Klicken Sie auf ein beliebiges Schlüsselwort, um relevante Lieferanten in den Suchergebnissen zu sehen.",
+        "showroom": "Showroom-Seite",
+        "showroomDesc": "Klicken Sie auf ein beliebiges Schlüsselwort, um die relevante Showroom-Seite zu sehen.",
+        "showroomCate": "Alle Kategorien",
+        "showroomCateDesc": "Klicken Sie auf ein beliebiges Schlüsselwort, um alle relevanten Produktkategorien zu sehen.",
+        "forWord": "für"
+      },
+      "cserp": [
+        {
+          "name": "Bioartifizielle Organe",
+          "url": "/unternehmen/bioartifizielle%20organe.html"
+        },
+        {
+          "name": "Biochemie - Produkte",
+          "url": "/unternehmen/biochemie%20-%20produkte.html"
+        },
+        {
+          "name": "Biomedizinische Geräte",
+          "url": "/unternehmen/biomedizinische%20ger%C3%A4te.html"
+        },
+        {
+          "name": "Herzschrittmacher,künstlich",
+          "url": "/unternehmen/herzschrittmacher%2Ck%C3%BCnstlich.html"
+        },
+        {
+          "name": "Industrielle Mikrobiologie",
+          "url": "/unternehmen/industrielle%20mikrobiologie.html"
+        },
+        {
+          "name": "Künstliche Nieren",
+          "url": "/unternehmen/k%C3%BCnstliche%20nieren.html"
+        }
+      ],
+      "pserp": null,
+      "showroom": null,
+      "showroomCate": [
+        {
+          "name": "Coronatest",
+          "url": "/de/showroom-cate/coronatest-611594"
+        },
+        {
+          "name": "Schnelltests",
+          "url": "/de/showroom-cate/schnelltests-611588"
+        },
+        {
+          "name": "pH-Teststreifen",
+          "url": "/de/showroom-cate/ph-teststreifen-611602"
+        },
+        {
+          "name": "Pflegebetten",
+          "url": "/de/showroom-cate/pflegebetten-611385"
+        },
+        {
+          "name": "Zahnprotesen",
+          "url": "/de/showroom-cate/zahnprotesen-300909"
+        },
+        {
+          "name": "Brustimplantate",
+          "url": "/de/showroom-cate/brustimplantate-611297"
+        },
+        {
+          "name": "Verbandschuhe",
+          "url": "/de/showroom-cate/verbandschuhe-611358"
+        },
+        {
+          "name": "Arzneimittel",
+          "url": "/de/showroom-cate/arzneimittel-611508"
+        },
+        {
+          "name": "Monatslinsen",
+          "url": "/de/showroom-cate/monatslinsen-611489"
+        },
+        {
+          "name": "Zahnarztbedarf",
+          "url": "/de/showroom-cate/zahnarztbedarf-200712"
+        },
+        {
+          "name": "CBD-Tropfen",
+          "url": "/de/showroom-cate/cbd-tropfen-611627"
+        },
+        {
+          "name": "Gleitsichtgläser",
+          "url": "/de/showroom-cate/gleitsichtglaeser-611494"
+        },
+        {
+          "name": "Rollstühle",
+          "url": "/de/showroom-cate/rollstuehle-611354"
+        },
+        {
+          "name": "Gleitsichtbrillen",
+          "url": "/de/showroom-cate/gleitsichtbrillen-611474"
+        },
+        {
+          "name": "Bandagen",
+          "url": "/de/showroom-cate/bandagen-611427"
+        },
+        {
+          "name": "Insulin",
+          "url": "/de/showroom-cate/insulin-611520"
+        },
+        {
+          "name": "Brillengestelle",
+          "url": "/de/showroom-cate/brillengestelle-611492"
+        },
+        {
+          "name": "Massagezubehör",
+          "url": "/de/showroom-cate/massagezubehoer-611633"
+        },
+        {
+          "name": "CBD-Blüten",
+          "url": "/de/showroom-cate/cbd-blueten-611628"
+        },
+        {
+          "name": "Sanitätsbedarf",
+          "url": "/de/showroom-cate/sanitaetsbedarf-200715"
+        },
+        {
+          "name": "Sonographiegeräte",
+          "url": "/de/showroom-cate/sonographiegeraete-611193"
+        },
+        {
+          "name": "Magnetresonanztomographen",
+          "url": "/de/showroom-cate/magnetresonanztomographen-611213"
+        },
+        {
+          "name": "Hilfsmittel für Menschen mit Behinderungen",
+          "url": "/de/showroom-cate/hilfsmittel-fuer-menschen-mit-behinderungen-611501"
+        },
+        {
+          "name": "Praxiseinrichtungen",
+          "url": "/de/showroom-cate/praxiseinrichtungen-200711"
+        },
+        {
+          "name": "Orthopädische Schuheinlagen",
+          "url": "/de/showroom-cate/orthopaedische-schuheinlagen-611440"
+        },
+        {
+          "name": "Antigentests",
+          "url": "/de/showroom-cate/antigentests-611596"
+        },
+        {
+          "name": "Kühlkompressen",
+          "url": "/de/showroom-cate/kuehlkompressen-611363"
+        },
+        {
+          "name": "Orthopädiebedarf",
+          "url": "/de/showroom-cate/orthopaediebedarf-611417"
+        },
+        {
+          "name": "Rollstuhlzubehör",
+          "url": "/de/showroom-cate/rollstuhlzubehoer-611505"
+        },
+        {
+          "name": "Gleitsichtkontaktlinsen",
+          "url": "/de/showroom-cate/gleitsichtkontaktlinsen-611487"
+        },
+        {
+          "name": "Urinteststreifen",
+          "url": "/de/showroom-cate/urinteststreifen-611359"
+        },
+        {
+          "name": "Medizinische Geräte",
+          "url": "/de/showroom-cate/medizinische-geraete-611167"
+        },
+        {
+          "name": "CBD-Pulver",
+          "url": "/de/showroom-cate/cbd-pulver-611630"
+        },
+        {
+          "name": "Zahnimplantate",
+          "url": "/de/showroom-cate/zahnimplantate-611295"
+        },
+        {
+          "name": "Drogentests",
+          "url": "/de/showroom-cate/drogentests-611593"
+        },
+        {
+          "name": "Insulinspritzen",
+          "url": "/de/showroom-cate/insulinspritzen-611231"
+        },
+        {
+          "name": "Gesundheitsprodukte",
+          "url": "/de/showroom-cate/gesundheitsprodukte-611605"
+        },
+        {
+          "name": "Dentalinstrumente",
+          "url": "/de/showroom-cate/dentalinstrumente-300888"
+        },
+        {
+          "name": "Antibiotika",
+          "url": "/de/showroom-cate/antibiotika-611517"
+        },
+        {
+          "name": "Inkontinenzversorgungen",
+          "url": "/de/showroom-cate/inkontinenzversorgungen-611342"
+        },
+        {
+          "name": "Retraktoren",
+          "url": "/de/showroom-cate/retraktoren-300891"
+        },
+        {
+          "name": "Zahnarztstühle",
+          "url": "/de/showroom-cate/zahnarztstuehle-611382"
+        },
+        {
+          "name": "Medizintechnik",
+          "url": "/de/showroom-cate/medizintechnik-611159"
+        },
+        {
+          "name": "Mund-Nasen-Schutz",
+          "url": "/de/showroom-cate/mund-nasen-schutz-300900"
+        },
+        {
+          "name": "Hörgeräte",
+          "url": "/de/showroom-cate/hoergeraete-611211"
+        },
+        {
+          "name": "Zahnbrücken",
+          "url": "/de/showroom-cate/zahnbruecken-611396"
+        },
+        {
+          "name": "Lohnherstellung von Arzneimitteln",
+          "url": "/de/showroom-cate/lohnherstellung-von-arzneimitteln-611555"
+        },
+        {
+          "name": "Medizin & Gesundheit",
+          "url": "/de/showroom-cate/medizin-gesundheit-100066"
+        },
+        {
+          "name": "Mandrins",
+          "url": "/de/showroom-cate/mandrins-611285"
+        },
+        {
+          "name": "Pflegerollstühle",
+          "url": "/de/showroom-cate/pflegerollstuehle-611355"
+        },
+        {
+          "name": "Jojobaöl",
+          "url": "/de/showroom-cate/jojobaoel-611623"
+        },
+        {
+          "name": "Brustprothesen",
+          "url": "/de/showroom-cate/brustprothesen-611311"
+        },
+        {
+          "name": "Medizinische Knochensägen",
+          "url": "/de/showroom-cate/medizinische-knochensaegen-611253"
+        },
+        {
+          "name": "Krücken",
+          "url": "/de/showroom-cate/kruecken-611353"
+        },
+        {
+          "name": "Prothesen",
+          "url": "/de/showroom-cate/prothesen-300897"
+        },
+        {
+          "name": "Urinflaschen",
+          "url": "/de/showroom-cate/urinflaschen-611453"
+        },
+        {
+          "name": "Diabetikerbedarf",
+          "url": "/de/showroom-cate/diabetikerbedarf-611336"
+        },
+        {
+          "name": "Brillen",
+          "url": "/de/showroom-cate/brillen-300913"
+        },
+        {
+          "name": "Phytopharmaka",
+          "url": "/de/showroom-cate/phytopharmaka-611510"
+        },
+        {
+          "name": "Ultraschallgeräte",
+          "url": "/de/showroom-cate/ultraschallgeraete-611194"
+        },
+        {
+          "name": "Zahnschienen",
+          "url": "/de/showroom-cate/zahnschienen-611397"
+        },
+        {
+          "name": "Defibrillatoren",
+          "url": "/de/showroom-cate/defibrillatoren-611218"
+        },
+        {
+          "name": "Medizinische Messgeräte",
+          "url": "/de/showroom-cate/medizinische-messgeraete-300885"
+        },
+        {
+          "name": "Urinbeutel",
+          "url": "/de/showroom-cate/urinbeutel-611333"
+        },
+        {
+          "name": "Veterinärbedarf",
+          "url": "/de/showroom-cate/veterinaerbedarf-611497"
+        },
+        {
+          "name": "Sportbrillen",
+          "url": "/de/showroom-cate/sportbrillen-611479"
+        },
+        {
+          "name": "Zahnersatz",
+          "url": "/de/showroom-cate/zahnersatz-611392"
+        },
+        {
+          "name": "Aloe Vera-Produkte",
+          "url": "/de/showroom-cate/aloe-vera-produkte-611606"
+        }
+      ],
+      "meta": {
+        "keywords": null,
+        "metaKeywords": "Biotechnologien",
+        "title": "Biotechnologien in Europages",
+        "site": null,
+        "description": "Suchen Sie nach Unternehmen in der Biotechnologien in EUROPAGES in Europa",
+        "canonicalUrl": null,
+        "h1": null,
+        "alternates": null,
+        "index": null,
+        "follow": null
+      }
+    }
+  }
+}

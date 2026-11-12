@@ -1,0 +1,19 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/showroom/static/data?q=cnc&ufsSessionId=***&platform=wlw&siteCode=DE&language=de",
+  "durationMs": 1316,
+  "params": {
+    "q": "cnc",
+    "ufsSessionId": "***",
+    "platform": "wlw",
+    "siteCode": "DE",
+    "language": "de"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "Accept-Language": "de",
+    "X-Application-Id": "homepage-frontend",
+    "x-host": "www.wlw-staging.de"
+  }
+}

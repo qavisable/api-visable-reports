@@ -1,0 +1,82 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 179,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 05:47:48 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "x-kratos-authenticated-identity-id": "643a3f28-69d6-4406-af07-41f31e6e4127",
+    "x-envoy-upstream-service-time": "14",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "1be17418-f2d6-415e-a8cd-6b8a16c1bbfb",
+    "active": true,
+    "expires_at": "2026-12-12T05:47:47.900591Z",
+    "authenticated_at": "2026-11-12T05:47:47.900591Z",
+    "authenticator_assurance_level": "aal1",
+    "authentication_methods": [
+      {
+        "method": "password",
+        "aal": "aal1",
+        "completed_at": "2026-11-12T05:47:47.900459833Z"
+      }
+    ],
+    "issued_at": "2026-11-12T05:47:47.900591Z",
+    "identity": {
+      "id": "643a3f28-69d6-4406-af07-41f31e6e4127",
+      "schema_id": "v2",
+      "schema_url": "https://www.europages-staging.de/.ory/kratos/schemas/djI",
+      "state": "active",
+      "state_changed_at": "2026-04-28T11:27:28.816032Z",
+      "traits": {
+        "email": "supplier.falcon@test.com",
+        "profile_registration": {
+          "surname": "Falcon",
+          "given_name": "Supplier",
+          "preferred_language": "en"
+        }
+      },
+      "verifiable_addresses": [
+        {
+          "id": "561daa84-a7a7-447a-9151-a42e56f94795",
+          "value": "supplier.falcon@test.com",
+          "verified": true,
+          "via": "email",
+          "status": "completed",
+          "verified_at": "2026-08-31T07:07:12.242312Z",
+          "created_at": "2026-04-28T11:27:28.830635Z",
+          "updated_at": "2026-04-28T11:27:28.830635Z"
+        }
+      ],
+      "recovery_addresses": [
+        {
+          "id": "dd96c1c8-8e45-4408-a92c-bb19f180f0e4",
+          "value": "supplier.falcon@test.com",
+          "via": "email",
+          "created_at": "2026-04-28T11:27:28.854552Z",
+          "updated_at": "2026-04-28T11:27:28.854552Z"
+        }
+      ],
+      "metadata_public": null,
+      "created_at": "2026-04-28T11:27:28.81889Z",
+      "updated_at": "2026-08-31T07:07:26.662072Z",
+      "organization_id": null
+    },
+    "devices": [
+      {
+        "id": "d5394e76-3972-4ec2-9e57-be49bf4e53b0",
+        "ip_address": "20.115.213.35",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+        "location": ""
+      }
+    ]
+  }
+}

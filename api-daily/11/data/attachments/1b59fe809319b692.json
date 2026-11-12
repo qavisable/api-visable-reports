@@ -1,0 +1,11 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/get/keywordblacklists?scene=showroom",
+  "durationMs": 159,
+  "params": {
+    "scene": "showroom"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

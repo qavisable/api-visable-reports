@@ -1,0 +1,528 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 1426,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 05:47:27 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "categoryName": "Pneumatic Tools",
+      "categorySubtitle": "",
+      "categoryType": "leaf",
+      "categoryLogoUrl": null,
+      "categoryTitle": "Pneumatic Tools on ep : 4089 suppliers & 0 products online",
+      "totalCompanyCount": 4089,
+      "totalProductCount": 0,
+      "childNodes": null,
+      "supplierRecom": [
+        {
+          "companyId": "158229",
+          "uuid": "00505682-f25b-1ee9-bd91-d25be835b7fb",
+          "slug": "sewa-werkzeuge-gmbh-158229",
+          "averageResponseTime": null,
+          "certificatesCount": "0",
+          "city": "Weiz",
+          "countryCode": "AT",
+          "distributionArea": "europe",
+          "employeeCount": "5-9",
+          "foundingYear": "1987",
+          "supplierTypeCounts": [
+            {
+              "supplierType": "service",
+              "count": 1
+            },
+            {
+              "supplierType": "distribution",
+              "count": 1
+            },
+            {
+              "supplierType": "wholesaler",
+              "count": 1
+            }
+          ],
+          "productCount": "55",
+          "responseRate": 0,
+          "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/716c4caf-5cea-411f-bcd0-121a30b688da.gif",
+          "portfolioProducts": [
+            {
+              "productId": null,
+              "name": "Pneumatic Tools",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/3238b763-5411-11f1-8b83-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "druckluftwerkzeuge-4528773",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Tractel Hoist Chain Hoists",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a16a9db8-de8d-11ed-94ce-0a58a9feac02.png"
+                }
+              ],
+              "slug": "tractel-greifzug-kettenzuege-13011",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Spark-Free Tools",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/75dcf715-52af-11f1-8b83-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "funkenfreie-werkzeuge-4526512",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Caliper",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a18aa841-de90-11ed-88b6-0a58a9feac02.png"
+                }
+              ],
+              "slug": "messschieber-4545869",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Enerpac Hydraulic Components",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c9a1b420-de90-11ed-8ca4-0a58a9feac02.png"
+                }
+              ],
+              "slug": "enerpac-hydraulik-komponenten-4523381",
+              "detailUrl": null
+            }
+          ],
+          "highlightings": {
+            "name": "Sewa-Werkzeuge GmbH",
+            "description": "We are an austrian trading company for technical tools such as hydraulic tools, hoists, screwing tools and much more with expert advice.\n\nWe are a private..."
+          },
+          "name": "Sewa-Werkzeuge GmbH",
+          "street": "Kapruner Generator Strasse 18",
+          "zipcode": "8160",
+          "email": "",
+          "companyShotDescstring": null,
+          "isCustomer": true,
+          "acronym": "SW",
+          "companyUrl": null,
+          "epId": "00000005342945-001",
+          "epSlug": ""
+        },
+        {
+          "companyId": "656244",
+          "uuid": "00505682-f25b-1ee9-bd91-d26ad01fd7fb",
+          "slug": "movomech-international-gmbh-656244",
+          "averageResponseTime": "less_than_24h",
+          "certificatesCount": "0",
+          "city": "Gummersbach",
+          "countryCode": "DE",
+          "distributionArea": "international",
+          "employeeCount": "5-9",
+          "foundingYear": "1996",
+          "supplierTypeCounts": [
+            {
+              "supplierType": "distribution",
+              "count": 1
+            },
+            {
+              "supplierType": "production",
+              "count": 1
+            }
+          ],
+          "productCount": "30",
+          "responseRate": 0.76,
+          "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/50d7b701-5573-4a6d-9212-3cd13b0e0d10.png",
+          "portfolioProducts": [
+            {
+              "productId": null,
+              "name": "High-Precision and Sensitive Chain Hoist MechChain Pro II",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/aba7b628-de8e-11ed-9933-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "hochpraeziser-und-feinfuehliger-kettenzug-mechchain-pro-ii-1196165",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Mechline Pro Crane with integrated pneumatic balancer",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/90ee1481-de8e-11ed-96c7-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "mechline-pro-crane-mit-integriertem-pneumatischem-balancer-1196159",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Hub axle up to 50 kg MechLight Pro",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/985ecef1-de8e-11ed-94ce-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "hubachse-bis-50-kg-mechlight-pro-1196346",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Easycrane - mobile crane with vacuum lifter",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a76956d3-de8e-11ed-94ce-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "easycrane-mobiler-kran-mit-vakuumheber-1196337",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Mechcrane - Articulated Arm Crane VKA-H",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/85974822-a12d-4c32-835d-f59558a288db.jpeg"
+                }
+              ],
+              "slug": "mechcrane-gelenkarmkran-vka-h-37350287",
+              "detailUrl": null
+            }
+          ],
+          "highlightings": {
+            "name": "Movomech International GmbH",
+            "description": "Movomech International GmbH offers a wide range of handling devices. \nFrom a top-class aluminum lightweight rail system to unique and comprehensive handling..."
+          },
+          "name": "Movomech International GmbH",
+          "street": "Halstenbachstrasse 3b",
+          "zipcode": "51645",
+          "email": "",
+          "companyShotDescstring": null,
+          "isCustomer": true,
+          "acronym": "MI",
+          "companyUrl": null,
+          "epId": "00000005317326-001",
+          "epSlug": ""
+        },
+        {
+          "companyId": "22109979",
+          "uuid": "8559a8f4-6703-3787-bfb6-b303030d090d",
+          "slug": "rerom-equipamentos-e-acessorios-para-a-industria-lda-22109979",
+          "averageResponseTime": "less_than_24h",
+          "certificatesCount": "0",
+          "city": "Golpilheira",
+          "countryCode": "PT",
+          "distributionArea": "international",
+          "employeeCount": "10-19",
+          "foundingYear": "1979",
+          "supplierTypeCounts": [
+            {
+              "supplierType": "wholesaler",
+              "count": 1
+            }
+          ],
+          "productCount": "4895",
+          "responseRate": 1,
+          "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/8c30164d-cd75-47c4-9719-7aeb3b519736.png",
+          "portfolioProducts": [
+            {
+              "productId": null,
+              "name": "FLOW MONITORING MODULE",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/2d169109-1807-4a29-8dc4-89788c9c3dff.png"
+                }
+              ],
+              "slug": "modulo-de-monitorizacao-fluxo-39562620",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "M8 Screw Connectors",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/28af2f2a-8f4c-459f-9ad5-00f0ce8afbb0.png"
+                }
+              ],
+              "slug": "conectores-de-cabo-aparafusados-m8-39562636",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Pneumatic Scissors - GT-H12K/H30/H120K/HS30",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/765afb32-a634-45ff-bb6f-0efbb9f0eca7.jpeg"
+                }
+              ],
+              "slug": "tesouras-pneumaticas-gt-h12kh30h120khs30-39562610",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Guillemin couplings with female thread, NFE 29572 - EN 14420-8",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/dca5f8ae-92da-4fd6-b08b-22aa59b7ceed.jpeg"
+                }
+              ],
+              "slug": "acoplamentos-guillemin-com-rosca-femea-nfe-29572-en-14420-8-39562669",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Guillemin couplings with male thread, NFE 29572 - EN 14420-8",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/3f1a21e3-16c7-4cad-86ab-51cc74d61020.jpeg"
+                }
+              ],
+              "slug": "acoplamentos-guillemin-com-rosca-macho-nfe-29572-en-14420-8-39562607",
+              "detailUrl": null
+            }
+          ],
+          "highlightings": {
+            "name": "REROM - EQUIPAMENTOS E ACESSÓRIOS PARA A INDÚSTRIA, LDA.",
+            "description": "Commitment to Quality and Excellence\n\nFounded in 1979, REROM has established itself as a strategic partner in the industry, with a strong presence in..."
+          },
+          "name": "REROM - EQUIPAMENTOS E ACESSÓRIOS PARA A INDÚSTRIA, LDA.",
+          "street": "Rua de Leiria,  km 117 IC2, Pav. 5B — Batalha, Portugal",
+          "zipcode": "2440-234",
+          "email": "",
+          "companyShotDescstring": null,
+          "isCustomer": false,
+          "acronym": "REE",
+          "companyUrl": null,
+          "epId": "00000005370699-682172001",
+          "epSlug": "REROM-EQUIPAMENTOS-E-ACESSORIOS-PARA-A-INDUSTRIA-LDA"
+        }
+      ],
+      "supplierCards": {
+        "companyId": "313970",
+        "uuid": "00505682-f25b-1ee9-bd91-d257bac0b7fb",
+        "slug": "hohnen-co-kg-313970",
+        "averageResponseTime": "from_24h_to_48h",
+        "certificatesCount": "0",
+        "city": "Bielefeld",
+        "countryCode": "DE",
+        "distributionArea": "international",
+        "employeeCount": "20-49",
+        "foundingYear": "1918",
+        "supplierTypeCounts": [
+          {
+            "supplierType": "production",
+            "count": 1
+          }
+        ],
+        "productCount": "87",
+        "responseRate": 1,
+        "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/e0126e82-c0d4-41af-8a16-855a93875448.jpeg",
+        "portfolioProducts": [
+          {
+            "productId": null,
+            "name": "Pneumatic Tools",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/3c8da188-a5f5-4ae1-8269-1ce6c0f6e598.jpeg"
+              }
+            ],
+            "slug": "druckluftbetriebene-werkzeuge-37361654",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Forming Brush",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e0446fa5-de97-11ed-a4ef-0a58a9feac02.png"
+              }
+            ],
+            "slug": "formerpinsel-7797493",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Acrylic Radius Teaching Set 30 - 2900mm",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/6cda5072-76bd-11f0-be10-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "radienlehrensatz-aus-acryl-30-2900mm-36337069",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Lightweight Metal Core Dry Plates",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fcf7e4c6-de97-11ed-b0bb-0a58a9feac02.png"
+              }
+            ],
+            "slug": "leichtmetall-kern-trockenplatten-7797500",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Messing Slot Nozzles",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fcd80207-de97-11ed-b96f-0a58a9feac02.png"
+              }
+            ],
+            "slug": "messing-schlitzduesen-7797499",
+            "detailUrl": null
+          }
+        ],
+        "highlightings": {
+          "name": "Hohnen & Co. KG",
+          "description": "Wholesale of foundry supplies, tools for casting, melting, core supports, cooling materials, accessories for mold making, core making, casting finishing..."
+        },
+        "name": "Hohnen & Co. KG",
+        "street": "Lipper Hellweg 47",
+        "zipcode": "33604",
+        "email": "",
+        "companyShotDescstring": null,
+        "isCustomer": true,
+        "acronym": "HC",
+        "companyUrl": null,
+        "epId": "00000005314723-001",
+        "epSlug": ""
+      },
+      "products": null,
+      "productList": null,
+      "breadCrumbs": [
+        {
+          "categoryName": "Machine tools and equipment",
+          "categoryId": "100014",
+          "categoryUrl": "machine-tools-and-equipment-100014"
+        },
+        {
+          "categoryName": "Pneumatic Tools",
+          "categoryId": "601109",
+          "categoryUrl": null
+        }
+      ],
+      "internalLinks": null,
+      "meta": {
+        "keywords": "Pneumatic Tools",
+        "metaKeywords": "Pneumatic Tools",
+        "title": "Pneumatic Tools on ep : 4089 suppliers & 0 products online",
+        "site": "europages.co.uk",
+        "description": "Pneumatic Tools on ep : 4089 suppliers & 0 products online",
+        "canonicalUrl": "/en/showroom-cate/pneumatic-tools-601109",
+        "h1": null,
+        "alternates": [
+          {
+            "lang": "hu-HU",
+            "url": "https://www.europages.co.hu/hu/showroom-cate/legnyomasu-szerszamok-601109"
+          },
+          {
+            "lang": "en-GB",
+            "url": "https://www.europages.co.uk/en/showroom-cate/pneumatic-tools-601109"
+          },
+          {
+            "lang": "it-IT",
+            "url": "https://www.europages.it/it/showroom-cate/utensili-pneumatici-601109"
+          },
+          {
+            "lang": "cs-CZ",
+            "url": "https://www.europages.cz/cs/showroom-cate/pneumaticke-nařadi-601109"
+          },
+          {
+            "lang": "lt-LT",
+            "url": "https://www.europages.lt/lt/showroom-cate/pneumatiniai-įrankiai-601109"
+          },
+          {
+            "lang": "es-ES",
+            "url": "https://www.europages.es/es/showroom-cate/herramientas-neumaticas-601109"
+          },
+          {
+            "lang": "nl-NL",
+            "url": "https://www.europages.nl/nl/showroom-cate/pneumatische-gereedschappen-601109"
+          },
+          {
+            "lang": "de-DE",
+            "url": "https://www.europages.de/de/showroom-cate/druckluftwerkzeuge-601109"
+          },
+          {
+            "lang": "no-NO",
+            "url": "https://www.europages.no/no/showroom-cate/pneumatiske-verktoey-601109"
+          },
+          {
+            "lang": "et-EE",
+            "url": "https://www.europages.ee/et/showroom-cate/pneumaatilised-toeoeriistad-601109"
+          },
+          {
+            "lang": "pl-PL",
+            "url": "https://www.europages.pl/pl/showroom-cate/narzędzia-pneumatyczne-601109"
+          },
+          {
+            "lang": "bg-BG",
+            "url": "https://www.europages.bg/bg/showroom-cate/пневматични-инструменти-601109"
+          },
+          {
+            "lang": "pt-PT",
+            "url": "https://www.europages.pt/pt/showroom-cate/ferramentas-a-ar-comprimido-601109"
+          },
+          {
+            "lang": "fi-FI",
+            "url": "https://www.europages.fi/fi/showroom-cate/pneumaattiset-tyoekalut-601109"
+          },
+          {
+            "lang": "ro-RO",
+            "url": "https://www.europages.ro/ro/showroom-cate/unelte-pneumatice-601109"
+          },
+          {
+            "lang": "el-GR",
+            "url": "https://www.europages.gr/el/showroom-cate/πνευματικά-εργαλεία-601109"
+          },
+          {
+            "lang": "sl-SI",
+            "url": "https://www.europages.si/sl/showroom-cate/pnevmatska-orodja-601109"
+          },
+          {
+            "lang": "fr-FR",
+            "url": "https://www.europages.fr/fr/showroom-cate/outils-pneumatiques-601109"
+          },
+          {
+            "lang": "sv-SE",
+            "url": "https://www.europages.se/sv/showroom-cate/pneumatiska-verktyg-601109"
+          },
+          {
+            "lang": "da-DK",
+            "url": "https://www.europages.dk/da/showroom-cate/pneumatiske-vaerktoejer-601109"
+          },
+          {
+            "lang": "tr-TR",
+            "url": "https://www.europages.com.tr/tr/showroom-cate/hava-aracları-601109"
+          }
+        ],
+        "index": null,
+        "follow": null
+      },
+      "paging": null,
+      "pageSize": 0,
+      "filters": null
+    }
+  }
+}

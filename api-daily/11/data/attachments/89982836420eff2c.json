@@ -1,0 +1,20 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/showroom/static/data?q=cnc&ufsSessionId=***&platform=ep&siteCode=EP&perPage=abc&language=en",
+  "durationMs": 622,
+  "params": {
+    "q": "cnc",
+    "ufsSessionId": "***",
+    "platform": "ep",
+    "siteCode": "EP",
+    "perPage": "abc",
+    "language": "en"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "Accept-Language": "en",
+    "X-Application-Id": "homepage-frontend",
+    "x-host": "www.europages-staging.de"
+  }
+}

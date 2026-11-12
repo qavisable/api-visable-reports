@@ -1,0 +1,683 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 681,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 05:46:32 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": [
+      {
+        "id": 382,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "xxxxx-ful",
+        "normalizeKeyword": "xxxxx-ful",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.121536",
+        "gmtModified": "2026-07-20T05:54:17.121536"
+      },
+      {
+        "id": 379,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "xxxtik",
+        "normalizeKeyword": "xxxtik",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.115086",
+        "gmtModified": "2026-07-20T05:54:17.115086"
+      },
+      {
+        "id": 372,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "whatsapp-mitlesen-ohne-zugriff-auf-handy",
+        "normalizeKeyword": "whatsapp-mitlesen-ohne-zugriff-auf-handy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.099466",
+        "gmtModified": "2026-07-20T05:54:17.099466"
+      },
+      {
+        "id": 359,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "vagosex",
+        "normalizeKeyword": "vagosex",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.020697",
+        "gmtModified": "2026-07-20T05:54:17.020697"
+      },
+      {
+        "id": 356,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "unterwaesche-herren-sexy",
+        "normalizeKeyword": "unterwaesche-herren-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.014067",
+        "gmtModified": "2026-07-20T05:54:17.014067"
+      },
+      {
+        "id": 355,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "unterwäsche sexy",
+        "normalizeKeyword": "unterwäsche-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.012067",
+        "gmtModified": "2026-07-20T05:54:17.012067"
+      },
+      {
+        "id": 352,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-likes-kaufen-paypal",
+        "normalizeKeyword": "tiktok-likes-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.005132",
+        "gmtModified": "2026-07-20T05:54:17.005132"
+      },
+      {
+        "id": 351,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-likes-kaufen",
+        "normalizeKeyword": "tiktok-likes-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.001223",
+        "gmtModified": "2026-07-20T05:54:17.001223"
+      },
+      {
+        "id": 349,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-follower-kostenlos",
+        "normalizeKeyword": "tiktok-follower-kostenlos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.803676",
+        "gmtModified": "2026-07-20T05:54:15.803676"
+      },
+      {
+        "id": 348,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-follower-kaufen-paypal",
+        "normalizeKeyword": "tiktok-follower-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.800882",
+        "gmtModified": "2026-07-20T05:54:15.800882"
+      },
+      {
+        "id": 346,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-account-mit-blauen-haken-kaufen",
+        "normalizeKeyword": "tiktok-account-mit-blauen-haken-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.796197",
+        "gmtModified": "2026-07-20T05:54:15.796197"
+      },
+      {
+        "id": 341,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "testosteron-kaufen-ohne-rezept",
+        "normalizeKeyword": "testosteron-kaufen-ohne-rezept",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.777639",
+        "gmtModified": "2026-07-20T05:54:15.777639"
+      },
+      {
+        "id": 339,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "terminals-fuer-sportwetten",
+        "normalizeKeyword": "terminals-fuer-sportwetten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.770978",
+        "gmtModified": "2026-07-20T05:54:15.770978"
+      },
+      {
+        "id": 333,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tacho zurückdrehen gerät kaufen",
+        "normalizeKeyword": "tacho-zurückdrehen-gerät-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.753073",
+        "gmtModified": "2026-07-20T05:54:15.753073"
+      },
+      {
+        "id": 331,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "suesse-titten",
+        "normalizeKeyword": "suesse-titten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.74888",
+        "gmtModified": "2026-07-20T05:54:15.74888"
+      },
+      {
+        "id": 329,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "sprengstoffe",
+        "normalizeKeyword": "sprengstoffe",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.740206",
+        "gmtModified": "2026-07-20T05:54:15.740206"
+      },
+      {
+        "id": 312,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "schwanz-pumpe",
+        "normalizeKeyword": "schwanz-pumpe",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.615628",
+        "gmtModified": "2026-07-20T05:54:15.615628"
+      },
+      {
+        "id": 311,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "schneidladungen-sprengmittel",
+        "normalizeKeyword": "schneidladungen-sprengmittel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.610768",
+        "gmtModified": "2026-07-20T05:54:15.610768"
+      },
+      {
+        "id": 287,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "pprno",
+        "normalizeKeyword": "pprno",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.329407",
+        "gmtModified": "2026-07-20T05:54:14.329407"
+      },
+      {
+        "id": 285,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "pporno",
+        "normalizeKeyword": "pporno",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.260886",
+        "gmtModified": "2026-07-20T05:54:14.260886"
+      },
+      {
+        "id": 280,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "pormo",
+        "normalizeKeyword": "pormo",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.248885",
+        "gmtModified": "2026-07-20T05:54:14.248885"
+      },
+      {
+        "id": 277,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "poorno",
+        "normalizeKeyword": "poorno",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.242664",
+        "gmtModified": "2026-07-20T05:54:14.242664"
+      },
+      {
+        "id": 270,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "nackte-frauen-kalender",
+        "normalizeKeyword": "nackte-frauen-kalender",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.227254",
+        "gmtModified": "2026-07-20T05:54:14.227254"
+      },
+      {
+        "id": 268,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "munitions",
+        "normalizeKeyword": "munitions",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.217866",
+        "gmtModified": "2026-07-20T05:54:14.217866"
+      },
+      {
+        "id": 267,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "munitions",
+        "normalizeKeyword": "munitions",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.215812",
+        "gmtModified": "2026-07-20T05:54:14.215812"
+      },
+      {
+        "id": 262,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "mt2-melanotan-kaufen",
+        "normalizeKeyword": "mt2-melanotan-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.202815",
+        "gmtModified": "2026-07-20T05:54:14.202815"
+      },
+      {
+        "id": 248,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "lotto eurojackpot scanner",
+        "normalizeKeyword": "lotto-eurojackpot-scanner",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.944577",
+        "gmtModified": "2026-07-20T05:54:12.944577"
+      },
+      {
+        "id": 242,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "led-tube-japenxxx-t5-led-tube-g5",
+        "normalizeKeyword": "led-tube-japenxxx-t5-led-tube-g5",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.926911",
+        "gmtModified": "2026-07-20T05:54:12.926911"
+      },
+      {
+        "id": 240,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "led-tube-japenxxx-t5-led-rohr-g5",
+        "normalizeKeyword": "led-tube-japenxxx-t5-led-rohr-g5",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.920482",
+        "gmtModified": "2026-07-20T05:54:12.920482"
+      },
+      {
+        "id": 236,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "kostenlos-porno-video-4k-internet-tv-box-medienplayer-mit-wifi-und-bluetooth",
+        "normalizeKeyword": "kostenlos-porno-video-4k-internet-tv-box-medienplayer-mit-wifi-und-bluetooth",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.909017",
+        "gmtModified": "2026-07-20T05:54:12.909017"
+      },
+      {
+        "id": 233,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "kondome",
+        "normalizeKeyword": "kondome",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.900254",
+        "gmtModified": "2026-07-20T05:54:12.900254"
+      },
+      {
+        "id": 232,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "kondome",
+        "normalizeKeyword": "kondome",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.897228",
+        "gmtModified": "2026-07-20T05:54:12.897228"
+      },
+      {
+        "id": 228,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "kondomautomaten",
+        "normalizeKeyword": "kondomautomaten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.884599",
+        "gmtModified": "2026-07-20T05:54:12.884599"
+      },
+      {
+        "id": 225,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "kondomautomat alt",
+        "normalizeKeyword": "kondomautomat-alt",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.876138",
+        "gmtModified": "2026-07-20T05:54:12.876138"
+      },
+      {
+        "id": 224,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "kondomautomat",
+        "normalizeKeyword": "kondomautomat",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.873262",
+        "gmtModified": "2026-07-20T05:54:12.873262"
+      },
+      {
+        "id": 217,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "insulin-ohne-rezept-kaufen",
+        "normalizeKeyword": "insulin-ohne-rezept-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.852091",
+        "gmtModified": "2026-07-20T05:54:12.852091"
+      },
+      {
+        "id": 215,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "insulin-kaufen-rezeptfrei",
+        "normalizeKeyword": "insulin-kaufen-rezeptfrei",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.843363",
+        "gmtModified": "2026-07-20T05:54:12.843363"
+      },
+      {
+        "id": 213,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "instagram-likes-kaufen-paypal",
+        "normalizeKeyword": "instagram-likes-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.837152",
+        "gmtModified": "2026-07-20T05:54:12.837152"
+      },
+      {
+        "id": 212,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "instagram-follower-kaufen-paypal",
+        "normalizeKeyword": "instagram-follower-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.834225",
+        "gmtModified": "2026-07-20T05:54:12.834225"
+      },
+      {
+        "id": 210,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "instagram-account-kaufen",
+        "normalizeKeyword": "instagram-account-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.827804",
+        "gmtModified": "2026-07-20T05:54:12.827804"
+      },
+      {
+        "id": 208,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "hot-sale-p3-hd-xxxx-videos-indoor-led-display",
+        "normalizeKeyword": "hot-sale-p3-hd-xxxx-videos-indoor-led-display",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.75692",
+        "gmtModified": "2026-07-20T05:54:12.75692"
+      },
+      {
+        "id": 203,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "gummipuppe frau",
+        "normalizeKeyword": "gummipuppe-frau",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.739156",
+        "gmtModified": "2026-07-20T05:54:12.739156"
+      },
+      {
+        "id": 201,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "grun-stick-porno-cleaner",
+        "normalizeKeyword": "grun-stick-porno-cleaner",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.731846",
+        "gmtModified": "2026-07-20T05:54:12.731846"
+      },
+      {
+        "id": 193,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "geldspielautomaten euro gebraucht kaufen",
+        "normalizeKeyword": "geldspielautomaten-euro-gebraucht-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.087903",
+        "gmtModified": "2026-07-20T05:54:11.087903"
+      },
+      {
+        "id": 192,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "geile-warenautomaten-gmbh",
+        "normalizeKeyword": "geile-warenautomaten-gmbh",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.084778",
+        "gmtModified": "2026-07-20T05:54:11.084778"
+      },
+      {
+        "id": 187,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "foto-xxx-ful",
+        "normalizeKeyword": "foto-xxx-ful",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.06869",
+        "gmtModified": "2026-07-20T05:54:11.06869"
+      },
+      {
+        "id": 183,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "fickmaschine",
+        "normalizeKeyword": "fickmaschine",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.056572",
+        "gmtModified": "2026-07-20T05:54:11.056572"
+      },
+      {
+        "id": 181,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "fake-instagram-account-kaufen",
+        "normalizeKeyword": "fake-instagram-account-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.050609",
+        "gmtModified": "2026-07-20T05:54:11.050609"
+      },
+      {
+        "id": 168,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "erotikmoebel",
+        "normalizeKeyword": "erotikmoebel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.964298",
+        "gmtModified": "2026-07-20T05:54:10.964298"
+      },
+      {
+        "id": 164,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "erotik-artikel",
+        "normalizeKeyword": "erotik-artikel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.928683",
+        "gmtModified": "2026-07-20T05:54:10.928683"
+      },
+      {
+        "id": 157,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "einarmige-banditen-slot-machines",
+        "normalizeKeyword": "einarmige-banditen-slot-machines",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.908419",
+        "gmtModified": "2026-07-20T05:54:10.908419"
+      },
+      {
+        "id": 154,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "download-microsoft-office-kostenlos",
+        "normalizeKeyword": "download-microsoft-office-kostenlos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.885312",
+        "gmtModified": "2026-07-20T05:54:10.885312"
+      },
+      {
+        "id": 153,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "deutsche-tiktok-follower-kaufen",
+        "normalizeKeyword": "deutsche-tiktok-follower-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.882283",
+        "gmtModified": "2026-07-20T05:54:10.882283"
+      },
+      {
+        "id": 141,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "casino-stuhl-kaufen",
+        "normalizeKeyword": "casino-stuhl-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.61133",
+        "gmtModified": "2026-07-20T05:54:09.61133"
+      },
+      {
+        "id": 138,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "canabis-pflanze-kaufen",
+        "normalizeKeyword": "canabis-pflanze-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.605244",
+        "gmtModified": "2026-07-20T05:54:09.605244"
+      },
+      {
+        "id": 127,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "bordeln",
+        "normalizeKeyword": "bordeln",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.579916",
+        "gmtModified": "2026-07-20T05:54:09.579916"
+      },
+      {
+        "id": 124,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "beate-uhse-gummipuppe",
+        "normalizeKeyword": "beate-uhse-gummipuppe",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.57182",
+        "gmtModified": "2026-07-20T05:54:09.57182"
+      },
+      {
+        "id": 123,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "bdsm-strafbock",
+        "normalizeKeyword": "bdsm-strafbock",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.569496",
+        "gmtModified": "2026-07-20T05:54:09.569496"
+      },
+      {
+        "id": 114,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "aktfotografie",
+        "normalizeKeyword": "aktfotografie",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.539558",
+        "gmtModified": "2026-07-20T05:54:09.539558"
+      },
+      {
+        "id": 73,
+        "scene": "cserp",
+        "site": null,
+        "keyword": "agencias-de-escorts-barcelona",
+        "normalizeKeyword": "agencias-de-escorts-barcelona",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.604161",
+        "gmtModified": "2026-07-16T03:53:00.604161"
+      },
+      {
+        "id": 72,
+        "scene": "cserp",
+        "site": null,
+        "keyword": "escorte",
+        "normalizeKeyword": "escorte",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.602576",
+        "gmtModified": "2026-07-16T03:53:00.602576"
+      },
+      {
+        "id": 71,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "vagosex",
+        "normalizeKeyword": "vagosex",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.600906",
+        "gmtModified": "2026-07-16T03:53:00.600906"
+      },
+      {
+        "id": 70,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "mujeres-maduras-desnudas",
+        "normalizeKeyword": "mujeres-maduras-desnudas",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.599325",
+        "gmtModified": "2026-07-16T03:53:00.599325"
+      },
+      {
+        "id": 69,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "xxxtik",
+        "normalizeKeyword": "xxxtik",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.597354",
+        "gmtModified": "2026-07-16T03:53:00.597354"
+      },
+      {
+        "id": 68,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "pprno",
+        "normalizeKeyword": "pprno",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.59563",
+        "gmtModified": "2026-07-16T03:53:00.59563"
+      },
+      {
+        "id": 67,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "xxnxxx",
+        "normalizeKeyword": "xxnxxx",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.589017",
+        "gmtModified": "2026-07-16T03:53:00.589017"
+      }
+    ]
+  }
+}

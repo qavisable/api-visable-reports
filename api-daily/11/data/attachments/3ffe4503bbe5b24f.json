@@ -1,0 +1,264 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 622,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 05:47:45 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "algBts": null,
+      "returnCount": 0,
+      "offerInfo": null,
+      "translateTime": 0,
+      "pageSize": 0,
+      "paging": null,
+      "debugInfo": null,
+      "filters": null,
+      "offerIds": null,
+      "totalCount": 0,
+      "products": null,
+      "serviceLatency": null,
+      "pageIndex": 0,
+      "fxbCategoryId": 0,
+      "traceinfoId": null,
+      "tppBuckets": null,
+      "engineTime": 0,
+      "keyword": null,
+      "newPriceFilter": null,
+      "atmosphereTime": 0,
+      "cpvCategory": null,
+      "frontAbTestPrice": null,
+      "frontAbTestJsonString": null,
+      "meta": {
+        "keywords": null,
+        "metaKeywords": null,
+        "title": "cnc Unavailable – Discover Alternatives",
+        "site": null,
+        "description": "This product is no longer available. Explore thousands of other product listings and verified suppliers on cnc.",
+        "canonicalUrl": "https://www.europages.co.uk/en/showroom/cnc",
+        "h1": "cnc — Explore Alternative Products & Suppliers",
+        "alternates": null,
+        "index": false,
+        "follow": true
+      },
+      "internalLinks": [],
+      "relatedKeywords": [
+        {
+          "internalLinkUrl": "/companies/marketing-agencies-in-london-uk.html",
+          "internalLinkName": "marketing agencies in london uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/courier-companies-in-the-uk.html",
+          "internalLinkName": "courier companies in the uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/marketing-agencies-in-london.html",
+          "internalLinkName": "marketing agencies in london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/translation-agencies-in-uk.html",
+          "internalLinkName": "translation agencies in uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/wholesalers-uk.html",
+          "internalLinkName": "wholesalers uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/private-label-cosmetics.html",
+          "internalLinkName": "private label cosmetics",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/iphone-16-pro-max-price",
+          "internalLinkName": "iphone 16 pro max price",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/logistics-companies-in-london",
+          "internalLinkName": "logistics companies in london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/iphone-15-pro-price-in-uk",
+          "internalLinkName": "iphone 15 pro price in uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/wind",
+          "internalLinkName": "wind",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/playstation-5-price",
+          "internalLinkName": "playstation 5 price",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/prefabricated-houses.html",
+          "internalLinkName": "prefabricated houses",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/private-label.html",
+          "internalLinkName": "private label",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/best-cheap-printer",
+          "internalLinkName": "best cheap printer",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/refurbishment-contractors-london.html",
+          "internalLinkName": "refurbishment contractors london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/plastics-moulding.html",
+          "internalLinkName": "plastics moulding",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/sofa-manufacturers-in-the-uk.html",
+          "internalLinkName": "sofa manufacturers in the uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/insect-exterminators.html",
+          "internalLinkName": "insect exterminators",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/aluminium-sheeting.html",
+          "internalLinkName": "aluminium sheeting",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/adhesive-tape.html",
+          "internalLinkName": "adhesive tape",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/motor-oils.html",
+          "internalLinkName": "motor oils",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/engineering-companies-london.html",
+          "internalLinkName": "engineering companies london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/electronics-manufacturing-services",
+          "internalLinkName": "electronics manufacturing services",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/translation-agencies.html",
+          "internalLinkName": "translation agencies",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/fire-extinguishers.html",
+          "internalLinkName": "fire extinguishers",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/scaffolding.html",
+          "internalLinkName": "scaffolding",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/plastic-components.html",
+          "internalLinkName": "plastic components",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/suction-excavators.html",
+          "internalLinkName": "suction excavators",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/candle-wax-bulk",
+          "internalLinkName": "candle wax bulk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/industrial-waste-management.html",
+          "internalLinkName": "industrial waste management",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/commercial-vacuum-cleaner",
+          "internalLinkName": "commercial vacuum cleaner",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/seeking-distributor.html",
+          "internalLinkName": "seeking distributor",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/wooden-crates-and-boxes.html",
+          "internalLinkName": "wooden crates and boxes",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/fmcg.html",
+          "internalLinkName": "fmcg",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/audio-visual-equipment-professional.html",
+          "internalLinkName": "audio-visual equipment- professional",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/rubber-products.html",
+          "internalLinkName": "rubber products",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/rental-of-generators",
+          "internalLinkName": "Rental of Generators",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/clothing.html",
+          "internalLinkName": "clothing",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/air-filters.html",
+          "internalLinkName": "air filters",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/powders-in-sachets.html",
+          "internalLinkName": "powders in sachets",
+          "ahref": true
+        }
+      ],
+      "learnMoreDescriptionSimple": null,
+      "learnMoreDescriptionComplex": null,
+      "cache": false
+    }
+  }
+}

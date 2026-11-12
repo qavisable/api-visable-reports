@@ -1,0 +1,23 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/api/v1/psearch-proxy/search?lang=fr&query=%25C3%25A0%2520base%2520de%2520v%25C3%25A9g%25C3%25A9taux%2520stabilis%25C3%25A9s%2520et%2520de%2520fleurs%2520press%25C3%25A9es&site=ep&country=FR&site_code=FR&top_level_domain=fr&ufs_session_id=***&history=false&seoURL=https%253A%252F%252Fwww.europages-staging.fr%252Fentreprises%252F%25C3%25A0%2520base%2520de%2520v%25C3%25A9g%25C3%25A9taux%2520stabilis%25C3%25A9s%2520et%2520de%2520fleurs%2520press%25C3%25A9es.html&countrySlugTitle=belgium",
+  "durationMs": 1104,
+  "params": {
+    "lang": "fr",
+    "query": "%C3%A0%20base%20de%20v%C3%A9g%C3%A9taux%20stabilis%C3%A9s%20et%20de%20fleurs%20press%C3%A9es",
+    "site": "ep",
+    "country": "FR",
+    "site_code": "FR",
+    "top_level_domain": "fr",
+    "ufs_session_id": "***",
+    "history": "false",
+    "seoURL": "https%3A%2F%2Fwww.europages-staging.fr%2Fentreprises%2F%C3%A0%20base%20de%20v%C3%A9g%C3%A9taux%20stabilis%C3%A9s%20et%20de%20fleurs%20press%C3%A9es.html",
+    "countrySlugTitle": "belgium"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "website": "wlw.de",
+    "Authorization": "***"
+  }
+}

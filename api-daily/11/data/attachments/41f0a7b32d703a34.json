@@ -1,0 +1,8 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/seodata/bs/mixdata/health?language=en",
+  "durationMs": 224,
+  "params": {
+    "language": "en"
+  }
+}

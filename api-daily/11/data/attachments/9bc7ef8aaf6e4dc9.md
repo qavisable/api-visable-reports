@@ -1,0 +1,103 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: api/Application/traffic-mesh-backend/ShowroomController/showroom.spec.ts >> returns a static showroom page with consistent paging
+- Location: api/Application/traffic-mesh-backend/ShowroomController/showroom.spec.ts:71:5
+
+# Error details
+
+```
+Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+```
+
+# Test source
+
+```ts
+  1  | /**
+  2  |  * `expect` whose every matcher call is a synchronous step, so the Allure report
+  3  |  * lists the assertions of a test (name + expected value), not just failures.
+  4  |  * `expect.poll` stays untouched: its matchers are async and a sync step would
+  5  |  * abort the test with "step body returned a promise".
+  6  |  */
+  7  | import { expect as baseExpect } from '@playwright/test';
+  8  | import { step } from 'allure-js-commons/sync';
+  9  | 
+  10 | const MAX_PREVIEW = 80;
+  11 | 
+  12 | function preview(value: unknown): string {
+  13 |   if (typeof value === 'string') {
+  14 |     const text = value.length > MAX_PREVIEW ? `${value.slice(0, MAX_PREVIEW)}…` : value;
+  15 |     return JSON.stringify(text);
+  16 |   }
+  17 |   if (
+  18 |     value === null ||
+  19 |     typeof value === 'number' ||
+  20 |     typeof value === 'boolean' ||
+  21 |     typeof value === 'undefined'
+  22 |   ) {
+  23 |     return String(value);
+  24 |   }
+  25 |   if (value instanceof RegExp) return String(value);
+  26 |   try {
+  27 |     const json = JSON.stringify(value);
+  28 |     if (json !== undefined) return json.length > MAX_PREVIEW ? `${json.slice(0, MAX_PREVIEW)}…` : json;
+  29 |   } catch {
+  30 |     // circular structures fall through to the type preview
+  31 |   }
+  32 |   if (Array.isArray(value)) return `Array(${value.length})`;
+  33 |   if (value instanceof Map) return `Map(${value.size})`;
+  34 |   if (value instanceof Set) return `Set(${value.size})`;
+  35 |   if (typeof value === 'object') {
+  36 |     return (value as object).constructor?.name ?? 'object';
+  37 |   }
+  38 |   return String(value);
+  39 | }
+  40 | 
+  41 | type MatcherFunction = (...args: unknown[]) => unknown;
+  42 | type Matchers = Record<PropertyKey, unknown>;
+  43 | 
+  44 | function withSteps(matchers: Matchers, negated: boolean): Matchers {
+  45 |   return new Proxy(matchers, {
+  46 |     get(target, prop, receiver) {
+  47 |       const value = Reflect.get(target, prop, receiver);
+  48 |       if (typeof prop !== 'string') return value;
+  49 |       if (prop === 'not') return withSteps(value as Matchers, !negated);
+  50 |       if (typeof value !== 'function') return value;
+  51 |       return (...args: unknown[]) =>
+  52 |         step(`assert ${negated ? 'not ' : ''}${prop}(${args.map(preview).join(', ')})`, () =>
+> 53 |           (value as MatcherFunction).apply(target, args),
+     |                                      ^ Error: expect(received).toBeGreaterThan(expected)
+  54 |         );
+  55 |     },
+  56 |   });
+  57 | }
+  58 | 
+  59 | export const expect = new Proxy(baseExpect, {
+  60 |   apply(target, _thisArg, args: [unknown, ...unknown[]]) {
+  61 |     return withSteps(
+  62 |       (target as unknown as (...a: unknown[]) => Matchers)(...args),
+  63 |       false,
+  64 |     );
+  65 |   },
+  66 |   get(target, prop, receiver) {
+  67 |     const value = Reflect.get(target, prop, receiver);
+  68 |     if (prop === 'soft') {
+  69 |       return (actual: unknown, message?: string) =>
+  70 |         withSteps((value as (a: unknown, m?: string) => Matchers)(actual, message), false);
+  71 |     }
+  72 |     if (prop === 'poll') {
+  73 |       return (...args: unknown[]) => (value as (...a: unknown[]) => unknown)(...args);
+  74 |     }
+  75 |     return typeof value === 'function' ? value.bind(target) : value;
+  76 |   },
+  77 | }) as unknown as typeof baseExpect;
+  78 | 
+```

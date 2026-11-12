@@ -1,0 +1,17 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/showroom/v1/crumbs?keyword=cnc&siteId=ep&language=xx",
+  "durationMs": 639,
+  "params": {
+    "keyword": "cnc",
+    "siteId": "ep",
+    "language": "xx"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "Accept-Language": "xx",
+    "X-Application-Id": "homepage-frontend",
+    "x-host": "www.europages-staging.de"
+  }
+}
