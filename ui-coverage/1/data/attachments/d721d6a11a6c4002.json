@@ -1,0 +1,82 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 167,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 06:57:39 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "x-kratos-authenticated-identity-id": "643a3f28-69d6-4406-af07-41f31e6e4127",
+    "x-envoy-upstream-service-time": "6",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "9b5057fd-e883-44de-ba1d-0ebae8dc1265",
+    "active": true,
+    "expires_at": "2026-12-12T06:57:38.895862Z",
+    "authenticated_at": "2026-11-12T06:57:38.895862Z",
+    "authenticator_assurance_level": "aal1",
+    "authentication_methods": [
+      {
+        "method": "password",
+        "aal": "aal1",
+        "completed_at": "2026-11-12T06:57:38.895702302Z"
+      }
+    ],
+    "issued_at": "2026-11-12T06:57:38.895862Z",
+    "identity": {
+      "id": "643a3f28-69d6-4406-af07-41f31e6e4127",
+      "schema_id": "v2",
+      "schema_url": "https://www.wlw-staging.de/.ory/kratos/schemas/djI",
+      "state": "active",
+      "state_changed_at": "2026-04-28T11:27:28.816032Z",
+      "traits": {
+        "email": "supplier.falcon@test.com",
+        "profile_registration": {
+          "surname": "Falcon",
+          "given_name": "Supplier",
+          "preferred_language": "en"
+        }
+      },
+      "verifiable_addresses": [
+        {
+          "id": "561daa84-a7a7-447a-9151-a42e56f94795",
+          "value": "supplier.falcon@test.com",
+          "verified": true,
+          "via": "email",
+          "status": "completed",
+          "verified_at": "2026-08-31T07:07:12.242312Z",
+          "created_at": "2026-04-28T11:27:28.830635Z",
+          "updated_at": "2026-04-28T11:27:28.830635Z"
+        }
+      ],
+      "recovery_addresses": [
+        {
+          "id": "dd96c1c8-8e45-4408-a92c-bb19f180f0e4",
+          "value": "supplier.falcon@test.com",
+          "via": "email",
+          "created_at": "2026-04-28T11:27:28.854552Z",
+          "updated_at": "2026-04-28T11:27:28.854552Z"
+        }
+      ],
+      "metadata_public": null,
+      "created_at": "2026-04-28T11:27:28.81889Z",
+      "updated_at": "2026-08-31T07:07:26.662072Z",
+      "organization_id": null
+    },
+    "devices": [
+      {
+        "id": "5fb68a16-2012-4a86-bcaf-d85ce88eeb6f",
+        "ip_address": "172.171.107.216",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+        "location": ""
+      }
+    ]
+  }
+}
