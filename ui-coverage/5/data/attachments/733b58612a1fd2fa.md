@@ -1,0 +1,541 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: ui/tests/user-account/business-insights-regression.spec.ts >> Business Insights >> displays products and services table
+- Location: ui/tests/user-account/business-insights-regression.spec.ts:62:7
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator:  locator('[role="menuitem"]').nth(2)
+Expected: visible
+Received: hidden
+Timeout:  15000ms
+
+Call log:
+  - Expect "toBeVisible" locator('[role="menuitem"]').nth(2) with timeout 15000ms
+  - waiting for locator('[role="menuitem"]').nth(2)
+    31 × locator resolved to <div class="" role="menuitem" data-v-d3d8075a="">Boosted (4)</div>
+       - unexpected value "hidden"
+
+```
+
+```yaml
+- banner:
+  - img
+  - button "Get quotes":
+    - img
+    - text: Get quotes
+  - button "Request Hub":
+    - img
+    - text: Request Hub
+  - link "My company":
+    - /url: /en/my-account/company-selection
+    - img
+    - text: My company
+  - link "Messages":
+    - /url: /en/conversations
+    - img
+    - text: Messages
+  - button:
+    - img
+  - button "RM"
+  - button "DE"
+- main:
+  - link "company logo arrow-right Delta Werbetechnik GmbH":
+    - /url: /en/my-account/company-selection
+    - img "company logo"
+    - img "arrow-right"
+    - text: Delta Werbetechnik GmbH
+  - list:
+    - listitem:
+      - link "Overview":
+        - /url: /en/company-overview/00505682-f25b-1ee9-bd91-d26905f0f7fb
+        - img
+        - text: Overview
+    - listitem:
+      - link "Company profile":
+        - /url: /en/company-editor/00505682-f25b-1ee9-bd91-d26905f0f7fb
+        - img
+        - text: Company profile
+    - listitem:
+      - link "shipment-upload Products and services":
+        - /url: /en/my-account/supplier/00505682-f25b-1ee9-bd91-d26905f0f7fb/products-services
+        - img "shipment-upload"
+        - text: Products and services
+    - listitem:
+      - link "performance-increase Insights":
+        - /url: /en/my-account/business-insights/00505682-f25b-1ee9-bd91-d26905f0f7fb
+        - img "performance-increase"
+        - text: Insights
+    - listitem:
+      - link "multiple-man-woman-2 Visitors":
+        - /url: /en/my-account/visitors/00505682-f25b-1ee9-bd91-d26905f0f7fb
+        - img "multiple-man-woman-2"
+        - text: Visitors
+    - listitem:
+      - link "Campaigns":
+        - /url: /en/campaigns/00505682-f25b-1ee9-bd91-d26905f0f7fb
+        - img
+        - text: Campaigns
+    - listitem:
+      - link "cog Settings":
+        - /url: /en/my-account/supplier/00505682-f25b-1ee9-bd91-d26905f0f7fb/settings
+        - img "cog"
+        - text: Settings
+  - heading "Business Insights" [level=1]
+  - text: Last 12 months ( 11/12/2025 - 11/11/2026 )
+  - button "Last 12 months" [disabled]:
+    - img
+    - text: Last 12 months
+    - img
+  - button "Download" [disabled]:
+    - text: Download
+    - img
+  - group:
+    - link "Products and profile":
+      - /url: /en/my-account/business-insights/00505682-f25b-1ee9-bd91-d26905f0f7fb
+  - heading "Your visibility" [level=5]
+  - img
+  - text: Last 12 months 1,216 Impressions
+  - img
+  - text: wer liefert was (wlw) 792 65% europages 424 35% 80 Page views
+  - img
+  - text: wer liefert was (wlw) 42 53% europages 38 48%
+  - link "Top Ranking":
+    - /url: https://www.visable.com/de_de/b2b-plattformen/top-ranking-1?source=wlw_bi_c_tr
+  - paragraph:
+    - text: Reach more buyers through top placements on wer liefert was (wlw).
+    - link "Get advice now":
+      - /url: https://pages.wlw.com/en/top-ranking?all_sup_lead_touchpoint_details=wlw_c_ups_TopRanking_en
+  - heading "Your connections to buyers" [level=5]
+  - img
+  - text: Last 12 months
+  - link "Messages":
+    - /url: /en/conversations/?organizationId=00505682-f25b-1ee9-bd91-d26905f0f7fb
+    - text: Messages
+    - img
+  - text: "32"
+  - paragraph: Buyer requests
+  - text: "22"
+  - paragraph: Clicks to your website
+  - text: "1"
+  - paragraph: Clicks to your phone number
+  - paragraph: New Request Hub - More requests. More success!
+  - paragraph: Browse currently active buyer requests and respond to make an offer.
+  - link "Go to Request Hub":
+    - /url: /en/request-hub?supplierId=00505682-f25b-1ee9-bd91-d26905f0f7fb
+  - heading "Your products and services" [level=5]
+  - img
+  - text: Last 12 months
+  - link "Products and services":
+    - /url: /en/my-account/supplier/00505682-f25b-1ee9-bd91-d26905f0f7fb/products-services
+    - text: Products and services
+    - img
+  - text: Maximise your visibility by using all benefits
+  - img
+  - text: Product boosts not available
+  - img
+  - text: 6 / 5000 products online
+  - button "Create new":
+    - text: Create new
+    - img
+  - button "Show all (6) arrow-down" [disabled]:
+    - text: Show all (6)
+    - img "arrow-down"
+  - textbox "Search product name" [disabled]
+  - button [disabled]
+  - table:
+    - rowgroup:
+      - row "Products (1 - 6 of 6) Impressions Page views":
+        - columnheader "Products (1 - 6 of 6)"
+        - columnheader "Impressions":
+          - text: Impressions
+          - img
+        - columnheader "Page views":
+          - text: Page views
+          - img
+        - columnheader
+    - rowgroup:
+      - row "Total performance of your products 567 11":
+        - cell "Total performance of your products"
+        - cell "567"
+        - cell "11"
+      - row "Lichtwerbung Lichtwerbung online Boosted 271 1":
+        - cell "Lichtwerbung Lichtwerbung online Boosted":
+          - img "Lichtwerbung"
+          - paragraph: Lichtwerbung
+          - text: online Boosted
+        - cell "271"
+        - cell "1"
+        - cell:
+          - link:
+            - /url: /en/my-account/supplier/00505682-f25b-1ee9-bd91-d26905f0f7fb/products-services/product?productId=4b448200-0493-5c52-af26-8b6211b0010e
+            - img
+      - row "Bauschilder und Bauwerbeplanen Bauschilder und Bauwerbeplanen online Boosted 131 4":
+        - cell "Bauschilder und Bauwerbeplanen Bauschilder und Bauwerbeplanen online Boosted":
+          - img "Bauschilder und Bauwerbeplanen"
+          - paragraph: Bauschilder und Bauwerbeplanen
+          - text: online Boosted
+        - cell "131"
+        - cell "4"
+        - cell:
+          - link:
+            - /url: /en/my-account/supplier/00505682-f25b-1ee9-bd91-d26905f0f7fb/products-services/product?productId=5408488d-874c-5964-a7d0-55e5b249f20e
+            - img
+      - row "Beschriftungen Beschriftungen online Boosted 95 3":
+        - cell "Beschriftungen Beschriftungen online Boosted":
+          - img "Beschriftungen"
+          - paragraph: Beschriftungen
+          - text: online Boosted
+        - cell "95"
+        - cell "3"
+        - cell:
+          - link:
+            - /url: /en/my-account/supplier/00505682-f25b-1ee9-bd91-d26905f0f7fb/products-services/product?productId=f6c70e8e-58c9-5761-8d89-a9e473ab3f6a
+            - img
+      - row "Werbepylone Werbepylone online Boosted 55 2":
+        - cell "Werbepylone Werbepylone online Boosted":
+          - img "Werbepylone"
+          - paragraph: Werbepylone
+          - text: online Boosted
+        - cell "55"
+        - cell "2"
+        - cell:
+          - link:
+            - /url: /en/my-account/supplier/00505682-f25b-1ee9-bd91-d26905f0f7fb/products-services/product?productId=4e70dca2-def9-5177-b070-ab56dc8de88c
+            - img
+      - row "Bauzaunbanner Mesh (winddurchlässig) Bauzaunbanner Mesh (winddurchlässig) online 8 1":
+        - cell "Bauzaunbanner Mesh (winddurchlässig) Bauzaunbanner Mesh (winddurchlässig) online":
+          - img "Bauzaunbanner Mesh (winddurchlässig)"
+          - paragraph: Bauzaunbanner Mesh (winddurchlässig)
+          - text: online
+        - cell "8"
+        - cell "1"
+        - cell:
+          - link:
+            - /url: /en/my-account/supplier/00505682-f25b-1ee9-bd91-d26905f0f7fb/products-services/product?productId=39c8cac7-21b7-4605-bf8c-f2e8c99d5124
+            - img
+      - row "Bauzaunbanner (Plane) Bauzaunbanner (Plane) online 7 0":
+        - cell "Bauzaunbanner (Plane) Bauzaunbanner (Plane) online":
+          - img "Bauzaunbanner (Plane)"
+          - paragraph: Bauzaunbanner (Plane)
+          - text: online
+        - cell "7"
+        - cell "0"
+        - cell:
+          - link:
+            - /url: /en/my-account/supplier/00505682-f25b-1ee9-bd91-d26905f0f7fb/products-services/product?productId=f078ad4d-265d-4eb2-9aaa-83c2af4220a8
+            - img
+  - paragraph: Check the performance of your products. With a paid service package, you can also publish more products and get a premium ranking.
+  - link "Get advice now":
+    - /url: https://supplier.wlw.de/en/rfc?all_sup_lead_touchpoint_details=wlw_fl_lg_inp_Premium-reg_funnel_en
+  - paragraph: Full access and more visibility
+  - paragraph:
+    - text: With our Business service package, you can significantly increase your reach and visibility. Benefit from more products with premium ranking and full access to Business Insights.
+    - link "More information":
+      - /url: https://www.visable.com/en_int/b2b-platforms/wer-liefert-was?source=wlw_bi_fl_prem
+  - button "Find out more"
+  - heading "Your latest identified visitors" [level=5]
+  - link "Visitors":
+    - /url: /en/my-account/visitors/00505682-f25b-1ee9-bd91-d26905f0f7fb
+    - text: Visitors
+    - img
+  - table:
+    - rowgroup:
+      - row "Company (1-3 of 3) Country Date":
+        - columnheader "Company (1-3 of 3)"
+        - columnheader "Country"
+        - columnheader "Date"
+    - rowgroup:
+      - row "fischer group SE & Co. KG Germany 8/12/2026":
+        - cell "fischer group SE & Co. KG":
+          - img
+          - paragraph: fischer group SE & Co. KG
+        - cell "Germany":
+          - paragraph: Germany
+        - cell "8/12/2026"
+      - row "ReGe Hamburg Projekt-Realisierungsgesellschaft mbH Germany 8/12/2026":
+        - cell "ReGe Hamburg Projekt-Realisierungsgesellschaft mbH":
+          - img
+          - paragraph: ReGe Hamburg Projekt-Realisierungsgesellschaft mbH
+        - cell "Germany":
+          - paragraph: Germany
+        - cell "8/12/2026"
+      - row "TRUMPF GmbH + Co. KG (Holding) Germany 8/12/2026":
+        - cell "TRUMPF GmbH + Co. KG (Holding)":
+          - img
+          - paragraph: TRUMPF GmbH + Co. KG (Holding)
+        - cell "Germany":
+          - paragraph: Germany
+        - cell "8/12/2026"
+  - paragraph: Find out who is interested in your products and services and who has visited your pages on wer liefert was (wlw).
+  - link "Get advice now":
+    - /url: https://supplier.wlw.de/en/rfc?all_sup_lead_touchpoint_details=wlw_fl_lg_inp_Premium-reg_funnel_en
+  - heading "Your visibility by country" [level=5]
+  - img
+  - text: Last 12 months
+  - table:
+    - rowgroup:
+      - row "Country (1 - 5 of 31) Impressions Page views":
+        - columnheader "Country (1 - 5 of 31)"
+        - columnheader "Impressions":
+          - text: Impressions
+          - img
+        - columnheader "Page views":
+          - text: Page views
+          - img
+    - rowgroup:
+      - row "Germany 235 53.05% 28 42.42%":
+        - cell "Germany"
+        - cell "235 53.05%"
+        - cell "28 42.42%"
+      - row "Turkey 33 7.45% 18 27.27%":
+        - cell "Turkey"
+        - cell "33 7.45%"
+        - cell "18 27.27%"
+      - row "France 26 5.87% 0 0.00%":
+        - cell "France"
+        - cell "26 5.87%"
+        - cell "0 0.00%"
+      - row "Italy 26 5.87% 0 0.00%":
+        - cell "Italy"
+        - cell "26 5.87%"
+        - cell "0 0.00%"
+      - row "Poland 25 5.64% 4 6.06%":
+        - cell "Poland"
+        - cell "25 5.64%"
+        - cell "4 6.06%"
+  - paragraph: See where your demand comes from and discover new market opportunities.
+  - link "Get advice now":
+    - /url: https://supplier.wlw.de/en/rfc?all_sup_lead_touchpoint_details=wlw_fl_lg_inp_Premium-reg_funnel_en
+  - heading "Our account managers help improving your business" [level=3]
+  - paragraph:
+    - text: Get in touch with us! Customer service will be happy to help you on
+    - link "+49 (0)40 254 40-0":
+      - /url: tel:+49 (0)40 254 40-0
+    - text: or
+    - link "kundenservice@wlw.com":
+      - /url: mailto:kundenservice@wlw.com
+    - text: .
+  - paragraph:
+    - text: Further information and suggestions can be found under
+    - link "FAQ":
+      - /url: https://hilfe.wlw.de/en/anbieter/faq#business-insights
+    - text: and in our
+    - link "help center":
+      - /url: https://hilfe.wlw.de/en/anbieter/business-insights
+    - text: .
+  - paragraph: Develop a digital marketing strategy for your company with us
+  - paragraph: Google and Bing ads
+  - paragraph: Present your company where your potential buyers search for your products — on Google and Bing.
+  - link "More information":
+    - /url: https://pages.wlw.com/en/google-ads?all_sup_lead_touchpoint_details=wlw_sup_lg_GoogleAds_en
+- contentinfo:
+  - text: Start with
+  - img
+  - text: today. Use the full potential of DACH region's leading B2B marketplace. Start now for free.
+  - link "My company overview":
+    - /url: /en/my-account/company-selection
+    - img
+    - text: My company overview
+  - button "Unlock our exclusive benefits":
+    - img
+    - text: Unlock our exclusive benefits
+  - link "account My account":
+    - /url: /en/user-frontend/settings
+    - img "account"
+    - text: My account
+  - text: "Download our app from the App stores:"
+  - link "Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917":
+    - /url: https://wlw.app.link/websiteFooter?$desktop_url=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fwer-liefert-was-wlw%2Fid1531873496%3Fl%3Den
+    - img "Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917"
+  - link:
+    - /url: https://wlw.app.link/websiteFooter?$desktop_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.visable.wlw%26hl%3Den
+    - img
+  - text: For Buyers
+  - list:
+    - listitem:
+      - link "Request for Quotes":
+        - /url: /en/rfq
+    - listitem:
+      - link "Help Center for Buyers":
+        - /url: https://hilfe.wlw.de/en/einkaeufer
+  - text: For Suppliers
+  - list:
+    - listitem:
+      - link "List your company":
+        - /url: /en/supplier-registration
+    - listitem:
+      - link "Visable Media Services":
+        - /url: https://www.visable.com/en_int/online-marketing
+    - listitem:
+      - link "Help Center for Suppliers":
+        - /url: https://hilfe.wlw.de/en/anbieter
+  - text: More about Visable
+  - list:
+    - listitem:
+      - link "Press":
+        - /url: https://www.visable.com/en_int/about-us/press
+    - listitem:
+      - link "Contact":
+        - /url: https://www.visable.com/en_int/contact-us
+    - listitem:
+      - link "Career":
+        - /url: https://www.visable.com/en_int/career
+    - listitem:
+      - link "About us":
+        - /url: https://www.visable.com/en_int/about-us
+  - text: Trust and partners
+  - link "BME Certified with BME Seal of Approval":
+    - /url: https://www.bme.de/services/siegel/Anbietersuche-wlw
+    - img "BME"
+    - text: Certified with BME Seal of Approval
+  - text: This site is protected by reCAPTCHA
+  - img
+  - text: Partner of the marketplace
+  - link "linkedin":
+    - /url: https://www.linkedin.com/company/wer-liefert-was-gmbh
+    - img "linkedin"
+  - link:
+    - /url: https://www.facebook.com/werliefertwas
+    - img
+  - link:
+    - /url: https://www.youtube.com/user/werliefertwasde
+    - img
+  - link:
+    - /url: https://x.com/wlw_vonvisable
+    - img
+  - list:
+    - listitem:
+      - link "Terms and Conditions":
+        - /url: /en/firm/legal-notice/gtc
+    - listitem:
+      - link "General Conditions of Use":
+        - /url: /en/firm/legal-notice/terms-of-use
+    - listitem:
+      - link "Privacy policy":
+        - /url: /en/firm/legal-notice/data-privacy
+    - listitem:
+      - link "Imprint":
+        - /url: /en/firm/legal-notice/imprint
+- iframe
+```
+
+# Test source
+
+```ts
+  1   | import { expect, type Page } from '@playwright/test';
+  2   | import { assertBusinessInsightsDashboardLoaded } from '../../flows/assert-supplier-access.flow';
+  3   | 
+  4   | /** `/en/my-account/business-insights/{supplierId}` (Cypress BusinessInsightsPage). */
+  5   | export class BusinessInsightsPage {
+  6   |   constructor(private readonly page: Page) {}
+  7   | 
+  8   |   async open(supplierId: string): Promise<void> {
+  9   |     await this.page.goto(`/en/my-account/business-insights/${supplierId}`, {
+  10  |       waitUntil: 'domcontentloaded',
+  11  |     });
+  12  |     await expect(this.page).toHaveURL(/business-insights/, { timeout: 15_000 });
+  13  |     await assertBusinessInsightsDashboardLoaded(this.page);
+  14  |   }
+  15  | 
+  16  |   async expectPageHeading(): Promise<void> {
+  17  |     await expect(this.page.locator('h1')).toContainText('Business Insights');
+  18  |   }
+  19  | 
+  20  |   async expectSidebarNavigation(): Promise<void> {
+  21  |     await expect(this.page.locator('.link--active')).toContainText('Insights');
+  22  |   }
+  23  | 
+  24  |   async expectTabsDisplayed(tabLabels: readonly string[]): Promise<void> {
+  25  |     const tabNav = this.page.locator('[role="group"]');
+  26  |     await expect(tabNav).toBeVisible();
+  27  |     for (const label of tabLabels) {
+  28  |       const tab = tabNav.getByText(label, { exact: true });
+  29  |       await tab.scrollIntoViewIfNeeded();
+  30  |       await expect(tab).toBeVisible();
+  31  |     }
+  32  |   }
+  33  | 
+  34  |   async expectDateFilterDisplayed(): Promise<void> {
+  35  |     await expect(this.page.getByRole('button', { name: 'Last 12 months' })).toBeVisible();
+  36  |   }
+  37  | 
+  38  |   async expectDownloadButtonDisplayed(): Promise<void> {
+  39  |     await expect(this.page.getByRole('button', { name: 'Download' })).toBeVisible();
+  40  |   }
+  41  | 
+  42  |   async expectVisibilitySection(): Promise<void> {
+  43  |     const heading = this.page.getByRole('heading', { name: 'Your visibility' });
+  44  |     await heading.scrollIntoViewIfNeeded();
+  45  |     await expect(heading).toBeVisible();
+  46  |     await expect(this.page.getByText('Impressions', { exact: true }).first()).toBeVisible();
+  47  |     await expect(this.page.getByText('Page views', { exact: true }).first()).toBeVisible();
+  48  |   }
+  49  | 
+  50  |   async expectConnectionsSection(): Promise<void> {
+  51  |     const heading = this.page.getByRole('heading', { name: 'Your connections to buyers' });
+  52  |     await heading.scrollIntoViewIfNeeded();
+  53  |     await expect(heading).toBeVisible();
+  54  |     await expect(this.page.getByText('Buyer requests', { exact: true }).first()).toBeVisible();
+  55  |     await expect(this.page.getByText('Clicks to your website', { exact: true }).first()).toBeVisible();
+  56  |     await expect(this.page.getByText('Clicks to your phone number', { exact: true }).first()).toBeVisible();
+  57  |   }
+  58  | 
+  59  |   async expectProductsTable(): Promise<void> {
+  60  |     const heading = this.page.getByRole('heading', { name: 'Your products and services' });
+  61  |     await heading.scrollIntoViewIfNeeded();
+  62  |     await expect(heading).toBeVisible();
+  63  |     const table = this.page.locator('table').nth(0);
+  64  |     await expect(table).toBeVisible();
+  65  |     await expect(table.getByRole('columnheader', { name: 'Impressions', exact: true })).toBeVisible();
+  66  |     await expect(table.locator('tbody tr').first()).toBeVisible();
+  67  |   }
+  68  | 
+  69  |   async expectProductFilterMenu(): Promise<void> {
+  70  |     const menuitems = this.page.locator('[role="menuitem"]');
+  71  |     await expect(this.page.locator('[role="menu"]')).toBeAttached();
+> 72  |     await expect(menuitems.nth(2)).toBeVisible({ timeout: 15_000 });
+      |                                    ^ Error: expect(locator).toBeVisible() failed
+  73  |   }
+  74  | 
+  75  |   async expectSearchInput(): Promise<void> {
+  76  |     await expect(this.page.getByTestId('search-input')).toBeVisible();
+  77  |   }
+  78  | 
+  79  |   async expectVisitorsTable(): Promise<void> {
+  80  |     const heading = this.page.getByRole('heading', { name: 'Your latest identified visitors' });
+  81  |     await heading.scrollIntoViewIfNeeded();
+  82  |     await expect(heading).toBeVisible();
+  83  |     const table = this.page.locator('table').nth(1);
+  84  |     await expect(table).toBeVisible();
+  85  |     await expect(table.getByRole('columnheader', { name: 'Country', exact: true })).toBeVisible();
+  86  |     await expect(table.getByRole('columnheader', { name: 'Date', exact: true })).toBeVisible();
+  87  |   }
+  88  | 
+  89  |   async expectCountryTable(): Promise<void> {
+  90  |     const heading = this.page.getByRole('heading', { name: 'Your visibility by country' });
+  91  |     await heading.scrollIntoViewIfNeeded();
+  92  |     await expect(heading).toBeVisible();
+  93  |     const table = this.page.locator('table').nth(2);
+  94  |     await expect(table).toBeVisible();
+  95  |     await expect(table.getByRole('columnheader', { name: 'Impressions', exact: true })).toBeVisible();
+  96  |     await expect(table.locator('tbody tr').first()).toBeVisible();
+  97  |   }
+  98  | 
+  99  |   async expectRequestHubBanner(): Promise<void> {
+  100 |     const banner = this.page.getByText('Request Hub - More requests');
+  101 |     await banner.scrollIntoViewIfNeeded();
+  102 |     await expect(banner).toBeVisible();
+  103 |   }
+  104 | }
+  105 | 
+```

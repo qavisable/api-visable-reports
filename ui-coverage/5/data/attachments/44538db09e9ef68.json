@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "url": "https://www.wlw-staging.de/.ory/kratos/self-service/registration?flow=bc9aba60-09b0-4867-899a-1a86bd23f732",
+  "durationMs": 591,
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.wlw-staging.de",
+    "Referer": "https://www.wlw-staging.de/en/supplier-registration",
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "csrf_token": "***",
+    "method": "password",
+    "traits.email": "test+17945210355723026@automation.com",
+    "password": "***",
+    "traits.profile_registration.given_name": "QA",
+    "traits.profile_registration.surname": "ApiTest",
+    "traits.profile_registration.salutation": "mr",
+    "traits.profile_registration.preferred_language": "en",
+    "traits.profile_registration.country_code": "DE",
+    "traits.profile_registration.phone": "+49 - 1701234567",
+    "traits.profile_registration.mobile": ""
+  }
+}

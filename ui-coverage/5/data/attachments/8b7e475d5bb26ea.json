@@ -1,0 +1,297 @@
+{
+  "status": 400,
+  "statusText": "Bad Request",
+  "durationMs": 170,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 22:03:48 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Cookie",
+    "x-envoy-upstream-service-time": "8",
+    "access-control-allow-origin": "https://www.wlw-staging.de"
+  },
+  "body": {
+    "id": "44263422-0ddc-4c41-adab-652747a1047b",
+    "organization_id": null,
+    "type": "browser",
+    "expires_at": "2026-11-13T00:03:48.630671Z",
+    "issued_at": "2026-11-12T22:03:48.630671Z",
+    "request_url": "https://www.wlw-staging.de/self-service/login/browser",
+    "ui": {
+      "action": "https://www.wlw-staging.de/.ory/kratos/self-service/login?flow=44263422-0ddc-4c41-adab-652747a1047b",
+      "method": "POST",
+      "nodes": [
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "alibaba",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010002,
+              "text": "Sign in with alibaba",
+              "type": "info",
+              "context": {
+                "provider": "alibaba",
+                "provider_id": "alibaba"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "apple",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010002,
+              "text": "Sign in with apple",
+              "type": "info",
+              "context": {
+                "provider": "apple",
+                "provider_id": "apple"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "google",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010002,
+              "text": "Sign in with google",
+              "type": "info",
+              "context": {
+                "provider": "google",
+                "provider_id": "google"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "internal",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010002,
+              "text": "Sign in with internal",
+              "type": "info",
+              "context": {
+                "provider": "internal",
+                "provider_id": "internal"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "csrf_token",
+            "type": "hidden",
+            "value": "yFoWFLKJf/SVtnBtSQMiLhO0PwWJR/Mx0wTqBm+5xEbtuKzd6/u6CpbbB1j18UZk/Bfhit/YBVHOnboND1DHdw==",
+            "required": true,
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "identifier",
+            "type": "text",
+            "value": "supplier.falcon@test.com",
+            "required": true,
+            "autocomplete": "username webauthn",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "E-Mail",
+              "type": "info",
+              "context": {
+                "name": "traits.email",
+                "title": "E-Mail"
+              }
+            }
+          }
+        },
+        {
+          "type": "script",
+          "group": "webauthn",
+          "attributes": {
+            "src": "https://www.wlw-staging.de/.ory/kratos/.well-known/ory/webauthn.js",
+            "async": true,
+            "referrerpolicy": "no-referrer",
+            "crossorigin": "anonymous",
+            "integrity": "sha512-Dg0gN3fy+JoKxRp9Zda/4KYn3SlMdaKjs3fK5g6nDVQ/CVakD1dfMQyvRtJeiAtzSMEFviJbBLcVSrsBPGsFBA==",
+            "type": "text/javascript",
+            "id": "webauthn_script",
+            "nonce": "58bf3ed9-512b-4332-a2d4-1bb7138a3f45",
+            "node_type": "script"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "passkey",
+          "attributes": {
+            "name": "passkey_login_trigger",
+            "type": "button",
+            "value": "",
+            "disabled": false,
+            "onclick": "window.oryPasskeyLogin()",
+            "onclickTrigger": "oryPasskeyLogin",
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010021,
+              "text": "Sign in with passkey",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "passkey",
+          "attributes": {
+            "name": "passkey_login",
+            "type": "hidden",
+            "disabled": false,
+            "onload": "window.oryPasskeyLoginAutocompleteInit()",
+            "onloadTrigger": "oryPasskeyLoginAutocompleteInit",
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "passkey",
+          "attributes": {
+            "name": "passkey_challenge",
+            "type": "hidden",
+            "value": "{\"publicKey\":{\"challenge\":\"WqYZeXDH-R5IiMfuPNefRKvZJdfQSsBbu367wvxjZxY\",\"timeout\":300000,\"rpId\":\"www.wlw-staging.de\",\"userVerification\":\"preferred\"}}",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "method",
+            "type": "submit",
+            "value": "code",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010015,
+              "text": "Send sign in code",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "password",
+          "attributes": {
+            "name": "password",
+            "type": "password",
+            "required": true,
+            "autocomplete": "current-password",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [
+            {
+              "id": 4000002,
+              "text": "Property password is missing.",
+              "type": "error",
+              "context": {
+                "property": "password"
+              }
+            }
+          ],
+          "meta": {
+            "label": {
+              "id": 1070001,
+              "text": "Password",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "password",
+          "attributes": {
+            "name": "method",
+            "type": "submit",
+            "value": "password",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010022,
+              "text": "Sign in with password",
+              "type": "info"
+            }
+          }
+        }
+      ]
+    },
+    "created_at": "2026-11-12T22:03:48.634385Z",
+    "updated_at": "2026-11-12T22:03:48.634385Z",
+    "refresh": false,
+    "requested_aal": "aal1",
+    "state": "choose_method"
+  }
+}
