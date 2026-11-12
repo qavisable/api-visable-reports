@@ -1,0 +1,24 @@
+httpStatus=200
+responseTimeMs=71
+responseSize=103
+headers=
+Date: Thu, 12 Nov 2026 02:19:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+
+body=
+{"email":"test@mail.de","flow":"64add2b2-2964-41f9-a567-66ab6c43ae8c","result":"VERIFICATION_REQUIRED"}
