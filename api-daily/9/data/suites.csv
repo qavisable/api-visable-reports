@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 12 04:53:09 UTC 2026","Thu Nov 12 04:53:12 UTC 2026","3199","UG","Functional Tests","","","","health reports the service and database as UP",""
+"passed","Thu Nov 12 04:53:15 UTC 2026","Thu Nov 12 04:53:17 UTC 2026","1855","Connection","Endpoint Tests","","","","supplier can sign in via Kratos API",""
+"passed","Thu Nov 12 04:53:12 UTC 2026","Thu Nov 12 04:53:14 UTC 2026","1831","Connection","Endpoint Tests","","","","supplier can sign in via Kratos API",""
+"passed","Thu Nov 12 04:53:14 UTC 2026","Thu Nov 12 04:53:15 UTC 2026","808","UG","Functional Tests","","","","health reports the service and database as UP",""
