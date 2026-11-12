@@ -1,0 +1,513 @@
+Failed to restore BUYER_* preferred language: ExpectError: expect(locator).toBeDisabled() failed
+
+Locator: locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')
+Expected: disabled
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeDisabled" locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn') with timeout 60000ms
+  - waiting for locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')
+
+    at MyAccountPage.clickLanguageSave (/home/runner/work/Platform-Tests/Platform-Tests/ui/pages/user-account/my-account.page.ts:145:24)
+    at restorePreferredLanguage (/home/runner/work/Platform-Tests/Platform-Tests/ui/tests/user-account/my-account-language-persist.spec.ts:61:9)
+    at /home/runner/work/Platform-Tests/Platform-Tests/ui/tests/user-account/my-account-language-persist.spec.ts:32:7 {
+  matcherResult: {
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeDisabled\x1B[2m(\x1B[22m\x1B[2m)\x1B[22m failed\n' +
+      '\n' +
+      `Locator: locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')\n` +
+      'Expected: disabled\n' +
+      'Timeout: 60000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      `\x1B[2m  - Expect "toBeDisabled" locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn') with timeout 60000ms\x1B[22m\n` +
+      `\x1B[2m  - waiting for locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')\x1B[22m\n`,
+    pass: false,
+    actual: undefined,
+    name: 'toBeDisabled',
+    expected: 'disabled',
+    log: [
+      `  - Expect "toBeDisabled" locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn') with timeout 60000ms`,
+      `  - waiting for locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')`
+    ],
+    timeout: 60000,
+    ariaSnapshot: '- banner:\n' +
+      '  - link "visable":\n' +
+      '    - /url: /de/user-frontend/settings\n' +
+      '    - img "visable"\n' +
+      '  - button "SF"\n' +
+      '  - button "DE"\n' +
+      '- heading "Mein Konto" [level=1]\n' +
+      '- paragraph: Verwalten Sie Ihre Datenschutz- und Sicherheitseinstellungen für die Dienste von Visable.\n' +
+      '- img "europages logo"\n' +
+      '- img "werliefertwas logo"\n' +
+      '- text: SF\n' +
+      '- textbox "Geben Sie Ihren Vornamen ein": Supplier\n' +
+      '- textbox "Geben Sie Ihren Nachnamen ein": Falcon\n' +
+      '- heading "Über mich" [level=2]\n' +
+      '- paragraph: Teilen Sie uns mehr über Ihre Rolle oder Ihren Jobtitel mit, damit wir die Marktplatzfunktion optimal auf Ihre Bedürfnisse anpassen können.\n' +
+      '- text: Anrede\n' +
+      '- button "Anrede":\n' +
+      '  - text: Wählen\n' +
+      '  - img "arrow-down"\n' +
+      '- text: Firmenname\n' +
+      '- textbox "Firmenname":\n' +
+      '  - /placeholder: Geben Sie den Namen Ihres Unternehmens ein\n' +
+      '  - text: Co-182979\n' +
+      '- text: Rolle oder Jobtitel\n' +
+      '- textbox "Rolle oder Jobtitel":\n' +
+      '  - /placeholder: Geben Sie Ihre Rolle oder Ihren Jobtitel ein\n' +
+      '  - text: Job-182979\n' +
+      '- text: Abteilung\n' +
+      '- textbox "Abteilung":\n' +
+      '  - /placeholder: Abteilung eingeben\n' +
+      '  - text: Dept-182979\n' +
+      '- button [disabled]\n' +
+      '- heading "Meine Unternehmen" [level=2]\n' +
+      '- link "WT WlW test company+1580162 wlw arrow":\n' +
+      '  - /url: /de/member-management/e9acccf3-9e87-4858-8714-2b0c56463823\n' +
+      '  - text: WT WlW test company+1580162\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "CHIRON Group SE CHIRON Group SE wlw ep arrow":\n' +
+      '  - /url: /de/member-management/00505682-f25b-1ee9-bd91-d257bd2197fb\n' +
+      '  - img "CHIRON Group SE"\n' +
+      '  - text: CHIRON Group SE\n' +
+      '  - img "wlw"\n' +
+      '  - img "ep"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+5176504 wlw arrow":\n' +
+      '  - /url: /de/member-management/01b8af5c-aa39-46c1-a96e-91c0dd90b405\n' +
+      '  - text: WT WlW test company+5176504\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "ET EP test company+6789063 ep arrow":\n' +
+      '  - /url: /de/member-management/0ae7d4ed-40ef-4914-9f67-c1d25bd6ee81\n' +
+      '  - text: ET EP test company+6789063\n' +
+      '  - img "ep"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+201746 wlw arrow":\n' +
+      '  - /url: /de/member-management/194a9171-0e4a-4375-a421-ffe429ccd584\n' +
+      '  - text: WT WlW test company+201746\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "Quality Assurance @ Visable Quality Assurance @ Visable wlw ep arrow":\n' +
+      '  - /url: /de/member-management/1acad524-bb62-4d4d-bb81-e8ecb1b7f254\n' +
+      '  - img "Quality Assurance @ Visable"\n' +
+      '  - text: Quality Assurance @ Visable\n' +
+      '  - img "wlw"\n' +
+      '  - img "ep"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+4318808 wlw arrow":\n' +
+      '  - /url: /de/member-management/1c93bd3d-c4b1-4202-9905-03c2d3b6bb42\n' +
+      '  - text: WT WlW test company+4318808\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+3522425 wlw arrow":\n' +
+      '  - /url: /de/member-management/2337b818-75a2-4a85-86d8-d808a96a4f98\n' +
+      '  - text: WT WlW test company+3522425\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+7552547 wlw arrow":\n' +
+      '  - /url: /de/member-management/38987a99-16d9-40be-9021-8235eb74a6f2\n' +
+      '  - text: WT WlW test company+7552547\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+2600433 wlw arrow":\n' +
+      '  - /url: /de/member-management/4b7c3db4-a7be-4532-97e2-402a40e1d389\n' +
+      '  - text: WT WlW test company+2600433\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+993193 wlw arrow":\n' +
+      '  - /url: /de/member-management/513fd2ed-2e2d-4b7e-a153-a40356e47038\n' +
+      '  - text: WT WlW test company+993193\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+3094036 wlw arrow":\n' +
+      '  - /url: /de/member-management/5f3d20f8-710a-4285-a8b8-74e49a1ea8b3\n' +
+      '  - text: WT WlW test company+3094036\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+5171803 wlw arrow":\n' +
+      '  - /url: /de/member-management/7bf0808c-453c-46f2-8ff4-e626fc767ec7\n' +
+      '  - text: WT WlW test company+5171803\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+1298146 wlw arrow":\n' +
+      '  - /url: /de/member-management/82025e3f-1d32-40da-941e-7012ca773dc8\n' +
+      '  - text: WT WlW test company+1298146\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WlW test company+6975438 WlW test company+6975438 wlw arrow":\n' +
+      '  - /url: /de/member-management/822a0ff1-7829-4554-8b8a-4770e7b78845\n' +
+      '  - img "WlW test company+6975438"\n' +
+      '  - text: WlW test company+6975438\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+4522447 wlw arrow":\n' +
+      '  - /url: /de/member-management/86b55f19-f94a-4191-b6b2-6ea4847972e0\n' +
+      '  - text: WT WlW test company+4522447\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+3085938 wlw arrow":\n' +
+      '  - /url: /de/member-management/a5b44b40-92c5-44fc-b3a0-ea953f330470\n' +
+      '  - text: WT WlW test company+3085938\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+432550 wlw arrow":\n' +
+      '  - /url: /de/member-management/af965fa8-ee33-4b12-b35c-fa9a2874313d\n' +
+      '  - text: WT WlW test company+432550\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+9086735 wlw arrow":\n' +
+      '  - /url: /de/member-management/b85b8271-78b7-4d41-9ce2-37767d1a64c7\n' +
+      '  - text: WT WlW test company+9086735\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+8545078 wlw arrow":\n' +
+      '  - /url: /de/member-management/bff2dd77-80be-4dd2-a188-0c455cf6018b\n' +
+      '  - text: WT WlW test company+8545078\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+3833920 wlw arrow":\n' +
+      '  - /url: /de/member-management/c2a2e5f0-3e3c-44cf-b7b7-443f05c47219\n' +
+      '  - text: WT WlW test company+3833920\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "ET EP test company+9541266 ep arrow":\n' +
+      '  - /url: /de/member-management/e7adf4c9-1cf5-44e3-bfc3-ed57fd289bc6\n' +
+      '  - text: ET EP test company+9541266\n' +
+      '  - img "ep"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+38887 wlw arrow":\n' +
+      '  - /url: /de/member-management/eb59dc25-412b-4772-af22-6307c935deb9\n' +
+      '  - text: WT WlW test company+38887\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+909842 wlw arrow":\n' +
+      '  - /url: /de/member-management/ed907314-7d38-41ea-baa0-17c4b99e2176\n' +
+      '  - text: WT WlW test company+909842\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "WT WlW test company+2310340 wlw arrow":\n' +
+      '  - /url: /de/member-management/295e265c-427d-4606-b114-005332acbde6\n' +
+      '  - text: WT WlW test company+2310340\n' +
+      '  - img "wlw"\n' +
+      '  - img "arrow"\n' +
+      '- link "ET EP test company+1817636 ep arrow":\n' +
+      '  - /url: /de/member-management/d53e6b51-00cd-431e-9050-4342247a365b\n' +
+      '  - text: ET EP test company+1817636\n' +
+      '  - img "ep"\n' +
+      '  - img "arrow"\n' +
+      '- text: Um Mitglied eines Unternehmens zu werden, kontaktieren Sie bitte unseren Kundenservice unter\n' +
+      '- link "info@wlw.com":\n' +
+      '  - /url: mailto:info@wlw.com\n' +
+      "- text: . Erstellen Sie Ihr Firmenprofil, um auf 'Wer liefert was (wlw)' gelistet zu werden. Kostenlos\n" +
+      '- link "Firma eintragen":\n' +
+      '  - /url: /de/supplier-registration\n' +
+      '- heading "Sprache" [level=2]\n' +
+      '- text: Meine bevorzugte Sprache\n' +
+      '- button "English arrow-down":\n' +
+      '  - text: English\n' +
+      '  - img "arrow-down"\n' +
+      '- paragraph: Sie erhalten Kommunikations- und Marketing-E-Mails in Ihrer bevorzugten Sprache.\n' +
+      '- heading "Kontoinformationen" [level=2]\n' +
+      '- paragraph: Aus technischen Gründen ist eine Änderung der E-Mail-Adresse nicht möglich.\n' +
+      '- text: E-Mail-Adresse\n' +
+      '- textbox "E-Mail-Adresse" [disabled]:\n' +
+      '  - /placeholder: name@firma.com\n' +
+      '  - text: supplier.falcon@test.com\n' +
+      '- heading "Sicherheit" [level=2]\n' +
+      '- text: Passworteinstellungen\n' +
+      '- link "Passwort zurücksetzen":\n' +
+      '  - /url: /de/user-frontend/password/edit?return_to=%2Fde%2Fuser-frontend%2Fsettings\n' +
+      '- heading "Zugriffstoken" [level=3]\n' +
+      '- paragraph: Token ermöglichen externen Systemen den Zugriff auf Ihr Konto.\n' +
+      '- paragraph: Sie haben keine externen Anwendungen autorisiert.\n' +
+      '- button "Dieses Konto löschen"\n' +
+      '- img "Visable logo"\n' +
+      '- contentinfo:\n' +
+      '  - img\n' +
+      '  - link "Allgemeinen Geschäftsbedingungen":\n' +
+      '    - /url: /de/unternehmen/rechtliche-hinweise/agb\n' +
+      '  - link "Allgemeine Bedingungen für die Nutzung":\n' +
+      '    - /url: /de/unternehmen/rechtliche-hinweise/nutzungsbedingungen\n' +
+      '  - link "Datenschutzbestimmungen":\n' +
+      '    - /url: /de/unternehmen/rechtliche-hinweise/datenschutz\n' +
+      '  - link "Impressum":\n' +
+      '    - /url: /de/unternehmen/rechtliche-hinweise/impressum\n' +
+      '- img "stop-sign"\n' +
+      '- text: Es ist ein Fehler aufgetreten Das Konto, das Sie bearbeiten, ist wahrscheinlich veraltet.\n' +
+      '- button:\n' +
+      '  - img\n' +
+      '- iframe'
+  },
+  [Symbol(step)]: {
+    category: 'expect',
+    title: 'Expect "toBeDisabled"',
+    subtitle: `locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')`,
+    location: {
+      file: '/home/runner/work/Platform-Tests/Platform-Tests/ui/pages/user-account/my-account.page.ts',
+      line: 145,
+      column: 24,
+      function: 'MyAccountPage.clickLanguageSave'
+    },
+    params: {
+      locator: `locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')`,
+      expected: [Object]
+    },
+    stepId: 'expect@112',
+    group: undefined,
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@112',
+      _title: 'Expect "toBeDisabled"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1794468772411,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeDisabled\x1B[2m(\x1B[22m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        `Locator: locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')\n` +
+        'Expected: disabled\n' +
+        'Timeout: 60000ms\n' +
+        'Error: element(s) not found\n' +
+        '\n' +
+        'Call log:\n' +
+        `\x1B[2m  - Expect "toBeDisabled" locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn') with timeout 60000ms\x1B[22m\n` +
+        `\x1B[2m  - waiting for locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')\x1B[22m\n`,
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeDisabled\x1B[2m(\x1B[22m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        `Locator: locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')\n` +
+        'Expected: disabled\n' +
+        'Timeout: 60000ms\n' +
+        'Error: element(s) not found\n' +
+        '\n' +
+        'Call log:\n' +
+        `\x1B[2m  - Expect "toBeDisabled" locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn') with timeout 60000ms\x1B[22m\n` +
+        `\x1B[2m  - waiting for locator('h2').filter({ hasText: /Language|Sprache/ }).locator('xpath=ancestor::div[contains(@class,"bg-white")][1]').locator('button.btn')\x1B[22m\n` +
+        '\n' +
+        '    at MyAccountPage.clickLanguageSave (/home/runner/work/Platform-Tests/Platform-Tests/ui/pages/user-account/my-account.page.ts:145:24)\n' +
+        '    at restorePreferredLanguage (/home/runner/work/Platform-Tests/Platform-Tests/ui/tests/user-account/my-account-language-persist.spec.ts:61:9)\n' +
+        '    at /home/runner/work/Platform-Tests/Platform-Tests/ui/tests/user-account/my-account-language-persist.spec.ts:32:7',
+      cause: undefined,
+      errorContext: '- banner:\n' +
+        '  - link "visable":\n' +
+        '    - /url: /de/user-frontend/settings\n' +
+        '    - img "visable"\n' +
+        '  - button "SF"\n' +
+        '  - button "DE"\n' +
+        '- heading "Mein Konto" [level=1]\n' +
+        '- paragraph: Verwalten Sie Ihre Datenschutz- und Sicherheitseinstellungen für die Dienste von Visable.\n' +
+        '- img "europages logo"\n' +
+        '- img "werliefertwas logo"\n' +
+        '- text: SF\n' +
+        '- textbox "Geben Sie Ihren Vornamen ein": Supplier\n' +
+        '- textbox "Geben Sie Ihren Nachnamen ein": Falcon\n' +
+        '- heading "Über mich" [level=2]\n' +
+        '- paragraph: Teilen Sie uns mehr über Ihre Rolle oder Ihren Jobtitel mit, damit wir die Marktplatzfunktion optimal auf Ihre Bedürfnisse anpassen können.\n' +
+        '- text: Anrede\n' +
+        '- button "Anrede":\n' +
+        '  - text: Wählen\n' +
+        '  - img "arrow-down"\n' +
+        '- text: Firmenname\n' +
+        '- textbox "Firmenname":\n' +
+        '  - /placeholder: Geben Sie den Namen Ihres Unternehmens ein\n' +
+        '  - text: Co-182979\n' +
+        '- text: Rolle oder Jobtitel\n' +
+        '- textbox "Rolle oder Jobtitel":\n' +
+        '  - /placeholder: Geben Sie Ihre Rolle oder Ihren Jobtitel ein\n' +
+        '  - text: Job-182979\n' +
+        '- text: Abteilung\n' +
+        '- textbox "Abteilung":\n' +
+        '  - /placeholder: Abteilung eingeben\n' +
+        '  - text: Dept-182979\n' +
+        '- button [disabled]\n' +
+        '- heading "Meine Unternehmen" [level=2]\n' +
+        '- link "WT WlW test company+1580162 wlw arrow":\n' +
+        '  - /url: /de/member-management/e9acccf3-9e87-4858-8714-2b0c56463823\n' +
+        '  - text: WT WlW test company+1580162\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "CHIRON Group SE CHIRON Group SE wlw ep arrow":\n' +
+        '  - /url: /de/member-management/00505682-f25b-1ee9-bd91-d257bd2197fb\n' +
+        '  - img "CHIRON Group SE"\n' +
+        '  - text: CHIRON Group SE\n' +
+        '  - img "wlw"\n' +
+        '  - img "ep"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+5176504 wlw arrow":\n' +
+        '  - /url: /de/member-management/01b8af5c-aa39-46c1-a96e-91c0dd90b405\n' +
+        '  - text: WT WlW test company+5176504\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "ET EP test company+6789063 ep arrow":\n' +
+        '  - /url: /de/member-management/0ae7d4ed-40ef-4914-9f67-c1d25bd6ee81\n' +
+        '  - text: ET EP test company+6789063\n' +
+        '  - img "ep"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+201746 wlw arrow":\n' +
+        '  - /url: /de/member-management/194a9171-0e4a-4375-a421-ffe429ccd584\n' +
+        '  - text: WT WlW test company+201746\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "Quality Assurance @ Visable Quality Assurance @ Visable wlw ep arrow":\n' +
+        '  - /url: /de/member-management/1acad524-bb62-4d4d-bb81-e8ecb1b7f254\n' +
+        '  - img "Quality Assurance @ Visable"\n' +
+        '  - text: Quality Assurance @ Visable\n' +
+        '  - img "wlw"\n' +
+        '  - img "ep"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+4318808 wlw arrow":\n' +
+        '  - /url: /de/member-management/1c93bd3d-c4b1-4202-9905-03c2d3b6bb42\n' +
+        '  - text: WT WlW test company+4318808\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+3522425 wlw arrow":\n' +
+        '  - /url: /de/member-management/2337b818-75a2-4a85-86d8-d808a96a4f98\n' +
+        '  - text: WT WlW test company+3522425\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+7552547 wlw arrow":\n' +
+        '  - /url: /de/member-management/38987a99-16d9-40be-9021-8235eb74a6f2\n' +
+        '  - text: WT WlW test company+7552547\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+2600433 wlw arrow":\n' +
+        '  - /url: /de/member-management/4b7c3db4-a7be-4532-97e2-402a40e1d389\n' +
+        '  - text: WT WlW test company+2600433\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+993193 wlw arrow":\n' +
+        '  - /url: /de/member-management/513fd2ed-2e2d-4b7e-a153-a40356e47038\n' +
+        '  - text: WT WlW test company+993193\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+3094036 wlw arrow":\n' +
+        '  - /url: /de/member-management/5f3d20f8-710a-4285-a8b8-74e49a1ea8b3\n' +
+        '  - text: WT WlW test company+3094036\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+5171803 wlw arrow":\n' +
+        '  - /url: /de/member-management/7bf0808c-453c-46f2-8ff4-e626fc767ec7\n' +
+        '  - text: WT WlW test company+5171803\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+1298146 wlw arrow":\n' +
+        '  - /url: /de/member-management/82025e3f-1d32-40da-941e-7012ca773dc8\n' +
+        '  - text: WT WlW test company+1298146\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WlW test company+6975438 WlW test company+6975438 wlw arrow":\n' +
+        '  - /url: /de/member-management/822a0ff1-7829-4554-8b8a-4770e7b78845\n' +
+        '  - img "WlW test company+6975438"\n' +
+        '  - text: WlW test company+6975438\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+4522447 wlw arrow":\n' +
+        '  - /url: /de/member-management/86b55f19-f94a-4191-b6b2-6ea4847972e0\n' +
+        '  - text: WT WlW test company+4522447\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+3085938 wlw arrow":\n' +
+        '  - /url: /de/member-management/a5b44b40-92c5-44fc-b3a0-ea953f330470\n' +
+        '  - text: WT WlW test company+3085938\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+432550 wlw arrow":\n' +
+        '  - /url: /de/member-management/af965fa8-ee33-4b12-b35c-fa9a2874313d\n' +
+        '  - text: WT WlW test company+432550\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+9086735 wlw arrow":\n' +
+        '  - /url: /de/member-management/b85b8271-78b7-4d41-9ce2-37767d1a64c7\n' +
+        '  - text: WT WlW test company+9086735\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+8545078 wlw arrow":\n' +
+        '  - /url: /de/member-management/bff2dd77-80be-4dd2-a188-0c455cf6018b\n' +
+        '  - text: WT WlW test company+8545078\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+3833920 wlw arrow":\n' +
+        '  - /url: /de/member-management/c2a2e5f0-3e3c-44cf-b7b7-443f05c47219\n' +
+        '  - text: WT WlW test company+3833920\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "ET EP test company+9541266 ep arrow":\n' +
+        '  - /url: /de/member-management/e7adf4c9-1cf5-44e3-bfc3-ed57fd289bc6\n' +
+        '  - text: ET EP test company+9541266\n' +
+        '  - img "ep"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+38887 wlw arrow":\n' +
+        '  - /url: /de/member-management/eb59dc25-412b-4772-af22-6307c935deb9\n' +
+        '  - text: WT WlW test company+38887\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+909842 wlw arrow":\n' +
+        '  - /url: /de/member-management/ed907314-7d38-41ea-baa0-17c4b99e2176\n' +
+        '  - text: WT WlW test company+909842\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "WT WlW test company+2310340 wlw arrow":\n' +
+        '  - /url: /de/member-management/295e265c-427d-4606-b114-005332acbde6\n' +
+        '  - text: WT WlW test company+2310340\n' +
+        '  - img "wlw"\n' +
+        '  - img "arrow"\n' +
+        '- link "ET EP test company+1817636 ep arrow":\n' +
+        '  - /url: /de/member-management/d53e6b51-00cd-431e-9050-4342247a365b\n' +
+        '  - text: ET EP test company+1817636\n' +
+        '  - img "ep"\n' +
+        '  - img "arrow"\n' +
+        '- text: Um Mitglied eines Unternehmens zu werden, kontaktieren Sie bitte unseren Kundenservice unter\n' +
+        '- link "info@wlw.com":\n' +
+        '  - /url: mailto:info@wlw.com\n' +
+        "- text: . Erstellen Sie Ihr Firmenprofil, um auf 'Wer liefert was (wlw)' gelistet zu werden. Kostenlos\n" +
+        '- link "Firma eintragen":\n' +
+        '  - /url: /de/supplier-registration\n' +
+        '- heading "Sprache" [level=2]\n' +
+        '- text: Meine bevorzugte Sprache\n' +
+        '- button "English arrow-down":\n' +
+        '  - text: English\n' +
+        '  - img "arrow-down"\n' +
+        '- paragraph: Sie erhalten Kommunikations- und Marketing-E-Mails in Ihrer bevorzugten Sprache.\n' +
+        '- heading "Kontoinformationen" [level=2]\n' +
+        '- paragraph: Aus technischen Gründen ist eine Änderung der E-Mail-Adresse nicht möglich.\n' +
+        '- text: E-Mail-Adresse\n' +
+        '- textbox "E-Mail-Adresse" [disabled]:\n' +
+        '  - /placeholder: name@firma.com\n' +
+        '  - text: supplier.falcon@test.com\n' +
+        '- heading "Sicherheit" [level=2]\n' +
+        '- text: Passworteinstellungen\n' +
+        '- link "Passwort zurücksetzen":\n' +
+        '  - /url: /de/user-frontend/password/edit?return_to=%2Fde%2Fuser-frontend%2Fsettings\n' +
+        '- heading "Zugriffstoken" [level=3]\n' +
+        '- paragraph: Token ermöglichen externen Systemen den Zugriff auf Ihr Konto.\n' +
+        '- paragraph: Sie haben keine externen Anwendungen autorisiert.\n' +
+        '- button "Dieses Konto löschen"\n' +
+        '- img "Visable logo"\n' +
+        '- contentinfo:\n' +
+        '  - img\n' +
+        '  - link "Allgemeinen Geschäftsbedingungen":\n' +
+        '    - /url: /de/unternehmen/rechtliche-hinweise/agb\n' +
+        '  - link "Allgemeine Bedingungen für die Nutzung":\n' +
+        '    - /url: /de/unternehmen/rechtliche-hinweise/nutzungsbedingungen\n' +
+        '  - link "Datenschutzbestimmungen":\n' +
+        '    - /url: /de/unternehmen/rechtliche-hinweise/datenschutz\n' +
+        '  - link "Impressum":\n' +
+        '    - /url: /de/unternehmen/rechtliche-hinweise/impressum\n' +
+        '- img "stop-sign"\n' +
+        '- text: Es ist ein Fehler aufgetreten Das Konto, das Sie bearbeiten, ist wahrscheinlich veraltet.\n' +
+        '- button:\n' +
+        '  - img\n' +
+        '- iframe'
+    }
+  }
+}
