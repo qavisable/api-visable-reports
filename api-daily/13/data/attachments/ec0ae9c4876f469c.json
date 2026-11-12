@@ -1,0 +1,3320 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 1528,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 08:47:42 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "algBts": "",
+      "returnCount": 30,
+      "offerInfo": "productId=2097288#productId=2147050#productId=2113220#productId=2097779#productId=1518720#productId=2254374#productId=1998486#productId=2555482#productId=2238170#productId=2320343#productId=2320096#productId=2254565#productId=2068306#productId=2141187#productId=1554835#productId=2319378#productId=2264433#productId=2249033#productId=2138129#productId=2198682#productId=2220017#productId=1600556#productId=2197652#productId=2401101#productId=2173394#productId=2788715#productId=2913375#productId=2144632#productId=2902740#productId=1574409",
+      "translateTime": 0,
+      "pageSize": 30,
+      "paging": {
+        "total": 2794,
+        "totalPages": 94,
+        "pageSize": 30,
+        "currentPage": 1
+      },
+      "debugInfo": {},
+      "filters": {
+        "employeesCount": [
+          {
+            "name": "1-4",
+            "count": 889,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "20-49",
+            "count": 547,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "50-99",
+            "count": 356,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "5-9",
+            "count": 346,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "10-19",
+            "count": 253,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "100-199",
+            "count": 100,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "200-499",
+            "count": 60,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "1000+",
+            "count": 24,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "500-999",
+            "count": 11,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "location": {
+          "kind": "",
+          "link": false,
+          "isHiddenFilter": null,
+          "default_radiuses": [
+            "10km",
+            "25km",
+            "50km",
+            "75km",
+            "100km",
+            "125km",
+            "250km"
+          ]
+        },
+        "attributes": [
+          {
+            "code": "400000000",
+            "children": [
+              {
+                "code": "400000000-30000000001",
+                "name": "Steel",
+                "count": 476,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000000",
+                "name": "Metal",
+                "count": 470,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000003",
+                "name": "Aluminum",
+                "count": 375,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000002",
+                "name": "Stainless Steel",
+                "count": 374,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000008",
+                "name": "Brass",
+                "count": 236,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000007",
+                "name": "Copper",
+                "count": 219,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000012",
+                "name": "Plastic",
+                "count": 211,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000005",
+                "name": "Titanium",
+                "count": 148,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000010",
+                "name": "Casting Material",
+                "count": 110,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000009",
+                "name": "Precious Metal",
+                "count": 109,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000006",
+                "name": "Nickel",
+                "count": 97,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000004",
+                "name": "Magnesium",
+                "count": 63,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000013",
+                "name": "Composite Material",
+                "count": 62,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000002131",
+                "name": "Other",
+                "count": 23,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000011",
+                "name": "Wood",
+                "count": 23,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000016",
+                "name": "Ceramics",
+                "count": 16,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000014",
+                "name": "Graphite",
+                "count": 12,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000017",
+                "name": "Glass",
+                "count": 11,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000015",
+                "name": "Silicon",
+                "count": 11,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000018",
+                "name": "Stone",
+                "count": 10,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000003606",
+                "name": "Bronze",
+                "count": 6,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000750",
+                "name": "Foams",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001797",
+                "name": "Hard Metal (HM)",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001798",
+                "name": "Solid Carbide (VHM)",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001667",
+                "name": "Zinc",
+                "count": 3,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000749",
+                "name": "Thermoplastics",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000004160",
+                "name": "Sheet Metal",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000003615",
+                "name": "Iron",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001799",
+                "name": "High-Speed Steel (HSS)",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000382",
+                "name": "Carbon",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000004666",
+                "name": "Tool Steel",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000755",
+                "name": "Composite Materials",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000754",
+                "name": "Technical Plastics",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001800",
+                "name": "High-Alloy High-Speed Steel (HSS-E)",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001801",
+                "name": "Powder Metallurgical High-Speed Steel (HSS-E-PM)",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Material",
+            "count": 903,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000002",
+            "children": [
+              {
+                "code": "400000002-30000000024",
+                "name": "Individual Parts",
+                "count": 513,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000025",
+                "name": "Small Batches",
+                "count": 477,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000026",
+                "name": "Medium Batches",
+                "count": 394,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000023",
+                "name": "Prototypes",
+                "count": 353,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000027",
+                "name": "Large Batches",
+                "count": 313,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Batch Size",
+            "count": 739,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000003",
+            "children": [
+              {
+                "code": "400000003-30000000053",
+                "name": "Grinding",
+                "count": 230,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000051",
+                "name": "Deburring",
+                "count": 197,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000040",
+                "name": "Hardening",
+                "count": 196,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000054",
+                "name": "Polishing",
+                "count": 168,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000049",
+                "name": "Laser Engraving",
+                "count": 165,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000028",
+                "name": "Galvanization",
+                "count": 164,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000037",
+                "name": "Anodization",
+                "count": 159,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000048",
+                "name": "Engraving",
+                "count": 152,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000034",
+                "name": "Burnishing",
+                "count": 137,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000050",
+                "name": "Blasting",
+                "count": 136,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000029",
+                "name": "Chromium Plating Services",
+                "count": 131,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000045",
+                "name": "Painting",
+                "count": 131,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000046",
+                "name": "Powder Coating",
+                "count": 123,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000030",
+                "name": "Nickel Plating Services",
+                "count": 121,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000041",
+                "name": "Nitrating",
+                "count": 107,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000036",
+                "name": "Passivation",
+                "count": 98,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000052",
+                "name": "Vibratory Finishing",
+                "count": 97,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000038",
+                "name": "Chromating",
+                "count": 92,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000044",
+                "name": "Pickling",
+                "count": 81,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000043",
+                "name": "Nitrocarburizing",
+                "count": 77,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000035",
+                "name": "Phosphating",
+                "count": 74,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000055",
+                "name": "Electropolishing",
+                "count": 72,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000042",
+                "name": "Carbonitriding",
+                "count": 71,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000031",
+                "name": "Tin Plating Services",
+                "count": 69,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000047",
+                "name": "Printing",
+                "count": 63,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000032",
+                "name": "Copper Plating Services",
+                "count": 54,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000039",
+                "name": "Plastic Coating",
+                "count": 53,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000033",
+                "name": "Gold Plating Services",
+                "count": 49,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Further Treatment",
+            "count": 718,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000001",
+            "children": [
+              {
+                "code": "400000001-30000000021",
+                "name": "Medium",
+                "count": 495,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000000020",
+                "name": "Small",
+                "count": 409,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000000022",
+                "name": "Large",
+                "count": 319,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000000019",
+                "name": "Micro",
+                "count": 163,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Workpiece Dimensions",
+            "count": 612,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000083",
+            "children": [
+              {
+                "code": "400000083-30000000000",
+                "name": "Metal",
+                "count": 38,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000000011",
+                "name": "Wood",
+                "count": 15,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000000012",
+                "name": "Plastic",
+                "count": 8,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000006922",
+                "name": "Light Metal",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001794",
+                "name": "Hard Metal",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000002131",
+                "name": "Other",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000003067",
+                "name": "Medical Technology",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000002989",
+                "name": "Manufacturing",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000002887",
+                "name": "Automotive Industry",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001828",
+                "name": "Universal Drills",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000003946",
+                "name": "Food Industry",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000004230",
+                "name": "Building Construction",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000003066",
+                "name": "Mechanical Engineering",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000002893",
+                "name": "Consumer Goods",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001650",
+                "name": "Universal",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000003790",
+                "name": "Construction Industry",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001825",
+                "name": "Wood Drill",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001824",
+                "name": "Metal Drill",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000007448",
+                "name": "Vacuum Technology",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000063852",
+                "name": "Metal Construction",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Area of Application",
+            "count": 77,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "countries": [
+          {
+            "code": "DE",
+            "name": "Germany",
+            "count": 1777,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "TR",
+            "name": "Türkiye",
+            "count": 196,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "IT",
+            "name": "Italy",
+            "count": 104,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "CH",
+            "name": "Switzerland",
+            "count": 75,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "AT",
+            "name": "Austria",
+            "count": 75,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "FR",
+            "name": "France",
+            "count": 73,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "PL",
+            "name": "Poland",
+            "count": 66,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "ES",
+            "name": "Spain",
+            "count": 64,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "count": 41,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "CZ",
+            "name": "Czechia",
+            "count": 40,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "PT",
+            "name": "Portugal",
+            "count": 38,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "BG",
+            "name": "Bulgaria",
+            "count": 24,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "count": 23,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "BE",
+            "name": "Belgium",
+            "count": 17,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "SI",
+            "name": "Slovenia",
+            "count": 15,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "RO",
+            "name": "Romania",
+            "count": 15,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "LT",
+            "name": "Lithuania",
+            "count": 10,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "RS",
+            "name": "Serbia",
+            "count": 9,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "GR",
+            "name": "Greece",
+            "count": 7,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "UA",
+            "name": "Ukraine",
+            "count": 6,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "SK",
+            "name": "Slovakia",
+            "count": 6,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "HU",
+            "name": "Hungary",
+            "count": 6,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "SE",
+            "name": "Sweden",
+            "count": 4,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "MK",
+            "name": "North Macedonia",
+            "count": 4,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "HR",
+            "name": "Croatia",
+            "count": 4,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "BA",
+            "name": "Bosnia & Herzegovina",
+            "count": 4,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "LV",
+            "name": "Latvia",
+            "count": 3,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "FI",
+            "name": "Finland",
+            "count": 3,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "DK",
+            "name": "Denmark",
+            "count": 3,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "NO",
+            "name": "Norway",
+            "count": 2,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "EE",
+            "name": "Estonia",
+            "count": 2,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "MT",
+            "name": "Malta",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "MD",
+            "name": "Moldova",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "IE",
+            "name": "Ireland",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "AL",
+            "name": "Albania",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "categories": [
+          {
+            "code": "200136",
+            "name": "Machining",
+            "count": 1102,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200067",
+            "name": "CNC Machines",
+            "count": 176,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "601951",
+            "name": "Contract Grinding",
+            "count": 139,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "601601",
+            "name": "CNC Manufacturing",
+            "count": 103,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200068",
+            "name": "Milling Machines",
+            "count": 102,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200879",
+            "name": "Toolmaking",
+            "count": 79,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200160",
+            "name": "Metalworking",
+            "count": 75,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200069",
+            "name": "Lathes",
+            "count": 51,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200146",
+            "name": "Forming",
+            "count": 50,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "601597",
+            "name": "Contract Manufacturing",
+            "count": 48,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "300119",
+            "name": "Precision Parts",
+            "count": 45,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200141",
+            "name": "Cutting & Blanks",
+            "count": 39,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200153",
+            "name": "Laser Processing",
+            "count": 37,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200070",
+            "name": "Cutting Machines",
+            "count": 37,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "supplierType": [
+          {
+            "code": "production",
+            "name": "Manufacturer/Producer",
+            "count": 2407,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "customerSpecificManufacturing",
+            "name": "Customer-specific manufacturer",
+            "count": 1267,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "distribution",
+            "name": "Distributor",
+            "count": 1167,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "service",
+            "name": "Service provider",
+            "count": 1489,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "wholesaler",
+            "name": "Wholesaler",
+            "count": 165,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "audits": [
+          {
+            "name": "verified",
+            "count": 607,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "top_responder",
+            "count": 311,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "price": {
+          "priceDistributions": null,
+          "original_maxPrice": "10000001",
+          "minPrice": null,
+          "original_minPrice": "0",
+          "maxPrice": null,
+          "original_priceDistributions": null,
+          "newPriceDistributions": [
+            {
+              "minPrice": 0,
+              "count": 78,
+              "maxPrice": 5
+            },
+            {
+              "minPrice": 5,
+              "count": 73,
+              "maxPrice": 25
+            },
+            {
+              "minPrice": 25,
+              "count": 101,
+              "maxPrice": 100
+            },
+            {
+              "minPrice": 100,
+              "count": 85,
+              "maxPrice": 600
+            },
+            {
+              "minPrice": 600,
+              "count": 103,
+              "maxPrice": 0
+            }
+          ],
+          "validPriceCount": 416
+        },
+        "vcategoryList": null
+      },
+      "offerIds": "2097288#2147050#2113220#2097779#1518720#2254374#1998486#2555482#2238170#2320343#2320096#2254565#2068306#2141187#1554835#2319378#2264433#2249033#2138129#2198682#2220017#1600556#2197652#2401101#2173394#2788715#2913375#2144632#2902740#1574409",
+      "totalCount": 2794,
+      "products": [
+        {
+          "uuid": "1c604451-ca88-42e5-b2d0-1ca3bc3296e8",
+          "slug": "cnc-fraesen-fuer-hoechste-praezision-flexibel-und-effizient-in-der-bauteilbearbeitung-35967898",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f520d94b-4fac-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f520d94b-4fac-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f6719daa-4fac-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f78e296a-4fac-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/fac228a7-4fac-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f88bb1d8-4fac-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f9a98b6b-4fac-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC milling for the highest precision – Flexible and efficient in component processing",
+          "price": null,
+          "company": {
+            "uuid": "9fc3d612-7939-41ba-a682-7d5a043397b6",
+            "name": "BZT Broghammer Zerspanungs Technik",
+            "slug": "bzt-broghammer-zerspanungs-technik-22283315",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22283315",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/d5ead6fe-b6f3-4518-be77-a2f69c8bc62b.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "2022",
+            "icbu_company_id": "65894175",
+            "ep_slug": "",
+            "response_rate": "0.12"
+          },
+          "slug_id": "35967898",
+          "company_slug": "bzt-broghammer-zerspanungs-technik-22283315",
+          "company_uuid": "9fc3d612-7939-41ba-a682-7d5a043397b6",
+          "is_showcased": "1",
+          "description": "Our CNC milling machines offer excellent precision and flexibility for processing a wide variety of materials. With modern machines and advanced softw...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2097288,
+          "rank_score_info": "pG:4.0,rankS:6.856577352798462E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7657685279846191,group_identify:3.0,rel_group_variable:6.856577352798462E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision CNC milling for diverse materials",
+            "Accurate tolerances, superior surface quality",
+            "Ideal for custom and series production"
+          ]
+        },
+        {
+          "uuid": "49ae4621-2cd8-4e71-82e1-5a3068c794ce",
+          "slug": "cnc-milling-36005383",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/37112c42-cce0-11ef-822d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/37112c42-cce0-11ef-822d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "Cnc milling",
+          "price": null,
+          "company": {
+            "uuid": "cc8bfcec-b04f-3d10-9962-c1568ff493a4",
+            "name": "TEKNOMECCANICA",
+            "slug": "teknomeccanica-20198520",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "20198520",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/d3faf49c-0353-4468-8372-13fbfd6dd993.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "SEAC004991576-001",
+            "country_code": "IT",
+            "average_response_time": null,
+            "founding_year": "1980",
+            "icbu_company_id": "1394297",
+            "ep_slug": "TEKNOMECCANICA",
+            "response_rate": null
+          },
+          "slug_id": "36005383",
+          "company_slug": "teknomeccanica-20198520",
+          "company_uuid": "cc8bfcec-b04f-3d10-9962-c1568ff493a4",
+          "is_showcased": "1",
+          "description": "CNC milling is a cornerstone of our precision mechanical processing services at Teknomeccanica S.r.l. With over 30 years of experience, we specialize ...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2147050,
+          "rank_score_info": "pG:4.0,rankS:6.853867403781891E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7386690378189087,group_identify:3.0,rel_group_variable:6.853867403781891E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision CNC milling for industrial needs",
+            "Advanced 3-axis plus 1 machining",
+            "Over 30 years of milling expertise"
+          ]
+        },
+        {
+          "uuid": "d2066422-529b-4071-bc20-42b6754858c4",
+          "slug": "cnc-milling-and-cnc-turning-services-35980758",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0aedba0e-dafd-11ef-ac0e-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0aedba0e-dafd-11ef-ac0e-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fdb7c85b-d27e-11ef-acf8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/267248e5-b95c-11ef-a044-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0ed3b583-d27f-11ef-a937-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/3b5c8a04-d27f-11ef-ba4e-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0adef053-d27f-11ef-a818-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/ded2175f-d27e-11ef-a937-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/2041ab36-d27f-11ef-acf8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e70d848f-d27e-11ef-ba4e-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/05badea1-d27f-11ef-9927-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d9a8efd1-d27e-11ef-a818-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/2d48b4c5-d27f-11ef-ba4e-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e5187366-d27e-11ef-99c4-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/ed42dcdf-d27e-11ef-99c4-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f9482290-d27e-11ef-9927-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d24c4827-d27e-11ef-a134-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/1602a7ec-d27f-11ef-a88e-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/2a436eca-d27f-11ef-8794-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/02792795-d27f-11ef-a134-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e92bd74e-d27e-11ef-a818-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Milling and CNC Turning Services",
+          "price": null,
+          "company": {
+            "uuid": "f743fe69-dcb2-40b3-9624-bfd4f0a38500",
+            "name": "Vodenicharov and son Ltd.",
+            "slug": "vodenicharov-and-son-ltd-22280102",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22280102",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/265e8b58-c403-4fd4-a4c0-acd55b27f919.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "BG",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "2013",
+            "icbu_company_id": "65797241",
+            "ep_slug": "",
+            "response_rate": "0.65"
+          },
+          "slug_id": "35980758",
+          "company_slug": "vodenicharov-and-son-ltd-22280102",
+          "company_uuid": "f743fe69-dcb2-40b3-9624-bfd4f0a38500",
+          "is_showcased": "1",
+          "description": "CNC Milling and CNC  Turning at Vodenicharov & Son is a testament to precision engineering and technological excellence. With a wide range of state-of...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2113220,
+          "rank_score_info": "pG:4.0,rankS:6.756331233299255E8,human_group:3.0,cate_match:0.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7633073329925537,group_identify:3.0,rel_group_variable:6.756331233299255E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Multi-axis tech ensures precise detailing.",
+            "Handles carbon steel, aluminum, plastics.",
+            "Prototyping to series production."
+          ]
+        },
+        {
+          "uuid": "03df115e-0274-4f43-a21a-a8df3da98e87",
+          "slug": "cnc-router-wolf-2200-cnc-controlled-3-axis-machine-35975458",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/758a99e3-b6fd-11ef-b32a-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/758a99e3-b6fd-11ef-b32a-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/418f213c-b6fd-11ef-8493-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Router WOLF-2200 - CNC controlled 3-axis machine",
+          "price": null,
+          "company": {
+            "uuid": "322bd40b-01aa-3939-8333-1eadbd6780d5",
+            "name": "SAWINMAK PVC MACHINES",
+            "slug": "sawinmak-pvc-machines-20160085",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "20160085",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/1781b2bf-3e65-47e6-bd5a-94ccfb7b1d53.jpeg",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 2,
+            "ep_id": "00000004608007-420086001",
+            "country_code": "TR",
+            "average_response_time": null,
+            "founding_year": "1996",
+            "icbu_company_id": "2813802",
+            "ep_slug": "SAWINMAK-PVC-MACHINES",
+            "response_rate": null
+          },
+          "slug_id": "35975458",
+          "company_slug": "sawinmak-pvc-machines-20160085",
+          "company_uuid": "322bd40b-01aa-3939-8333-1eadbd6780d5",
+          "is_showcased": "1",
+          "description": "The WOLF-2200 CNC Router is a state-of-the-art machine designed for precision routing tasks in PVC and aluminum joinery. This machine is engineered to...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2097779,
+          "rank_score_info": "pG:4.0,rankS:6.45934312752533E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7934262752532959,group_identify:3.0,rel_group_variable:6.45934312752533E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision routing for PVC, aluminum",
+            "Energy-efficient, reduces operational costs",
+            "Handles complex tasks, boosts efficiency"
+          ]
+        },
+        {
+          "uuid": "4a10c883-31ff-5c15-b8a9-cd54b1709e32",
+          "slug": "maquinacao-cnc-de-precisao-em-portugal-para-componentes-tecnicos-35494985",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c630861d-58e5-11f0-be0c-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c630861d-58e5-11f0-be0c-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/cc7572dd-58e5-11f0-b704-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d4b7f21d-58e5-11f0-ba20-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d0a9a8c9-58e5-11f0-8cfd-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "Precision CNC Machining in Portugal for Technical Components",
+          "price": {
+            "currency": "EUR",
+            "min": 1,
+            "max": 100000
+          },
+          "company": {
+            "uuid": "da3a119e-0b28-3094-bc8d-d9fa6f84230d",
+            "name": "RPJM SOLUTIONS",
+            "slug": "rpjm-solutions-22167469",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22167469",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2e507ee9-bc3a-4867-b2f7-e97e4865a66d.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "00000005432419-770350001",
+            "country_code": "PT",
+            "average_response_time": "less_than_24h",
+            "founding_year": "2018",
+            "icbu_company_id": "1475286",
+            "ep_slug": "RPJM-SOLUTIONS",
+            "response_rate": "0.10"
+          },
+          "slug_id": "35494985",
+          "company_slug": "rpjm-solutions-22167469",
+          "company_uuid": "da3a119e-0b28-3094-bc8d-d9fa6f84230d",
+          "is_showcased": "1",
+          "description": "RPJM Solutions 4.0 specializes in CNC machining of precision parts for industries that require high technical performance, dimensional reliability, an...",
+          "minimum_order_quantity": {
+            "unit": "carton",
+            "value": "1"
+          },
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 1518720,
+          "rank_score_info": "pG:4.0,rankS:6.458580712593079E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7858021259307861,group_identify:3.0,rel_group_variable:6.458580712593079E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "CNC machining for complex geometries",
+            "Tight tolerances down to ±0.01 mm",
+            "Technical support and DFM analysis"
+          ]
+        },
+        {
+          "uuid": "406477f0-1f81-436b-9972-f56b5b8e5e77",
+          "slug": "lavorazioni-meccaniche-cnc-precisione-efficienza-e-qualita-made-in-italy-36098639",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0442f385-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0442f385-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/04f726f0-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/059e5f7f-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/065608c4-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/06efb033-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/078d025a-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/083ee959-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/08ee41a8-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/09af2da4-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0a409eba-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0abf4311-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0b6fb181-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Machining – Precision, Efficiency, and Quality Made in Italy",
+          "price": null,
+          "company": {
+            "uuid": "60c6f3f9-e165-43d9-a3bb-140d5a45588d",
+            "name": "MEC.P SRL",
+            "slug": "mecp-srl-22295693",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22295693",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/bfa0beb7-fa59-4b7b-b145-513ce5132cb7.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "IT",
+            "average_response_time": null,
+            "founding_year": "2020",
+            "icbu_company_id": "84525317",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36098639",
+          "company_slug": "mecp-srl-22295693",
+          "company_uuid": "60c6f3f9-e165-43d9-a3bb-140d5a45588d",
+          "is_showcased": "1",
+          "description": "CNC machining offers unparalleled precision and quality in the mechanical manufacturing sector. By utilizing lathes and CNC machining centers, we are ...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2254374,
+          "rank_score_info": "pG:4.0,rankS:6.458432404315948E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7843190431594849,group_identify:3.0,rel_group_variable:6.458432404315948E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Unmatched precision in complex parts",
+            "Custom solutions tailored to specs",
+            "Advanced tech ensures top reliability"
+          ]
+        },
+        {
+          "uuid": "cbe9ba2f-d45d-4ab4-a7a9-8757476cda43",
+          "slug": "5-axis-cnc-35881081",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/cb82dfd6-4fe9-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/cb82dfd6-4fe9-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "5-axis CNC",
+          "price": null,
+          "company": {
+            "uuid": "477e730b-2022-3f36-9ff2-250355fef4ea",
+            "name": "ASSIS.TER. TECH SOLUTIONS S.R.L.",
+            "slug": "assister-tech-solutions-srl-22275509",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22275509",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/b16952bf-8654-4c1a-b93f-3c18a80ae967.jpeg",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 5,
+            "ep_id": "00000005557712-001",
+            "country_code": "IT",
+            "average_response_time": null,
+            "founding_year": "2018",
+            "icbu_company_id": "44494666",
+            "ep_slug": "ASSISTER-TECH-SOLUTIONS-SRL",
+            "response_rate": null
+          },
+          "slug_id": "35881081",
+          "company_slug": "assister-tech-solutions-srl-22275509",
+          "company_uuid": "477e730b-2022-3f36-9ff2-250355fef4ea",
+          "is_showcased": "1",
+          "description": "The 5-axis CNC machine is an advanced machining device designed to perform milling, turning, and processing operations on complex parts with high prec...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 1998486,
+          "rank_score_info": "pG:4.0,rankS:6.45810016802597E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7809966802597046,group_identify:3.0,rel_group_variable:6.45810016802597E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Mills complex geometries with 5-axis precision",
+            "Handles multiple materials for diverse projects",
+            "Reduces setup time with advanced automation"
+          ]
+        },
+        {
+          "uuid": "c6d17ffa-5f26-40ee-a51c-a36bb8761f4f",
+          "slug": "producent-elementy-wycinane-na-cnc-frezowanie-drewna-cnc-frezowanie-sklejki-hurtowe-zamowienia-36378263",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/dceda143-fe7d-11ef-95db-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/dceda143-fe7d-11ef-95db-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d08e58ba-fe7d-11ef-9e93-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/cea1dcb4-fe7d-11ef-84e4-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0eb21530-fe7e-11ef-bbc8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d3932345-fe7d-11ef-afd8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/8d78db8c-fe85-11ef-9c6a-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/86eec059-fe85-11ef-a0ef-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/92d276fd-fe85-11ef-9b7d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d8e5e861-fe7d-11ef-8f42-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/78004b73-fe85-11ef-bc6e-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/800ddb7c-fe85-11ef-afd8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/766facaa-fe7d-11ef-bbc8-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "PRODUCER - CNC Cut Elements CNC Wood Milling CNC Plywood Milling - Wholesale Orders",
+          "price": null,
+          "company": {
+            "uuid": "9648cced-16c9-3a56-90ca-9d866935c6bf",
+            "name": "KRESPA",
+            "slug": "krespa-22172662",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22172662",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2e841a2f-8a4b-4785-bd18-a5c68ba8d5f0.gif",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "00000005437539-776670001",
+            "country_code": "PL",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "1951",
+            "icbu_company_id": "2543148",
+            "ep_slug": "KRESPA",
+            "response_rate": "0.69"
+          },
+          "slug_id": "36378263",
+          "company_slug": "krespa-22172662",
+          "company_uuid": "9648cced-16c9-3a56-90ca-9d866935c6bf",
+          "is_showcased": "1",
+          "description": "We offer professional CNC milling services for plywood, plexiglass, wood, and MDF. With modern milling centers and CNC plotters, we have the capabilit...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2555482,
+          "rank_score_info": "pG:4.0,rankS:6.457577971733093E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7757747173309326,group_identify:3.0,rel_group_variable:6.457577971733093E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision CNC milling for diverse materials",
+            "Handles complex projects with high accuracy",
+            "Versatile processing up to 3000x1500mm"
+          ]
+        },
+        {
+          "uuid": "be5fe81a-5045-4d0d-9bbb-7c74f6684b0e",
+          "slug": "mecanizado-cnc-de-alta-precision-fresado-y-torneado-36089169",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/420cdda5-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/420cdda5-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/43fd5769-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/434edcee-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/42a4eb83-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "High Precision CNC Machining | Milling and Turning",
+          "price": {
+            "currency": "EUR",
+            "min": 50,
+            "max": 10000
+          },
+          "company": {
+            "uuid": "3e985a07-15b0-4fa6-89dc-fee62c7511c5",
+            "name": "LUGER INDUSTRIAL, S. L.",
+            "slug": "luger-industrial-s-l-22283261",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22283261",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/c9ab517d-397a-4f57-aeb5-c515f7073a11.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "",
+            "country_code": "ES",
+            "average_response_time": null,
+            "founding_year": "1974",
+            "icbu_company_id": "65892226",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36089169",
+          "company_slug": "luger-industrial-s-l-22283261",
+          "company_uuid": "3e985a07-15b0-4fa6-89dc-fee62c7511c5",
+          "is_showcased": "1",
+          "description": "Machining – CNC Control: Precision and Reliability\n\nWe offer CNC machining services for medium and large-sized parts. We have a wide range of machinin...",
+          "minimum_order_quantity": {
+            "unit": "piece",
+            "value": "100"
+          },
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2238170,
+          "rank_score_info": "pG:4.0,rankS:6.457064245260239E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7706374526023865,group_identify:3.0,rel_group_variable:6.457064245260239E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "CNC machining for complex parts",
+            "Versatile solutions for automotive & aerospace",
+            "Millimeter accuracy in every process"
+          ]
+        },
+        {
+          "uuid": "1d33a3c2-26a9-4774-9b6b-82c02f5663b2",
+          "slug": "servicos-de-cnc-servicos-de-cnc-eixo-2-36128941",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/8abc89de-0597-11f0-9cac-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/8abc89de-0597-11f0-9cac-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Services - CNC Services Axis 2",
+          "price": null,
+          "company": {
+            "uuid": "da2f54dd-d959-46bf-965e-819632f476da",
+            "name": "António de Oliveira Ferreira, LDA",
+            "slug": "antonio-de-oliveira-ferreira-lda-22301269",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22301269",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2351372d-3650-4be1-92b9-6719f2847a94.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "",
+            "country_code": "PT",
+            "average_response_time": "more_than_72h",
+            "founding_year": "",
+            "icbu_company_id": "91446950",
+            "ep_slug": "",
+            "response_rate": "0.38"
+          },
+          "slug_id": "36128941",
+          "company_slug": "antonio-de-oliveira-ferreira-lda-22301269",
+          "company_uuid": "da2f54dd-d959-46bf-965e-819632f476da",
+          "is_showcased": "1",
+          "description": "Automated machining of complex parts with high precision, reducing waste and increasing productivity.",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2320343,
+          "rank_score_info": "pG:4.0,rankS:6.456295929468155E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7629542946815491,group_identify:3.0,rel_group_variable:6.456295929468155E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision machining for complex parts",
+            "Reduces material waste significantly",
+            "Boosts manufacturing productivity"
+          ]
+        },
+        {
+          "uuid": "abb3eb5a-486e-4d3f-9256-471acf60f35f",
+          "slug": "5-axis-cnc-machining-services-advanced-machining-for-complex-geometries-and-high-precision-36119798",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/be833a7c-161a-11f0-ad52-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/be833a7c-161a-11f0-ad52-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bd326c78-a2b3-11f0-8724-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bd32e285-a2b3-11f0-b133-0a58a9feac02.png"
+            }
+          ],
+          "language": "en",
+          "name": "5-Axis CNC Machining Services | Advanced Machining for Complex Geometries and High Precision",
+          "price": null,
+          "company": {
+            "uuid": "e8ae40ad-56da-3eee-b257-09180420fba7",
+            "name": "Yoncalik Dokum",
+            "slug": "yoncalik-dokum-22107939",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22107939",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/a43ed85a-4212-4896-9233-4d8082f57ebb.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 1,
+            "ep_id": "00000005366889-667812001",
+            "country_code": "TR",
+            "average_response_time": "more_than_72h",
+            "founding_year": "2009",
+            "icbu_company_id": "1481451",
+            "ep_slug": "AN-DIS-TICARET-LTD-STI",
+            "response_rate": "0.30"
+          },
+          "slug_id": "36119798",
+          "company_slug": "yoncalik-dokum-22107939",
+          "company_uuid": "e8ae40ad-56da-3eee-b257-09180420fba7",
+          "is_showcased": "1",
+          "description": "Our 5-axis CNC machining services are designed for the most complex geometries, providing unparalleled precision and flexibility. With a machining ran...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2320096,
+          "rank_score_info": "pG:4.0,rankS:6.456189797437668E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7618929743766785,group_identify:3.0,rel_group_variable:6.456189797437668E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Handles complex geometries with 5-axis precision",
+            "Superior surface finishes and tight tolerances",
+            "Ideal for automotive and aerospace components"
+          ]
+        },
+        {
+          "uuid": "5463e0ea-ecb5-49b1-b094-03579aea9194",
+          "slug": "fresatura-cnc-per-elementi-di-precisione-lavorazioni-ad-alta-tecnica-per-settori-industriali-avanzati-36101784",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4f88fbac-08da-11f0-8b99-0a58a9feac02.webp"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4f88fbac-08da-11f0-8b99-0a58a9feac02.webp"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Milling for Precision Components – High-Tech Machining for Advanced Industrial Sectors",
+          "price": null,
+          "company": {
+            "uuid": "c58c559b-7bfa-3c65-8405-5791e8591ced",
+            "name": "SM INOX S.R.L.",
+            "slug": "sm-inox-srl-22204960",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22204960",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/a3e53599-dda4-4cc1-8a83-3103fdcc2a35.gif",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 1,
+            "ep_id": "00000005469065-842105001",
+            "country_code": "IT",
+            "average_response_time": null,
+            "founding_year": "2012",
+            "icbu_company_id": "399722",
+            "ep_slug": "SM-INOX-SRL",
+            "response_rate": null
+          },
+          "slug_id": "36101784",
+          "company_slug": "sm-inox-srl-22204960",
+          "company_uuid": "c58c559b-7bfa-3c65-8405-5791e8591ced",
+          "is_showcased": "1",
+          "description": "CNC milling for precision elements is a fundamental process for the production of complex and high-precision mechanical components. At SM INOX SRL, we...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2254565,
+          "rank_score_info": "pG:4.0,rankS:6.455654243743896E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7565374374389648,group_identify:3.0,rel_group_variable:6.455654243743896E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision CNC milling for complex components",
+            "Ideal for stainless steel and aluminum machining",
+            "Custom solutions with advanced 3D capabilities"
+          ]
+        },
+        {
+          "uuid": "90f780e2-18c1-4ec5-8e53-119ba06777f7",
+          "slug": "cnc-turning-and-milling-35951388",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/5b26f55f-a8c5-11ef-8059-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/5b26f55f-a8c5-11ef-8059-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC turning and milling",
+          "price": null,
+          "company": {
+            "uuid": "2c9c50af-a5e3-3992-8b5f-d5ffb0805224",
+            "name": "TORNERIA SERRA",
+            "slug": "torneria-serra-20047025",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "20047025",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/7c1ca9bb-8d43-4bf5-ae0b-7feaf64833b0.png",
+            "emailExisting": true,
+            "distribution_area": "",
+            "certificates_count": 0,
+            "ep_id": "SEAC001027874-001",
+            "country_code": "IT",
+            "average_response_time": null,
+            "founding_year": "",
+            "icbu_company_id": "3212461",
+            "ep_slug": "TORNERIA-SERRA",
+            "response_rate": null
+          },
+          "slug_id": "35951388",
+          "company_slug": "torneria-serra-20047025",
+          "company_uuid": "2c9c50af-a5e3-3992-8b5f-d5ffb0805224",
+          "is_showcased": "1",
+          "description": "Swiss-type sliding head lathes, fixed head turning and milling machines and multi- spindle CNC lathes are particularly suitable for the production of ...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2068306,
+          "rank_score_info": "pG:4.0,rankS:6.455564199007034E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.755636990070343,group_identify:3.0,rel_group_variable:6.455564199007034E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision complex parts production",
+            "Adapts to various material properties",
+            "Flexible for small to medium series"
+          ]
+        },
+        {
+          "uuid": "9c43e820-0b99-41cd-9542-129569ccc085",
+          "slug": "cnc-machining-35995514",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f1a3bd71-4fd9-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f1a3bd71-4fd9-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f21bb1e5-4fd9-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Machining",
+          "price": null,
+          "company": {
+            "uuid": "0d45c027-4364-301f-9736-35b98910d08b",
+            "name": "YILDIZLAR KALIP PLAST KAUÇUK A.S.",
+            "slug": "yildizlar-kalip-plast-kaucuk-as-22246788",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22246788",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/aad065a0-741e-4bf3-b45a-83a06a254a25.jpeg",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 2,
+            "ep_id": "00000005521036-001",
+            "country_code": "TR",
+            "average_response_time": null,
+            "founding_year": "1978",
+            "icbu_company_id": "649877",
+            "ep_slug": "YILDIZLAR-KALIP-PLAST-KAUCUK-AS",
+            "response_rate": null
+          },
+          "slug_id": "35995514",
+          "company_slug": "yildizlar-kalip-plast-kaucuk-as-22246788",
+          "company_uuid": "0d45c027-4364-301f-9736-35b98910d08b",
+          "is_showcased": "1",
+          "description": "CNC Machining at YILDIZLAR KALIP is a highly precise and efficient service that transforms raw materials into finished products using computer-control...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2141187,
+          "rank_score_info": "pG:4.0,rankS:6.455238167560577E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7523766756057739,group_identify:3.0,rel_group_variable:6.455238167560577E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Handles complex geometries with tight tolerances",
+            "Versatile for automotive to defense industries",
+            "Offers anodizing, sandblasting, polishing finishes"
+          ]
+        },
+        {
+          "uuid": "5a2e20b7-66e9-5060-8058-f39a13bfdd20",
+          "slug": "precision-cnc-milling-custom-milled-components-35282159",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a6d62640-b8b1-11f0-93d8-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a6d62640-b8b1-11f0-93d8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/b4166cb9-b8b1-11f0-9a3e-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bbb1c9ab-b8b1-11f0-b54e-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "Precision CNC Milling - Custom Milled Components",
+          "price": {
+            "currency": "EUR",
+            "min": 1,
+            "max": null
+          },
+          "company": {
+            "uuid": "96686019-3de2-3185-937c-a0a7c1090cbf",
+            "name": "INOTECH MACHINING SRL",
+            "slug": "inotech-machining-srl-22262569",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22262569",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2b8dea28-e360-4167-9295-d6b47f2e559a.gif",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "00000005547553-001",
+            "country_code": "RO",
+            "average_response_time": "from_48h_to_72h",
+            "founding_year": "2003",
+            "icbu_company_id": "31122427",
+            "ep_slug": "INOTECH-MACHINING-SRL",
+            "response_rate": "0.22"
+          },
+          "slug_id": "35282159",
+          "company_slug": "inotech-machining-srl-22262569",
+          "company_uuid": "96686019-3de2-3185-937c-a0a7c1090cbf",
+          "is_showcased": "1",
+          "description": "We manufacture milled components in all dimensions and shapes: from large milled workpieces to small parts that require increased precision.\n\nWe have ...",
+          "minimum_order_quantity": {
+            "unit": "unit",
+            "value": "1"
+          },
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 1554835,
+          "rank_score_info": "pG:4.0,rankS:6.454835728919983E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7483522891998291,group_identify:3.0,rel_group_variable:6.454835728919983E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Custom milled parts for diverse industries",
+            "Precision milling from small to large dimensions",
+            "Versatile materials including steel and aluminum"
+          ]
+        },
+        {
+          "uuid": "277e7f42-6bb4-496e-9bea-c7f6e1fa12f4",
+          "slug": "servicos-de-cnc-servicos-de-cnc-eixo-3-36128942",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/fc5d84f8-4fb4-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/fc5d84f8-4fb4-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Services - CNC Services Axis 3",
+          "price": null,
+          "company": {
+            "uuid": "da2f54dd-d959-46bf-965e-819632f476da",
+            "name": "António de Oliveira Ferreira, LDA",
+            "slug": "antonio-de-oliveira-ferreira-lda-22301269",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22301269",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2351372d-3650-4be1-92b9-6719f2847a94.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "",
+            "country_code": "PT",
+            "average_response_time": "more_than_72h",
+            "founding_year": "",
+            "icbu_company_id": "91446950",
+            "ep_slug": "",
+            "response_rate": "0.38"
+          },
+          "slug_id": "36128942",
+          "company_slug": "antonio-de-oliveira-ferreira-lda-22301269",
+          "company_uuid": "da2f54dd-d959-46bf-965e-819632f476da",
+          "is_showcased": "1",
+          "description": "Automated machining of complex parts with high precision, reducing waste and increasing productivity.",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2319378,
+          "rank_score_info": "pG:4.0,rankS:6.45541965178299E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.754191517829895,group_identify:3.0,rel_group_variable:6.45541965178299E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision machining for complex parts",
+            "Reduces material waste significantly",
+            "Boosts manufacturing productivity"
+          ]
+        },
+        {
+          "uuid": "e79dabb9-c30e-4cf4-a367-d99657749e04",
+          "slug": "fraisage-et-tournage-cn-36106645",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/cf72b434-4dbb-11f0-8091-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/cf72b434-4dbb-11f0-8091-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Milling and Turning",
+          "price": null,
+          "company": {
+            "uuid": "ecfbe189-0e5b-3053-9f1a-8b686b4a7877",
+            "name": "VENDARGUES USINAGE",
+            "slug": "vendargues-usinage-21832226",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "21832226",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2effdbf0-5ee5-4a13-b1e0-60f18c53e164.png",
+            "emailExisting": true,
+            "distribution_area": "national",
+            "certificates_count": 1,
+            "ep_id": "FRA476379-00101",
+            "country_code": "FR",
+            "average_response_time": null,
+            "founding_year": "1991",
+            "icbu_company_id": "180609",
+            "ep_slug": "VENDARGUES-USINAGE",
+            "response_rate": null
+          },
+          "slug_id": "36106645",
+          "company_slug": "vendargues-usinage-21832226",
+          "company_uuid": "ecfbe189-0e5b-3053-9f1a-8b686b4a7877",
+          "is_showcased": "1",
+          "description": "We master CNC milling and turning techniques, allowing us to manufacture complex mechanical parts with micrometric precision. Our state-of-the-art CNC...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2264433,
+          "rank_score_info": "pG:4.0,rankS:6.454651377714157E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.746508777141571,group_identify:3.0,rel_group_variable:6.454651377714157E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Micrometric precision in complex parts",
+            "Rapid prototyping and small batch production",
+            "Tailored solutions for diverse materials"
+          ]
+        },
+        {
+          "uuid": "7444b4b6-b883-4a40-a35c-5305d870f510",
+          "slug": "fresatura-di-alta-precisione-con-fresatrice-cnc-sm-inox-36095394",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/8d1f4c62-03fb-11f0-8ebf-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/8d1f4c62-03fb-11f0-8ebf-0a58a9feac02.png"
+            }
+          ],
+          "language": "en",
+          "name": "High Precision Milling with CNC Milling Machine | SM INOX",
+          "price": null,
+          "company": {
+            "uuid": "c58c559b-7bfa-3c65-8405-5791e8591ced",
+            "name": "SM INOX S.R.L.",
+            "slug": "sm-inox-srl-22204960",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22204960",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/a3e53599-dda4-4cc1-8a83-3103fdcc2a35.gif",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 1,
+            "ep_id": "00000005469065-842105001",
+            "country_code": "IT",
+            "average_response_time": null,
+            "founding_year": "2012",
+            "icbu_company_id": "399722",
+            "ep_slug": "SM-INOX-SRL",
+            "response_rate": null
+          },
+          "slug_id": "36095394",
+          "company_slug": "sm-inox-srl-22204960",
+          "company_uuid": "c58c559b-7bfa-3c65-8405-5791e8591ced",
+          "is_showcased": "1",
+          "description": "SM INOX offers precision milling services using the Pentamac XM 1200, a highly efficient and versatile CNC milling machine. Ideal for industrial proce...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2249033,
+          "rank_score_info": "pG:4.0,rankS:6.455401543891907E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7540104389190674,group_identify:3.0,rel_group_variable:6.455401543891907E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision milling for complex parts",
+            "High-quality finishes with 10,000 RPM spindle",
+            "Large working area for big components"
+          ]
+        },
+        {
+          "uuid": "4d2a1350-cbaf-44fc-b487-2d535519bfc2",
+          "slug": "fraisage-cnc-35994345",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/2c88fdc1-c36e-11ef-92a0-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/2c88fdc1-c36e-11ef-92a0-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/342cc2a6-c36e-11ef-9483-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/39a30f60-c36e-11ef-9483-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/5d76e790-c36e-11ef-92a0-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/6365761b-c36e-11ef-92a0-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/47d63e7d-c36e-11ef-bd08-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4b8261ab-c36e-11ef-92a0-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/3eb5a3c8-c36e-11ef-92a0-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4325f8cd-c36e-11ef-bd08-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4e8ef5a0-c36e-11ef-9483-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/54a99069-c36e-11ef-92a0-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/58c64944-c36e-11ef-9483-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Milling",
+          "price": null,
+          "company": {
+            "uuid": "f5937fa6-5392-4619-b812-c072f33a37fe",
+            "name": "NETSOURCE",
+            "slug": "netsource-22285642",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22285642",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2824523e-468e-42fd-ad7b-927bc3b2054a.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "FR",
+            "average_response_time": null,
+            "founding_year": "2024",
+            "icbu_company_id": "70188223",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "35994345",
+          "company_slug": "netsource-22285642",
+          "company_uuid": "f5937fa6-5392-4619-b812-c072f33a37fe",
+          "is_showcased": "1",
+          "description": "Precision milling is essential for the manufacturing of complex and high-precision components. We offer precision machining services that meet the str...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2138129,
+          "rank_score_info": "pG:4.0,rankS:6.45429865530777E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7429815530776978,group_identify:3.0,rel_group_variable:6.45429865530777E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision machining for complex components",
+            "State-of-the-art equipment ensures accuracy",
+            "Tailored solutions for prototypes or series"
+          ]
+        },
+        {
+          "uuid": "b1848980-befb-4e10-ac0b-b50d5d7bb039",
+          "slug": "lavorazioni-cnc-per-meccanica-di-precisione-36065872",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/c71877b7-4fe0-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/c71877b7-4fe0-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC machining for precision mechanics",
+          "price": null,
+          "company": {
+            "uuid": "adc51c7d-21bb-4af1-83cd-904c0a77007c",
+            "name": "Pupillo Costruzioni Meccaniche Srl",
+            "slug": "pupillo-costruzioni-meccaniche-srl-22292167",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22292167",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/bb399e77-227f-4356-a7c0-3c22ddf1a38d.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "",
+            "country_code": "IT",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "2002",
+            "icbu_company_id": "82830914",
+            "ep_slug": "",
+            "response_rate": "0.83"
+          },
+          "slug_id": "36065872",
+          "company_slug": "pupillo-costruzioni-meccaniche-srl-22292167",
+          "company_uuid": "adc51c7d-21bb-4af1-83cd-904c0a77007c",
+          "is_showcased": "1",
+          "description": "Pupillo Costruzioni Meccaniche Srl is a company specialized in CNC machining for precision mechanics, offering highly qualified services for the produ...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2198682,
+          "rank_score_info": "pG:4.0,rankS:6.454167900598526E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.74167400598526,group_identify:3.0,rel_group_variable:6.454167900598526E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "High-precision CNC machining for complex parts",
+            "Fast production with tight tolerances",
+            "Serves automotive, aerospace, medical sectors"
+          ]
+        },
+        {
+          "uuid": "ab033597-70d0-48d4-8568-84d8783bf909",
+          "slug": "services-de-fraisage-cnc-36071168",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c03fbf75-f812-11ef-b3fe-0a58a9feac02.webp"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c03fbf75-f812-11ef-b3fe-0a58a9feac02.webp"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/905e3a20-ca0e-11f0-80ea-0a58a9feac02.webp"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/905f93b0-ca0e-11f0-b2e9-0a58a9feac02.webp"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Milling Services",
+          "price": null,
+          "company": {
+            "uuid": "ad26a8dd-6ad0-40df-88dd-3aa100c6aae7",
+            "name": "ΜΟΣΧΑΛΗΣ ΑΒΕΤΕ",
+            "slug": "--22291802",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22291802",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/52c32f3a-5621-441c-b51d-070d9939048d.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 3,
+            "ep_id": "",
+            "country_code": "GR",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "",
+            "icbu_company_id": "75285903",
+            "ep_slug": "",
+            "response_rate": "0.51"
+          },
+          "slug_id": "36071168",
+          "company_slug": "--22291802",
+          "company_uuid": "ad26a8dd-6ad0-40df-88dd-3aa100c6aae7",
+          "is_showcased": "1",
+          "description": "Our CNC machining services offer unmatched precision for a wide range of materials, including metals and plastics. By using state-of-the-art computer-...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2220017,
+          "rank_score_info": "pG:4.0,rankS:6.45310635975647E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7310585975646973,group_identify:3.0,rel_group_variable:6.45310635975647E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision machining for metals & plastics",
+            "Tight tolerances & superior surface finishes",
+            "Rapid production for prototypes & large-scale"
+          ]
+        },
+        {
+          "uuid": "6f0acb16-af34-59f3-8f06-99db2bada866",
+          "slug": "cnc-machining-services-35386090",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/772dfe60-3fa7-11f0-b120-0a58a9feac02.webp"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/772dfe60-3fa7-11f0-b120-0a58a9feac02.webp"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/052e43a7-6cae-11ef-b5ea-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/04d3a53b-6cae-11ef-b1db-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/04eefcb8-6cae-11ef-9b66-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0516c7b2-6cae-11ef-8324-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Machining Services",
+          "price": null,
+          "company": {
+            "uuid": "b4bd0b6b-6856-3e64-9395-3a226776568a",
+            "name": "NOVELTY STEEL",
+            "slug": "novelty-steel-22233772",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22233772",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/49961e16-a79a-487c-9132-3db274776080.gif",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "00000005499175-001",
+            "country_code": "TR",
+            "average_response_time": "less_than_24h",
+            "founding_year": "2004",
+            "icbu_company_id": "1708325",
+            "ep_slug": "NOVELTY-STEEL",
+            "response_rate": "0.88"
+          },
+          "slug_id": "35386090",
+          "company_slug": "novelty-steel-22233772",
+          "company_uuid": "b4bd0b6b-6856-3e64-9395-3a226776568a",
+          "is_showcased": "1",
+          "description": "CNC machining (Computer Numerical Control machining) is a manufacturing process in which pre-programmed computer software manages the movement of tool...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 1600556,
+          "rank_score_info": "pG:4.0,rankS:6.354447559631348E8,human_group:3.0,cate_match:0.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7444705963134766,group_identify:3.0,rel_group_variable:6.354447559631348E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Advanced quality control processes",
+            "Full-service machining from development",
+            "Vendor-managed inventory systems"
+          ]
+        },
+        {
+          "uuid": "b40db23f-e754-4f6c-b709-f25e99ae45b6",
+          "slug": "lavorazioni-di-precisione-con-fresatura-cnc-36065867",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/c450ceb6-4fe1-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/c450ceb6-4fe1-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "Precision machining with CNC milling",
+          "price": null,
+          "company": {
+            "uuid": "adc51c7d-21bb-4af1-83cd-904c0a77007c",
+            "name": "Pupillo Costruzioni Meccaniche Srl",
+            "slug": "pupillo-costruzioni-meccaniche-srl-22292167",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22292167",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/bb399e77-227f-4356-a7c0-3c22ddf1a38d.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "",
+            "country_code": "IT",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "2002",
+            "icbu_company_id": "82830914",
+            "ep_slug": "",
+            "response_rate": "0.83"
+          },
+          "slug_id": "36065867",
+          "company_slug": "pupillo-costruzioni-meccaniche-srl-22292167",
+          "company_uuid": "adc51c7d-21bb-4af1-83cd-904c0a77007c",
+          "is_showcased": "1",
+          "description": "Pupillo Costruzioni Meccaniche Srl offers precision machining services with CNC milling, ensuring high-quality results for every industrial need. By u...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2197652,
+          "rank_score_info": "pG:4.0,rankS:6.453469596422195E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7346909642219543,group_identify:3.0,rel_group_variable:6.453469596422195E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "CNC milling for complex components",
+            "Tight tolerance precision machining",
+            "Serves automotive and aerospace sectors"
+          ]
+        },
+        {
+          "uuid": "4e73a6ea-2979-448e-b3b3-7e8c8409026c",
+          "slug": "fabricacion-de-grandes-series-en-fresado-y-torneado-cnc-36248871",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f09a415c-3a3a-11f0-8c89-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f09a415c-3a3a-11f0-8c89-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/7c2e350c-534c-11f0-81fa-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "Manufacturing of large series in CNC Milling and Turning",
+          "price": null,
+          "company": {
+            "uuid": "53d6b073-73c4-4d48-8c61-5f16cf78469b",
+            "name": "MSJ Technology",
+            "slug": "msj-technology-22320286",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22320286",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/76a1bd74-8f8a-4be1-af06-9fcc0b6fa4af.jpeg",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "ES",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "",
+            "icbu_company_id": "125329391",
+            "ep_slug": "",
+            "response_rate": "0.07"
+          },
+          "slug_id": "36248871",
+          "company_slug": "msj-technology-22320286",
+          "company_uuid": "53d6b073-73c4-4d48-8c61-5f16cf78469b",
+          "is_showcased": "1",
+          "description": "Manufacturing of complex parts of over 1000 units, our CNC milling and turning centers are ready to operate 365 days a year and 24 hours a day.",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2401101,
+          "rank_score_info": "pG:3.0,rankS:4.85730454630188E8,human_group:-1.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7730450630187988,group_identify:2.0,rel_group_variable:4.85730454630188E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Handles complex parts efficiently",
+            "Operates 24/7 for high volume needs",
+            "Specializes in large series production"
+          ]
+        },
+        {
+          "uuid": "0b15d2ef-bccf-4d60-8c57-77925303188b",
+          "slug": "cnc-turning-and-cnc-milling-of-micro-and-small-parts-36041073",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f75506f7-4f9e-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f75506f7-4f9e-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0970d9c3-4f9f-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/07c45337-4f9f-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/05a50afe-4f9f-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/03e5e5dc-4f9f-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/fbff19e4-4f9e-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f9a075fc-4f9e-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/f8cbbba4-4f9e-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0c3797a0-4f9f-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0a98933f-4f9f-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/021a3a1c-4f9f-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/008292cd-4f9f-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/fdebf427-4f9e-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Turning and CNC Milling of Micro and Small Parts",
+          "price": null,
+          "company": {
+            "uuid": "f743fe69-dcb2-40b3-9624-bfd4f0a38500",
+            "name": "Vodenicharov and son Ltd.",
+            "slug": "vodenicharov-and-son-ltd-22280102",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22280102",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/265e8b58-c403-4fd4-a4c0-acd55b27f919.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "BG",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "2013",
+            "icbu_company_id": "65797241",
+            "ep_slug": "",
+            "response_rate": "0.65"
+          },
+          "slug_id": "36041073",
+          "company_slug": "vodenicharov-and-son-ltd-22280102",
+          "company_uuid": "f743fe69-dcb2-40b3-9624-bfd4f0a38500",
+          "is_showcased": "1",
+          "description": "Our CNC turning and CNC  milling services for micro and small parts provide exceptional precision, tight tolerances, and superior surface finishes, ma...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2173394,
+          "rank_score_info": "pG:3.0,rankS:4.85687336034111E8,human_group:-1.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7687332034111023,group_identify:2.0,rel_group_variable:4.85687336034111E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Ultra-precise micro turning for intricate parts",
+            "High-tolerance machining for critical uses",
+            "Custom designs and finishing options"
+          ]
+        },
+        {
+          "uuid": "a412445f-4a01-4ab6-8fd4-b7e7f343c57b",
+          "slug": "obrobka-cnc-dla-twoich-projektow-usugi-frezarskie-i-tokarskie-cnc-dostosowane-do-indywidualnych-klientow-36558186",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fca3f9ed-118e-11f1-9025-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fca3f9ed-118e-11f1-9025-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fcd0706c-118e-11f1-b165-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fce2041e-118e-11f1-ab5d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fcf5e414-118e-11f1-b990-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fcbd3584-118e-11f1-a3c7-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fd077c5b-118e-11f1-8892-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Machining for Your Projects / Custom CNC Milling and Turning Services",
+          "price": {
+            "currency": "EUR",
+            "min": 35,
+            "max": 55
+          },
+          "company": {
+            "uuid": "0148a5a5-1c6a-35c2-80eb-0b0d1d9cce99",
+            "name": "VIRT",
+            "slug": "virt-21231774",
+            "email": "",
+            "indexable": false,
+            "is_customer": false,
+            "company_id": "21231774",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/fa4c360a-a814-4405-8e31-73a93abdaad8.gif",
+            "emailExisting": true,
+            "distribution_area": "",
+            "certificates_count": 1,
+            "ep_id": "00000003942243-220651001",
+            "country_code": "PL",
+            "average_response_time": "less_than_24h",
+            "founding_year": "1998",
+            "icbu_company_id": "3471082",
+            "ep_slug": "VIRT",
+            "response_rate": "0.50"
+          },
+          "slug_id": "36558186",
+          "company_slug": "virt-21231774",
+          "company_uuid": "0148a5a5-1c6a-35c2-80eb-0b0d1d9cce99",
+          "is_showcased": "1",
+          "description": "VIRT offers precision CNC milling and turning services tailored to the individual requirements of clients. Utilizing modern DMG MORI machines and a te...",
+          "minimum_order_quantity": {
+            "unit": "hour",
+            "value": "8"
+          },
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2788715,
+          "rank_score_info": "pG:3.0,rankS:4.8559404224806213E8,human_group:-1.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7594038248062134,group_identify:2.0,rel_group_variable:4.8559404224806213E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Precision CNC milling & turning",
+            "Adherence to ISO, DIN standards",
+            "Rigorous inspection for reliability"
+          ]
+        },
+        {
+          "uuid": "0de48c56-65bc-4ebe-9a4a-2da0735e8de4",
+          "slug": "cnc-turning-services-with-se2200lc-high-precision-metal-turning-cnc-lathe-solutions-36663501",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/71264ed5-364b-11f1-a7cd-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/71264ed5-364b-11f1-a7cd-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/71bea5dc-364b-11f1-9e82-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/727c4f90-364b-11f1-9e82-0a58a9feac02.png"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Turning Services with SE2200LC – High Precision Metal Turning & CNC Lathe Solutions",
+          "price": null,
+          "company": {
+            "uuid": "ca76d1e0-5945-4a96-98eb-e15c6c24de24",
+            "name": "ADNAN DOGAN DEMIR CELIK MAMULLERI SAN TIC AS",
+            "slug": "adnan-dogan-demir-celik-mamulleri-san-tic-as-22375189",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "22375189",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/028d19c8-ea87-4b0e-9b82-454e4790dc28.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 3,
+            "ep_id": "",
+            "country_code": "TR",
+            "average_response_time": "less_than_24h",
+            "founding_year": "1985",
+            "icbu_company_id": "151785502",
+            "ep_slug": "",
+            "response_rate": "1.00"
+          },
+          "slug_id": "36663501",
+          "company_slug": "adnan-dogan-demir-celik-mamulleri-san-tic-as-22375189",
+          "company_uuid": "ca76d1e0-5945-4a96-98eb-e15c6c24de24",
+          "is_showcased": "1",
+          "description": "CNC turning is a high-precision machining process used to produce cylindrical and complex rotational parts with excellent accuracy and surface quality...",
+          "minimum_order_quantity": {
+            "unit": "unit",
+            "value": "1"
+          },
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2913375,
+          "rank_score_info": "pG:3.0,rankS:4.8547984690122986E8,human_group:-1.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7479842901229858,group_identify:2.0,rel_group_variable:4.8547984690122986E8",
+          "relevanceType": null,
+          "sell_points": [
+            "High-precision machining up to 3,500 rpm",
+            "Max turning diameter: 350 mm, length: 549 mm",
+            "12-tool turret for versatile operations"
+          ]
+        },
+        {
+          "uuid": "0479d599-9c2e-4e70-a3aa-5aefe628cf3b",
+          "slug": "third-party-cnc-milling-and-mechanical-machining-services-36012076",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/7c612e05-cf54-11ef-8f19-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/7c612e05-cf54-11ef-8f19-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "Third-Party CNC Milling and Mechanical Machining Services",
+          "price": null,
+          "company": {
+            "uuid": "7fe6bacd-3cda-3532-bd4a-5adb0f98fa7a",
+            "name": "OFFICINA MECCANICA FRIGERIO SRL",
+            "slug": "officina-meccanica-frigerio-srl-20047667",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "20047667",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/d511103c-e76f-46ce-bc7a-3c3ab1b0c360.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "SEAC000104661-001",
+            "country_code": "IT",
+            "average_response_time": null,
+            "founding_year": "1970",
+            "icbu_company_id": "3394030",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36012076",
+          "company_slug": "officina-meccanica-frigerio-srl-20047667",
+          "company_uuid": "7fe6bacd-3cda-3532-bd4a-5adb0f98fa7a",
+          "is_showcased": "0",
+          "description": "Officina Meccanica Frigerio (OMF) takes pride in delivering precision mechanical machining services with a customer-first approach. Specializing in th...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2144632,
+          "rank_score_info": "pG:3.0,rankS:4.774484233325043E8,human_group:-1.0,cate_match:1.0,text_match_en:1.0,showcased:0.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7448419332504272,group_identify:2.0,rel_group_variable:4.774484233325043E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Precision CNC milling services",
+            "ISO 9001:2015 certified quality",
+            "Custom solutions from design to delivery"
+          ]
+        },
+        {
+          "uuid": "77bd42d8-2a82-47cf-9fb4-c3e566c63078",
+          "slug": "s-discovery-de-cnc-barcenas-3d-printer-36658088",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c7ee98f8-34d0-11f1-a0bf-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c7ee98f8-34d0-11f1-a0bf-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "S-DISCOVERY DE CNC BÁRCENAS 3D Printer",
+          "price": null,
+          "company": {
+            "uuid": "ac002c51-9f3f-30f5-9f5a-8cdab32ae313",
+            "name": "INDUPLAST PLÁSTICOS DE INGENIERÍA",
+            "slug": "induplast-plasticos-de-ingenieria-22143810",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22143810",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/0d1f639a-9717-4050-a5f4-3368f2bcdf0c.gif",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "00000005408978-001",
+            "country_code": "ES",
+            "average_response_time": "less_than_24h",
+            "founding_year": "2004",
+            "icbu_company_id": "2228256",
+            "ep_slug": "INDUPLAST-PLASTICOS-DE-INGENIERIA",
+            "response_rate": "0.98"
+          },
+          "slug_id": "36658088",
+          "company_slug": "induplast-plasticos-de-ingenieria-22143810",
+          "company_uuid": "ac002c51-9f3f-30f5-9f5a-8cdab32ae313",
+          "is_showcased": "0",
+          "description": "S-DISCOVERY DE CNC BÁRCENAS is a large-format industrial FDM 3D printer engineered for demanding manufacturing environments. Compatible with engineeri...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 2902740,
+          "rank_score_info": "pG:3.0,rankS:4.77429819530777E8,human_group:-1.0,cate_match:1.0,text_match_en:1.0,showcased:0.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7429815530776978,group_identify:2.0,rel_group_variable:4.77429819530777E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Large 2500x1500x1000 mm build volume",
+            "Certified for aerospace, rail, energy use",
+            "XY 1-2 mm, Z 0.5 mm precision"
+          ]
+        },
+        {
+          "uuid": "63936f42-51b2-5855-bee8-c680fae73846",
+          "slug": "cnc-turning-staninless-steel-screw-shaft-cnc-turning-parts-35500943",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/ab5a2410-8c9c-11ef-a385-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/ab5a2410-8c9c-11ef-a385-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC turning staninless steel screw shaft - CNC Turning Parts",
+          "price": {
+            "currency": "EUR",
+            "min": 3,
+            "max": 30
+          },
+          "company": {
+            "uuid": "7667b1fe-fc92-3475-8328-52d372021d5f",
+            "name": "SHENZHEN HONGSUN PRECISION TECHNOLOGY CO., LTD",
+            "slug": "shenzhen-hongsun-precision-technology-co-ltd-22156342",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22156342",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/9e9e9559-1aae-4478-9d58-faf04220fc3d.gif",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "00000005420426-001",
+            "country_code": "CN",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "2017",
+            "icbu_company_id": "2012119",
+            "ep_slug": "SHENZHEN-HONGSUN-PRECISION-TECHNOLOGY-CO-LTD",
+            "response_rate": "0.63"
+          },
+          "slug_id": "35500943",
+          "company_slug": "shenzhen-hongsun-precision-technology-co-ltd-22156342",
+          "company_uuid": "7667b1fe-fc92-3475-8328-52d372021d5f",
+          "is_showcased": "0",
+          "description": "CNC turning staninless steel screw shaft - CNC Turning Parts\n\nMaterial:Stainless steel 304\nProcessing Type:CNC turning\nSurface treatment:Clean and deb...",
+          "minimum_order_quantity": {
+            "unit": "unit",
+            "value": "100"
+          },
+          "traceinfo_id": "33c1839195b74a089bce4a75ede98a60",
+          "space_type": "relevance",
+          "auction_id": 1574409,
+          "rank_score_info": "pG:3.0,rankS:4.774017475312271E8,human_group:-1.0,cate_match:1.0,text_match_en:1.0,showcased:0.0,newboost:0.0,is_verified:1.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7401743531227112,group_identify:2.0,rel_group_variable:4.774017475312271E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Precision CNC turning for exact specifications",
+            "Stainless steel 304 for durability",
+            "Clean surface treatment ensures quality"
+          ]
+        }
+      ],
+      "serviceLatency": "ha3_all_search:211,rank_service:123,qp:28,preprocess:0,ha3_summary:13,",
+      "pageIndex": 1,
+      "fxbCategoryId": 0,
+      "traceinfoId": "33c1839195b74a089bce4a75ede98a60",
+      "tppBuckets": "56648#0#487554#8_56648#13498#2584509#5_56648#14103#2587213#1_56648#14109#2587225#1_56648#13064#2577009#2_56648#14083#2587159#8_56648#13549#2585302#1",
+      "engineTime": 548,
+      "keyword": "cnc",
+      "newPriceFilter": "1",
+      "atmosphereTime": 0,
+      "cpvCategory": "601856",
+      "frontAbTestPrice": "",
+      "frontAbTestJsonString": "{\"frontAbTestShowMore\":\"1\"}",
+      "meta": {
+        "keywords": "cnc",
+        "metaKeywords": "cnc",
+        "title": "Europages Showroom: Discover 2794 cnc-Targeted Products for Efficient Purchasing",
+        "site": "europages.co.uk",
+        "description": "Explore a curated selection of 2794 products tailored to your cnc on Europages Showroom. Simplify your purchasing process with our cnc-driven product showcase, connecting you to top suppliers effortlessly.",
+        "canonicalUrl": "https://www.europages.co.uk/en/showroom/cnc",
+        "h1": "",
+        "alternates": [],
+        "index": false,
+        "follow": true
+      },
+      "internalLinks": [],
+      "relatedKeywords": [
+        {
+          "internalLinkUrl": "/companies/marketing-agencies-in-london-uk.html",
+          "internalLinkName": "marketing agencies in london uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/courier-companies-in-the-uk.html",
+          "internalLinkName": "courier companies in the uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/marketing-agencies-in-london.html",
+          "internalLinkName": "marketing agencies in london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/translation-agencies-in-uk.html",
+          "internalLinkName": "translation agencies in uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/wholesalers-uk.html",
+          "internalLinkName": "wholesalers uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/private-label-cosmetics.html",
+          "internalLinkName": "private label cosmetics",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/iphone-16-pro-max-price",
+          "internalLinkName": "iphone 16 pro max price",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/logistics-companies-in-london",
+          "internalLinkName": "logistics companies in london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/iphone-15-pro-price-in-uk",
+          "internalLinkName": "iphone 15 pro price in uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/wind",
+          "internalLinkName": "wind",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/playstation-5-price",
+          "internalLinkName": "playstation 5 price",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/prefabricated-houses.html",
+          "internalLinkName": "prefabricated houses",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/private-label.html",
+          "internalLinkName": "private label",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/best-cheap-printer",
+          "internalLinkName": "best cheap printer",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/refurbishment-contractors-london.html",
+          "internalLinkName": "refurbishment contractors london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/plastics-moulding.html",
+          "internalLinkName": "plastics moulding",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/sofa-manufacturers-in-the-uk.html",
+          "internalLinkName": "sofa manufacturers in the uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/insect-exterminators.html",
+          "internalLinkName": "insect exterminators",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/aluminium-sheeting.html",
+          "internalLinkName": "aluminium sheeting",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/adhesive-tape.html",
+          "internalLinkName": "adhesive tape",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/motor-oils.html",
+          "internalLinkName": "motor oils",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/engineering-companies-london.html",
+          "internalLinkName": "engineering companies london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/electronics-manufacturing-services",
+          "internalLinkName": "electronics manufacturing services",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/translation-agencies.html",
+          "internalLinkName": "translation agencies",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/fire-extinguishers.html",
+          "internalLinkName": "fire extinguishers",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/scaffolding.html",
+          "internalLinkName": "scaffolding",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/plastic-components.html",
+          "internalLinkName": "plastic components",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/suction-excavators.html",
+          "internalLinkName": "suction excavators",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/candle-wax-bulk",
+          "internalLinkName": "candle wax bulk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/industrial-waste-management.html",
+          "internalLinkName": "industrial waste management",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/commercial-vacuum-cleaner",
+          "internalLinkName": "commercial vacuum cleaner",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/seeking-distributor.html",
+          "internalLinkName": "seeking distributor",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/wooden-crates-and-boxes.html",
+          "internalLinkName": "wooden crates and boxes",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/fmcg.html",
+          "internalLinkName": "fmcg",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/audio-visual-equipment-professional.html",
+          "internalLinkName": "audio-visual equipment- professional",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/rubber-products.html",
+          "internalLinkName": "rubber products",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/rental-of-generators",
+          "internalLinkName": "Rental of Generators",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/clothing.html",
+          "internalLinkName": "clothing",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/air-filters.html",
+          "internalLinkName": "air filters",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/powders-in-sachets.html",
+          "internalLinkName": "powders in sachets",
+          "ahref": true
+        }
+      ],
+      "learnMoreDescriptionSimple": null,
+      "learnMoreDescriptionComplex": null,
+      "cache": false
+    }
+  }
+}

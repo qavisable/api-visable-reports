@@ -1,0 +1,18 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/showroom-cate/data?category=machine-tools-and-equipment-100014&platform=ep&site_code=EP&language=en",
+  "durationMs": 620,
+  "params": {
+    "category": "machine-tools-and-equipment-100014",
+    "platform": "ep",
+    "site_code": "EP",
+    "language": "en"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "Accept-Language": "en",
+    "X-Application-Id": "homepage-frontend",
+    "x-host": "www.europages-staging.de"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/get/keywordblacklists?site=europages.de",
+  "durationMs": 638,
+  "params": {
+    "site": "europages.de"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

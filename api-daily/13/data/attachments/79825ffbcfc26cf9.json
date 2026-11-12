@@ -1,0 +1,8 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/seodata/bs/all?language=de",
+  "durationMs": 670,
+  "params": {
+    "language": "de"
+  }
+}

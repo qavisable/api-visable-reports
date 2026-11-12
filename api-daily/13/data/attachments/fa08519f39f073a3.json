@@ -1,0 +1,770 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 620,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 08:47:36 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "bsSummaryList": [
+        {
+          "title": "Health",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/health.jpg",
+          "url": "/bs/health",
+          "subList": [
+            {
+              "name": "Biotechnologies",
+              "url": "/bs/health/biotechnologies"
+            },
+            {
+              "name": "Health Centres",
+              "url": "/bs/health/health-centres"
+            },
+            {
+              "name": "Medical Equipment",
+              "url": "/bs/health/medical-equipment"
+            },
+            {
+              "name": "Medical Services",
+              "url": "/bs/health/medical-services"
+            }
+          ]
+        },
+        {
+          "title": "Business Services",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/business-services.jpg",
+          "url": "/bs/business-services",
+          "subList": [
+            {
+              "name": "Administrative Services",
+              "url": "/bs/business-services/administrative-services"
+            },
+            {
+              "name": "Business Consultancy",
+              "url": "/bs/business-services/business-consultancy"
+            },
+            {
+              "name": "Cleaning",
+              "url": "/bs/business-services/cleaning"
+            },
+            {
+              "name": "Design  &  Research Offices",
+              "url": "/bs/business-services/design-research-offices"
+            },
+            {
+              "name": "Environment",
+              "url": "/bs/business-services/environment"
+            },
+            {
+              "name": "Maintenance  &  Repairs",
+              "url": "/bs/business-services/maintenance-repairs"
+            },
+            {
+              "name": "Packaging",
+              "url": "/bs/business-services/packaging"
+            },
+            {
+              "name": "Professional Bodies",
+              "url": "/bs/business-services/professional-bodies"
+            },
+            {
+              "name": "Property",
+              "url": "/bs/business-services/property"
+            },
+            {
+              "name": "Retail Outlets",
+              "url": "/bs/business-services/retail-outlets"
+            },
+            {
+              "name": "Security - Services",
+              "url": "/bs/business-services/security-services"
+            },
+            {
+              "name": "Storage",
+              "url": "/bs/business-services/storage"
+            },
+            {
+              "name": "Training",
+              "url": "/bs/business-services/training"
+            },
+            {
+              "name": "Translating  &  Interpreting",
+              "url": "/bs/business-services/translating-interpreting"
+            }
+          ]
+        },
+        {
+          "title": "Banking, Finance  &  Insurance",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/banking-finance-insurance.jpg",
+          "url": "/bs/banking-finance-insurance",
+          "subList": [
+            {
+              "name": "Banking Institutions",
+              "url": "/bs/banking-finance-insurance/banking-institutions"
+            },
+            {
+              "name": "Financial Consultants",
+              "url": "/bs/banking-finance-insurance/financial-consultants"
+            },
+            {
+              "name": "Insurance",
+              "url": "/bs/banking-finance-insurance/insurance"
+            }
+          ]
+        },
+        {
+          "title": "Marketing, Advertising  &  the Media",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/marketing-advertising-the-media.jpg",
+          "url": "/bs/marketing-advertising-the-media",
+          "subList": [
+            {
+              "name": "Advertising",
+              "url": "/bs/marketing-advertising-the-media/advertising"
+            },
+            {
+              "name": "Marketing",
+              "url": "/bs/marketing-advertising-the-media/marketing"
+            },
+            {
+              "name": "Media",
+              "url": "/bs/marketing-advertising-the-media/media"
+            }
+          ]
+        },
+        {
+          "title": "Travel, Tourism  &  Leisure",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/travel-tourism-leisure.jpg",
+          "url": "/bs/travel-tourism-leisure",
+          "subList": [
+            {
+              "name": "Hotel Business  &  Catering",
+              "url": "/bs/travel-tourism-leisure/hotel-business-catering"
+            },
+            {
+              "name": "Sports  &  Leisure Activities",
+              "url": "/bs/travel-tourism-leisure/sports-leisure-activities"
+            },
+            {
+              "name": "Trade Shows",
+              "url": "/bs/travel-tourism-leisure/trade-shows"
+            },
+            {
+              "name": "Travel",
+              "url": "/bs/travel-tourism-leisure/travel"
+            }
+          ]
+        },
+        {
+          "title": "Transport  &  Related Services",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/transport-related-services.jpg",
+          "url": "/bs/transport-related-services",
+          "subList": [
+            {
+              "name": "Air Transport",
+              "url": "/bs/transport-related-services/air-transport"
+            },
+            {
+              "name": "Rail Transport",
+              "url": "/bs/transport-related-services/rail-transport"
+            },
+            {
+              "name": "Road Transport",
+              "url": "/bs/transport-related-services/road-transport"
+            },
+            {
+              "name": "Sea  &  River Transport",
+              "url": "/bs/transport-related-services/sea-river-transport"
+            },
+            {
+              "name": "Specialised Transport",
+              "url": "/bs/transport-related-services/specialised-transport"
+            },
+            {
+              "name": "Transport Auxiliaries",
+              "url": "/bs/transport-related-services/transport-auxiliaries"
+            }
+          ]
+        },
+        {
+          "title": "Luxury  &  Leisure Products",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/luxury-leisure-products.jpg",
+          "url": "/bs/luxury-leisure-products",
+          "subList": [
+            {
+              "name": "Art  &  Entertainment",
+              "url": "/bs/luxury-leisure-products/art-entertainment"
+            },
+            {
+              "name": "Co-packing",
+              "url": "/bs/luxury-leisure-products/co-packing"
+            },
+            {
+              "name": "Games  &  Toys",
+              "url": "/bs/luxury-leisure-products/games-toys"
+            },
+            {
+              "name": "Jewellery",
+              "url": "/bs/luxury-leisure-products/jewellery"
+            },
+            {
+              "name": "Presents",
+              "url": "/bs/luxury-leisure-products/presents"
+            },
+            {
+              "name": "Sport - Articles  &  Equipment",
+              "url": "/bs/luxury-leisure-products/sport-articles-equipment"
+            }
+          ]
+        },
+        {
+          "title": "Printing  &  Publishing",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/printing-publishing.jpg",
+          "url": "/bs/printing-publishing",
+          "subList": [
+            {
+              "name": "Electronic Publishing",
+              "url": "/bs/printing-publishing/electronic-publishing"
+            },
+            {
+              "name": "Printing",
+              "url": "/bs/printing-publishing/printing"
+            },
+            {
+              "name": "Publishing",
+              "url": "/bs/printing-publishing/publishing"
+            }
+          ]
+        },
+        {
+          "title": "Textiles  &  Clothing",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/textiles-clothing.jpg",
+          "url": "/bs/textiles-clothing",
+          "subList": [
+            {
+              "name": "Clothes",
+              "url": "/bs/textiles-clothing/clothes"
+            },
+            {
+              "name": "Clothing Accessories",
+              "url": "/bs/textiles-clothing/clothing-accessories"
+            },
+            {
+              "name": "Fabrics",
+              "url": "/bs/textiles-clothing/fabrics"
+            },
+            {
+              "name": "Household Linen  &  Fabrics",
+              "url": "/bs/textiles-clothing/household-linen-fabrics"
+            }
+          ]
+        },
+        {
+          "title": "Leather  &  Shoes",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/leather-shoes.jpg",
+          "url": "/bs/leather-shoes",
+          "subList": [
+            {
+              "name": "Leather - Raw Materials",
+              "url": "/bs/leather-shoes/leather-goods"
+            },
+            {
+              "name": "Leather Goods",
+              "url": "/bs/leather-shoes/leather-raw-materials"
+            },
+            {
+              "name": "Shoes",
+              "url": "/bs/leather-shoes/shoes"
+            }
+          ]
+        },
+        {
+          "title": "Paper  &  Cardboard",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/paper-cardboard.jpg",
+          "url": "/bs/paper-cardboard",
+          "subList": [
+            {
+              "name": "Packaging Materials - Paper  &  Cardboard",
+              "url": "/bs/paper-cardboard/packaging-materials-paper-cardboard"
+            },
+            {
+              "name": "Paper  &  Cardboard - Finished Products",
+              "url": "/bs/paper-cardboard/paper-cardboard-finished-products"
+            },
+            {
+              "name": "Paper  &  Cardboard - Raw Materials",
+              "url": "/bs/paper-cardboard/paper-cardboard-raw-materials"
+            }
+          ]
+        },
+        {
+          "title": "Electrical  &  Electronic Equipment",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/electrical-electronic-equipment.jpg",
+          "url": "/bs/electrical-electronic-equipment",
+          "subList": [
+            {
+              "name": "Electrical  &  Electronic Components",
+              "url": "/bs/electrical-electronic-equipment/electrical-electronic-components"
+            },
+            {
+              "name": "Electricity",
+              "url": "/bs/electrical-electronic-equipment/electricity"
+            },
+            {
+              "name": "Electronic Equipment",
+              "url": "/bs/electrical-electronic-equipment/electronic-equipment"
+            },
+            {
+              "name": "Hi-Fi  &  Household Appliances",
+              "url": "/bs/electrical-electronic-equipment/hi-fi-household-appliances"
+            },
+            {
+              "name": "Lighting",
+              "url": "/bs/electrical-electronic-equipment/lighting"
+            },
+            {
+              "name": "Motors",
+              "url": "/bs/electrical-electronic-equipment/motors"
+            },
+            {
+              "name": "Security",
+              "url": "/bs/electrical-electronic-equipment/security"
+            }
+          ]
+        },
+        {
+          "title": "Telecommunications Industry",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/telecommunications-industry.jpg",
+          "url": "/bs/telecommunications-industry",
+          "subList": [
+            {
+              "name": "Audio-Visual",
+              "url": "/bs/telecommunications-industry/audio-visual"
+            },
+            {
+              "name": "Cables  &  Networks",
+              "url": "/bs/telecommunications-industry/cables-networks"
+            },
+            {
+              "name": "Internet  &  Telephony",
+              "url": "/bs/telecommunications-industry/internet-telephony"
+            },
+            {
+              "name": "Office Automation",
+              "url": "/bs/telecommunications-industry/office-automation"
+            }
+          ]
+        },
+        {
+          "title": "Information Technology",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/information-technology.jpg",
+          "url": "/bs/information-technology",
+          "subList": [
+            {
+              "name": "Computers",
+              "url": "/bs/information-technology/computers"
+            },
+            {
+              "name": "IT Services",
+              "url": "/bs/information-technology/it-services"
+            },
+            {
+              "name": "Peripherals - Computer",
+              "url": "/bs/information-technology/peripherals-computer"
+            },
+            {
+              "name": "Software",
+              "url": "/bs/information-technology/software"
+            }
+          ]
+        },
+        {
+          "title": "Precision Equipment",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/precision-equipment.jpg",
+          "url": "/bs/precision-equipment",
+          "subList": [
+            {
+              "name": "Clock  &  Watchmaking",
+              "url": "/bs/precision-equipment/clock-watchmaking"
+            },
+            {
+              "name": "Measurement - Equipment  &  Instruments",
+              "url": "/bs/precision-equipment/measurement-equipment-instruments"
+            },
+            {
+              "name": "Optical equipment  &  instruments",
+              "url": "/bs/precision-equipment/optical-equipment-instruments"
+            }
+          ]
+        },
+        {
+          "title": "Glass  &  Construction Materials",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/glass-construction-materials.jpg",
+          "url": "/bs/glass-construction-materials",
+          "subList": [
+            {
+              "name": "Ceramics",
+              "url": "/bs/glass-construction-materials/ceramics"
+            },
+            {
+              "name": "Construction Materials",
+              "url": "/bs/glass-construction-materials/construction-materials"
+            },
+            {
+              "name": "Glass",
+              "url": "/bs/glass-construction-materials/glass"
+            }
+          ]
+        },
+        {
+          "title": "Construction  &  Public Works",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/construction-public-works.jpg",
+          "url": "/bs/construction-public-works",
+          "subList": [
+            {
+              "name": "Construction",
+              "url": "/bs/construction-public-works/construction"
+            },
+            {
+              "name": "Construction - Finishings",
+              "url": "/bs/construction-public-works/construction-finishings"
+            },
+            {
+              "name": "Construction - Structural Work",
+              "url": "/bs/construction-public-works/construction-structural-work"
+            },
+            {
+              "name": "Equipment",
+              "url": "/bs/construction-public-works/equipment"
+            },
+            {
+              "name": "Public Works",
+              "url": "/bs/construction-public-works/public-works"
+            }
+          ]
+        },
+        {
+          "title": "Wood  &  Furniture",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/wood-furniture.jpg",
+          "url": "/bs/wood-furniture",
+          "subList": [
+            {
+              "name": "Furniture for Business",
+              "url": "/bs/wood-furniture/furniture-for-business"
+            },
+            {
+              "name": "Home Furniture",
+              "url": "/bs/wood-furniture/home-furniture"
+            },
+            {
+              "name": "Wood",
+              "url": "/bs/wood-furniture/wood"
+            },
+            {
+              "name": "Wood - Finished Products",
+              "url": "/bs/wood-furniture/wood-finished-products"
+            }
+          ]
+        },
+        {
+          "title": "Rubber  &  Plastics",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/rubber-plastics.jpg",
+          "url": "/bs/rubber-plastics",
+          "subList": [
+            {
+              "name": "Packaging - Plastic",
+              "url": "/bs/rubber-plastics/packaging-plastic"
+            },
+            {
+              "name": "Plastics",
+              "url": "/bs/rubber-plastics/plastics"
+            },
+            {
+              "name": "Rubber",
+              "url": "/bs/rubber-plastics/rubber"
+            }
+          ]
+        },
+        {
+          "title": "Chemicals  &  Pharmaceuticals",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/chemicals-pharmaceuticals.jpg",
+          "url": "/bs/chemicals-pharmaceuticals",
+          "subList": [
+            {
+              "name": "Chemicals - Basic Products  &  Derivatives",
+              "url": "/bs/chemicals-pharmaceuticals/chemicals-basic-products-derivatives"
+            },
+            {
+              "name": "Cosmetics",
+              "url": "/bs/chemicals-pharmaceuticals/cosmetics"
+            },
+            {
+              "name": "Pharmaceuticals",
+              "url": "/bs/chemicals-pharmaceuticals/pharmaceuticals"
+            }
+          ]
+        },
+        {
+          "title": "Vehicles  &  Transport Equipment",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/vehicles-transport-equipment.jpg",
+          "url": "/bs/vehicles-transport-equipment",
+          "subList": [
+            {
+              "name": "Aeronautics",
+              "url": "/bs/vehicles-transport-equipment/aeronautics"
+            },
+            {
+              "name": "Boats",
+              "url": "/bs/vehicles-transport-equipment/boats"
+            },
+            {
+              "name": "Cars",
+              "url": "/bs/vehicles-transport-equipment/cars"
+            },
+            {
+              "name": "Cycles",
+              "url": "/bs/vehicles-transport-equipment/cycles"
+            },
+            {
+              "name": "Industrial Vehicles",
+              "url": "/bs/vehicles-transport-equipment/industrial-vehicles"
+            },
+            {
+              "name": "Material  &  Equipment",
+              "url": "/bs/vehicles-transport-equipment/material-equipment"
+            },
+            {
+              "name": "Rental",
+              "url": "/bs/vehicles-transport-equipment/rental"
+            }
+          ]
+        },
+        {
+          "title": "Mechanical Engineering  &  Industry - Equipment",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/mechanical-engineering-industry-equipment.jpg",
+          "url": "/bs/mechanical-engineering-industry-equipment",
+          "subList": [
+            {
+              "name": "Agriculture - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/agriculture-machines-equipment"
+            },
+            {
+              "name": "Chemicals  &  Pharmaceuticals - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/chemicals-pharmaceuticals-machines-equipment"
+            },
+            {
+              "name": "Construction - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/construction-machines-equipment"
+            },
+            {
+              "name": "Engines  &  Parts",
+              "url": "/bs/mechanical-engineering-industry-equipment/engines-parts"
+            },
+            {
+              "name": "Environment - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/environment-machines-equipment"
+            },
+            {
+              "name": "Food Industry - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/food-industry-machines-equipment"
+            },
+            {
+              "name": "Handling - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/handling-machines-equipment"
+            },
+            {
+              "name": "Metals - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/metals-machines-equipment"
+            },
+            {
+              "name": "Paper - Printing - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/paper-printing-machines-equipment"
+            },
+            {
+              "name": "Plastics  &  Rubber - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/plastics-rubber-machines-equipment"
+            },
+            {
+              "name": "Temperature Control: Equipment  &  Installations",
+              "url": "/bs/mechanical-engineering-industry-equipment/temperature-control-equipment-installations"
+            },
+            {
+              "name": "Textiles - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/textiles-machines-equipment"
+            },
+            {
+              "name": "Wood - Machines  &  Equipment",
+              "url": "/bs/mechanical-engineering-industry-equipment/wood-machines-equipment"
+            }
+          ]
+        },
+        {
+          "title": "Metallurgy  &  Metalworking",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/metallurgy-metalworking.jpg",
+          "url": "/bs/metallurgy-metalworking",
+          "subList": [
+            {
+              "name": "Finished Metal Products",
+              "url": "/bs/metallurgy-metalworking/finished-metal-products"
+            },
+            {
+              "name": "Sheet Metal  &  Tubes",
+              "url": "/bs/metallurgy-metalworking/sheet-metal-tubes"
+            },
+            {
+              "name": "Steel  &  Metal Transformation",
+              "url": "/bs/metallurgy-metalworking/steel-metal-transformation"
+            },
+            {
+              "name": "Steel  &  Metals",
+              "url": "/bs/metallurgy-metalworking/steel-metals"
+            },
+            {
+              "name": "Tools  &  Hardware",
+              "url": "/bs/metallurgy-metalworking/tools-hardware"
+            }
+          ]
+        },
+        {
+          "title": "Energy  &  Raw Materials",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/energy-raw-materials.jpg",
+          "url": "/bs/energy-raw-materials",
+          "subList": [
+            {
+              "name": "Energy",
+              "url": "/bs/energy-raw-materials/energy"
+            },
+            {
+              "name": "Raw Materials",
+              "url": "/bs/energy-raw-materials/raw-materials"
+            },
+            {
+              "name": "Stones  &  Minerals",
+              "url": "/bs/energy-raw-materials/stones-minerals"
+            },
+            {
+              "name": "Water",
+              "url": "/bs/energy-raw-materials/water"
+            }
+          ]
+        },
+        {
+          "title": "Food  &  Related Products",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/food-related-products.jpg",
+          "url": "/bs/food-related-products",
+          "subList": [
+            {
+              "name": "Bread  &  Cakes",
+              "url": "/bs/food-related-products/bread-cakes"
+            },
+            {
+              "name": "Dairy Products",
+              "url": "/bs/food-related-products/dairy-products"
+            },
+            {
+              "name": "Drinks",
+              "url": "/bs/food-related-products/drinks"
+            },
+            {
+              "name": "Food Processing",
+              "url": "/bs/food-related-products/food-processing"
+            },
+            {
+              "name": "Frozen Foods",
+              "url": "/bs/food-related-products/frozen-foods"
+            },
+            {
+              "name": "Meats",
+              "url": "/bs/food-related-products/meats"
+            },
+            {
+              "name": "Tinned Foods",
+              "url": "/bs/food-related-products/tinned-foods"
+            },
+            {
+              "name": "Wines",
+              "url": "/bs/food-related-products/wines"
+            }
+          ]
+        },
+        {
+          "title": "Agriculture  &  Livestock",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/agriculture-livestock.jpg",
+          "url": "/bs/agriculture-livestock",
+          "subList": [
+            {
+              "name": "Agricultural Production",
+              "url": "/bs/agriculture-livestock/agricultural-production"
+            },
+            {
+              "name": "Animal Production",
+              "url": "/bs/agriculture-livestock/animal-production"
+            },
+            {
+              "name": "Animals  &  Livestock",
+              "url": "/bs/agriculture-livestock/animals-livestock"
+            },
+            {
+              "name": "Cereals  &  Grains",
+              "url": "/bs/agriculture-livestock/cereals-grains"
+            },
+            {
+              "name": "Fruits  &  Vegetables",
+              "url": "/bs/agriculture-livestock/fruits-vegetables"
+            },
+            {
+              "name": "Horticulture  &  Forestry",
+              "url": "/bs/agriculture-livestock/horticulture-forestry"
+            },
+            {
+              "name": "Plants  &  Fertilizers",
+              "url": "/bs/agriculture-livestock/plants-fertilizers"
+            }
+          ]
+        }
+      ],
+      "pageText": {
+        "viewMore": "VIEW MORE",
+        "seeLess": "SEE LESS",
+        "pserp": null,
+        "pserpDesc": null,
+        "cserp": null,
+        "cserpDesc": null,
+        "showroom": null,
+        "showroomDesc": null,
+        "showroomCate": null,
+        "showroomCateDesc": null,
+        "forWord": null
+      },
+      "breadCrumbs": [
+        {
+          "name": "All business sectors",
+          "url": null
+        }
+      ],
+      "meta": {
+        "keywords": null,
+        "metaKeywords": "Health Business Services Banking, Finance  &  Insurance Marketing, Advertising  &  the Media Travel, Tourism  &  Leisure Transport  &  Related Services Luxury  &  Leisure Products Printing  &  Publishing Textiles  &  Clothing Leather  &  Shoes Paper  &  Cardboard Electrical  &  Electronic Equipment Telecommunications Industry Information Technology Precision Equipment Glass  &  Construction Materials Construction  &  Public Works Wood  &  Furniture Rubber  &  Plastics Chemicals  &  Pharmaceuticals Vehicles  &  Transport Equipment Mechanical Engineering  &  Industry - Equipment Metallurgy  &  Metalworking Energy  &  Raw Materials Food  &  Related Products Agriculture  &  Livestock",
+        "title": "All business sectors - Europages",
+        "site": null,
+        "description": "The comprehensive directory of directories, business to business, Europages - A selection of B2B companies, suppliers in agriculture and farming, equipment distributors, wholesalers in the building and construction trades and so much more…",
+        "canonicalUrl": null,
+        "h1": null,
+        "alternates": null,
+        "index": null,
+        "follow": null
+      }
+    }
+  }
+}
