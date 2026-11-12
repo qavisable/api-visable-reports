@@ -1,0 +1,623 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 459,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 05:51:52 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": [
+      {
+        "id": 1,
+        "domain": "wlw.de",
+        "keyword": "Elektronisch Eingefärbtes Original-Ersatzstempelkissen",
+        "normalizeKeyword": "elektronisch eingefaerbtes original ersatzstempelkissen"
+      },
+      {
+        "id": 2,
+        "domain": "wlw.de",
+        "keyword": "Stahlschweißkonstruktion Glanzverzinkt Blaupassiviert",
+        "normalizeKeyword": "stahlschweisskonstruktion glanzverzinkt blaupassiviert"
+      },
+      {
+        "id": 3,
+        "domain": "wlw.de",
+        "keyword": "Kugelschreiber Drehkugelschreiber Markenschreibgerät",
+        "normalizeKeyword": "kugelschreiber drehkugelschreiber markenschreibgeraet"
+      },
+      {
+        "id": 4,
+        "domain": "wlw.de",
+        "keyword": "Markenschreibgerät Schreibgerät Premiumschreibgerät",
+        "normalizeKeyword": "markenschreibgeraet schreibgeraet premiumschreibgeraet"
+      },
+      {
+        "id": 5,
+        "domain": "wlw.de",
+        "keyword": "Stirnanliegend Sublimations-Textilien Artikelnummer",
+        "normalizeKeyword": "stirnanliegend sublimations textilien artikelnummer"
+      },
+      {
+        "id": 6,
+        "domain": "wlw.de",
+        "keyword": "Verchromt Blauschreibende G2-Kunststoffgroßraummine",
+        "normalizeKeyword": "verchromt blauschreibende g2 kunststoffgrossraummine"
+      },
+      {
+        "id": 7,
+        "domain": "wlw.de",
+        "keyword": "Damen Kontrastfarbener 2-Wege-Spiralreißverschluss",
+        "normalizeKeyword": "damen kontrastfarbener 2 wege spiralreissverschluss"
+      },
+      {
+        "id": 8,
+        "domain": "wlw.de",
+        "keyword": "Ordnerschrank Drehtürenschrank Schwenktürenschrank",
+        "normalizeKeyword": "ordnerschrank drehtuerenschrank schwenktuerenschrank"
+      },
+      {
+        "id": 9,
+        "domain": "wlw.de",
+        "keyword": "Werbeanbringungsmöglichkeit Schwarze Metallspitzen",
+        "normalizeKeyword": "werbeanbringungsmoeglichkeit schwarze metallspitzen"
+      },
+      {
+        "id": 10,
+        "domain": "wlw.de",
+        "keyword": "Wohnungsabschlußtür Rundkante Beanspruchungsgruppe",
+        "normalizeKeyword": "wohnungsabschlusstuer rundkante beanspruchungsgruppe"
+      },
+      {
+        "id": 11,
+        "domain": "wlw.de",
+        "keyword": "Arbeitstisch Veranstaltungstisch Vernissage-Tisch",
+        "normalizeKeyword": "arbeitstisch veranstaltungstisch vernissage tisch"
+      },
+      {
+        "id": 12,
+        "domain": "wlw.de",
+        "keyword": "Präzisionskugellager Plattenbefestigung Radkörper",
+        "normalizeKeyword": "praezisionskugellager plattenbefestigung radkoerper"
+      },
+      {
+        "id": 13,
+        "domain": "wlw.de",
+        "keyword": "Metall-Großraummine Blauschreibend Artikelnummer",
+        "normalizeKeyword": "metall grossraummine blauschreibend artikelnummer"
+      },
+      {
+        "id": 14,
+        "domain": "wlw.de",
+        "keyword": "Präzisionskugellager Zapfenbefestigung Radkörper",
+        "normalizeKeyword": "praezisionskugellager zapfenbefestigung radkoerper"
+      },
+      {
+        "id": 15,
+        "domain": "wlw.de",
+        "keyword": "Absturzsicherungen Einzelanschlagpunkte Stützen",
+        "normalizeKeyword": "absturzsicherungen einzelanschlagpunkte stuetzen"
+      },
+      {
+        "id": 16,
+        "domain": "wlw.de",
+        "keyword": "Ankerschrauben Sonderschrauben Verbindungsteile",
+        "normalizeKeyword": "ankerschrauben sonderschrauben verbindungsteile"
+      },
+      {
+        "id": 17,
+        "domain": "wlw.de",
+        "keyword": "Funktions-Polyester Micropolyester Atmungsaktiv",
+        "normalizeKeyword": "funktions polyester micropolyester atmungsaktiv"
+      },
+      {
+        "id": 18,
+        "domain": "wlw.de",
+        "keyword": "Schwenklagerschutz Plattenbefestigung Radkörper",
+        "normalizeKeyword": "schwenklagerschutz plattenbefestigung radkoerper"
+      },
+      {
+        "id": 19,
+        "domain": "wlw.de",
+        "keyword": "Anwendungsbereich Landwirtschaft Autoindustrie",
+        "normalizeKeyword": "anwendungsbereich landwirtschaft autoindustrie"
+      },
+      {
+        "id": 20,
+        "domain": "wlw.de",
+        "keyword": "Befestigung Vliesklebestreifen Etikettenhalter",
+        "normalizeKeyword": "befestigung vliesklebestreifen etikettenhalter"
+      },
+      {
+        "id": 21,
+        "domain": "wlw.de",
+        "keyword": "Duroplastischen Kunststoffen Bearbeitungstiefe",
+        "normalizeKeyword": "duroplastischen kunststoffen bearbeitungstiefe"
+      },
+      {
+        "id": 22,
+        "domain": "wlw.de",
+        "keyword": "Eingefärbtes Original-Ersatzstempelkissen Rund",
+        "normalizeKeyword": "eingefaerbtes original ersatzstempelkissen rund"
+      },
+      {
+        "id": 23,
+        "domain": "wlw.de",
+        "keyword": "Kindersicherung TÜV-zertifiziert Artikelnummer",
+        "normalizeKeyword": "kindersicherung tuev zertifiziert artikelnummer"
+      },
+      {
+        "id": 24,
+        "domain": "wlw.de",
+        "keyword": "Lebensmittelecht Schutzlackiert Materialstärke",
+        "normalizeKeyword": "lebensmittelecht schutzlackiert materialstaerke"
+      },
+      {
+        "id": 25,
+        "domain": "wlw.de",
+        "keyword": "Längenverstellbarer Schultergurt Artikelnummer",
+        "normalizeKeyword": "laengenverstellbarer schultergurt artikelnummer"
+      },
+      {
+        "id": 26,
+        "domain": "wlw.de",
+        "keyword": "Verpackungseinheiten Lieferung Unvollständiger",
+        "normalizeKeyword": "verpackungseinheiten lieferung unvollstaendiger"
+      },
+      {
+        "id": 27,
+        "domain": "wlw.de",
+        "keyword": "Blauschreibendem Kugelschreiber Artikelnummer",
+        "normalizeKeyword": "blauschreibendem kugelschreiber artikelnummer"
+      },
+      {
+        "id": 28,
+        "domain": "wlw.de",
+        "keyword": "Eingangsmatten Sauberlaufzone Schuhabstreifer",
+        "normalizeKeyword": "eingangsmatten sauberlaufzone schuhabstreifer"
+      },
+      {
+        "id": 29,
+        "domain": "wlw.de",
+        "keyword": "Kunststoffkugelschreiber Blauschreibende Mine",
+        "normalizeKeyword": "kunststoffkugelschreiber blauschreibende mine"
+      },
+      {
+        "id": 30,
+        "domain": "wlw.de",
+        "keyword": "TÜV-zertifiziert Windproof-System Automatisch",
+        "normalizeKeyword": "tuev zertifiziert windproof system automatisch"
+      },
+      {
+        "id": 31,
+        "domain": "wlw.de",
+        "keyword": "Verschiedenen Geschmacksrichtungen Erhältlich",
+        "normalizeKeyword": "verschiedenen geschmacksrichtungen erhaeltlich"
+      },
+      {
+        "id": 32,
+        "domain": "wlw.de",
+        "keyword": "Blauschreibender Kunststoffgroßraummine Ihre",
+        "normalizeKeyword": "blauschreibender kunststoffgrossraummine ihre"
+      },
+      {
+        "id": 33,
+        "domain": "wlw.de",
+        "keyword": "Konfektionierung Technische Konfektionierung",
+        "normalizeKeyword": "konfektionierung technische konfektionierung"
+      },
+      {
+        "id": 34,
+        "domain": "wlw.de",
+        "keyword": "Nicht Spülmaschinengeeignet Fassungsvermögen",
+        "normalizeKeyword": "nicht spuelmaschinengeeignet fassungsvermoegen"
+      },
+      {
+        "id": 35,
+        "domain": "wlw.de",
+        "keyword": "Pflegeleichter Anti-Pilling-Microfleece Sehr",
+        "normalizeKeyword": "pflegeleichter anti pilling microfleece sehr"
+      },
+      {
+        "id": 36,
+        "domain": "wlw.de",
+        "keyword": "Polyurethan Präzisionskugellager Abgedichtet",
+        "normalizeKeyword": "polyurethan praezisionskugellager abgedichtet"
+      },
+      {
+        "id": 37,
+        "domain": "wlw.de",
+        "keyword": "Präzisionskugellager Anschraubloch Radkörper",
+        "normalizeKeyword": "praezisionskugellager anschraubloch radkoerper"
+      },
+      {
+        "id": 38,
+        "domain": "wlw.de",
+        "keyword": "Satinschleife Aufgebunden Verpackungseinheit",
+        "normalizeKeyword": "satinschleife aufgebunden verpackungseinheit"
+      },
+      {
+        "id": 39,
+        "domain": "wlw.de",
+        "keyword": "Soft-Touch-Griff Werbeanbringungsmöglichkeit",
+        "normalizeKeyword": "soft touch griff werbeanbringungsmoeglichkeit"
+      },
+      {
+        "id": 40,
+        "domain": "wlw.de",
+        "keyword": "Transparente Gehäuseoberfläche Metallisierte",
+        "normalizeKeyword": "transparente gehaeuseoberflaeche metallisierte"
+      },
+      {
+        "id": 41,
+        "domain": "wlw.de",
+        "keyword": "Arbeitnehmerüberlassung Personalvermittlung",
+        "normalizeKeyword": "arbeitnehmerueberlassung personalvermittlung"
+      },
+      {
+        "id": 42,
+        "domain": "wlw.de",
+        "keyword": "Bearbeitung Unterschiedlichster Materialien",
+        "normalizeKeyword": "bearbeitung unterschiedlichster materialien"
+      },
+      {
+        "id": 43,
+        "domain": "wlw.de",
+        "keyword": "Doppelwandig Fassungsvermögen Artikelnummer",
+        "normalizeKeyword": "doppelwandig fassungsvermoegen artikelnummer"
+      },
+      {
+        "id": 44,
+        "domain": "wlw.de",
+        "keyword": "Gefüttertes Satinschweißband Clipverschluss",
+        "normalizeKeyword": "gefuettertes satinschweissband clipverschluss"
+      },
+      {
+        "id": 45,
+        "domain": "wlw.de",
+        "keyword": "Keramik-Transferdruck Spülmaschinengeeignet",
+        "normalizeKeyword": "keramik transferdruck spuelmaschinengeeignet"
+      },
+      {
+        "id": 46,
+        "domain": "wlw.de",
+        "keyword": "Kombinationsmöglichkeiten Unterschiedlichen",
+        "normalizeKeyword": "kombinationsmoeglichkeiten unterschiedlichen"
+      },
+      {
+        "id": 47,
+        "domain": "wlw.de",
+        "keyword": "Konventioneller Qualität Anwendungsbereiche",
+        "normalizeKeyword": "konventioneller qualitaet anwendungsbereiche"
+      },
+      {
+        "id": 48,
+        "domain": "wlw.de",
+        "keyword": "QUALITÄTSSIEGEL Stehen Lebensmittelexperten",
+        "normalizeKeyword": "qualitaetssiegel stehen lebensmittelexperten"
+      },
+      {
+        "id": 49,
+        "domain": "wlw.de",
+        "keyword": "Vollgummi Kontaktverfärbungsfrei Elektrisch",
+        "normalizeKeyword": "vollgummi kontaktverfaerbungsfrei elektrisch"
+      },
+      {
+        "id": 50,
+        "domain": "wlw.de",
+        "keyword": "Auch Hochdruckschichtstoffplatten Geeignet",
+        "normalizeKeyword": "auch hochdruckschichtstoffplatten geeignet"
+      },
+      {
+        "id": 51,
+        "domain": "wlw.de",
+        "keyword": "Ausgezeichnetes Preis-Leistungs-Verhältnis",
+        "normalizeKeyword": "ausgezeichnetes preis leistungs verhaeltnis"
+      },
+      {
+        "id": 52,
+        "domain": "wlw.de",
+        "keyword": "Befestigung Magnetstreifen Etikettenhalter",
+        "normalizeKeyword": "befestigung magnetstreifen etikettenhalter"
+      },
+      {
+        "id": 53,
+        "domain": "wlw.de",
+        "keyword": "Blauschreibende Großraummine Artikelnummer",
+        "normalizeKeyword": "blauschreibende grossraummine artikelnummer"
+      },
+      {
+        "id": 54,
+        "domain": "wlw.de",
+        "keyword": "Digitaldrucklabel Werbeanbringungsposition",
+        "normalizeKeyword": "digitaldrucklabel werbeanbringungsposition"
+      },
+      {
+        "id": 55,
+        "domain": "wlw.de",
+        "keyword": "Geschenkverpackung Geliefert Artikelnummer",
+        "normalizeKeyword": "geschenkverpackung geliefert artikelnummer"
+      },
+      {
+        "id": 56,
+        "domain": "wlw.de",
+        "keyword": "Schwarzem Vollgummi Kontaktverfärbungsfrei",
+        "normalizeKeyword": "schwarzem vollgummi kontaktverfaerbungsfrei"
+      },
+      {
+        "id": 57,
+        "domain": "wlw.de",
+        "keyword": "Spannungsausgang Betriebstemperaturbereich",
+        "normalizeKeyword": "spannungsausgang betriebstemperaturbereich"
+      },
+      {
+        "id": 58,
+        "domain": "wlw.de",
+        "keyword": "Textilien Kniepolstertaschen Eigenschaften",
+        "normalizeKeyword": "textilien kniepolstertaschen eigenschaften"
+      },
+      {
+        "id": 59,
+        "domain": "wlw.de",
+        "keyword": "Umweltfreundlichen Materialien Hergestellt",
+        "normalizeKeyword": "umweltfreundlichen materialien hergestellt"
+      },
+      {
+        "id": 60,
+        "domain": "wlw.de",
+        "keyword": "Verpackung Einzelkarton Verpackungseinheit",
+        "normalizeKeyword": "verpackung einzelkarton verpackungseinheit"
+      },
+      {
+        "id": 61,
+        "domain": "wlw.de",
+        "keyword": "Widerstandsfähig Gegen Witterungseinflüsse",
+        "normalizeKeyword": "widerstandsfaehig gegen witterungseinfluesse"
+      },
+      {
+        "id": 62,
+        "domain": "wlw.de",
+        "keyword": "4-Walzenblecheinrollmaschinen Hydraulisch",
+        "normalizeKeyword": "4 walzenblecheinrollmaschinen hydraulisch"
+      },
+      {
+        "id": 63,
+        "domain": "wlw.de",
+        "keyword": "Aluminiumbeschichtung Innen Ausstanzungen",
+        "normalizeKeyword": "aluminiumbeschichtung innen ausstanzungen"
+      },
+      {
+        "id": 64,
+        "domain": "wlw.de",
+        "keyword": "Deutschen Gesetzlichen Unfallversicherung",
+        "normalizeKeyword": "deutschen gesetzlichen unfallversicherung"
+      },
+      {
+        "id": 65,
+        "domain": "wlw.de",
+        "keyword": "Durchflussmessern Temperaturbeständigkeit",
+        "normalizeKeyword": "durchflussmessern temperaturbestaendigkeit"
+      },
+      {
+        "id": 66,
+        "domain": "wlw.de",
+        "keyword": "Hochlast Single-Point Aluminium-Wägezelle",
+        "normalizeKeyword": "hochlast single point aluminium waegezelle"
+      },
+      {
+        "id": 67,
+        "domain": "wlw.de",
+        "keyword": "Höchsten Sicherheitsstandards Entsprechen",
+        "normalizeKeyword": "hoechsten sicherheitsstandards entsprechen"
+      },
+      {
+        "id": 68,
+        "domain": "wlw.de",
+        "keyword": "Komplett-Schubkasten Anthrazit Zargenhöhe",
+        "normalizeKeyword": "komplett schubkasten anthrazit zargenhoehe"
+      },
+      {
+        "id": 69,
+        "domain": "wlw.de",
+        "keyword": "Komplett-Schubkasten Edelstahl Zargenhöhe",
+        "normalizeKeyword": "komplett schubkasten edelstahl zargenhoehe"
+      },
+      {
+        "id": 70,
+        "domain": "wlw.de",
+        "keyword": "Kunststoffkugelschreiber Blauschreibender",
+        "normalizeKeyword": "kunststoffkugelschreiber blauschreibender"
+      },
+      {
+        "id": 71,
+        "domain": "wlw.de",
+        "keyword": "Längenverstellbarer Schultergurt Seitlich",
+        "normalizeKeyword": "laengenverstellbarer schultergurt seitlich"
+      },
+      {
+        "id": 72,
+        "domain": "wlw.de",
+        "keyword": "Lösungsmittel Extraktlösungsmittel Wasser",
+        "normalizeKeyword": "loesungsmittel extraktloesungsmittel wasser"
+      },
+      {
+        "id": 73,
+        "domain": "wlw.de",
+        "keyword": "Metallkugelschreiber Blauschreibende Mine",
+        "normalizeKeyword": "metallkugelschreiber blauschreibende mine"
+      },
+      {
+        "id": 74,
+        "domain": "wlw.de",
+        "keyword": "Rechts Befestigungsmaterial Artikelnummer",
+        "normalizeKeyword": "rechts befestigungsmaterial artikelnummer"
+      },
+      {
+        "id": 75,
+        "domain": "wlw.de",
+        "keyword": "Rückwandverbinder Stahl Pulverbeschichtet",
+        "normalizeKeyword": "rueckwandverbinder stahl pulverbeschichtet"
+      },
+      {
+        "id": 76,
+        "domain": "wlw.de",
+        "keyword": "Schallschutz Trennwand Schallabsorbierend",
+        "normalizeKeyword": "schallschutz trennwand schallabsorbierend"
+      },
+      {
+        "id": 77,
+        "domain": "wlw.de",
+        "keyword": "Schmeichelnde 2-Wege-Spiralreißverschluss",
+        "normalizeKeyword": "schmeichelnde 2 wege spiralreissverschluss"
+      },
+      {
+        "id": 78,
+        "domain": "wlw.de",
+        "keyword": "Trageschlaufe Metalltips Kunststoffspitze",
+        "normalizeKeyword": "trageschlaufe metalltips kunststoffspitze"
+      },
+      {
+        "id": 79,
+        "domain": "wlw.de",
+        "keyword": "Umweltfreundlichem Polypropylen Gefertigt",
+        "normalizeKeyword": "umweltfreundlichem polypropylen gefertigt"
+      },
+      {
+        "id": 80,
+        "domain": "wlw.de",
+        "keyword": "Unterschiedliche Produktionsanforderungen",
+        "normalizeKeyword": "unterschiedliche produktionsanforderungen"
+      },
+      {
+        "id": 81,
+        "domain": "wlw.de",
+        "keyword": "Unterschiedlichen Ausführungen Erhältlich",
+        "normalizeKeyword": "unterschiedlichen ausfuehrungen erhaeltlich"
+      },
+      {
+        "id": 82,
+        "domain": "wlw.de",
+        "keyword": "Zertifizierter Wertschutzschrank Prüfnorm",
+        "normalizeKeyword": "zertifizierter wertschutzschrank pruefnorm"
+      },
+      {
+        "id": 83,
+        "domain": "wlw.de",
+        "keyword": "Antistatikum UV-Stabilisator UV-Absorber",
+        "normalizeKeyword": "antistatikum uv stabilisator uv absorber"
+      },
+      {
+        "id": 84,
+        "domain": "wlw.de",
+        "keyword": "ArciTech Komplett-Schubkasten Champagner",
+        "normalizeKeyword": "arcitech komplett schubkasten champagner"
+      },
+      {
+        "id": 85,
+        "domain": "wlw.de",
+        "keyword": "Blauschreibender Kunststoff-Großraummine",
+        "normalizeKeyword": "blauschreibender kunststoff grossraummine"
+      },
+      {
+        "id": 86,
+        "domain": "wlw.de",
+        "keyword": "Darunter Maschinenbau Automobilindustrie",
+        "normalizeKeyword": "darunter maschinenbau automobilindustrie"
+      },
+      {
+        "id": 87,
+        "domain": "wlw.de",
+        "keyword": "Digitaldruck Druckbereich Standzeichnung",
+        "normalizeKeyword": "digitaldruck druckbereich standzeichnung"
+      },
+      {
+        "id": 88,
+        "domain": "wlw.de",
+        "keyword": "Eine Unterbrechungsfreie Stromversorgung",
+        "normalizeKeyword": "eine unterbrechungsfreie stromversorgung"
+      },
+      {
+        "id": 89,
+        "domain": "wlw.de",
+        "keyword": "Gehäuseoberfläche Glänzende Metallspitze",
+        "normalizeKeyword": "gehaeuseoberflaeche glaenzende metallspitze"
+      },
+      {
+        "id": 90,
+        "domain": "wlw.de",
+        "keyword": "Hochwertiger Papierbezogener Stülpdeckel",
+        "normalizeKeyword": "hochwertiger papierbezogener stuelpdeckel"
+      },
+      {
+        "id": 91,
+        "domain": "wlw.de",
+        "keyword": "IP-Beschichtung Kronenschutz Wasserdicht",
+        "normalizeKeyword": "ip beschichtung kronenschutz wasserdicht"
+      },
+      {
+        "id": 92,
+        "domain": "wlw.de",
+        "keyword": "Industriewäsche Geeignet Einsatzbereiche",
+        "normalizeKeyword": "industriewaesche geeignet einsatzbereiche"
+      },
+      {
+        "id": 93,
+        "domain": "wlw.de",
+        "keyword": "Multitasking-Kugelschreiber CONSTRUCTION",
+        "normalizeKeyword": "multitasking kugelschreiber construction"
+      },
+      {
+        "id": 94,
+        "domain": "wlw.de",
+        "keyword": "Organizer-Elementen Flaches Einsteckfach",
+        "normalizeKeyword": "organizer elementen flaches einsteckfach"
+      },
+      {
+        "id": 95,
+        "domain": "wlw.de",
+        "keyword": "Plattenbausanierung Bänder Bandoberteile",
+        "normalizeKeyword": "plattenbausanierung baender bandoberteile"
+      },
+      {
+        "id": 96,
+        "domain": "wlw.de",
+        "keyword": "Pulverbeschichtet Anthrazit Korbusbreite",
+        "normalizeKeyword": "pulverbeschichtet anthrazit korbusbreite"
+      },
+      {
+        "id": 97,
+        "domain": "wlw.de",
+        "keyword": "Selbstbeschriftung Hintergrundfarbe Weiß",
+        "normalizeKeyword": "selbstbeschriftung hintergrundfarbe weiss"
+      },
+      {
+        "id": 98,
+        "domain": "wlw.de",
+        "keyword": "Siebdruck-Digital Inklusive Druckbereich",
+        "normalizeKeyword": "siebdruck digital inklusive druckbereich"
+      },
+      {
+        "id": 99,
+        "domain": "wlw.de",
+        "keyword": "Spezifischen Anforderungen Verschiedener",
+        "normalizeKeyword": "spezifischen anforderungen verschiedener"
+      },
+      {
+        "id": 100,
+        "domain": "wlw.de",
+        "keyword": "Transparente Gehäuseoberfläche Glänzende",
+        "normalizeKeyword": "transparente gehaeuseoberflaeche glaenzende"
+      }
+    ]
+  }
+}

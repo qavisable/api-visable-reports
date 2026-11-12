@@ -1,0 +1,16 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/api/v1/page-elements/get?domain=https%3A%2F%2Fwww.wlw.de&urlPath=%2Fde%2Fshowroom%2Fcnc&language=de",
+  "durationMs": 511,
+  "params": {
+    "domain": "https://www.wlw.de",
+    "urlPath": "/de/showroom/cnc",
+    "language": "de"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "website": "wlw.de",
+    "Authorization": "***"
+  }
+}

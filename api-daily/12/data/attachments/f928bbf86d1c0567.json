@@ -1,0 +1,8 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/seodata/bs/mixdata/autotest-not-a-sector?language=de",
+  "durationMs": 388,
+  "params": {
+    "language": "de"
+  }
+}

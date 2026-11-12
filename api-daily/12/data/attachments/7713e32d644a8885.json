@@ -1,0 +1,8 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/seodata/bs/mixdata/health/biotechnologies?language=en",
+  "durationMs": 166,
+  "params": {
+    "language": "en"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/get/showroomkeyword?domain=wlw.de",
+  "durationMs": 459,
+  "params": {
+    "domain": "wlw.de"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

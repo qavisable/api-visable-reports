@@ -1,0 +1,19 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/showroom-cate/data?category=transformatorenstationen-605764&version=cate_re&platform=wlw&site_code=DE&language=de",
+  "durationMs": 1130,
+  "params": {
+    "category": "transformatorenstationen-605764",
+    "version": "cate_re",
+    "platform": "wlw",
+    "site_code": "DE",
+    "language": "de"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "Accept-Language": "de",
+    "X-Application-Id": "homepage-frontend",
+    "x-host": "www.wlw-staging.de"
+  }
+}

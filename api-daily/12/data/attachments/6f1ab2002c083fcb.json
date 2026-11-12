@@ -1,0 +1,331 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 159,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 05:52:13 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "bsList": null,
+      "breadCrumbs": [
+        {
+          "name": "Alle Geschäftsbereiche",
+          "url": "/bs"
+        },
+        {
+          "name": "Gesundheit",
+          "url": null
+        }
+      ],
+      "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/health.jpg",
+      "title": "Gesundheit",
+      "pageText": {
+        "viewMore": "MEHR ANZEIGEN",
+        "seeLess": "WENIGER ANZEIGEN",
+        "pserp": "Alle Produkte",
+        "pserpDesc": "Klicken Sie auf ein beliebiges Schlüsselwort, um relevante Produkte in den Suchergebnissen zu sehen.",
+        "cserp": "Alle Unternehmen",
+        "cserpDesc": "Klicken Sie auf ein beliebiges Schlüsselwort, um relevante Lieferanten in den Suchergebnissen zu sehen.",
+        "showroom": "Showroom-Seite",
+        "showroomDesc": "Klicken Sie auf ein beliebiges Schlüsselwort, um die relevante Showroom-Seite zu sehen.",
+        "showroomCate": "Alle Kategorien",
+        "showroomCateDesc": "Klicken Sie auf ein beliebiges Schlüsselwort, um alle relevanten Produktkategorien zu sehen.",
+        "forWord": "für"
+      },
+      "cserp": [
+        {
+          "name": "Kliniken und spezialisierte ärztliche Dienstleistungen",
+          "url": "/unternehmen/kliniken%20und%20spezialisierte%20%C3%A4rztliche%20dienstleistungen.html"
+        },
+        {
+          "name": "Medizinische Fernüberwachung",
+          "url": "/unternehmen/medizinische%20fern%C3%BCberwachung.html"
+        },
+        {
+          "name": "Schönheits- und Gesundheitsinstitute - nicht medizinisch",
+          "url": "/unternehmen/sch%C3%B6nheits-%20und%20gesundheitsinstitute%20-%20nicht%20medizinisch.html"
+        },
+        {
+          "name": "Sozialdienste",
+          "url": "/unternehmen/sozialdienste.html"
+        }
+      ],
+      "pserp": null,
+      "showroom": null,
+      "showroomCate": [
+        {
+          "name": "Medizinische Geräte",
+          "url": "/de/showroom-cate/medizinische-geraete-611167"
+        },
+        {
+          "name": "Orthopädiebedarf",
+          "url": "/de/showroom-cate/orthopaediebedarf-611417"
+        },
+        {
+          "name": "Teppichreiniger",
+          "url": "/de/showroom-cate/teppichreiniger-612887"
+        },
+        {
+          "name": "Orthopädische Schuheinlagen",
+          "url": "/de/showroom-cate/orthopaedische-schuheinlagen-611440"
+        },
+        {
+          "name": "Sanitärreiniger",
+          "url": "/de/showroom-cate/sanitaerreiniger-612864"
+        },
+        {
+          "name": "Waschmittel",
+          "url": "/de/showroom-cate/waschmittel-612941"
+        },
+        {
+          "name": "Magnetresonanztomographen",
+          "url": "/de/showroom-cate/magnetresonanztomographen-611213"
+        },
+        {
+          "name": "Spülmaschinenreiniger",
+          "url": "/de/showroom-cate/spuelmaschinenreiniger-612874"
+        },
+        {
+          "name": "Contouring",
+          "url": "/de/showroom-cate/contouring-616795"
+        },
+        {
+          "name": "Verbandschuhe",
+          "url": "/de/showroom-cate/verbandschuhe-611358"
+        },
+        {
+          "name": "Zahnarztbedarf",
+          "url": "/de/showroom-cate/zahnarztbedarf-200712"
+        },
+        {
+          "name": "Medizintechnik",
+          "url": "/de/showroom-cate/medizintechnik-611159"
+        },
+        {
+          "name": "Industriereinigungstücher",
+          "url": "/de/showroom-cate/industriereinigungstuecher-612981"
+        },
+        {
+          "name": "Reinigungsutensilien",
+          "url": "/de/showroom-cate/reinigungsutensilien-100074"
+        },
+        {
+          "name": "Mikrofasertücher",
+          "url": "/de/showroom-cate/mikrofasertuecher-301059"
+        },
+        {
+          "name": "CBD-Blüten",
+          "url": "/de/showroom-cate/cbd-blueten-611628"
+        },
+        {
+          "name": "Hilfsmittel für Menschen mit Behinderungen",
+          "url": "/de/showroom-cate/hilfsmittel-fuer-menschen-mit-behinderungen-611501"
+        },
+        {
+          "name": "Reinigungs- & Pflegemittel",
+          "url": "/de/showroom-cate/reinigungs-pflegemittel-100073"
+        },
+        {
+          "name": "Antigentests",
+          "url": "/de/showroom-cate/antigentests-611596"
+        },
+        {
+          "name": "Reinigungsmittel",
+          "url": "/de/showroom-cate/reinigungsmittel-612852"
+        },
+        {
+          "name": "Reinigungstücher",
+          "url": "/de/showroom-cate/reinigungstuecher-200790"
+        },
+        {
+          "name": "Hörgeräte",
+          "url": "/de/showroom-cate/hoergeraete-611211"
+        },
+        {
+          "name": "Metallreiniger",
+          "url": "/de/showroom-cate/metallreiniger-301052"
+        },
+        {
+          "name": "Mandrins",
+          "url": "/de/showroom-cate/mandrins-611285"
+        },
+        {
+          "name": "Ultraschallgeräte",
+          "url": "/de/showroom-cate/ultraschallgeraete-611194"
+        },
+        {
+          "name": "Phytopharmaka",
+          "url": "/de/showroom-cate/phytopharmaka-611510"
+        },
+        {
+          "name": "Medizinische Messgeräte",
+          "url": "/de/showroom-cate/medizinische-messgeraete-300885"
+        },
+        {
+          "name": "Veterinärbedarf",
+          "url": "/de/showroom-cate/veterinaerbedarf-611497"
+        },
+        {
+          "name": "Schuhpflegemittel",
+          "url": "/de/showroom-cate/schuhpflegemittel-612967"
+        },
+        {
+          "name": "Gleitsichtgläser",
+          "url": "/de/showroom-cate/gleitsichtglaeser-611494"
+        },
+        {
+          "name": "Reinigungsbürsten",
+          "url": "/de/showroom-cate/reinigungsbuersten-612988"
+        },
+        {
+          "name": "Rollstühle",
+          "url": "/de/showroom-cate/rollstuehle-611354"
+        },
+        {
+          "name": "Gleitsichtbrillen",
+          "url": "/de/showroom-cate/gleitsichtbrillen-611474"
+        },
+        {
+          "name": "Bandagen",
+          "url": "/de/showroom-cate/bandagen-611427"
+        },
+        {
+          "name": "Insulin",
+          "url": "/de/showroom-cate/insulin-611520"
+        },
+        {
+          "name": "Brillengestelle",
+          "url": "/de/showroom-cate/brillengestelle-611492"
+        },
+        {
+          "name": "Steinreiniger",
+          "url": "/de/showroom-cate/steinreiniger-612898"
+        },
+        {
+          "name": "Haushaltsreiniger",
+          "url": "/de/showroom-cate/haushaltsreiniger-612855"
+        },
+        {
+          "name": "Massagezubehör",
+          "url": "/de/showroom-cate/massagezubehoer-611633"
+        },
+        {
+          "name": "Schimmelentferner",
+          "url": "/de/showroom-cate/schimmelentferner-612919"
+        },
+        {
+          "name": "Feinwaschmittel",
+          "url": "/de/showroom-cate/feinwaschmittel-612943"
+        },
+        {
+          "name": "Bodenreiniger",
+          "url": "/de/showroom-cate/bodenreiniger-612883"
+        },
+        {
+          "name": "Pediküre",
+          "url": "/de/showroom-cate/pedikuere-616794"
+        },
+        {
+          "name": "Spülmittel",
+          "url": "/de/showroom-cate/spuelmittel-612870"
+        },
+        {
+          "name": "Fliesenreiniger",
+          "url": "/de/showroom-cate/fliesenreiniger-612893"
+        },
+        {
+          "name": "Wischmopps",
+          "url": "/de/showroom-cate/wischmopps-613004"
+        },
+        {
+          "name": "Waschhilfsmittel",
+          "url": "/de/showroom-cate/waschhilfsmittel-612953"
+        },
+        {
+          "name": "Sanitätsbedarf",
+          "url": "/de/showroom-cate/sanitaetsbedarf-200715"
+        },
+        {
+          "name": "Sonographiegeräte",
+          "url": "/de/showroom-cate/sonographiegeraete-611193"
+        },
+        {
+          "name": "Kosmetikdienstleistungen",
+          "url": "/de/showroom-cate/kosmetikdienstleistungen-201047"
+        },
+        {
+          "name": "Rohrreiniger",
+          "url": "/de/showroom-cate/rohrreiniger-612894"
+        },
+        {
+          "name": "Haarschnitte",
+          "url": "/de/showroom-cate/haarschnitte-616797"
+        },
+        {
+          "name": "Kfz-Reinigungsmittel",
+          "url": "/de/showroom-cate/kfz-reinigungsmittel-612902"
+        },
+        {
+          "name": "Pflege- & Kosmetikdienstleistungen",
+          "url": "/de/showroom-cate/pflege-kosmetikdienstleistungen-100104"
+        },
+        {
+          "name": "Arzneimittel",
+          "url": "/de/showroom-cate/arzneimittel-611508"
+        },
+        {
+          "name": "Praxiseinrichtungen",
+          "url": "/de/showroom-cate/praxiseinrichtungen-200711"
+        },
+        {
+          "name": "Kühlkompressen",
+          "url": "/de/showroom-cate/kuehlkompressen-611363"
+        },
+        {
+          "name": "Autopflegemittel",
+          "url": "/de/showroom-cate/autopflegemittel-612970"
+        },
+        {
+          "name": "Pflegewachs",
+          "url": "/de/showroom-cate/pflegewachs-612960"
+        },
+        {
+          "name": "Rollstuhlzubehör",
+          "url": "/de/showroom-cate/rollstuhlzubehoer-611505"
+        },
+        {
+          "name": "Gleitsichtkontaktlinsen",
+          "url": "/de/showroom-cate/gleitsichtkontaktlinsen-611487"
+        },
+        {
+          "name": "Urinteststreifen",
+          "url": "/de/showroom-cate/urinteststreifen-611359"
+        }
+      ],
+      "meta": {
+        "keywords": null,
+        "metaKeywords": "Gesundheit",
+        "title": "Biotechnologien, Institute, Medizinische Dienste in Europages",
+        "site": null,
+        "description": "Suchen Sie nach Unternehmen in der Biotechnologien, Institute, Medizinische Dienste in EUROPAGES in Europa",
+        "canonicalUrl": null,
+        "h1": null,
+        "alternates": null,
+        "index": null,
+        "follow": null
+      }
+    }
+  }
+}

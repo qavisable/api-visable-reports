@@ -1,0 +1,3018 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 1022,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 05:52:19 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "algBts": "",
+      "returnCount": 30,
+      "offerInfo": "productId=2599261#productId=677200#productId=85923#productId=30258#productId=590982#productId=983936#productId=2198700#productId=482151#productId=314404#productId=510288#productId=320035#productId=1273517#productId=26813#productId=717012#productId=179714#productId=677174#productId=1265385#productId=1928173#productId=998216#productId=2736141#productId=2555078#productId=2934985#productId=2777856#productId=2532483#productId=2916498#productId=410594#productId=2265597#productId=2841736#productId=833420#productId=135302",
+      "translateTime": 0,
+      "pageSize": 30,
+      "paging": {
+        "total": 2917,
+        "totalPages": 98,
+        "pageSize": 30,
+        "currentPage": 1
+      },
+      "debugInfo": {},
+      "filters": {
+        "employeesCount": [
+          {
+            "name": "1-4",
+            "count": 858,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "20-49",
+            "count": 691,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "10-19",
+            "count": 429,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "5-9",
+            "count": 314,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "50-99",
+            "count": 265,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "100-199",
+            "count": 108,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "200-499",
+            "count": 70,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "500-999",
+            "count": 58,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "1000+",
+            "count": 12,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "location": {
+          "kind": "",
+          "link": false,
+          "isHiddenFilter": null,
+          "default_radiuses": [
+            "10km",
+            "25km",
+            "50km",
+            "75km",
+            "100km",
+            "125km",
+            "250km"
+          ]
+        },
+        "attributes": [
+          {
+            "code": "400000000",
+            "children": [
+              {
+                "code": "400000000-30000000000",
+                "name": "Metall",
+                "count": 693,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000002",
+                "name": "Edelstahl",
+                "count": 465,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000003",
+                "name": "Aluminium",
+                "count": 461,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000001",
+                "name": "Stahl",
+                "count": 458,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000012",
+                "name": "Kunststoff",
+                "count": 312,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000008",
+                "name": "Messing",
+                "count": 270,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000007",
+                "name": "Kupfer",
+                "count": 230,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000005",
+                "name": "Titan",
+                "count": 166,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000009",
+                "name": "Edelmetall",
+                "count": 137,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000006",
+                "name": "Nickel",
+                "count": 102,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000010",
+                "name": "Gusswerkstoff",
+                "count": 100,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000004",
+                "name": "Magnesium",
+                "count": 65,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000013",
+                "name": "Verbundwerkstoff",
+                "count": 50,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000011",
+                "name": "Holz",
+                "count": 27,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000002131",
+                "name": "Sonstiges",
+                "count": 24,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000016",
+                "name": "Keramik",
+                "count": 20,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000014",
+                "name": "Graphit",
+                "count": 14,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000003606",
+                "name": "Bronze",
+                "count": 7,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000017",
+                "name": "Glas",
+                "count": 6,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000015",
+                "name": "Silizium",
+                "count": 5,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000018",
+                "name": "Stein",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000749",
+                "name": "Thermoplaste",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000780",
+                "name": "Polyethylen-Schaumstoffe",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000779",
+                "name": "Polyurethan-Schaumstoffe",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000778",
+                "name": "Verbundschaumstoffe",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000777",
+                "name": "Viscoschaum",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000776",
+                "name": "Kaltschaum",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000755",
+                "name": "Verbundwerkstoffe",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000754",
+                "name": "Technische Kunststoffe",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000004160",
+                "name": "Blech",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001868",
+                "name": "NE-Metall",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001801",
+                "name": "Pulvermetallurgischer Schnellarbeitsstahl (HSS-E-PM)",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000003671",
+                "name": "Stahlguss",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000753",
+                "name": "Hochleistungskunststoffe",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000752",
+                "name": "Kautschuk und Gummi",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000751",
+                "name": "Silikone (LSR)",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000750",
+                "name": "Schaumstoffe",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000748",
+                "name": "Elastomere",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000747",
+                "name": "Duroplaste",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000004666",
+                "name": "Werkzeugstahl",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001798",
+                "name": "Vollhartmetall (VHM)",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000063611",
+                "name": "Edelstahl V2A",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000135",
+                "name": "Gusseisen",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Material",
+            "count": 1060,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000002",
+            "children": [
+              {
+                "code": "400000002-30000000024",
+                "name": "Einzelteile",
+                "count": 606,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000025",
+                "name": "Kleinserie",
+                "count": 590,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000026",
+                "name": "Mittelserie",
+                "count": 455,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000023",
+                "name": "Prototypen",
+                "count": 390,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000027",
+                "name": "Großserie",
+                "count": 363,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Losgröße",
+            "count": 909,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000003",
+            "children": [
+              {
+                "code": "400000003-30000000053",
+                "name": "Schleifen",
+                "count": 276,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000051",
+                "name": "Entgraten",
+                "count": 195,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000040",
+                "name": "Härten",
+                "count": 182,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000054",
+                "name": "Polieren",
+                "count": 170,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000037",
+                "name": "Eloxieren",
+                "count": 167,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000028",
+                "name": "Verzinken",
+                "count": 164,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000045",
+                "name": "Lackieren",
+                "count": 160,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000048",
+                "name": "Gravieren",
+                "count": 149,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000034",
+                "name": "Brünieren",
+                "count": 147,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000050",
+                "name": "Strahlen",
+                "count": 140,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000049",
+                "name": "Lasergravieren",
+                "count": 136,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000046",
+                "name": "Pulverbeschichtung",
+                "count": 130,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000030",
+                "name": "Vernickeln",
+                "count": 123,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000029",
+                "name": "Verchromen",
+                "count": 118,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000041",
+                "name": "Nitrieren",
+                "count": 115,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000052",
+                "name": "Trowalisieren",
+                "count": 112,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000036",
+                "name": "Passivieren",
+                "count": 95,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000038",
+                "name": "Chromatieren",
+                "count": 90,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000043",
+                "name": "Nitrocarburieren",
+                "count": 74,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000044",
+                "name": "Beizen",
+                "count": 74,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000035",
+                "name": "Phosphatieren",
+                "count": 72,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000031",
+                "name": "Verzinnen",
+                "count": 71,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000055",
+                "name": "Elektropolieren",
+                "count": 71,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000042",
+                "name": "Carbonitrieren",
+                "count": 70,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000032",
+                "name": "Verkupfern",
+                "count": 60,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000033",
+                "name": "Vergolden",
+                "count": 50,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000047",
+                "name": "Bedrucken",
+                "count": 50,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000039",
+                "name": "Mit Kunststoff beschichten",
+                "count": 48,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Weiterführende Behandlung",
+            "count": 721,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000001",
+            "children": [
+              {
+                "code": "400000001-30000000021",
+                "name": "Mittel",
+                "count": 477,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000000020",
+                "name": "Klein",
+                "count": 386,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000000022",
+                "name": "Groß",
+                "count": 303,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000000019",
+                "name": "Mikro",
+                "count": 132,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000003476",
+                "name": "Mittelgroß",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Werkstückgröße",
+            "count": 612,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000497",
+            "children": [
+              {
+                "code": "400000497-30000007493",
+                "name": "CNC-Langdrehmaschinen",
+                "count": 9,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007503",
+                "name": "CNC-Wasserstrahlschneidemaschinen",
+                "count": 8,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007494",
+                "name": "CNC-Horizontaldrehmaschinen",
+                "count": 7,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007455",
+                "name": "CNC-Portalfräsmaschinen",
+                "count": 7,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007497",
+                "name": "Karusselldrehmaschinen",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007496",
+                "name": "CNC-Revolverdrehmaschinen",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007452",
+                "name": "CNC-Universalfräsmaschinen",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007506",
+                "name": "CNC-Tafelscheren",
+                "count": 3,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007742",
+                "name": "CNC-Maschinen",
+                "count": 3,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007530",
+                "name": "CNC-Drahterodiermaschinen",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007532",
+                "name": "CNC-Startlocherodiermaschinen",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007508",
+                "name": "CNC-Schneidzentren",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007465",
+                "name": "Fahrständerfräsmaschinen",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007495",
+                "name": "CNC-Vertikaldrehmaschinen",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007498",
+                "name": "CNC-Plandrehmaschinen",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007488",
+                "name": "Universalfräsmaschinen",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007522",
+                "name": "CNC-Bandsägemaschinen",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007473",
+                "name": "CNC-Rauting-Fräsmaschinen",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007467",
+                "name": "CNC-Tischfräsmaschinen",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000497-30000007505",
+                "name": "CNC-Laserschneidmaschinen",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Maschinentyp",
+            "count": 62,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "countries": [
+          {
+            "code": "DE",
+            "name": "Deutschland",
+            "count": 2632,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "CH",
+            "name": "Schweiz",
+            "count": 145,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "AT",
+            "name": "Österreich",
+            "count": 125,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "ES",
+            "name": "Spanien",
+            "count": 5,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "TR",
+            "name": "Türkei",
+            "count": 3,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "IT",
+            "name": "Italien",
+            "count": 2,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "CZ",
+            "name": "Tschechien",
+            "count": 2,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "NL",
+            "name": "Niederlande",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "FR",
+            "name": "Frankreich",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "CN",
+            "name": "China",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "categories": [
+          {
+            "code": "200136",
+            "name": "Zerspanen",
+            "count": 1277,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "601601",
+            "name": "CNC-Fertigung",
+            "count": 162,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200067",
+            "name": "CNC-Maschinen",
+            "count": 157,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "601951",
+            "name": "Lohnvermahlung",
+            "count": 137,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200160",
+            "name": "Metallbearbeitung",
+            "count": 101,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200879",
+            "name": "Werkzeugbau",
+            "count": 87,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "601597",
+            "name": "Lohnfertigung",
+            "count": 85,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200146",
+            "name": "Umformen",
+            "count": 69,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200068",
+            "name": "Fräsmaschinen",
+            "count": 58,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "300119",
+            "name": "Präzisionsteile",
+            "count": 53,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200069",
+            "name": "Drehmaschinen",
+            "count": 51,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200153",
+            "name": "Laserbearbeitung",
+            "count": 32,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200141",
+            "name": "Schneiden & Zuschnitte",
+            "count": 32,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "supplierType": [
+          {
+            "code": "production",
+            "name": "Hersteller/Fabrikant",
+            "count": 1822,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "customerSpecificManufacturing",
+            "name": "Kundenspezifische Fertigung",
+            "count": 318,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "distribution",
+            "name": "Lieferant",
+            "count": 478,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "service",
+            "name": "Dienstleister",
+            "count": 2004,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "wholesaler",
+            "name": "Großhändler",
+            "count": 225,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "audits": [
+          {
+            "name": "verified",
+            "count": 441,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "top_responder",
+            "count": 270,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "price": {
+          "priceDistributions": null,
+          "original_maxPrice": "1300001",
+          "minPrice": null,
+          "original_minPrice": "0",
+          "maxPrice": null,
+          "original_priceDistributions": null,
+          "newPriceDistributions": [
+            {
+              "minPrice": 0,
+              "count": 46,
+              "maxPrice": 5
+            },
+            {
+              "minPrice": 5,
+              "count": 34,
+              "maxPrice": 30
+            },
+            {
+              "minPrice": 30,
+              "count": 46,
+              "maxPrice": 100
+            },
+            {
+              "minPrice": 100,
+              "count": 44,
+              "maxPrice": 750
+            },
+            {
+              "minPrice": 750,
+              "count": 60,
+              "maxPrice": 0
+            }
+          ],
+          "validPriceCount": 220
+        },
+        "vcategoryList": null
+      },
+      "offerIds": "2599261#677200#85923#30258#590982#983936#2198700#482151#314404#510288#320035#1273517#26813#717012#179714#677174#1265385#1928173#998216#2736141#2555078#2934985#2777856#2532483#2916498#410594#2265597#2841736#833420#135302",
+      "totalCount": 2917,
+      "products": [
+        {
+          "uuid": "e900e1bc-8187-49b8-a70b-a4219728c356",
+          "slug": "einzelteilfertigung-aluminium-stahlteile-flexibel-bei-ams-suhl-36419545",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e6e1ba0c-b3db-11f0-9f02-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e6e1ba0c-b3db-11f0-9f02-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/081fd101-b4ba-11f0-b72a-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/dcff34d8-b3db-11f0-9652-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "Einzelteilfertigung Aluminium‑ & Stahlteile – Flexibel bei AMS Suhl",
+          "price": {
+            "currency": "EUR",
+            "min": 1,
+            "max": null
+          },
+          "company": {
+            "uuid": "6c9e9ffa-d3a0-43c5-b890-5cb268e878ec",
+            "name": "Advanced Mold Solution Inh.  Daniel Bastam / Jingjing Zhang",
+            "slug": "advanced-mold-solution-inh-daniel-bastam-jingjing-zhang-22338520",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22338520",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/a0527696-10ed-40fb-b670-4ff1e3cbbf82.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "2025",
+            "icbu_company_id": "137998301",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36419545",
+          "company_slug": "advanced-mold-solution-inh-daniel-bastam-jingjing-zhang-22338520",
+          "company_uuid": "6c9e9ffa-d3a0-43c5-b890-5cb268e878ec",
+          "is_showcased": "1",
+          "description": "Wenn Sie einzelne Aluminium‑ oder Stahlteile benötigen – flexibel, präzise und termingerecht – ist AMS in Suhl Ihr Ansprechpartner. Wir fertigen Einze...",
+          "minimum_order_quantity": {
+            "unit": "flat_rate",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "top_ranking",
+          "auction_id": 2599261,
+          "rank_score_info": "pG:9.0,rankS:5.025409903679619E10,cate_match:0.0,text_match:0.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:5.0,top_ranking_v2:5.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.6098936796188354,human_group:-1.0,relematch_bert_v2:0.5977839827537537,group_identify:1.0,rel_group_variable:5.025409903679619E10",
+          "relevanceType": null,
+          "sell_points": [
+            "Präzise Einzelteile nach Zeichnung",
+            "Flexibel von Prototyp bis Kleinserie",
+            "Transparente Kostenstruktur"
+          ]
+        },
+        {
+          "uuid": "76c51736-d196-51c7-afa5-c5241cbbf74a",
+          "slug": "cnc-fertigung-fraesen-33409785",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d34d9c49-1bf5-11ee-9e06-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d34d9c49-1bf5-11ee-9e06-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC-Fertigung / Fräsen",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d26a381177fb",
+            "name": "D + E GmbH",
+            "slug": "d-e-gmbh-1606813",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "1606813",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/c1704678-0482-4707-9010-88bdff1a1f5c.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "00000005066616-001",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "2009",
+            "icbu_company_id": "829039",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "33409785",
+          "company_slug": "d-e-gmbh-1606813",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d26a381177fb",
+          "is_showcased": "1",
+          "description": "Wir sind Spezialisten für die Lohnfertigung kleiner bis mittlerer Stückzahlen. Und wir meistern mit unseren CNC Fräsen u komplexe Aufgaben und anspruc...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "top_ranking",
+          "auction_id": 677200,
+          "rank_score_info": "pG:7.0,rankS:3.046713352297077E10,cate_match:1.0,text_match:0.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:3.0,top_ranking_v2:3.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.913342297077179,human_group:-1.0,relematch_bert_v2:0.8045594692230225,group_identify:2.0,rel_group_variable:3.046713352297077E10",
+          "relevanceType": null,
+          "sell_points": [
+            "Maßgeschneiderte CNC-Lösungen",
+            "Flexibel, präzise & effizient",
+            "Spezialmaterialien meisterhaft verarbeitet"
+          ]
+        },
+        {
+          "uuid": "d921b544-f5b0-5a25-8c42-a98a1fefa2d9",
+          "slug": "cnc-technik-26539475",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/3ac45605-4fee-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/3ac45605-4fee-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC-Technik",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1eea-a3f3-44131859b7fd",
+            "name": "SAMEKO Präzisionsteile GmbH",
+            "slug": "sameko-praezisionsteile-gmbh-1914710",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "1914710",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/f0550876-d62a-4018-9567-3f2e20507b6a.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "00000005389141-001",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "",
+            "icbu_company_id": "15532",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "26539475",
+          "company_slug": "sameko-praezisionsteile-gmbh-1914710",
+          "company_uuid": "00505682-f25b-1eea-a3f3-44131859b7fd",
+          "is_showcased": "1",
+          "description": "Die präzise Voreinstellung und Vermessung aller Werkzeuge für den Einsatz auf modernen CNC-Bearbeitungsmaschinen ermöglichen eine gleichbleibende Qual...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "top_ranking",
+          "auction_id": 85923,
+          "rank_score_info": "pG:6.0,rankS:2.046647381816635E10,cate_match:1.0,text_match:0.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:2.0,top_ranking_v2:2.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8473718166351318,human_group:-1.0,relematch_bert_v2:0.6872103214263916,group_identify:2.0,rel_group_variable:2.046647381816635E10",
+          "relevanceType": null,
+          "sell_points": [
+            "Höchste Präzision in der Fertigung",
+            "Rationelle & termingenaue Produktion",
+            "Optimierte NC-Programmierung"
+          ]
+        },
+        {
+          "uuid": "f4510f0f-6730-508c-89ab-7893cccea260",
+          "slug": "5-achs-cnc-fertigung-7661608",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/1b6b0ab7-4ff8-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/1b6b0ab7-4ff8-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "5-Achs CNC Fertigung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d257255df7fb",
+            "name": "Kamphausen GmbH",
+            "slug": "kamphausen-gmbh-498665",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "498665",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/d5fdf1ba-215d-4b7c-8c42-db96e9ee12d7.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 9,
+            "ep_id": "00000004797229-001",
+            "country_code": "DE",
+            "average_response_time": "from_48h_to_72h",
+            "founding_year": "1960",
+            "icbu_company_id": "12822",
+            "ep_slug": "",
+            "response_rate": "0.96"
+          },
+          "slug_id": "7661608",
+          "company_slug": "kamphausen-gmbh-498665",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d257255df7fb",
+          "is_showcased": "1",
+          "description": "5-Achs CNC Fertigung...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 30258,
+          "rank_score_info": "pG:4.0,rankS:6.875131325042725E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9513082504272461,human_group:3.0,relematch_bert_v2:0.7219392657279968,group_identify:3.0,rel_group_variable:6.875131325042725E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Komplexe 5-Achs-Bearbeitung",
+            "Effiziente CNC-Produktion",
+            "Hochgenaue Fertigung"
+          ]
+        },
+        {
+          "uuid": "b42389aa-4909-59e3-81be-cf89c054874f",
+          "slug": "5-achs-cnc-fraesmaschine-g-s-fmk-cnc-bearbeitungszentrum-hg-grimme-systech-23581499",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fc9e17e2-dea3-11ed-b2c7-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fc9e17e2-dea3-11ed-b2c7-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fcc9d912-dea3-11ed-b9d4-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fcf28438-dea3-11ed-be58-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fd2fdba6-dea3-11ed-bb58-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fd621e13-dea3-11ed-b96f-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fd96c2cb-dea3-11ed-a299-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/fdcc9bf8-dea3-11ed-b5a8-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "5-Achs CNC-Fräsmaschine  G-S-F/MK  | CNC Bearbeitungszentrum | HG GRIMME SysTech",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d257bb2817fb",
+            "name": "HG GRIMME SysTech GmbH",
+            "slug": "hg-grimme-systech-gmbh-322902",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "322902",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/b5b1ed69-6d71-4646-b7d5-56b0c1e23243.gif",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 2,
+            "ep_id": "00000005236051-554966001",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1987",
+            "icbu_company_id": "170715",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "23581499",
+          "company_slug": "hg-grimme-systech-gmbh-322902",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d257bb2817fb",
+          "is_showcased": "1",
+          "description": "CNC Maschine für Modellbauwerkstoffe und Aluminium. 5-Achsen-Fräskopf mit direktem Messsystem und extrem stabiler Schweißkonstruktion, Tischbeladung m...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 590982,
+          "rank_score_info": "pG:4.0,rankS:6.873835025346756E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9383452534675598,human_group:3.0,relematch_bert_v2:0.4447154998779297,group_identify:3.0,rel_group_variable:6.873835025346756E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "5-Achsen-Fräskopf für präzise Bearbeitung",
+            "Tischbeladung bis 3500 kg, extrem stabil",
+            "Gantry-Drive System für höchste Präzision"
+          ]
+        },
+        {
+          "uuid": "315e38fc-696a-5cf2-aa5d-41af7a68ae7b",
+          "slug": "cnc-5-achsen-fraesteile-fraesbearbeitung-24929687",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/acf02aa0-dea7-11ed-94bc-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/acf02aa0-dea7-11ed-94bc-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC 5-Achsen Frästeile, Fräsbearbeitung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d2517cd9b7fb",
+            "name": "Weinmann GmbH",
+            "slug": "weinmann-gmbh-617450",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "617450",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/57654c6c-35e9-4afa-a8f0-707f5f6cd8ed.gif",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 8,
+            "ep_id": "00000004810083-001",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1985",
+            "icbu_company_id": "172241",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "24929687",
+          "company_slug": "weinmann-gmbh-617450",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d2517cd9b7fb",
+          "is_showcased": "1",
+          "description": "Effiziente 5-Achs-Fräsbearbeitung  durch Automatisierte Bearbeitungszentren durch Einssatz von Palettenwechsler, Palettenspeicher, Zusatzmagazine und ...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 983936,
+          "rank_score_info": "pG:4.0,rankS:6.870835224903107E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9083472490310669,human_group:3.0,relematch_bert_v2:0.5199631452560425,group_identify:3.0,rel_group_variable:6.870835224903107E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Automatisierte 5-Achs-Fräsbearbeitung",
+            "Effizient durch Palettenwechsler",
+            "Erweiterte Kapazität mit Speicher"
+          ]
+        },
+        {
+          "uuid": "b326734d-4415-42fc-97a3-d0d726a4a77f",
+          "slug": "cnc-metallbearbeitung-praezision-und-effizienz-in-perfektion-36066055",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/6b66f37b-4fe1-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/6b66f37b-4fe1-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/6c32c4c7-4fe1-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Metallbearbeitung – Präzision und Effizienz in Perfektion",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d257bd4597fb",
+            "name": "ASTI Gießereigeräte GmbH",
+            "slug": "asti-giessereigeraete-gmbh-333628",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "333628",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/e046a314-18b2-46a4-a121-9fba7c1d1af5.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "1968",
+            "icbu_company_id": "211821",
+            "ep_slug": "",
+            "response_rate": "0.33"
+          },
+          "slug_id": "36066055",
+          "company_slug": "asti-giessereigeraete-gmbh-333628",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d257bd4597fb",
+          "is_showcased": "1",
+          "description": "Die CNC Metallbearbeitung der Asti Gießereigeräte GmbH steht für höchste Präzision, Effizienz und Qualität in der modernen Fertigungstechnik. Mit eine...",
+          "minimum_order_quantity": {
+            "unit": "flat_rate",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 2198700,
+          "rank_score_info": "pG:4.0,rankS:6.870039067781448E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9003856778144836,human_group:3.0,relematch_bert_v2:0.7687332034111023,group_identify:3.0,rel_group_variable:6.870039067781448E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Höchste Präzision bei Metallbearbeitung",
+            "Kurze Durchlaufzeiten, hohe Effizienz",
+            "Individuelle Anpassung an Kundenanforderungen"
+          ]
+        },
+        {
+          "uuid": "174668c4-a8b0-5f21-9f21-08272da25666",
+          "slug": "cnc-metallbearbeitung-33405810",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/4a883010-4fa9-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/4a883010-4fa9-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Metallbearbeitung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d251797e57fb",
+            "name": "Werkstätten Karthaus",
+            "slug": "werkstaetten-karthaus-671438",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "671438",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/f12aa867-44d3-499b-b2e7-aae6414612a7.jpeg",
+            "emailExisting": true,
+            "distribution_area": "national",
+            "certificates_count": 2,
+            "ep_id": "00000005413059-001",
+            "country_code": "DE",
+            "average_response_time": "less_than_24h",
+            "founding_year": "1977",
+            "icbu_company_id": "14078",
+            "ep_slug": "",
+            "response_rate": "0.86"
+          },
+          "slug_id": "33405810",
+          "company_slug": "werkstaetten-karthaus-671438",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d251797e57fb",
+          "is_showcased": "1",
+          "description": "Arbeiten an der CNC-Maschine\n\nDrehmaschine Durchmessern 100 mm und Länge 100 mm CNC-Fertigungstechnik,\r\nMetall ist unser Metier. Klassische Metallvera...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 482151,
+          "rank_score_info": "pG:4.0,rankS:6.869266812122345E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8926631212234497,human_group:3.0,relematch_bert_v2:0.7690802216529846,group_identify:3.0,rel_group_variable:6.869266812122345E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Präzise CNC-Fertigungstechnik",
+            "Vielseitige Metallverarbeitung",
+            "Hochtechnologische Werkzeugmaschinen"
+          ]
+        },
+        {
+          "uuid": "c51abf87-9797-5b3d-9540-876d448b44a2",
+          "slug": "cnc-drehen-25240249",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/7d8a8d3f-dea7-11ed-b7ac-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/7d8a8d3f-dea7-11ed-b7ac-0a58a9feac02.png"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Drehen",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d25a696417fb",
+            "name": "Häuser + Renner KG",
+            "slug": "haeuser-renner-kg-273411",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "273411",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/b8a517ab-123b-4651-8889-2d59806a8c3f.jpeg",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 3,
+            "ep_id": "00000005382400-001",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1949",
+            "icbu_company_id": "892330",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "25240249",
+          "company_slug": "haeuser-renner-kg-273411",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d25a696417fb",
+          "is_showcased": "1",
+          "description": "4 OKUMA-LB-Drehmaschinen \u000bfür 2-Achs-Drehen\r\n1 OKUMA-LU-Drehmaschine \u000bfür 4-Achs-Drehen\r\n\n\nCNC-DREHEN\r\n\r\nHorizontales und vertikales CNC-Drehen mit an...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 314404,
+          "rank_score_info": "pG:4.0,rankS:6.869105736530304E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8910523653030396,human_group:3.0,relematch_bert_v2:0.8005360960960388,group_identify:3.0,rel_group_variable:6.869105736530304E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "2- und 4-Achs-Drehen mit OKUMA",
+            "Hochgenaue Bearbeitung 8-250mm",
+            "Angetriebene Werkzeuge für Bohr/Fräse"
+          ]
+        },
+        {
+          "uuid": "b243963b-7e6d-5f3e-8c1f-f73c76b3b5ab",
+          "slug": "5-achs-cnc-fertigung-7661604",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/139a3e54-de97-11ed-a48e-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/139a3e54-de97-11ed-a48e-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "5-Achs CNC Fertigung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d257255df7fb",
+            "name": "Kamphausen GmbH",
+            "slug": "kamphausen-gmbh-498665",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "498665",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/d5fdf1ba-215d-4b7c-8c42-db96e9ee12d7.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 9,
+            "ep_id": "00000004797229-001",
+            "country_code": "DE",
+            "average_response_time": "from_48h_to_72h",
+            "founding_year": "1960",
+            "icbu_company_id": "12822",
+            "ep_slug": "",
+            "response_rate": "0.96"
+          },
+          "slug_id": "7661604",
+          "company_slug": "kamphausen-gmbh-498665",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d257255df7fb",
+          "is_showcased": "1",
+          "description": "5-Achs CNC Fertigung...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 510288,
+          "rank_score_info": "pG:4.0,rankS:6.875131331003189E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9513083100318909,human_group:3.0,relematch_bert_v2:0.7219392657279968,group_identify:3.0,rel_group_variable:6.875131331003189E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Höchste Präzision & Effizienz",
+            "Komplexe Bauteile in einem Arbeitsgang",
+            "Flexibilität für individuelle Anforderungen"
+          ]
+        },
+        {
+          "uuid": "c6f5fdec-9151-5d6b-aee5-ab1b9d7776e0",
+          "slug": "5-achs-cnc-fraesmaschine-gantry-mit-shuttletisch-g-s-fs-und-g-t-fs-gantry-hg-grimme-systech-26563924",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bbe606da-dea8-11ed-a77b-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bbe606da-dea8-11ed-a77b-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bc8432f0-dea8-11ed-b96f-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bce0a7da-dea8-11ed-be58-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bcb6a138-dea8-11ed-9506-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bd047189-dea8-11ed-9ffb-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bc56f2af-dea8-11ed-9ffb-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bc39ec59-dea8-11ed-9ffb-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "5-Achs CNC Fräsmaschine Gantry mit Shuttletisch G-S-F/S und G-T-F/S | Gantry|  HG GRIMME SysTech",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d257bb2817fb",
+            "name": "HG GRIMME SysTech GmbH",
+            "slug": "hg-grimme-systech-gmbh-322902",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "322902",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/b5b1ed69-6d71-4646-b7d5-56b0c1e23243.gif",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 2,
+            "ep_id": "00000005236051-554966001",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1987",
+            "icbu_company_id": "170715",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "26563924",
+          "company_slug": "hg-grimme-systech-gmbh-322902",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d257bb2817fb",
+          "is_showcased": "1",
+          "description": "CNC Bearbeitungszentrum für die Fräsbearbeitung von Verbundwerkstoffen/Composites, Kunststoffen, Modellbauwerkstoffen und Aluminium. \n\nCNC 5-achs Fräs...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 320035,
+          "rank_score_info": "pG:4.0,rankS:6.873464725530624E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9346422553062439,human_group:3.0,relematch_bert_v2:0.42638128995895386,group_identify:3.0,rel_group_variable:6.873464725530624E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Hochpräzise 5-Achs-Fräsmaschine",
+            "Flexibel einsetzbar, vielfältige Werkstoffe",
+            "Schnelle Beladung durch Shuttletisch"
+          ]
+        },
+        {
+          "uuid": "8417edd0-ec65-42f9-9083-c5f4ec7c1b46",
+          "slug": "cnc-fraesen-35206895",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/9c1959d1-5005-11ef-a567-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/9c1959d1-5005-11ef-a567-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a0c0c3bc-5005-11ef-9ae4-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/9f177fdb-5005-11ef-819e-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Fräsen",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d2ac14aeb7fb",
+            "name": "Kurt Wüst AG",
+            "slug": "kurt-wuest-ag-588040",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "588040",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/43234beb-941e-407c-bbf7-fc7616b29d0f.png",
+            "emailExisting": true,
+            "distribution_area": "national",
+            "certificates_count": 2,
+            "ep_id": "00000005343220-001",
+            "country_code": "CH",
+            "average_response_time": "more_than_72h",
+            "founding_year": "1982",
+            "icbu_company_id": "4738661",
+            "ep_slug": "",
+            "response_rate": "0.44"
+          },
+          "slug_id": "35206895",
+          "company_slug": "kurt-wuest-ag-588040",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d2ac14aeb7fb",
+          "is_showcased": "1",
+          "description": "Von einfachen Frästeilen bis zu komplexen Werkstücken können wir für Sie alles herstellen. Dank unserem vielseitigen Maschinenpark können wir flexibel...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 1273517,
+          "rank_score_info": "pG:4.0,rankS:6.868360070503235E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8835957050323486,human_group:3.0,relematch_bert_v2:0.780662477016449,group_identify:3.0,rel_group_variable:6.868360070503235E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Flexibel für alle Werkstücke",
+            "Genauigkeit mit 5-Achsen-Technik",
+            "Perfekt für Serienproduktion"
+          ]
+        },
+        {
+          "uuid": "f3924421-3fea-5825-ad07-527ff818e509",
+          "slug": "cnc-praezisionsteile-26173007",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/411e6ee1-dea8-11ed-be58-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/411e6ee1-dea8-11ed-be58-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/414a07bf-dea8-11ed-9404-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Präzisionsteile",
+          "price": {
+            "currency": "EUR",
+            "min": 0.1,
+            "max": 300
+          },
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d26278a777fb",
+            "name": "P+V GmbH",
+            "slug": "pv-gmbh-425055",
+            "email": "",
+            "indexable": false,
+            "is_customer": false,
+            "company_id": "425055",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/b8d1aa12-d9d7-415e-aef9-2b60b210a754.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 5,
+            "ep_id": "00000005318927-001",
+            "country_code": "DE",
+            "average_response_time": "more_than_72h",
+            "founding_year": "1990",
+            "icbu_company_id": "14930",
+            "ep_slug": "",
+            "response_rate": "0.74"
+          },
+          "slug_id": "26173007",
+          "company_slug": "pv-gmbh-425055",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d26278a777fb",
+          "is_showcased": "1",
+          "description": "Lohnfertigung von CNC Präzisionsteilen wie Drehteile und Frästeile hergestellt auf CNC gesteuerten Maschinen. Verarbeitet werden Edelstahl, Stahl, Mes...",
+          "minimum_order_quantity": {
+            "unit": "piece",
+            "value": "30"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 26813,
+          "rank_score_info": "pG:4.0,rankS:6.77485347203064E8,cate_match:0.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9485297203063965,human_group:3.0,relematch_bert_v2:0.5210446715354919,group_identify:3.0,rel_group_variable:6.77485347203064E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Hochpräzise Fertigung nach Maß",
+            "Verschiedene Materialien verarbeitet",
+            "Individuelle Lösungen für Kunden"
+          ]
+        },
+        {
+          "uuid": "960fd9ed-764e-5a6e-8c42-3d44057a771d",
+          "slug": "cnc-fertigung-123931",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/358c4b8f-de8e-11ed-88b6-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/358c4b8f-de8e-11ed-88b6-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/363d0726-de8e-11ed-b168-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/362dc7b6-de8e-11ed-b0bb-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/360c4ba6-de8e-11ed-9167-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/35e94070-de8e-11ed-b0bb-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/35dba5cb-de8e-11ed-88b6-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/35b6d05a-de8e-11ed-8de7-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC – Fertigung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d257bd5157fb",
+            "name": "Blista-Brailletec gGmbH",
+            "slug": "blista-brailletec-ggmbh-348844",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "348844",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/20e10723-051f-45b0-aaac-e662b12f062c.jpeg",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "00000005319404-001",
+            "country_code": "DE",
+            "average_response_time": "from_48h_to_72h",
+            "founding_year": "1983",
+            "icbu_company_id": "18737",
+            "ep_slug": "",
+            "response_rate": "0.56"
+          },
+          "slug_id": "123931",
+          "company_slug": "blista-brailletec-ggmbh-348844",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d257bd5157fb",
+          "is_showcased": "1",
+          "description": "In unserem Fertigungszentrum verarbeiten wir alle gängigen Stahl, NE-Metalle und Kunststoffe in einem Arbeitsbereich von 550 x 300 mm. Wir fertigen Fr...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 717012,
+          "rank_score_info": "pG:4.0,rankS:6.774321029699326E8,cate_match:0.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9432052969932556,human_group:3.0,relematch_bert_v2:0.7375364303588867,group_identify:3.0,rel_group_variable:6.774321029699326E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Breites Materialportfolio verarbeitbar",
+            "Flexibilität durch Einzel- und Serienfertigung",
+            "Großer Arbeitsbereich von 550x300mm"
+          ]
+        },
+        {
+          "uuid": "bd02c07f-fe28-50bd-8996-dbc2e2e80f41",
+          "slug": "cnc-zerspanung-23716639",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f3fdb9cd-dea3-11ed-b96f-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f3fdb9cd-dea3-11ed-b96f-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f4913363-dea3-11ed-8649-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f4d44a42-dea3-11ed-b96f-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f598176f-dea3-11ed-8d7a-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f5eb46cd-dea3-11ed-bb58-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f676c9cf-dea3-11ed-bb58-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC – Zerspanung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d2568be4d7fb",
+            "name": "Rieger Kunststoffverarbeitung GmbH",
+            "slug": "rieger-kunststoffverarbeitung-gmbh-430782",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "430782",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/8fb41b49-7066-4f38-9faa-66ff5c04fba9.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 3,
+            "ep_id": "00000005360727-001",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1961",
+            "icbu_company_id": "258067",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "23716639",
+          "company_slug": "rieger-kunststoffverarbeitung-gmbh-430782",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d2568be4d7fb",
+          "is_showcased": "1",
+          "description": "Wir drehen und fräsen Werkstücke mit einfacher bis hin zu komplexer Geometrie aus allen zerspanbaren Kunststoffen. 5- Achs-Maschine, X-, Y-, Z- Achse ...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 179714,
+          "rank_score_info": "pG:4.0,rankS:6.769513879335403E8,cate_match:0.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8951337933540344,human_group:3.0,relematch_bert_v2:0.7942253947257996,group_identify:3.0,rel_group_variable:6.769513879335403E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Genauigkeit in 5-Achsen-Technik",
+            "Breites Materialspektrum, maßgeschneidert",
+            "Große Spannflächen bis 1000x1200mm"
+          ]
+        },
+        {
+          "uuid": "77c32aa1-186c-5f8b-9e55-0ec60e660502",
+          "slug": "hochpraezise-cnc-fraesteile-sbs-tech-ihr-innovationspartner-33434738",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/67c5b581-4fcf-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/67c5b581-4fcf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/6a0d78b6-4fcf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/69ab2cd2-4fcf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/69389270-4fcf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/68807ac6-4fcf-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "Hochpräzise CNC Frästeile – SBS TECH, Ihr Innovationspartner",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d2517a4d77fb",
+            "name": "SBS TECH GmbH",
+            "slug": "sbs-tech-gmbh-612363",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "612363",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/1bc5c027-e1bc-4b18-b8f0-e34045af5a2c.jpeg",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 3,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1985",
+            "icbu_company_id": "31838",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "33434738",
+          "company_slug": "sbs-tech-gmbh-612363",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d2517a4d77fb",
+          "is_showcased": "1",
+          "description": "Entdecken Sie hochmoderne 5 Achs CNC-Frästeile von SBS TECH. Von der Idee bis zum Produkt – Präzision, Innovation und Qualität in jeder Phase. Erfahre...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 677174,
+          "rank_score_info": "pG:4.0,rankS:6.473856161153793E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_verified:0.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9385566115379333,human_group:3.0,relematch_bert_v2:0.5788053274154663,group_identify:3.0,rel_group_variable:6.473856161153793E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Hochpräzision und Effizienz durch 5-Achs-CNC",
+            "Breites Material Know-how, flexible Lösungen",
+            "Zertifizierter ISO-5-Reinraum für Partikelfreiheit"
+          ]
+        },
+        {
+          "uuid": "7f6687ac-b2ed-4acb-9d7a-61ed7ae619dd",
+          "slug": "generalueberholte-abene-vhf-360-cnc-fraesmaschine-von-acroloc-effizienz-und-praezision-in-der-metallbearbeitung-35185867",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/97416021-33b5-11ef-a761-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/97416021-33b5-11ef-a761-0a58a9feac02.png"
+            }
+          ],
+          "language": "de",
+          "name": "Generalüberholte ABENE VHF-360 CNC Fräsmaschine von ACROLOC – Effizienz und Präzision in der Metallbearbeitung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d2aae25537fb",
+            "name": "ACROLOC Werkzeugmaschinen Ing. Spanagel GmbH",
+            "slug": "acroloc-werkzeugmaschinen-ing-spanagel-gmbh-989244",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "989244",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/24afc40f-b1c6-424c-a533-b1766c9d11cb.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "",
+            "icbu_company_id": "4427153",
+            "ep_slug": "",
+            "response_rate": "1.00"
+          },
+          "slug_id": "35185867",
+          "company_slug": "acroloc-werkzeugmaschinen-ing-spanagel-gmbh-989244",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d2aae25537fb",
+          "is_showcased": "1",
+          "description": "Die ABENE VHF-360 CNC ist eine hochmoderne Fräsmaschine, die speziell für anspruchsvolle Bearbeitungsaufgaben in der Metallbearbeitung entwickelt wurd...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 1265385,
+          "rank_score_info": "pG:4.0,rankS:6.4688257556324E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_verified:0.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8882525563240051,human_group:3.0,relematch_bert_v2:0.6013009548187256,group_identify:3.0,rel_group_variable:6.4688257556324E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Hochpräzise Bearbeitung, minimale Toleranzen",
+            "Robust und langlebig, reduzierte Vibrationen",
+            "Kosteneffizient, wie neu aufbereitet"
+          ]
+        },
+        {
+          "uuid": "5d9fa8aa-7fec-4905-a866-2e7fce72a726",
+          "slug": "cnc-fraesen-35820149",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0961f3c8-4fc8-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0961f3c8-4fc8-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Fräsen",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d2825b99b7fb",
+            "name": "WiMa Plexiglas- Verarbeitung Inh. Andreas Kempf",
+            "slug": "wima-plexiglas-verarbeitung-inh-andreas-kempf-1520634",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "1520634",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/5d59429c-57a1-4644-aa8b-3b9ac6c42d7a.png",
+            "emailExisting": true,
+            "distribution_area": "national",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1986",
+            "icbu_company_id": "1165030",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "35820149",
+          "company_slug": "wima-plexiglas-verarbeitung-inh-andreas-kempf-1520634",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d2825b99b7fb",
+          "is_showcased": "1",
+          "description": "Das CNC Fräsen ist eine der fortschrittlichsten und präzisesten Methoden zur Bearbeitung von Materialien wie PLEXIGLAS®, Acrylglas und vielen weiteren...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 1928173,
+          "rank_score_info": "pG:4.0,rankS:6.468419561899185E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_verified:0.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8841906189918518,human_group:3.0,relematch_bert_v2:0.6232622265815735,group_identify:3.0,rel_group_variable:6.468419561899185E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Höchste Präzision & Flexibilität",
+            "Schnelle, effiziente Produktion",
+            "Makellose Oberflächen & Kanten"
+          ]
+        },
+        {
+          "uuid": "40922418-7ab6-5944-84f0-c396ff054096",
+          "slug": "cnc-5-achsen-fraesteile-sbs-tech-praezision-und-innovation-vereint-33454264",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0e6c69f2-8dd7-11ee-b9d5-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0e6c69f2-8dd7-11ee-b9d5-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/56acf189-8dde-11ee-b9d5-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC 5 Achsen Frästeile – SBS TECH: Präzision und Innovation vereint",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d2517a4d77fb",
+            "name": "SBS TECH GmbH",
+            "slug": "sbs-tech-gmbh-612363",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "612363",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/1bc5c027-e1bc-4b18-b8f0-e34045af5a2c.jpeg",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 3,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1985",
+            "icbu_company_id": "31838",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "33454264",
+          "company_slug": "sbs-tech-gmbh-612363",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d2517a4d77fb",
+          "is_showcased": "1",
+          "description": "Entdecken Sie CNC 5 Achsen Präzisionsteile von SBS TECH. Innovationspartner für maßgeschneiderte Lösungen. Erfahren Sie mehr auf unserer Website.\n\nCNC...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 998216,
+          "rank_score_info": "pG:4.0,rankS:6.469480649745941E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_verified:0.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8948014974594116,human_group:3.0,relematch_bert_v2:0.6373693943023682,group_identify:3.0,rel_group_variable:6.469480649745941E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Höchste Präzision in 5-Achsen-Technik",
+            "Von Prototyp bis Großserie flexibel",
+            "Kundenbedarf im Fokus - maßgeschneidert"
+          ]
+        },
+        {
+          "uuid": "9b36277e-1964-414c-91fd-3cf7b2c806ae",
+          "slug": "cnc-fraesen-und-drehen-fuer-prototypen-3-achs-praezisionsfraesen-bis-400x400x300-mm-aus-metall-und-kunststoff-36515420",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4da68952-f83e-11f0-89b7-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4da68952-f83e-11f0-89b7-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4da4de0a-f83e-11f0-b041-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4da69571-f83e-11f0-91a9-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Fräsen und Drehen für Prototypen – 3-Achs-Präzisionsfräsen bis 400x400x300 mm aus Metall und Kunststoff",
+          "price": null,
+          "company": {
+            "uuid": "257051a1-90c1-47f7-8b57-645c7ff3e570",
+            "name": "Neuner Zerspanungsservice Inh. Matthias Neuner",
+            "slug": "neuner-zerspanungsservice-inh-matthias-neuner-22355035",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "22355035",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/13e15dd5-6eb1-4141-89a8-34f5dd9d58ec.png",
+            "emailExisting": true,
+            "distribution_area": "national",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "",
+            "icbu_company_id": "142491114",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36515420",
+          "company_slug": "neuner-zerspanungsservice-inh-matthias-neuner-22355035",
+          "company_uuid": "257051a1-90c1-47f7-8b57-645c7ff3e570",
+          "is_showcased": "1",
+          "description": "CNC Fräsen und Drehen für Prototypen ist die optimale Lösung, wenn neue Bauteile präzise, funktional und kurzfristig umgesetzt werden sollen. Wir fert...",
+          "minimum_order_quantity": {
+            "unit": "flat_rate",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 2736141,
+          "rank_score_info": "pG:3.0,rankS:4.874230644171753E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9423060417175293,human_group:-1.0,relematch_bert_v2:0.6570984721183777,group_identify:2.0,rel_group_variable:4.874230644171753E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Präzision durch 3-Achs-CNC-Fräsen",
+            "Flexibilität in Materialauswahl und -bearbeitung",
+            "Schnelle Umsetzung von Prototypen"
+          ]
+        },
+        {
+          "uuid": "a9251015-2601-4f1b-b4c2-f52ab76a4487",
+          "slug": "cnc-fertigung-deutschland-komplettloesungen-fuer-cnc-fraesteile-und-drehteile-36375984",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/fe537f70-4fdd-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/fe537f70-4fdd-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/ffdad5ba-4fdd-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/ff2593f6-4fdd-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Fertigung Deutschland – Komplettlösungen für CNC-Frästeile und Drehteile",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d26903d3d7fb",
+            "name": "Bo-Tec GmbH",
+            "slug": "bo-tec-gmbh-1642523",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "1642523",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/bf248c00-f5da-4a97-b81b-5ca71e09b470.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "00000005486456-001",
+            "country_code": "DE",
+            "average_response_time": "less_than_24h",
+            "founding_year": "1990",
+            "icbu_company_id": "171254",
+            "ep_slug": "",
+            "response_rate": "0.25"
+          },
+          "slug_id": "36375984",
+          "company_slug": "bo-tec-gmbh-1642523",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d26903d3d7fb",
+          "is_showcased": "1",
+          "description": "Mit CNC Fertigung deutschlandweit bietet Bo‑Tec GmbH effiziente Komplettlösungen, vom ersten CAD‑Entwurf über Prototyp bis zur Serienlieferung. Unser ...",
+          "minimum_order_quantity": {
+            "unit": "unit",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 2555078,
+          "rank_score_info": "pG:3.0,rankS:4.873605081503906E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.9360504150390625,human_group:-1.0,relematch_bert_v2:0.7109294533729553,group_identify:2.0,rel_group_variable:4.873605081503906E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Vom CAD-Entwurf bis zur Serienlieferung",
+            "Hoher Automatisierungsgrad, kurze Wege",
+            "Zertifizierte Prozesse, Normenkonformität"
+          ]
+        },
+        {
+          "uuid": "2d256e4f-2a8e-44fb-8944-f6c2f994ffcc",
+          "slug": "5-achs-cnc-fraesen-fuer-praezise-bauteile-mit-hochgeschwindigkeitsbearbeitung-und-vakuumspanntechnik-nach-zeichnung-36693609",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/20d1ce4b-3a37-11f1-96f4-0a58a9feac02.webp"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/20d1ce4b-3a37-11f1-96f4-0a58a9feac02.webp"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/31824d46-3a37-11f1-aa03-0a58a9feac02.webp"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/3170f519-3a37-11f1-9d88-0a58a9feac02.webp"
+            }
+          ],
+          "language": "de",
+          "name": "5-Achs CNC Fräsen für präzise Bauteile mit Hochgeschwindigkeitsbearbeitung und Vakuumspanntechnik nach Zeichnung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d263a728f7fb",
+            "name": "HSA MicroTech Inh. Lars Hantzsche",
+            "slug": "hsa-microtech-inh-lars-hantzsche-1711296",
+            "email": "",
+            "indexable": false,
+            "is_customer": false,
+            "company_id": "1711296",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/15f31577-5642-4d2d-90d0-8144d73efd5e.png",
+            "emailExisting": true,
+            "distribution_area": "national",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "2010",
+            "icbu_company_id": "4206857",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36693609",
+          "company_slug": "hsa-microtech-inh-lars-hantzsche-1711296",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d263a728f7fb",
+          "is_showcased": "1",
+          "description": "Das 5-Achs CNC Fräsen bei HSA MicroTech ermöglicht die präzise Bearbeitung komplexer Bauteile mit anspruchsvollen Geometrien. Durch den Einsatz modern...",
+          "minimum_order_quantity": {
+            "unit": "unit",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 2934985,
+          "rank_score_info": "pG:3.0,rankS:4.869462016289749E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8946197628974915,human_group:-1.0,relematch_bert_v2:0.6406358480453491,group_identify:2.0,rel_group_variable:4.869462016289749E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Präzise Bearbeitung komplexer Geometrien",
+            "Effiziente Mehrachsenbearbeitung",
+            "Sichere Fixierung durch Vakuumspanntechnik"
+          ]
+        },
+        {
+          "uuid": "9540287e-59a3-4a9a-bdd2-f9b1f099fc9b",
+          "slug": "cnc-kleinserienfertigung-mit-praezision-und-flexibilitaet-36547754",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c99bd68c-0cdb-11f1-91c1-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c99bd68c-0cdb-11f1-91c1-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d4aef15f-290f-11f1-840f-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d82518cf-290f-11f1-813b-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Kleinserienfertigung mit Präzision und Flexibilität",
+          "price": null,
+          "company": {
+            "uuid": "c93aa2f4-2f07-44c2-814b-c8a78b3e0d28",
+            "name": "Thomas Dierigen CNC-Bearbeitung",
+            "slug": "thomas-dierigen-cnc-bearbeitung-22368576",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "22368576",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2fef6b0a-8a4a-4621-b933-1a5fb4412755.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": "less_than_24h",
+            "founding_year": "2008",
+            "icbu_company_id": "147024436",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36547754",
+          "company_slug": "thomas-dierigen-cnc-bearbeitung-22368576",
+          "company_uuid": "c93aa2f4-2f07-44c2-814b-c8a78b3e0d28",
+          "is_showcased": "1",
+          "description": "CNC Kleinserienfertigung ist die ideale Lösung, wenn Bauteile regelmäßig, aber in überschaubaren Stückzahlen benötigt werden. Dierigen CNC produziert ...",
+          "minimum_order_quantity": {
+            "unit": "piece",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 2777856,
+          "rank_score_info": "pG:3.0,rankS:4.869378253882446E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8937821388244629,human_group:-1.0,relematch_bert_v2:0.7360212802886963,group_identify:2.0,rel_group_variable:4.869378253882446E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Effiziente Produktion von Kleinserien",
+            "Hohe Wiederholgenauigkeit und Flexibilität",
+            "Gleichbleibende Qualität und stabile Kosten"
+          ]
+        },
+        {
+          "uuid": "6059c708-e4aa-4a79-b3a8-15223f9bde2a",
+          "slug": "cnc-dreh-fraesbearbeitung-praezisionsteile-bis-oe-650-mm-x-1500-mm-5-achs-simultan-36360307",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a50542c7-896f-11f0-9b7a-0a58a9feac02.png"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a50542c7-896f-11f0-9b7a-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a7b7417d-896f-11f0-a45b-0a58a9feac02.png"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a9f3589b-896f-11f0-8781-0a58a9feac02.png"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Dreh- & Fräsbearbeitung – Präzisionsteile bis Ø 650 mm x 1500 mm, 5-Achs Simultan",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1eea-a8ed-fad9bbefd7fd",
+            "name": "Scheck & Brandt GmbH",
+            "slug": "scheck-brandt-gmbh-1915767",
+            "email": "",
+            "indexable": false,
+            "is_customer": false,
+            "company_id": "1915767",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/178f8548-514e-41db-94de-1d0535e49925.png",
+            "emailExisting": true,
+            "distribution_area": "national",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "2020",
+            "icbu_company_id": "4800468",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36360307",
+          "company_slug": "scheck-brandt-gmbh-1915767",
+          "company_uuid": "00505682-f25b-1eea-a8ed-fad9bbefd7fd",
+          "is_showcased": "1",
+          "description": "Die CNC Dreh- und Fräsbearbeitung ist die Kernkompetenz von Scheck & Brandt. Mit modernster Technik und erfahrenen Fachkräften fertigen wir präzise B...",
+          "minimum_order_quantity": {
+            "unit": "flat_rate",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 2532483,
+          "rank_score_info": "pG:3.0,rankS:4.8691365510874176E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.891365110874176,human_group:-1.0,relematch_bert_v2:0.7086160182952881,group_identify:2.0,rel_group_variable:4.8691365510874176E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Höchste Präzision & Effizienz",
+            "Flexibilität durch 5-Achs-Bearbeitung",
+            "Breites Materialspektrum inkl. Titan"
+          ]
+        },
+        {
+          "uuid": "4560ae3c-5d2c-4612-aaeb-087ff540ff34",
+          "slug": "cnc-fraesen-praezise-metallbearbeitung-komplexe-teile-36672201",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c705baa6-37f7-11f1-b0c0-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c705baa6-37f7-11f1-b0c0-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c705986f-37f7-11f1-bab2-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/c704afb1-37f7-11f1-8903-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Fräsen präzise Metallbearbeitung komplexe Teile",
+          "price": null,
+          "company": {
+            "uuid": "b11f6cab-68c4-4e23-a788-6e00cad4e18c",
+            "name": "Dehutec Zerspanungstechnik GmbH",
+            "slug": "dehutec-zerspanungstechnik-gmbh-22368253",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "22368253",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/81a523a8-44a7-4f1b-b514-66d29baab2cc.png",
+            "emailExisting": false,
+            "distribution_area": "national",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "DE",
+            "average_response_time": "less_than_24h",
+            "founding_year": "",
+            "icbu_company_id": "145537465",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36672201",
+          "company_slug": "dehutec-zerspanungstechnik-gmbh-22368253",
+          "company_uuid": "b11f6cab-68c4-4e23-a788-6e00cad4e18c",
+          "is_showcased": "1",
+          "description": "CNC Fräsen ist ein hochpräzises Verfahren der spanenden Fertigung, das zur Herstellung komplexer Bauteile aus Metall und anderen Werkstoffen eingesetz...",
+          "minimum_order_quantity": {
+            "unit": "flat_rate",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 2916498,
+          "rank_score_info": "pG:3.0,rankS:4.86774635023407E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8774631023406982,human_group:-1.0,relematch_bert_v2:0.6939916610717773,group_identify:2.0,rel_group_variable:4.86774635023407E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Hohe Maßgenauigkeit und Wiederholbarkeit",
+            "Flexibilität bei verschiedenen Materialien",
+            "Effiziente Serien- und Einzelproduktion"
+          ]
+        },
+        {
+          "uuid": "cd37edc7-4da9-588c-a0bc-0f1fc554cb7a",
+          "slug": "cnc-bearbeitung-11356797",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bff3e163-de9a-11ed-961b-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bff3e163-de9a-11ed-961b-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC  Bearbeitung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d253dc9697fb",
+            "name": "A. W. Schumacher GmbH",
+            "slug": "a-w-schumacher-gmbh-586661",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "586661",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/acb21976-9f35-4abd-9bd7-838e39c4c4d6.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 3,
+            "ep_id": "00000005317036-001",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1873",
+            "icbu_company_id": "380784",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "11356797",
+          "company_slug": "a-w-schumacher-gmbh-586661",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d253dc9697fb",
+          "is_showcased": "1",
+          "description": "A.W. Schumacher bietet Ihnen über eigene Bearbeitungszentren einbaufertig bearbeitetete Teile, auf Wunsch auch Baugruppen.\n\nMit unseren eigenen CNC-Ze...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 410594,
+          "rank_score_info": "pG:3.0,rankS:4.867723259394684E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8772321939468384,human_group:-1.0,relematch_bert_v2:0.7714993953704834,group_identify:2.0,rel_group_variable:4.867723259394684E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Erfahren in CNC-Bearbeitung",
+            "Kosteneffiziente Lösungen",
+            "Einbaufertige Teile"
+          ]
+        },
+        {
+          "uuid": "a000a8f0-2b22-4b54-be75-cc4e0eeb3321",
+          "slug": "cnc-fraesen-bis-5-achsen-simultan-36107830",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/b6cbf578-0e06-11f0-be2d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/b6cbf578-0e06-11f0-be2d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/85307c81-0e0d-11f0-907a-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/7a4a255d-0e21-11f0-aadc-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Fräsen bis 5 Achsen simultan",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d263aa9b17fb",
+            "name": "Tech-Ko Zerspanungstechnologie GmbH",
+            "slug": "tech-ko-zerspanungstechnologie-gmbh-1769275",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "1769275",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/db330eb9-1d68-4331-916e-1f621c019840.jpeg",
+            "emailExisting": true,
+            "distribution_area": "national",
+            "certificates_count": 0,
+            "ep_id": "00000005122753-001",
+            "country_code": "DE",
+            "average_response_time": "more_than_72h",
+            "founding_year": "2012",
+            "icbu_company_id": "172089",
+            "ep_slug": "",
+            "response_rate": "0.50"
+          },
+          "slug_id": "36107830",
+          "company_slug": "tech-ko-zerspanungstechnologie-gmbh-1769275",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d263aa9b17fb",
+          "is_showcased": "1",
+          "description": "Unsere CNC-Fertigung bietet hochpräzise spanende Bearbeitung von Werkstücken für verschiedenste Branchen wie Maschinenbau, Automobilindustrie, Luft- u...",
+          "minimum_order_quantity": {
+            "unit": "piece",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 2265597,
+          "rank_score_info": "pG:3.0,rankS:4.867073777382889E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8707373738288879,human_group:-1.0,relematch_bert_v2:0.6071391701698303,group_identify:2.0,rel_group_variable:4.867073777382889E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Höchste Präzision & Wirtschaftlichkeit",
+            "Breites Materialspektrum, inkl. Metalle",
+            "Große Bearbeitungsabmessungen"
+          ]
+        },
+        {
+          "uuid": "bee756ff-f948-43f8-a935-384623372af2",
+          "slug": "cnc-fraesen-fuer-komplexe-werkzeuge-und-praezise-bauteile-in-der-metallbearbeitung-36600510",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/67a79ae8-1c88-11f1-94a7-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/67a79ae8-1c88-11f1-94a7-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/67b9a6fe-1c88-11f1-a359-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/67d351a4-1c88-11f1-80cd-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Fräsen für komplexe Werkzeuge und präzise Bauteile in der Metallbearbeitung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d27f5e0f17fb",
+            "name": "LinsTech Werkzeugbau e.U.",
+            "slug": "linstech-werkzeugbau-eu-1571193",
+            "email": "",
+            "indexable": false,
+            "is_customer": false,
+            "company_id": "1571193",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/252ecbbf-b2b7-4010-ae3a-fb7dbc8cc1a0.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "AT",
+            "average_response_time": null,
+            "founding_year": "2006",
+            "icbu_company_id": "4706598",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36600510",
+          "company_slug": "linstech-werkzeugbau-eu-1571193",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d27f5e0f17fb",
+          "is_showcased": "1",
+          "description": "CNC Fräsen bei LinsTech steht für die präzise Bearbeitung komplexer Werkzeuge, Vorrichtungen und Bauteile auf Basis durchgängiger 3D-Daten. Das Verfah...",
+          "minimum_order_quantity": {
+            "unit": "unit",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 2841736,
+          "rank_score_info": "pG:3.0,rankS:4.866195473139801E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8619543313980103,human_group:-1.0,relematch_bert_v2:0.682044506072998,group_identify:2.0,rel_group_variable:4.866195473139801E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Präzise Bearbeitung komplexer Geometrien",
+            "Hohe Maßhaltigkeit in Serienfertigung",
+            "Kurze Durchlaufzeiten durch CAD/CAM"
+          ]
+        },
+        {
+          "uuid": "62f294e5-dc51-5e00-8233-7887945dc472",
+          "slug": "praezisions-cnc-metallverarbeitung-cnc-drehen-fraesen-mit-enger-toleranz-fuer-verschiedene-industrien-30409145",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e5ffd217-deac-11ed-b3b6-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e5ffd217-deac-11ed-b3b6-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/4027b211-be4c-11f0-affa-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/3974d512-be4c-11f0-9f28-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/48067e70-be4c-11f0-affa-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e6caac49-deac-11ed-94d5-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e6584e71-deac-11ed-ad49-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/2c18b254-be4c-11f0-a82e-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e724363d-deac-11ed-98a6-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e6f85faf-deac-11ed-b3b6-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "Präzisions-CNC Metallverarbeitung, CNC Drehen & Fräsen mit enger Toleranz für verschiedene Industrien",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1eea-9282-a31048b557fb",
+            "name": "mobilverde technologies GmbH",
+            "slug": "mobilverde-technologies-gmbh-1910828",
+            "email": "",
+            "indexable": false,
+            "is_customer": true,
+            "company_id": "1910828",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/01cefe29-3634-4ffb-ba3f-e3edb7c3e44b.png",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 4,
+            "ep_id": "00000005382375-001",
+            "country_code": "DE",
+            "average_response_time": "more_than_72h",
+            "founding_year": "2010",
+            "icbu_company_id": "25454",
+            "ep_slug": "",
+            "response_rate": "0.78"
+          },
+          "slug_id": "30409145",
+          "company_slug": "mobilverde-technologies-gmbh-1910828",
+          "company_uuid": "00505682-f25b-1eea-9282-a31048b557fb",
+          "is_showcased": "1",
+          "description": "Ihr Systemlieferant für Präzisionsteile und CNC-Teile:\n\nmobilverde ist Ihr professioneller Hersteller von Metallteilen und bietet eine umfassende Band...",
+          "minimum_order_quantity": {
+            "unit": "pair",
+            "value": "1"
+          },
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 833420,
+          "rank_score_info": "pG:3.0,rankS:4.866014191573181E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8601415157318115,human_group:-1.0,relematch_bert_v2:0.7898827791213989,group_identify:2.0,rel_group_variable:4.866014191573181E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Engste Toleranzen ± 0,002 mm",
+            "Schnelle Umrüstung und Flexibilität",
+            "Breite Anwendung in diversen Branchen"
+          ]
+        },
+        {
+          "uuid": "06162a75-4aa5-519e-8531-66eeda75018e",
+          "slug": "cnc-laserbearbeitung-5419288",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/396be329-de92-11ed-a2b8-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/396be329-de92-11ed-a2b8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/39d2a98a-de92-11ed-b168-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/399f14c6-de92-11ed-b081-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/3a12b69f-de92-11ed-b3f2-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "de",
+          "name": "CNC Laserbearbeitung",
+          "price": null,
+          "company": {
+            "uuid": "00505682-f25b-1ee9-bd91-d2a1a56737fb",
+            "name": "Dr. Oette Maschinenbauteile GmbH",
+            "slug": "dr-oette-maschinenbauteile-gmbh-1244049",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "1244049",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/7309faa5-d183-4ddc-8516-f9c584e3d104.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 2,
+            "ep_id": "00000005312435-001",
+            "country_code": "DE",
+            "average_response_time": null,
+            "founding_year": "1994",
+            "icbu_company_id": "18965",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "5419288",
+          "company_slug": "dr-oette-maschinenbauteile-gmbh-1244049",
+          "company_uuid": "00505682-f25b-1ee9-bd91-d2a1a56737fb",
+          "is_showcased": "1",
+          "description": "Die Produktion von Komponenten aus Blech beginnt zum Großteil mit dem Zuschnitt auf dem Laser. Hier werden die Abwicklungen der Geometrien mit der jew...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "a4a94026d3ef41279e74a2895fbe0b33",
+          "space_type": "relevance",
+          "auction_id": 135302,
+          "rank_score_info": "pG:3.0,rankS:4.8658829779081726E8,cate_match:1.0,text_match:1.0,sync_text_match:0.0,showcased:1.0,newboost:0.0,is_new_membership:1.0,top_product:0.0,top_ranking_v2:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,de_cosine:0.8588293790817261,human_group:-1.0,relematch_bert_v2:0.6873152852058411,group_identify:2.0,rel_group_variable:4.8658829779081726E8",
+          "relevanceType": null,
+          "sell_points": [
+            "Hochpräzise Blechverarbeitung",
+            "Breites Materialspektrum",
+            "Große Blechformat bis 3000mm"
+          ]
+        }
+      ],
+      "serviceLatency": "ha3_all_search:196,rank_service:83,qp:23,deVector:64,preprocess:0,ha3_summary:11,",
+      "pageIndex": 1,
+      "fxbCategoryId": 0,
+      "traceinfoId": "a4a94026d3ef41279e74a2895fbe0b33",
+      "tppBuckets": "56648#0#487554#3_56648#13498#2584509#5_56648#14103#2587213#1_56648#14109#2587225#1_56648#13467#2584174#1_56648#14083#2587159#8_56648#13549#2585302#1",
+      "engineTime": 497,
+      "keyword": "CNC",
+      "newPriceFilter": "1",
+      "atmosphereTime": 0,
+      "cpvCategory": "601856",
+      "frontAbTestPrice": "",
+      "frontAbTestJsonString": "{\"frontAbTestShowMore\":\"1\"}",
+      "meta": {
+        "keywords": "CNC",
+        "metaKeywords": "CNC",
+        "title": "CNC — geprüfte Produkte und Lösungen | WLW",
+        "site": "wlw.de",
+        "description": "Entdecken Sie CNC-Produkte von verifizierten Lieferanten für Präzisionsfertigung und maschinelle Bearbeitung",
+        "canonicalUrl": "https://www.wlw.de/de/showroom/cnc",
+        "h1": "CNC-Produkte",
+        "alternates": [
+          {
+            "lang": "de-AT",
+            "url": "https://www.wlw.at/de/showroom/cnc"
+          },
+          {
+            "lang": "de-DE",
+            "url": "https://www.wlw.de/de/showroom/cnc"
+          },
+          {
+            "lang": "de-CH",
+            "url": "https://www.wlw.ch/de/showroom/cnc"
+          }
+        ],
+        "index": true,
+        "follow": true
+      },
+      "internalLinks": [],
+      "relatedKeywords": [
+        {
+          "internalLinkUrl": "/de/suche/cnc",
+          "internalLinkName": "cnc",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/cnc-software",
+          "internalLinkName": "cnc software",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/cnc-5",
+          "internalLinkName": "cnc 5",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/intel-xeon-cpu",
+          "internalLinkName": "Intel Xeon CPU",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/hss-schrott-preis",
+          "internalLinkName": "hss schrott preis",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/pc-vermietung",
+          "internalLinkName": "pc vermietung",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/leichte-esd-sicherheitsschuhe-damen",
+          "internalLinkName": "leichte esd sicherheitsschuhe damen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/hss-bohrer",
+          "internalLinkName": "hss bohrer",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/mdf-platte-10-mm-toom",
+          "internalLinkName": "mdf platte 10 mm toom",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/niro-wanne",
+          "internalLinkName": "niro wanne",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/torx-schrauben",
+          "internalLinkName": "torx schrauben",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/t4-syncro-antriebswelle-hinten",
+          "internalLinkName": "t4 syncro antriebswelle hinten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/mdf-platte-toom",
+          "internalLinkName": "mdf platte toom",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/lego-anleitung",
+          "internalLinkName": "lego anleitung",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/sicherheitsschuhe-damen-esd",
+          "internalLinkName": "sicherheitsschuhe damen esd",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/rc-auto-bausatz-komplettset",
+          "internalLinkName": "rc auto bausatz komplettset",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/car-navigation-entertainment-system-s60-digital-800x480-tft-lcd-monitor",
+          "internalLinkName": "car navigation entertainment system s60 digital 800x480 tft lcd monitor",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/3d-lego-platten",
+          "internalLinkName": "3d lego platten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/esd-beutel",
+          "internalLinkName": "esd beutel",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/einhell-sga-175-turbo-drahtvorschub",
+          "internalLinkName": "einhell sga 175 turbo drahtvorschub",
+          "ahref": true
+        }
+      ],
+      "learnMoreDescriptionSimple": null,
+      "learnMoreDescriptionComplex": "<main>\n<div class=\"card\">\n    <h2 id=\"types\">Types of CNC</h2>\n    <p><strong>CNC-Maschinen</strong> sind präzise Werkzeuge zur automatischen Bearbeitung von Materialien. Sie übernehmen die Rolle eines \"digitalen Handwerkers\", der mit höchster Genauigkeit arbeitet. Ob in der Metallindustrie oder im Modellbau, CNC-Technologie ist unverzichtbar für komplexe Formen und Serienproduktion. Die Vorteile liegen in der Effizienz, der Wiederholgenauigkeit und der Vielseitigkeit.</p>\n    <div class=\"tip\">\n        <p><strong>Kernvorteile:</strong> Präzision und Flexibilität — Perfekt für anspruchsvolle Projekte mit geringer Fehlerquote.</p>\n    </div>\n    <div class=\"comparison\">\n        <div class=\"comparison-item\">\n            <h3>CNC-Fräsen</h3>\n            <p>CNC-Fräsmaschinen arbeiten wie ein hochpräziser Bohrer, der Material schichtweise entfernt. Sie nutzen rotierende Fräsköpfe aus Hartmetall und können Holz, Metall oder Kunststoff bearbeiten. Die Maschinen sind robust gebaut und bieten hohe Stabilität bei komplexen 3D-Formen.</p>\n            <p><span class=\"highlight\">Am besten geeignet:</span> Prototypenbau, Möbelherstellung, industrielle Teilefertigung.</p>\n        </div>\n        <div class=\"comparison-item\">\n            <h3>CNC-Drehen</h3>\n            <p>Beim CNC-Drehen dreht sich das Werkstück, während ein Schneidewerkzeug die gewünschte Form erzeugt. Diese Technik ist ideal für symmetrische Teile wie Achsen oder Gewinde. Die Maschinen bestehen oft aus gehärtetem Stahl und ermöglichen hohe Drehzahlen für glatte Oberflächen.</p>\n            <p><span class=\"highlight\">Am besten geeignet:</span> Automobilindustrie, Ersatzteilfertigung, Präzisionsmechanik.</p>\n        </div>\n        <div class=\"comparison-item\">\n            <h3>CNC-Laserschneiden</h3>\n            <p>Wie ein ultrapräzises Messer schneidet der Laserstrahl Materialien ohne mechanischen Verschleiß. Besonders bei dünnen Blechen oder komplizierten Mustern zeigt diese Technologie ihre Stärke. Die Systeme nutzen CO2- oder Faserlaser und sind energieeffizient.</p>\n            <p><span class=\"highlight\">Am besten geeignet:</span> Dekorative Elemente, Schablonenherstellung, Metallverarbeitung.</p>\n        </div>\n    </div>\n\n    <div class=\"table-container\">\n        <table>\n            <thead>\n                <tr>\n                    <th>Produkttyp</th>\n                    <th>Kerntechnologie</th>\n                    <th>Präzision (µm)</th>\n                    <th>Geschwindigkeit (mm/min)</th>\n                    <th>Zielgruppe</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td>CNC-Fräsen</td>\n                    <td>Fräskopf, Linearführung</td>\n                    <td>10–50</td>\n                    <td>500–5000</td>\n                    <td>Handwerker, Ingenieure</td>\n                </tr>\n                <tr>\n                    <td>CNC-Drehen</td>\n                    <td>Drehspindel, CNC-Steuerung</td>\n                    <td>5–30</td>\n                    <td>1000–6000</td>\n                    <td>Industrie, Kleinserien</td>\n                </tr>\n                <tr>\n                    <td>CNC-Laserschneiden</td>\n                    <td>Faserlaser, Optiksystem</td>\n                    <td>5–20</td>\n                    <td>1000–10000</td>\n                    <td>Kreative, Designer</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n<div class=\"card\">\n    <h2 id=\"choosing\">Wie man eine CNC-Maschine auswählt</h2>\n    <p>Die Wahl der idealen CNC-Maschine erfordert die systematische Bewertung von fünf entscheidenden Dimensionen. Dieser Leitfaden führt Sie durch den gesamten Prozess, von der Bedarfsanalyse bis zur endgültigen Entscheidung.</p>\n\n    <div class=\"comparison\">\n        <div class=\"comparison-item\">\n            <h3>Anforderungsanalyse</h3>\n            <p>Definieren Sie zunächst Ihre spezifischen Anforderungen. Berücksichtigen Sie dabei Faktoren wie das Material (Holz, Metall, Kunststoff), die maximale Bearbeitungsgröße und die gewünschte Präzision. Eine Faustregel lautet: Die Positioniergenauigkeit sollte mindestens ±0,01 mm betragen, um hochpräzise Ergebnisse zu gewährleisten.</p>\n            <p><span class=\"highlight\">Tipp:</span> Überprüfen Sie die maximale Werkstückgröße anhand Ihrer geplanten Projekte, um unnötige Kosten zu vermeiden.</p>\n        </div>\n        <div class=\"comparison-item\">\n            <h3>Technische Spezifikationen</h3>\n            <p>Bewerten Sie die technischen Parameter wie Spindeldrehzahl (üblicherweise zwischen 8.000 und 24.000 U/min), Vorschubgeschwindigkeit und Steifigkeit des Rahmens. Ein stabiler Rahmen reduziert Vibrationen und verbessert die Oberflächenqualität.</p>\n            <p><span class=\"highlight\">Tipp:</span> Achten Sie auf die Bauweise des Maschinenbetts – Gusseisen ist robuster als Stahlblechkonstruktionen.</p>\n        </div>\n        <div class=\"comparison-item\">\n            <h3>Kosten-Nutzen-Analyse</h3>\n            <p>Vergleichen Sie verschiedene Modelle basierend auf Ihrem Budget. Für Einsteigermodelle liegen die Preise zwischen €5.000 und €15.000, während professionelle Maschinen oft €20.000 bis €50.000 kosten. Prüfen Sie auch die Betriebskosten, einschließlich Energieverbrauch und Wartung.</p>\n            <p><span class=\"highlight\">Tipp:</span> Investieren Sie in eine Maschine mit einer längeren Garantiezeit (mindestens 2 Jahre), um langfristige Sicherheit zu gewährleisten.</p>\n        </div>\n    </div>\n\n    <div class=\"tip\">\n        <p><strong>Professioneller Rat:</strong> Nutzen Sie Reverse-Engineering-Strategien – analysieren Sie erfolgreiche Anwendungsbeispiele in Ihrer Branche. Beispielsweise können Sie bei der Herstellung von Prototypen die Zykluszeit um 20 % reduzieren, indem Sie eine Hochgeschwindigkeits-CNC wählen.</p>\n    </div>\n\n    <div class=\"table-container\">\n        <table>\n            <thead>\n                <tr>\n                    <th>Kaufkriterium</th>\n                    <th>Bewertungspunkte</th>\n                    <th>Positioniergenauigkeit</th>\n                    <th>Spindeldrehzahl</th>\n                    <th>Priorität</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td>Genauigkeit</td>\n                    <td>Prüfung der Positioniergenauigkeit mittels ISO-Standard</td>\n                    <td>±0,01 mm bis ±0,1 mm</td>\n                    <td>90 % der Maximalwerte</td>\n                    <td>Hoch</td>\n                </tr>\n                <tr>\n                    <td>Materialfestigkeit</td>\n                    <td>Überprüfung der Rahmenmaterialien (Gusseisen vs. Stahl)</td>\n                    <td>Gewicht ab 500 kg</td>\n                    <td>A+</td>\n                    <td>Hoch</td>\n                </tr>\n                <tr>\n                    <td>Leistung</td>\n                    <td>Messung der maximalen Spindeldrehzahl</td>\n                    <td>8.000 - 24.000 U/min</td>\n                    <td>85 % Effizienz</td>\n                    <td>Mittel</td>\n                </tr>\n                <tr>\n                    <td>Sicherheit</td>\n                    <td>CE-Zertifizierung überprüfen</td>\n                    <td>EN ISO 12100-konform</td>\n                    <td>100 % Compliance</td>\n                    <td>Hoch</td>\n                </tr>\n                <tr>\n                    <td>Betriebskosten</td>\n                    <td>Energieverbrauch pro Stunde messen</td>\n                    <td>< 5 kW/h</td>\n                    <td>70 % Effizienz</td>\n                    <td>Niedrig</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n<div class=\"card\">\n    <h2 id=\"faq\">Häufig gestellte Fragen zu CNC</h2>\n\n    <div class=\"faq-item\">\n        <div class=\"faq-question\"><h3>Welche Kriterien sollte ich bei der Auswahl einer CNC-Maschine beachten?</h3></div>\n        <p>Bei der Auswahl einer CNC-Maschine ist es wichtig, die Anforderungen Ihrer Produktion genau zu analysieren. Insbesondere sollten Sie auf folgende Aspekte achten:</p>\n        \n        <ul>\n            <li><strong>Funktionsmerkmale</strong>: Die Präzision und Wiederholgenauigkeit sind entscheidend. Für die meisten industriellen Anwendungen liegt der ISO 230-Standard für Positioniergenauigkeit bei ±0,01 mm.</li>\n            <li><strong>Anwendungsbereiche</strong>: Einsteigermodelle eignen sich gut für Holzbearbeitung oder einfache Metallanwendungen, während professionelle Maschinen mit höherer Leistung und Drehmoment für anspruchsvolle Materialien wie Titan oder rostfreien Stahl entwickelt sind.</li>\n        </ul>\n        \n        <p>Professionelle Empfehlungen/Tipps:</p>\n        <ol>\n            <li>Prüfen Sie, ob das Gerät eine Zertifizierung nach ISO 9001 (Qualitätsmanagement) besitzt.</li>\n            <li>Vergleichen Sie die maximale Werkstückgröße, um sicherzustellen, dass sie Ihren Bedarf deckt.</li>\n            <li>Berücksichtigen Sie den Energieverbrauch und die Verfügbarkeit von Ersatzteilen.</li>\n        </ol>\n    </div>\n\n    <div class=\"faq-item\">\n        <div class=\"faq-question\"><h3>Wie kann ich die Lebensdauer meiner CNC-Maschine verlängern?</h3></div>\n        <p>Die regelmäßige Wartung ist entscheidend, um die Lebensdauer Ihrer CNC-Maschine zu optimieren. Dabei spielen sowohl mechanische als auch elektronische Komponenten eine Rolle.</p>\n        \n        <div class=\"table-container\">\n            <table>\n                <thead>\n                    <tr>\n                        <th>Komponente</th>\n                        <th>Wartungsintervall</th>\n                        <th>Empfohlene Maßnahmen</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>Schmiersystem</td>\n                        <td>Alle 50 Betriebsstunden</td>\n                        <td>Überprüfen Sie den Ölstand und wechseln Sie bei Bedarf.</td>\n                    </tr>\n                    <tr>\n                        <td>Kühlsystem</td>\n                        <td>Monatlich</td>\n                        <td>Reinigen Sie Filter und überprüfen Sie die Kühlflüssigkeit.</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        \n        <p>Professionelle Empfehlungen/Tipps:</p>\n        <ul>\n            <li>Verwenden Sie nur Originalersatzteile, um die Leistung des Systems nicht zu beeinträchtigen.</li>\n            <li>Führen Sie regelmäßig Software-Updates durch, um Fehler zu beheben und neue Funktionen freizuschalten.</li>\n            <li>Trainieren Sie Ihre Mitarbeiter im Umgang mit der Maschine, um Fehlbedienungen zu minimieren.</li>\n        </ul>\n    </div>\n\n    <div class=\"faq-item\">\n        <div class=\"faq-question\"><h3>Welche Sicherheitsvorkehrungen sind bei der Bedienung einer CNC-Maschine wichtig?</h3></div>\n        <p>Die Sicherheit hat bei der Verwendung von CNC-Maschinen höchste Priorität. Es gibt klare Vorgaben in Normen wie ISO 12100, die Risiken minimieren sollen.</p>\n        \n        <ul>\n            <li><strong>Funktionssicherheit</strong>: Not-Aus-Schalter müssen gemäß EN 60204-1 installiert sein.</li>\n            <li><strong>Arbeitsschutz</strong>: Tragen Sie immer Schutzausrüstung, insbesondere bei der Bearbeitung von Metallen, wo Späne fliegen können.</li>\n        </ul>\n        \n        <p>Professionelle Empfehlungen/Tipps:</p>\n        <ol>\n            <li>Installieren Sie Schutzabdeckungen, um direkten Kontakt mit beweglichen Teilen zu verhindern.</li>\n            <li>Halten Sie den Arbeitsbereich sauber, um Stolperfallen oder Ablenkungen zu vermeiden.</li>\n            <li>Testen Sie Programme zunächst im Leerlauf, bevor Sie mit dem eigentlichen Material arbeiten.</li>\n        </ol>\n    </div>\n\n    <div class=\"faq-item\">\n        <div class=\"faq-question\"><h3>Was ist der Unterschied zwischen 3-Achsen- und 5-Achsen-CNC-Maschinen?</h3></div>\n        <p>Der Hauptunterschied liegt in der Flexibilität und Komplexität der Bearbeitung. Während 3-Achsen-Maschinen ideal für einfache Formen sind, bieten 5-Achsen-Maschinen mehr Freiheitsgrade.</p>\n        \n        <div class=\"table-container\">\n            <table>\n                <thead>\n                    <tr>\n                        <th>Merkmal</th>\n                        <th>3-Achsen</th>\n                        <th>5-Achsen</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>Bearbeitungsflexibilität</td>\n                        <td>Einfache Geometrien</td>\n                        <td>Komplexe Freiformflächen</td>\n                    </tr>\n                    <tr>\n                        <td>Kosten</td>\n                        <td>Günstiger</td>\n                        <td>Teurer</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        \n        <p>Professionelle Empfehlungen/Tipps:</p>\n        <ul>\n            <li>Wählen Sie eine 3-Achsen-Maschine, wenn Ihre Projekte hauptsächlich aus einfachen Bauteilen bestehen.</li>\n            <li>Für die Luftfahrt- oder Medizintechnikbranche ist eine 5-Achsen-Maschine oft unerlässlich.</li>\n            <li>Beachten Sie, dass 5-Achsen-Maschinen höhere Schulungsanforderungen an die Bediener stellen.</li>\n        </ul>\n    </div>\n</div></main>",
+      "cache": false
+    }
+  }
+}

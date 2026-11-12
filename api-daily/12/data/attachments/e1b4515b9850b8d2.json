@@ -1,0 +1,623 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 498,
+  "headers": {
+    "date": "Thu, 12 Nov 2026 05:52:38 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": [
+      {
+        "id": 2814377,
+        "domain": "europages.de",
+        "keyword": "Schutzfolie für Displays",
+        "normalizeKeyword": "schutzfolie fuer displays"
+      },
+      {
+        "id": 2814384,
+        "domain": "europages.de",
+        "keyword": "Schließzylinder für Haustüren",
+        "normalizeKeyword": "schliesszylinder fuer haustueren"
+      },
+      {
+        "id": 2814400,
+        "domain": "europages.de",
+        "keyword": "zentralverriegelung auto",
+        "normalizeKeyword": "zentralverriegelung auto"
+      },
+      {
+        "id": 2814404,
+        "domain": "europages.de",
+        "keyword": "elektrischer hochdruckreiniger",
+        "normalizeKeyword": "elektrischer hochdruckreiniger"
+      },
+      {
+        "id": 2814405,
+        "domain": "europages.de",
+        "keyword": "raumluftentfeuchter",
+        "normalizeKeyword": "raumluftentfeuchter"
+      },
+      {
+        "id": 2814408,
+        "domain": "europages.de",
+        "keyword": "Steuerberatung",
+        "normalizeKeyword": "steuerberatung"
+      },
+      {
+        "id": 2814418,
+        "domain": "europages.de",
+        "keyword": "Energiesanierung",
+        "normalizeKeyword": "energiesanierung"
+      },
+      {
+        "id": 2814420,
+        "domain": "europages.de",
+        "keyword": "Pflegebett für Senioren",
+        "normalizeKeyword": "pflegebett fuer senioren"
+      },
+      {
+        "id": 2814422,
+        "domain": "europages.de",
+        "keyword": "Dieselgenerator",
+        "normalizeKeyword": "dieselgenerator"
+      },
+      {
+        "id": 2814423,
+        "domain": "europages.de",
+        "keyword": "Mähroboter",
+        "normalizeKeyword": "maehroboter"
+      },
+      {
+        "id": 2814425,
+        "domain": "europages.de",
+        "keyword": "DeWalt Akkuschrauber 18 V",
+        "normalizeKeyword": "dewalt akkuschrauber 18 v"
+      },
+      {
+        "id": 2814426,
+        "domain": "europages.de",
+        "keyword": "verstellbare Füße für Möbel",
+        "normalizeKeyword": "verstellbare fuesse fuer moebel"
+      },
+      {
+        "id": 2814427,
+        "domain": "europages.de",
+        "keyword": "edelstahl Riffelblech",
+        "normalizeKeyword": "edelstahl riffelblech"
+      },
+      {
+        "id": 2814428,
+        "domain": "europages.de",
+        "keyword": "Kältemittel R32",
+        "normalizeKeyword": "kaeltemittel r32"
+      },
+      {
+        "id": 2814429,
+        "domain": "europages.de",
+        "keyword": "moderne Schrankwand",
+        "normalizeKeyword": "moderne schrankwand"
+      },
+      {
+        "id": 2814433,
+        "domain": "europages.de",
+        "keyword": "zerspanungsmaschinen",
+        "normalizeKeyword": "zerspanungsmaschinen"
+      },
+      {
+        "id": 2814449,
+        "domain": "europages.de",
+        "keyword": "solarkabel 4mm²",
+        "normalizeKeyword": "solarkabel 4mm²"
+      },
+      {
+        "id": 2814451,
+        "domain": "europages.de",
+        "keyword": "elektrisches Werkzeug",
+        "normalizeKeyword": "elektrisches werkzeug"
+      },
+      {
+        "id": 2814458,
+        "domain": "europages.de",
+        "keyword": "Schlüsselnotdienst München",
+        "normalizeKeyword": "schluesselnotdienst muenchen"
+      },
+      {
+        "id": 2814460,
+        "domain": "europages.de",
+        "keyword": "Wasserstrahlschneidanlage",
+        "normalizeKeyword": "wasserstrahlschneidanlage"
+      },
+      {
+        "id": 2814462,
+        "domain": "europages.de",
+        "keyword": "akku Gehölzschneider",
+        "normalizeKeyword": "akku gehoelzschneider"
+      },
+      {
+        "id": 2814464,
+        "domain": "europages.de",
+        "keyword": "Schlüsselnotdienst Hamburg",
+        "normalizeKeyword": "schluesselnotdienst hamburg"
+      },
+      {
+        "id": 2814465,
+        "domain": "europages.de",
+        "keyword": "massiver Esstisch",
+        "normalizeKeyword": "massiver esstisch"
+      },
+      {
+        "id": 2814466,
+        "domain": "europages.de",
+        "keyword": "massiver Eichentisch",
+        "normalizeKeyword": "massiver eichentisch"
+      },
+      {
+        "id": 2814469,
+        "domain": "europages.de",
+        "keyword": "industrielle Verpackungen",
+        "normalizeKeyword": "industrielle verpackungen"
+      },
+      {
+        "id": 2814470,
+        "domain": "europages.de",
+        "keyword": "hydraulischer Motorheber",
+        "normalizeKeyword": "hydraulischer motorheber"
+      },
+      {
+        "id": 2814471,
+        "domain": "europages.de",
+        "keyword": "SEO Agentur München",
+        "normalizeKeyword": "seo agentur muenchen"
+      },
+      {
+        "id": 2814472,
+        "domain": "europages.de",
+        "keyword": "elektrischer Hebekran",
+        "normalizeKeyword": "elektrischer hebekran"
+      },
+      {
+        "id": 2814473,
+        "domain": "europages.de",
+        "keyword": "Aktivkohlefilter für Lüftungsanlagen",
+        "normalizeKeyword": "aktivkohlefilter fuer lueftungsanlagen"
+      },
+      {
+        "id": 2814474,
+        "domain": "europages.de",
+        "keyword": "hochzeitsfotografie berlin",
+        "normalizeKeyword": "hochzeitsfotografie berlin"
+      },
+      {
+        "id": 2814477,
+        "domain": "europages.de",
+        "keyword": "Drahterodiermaschine",
+        "normalizeKeyword": "drahterodiermaschine"
+      },
+      {
+        "id": 2814480,
+        "domain": "europages.de",
+        "keyword": "regelbare Lötstation",
+        "normalizeKeyword": "regelbare loetstation"
+      },
+      {
+        "id": 2814481,
+        "domain": "europages.de",
+        "keyword": "galvanisch verzinkter stahl",
+        "normalizeKeyword": "galvanisch verzinkter stahl"
+      },
+      {
+        "id": 2814482,
+        "domain": "europages.de",
+        "keyword": "Mikrofaser Reinigungstuch",
+        "normalizeKeyword": "mikrofaser reinigungstuch"
+      },
+      {
+        "id": 2814483,
+        "domain": "europages.de",
+        "keyword": "Kunststoff Stapelkisten",
+        "normalizeKeyword": "kunststoff stapelkisten"
+      },
+      {
+        "id": 2814485,
+        "domain": "europages.de",
+        "keyword": "doppelwirkender zylinder",
+        "normalizeKeyword": "doppelwirkender zylinder"
+      },
+      {
+        "id": 2814486,
+        "domain": "europages.de",
+        "keyword": "pneumatische Wartungseinheit",
+        "normalizeKeyword": "pneumatische wartungseinheit"
+      },
+      {
+        "id": 2814487,
+        "domain": "europages.de",
+        "keyword": "elektrisches Magnetventil",
+        "normalizeKeyword": "elektrisches magnetventil"
+      },
+      {
+        "id": 2814490,
+        "domain": "europages.de",
+        "keyword": "lebensmittelverpackung",
+        "normalizeKeyword": "lebensmittelverpackung"
+      },
+      {
+        "id": 2814491,
+        "domain": "europages.de",
+        "keyword": "verzinkte Rechteckrohre",
+        "normalizeKeyword": "verzinkte rechteckrohre"
+      },
+      {
+        "id": 2814492,
+        "domain": "europages.de",
+        "keyword": "Kindersicherung für Steckdosen",
+        "normalizeKeyword": "kindersicherung fuer steckdosen"
+      },
+      {
+        "id": 2814493,
+        "domain": "europages.de",
+        "keyword": "Flachdachabdichtung",
+        "normalizeKeyword": "flachdachabdichtung"
+      },
+      {
+        "id": 2814495,
+        "domain": "europages.de",
+        "keyword": "stahlkonstruktionen",
+        "normalizeKeyword": "stahlkonstruktionen"
+      },
+      {
+        "id": 2814497,
+        "domain": "europages.de",
+        "keyword": "Edelstahl Rechteckrohre",
+        "normalizeKeyword": "edelstahl rechteckrohre"
+      },
+      {
+        "id": 2814498,
+        "domain": "europages.de",
+        "keyword": "Synthetisches Motorenöl",
+        "normalizeKeyword": "synthetisches motorenoel"
+      },
+      {
+        "id": 2814499,
+        "domain": "europages.de",
+        "keyword": "automatische Verpackungsmaschinen",
+        "normalizeKeyword": "automatische verpackungsmaschinen"
+      },
+      {
+        "id": 2814500,
+        "domain": "europages.de",
+        "keyword": "biologisch abbaubare Hydrauliköle",
+        "normalizeKeyword": "biologisch abbaubare hydraulikoele"
+      },
+      {
+        "id": 2814501,
+        "domain": "europages.de",
+        "keyword": "Anschlusskabel Solarpanel",
+        "normalizeKeyword": "anschlusskabel solarpanel"
+      },
+      {
+        "id": 2814503,
+        "domain": "europages.de",
+        "keyword": "Solarladeregler MPPT",
+        "normalizeKeyword": "solarladeregler mppt"
+      },
+      {
+        "id": 2814504,
+        "domain": "europages.de",
+        "keyword": "Maschinenschrauben",
+        "normalizeKeyword": "maschinenschrauben"
+      },
+      {
+        "id": 2814505,
+        "domain": "europages.de",
+        "keyword": "pv anlage mit speicher",
+        "normalizeKeyword": "pv anlage mit speicher"
+      },
+      {
+        "id": 2814507,
+        "domain": "europages.de",
+        "keyword": "Großhandel Elektronik",
+        "normalizeKeyword": "grosshandel elektronik"
+      },
+      {
+        "id": 2814509,
+        "domain": "europages.de",
+        "keyword": "Atemschutzmaske",
+        "normalizeKeyword": "atemschutzmaske"
+      },
+      {
+        "id": 2814511,
+        "domain": "europages.de",
+        "keyword": "Atemschutzausrüstung",
+        "normalizeKeyword": "atemschutzausruestung"
+      },
+      {
+        "id": 2814513,
+        "domain": "europages.de",
+        "keyword": "Fahrradträger für Auto",
+        "normalizeKeyword": "fahrradtraeger fuer auto"
+      },
+      {
+        "id": 2814514,
+        "domain": "europages.de",
+        "keyword": "Futtereimer für Pferde",
+        "normalizeKeyword": "futtereimer fuer pferde"
+      },
+      {
+        "id": 2814516,
+        "domain": "europages.de",
+        "keyword": "Photovoltaikanlage",
+        "normalizeKeyword": "photovoltaikanlage"
+      },
+      {
+        "id": 2814530,
+        "domain": "europages.de",
+        "keyword": "Werkzeugmaschine",
+        "normalizeKeyword": "werkzeugmaschine"
+      },
+      {
+        "id": 2814535,
+        "domain": "europages.de",
+        "keyword": "Europaletten neu",
+        "normalizeKeyword": "europaletten neu"
+      },
+      {
+        "id": 2814536,
+        "domain": "europages.de",
+        "keyword": "gebrauchte Baucontainer",
+        "normalizeKeyword": "gebrauchte baucontainer"
+      },
+      {
+        "id": 2814537,
+        "domain": "europages.de",
+        "keyword": "HEPA Luftfilter",
+        "normalizeKeyword": "hepa luftfilter"
+      },
+      {
+        "id": 2814538,
+        "domain": "europages.de",
+        "keyword": "verdeckte Scharniere",
+        "normalizeKeyword": "verdeckte scharniere"
+      },
+      {
+        "id": 2814540,
+        "domain": "europages.de",
+        "keyword": "Holzkohlegrill aus Edelstahl",
+        "normalizeKeyword": "holzkohlegrill aus edelstahl"
+      },
+      {
+        "id": 2814541,
+        "domain": "europages.de",
+        "keyword": "Insektenschutz für Türen",
+        "normalizeKeyword": "insektenschutz fuer tueren"
+      },
+      {
+        "id": 2814543,
+        "domain": "europages.de",
+        "keyword": "hydraulische Blechschere",
+        "normalizeKeyword": "hydraulische blechschere"
+      },
+      {
+        "id": 2814544,
+        "domain": "europages.de",
+        "keyword": "elektrische Blechschere",
+        "normalizeKeyword": "elektrische blechschere"
+      },
+      {
+        "id": 2814546,
+        "domain": "europages.de",
+        "keyword": "Diamanttrennscheibe für Beton",
+        "normalizeKeyword": "diamanttrennscheibe fuer beton"
+      },
+      {
+        "id": 2814547,
+        "domain": "europages.de",
+        "keyword": "solarstromanlagen",
+        "normalizeKeyword": "solarstromanlagen"
+      },
+      {
+        "id": 2814548,
+        "domain": "europages.de",
+        "keyword": "Landschaftsplanung",
+        "normalizeKeyword": "landschaftsplanung"
+      },
+      {
+        "id": 2814549,
+        "domain": "europages.de",
+        "keyword": "Fehlerstromschutzschalter 30 mA",
+        "normalizeKeyword": "fehlerstromschutzschalter 30 ma"
+      },
+      {
+        "id": 2814551,
+        "domain": "europages.de",
+        "keyword": "John Deere Traktor",
+        "normalizeKeyword": "john deere traktor"
+      },
+      {
+        "id": 2814552,
+        "domain": "europages.de",
+        "keyword": "Metallbau Unternehmen",
+        "normalizeKeyword": "metallbau unternehmen"
+      },
+      {
+        "id": 2814554,
+        "domain": "europages.de",
+        "keyword": "edelstahl duschrinne",
+        "normalizeKeyword": "edelstahl duschrinne"
+      },
+      {
+        "id": 2814555,
+        "domain": "europages.de",
+        "keyword": "Zubehör für Tauchpumpen",
+        "normalizeKeyword": "zubehoer fuer tauchpumpen"
+      },
+      {
+        "id": 2814556,
+        "domain": "europages.de",
+        "keyword": "Einbruchschutz für Fenster",
+        "normalizeKeyword": "einbruchschutz fuer fenster"
+      },
+      {
+        "id": 2814558,
+        "domain": "europages.de",
+        "keyword": "korrosionsbeständiger stahl",
+        "normalizeKeyword": "korrosionsbestaendiger stahl"
+      },
+      {
+        "id": 2814559,
+        "domain": "europages.de",
+        "keyword": "Meerschweinchen Käfig",
+        "normalizeKeyword": "meerschweinchen kaefig"
+      },
+      {
+        "id": 2814560,
+        "domain": "europages.de",
+        "keyword": "Einhebelmischer Küche",
+        "normalizeKeyword": "einhebelmischer kueche"
+      },
+      {
+        "id": 2814561,
+        "domain": "europages.de",
+        "keyword": "Radialrillenkugellager",
+        "normalizeKeyword": "radialrillenkugellager"
+      },
+      {
+        "id": 2814563,
+        "domain": "europages.de",
+        "keyword": "elektrischer Schwenkantrieb",
+        "normalizeKeyword": "elektrischer schwenkantrieb"
+      },
+      {
+        "id": 2814564,
+        "domain": "europages.de",
+        "keyword": "mobile Hebebühne",
+        "normalizeKeyword": "mobile hebebuehne"
+      },
+      {
+        "id": 2814565,
+        "domain": "europages.de",
+        "keyword": "Schneckenförderer",
+        "normalizeKeyword": "schneckenfoerderer"
+      },
+      {
+        "id": 2814567,
+        "domain": "europages.de",
+        "keyword": "TRUMPF TruMatic 7000",
+        "normalizeKeyword": "trumpf trumatic 7000"
+      },
+      {
+        "id": 2814568,
+        "domain": "europages.de",
+        "keyword": "Hähnchenbrustfilet",
+        "normalizeKeyword": "haehnchenbrustfilet"
+      },
+      {
+        "id": 2814569,
+        "domain": "europages.de",
+        "keyword": "Boso Blutdruckmessgerät Oberarm",
+        "normalizeKeyword": "boso blutdruckmessgeraet oberarm"
+      },
+      {
+        "id": 2814570,
+        "domain": "europages.de",
+        "keyword": "Wechselrichter für Solaranlagen",
+        "normalizeKeyword": "wechselrichter fuer solaranlagen"
+      },
+      {
+        "id": 2814571,
+        "domain": "europages.de",
+        "keyword": "Wechselrichter mit Batteriespeicher",
+        "normalizeKeyword": "wechselrichter mit batteriespeicher"
+      },
+      {
+        "id": 2814572,
+        "domain": "europages.de",
+        "keyword": "Wechselrichter für Photovoltaik",
+        "normalizeKeyword": "wechselrichter fuer photovoltaik"
+      },
+      {
+        "id": 2814575,
+        "domain": "europages.de",
+        "keyword": "druckluft Kältetrockner",
+        "normalizeKeyword": "druckluft kaeltetrockner"
+      },
+      {
+        "id": 2814576,
+        "domain": "europages.de",
+        "keyword": "Massivholz Arbeitsplatte",
+        "normalizeKeyword": "massivholz arbeitsplatte"
+      },
+      {
+        "id": 2814577,
+        "domain": "europages.de",
+        "keyword": "Balkonkraftwerk 800 watt",
+        "normalizeKeyword": "balkonkraftwerk 800 watt"
+      },
+      {
+        "id": 2814578,
+        "domain": "europages.de",
+        "keyword": "Küchenrückwand",
+        "normalizeKeyword": "kuechenrueckwand"
+      },
+      {
+        "id": 2814579,
+        "domain": "europages.de",
+        "keyword": "Scherenhebebühne für KFZ",
+        "normalizeKeyword": "scherenhebebuehne fuer kfz"
+      },
+      {
+        "id": 2814580,
+        "domain": "europages.de",
+        "keyword": "elektrische Heckenschere",
+        "normalizeKeyword": "elektrische heckenschere"
+      },
+      {
+        "id": 2814583,
+        "domain": "europages.de",
+        "keyword": "schwerlastrollen mit Bremse",
+        "normalizeKeyword": "schwerlastrollen mit bremse"
+      },
+      {
+        "id": 2814590,
+        "domain": "europages.de",
+        "keyword": "Notstromgenerator",
+        "normalizeKeyword": "notstromgenerator"
+      },
+      {
+        "id": 2814594,
+        "domain": "europages.de",
+        "keyword": "Oldtimer Ersatzteile",
+        "normalizeKeyword": "oldtimer ersatzteile"
+      },
+      {
+        "id": 2814595,
+        "domain": "europages.de",
+        "keyword": "Berufskleidung Krankenhaus",
+        "normalizeKeyword": "berufskleidung krankenhaus"
+      },
+      {
+        "id": 2814609,
+        "domain": "europages.de",
+        "keyword": "Firmenbekleidung mit Logo",
+        "normalizeKeyword": "firmenbekleidung mit logo"
+      },
+      {
+        "id": 2814627,
+        "domain": "europages.de",
+        "keyword": "Goldbarren kaufen",
+        "normalizeKeyword": "goldbarren kaufen"
+      }
+    ]
+  }
+}
