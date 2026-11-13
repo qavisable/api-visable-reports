@@ -1,0 +1,340 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 737,
+  "headers": {
+    "date": "Fri, 13 Nov 2026 22:06:22 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "set-cookie": "***",
+    "x-envoy-upstream-service-time": "8",
+    "access-control-allow-origin": "https://www.europages-staging.de",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "5fbb6f6a-1071-4397-9f5f-1770c25a0a43",
+    "type": "browser",
+    "expires_at": "2026-11-14T00:06:22.816998817Z",
+    "issued_at": "2026-11-13T22:06:22.816998817Z",
+    "request_url": "https://www.europages-staging.de/self-service/registration/browser",
+    "ui": {
+      "action": "https://www.europages-staging.de/.ory/kratos/self-service/registration?flow=5fbb6f6a-1071-4397-9f5f-1770c25a0a43",
+      "method": "POST",
+      "nodes": [
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "alibaba",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1040002,
+              "text": "Sign up with alibaba",
+              "type": "info",
+              "context": {
+                "provider": "alibaba",
+                "provider_id": "alibaba"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "apple",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1040002,
+              "text": "Sign up with apple",
+              "type": "info",
+              "context": {
+                "provider": "apple",
+                "provider_id": "apple"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "google",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1040002,
+              "text": "Sign up with google",
+              "type": "info",
+              "context": {
+                "provider": "google",
+                "provider_id": "google"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "internal",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1040002,
+              "text": "Sign up with internal",
+              "type": "info",
+              "context": {
+                "provider": "internal",
+                "provider_id": "internal"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "csrf_token",
+            "type": "hidden",
+            "value": "nXHKTAnIq3uYF0hJjsjW0aMVgeMnTWkwAtJgbEHLxd2MUBfsEaoEZvw+rQqYbMPaGZFHFr0sPpenPT1T19eviw==",
+            "required": true,
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "traits.email",
+            "type": "email",
+            "required": true,
+            "autocomplete": "email",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "E-Mail",
+              "type": "info",
+              "context": {
+                "name": "traits.email",
+                "title": "E-Mail"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "traits.profile_registration.preferred_language",
+            "type": "text",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "Preferred langauge",
+              "type": "info",
+              "context": {
+                "name": "traits.profile_registration.preferred_language",
+                "title": "Preferred langauge"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "traits.profile_registration.country_code",
+            "type": "text",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "Country code",
+              "type": "info",
+              "context": {
+                "name": "traits.profile_registration.country_code",
+                "title": "Country code"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "traits.profile_registration.phone",
+            "type": "text",
+            "pattern": "^\\+\\d+ - \\d+$",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "Phone",
+              "type": "info",
+              "context": {
+                "name": "traits.profile_registration.phone",
+                "title": "Phone"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "traits.profile_registration.mobile",
+            "type": "text",
+            "pattern": "^\\+\\d+ - \\d+$",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "Mobile",
+              "type": "info",
+              "context": {
+                "name": "traits.profile_registration.mobile",
+                "title": "Mobile"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "traits.profile_registration.salutation",
+            "type": "text",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "Salutation (mr or mrs)",
+              "type": "info",
+              "context": {
+                "name": "traits.profile_registration.salutation",
+                "title": "Salutation (mr or mrs)"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "traits.profile_registration.given_name",
+            "type": "text",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "Given name",
+              "type": "info",
+              "context": {
+                "name": "traits.profile_registration.given_name",
+                "title": "Given name"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "traits.profile_registration.surname",
+            "type": "text",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "Surename",
+              "type": "info",
+              "context": {
+                "name": "traits.profile_registration.surname",
+                "title": "Surename"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "profile",
+          "attributes": {
+            "name": "method",
+            "type": "submit",
+            "value": "profile",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1040001,
+              "text": "Sign up",
+              "type": "info"
+            }
+          }
+        }
+      ]
+    },
+    "organization_id": null,
+    "state": "choose_method"
+  }
+}

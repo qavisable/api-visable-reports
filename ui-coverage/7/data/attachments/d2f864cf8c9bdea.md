@@ -1,0 +1,480 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: ui/tests/user-account/my-account-settings.spec.ts >> My Account settings page >> displays My Companies section
+- Location: ui/tests/user-account/my-account-settings.spec.ts:52:7
+
+# Error details
+
+```
+Error: expect(locator).toHaveText(expected) failed
+
+Locator: locator(':nth-child(5) > .font-display-500')
+Expected: "Meine Unternehmen"
+Timeout: 15000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toHaveText" locator(':nth-child(5) > .font-display-500') with timeout 15000ms
+  - waiting for locator(':nth-child(5) > .font-display-500')
+    - waiting for "https://www.wlw-staging.de/de/user-frontend/settings" navigation to finish...
+    - navigated to "https://www.wlw-staging.de/de/user-frontend/settings"
+
+```
+
+```yaml
+- banner:
+  - link "visable":
+    - /url: /de/user-frontend/settings
+    - img "visable"
+  - button "SF"
+  - button "DE"
+- heading "Mein Konto" [level=1]
+- paragraph: Verwalten Sie Ihre Datenschutz- und Sicherheitseinstellungen für die Dienste von Visable.
+- img "europages logo"
+- img "werliefertwas logo"
+- text: SF
+- textbox "Geben Sie Ihren Vornamen ein": Supplier
+- textbox "Geben Sie Ihren Nachnamen ein": Falcon
+- heading "Über mich" [level=2]
+- paragraph: Teilen Sie uns mehr über Ihre Rolle oder Ihren Jobtitel mit, damit wir die Marktplatzfunktion optimal auf Ihre Bedürfnisse anpassen können.
+- text: Anrede
+- button "Anrede":
+  - text: Wählen
+  - img "arrow-down"
+- text: Firmenname
+- textbox "Firmenname":
+  - /placeholder: Geben Sie den Namen Ihres Unternehmens ein
+  - text: Co-182979
+- text: Rolle oder Jobtitel
+- textbox "Rolle oder Jobtitel":
+  - /placeholder: Geben Sie Ihre Rolle oder Ihren Jobtitel ein
+  - text: Job-182979
+- text: Abteilung
+- textbox "Abteilung":
+  - /placeholder: Abteilung eingeben
+  - text: Dept-182979
+- button [disabled]
+- heading "Meine Unternehmen" [level=2]
+- link "WT WlW test company+1580162 wlw arrow":
+  - /url: /de/member-management/e9acccf3-9e87-4858-8714-2b0c56463823
+  - text: WT WlW test company+1580162
+  - img "wlw"
+  - img "arrow"
+- link "CHIRON Group SE CHIRON Group SE wlw ep arrow":
+  - /url: /de/member-management/00505682-f25b-1ee9-bd91-d257bd2197fb
+  - img "CHIRON Group SE"
+  - text: CHIRON Group SE
+  - img "wlw"
+  - img "ep"
+  - img "arrow"
+- link "WT WlW test company+5176504 wlw arrow":
+  - /url: /de/member-management/01b8af5c-aa39-46c1-a96e-91c0dd90b405
+  - text: WT WlW test company+5176504
+  - img "wlw"
+  - img "arrow"
+- link "ET EP test company+6789063 ep arrow":
+  - /url: /de/member-management/0ae7d4ed-40ef-4914-9f67-c1d25bd6ee81
+  - text: ET EP test company+6789063
+  - img "ep"
+  - img "arrow"
+- link "WT WlW test company+201746 wlw arrow":
+  - /url: /de/member-management/194a9171-0e4a-4375-a421-ffe429ccd584
+  - text: WT WlW test company+201746
+  - img "wlw"
+  - img "arrow"
+- link "Quality Assurance @ Visable Quality Assurance @ Visable wlw ep arrow":
+  - /url: /de/member-management/1acad524-bb62-4d4d-bb81-e8ecb1b7f254
+  - img "Quality Assurance @ Visable"
+  - text: Quality Assurance @ Visable
+  - img "wlw"
+  - img "ep"
+  - img "arrow"
+- link "WT WlW test company+4318808 wlw arrow":
+  - /url: /de/member-management/1c93bd3d-c4b1-4202-9905-03c2d3b6bb42
+  - text: WT WlW test company+4318808
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+3522425 wlw arrow":
+  - /url: /de/member-management/2337b818-75a2-4a85-86d8-d808a96a4f98
+  - text: WT WlW test company+3522425
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+7552547 wlw arrow":
+  - /url: /de/member-management/38987a99-16d9-40be-9021-8235eb74a6f2
+  - text: WT WlW test company+7552547
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+2600433 wlw arrow":
+  - /url: /de/member-management/4b7c3db4-a7be-4532-97e2-402a40e1d389
+  - text: WT WlW test company+2600433
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+993193 wlw arrow":
+  - /url: /de/member-management/513fd2ed-2e2d-4b7e-a153-a40356e47038
+  - text: WT WlW test company+993193
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+3094036 wlw arrow":
+  - /url: /de/member-management/5f3d20f8-710a-4285-a8b8-74e49a1ea8b3
+  - text: WT WlW test company+3094036
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+5171803 wlw arrow":
+  - /url: /de/member-management/7bf0808c-453c-46f2-8ff4-e626fc767ec7
+  - text: WT WlW test company+5171803
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+1298146 wlw arrow":
+  - /url: /de/member-management/82025e3f-1d32-40da-941e-7012ca773dc8
+  - text: WT WlW test company+1298146
+  - img "wlw"
+  - img "arrow"
+- link "WlW test company+6975438 WlW test company+6975438 wlw arrow":
+  - /url: /de/member-management/822a0ff1-7829-4554-8b8a-4770e7b78845
+  - img "WlW test company+6975438"
+  - text: WlW test company+6975438
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+4522447 wlw arrow":
+  - /url: /de/member-management/86b55f19-f94a-4191-b6b2-6ea4847972e0
+  - text: WT WlW test company+4522447
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+3085938 wlw arrow":
+  - /url: /de/member-management/a5b44b40-92c5-44fc-b3a0-ea953f330470
+  - text: WT WlW test company+3085938
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+432550 wlw arrow":
+  - /url: /de/member-management/af965fa8-ee33-4b12-b35c-fa9a2874313d
+  - text: WT WlW test company+432550
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+9086735 wlw arrow":
+  - /url: /de/member-management/b85b8271-78b7-4d41-9ce2-37767d1a64c7
+  - text: WT WlW test company+9086735
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+8545078 wlw arrow":
+  - /url: /de/member-management/bff2dd77-80be-4dd2-a188-0c455cf6018b
+  - text: WT WlW test company+8545078
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+3833920 wlw arrow":
+  - /url: /de/member-management/c2a2e5f0-3e3c-44cf-b7b7-443f05c47219
+  - text: WT WlW test company+3833920
+  - img "wlw"
+  - img "arrow"
+- link "ET EP test company+9541266 ep arrow":
+  - /url: /de/member-management/e7adf4c9-1cf5-44e3-bfc3-ed57fd289bc6
+  - text: ET EP test company+9541266
+  - img "ep"
+  - img "arrow"
+- link "WT WlW test company+38887 wlw arrow":
+  - /url: /de/member-management/eb59dc25-412b-4772-af22-6307c935deb9
+  - text: WT WlW test company+38887
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+909842 wlw arrow":
+  - /url: /de/member-management/ed907314-7d38-41ea-baa0-17c4b99e2176
+  - text: WT WlW test company+909842
+  - img "wlw"
+  - img "arrow"
+- link "WT WlW test company+2310340 wlw arrow":
+  - /url: /de/member-management/295e265c-427d-4606-b114-005332acbde6
+  - text: WT WlW test company+2310340
+  - img "wlw"
+  - img "arrow"
+- link "ET EP test company+1817636 ep arrow":
+  - /url: /de/member-management/d53e6b51-00cd-431e-9050-4342247a365b
+  - text: ET EP test company+1817636
+  - img "ep"
+  - img "arrow"
+- link "EP test company+9301441 EP test company+9301441 ep arrow":
+  - /url: /de/member-management/935b2638-da70-4d1c-9cb9-3b177f25453d
+  - img "EP test company+9301441"
+  - text: EP test company+9301441
+  - img "ep"
+  - img "arrow"
+- link "EP test company+713731 EP test company+713731 ep arrow":
+  - /url: /de/member-management/359074d7-11d0-4214-8b0a-83cc0621ab47
+  - img "EP test company+713731"
+  - text: EP test company+713731
+  - img "ep"
+  - img "arrow"
+- link "WlW test company+2540489 WlW test company+2540489 wlw arrow":
+  - /url: /de/member-management/4687f0c6-d4f7-424a-9199-c2323059de1e
+  - img "WlW test company+2540489"
+  - text: WlW test company+2540489
+  - img "wlw"
+  - img "arrow"
+- link "EP test company+9674887 EP test company+9674887 ep arrow":
+  - /url: /de/member-management/dccbc371-e813-40d1-b462-0d3acdff3a52
+  - img "EP test company+9674887"
+  - text: EP test company+9674887
+  - img "ep"
+  - img "arrow"
+- link "EP test company+2250076 EP test company+2250076 ep arrow":
+  - /url: /de/member-management/71c11849-9dd8-40a1-8181-6fa5b24ece4c
+  - img "EP test company+2250076"
+  - text: EP test company+2250076
+  - img "ep"
+  - img "arrow"
+- link "WlW test company+8435163 WlW test company+8435163 wlw arrow":
+  - /url: /de/member-management/6029041c-ff95-4baf-bce5-7aff16d6482e
+  - img "WlW test company+8435163"
+  - text: WlW test company+8435163
+  - img "wlw"
+  - img "arrow"
+- link "EP test company+5385413 EP test company+5385413 ep arrow":
+  - /url: /de/member-management/b9d35853-7f48-43f5-9fea-18d657ab4eb7
+  - img "EP test company+5385413"
+  - text: EP test company+5385413
+  - img "ep"
+  - img "arrow"
+- link "WlW test company+1433518 WlW test company+1433518 wlw arrow":
+  - /url: /de/member-management/bd92d8ea-7a6a-4b74-bd4e-c99bf32516ad
+  - img "WlW test company+1433518"
+  - text: WlW test company+1433518
+  - img "wlw"
+  - img "arrow"
+- text: Um Mitglied eines Unternehmens zu werden, kontaktieren Sie bitte unseren Kundenservice unter
+- link "info@wlw.com":
+  - /url: mailto:info@wlw.com
+- text: . Erstellen Sie Ihr Firmenprofil, um auf 'Wer liefert was (wlw)' gelistet zu werden. Kostenlos
+- link "Firma eintragen":
+  - /url: /de/supplier-registration
+- heading "Sprache" [level=2]
+- text: Meine bevorzugte Sprache
+- button "English arrow-down":
+  - text: English
+  - img "arrow-down"
+- paragraph: Sie erhalten Kommunikations- und Marketing-E-Mails in Ihrer bevorzugten Sprache.
+- heading "Kontoinformationen" [level=2]
+- paragraph: Aus technischen Gründen ist eine Änderung der E-Mail-Adresse nicht möglich.
+- text: E-Mail-Adresse
+- textbox "E-Mail-Adresse" [disabled]:
+  - /placeholder: name@firma.com
+  - text: supplier.falcon@test.com
+- heading "Sicherheit" [level=2]
+- text: Passworteinstellungen
+- link "Passwort zurücksetzen":
+  - /url: /de/user-frontend/password/edit?return_to=%2Fde%2Fuser-frontend%2Fsettings
+- heading "Zugriffstoken" [level=3]
+- paragraph: Token ermöglichen externen Systemen den Zugriff auf Ihr Konto.
+- paragraph: Sie haben keine externen Anwendungen autorisiert.
+- button "Dieses Konto löschen"
+- img "Visable logo"
+- contentinfo:
+  - img
+  - link "Allgemeinen Geschäftsbedingungen":
+    - /url: /de/unternehmen/rechtliche-hinweise/agb
+  - link "Allgemeine Bedingungen für die Nutzung":
+    - /url: /de/unternehmen/rechtliche-hinweise/nutzungsbedingungen
+  - link "Datenschutzbestimmungen":
+    - /url: /de/unternehmen/rechtliche-hinweise/datenschutz
+  - link "Impressum":
+    - /url: /de/unternehmen/rechtliche-hinweise/impressum
+- iframe
+```
+
+# Test source
+
+```ts
+  1   | import { expect, type Locator, type Page } from '@playwright/test';
+  2   | 
+  3   | /** `/user-frontend/settings` and notification settings (buyer account). */
+  4   | export class MyAccountPage {
+  5   |   constructor(private readonly page: Page) {}
+  6   | 
+  7   |   private notificationsSectionTitle(): Locator {
+  8   |     return this.page.locator('.flex.p-2 .font-display-500');
+  9   |   }
+  10  | 
+  11  |   private notificationsChangeButton(): Locator {
+  12  |     return this.page.locator('.flex.p-2 .btn');
+  13  |   }
+  14  | 
+  15  |   private myCompaniesSectionTitle(): Locator {
+  16  |     return this.page.locator(':nth-child(5) > .font-display-500');
+  17  |   }
+  18  | 
+  19  |   private languageSectionTitle(): Locator {
+  20  |     return this.page.locator('.font-display-500.mb-1');
+  21  |   }
+  22  | 
+  23  |   private languageSectionCard(): Locator {
+  24  |     return this.page
+  25  |       .locator('h2')
+  26  |       .filter({ hasText: /Language|Sprache/ })
+  27  |       .locator('xpath=ancestor::div[contains(@class,"bg-white")][1]');
+  28  |   }
+  29  | 
+  30  |   private languageSelectRoot(): Locator {
+  31  |     return this.page.locator('.vis-select').filter({ has: this.page.locator('button#language') });
+  32  |   }
+  33  | 
+  34  |   private languageDropdownButton(): Locator {
+  35  |     return this.languageSelectRoot().locator('button#language');
+  36  |   }
+  37  | 
+  38  |   private languageSaveButton(): Locator {
+  39  |     return this.languageSectionCard().locator('button.btn');
+  40  |   }
+  41  | 
+  42  |   private accountInfoSectionTitle(): Locator {
+  43  |     return this.page.locator('.mt-3.mt-2 > .flex-wrap > .font-display-500');
+  44  |   }
+  45  | 
+  46  |   private securitySectionTitle(): Locator {
+  47  |     return this.page.locator(':nth-child(8) > .font-display-500');
+  48  |   }
+  49  | 
+  50  |   async openSettings(
+  51  |     lang: 'de' | 'en',
+  52  |     waitUntil: 'domcontentloaded' | 'load' | 'networkidle' = 'domcontentloaded',
+  53  |   ): Promise<void> {
+  54  |     await this.page.goto(`/${lang}/user-frontend/settings`, { waitUntil });
+  55  |     await expect(this.page).toHaveURL(/user-frontend\/settings/, { timeout: 15_000 });
+  56  |   }
+  57  | 
+  58  |   async expectPageHeading(text: string): Promise<void> {
+  59  |     await expect(this.page.locator('h1')).toHaveText(text);
+  60  |   }
+  61  | 
+  62  |   async expectGivenName(value: string): Promise<void> {
+  63  |     await expect(this.page.locator("#givenName[type='text']")).toHaveValue(value);
+  64  |   }
+  65  | 
+  66  |   async expectSurname(value: string): Promise<void> {
+  67  |     await expect(this.page.locator("#surname[type='text']")).toHaveValue(value);
+  68  |   }
+  69  | 
+  70  |   async expectPersonalNameFieldsPopulated(): Promise<void> {
+  71  |     const givenName = this.page.locator("#givenName[type='text']");
+  72  |     const surname = this.page.locator("#surname[type='text']");
+  73  |     await expect(givenName).not.toHaveValue('');
+  74  |     await expect(surname).not.toHaveValue('');
+  75  |   }
+  76  | 
+  77  |   async expectAboutMeFieldsEnabled(): Promise<void> {
+  78  |     await expect(this.page.locator('#salutation')).toBeEnabled();
+  79  |     await expect(this.page.locator('#companyName')).toBeEnabled();
+  80  |     await expect(this.page.locator('#jobTitle')).toBeEnabled();
+  81  |     await expect(this.page.locator('#department')).toBeEnabled();
+  82  |   }
+  83  | 
+  84  |   async expectNotificationsSection(title: string): Promise<void> {
+  85  |     await expect(this.notificationsSectionTitle()).toHaveText(title);
+  86  |   }
+  87  | 
+  88  |   async expectMyCompaniesSection(title: string): Promise<void> {
+> 89  |     await expect(this.myCompaniesSectionTitle()).toHaveText(title);
+      |                                                  ^ Error: expect(locator).toHaveText(expected) failed
+  90  |     await expect(this.page.locator('a.create-company')).toBeEnabled();
+  91  |   }
+  92  | 
+  93  |   async expectLanguageSection(title: string): Promise<void> {
+  94  |     await expect(this.languageSectionTitle()).toHaveText(title);
+  95  |     await expect(this.page.locator('button#language')).toBeEnabled();
+  96  |   }
+  97  | 
+  98  |   async expectLanguageSelected(label: string): Promise<void> {
+  99  |     await expect(this.page.locator('#language .option')).toHaveText(label);
+  100 |   }
+  101 | 
+  102 |   async scrollToLanguageSection(): Promise<void> {
+  103 |     await this.languageDropdownButton().scrollIntoViewIfNeeded();
+  104 |     await expect(this.languageDropdownButton()).toBeVisible();
+  105 |   }
+  106 | 
+  107 |   async preferredLanguageLabel(): Promise<string> {
+  108 |     const label = await this.languageDropdownButton().locator('.option span').textContent();
+  109 |     return (label ?? '').trim();
+  110 |   }
+  111 | 
+  112 |   /** Vis-select dropdown is flaky to open; nudge salutation + retry (Pegasus REG-MA-02). */
+  113 |   private async openLanguageDropdown(): Promise<void> {
+  114 |     const select = this.languageSelectRoot();
+  115 |     const button = this.languageDropdownButton();
+  116 |     for (let attempt = 0; attempt < 5; attempt++) {
+  117 |       await this.page.locator('button#salutation').click().catch(() => undefined);
+  118 |       await this.page.keyboard.press('Escape');
+  119 |       await button.scrollIntoViewIfNeeded();
+  120 |       await button.click();
+  121 |       const opened = await select.evaluate((root) => {
+  122 |         const menu = root.querySelector('.dropdown') as HTMLElement | null;
+  123 |         return Boolean(menu && getComputedStyle(menu).display === 'flex');
+  124 |       });
+  125 |       if (opened) return;
+  126 |     }
+  127 |     throw new Error('Language dropdown did not open after retries');
+  128 |   }
+  129 | 
+  130 |   async selectPreferredLanguage(optionLabel: string): Promise<void> {
+  131 |     await this.openLanguageDropdown();
+  132 |     await this.languageSelectRoot()
+  133 |       .locator('[role="menuitem"]')
+  134 |       .filter({ hasText: optionLabel })
+  135 |       .click();
+  136 |     await expect(this.languageDropdownButton().locator('.option span')).toContainText(
+  137 |       optionLabel.startsWith('Deutsch') ? 'Deutsch' : 'English',
+  138 |     );
+  139 |   }
+  140 | 
+  141 |   async clickLanguageSave(): Promise<void> {
+  142 |     const save = this.languageSaveButton();
+  143 |     await expect(save).toBeEnabled({ timeout: 30_000 });
+  144 |     await save.click();
+  145 |     await expect(save).toBeDisabled({ timeout: 60_000 });
+  146 |   }
+  147 | 
+  148 |   async expectPreferredLanguage(optionLabel: string): Promise<void> {
+  149 |     await expect(this.languageDropdownButton().locator('.option span')).toContainText(
+  150 |       optionLabel.startsWith('Deutsch') ? 'Deutsch' : 'English',
+  151 |     );
+  152 |   }
+  153 | 
+  154 |   async expectAccountInfoSection(title: string): Promise<void> {
+  155 |     await expect(this.accountInfoSectionTitle()).toHaveText(title);
+  156 |     await expect(this.page.locator('#email')).toBeDisabled();
+  157 |   }
+  158 | 
+  159 |   async expectSecuritySection(title: string): Promise<void> {
+  160 |     await expect(this.securitySectionTitle()).toHaveText(title);
+  161 |     await expect(this.page.locator('[class*="delete-button"]')).toBeEnabled();
+  162 |   }
+  163 | 
+  164 |   async expectFooterLinks(expected: readonly string[]): Promise<void> {
+  165 |     const links = this.page.locator('.content a.link');
+  166 |     await expect(links).toHaveCount(expected.length);
+  167 |     const texts = await links.allTextContents();
+  168 |     expect(texts.map((t) => t.trim())).toEqual([...expected]);
+  169 |   }
+  170 | 
+  171 |   async openNotificationSettings(): Promise<void> {
+  172 |     await this.notificationsChangeButton().click();
+  173 |   }
+  174 | 
+  175 |   async expectNotificationSettingsHeading(text: string): Promise<void> {
+  176 |     await expect(this.page.locator('h1')).toHaveText(text);
+  177 |   }
+  178 | 
+  179 |   async expectDirectMessageNotificationsOn(): Promise<void> {
+  180 |     await expect(this.page.locator('#direct-message-enabled')).toBeChecked();
+  181 |     await expect(this.page.locator('#direct-message-email-enabled')).toBeChecked();
+  182 |     await expect(this.page.locator('#direct-message-email-enabled')).toBeDisabled();
+  183 |   }
+  184 | 
+  185 |   async expectRfqNotificationsOn(): Promise<void> {
+  186 |     await expect(this.page.locator('#request-for-quotes-enabled')).toBeChecked();
+  187 |     await expect(this.page.locator('#request-for-quotes-email-enabled')).toBeChecked();
+  188 |     await expect(this.page.locator('#request-for-quotes-email-enabled')).toBeDisabled();
+  189 |   }
+```
