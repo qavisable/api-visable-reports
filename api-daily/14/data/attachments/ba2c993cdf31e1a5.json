@@ -1,0 +1,439 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 1539,
+  "headers": {
+    "date": "Fri, 13 Nov 2026 02:12:10 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "categoryName": "Machine tools and equipment",
+      "categorySubtitle": "",
+      "categoryType": "root",
+      "categoryLogoUrl": null,
+      "categoryTitle": "Machine tools and equipment on ep : 22885 suppliers & 0 products online",
+      "totalCompanyCount": 22885,
+      "totalProductCount": 0,
+      "childNodes": [
+        {
+          "categoryName": "Pneumatic Tools",
+          "categoryId": "601109",
+          "categoryUrl": "pneumatic-tools-601109"
+        },
+        {
+          "categoryName": "Electric Tools",
+          "categoryId": "601107",
+          "categoryUrl": "electric-tools-601107"
+        },
+        {
+          "categoryName": "Tyre Mounting Devices",
+          "categoryId": "601106",
+          "categoryUrl": "tyre-mounting-devices-601106"
+        },
+        {
+          "categoryName": "Hot Air Guns",
+          "categoryId": "601105",
+          "categoryUrl": "hot-air-guns-601105"
+        },
+        {
+          "categoryName": "Central Lubricating Systems",
+          "categoryId": "601104",
+          "categoryUrl": "central-lubricating-systems-601104"
+        },
+        {
+          "categoryName": "Multifunctional Tools",
+          "categoryId": "601103",
+          "categoryUrl": "multifunctional-tools-601103"
+        },
+        {
+          "categoryName": "Pelletizing Plants",
+          "categoryId": "601101",
+          "categoryUrl": "pelletizing-plants-601101"
+        },
+        {
+          "categoryName": "Bar Loader",
+          "categoryId": "601100",
+          "categoryUrl": "bar-loader-601100"
+        },
+        {
+          "categoryName": "Engraving Devices",
+          "categoryId": "601099",
+          "categoryUrl": "engraving-devices-601099"
+        },
+        {
+          "categoryName": "Pin Markers",
+          "categoryId": "601098",
+          "categoryUrl": "pin-markers-601098"
+        },
+        {
+          "categoryName": "Nailers",
+          "categoryId": "601096",
+          "categoryUrl": "nailers-601096"
+        },
+        {
+          "categoryName": "Paint Spray Systems",
+          "categoryId": "601095",
+          "categoryUrl": "paint-spray-systems-601095"
+        },
+        {
+          "categoryName": "Machine tools and equipment (Other)",
+          "categoryId": "601093",
+          "categoryUrl": "machine-tools-and-equipment-other-601093"
+        },
+        {
+          "categoryName": "Lapping Machines",
+          "categoryId": "601092",
+          "categoryUrl": "lapping-machines-601092"
+        },
+        {
+          "categoryName": "Embossing Machines",
+          "categoryId": "601091",
+          "categoryUrl": "embossing-machines-601091"
+        },
+        {
+          "categoryName": "Balancing Machines",
+          "categoryId": "601090",
+          "categoryUrl": "balancing-machines-601090"
+        },
+        {
+          "categoryName": "Shaping Machines",
+          "categoryId": "601089",
+          "categoryUrl": "shaping-machines-601089"
+        },
+        {
+          "categoryName": "Beading Machines",
+          "categoryId": "601088",
+          "categoryUrl": "beading-machines-601088"
+        },
+        {
+          "categoryName": "Border Crimping Machines",
+          "categoryId": "601087",
+          "categoryUrl": "border-crimping-machines-601087"
+        },
+        {
+          "categoryName": "Rolling Machines",
+          "categoryId": "601086",
+          "categoryUrl": "rolling-machines-601086"
+        },
+        {
+          "categoryName": "Electric Staplers",
+          "categoryId": "601084",
+          "categoryUrl": "electric-staplers-601084"
+        },
+        {
+          "categoryName": "Riveting Machines",
+          "categoryId": "601067",
+          "categoryUrl": "riveting-machines-601067"
+        },
+        {
+          "categoryName": "Honing Machines",
+          "categoryId": "601065",
+          "categoryUrl": "honing-machines-601065"
+        },
+        {
+          "categoryName": "Erosion Machines",
+          "categoryId": "601059",
+          "categoryUrl": "erosion-machines-601059"
+        },
+        {
+          "categoryName": "Brushing Machines",
+          "categoryId": "601057",
+          "categoryUrl": "brushing-machines-601057"
+        },
+        {
+          "categoryName": "Polishing Machines",
+          "categoryId": "601019",
+          "categoryUrl": "polishing-machines-601019"
+        },
+        {
+          "categoryName": "Deburring Machines",
+          "categoryId": "600954",
+          "categoryUrl": "deburring-machines-600954"
+        },
+        {
+          "categoryName": "Punching Machines",
+          "categoryId": "600947",
+          "categoryUrl": "punching-machines-600947"
+        },
+        {
+          "categoryName": "Screw Machines",
+          "categoryId": "200084",
+          "categoryUrl": "screw-machines-200084"
+        },
+        {
+          "categoryName": "Planing Machines",
+          "categoryId": "200079",
+          "categoryUrl": "planing-machines-200079"
+        },
+        {
+          "categoryName": "Drilling Machines",
+          "categoryId": "200078",
+          "categoryUrl": "drilling-machines-200078"
+        },
+        {
+          "categoryName": "Grinding Machines",
+          "categoryId": "200076",
+          "categoryUrl": "grinding-machines-200076"
+        },
+        {
+          "categoryName": "Bending Machines",
+          "categoryId": "200073",
+          "categoryUrl": "bending-machines-200073"
+        },
+        {
+          "categoryName": "Pressing Machines",
+          "categoryId": "200072",
+          "categoryUrl": "pressing-machines-200072"
+        },
+        {
+          "categoryName": "Sawing Machines",
+          "categoryId": "200071",
+          "categoryUrl": "sawing-machines-200071"
+        },
+        {
+          "categoryName": "Cutting Machines",
+          "categoryId": "200070",
+          "categoryUrl": "cutting-machines-200070"
+        },
+        {
+          "categoryName": "Lathes",
+          "categoryId": "200069",
+          "categoryUrl": "lathes-200069"
+        },
+        {
+          "categoryName": "Milling Machines",
+          "categoryId": "200068",
+          "categoryUrl": "milling-machines-200068"
+        },
+        {
+          "categoryName": "CNC Machines",
+          "categoryId": "200067",
+          "categoryUrl": "cnc-machines-200067"
+        },
+        {
+          "categoryName": "Machine Tools",
+          "categoryId": "200066",
+          "categoryUrl": "machine-tools-200066"
+        }
+      ],
+      "supplierRecom": null,
+      "supplierCards": {
+        "companyId": "1786418",
+        "uuid": "00505682-f25b-1ee9-bd91-d26ad11ef7fb",
+        "slug": "rs-handelsunternehmen-kg-1786418",
+        "averageResponseTime": "less_than_24h",
+        "certificatesCount": "0",
+        "city": "Nördlingen",
+        "countryCode": "DE",
+        "distributionArea": "europe",
+        "employeeCount": "10-19",
+        "foundingYear": "1985",
+        "supplierTypeCounts": [
+          {
+            "supplierType": "distribution",
+            "count": 1
+          },
+          {
+            "supplierType": "service",
+            "count": 1
+          }
+        ],
+        "productCount": "5",
+        "responseRate": 0.06,
+        "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/79591276-d936-48d3-84b3-09eb27661871.jpeg",
+        "portfolioProducts": [
+          {
+            "productId": null,
+            "name": "Purchase of Used Machinery",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/262db609-dea1-11ed-b7ac-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "ankauf-von-gebrauchtmaschinen-19516402",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Purchase and sale of cables and wires",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/f797d292-dea0-11ed-8be9-0a58a9feac02.png"
+              }
+            ],
+            "slug": "ankauf-und-verkauf-von-kabel-und-leitungen-19516400",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Recycling",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/dd990f1d-a023-11ef-afd0-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "recycling-35929958",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Purchase of Metal Scrap | Scrap Metal",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/3835c337-dea7-11ed-b226-0a58a9feac02.png"
+              }
+            ],
+            "slug": "ankauf-von-metallschrott-altmetall-24949304",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Cable Recovery | Cable Recycling",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/43cb2a4f-52a6-11f1-b4ac-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "kabelverwertung-kabel-recycling-33429705",
+            "detailUrl": null
+          }
+        ],
+        "highlightings": {
+          "name": "RS Handelsunternehmen KG",
+          "description": "Our company specializes internationally in the purchase of cables and wires, metals, scrap, used machine tools, and much more | Additionally, we are a cable..."
+        },
+        "name": "RS Handelsunternehmen KG",
+        "street": "Schäufelinstrasse 20",
+        "zipcode": "86720",
+        "email": "",
+        "companyShotDescstring": null,
+        "isCustomer": true,
+        "acronym": "RH",
+        "companyUrl": null,
+        "epId": "00000005343112-001",
+        "epSlug": ""
+      },
+      "products": null,
+      "productList": null,
+      "breadCrumbs": [
+        {
+          "categoryName": "Machine tools and equipment",
+          "categoryId": "100014",
+          "categoryUrl": null
+        }
+      ],
+      "internalLinks": null,
+      "meta": {
+        "keywords": "Machine tools and equipment",
+        "metaKeywords": "Machine tools and equipment",
+        "title": "Machine tools and equipment on ep : 22885 suppliers & 0 products online",
+        "site": "europages.co.uk",
+        "description": "Machine tools and equipment on ep : 22885 suppliers & 0 products online",
+        "canonicalUrl": "/en/showroom-cate/machine-tools-and-equipment-100014",
+        "h1": null,
+        "alternates": [
+          {
+            "lang": "hu-HU",
+            "url": "https://www.europages.co.hu/hu/showroom-cate/gepek-es-berendezesek-100014"
+          },
+          {
+            "lang": "en-GB",
+            "url": "https://www.europages.co.uk/en/showroom-cate/machine-tools-and-equipment-100014"
+          },
+          {
+            "lang": "it-IT",
+            "url": "https://www.europages.it/it/showroom-cate/macchine-utensili-e-attrezzature-100014"
+          },
+          {
+            "lang": "cs-CZ",
+            "url": "https://www.europages.cz/cs/showroom-cate/strojni-nařadi-a-zařizeni-100014"
+          },
+          {
+            "lang": "lt-LT",
+            "url": "https://www.europages.lt/lt/showroom-cate/įrenginiai-ir-įranga-100014"
+          },
+          {
+            "lang": "es-ES",
+            "url": "https://www.europages.es/es/showroom-cate/herramientas-y-equipos-de-maquinas-100014"
+          },
+          {
+            "lang": "nl-NL",
+            "url": "https://www.europages.nl/nl/showroom-cate/machinegereedschap-apparatuur-100014"
+          },
+          {
+            "lang": "de-DE",
+            "url": "https://www.europages.de/de/showroom-cate/werkzeugmaschinen-geraete-100014"
+          },
+          {
+            "lang": "no-NO",
+            "url": "https://www.europages.no/no/showroom-cate/maskinverktoey-og-utstyr-100014"
+          },
+          {
+            "lang": "et-EE",
+            "url": "https://www.europages.ee/et/showroom-cate/masinatoeoeriistad-ja-seadmed-100014"
+          },
+          {
+            "lang": "pl-PL",
+            "url": "https://www.europages.pl/pl/showroom-cate/obrabiarki-i-narzędzia-100014"
+          },
+          {
+            "lang": "bg-BG",
+            "url": "https://www.europages.bg/bg/showroom-cate/машини-инструменти-и-оборудване-100014"
+          },
+          {
+            "lang": "pt-PT",
+            "url": "https://www.europages.pt/pt/showroom-cate/maquinas-ferramentas-e-equipamentos-100014"
+          },
+          {
+            "lang": "fi-FI",
+            "url": "https://www.europages.fi/fi/showroom-cate/konepajateollisuuden-koneet-ja-laitteet-100014"
+          },
+          {
+            "lang": "ro-RO",
+            "url": "https://www.europages.ro/ro/showroom-cate/utilaje-și-echipamente-industriale-100014"
+          },
+          {
+            "lang": "el-GR",
+            "url": "https://www.europages.gr/el/showroom-cate/εργαλεία-μηχανών-και-εξοπλισμός-100014"
+          },
+          {
+            "lang": "sl-SI",
+            "url": "https://www.europages.si/sl/showroom-cate/stroji-in-oprema-100014"
+          },
+          {
+            "lang": "fr-FR",
+            "url": "https://www.europages.fr/fr/showroom-cate/machines-outils-et-appareils-100014"
+          },
+          {
+            "lang": "sv-SE",
+            "url": "https://www.europages.se/sv/showroom-cate/maskinverktyg-och-utrustning-100014"
+          },
+          {
+            "lang": "da-DK",
+            "url": "https://www.europages.dk/da/showroom-cate/maskinvaerktoej-og-udstyr-100014"
+          },
+          {
+            "lang": "tr-TR",
+            "url": "https://www.europages.com.tr/tr/showroom-cate/takım-tezgahları-ve-ekipmanları-100014"
+          }
+        ],
+        "index": null,
+        "follow": null
+      },
+      "paging": null,
+      "pageSize": 0,
+      "filters": null
+    }
+  }
+}

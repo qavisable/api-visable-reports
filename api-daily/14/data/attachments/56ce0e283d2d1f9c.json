@@ -1,0 +1,16 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/showroom/v1/crumbs?keyword=cnc&language=de",
+  "durationMs": 614,
+  "params": {
+    "keyword": "cnc",
+    "language": "de"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "Accept-Language": "de",
+    "X-Application-Id": "homepage-frontend",
+    "x-host": "www.wlw-staging.de"
+  }
+}

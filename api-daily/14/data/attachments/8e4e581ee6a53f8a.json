@@ -1,0 +1,164 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 617,
+  "headers": {
+    "date": "Fri, 13 Nov 2026 02:11:48 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "algBts": null,
+      "returnCount": 0,
+      "offerInfo": null,
+      "translateTime": 0,
+      "pageSize": 0,
+      "paging": null,
+      "debugInfo": null,
+      "filters": null,
+      "offerIds": null,
+      "totalCount": 0,
+      "products": null,
+      "serviceLatency": null,
+      "pageIndex": 0,
+      "fxbCategoryId": 0,
+      "traceinfoId": null,
+      "tppBuckets": null,
+      "engineTime": 0,
+      "keyword": null,
+      "newPriceFilter": null,
+      "atmosphereTime": 0,
+      "cpvCategory": null,
+      "frontAbTestPrice": null,
+      "frontAbTestJsonString": null,
+      "meta": {
+        "keywords": null,
+        "metaKeywords": null,
+        "title": "CNC nicht verfügbar – Alternativen entdecken",
+        "site": null,
+        "description": "Dieses Produkt ist nicht mehr verfügbar. Entdecken Sie Tausende weiterer Produktangebote und verifizierter Lieferanten auf CNC.",
+        "canonicalUrl": "https://www.wlw.de/de/showroom/cnc",
+        "h1": "CNC — Alternative Produkte und Lieferanten entdecken",
+        "alternates": null,
+        "index": true,
+        "follow": true
+      },
+      "internalLinks": [],
+      "relatedKeywords": [
+        {
+          "internalLinkUrl": "/de/suche/cnc",
+          "internalLinkName": "cnc",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/cnc-software",
+          "internalLinkName": "cnc software",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/cnc-5",
+          "internalLinkName": "cnc 5",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/intel-xeon-cpu",
+          "internalLinkName": "Intel Xeon CPU",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/hss-schrott-preis",
+          "internalLinkName": "hss schrott preis",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/pc-vermietung",
+          "internalLinkName": "pc vermietung",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/leichte-esd-sicherheitsschuhe-damen",
+          "internalLinkName": "leichte esd sicherheitsschuhe damen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/hss-bohrer",
+          "internalLinkName": "hss bohrer",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/mdf-platte-10-mm-toom",
+          "internalLinkName": "mdf platte 10 mm toom",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/niro-wanne",
+          "internalLinkName": "niro wanne",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/torx-schrauben",
+          "internalLinkName": "torx schrauben",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/t4-syncro-antriebswelle-hinten",
+          "internalLinkName": "t4 syncro antriebswelle hinten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/mdf-platte-toom",
+          "internalLinkName": "mdf platte toom",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/lego-anleitung",
+          "internalLinkName": "lego anleitung",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/sicherheitsschuhe-damen-esd",
+          "internalLinkName": "sicherheitsschuhe damen esd",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/rc-auto-bausatz-komplettset",
+          "internalLinkName": "rc auto bausatz komplettset",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/car-navigation-entertainment-system-s60-digital-800x480-tft-lcd-monitor",
+          "internalLinkName": "car navigation entertainment system s60 digital 800x480 tft lcd monitor",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/3d-lego-platten",
+          "internalLinkName": "3d lego platten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/esd-beutel",
+          "internalLinkName": "esd beutel",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/einhell-sga-175-turbo-drahtvorschub",
+          "internalLinkName": "einhell sga 175 turbo drahtvorschub",
+          "ahref": true
+        }
+      ],
+      "learnMoreDescriptionSimple": null,
+      "learnMoreDescriptionComplex": null,
+      "cache": false
+    }
+  }
+}

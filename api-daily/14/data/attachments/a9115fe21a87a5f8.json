@@ -1,0 +1,17 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 616,
+  "headers": {
+    "date": "Fri, 13 Nov 2026 02:12:06 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": []
+}

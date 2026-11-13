@@ -1,0 +1,770 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 732,
+  "headers": {
+    "date": "Fri, 13 Nov 2026 02:11:30 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "bsSummaryList": [
+        {
+          "title": "Gesundheit",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/health.jpg",
+          "url": "/bs/gesundheit",
+          "subList": [
+            {
+              "name": "Biotechnologien",
+              "url": "/bs/gesundheit/biotechnologien"
+            },
+            {
+              "name": "Institute",
+              "url": "/bs/gesundheit/institute"
+            },
+            {
+              "name": "Medizinische Dienste",
+              "url": "/bs/gesundheit/medizinische-dienste"
+            },
+            {
+              "name": "Medizinische Geräte",
+              "url": "/bs/gesundheit/medizinische-geraete"
+            }
+          ]
+        },
+        {
+          "title": "Unternehmensdienstleistungen",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/business-services.jpg",
+          "url": "/bs/unternehmensdienstleistungen",
+          "subList": [
+            {
+              "name": "Aus- und Weiterbildung",
+              "url": "/bs/unternehmensdienstleistungen/aus-und-weiterbildung"
+            },
+            {
+              "name": "Berufsorganisationen",
+              "url": "/bs/unternehmensdienstleistungen/berufsorganisationen"
+            },
+            {
+              "name": "Großhandel",
+              "url": "/bs/unternehmensdienstleistungen/grosshandel"
+            },
+            {
+              "name": "Immobilien",
+              "url": "/bs/unternehmensdienstleistungen/immobilien"
+            },
+            {
+              "name": "Lagerung",
+              "url": "/bs/unternehmensdienstleistungen/lagerung"
+            },
+            {
+              "name": "Reinigung",
+              "url": "/bs/unternehmensdienstleistungen/reinigung"
+            },
+            {
+              "name": "Sekretariat",
+              "url": "/bs/unternehmensdienstleistungen/sekretariat"
+            },
+            {
+              "name": "Sicherheitsdienstleistungen",
+              "url": "/bs/unternehmensdienstleistungen/sicherheitsdienstleistungen"
+            },
+            {
+              "name": "Studien und Forschung",
+              "url": "/bs/unternehmensdienstleistungen/studien-und-forschung"
+            },
+            {
+              "name": "Umwelt",
+              "url": "/bs/unternehmensdienstleistungen/umwelt"
+            },
+            {
+              "name": "Unternehmensberatung",
+              "url": "/bs/unternehmensdienstleistungen/unternehmensberatung"
+            },
+            {
+              "name": "Verpackungen",
+              "url": "/bs/unternehmensdienstleistungen/verpackungen"
+            },
+            {
+              "name": "Wartung und Reparatur",
+              "url": "/bs/unternehmensdienstleistungen/wartung-und-reparatur"
+            },
+            {
+              "name": "Übersetzen und Dolmetschen",
+              "url": "/bs/unternehmensdienstleistungen/uebersetzen-und-dolmetschen"
+            }
+          ]
+        },
+        {
+          "title": "Banken, Finanz- und Versicherungsanstalten",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/banking-finance-insurance.jpg",
+          "url": "/bs/banken-finanz-und-versicherungsanstalten",
+          "subList": [
+            {
+              "name": "Bankinstitute",
+              "url": "/bs/banken-finanz-und-versicherungsanstalten/bankinstitute"
+            },
+            {
+              "name": "Finanzberatung",
+              "url": "/bs/banken-finanz-und-versicherungsanstalten/finanzberatung"
+            },
+            {
+              "name": "Versicherungen",
+              "url": "/bs/banken-finanz-und-versicherungsanstalten/versicherungen"
+            }
+          ]
+        },
+        {
+          "title": "Marketing, Werbung und Medien",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/marketing-advertising-the-media.jpg",
+          "url": "/bs/marketing-werbung-und-medien",
+          "subList": [
+            {
+              "name": "Marketing",
+              "url": "/bs/marketing-werbung-und-medien/marketing"
+            },
+            {
+              "name": "Medien",
+              "url": "/bs/marketing-werbung-und-medien/medien"
+            },
+            {
+              "name": "Werbung",
+              "url": "/bs/marketing-werbung-und-medien/werbung"
+            }
+          ]
+        },
+        {
+          "title": "Reisen, Tourismus und Freizeit",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/travel-tourism-leisure.jpg",
+          "url": "/bs/reisen-tourismus-und-freizeit",
+          "subList": [
+            {
+              "name": "Geschäftsreisen",
+              "url": "/bs/reisen-tourismus-und-freizeit/geschaeftsreisen"
+            },
+            {
+              "name": "Hotel- und Gaststättengewerbe",
+              "url": "/bs/reisen-tourismus-und-freizeit/hotel-und-gaststaettengewerbe"
+            },
+            {
+              "name": "Messen",
+              "url": "/bs/reisen-tourismus-und-freizeit/messen"
+            },
+            {
+              "name": "Sport und Freizeit",
+              "url": "/bs/reisen-tourismus-und-freizeit/sport-und-freizeit"
+            }
+          ]
+        },
+        {
+          "title": "Präzisionsgeräte",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/precision-equipment.jpg",
+          "url": "/bs/praezisionsgeraete",
+          "subList": [
+            {
+              "name": "Messgeräte und -instrumente",
+              "url": "/bs/praezisionsgeraete/messgeraete-und-instrumente"
+            },
+            {
+              "name": "Optik - Geräte und Instrumente",
+              "url": "/bs/praezisionsgeraete/optik-geraete-und-instrumente"
+            },
+            {
+              "name": "Uhren - Uhrenbau",
+              "url": "/bs/praezisionsgeraete/uhren-uhrenbau"
+            }
+          ]
+        },
+        {
+          "title": "Spedition und Transport",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/transport-related-services.jpg",
+          "url": "/bs/spedition-und-transport",
+          "subList": [
+            {
+              "name": "Bahntransport",
+              "url": "/bs/spedition-und-transport/bahntransport"
+            },
+            {
+              "name": "Fluggesellschaften",
+              "url": "/bs/spedition-und-transport/fluggesellschaften"
+            },
+            {
+              "name": "See- und Binnenschifffahrttransport",
+              "url": "/bs/spedition-und-transport/see-und-binnenschifffahrttransport"
+            },
+            {
+              "name": "Speditionsgewerbe",
+              "url": "/bs/spedition-und-transport/speditionsgewerbe"
+            },
+            {
+              "name": "Spezifische Transporte",
+              "url": "/bs/spedition-und-transport/spezifische-transporte"
+            },
+            {
+              "name": "Straßentransport",
+              "url": "/bs/spedition-und-transport/strassentransport"
+            }
+          ]
+        },
+        {
+          "title": "Luxus- und Freizeitartikel",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/luxury-leisure-products.jpg",
+          "url": "/bs/luxus-und-freizeitartikel",
+          "subList": [
+            {
+              "name": "Geschenke",
+              "url": "/bs/luxus-und-freizeitartikel/geschenke"
+            },
+            {
+              "name": "Kunst und Veranstaltungen",
+              "url": "/bs/luxus-und-freizeitartikel/kunst-und-veranstaltungen"
+            },
+            {
+              "name": "Schmuckwaren",
+              "url": "/bs/luxus-und-freizeitartikel/schmuckwaren"
+            },
+            {
+              "name": "Spezialverpackungen",
+              "url": "/bs/luxus-und-freizeitartikel/spezialverpackungen"
+            },
+            {
+              "name": "Spiele und Spielzeug",
+              "url": "/bs/luxus-und-freizeitartikel/spiele-und-spielzeug"
+            },
+            {
+              "name": "Sport - Artikel und Ausrüstungen",
+              "url": "/bs/luxus-und-freizeitartikel/sport-artikel-und-ausruestungen"
+            }
+          ]
+        },
+        {
+          "title": "Druckindustrie und Verlagserzeugnisse",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/printing-publishing.jpg",
+          "url": "/bs/druckindustrie-und-verlagserzeugnisse",
+          "subList": [
+            {
+              "name": "Druckerei",
+              "url": "/bs/druckindustrie-und-verlagserzeugnisse/druckerei"
+            },
+            {
+              "name": "Elektronisches Verlagswesen",
+              "url": "/bs/druckindustrie-und-verlagserzeugnisse/elektronisches-verlagswesen"
+            },
+            {
+              "name": "Verlagswesen",
+              "url": "/bs/druckindustrie-und-verlagserzeugnisse/verlagswesen"
+            }
+          ]
+        },
+        {
+          "title": "Textilien und Bekleidung",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/textiles-clothing.jpg",
+          "url": "/bs/textilien-und-bekleidung",
+          "subList": [
+            {
+              "name": "Accessoires",
+              "url": "/bs/textilien-und-bekleidung/accessoires"
+            },
+            {
+              "name": "Bekleidung",
+              "url": "/bs/textilien-und-bekleidung/bekleidung"
+            },
+            {
+              "name": "Stoffe",
+              "url": "/bs/textilien-und-bekleidung/stoffe"
+            },
+            {
+              "name": "Stoffe und Haushaltswäsche",
+              "url": "/bs/textilien-und-bekleidung/stoffe-und-haushaltswaesche"
+            }
+          ]
+        },
+        {
+          "title": "Leder und Schuhe",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/leather-shoes.jpg",
+          "url": "/bs/leder-und-schuhe",
+          "subList": [
+            {
+              "name": "Leder - Rohmaterialien",
+              "url": "/bs/leder-und-schuhe/leder-rohmaterialien"
+            },
+            {
+              "name": "Lederwaren",
+              "url": "/bs/leder-und-schuhe/lederwaren"
+            },
+            {
+              "name": "Schuhe",
+              "url": "/bs/leder-und-schuhe/schuhe"
+            }
+          ]
+        },
+        {
+          "title": "Papier und Karton",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/paper-cardboard.jpg",
+          "url": "/bs/papier-und-karton",
+          "subList": [
+            {
+              "name": "Papier und Karton - Grundstoffe",
+              "url": "/bs/papier-und-karton/papier-und-karton-fertige-erzeugnisse"
+            },
+            {
+              "name": "Papier und Karton - fertige Erzeugnisse",
+              "url": "/bs/papier-und-karton/papier-und-karton-grundstoffe"
+            },
+            {
+              "name": "Verpackungen - Papier und Karton",
+              "url": "/bs/papier-und-karton/verpackungen-papier-und-karton"
+            }
+          ]
+        },
+        {
+          "title": "Elektrische und elektronische Ausstattungen",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/electrical-electronic-equipment.jpg",
+          "url": "/bs/elektrische-und-elektronische-ausstattungen",
+          "subList": [
+            {
+              "name": "Beleuchtung",
+              "url": "/bs/elektrische-und-elektronische-ausstattungen/beleuchtung"
+            },
+            {
+              "name": "Elektrische und elektronische Bauelemente",
+              "url": "/bs/elektrische-und-elektronische-ausstattungen/elektrische-und-elektronische-bauelemente"
+            },
+            {
+              "name": "Elektrizität",
+              "url": "/bs/elektrische-und-elektronische-ausstattungen/elektrizitaet"
+            },
+            {
+              "name": "Elektronische Geräte",
+              "url": "/bs/elektrische-und-elektronische-ausstattungen/elektronische-geraete"
+            },
+            {
+              "name": "Hi-Fi und Elektrohaushaltsgeräte",
+              "url": "/bs/elektrische-und-elektronische-ausstattungen/hi-fi-und-elektrohaushaltsgeraete"
+            },
+            {
+              "name": "Motoren",
+              "url": "/bs/elektrische-und-elektronische-ausstattungen/motoren"
+            },
+            {
+              "name": "Sicherheit",
+              "url": "/bs/elektrische-und-elektronische-ausstattungen/sicherheit"
+            }
+          ]
+        },
+        {
+          "title": "Telekommunikationsindustrie",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/telecommunications-industry.jpg",
+          "url": "/bs/telekommunikationsindustrie",
+          "subList": [
+            {
+              "name": "Audiovisuelle Kommunikation",
+              "url": "/bs/telekommunikationsindustrie/audiovisuelle-kommunikation"
+            },
+            {
+              "name": "Bürotechnik",
+              "url": "/bs/telekommunikationsindustrie/buerotechnik"
+            },
+            {
+              "name": "Internet und Telephonie",
+              "url": "/bs/telekommunikationsindustrie/internet-und-telephonie"
+            },
+            {
+              "name": "Kabel und Netzwerke",
+              "url": "/bs/telekommunikationsindustrie/kabel-und-netzwerke"
+            }
+          ]
+        },
+        {
+          "title": "Elektronische Datenverarbeitung",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/information-technology.jpg",
+          "url": "/bs/elektronische-datenverarbeitung",
+          "subList": [
+            {
+              "name": "Computer",
+              "url": "/bs/elektronische-datenverarbeitung/computer"
+            },
+            {
+              "name": "Informatikservices",
+              "url": "/bs/elektronische-datenverarbeitung/informatikservices"
+            },
+            {
+              "name": "Peripheriegeräte - Datenverarbeitung",
+              "url": "/bs/elektronische-datenverarbeitung/peripheriegeraete-datenverarbeitung"
+            },
+            {
+              "name": "Software",
+              "url": "/bs/elektronische-datenverarbeitung/software"
+            }
+          ]
+        },
+        {
+          "title": "Chemie und Pharmazeutik",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/chemicals-pharmaceuticals.jpg",
+          "url": "/bs/chemie-und-pharmazeutik",
+          "subList": [
+            {
+              "name": "Chemie - Grundstoffe und Derivate",
+              "url": "/bs/chemie-und-pharmazeutik/chemie-grundstoffe-und-derivate"
+            },
+            {
+              "name": "Kosmetika",
+              "url": "/bs/chemie-und-pharmazeutik/kosmetika"
+            },
+            {
+              "name": "Pharmazeutik",
+              "url": "/bs/chemie-und-pharmazeutik/pharmazeutik"
+            }
+          ]
+        },
+        {
+          "title": "Glas und Baumaterialien",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/glass-construction-materials.jpg",
+          "url": "/bs/glas-und-baumaterialien",
+          "subList": [
+            {
+              "name": "Baumaterialien",
+              "url": "/bs/glas-und-baumaterialien/baumaterialien"
+            },
+            {
+              "name": "Fayencen",
+              "url": "/bs/glas-und-baumaterialien/fayencen"
+            },
+            {
+              "name": "Glas",
+              "url": "/bs/glas-und-baumaterialien/glas"
+            }
+          ]
+        },
+        {
+          "title": "Hoch- und Tiefbauarbeiten",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/construction-public-works.jpg",
+          "url": "/bs/hoch-und-tiefbauarbeiten",
+          "subList": [
+            {
+              "name": "Hochbauarbeiten",
+              "url": "/bs/hoch-und-tiefbauarbeiten/hochbauarbeiten"
+            },
+            {
+              "name": "Hochbauunternehmen - Ausbauarbeiten",
+              "url": "/bs/hoch-und-tiefbauarbeiten/hochbauunternehmen-ausbauarbeiten"
+            },
+            {
+              "name": "Hochbauunternehmen - Rohbauerstellung",
+              "url": "/bs/hoch-und-tiefbauarbeiten/hochbauunternehmen-rohbauerstellung"
+            },
+            {
+              "name": "Material",
+              "url": "/bs/hoch-und-tiefbauarbeiten/material"
+            },
+            {
+              "name": "Tiefbauarbeiten",
+              "url": "/bs/hoch-und-tiefbauarbeiten/tiefbauarbeiten"
+            }
+          ]
+        },
+        {
+          "title": "Holz und Möbel",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/wood-furniture.jpg",
+          "url": "/bs/holz-und-moebel",
+          "subList": [
+            {
+              "name": "Gewerbliche Einrichtungen",
+              "url": "/bs/holz-und-moebel/gewerbliche-einrichtungen"
+            },
+            {
+              "name": "Holz",
+              "url": "/bs/holz-und-moebel/holz"
+            },
+            {
+              "name": "Holz - fertige Erzeugnisse",
+              "url": "/bs/holz-und-moebel/holz-fertige-erzeugnisse"
+            },
+            {
+              "name": "Wohnmobiliar",
+              "url": "/bs/holz-und-moebel/wohnmobiliar"
+            }
+          ]
+        },
+        {
+          "title": "Gummi und Rohstoffe",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/rubber-plastics.jpg",
+          "url": "/bs/gummi-und-rohstoffe",
+          "subList": [
+            {
+              "name": "Gummi",
+              "url": "/bs/gummi-und-rohstoffe/gummi"
+            },
+            {
+              "name": "Kunststoff",
+              "url": "/bs/gummi-und-rohstoffe/kunststoff"
+            },
+            {
+              "name": "Verpackungen - Kunststoff",
+              "url": "/bs/gummi-und-rohstoffe/verpackungen-kunststoff"
+            }
+          ]
+        },
+        {
+          "title": "Fahrzeuge und Transportmittel",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/vehicles-transport-equipment.jpg",
+          "url": "/bs/fahrzeuge-und-transportmittel",
+          "subList": [
+            {
+              "name": "Autos",
+              "url": "/bs/fahrzeuge-und-transportmittel/autos"
+            },
+            {
+              "name": "Fahrräder",
+              "url": "/bs/fahrzeuge-und-transportmittel/fahrraeder"
+            },
+            {
+              "name": "Industriefahrzeuge",
+              "url": "/bs/fahrzeuge-und-transportmittel/industriefahrzeuge"
+            },
+            {
+              "name": "Luftfahrtindustrie",
+              "url": "/bs/fahrzeuge-und-transportmittel/luftfahrtindustrie"
+            },
+            {
+              "name": "Material und Ausrüstungen",
+              "url": "/bs/fahrzeuge-und-transportmittel/material-und-ausruestungen"
+            },
+            {
+              "name": "Schiffe",
+              "url": "/bs/fahrzeuge-und-transportmittel/schiffe"
+            },
+            {
+              "name": "Vermietung",
+              "url": "/bs/fahrzeuge-und-transportmittel/vermietung"
+            }
+          ]
+        },
+        {
+          "title": "Maschinenbau und Industrie - Ausrüstungen",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/mechanical-engineering-industry-equipment.jpg",
+          "url": "/bs/maschinenbau-und-industrie-ausruestungen",
+          "subList": [
+            {
+              "name": "Baugewerbe - Maschinen und Geräte",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/baugewerbe-maschinen-und-geraete"
+            },
+            {
+              "name": "Chemie| Pharmazeutik - Maschinen und Geräte",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/chemie-pharmazeutik-maschinen-und-geraete"
+            },
+            {
+              "name": "Ernährung - Maschinen und Ausrüstungen",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/ernaehrung-maschinen-und-ausruestungen"
+            },
+            {
+              "name": "Förderanlagen - Geräte und Ausrüstungen",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/foerderanlagen-geraete-und-ausruestungen"
+            },
+            {
+              "name": "Holz - Maschinen und Geräte",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/holz-maschinen-und-geraete"
+            },
+            {
+              "name": "Kunststoff| Gummi - Maschinen und Geräte",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/kunststoff-gummi-maschinen-und-geraete"
+            },
+            {
+              "name": "Landwirtschaft - Maschinen und Geräte",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/landwirtschaft-maschinen-und-geraete"
+            },
+            {
+              "name": "Metall - Maschinen und Geräte",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/metall-maschinen-und-geraete"
+            },
+            {
+              "name": "Motoren und Ersatzteile",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/motoren-und-ersatzteile"
+            },
+            {
+              "name": "Papier - Druck - Maschinen und Material",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/papier-druck-maschinen-und-material"
+            },
+            {
+              "name": "Textil - Maschinen und Geräte",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/textil-maschinen-und-geraete"
+            },
+            {
+              "name": "Umwelt - Maschinen und Ausrüstungen",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/umwelt-maschinen-und-ausruestungen"
+            },
+            {
+              "name": "Wärmetechnik - Geräte und Anlagen",
+              "url": "/bs/maschinenbau-und-industrie-ausruestungen/waermetechnik-geraete-und-anlagen"
+            }
+          ]
+        },
+        {
+          "title": "Metallindustrie und Metallverarbeitung",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/metallurgy-metalworking.jpg",
+          "url": "/bs/metallindustrie-und-metallverarbeitung",
+          "subList": [
+            {
+              "name": "Bleche und Rohre",
+              "url": "/bs/metallindustrie-und-metallverarbeitung/bleche-und-rohre"
+            },
+            {
+              "name": "Metallfertigprodukte",
+              "url": "/bs/metallindustrie-und-metallverarbeitung/metallfertigprodukte"
+            },
+            {
+              "name": "Stahl und Metalle",
+              "url": "/bs/metallindustrie-und-metallverarbeitung/stahl-und-metalle"
+            },
+            {
+              "name": "Verarbeitung von Stahl und Metall",
+              "url": "/bs/metallindustrie-und-metallverarbeitung/verarbeitung-von-stahl-und-metall"
+            },
+            {
+              "name": "Werkzeuge und Eisen- und Metallwaren",
+              "url": "/bs/metallindustrie-und-metallverarbeitung/werkzeuge-und-eisen-und-metallwaren"
+            }
+          ]
+        },
+        {
+          "title": "Energien und Rohstoffe",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/energy-raw-materials.jpg",
+          "url": "/bs/energien-und-rohstoffe",
+          "subList": [
+            {
+              "name": "Energien",
+              "url": "/bs/energien-und-rohstoffe/energien"
+            },
+            {
+              "name": "Rohstoffe",
+              "url": "/bs/energien-und-rohstoffe/rohstoffe"
+            },
+            {
+              "name": "Steine und Erze",
+              "url": "/bs/energien-und-rohstoffe/steine-und-erze"
+            },
+            {
+              "name": "Wasser",
+              "url": "/bs/energien-und-rohstoffe/wasser"
+            }
+          ]
+        },
+        {
+          "title": "Nahrungs- und Genussmittel",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/food-related-products.jpg",
+          "url": "/bs/nahrungs-und-genussmittel",
+          "subList": [
+            {
+              "name": "Brot und Kuchen",
+              "url": "/bs/nahrungs-und-genussmittel/brot-und-kuchen"
+            },
+            {
+              "name": "Fleisch- und Wurstwaren",
+              "url": "/bs/nahrungs-und-genussmittel/fleisch-und-wurstwaren"
+            },
+            {
+              "name": "Getränke",
+              "url": "/bs/nahrungs-und-genussmittel/getraenke"
+            },
+            {
+              "name": "Konserven",
+              "url": "/bs/nahrungs-und-genussmittel/konserven"
+            },
+            {
+              "name": "Lebensmittelverarbeitung",
+              "url": "/bs/nahrungs-und-genussmittel/lebensmittelverarbeitung"
+            },
+            {
+              "name": "Milchprodukte",
+              "url": "/bs/nahrungs-und-genussmittel/milchprodukte"
+            },
+            {
+              "name": "Tiefkühlprodukte",
+              "url": "/bs/nahrungs-und-genussmittel/tiefkuehlprodukte"
+            },
+            {
+              "name": "Weine",
+              "url": "/bs/nahrungs-und-genussmittel/weine"
+            }
+          ]
+        },
+        {
+          "title": "Landwirtschaftliche Erzeugnisse und Tierzucht",
+          "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/agriculture-livestock.jpg",
+          "url": "/bs/landwirtschaftliche-erzeugnisse-und-tierzucht",
+          "subList": [
+            {
+              "name": "Gartenbau und Forstwirtschaft",
+              "url": "/bs/landwirtschaftliche-erzeugnisse-und-tierzucht/gartenbau-und-forstwirtschaft"
+            },
+            {
+              "name": "Getreide",
+              "url": "/bs/landwirtschaftliche-erzeugnisse-und-tierzucht/getreide"
+            },
+            {
+              "name": "Landwirtschaftsprodukte",
+              "url": "/bs/landwirtschaftliche-erzeugnisse-und-tierzucht/landwirtschaftsprodukte"
+            },
+            {
+              "name": "Obst und Gemüse",
+              "url": "/bs/landwirtschaftliche-erzeugnisse-und-tierzucht/obst-und-gemuese"
+            },
+            {
+              "name": "Pflanzen und Dünger",
+              "url": "/bs/landwirtschaftliche-erzeugnisse-und-tierzucht/pflanzen-und-duenger"
+            },
+            {
+              "name": "Tiere und Tierzucht",
+              "url": "/bs/landwirtschaftliche-erzeugnisse-und-tierzucht/tiere-und-tierzucht"
+            },
+            {
+              "name": "Tierproduktion",
+              "url": "/bs/landwirtschaftliche-erzeugnisse-und-tierzucht/tierproduktion"
+            }
+          ]
+        }
+      ],
+      "pageText": {
+        "viewMore": "MEHR ANZEIGEN",
+        "seeLess": "WENIGER ANZEIGEN",
+        "pserp": null,
+        "pserpDesc": null,
+        "cserp": null,
+        "cserpDesc": null,
+        "showroom": null,
+        "showroomDesc": null,
+        "showroomCate": null,
+        "showroomCateDesc": null,
+        "forWord": null
+      },
+      "breadCrumbs": [
+        {
+          "name": "Alle Geschäftsbereiche",
+          "url": null
+        }
+      ],
+      "meta": {
+        "keywords": null,
+        "metaKeywords": "Gesundheit Unternehmensdienstleistungen Banken, Finanz- und Versicherungsanstalten Marketing, Werbung und Medien Reisen, Tourismus und Freizeit Präzisionsgeräte Spedition und Transport Luxus- und Freizeitartikel Druckindustrie und Verlagserzeugnisse Textilien und Bekleidung Leder und Schuhe Papier und Karton Elektrische und elektronische Ausstattungen Telekommunikationsindustrie Elektronische Datenverarbeitung Chemie und Pharmazeutik Glas und Baumaterialien Hoch- und Tiefbauarbeiten Holz und Möbel Gummi und Rohstoffe Fahrzeuge und Transportmittel Maschinenbau und Industrie - Ausrüstungen Metallindustrie und Metallverarbeitung Energien und Rohstoffe Nahrungs- und Genussmittel Landwirtschaftliche Erzeugnisse und Tierzucht",
+        "title": "Alle Geschäftsbereiche - Europages",
+        "site": null,
+        "description": "Das umfassende Verzeichnis der Verzeichnisse, Geschäft-zu-Geschäft, Europages - Eine Auswahl an B2B-Unternehmen, Lieferanten in der Landwirtschaft und Viehzucht, Gerätehändler, Großhändler im Bau- und Baugewerbe und vieles mehr…",
+        "canonicalUrl": null,
+        "h1": null,
+        "alternates": null,
+        "index": null,
+        "follow": null
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/findByPlatformAndLanguage?platform=wlw&language=de",
+  "durationMs": 655,
+  "params": {
+    "platform": "wlw",
+    "language": "de"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

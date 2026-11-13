@@ -1,0 +1,1804 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 1057,
+  "headers": {
+    "date": "Fri, 13 Nov 2026 02:12:22 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "algBts": "",
+      "returnCount": 5,
+      "offerInfo": "productId=2254374#productId=1998486#productId=2555482#productId=2238170#productId=2320343",
+      "translateTime": 0,
+      "pageSize": 5,
+      "paging": {
+        "total": 2794,
+        "totalPages": 559,
+        "pageSize": 5,
+        "currentPage": 2
+      },
+      "debugInfo": {},
+      "filters": {
+        "employeesCount": [
+          {
+            "name": "1-4",
+            "count": 889,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "20-49",
+            "count": 547,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "50-99",
+            "count": 356,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "5-9",
+            "count": 346,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "10-19",
+            "count": 253,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "100-199",
+            "count": 100,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "200-499",
+            "count": 60,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "1000+",
+            "count": 24,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "500-999",
+            "count": 11,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "location": {
+          "kind": "",
+          "link": false,
+          "isHiddenFilter": null,
+          "default_radiuses": [
+            "10km",
+            "25km",
+            "50km",
+            "75km",
+            "100km",
+            "125km",
+            "250km"
+          ]
+        },
+        "attributes": [
+          {
+            "code": "400000000",
+            "children": [
+              {
+                "code": "400000000-30000000001",
+                "name": "Steel",
+                "count": 476,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000000",
+                "name": "Metal",
+                "count": 470,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000003",
+                "name": "Aluminum",
+                "count": 375,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000002",
+                "name": "Stainless Steel",
+                "count": 374,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000008",
+                "name": "Brass",
+                "count": 236,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000007",
+                "name": "Copper",
+                "count": 219,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000012",
+                "name": "Plastic",
+                "count": 211,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000005",
+                "name": "Titanium",
+                "count": 148,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000010",
+                "name": "Casting Material",
+                "count": 110,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000009",
+                "name": "Precious Metal",
+                "count": 109,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000006",
+                "name": "Nickel",
+                "count": 97,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000004",
+                "name": "Magnesium",
+                "count": 63,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000013",
+                "name": "Composite Material",
+                "count": 62,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000002131",
+                "name": "Other",
+                "count": 23,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000011",
+                "name": "Wood",
+                "count": 23,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000016",
+                "name": "Ceramics",
+                "count": 16,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000014",
+                "name": "Graphite",
+                "count": 12,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000017",
+                "name": "Glass",
+                "count": 11,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000015",
+                "name": "Silicon",
+                "count": 11,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000018",
+                "name": "Stone",
+                "count": 10,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000003606",
+                "name": "Bronze",
+                "count": 6,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000750",
+                "name": "Foams",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001797",
+                "name": "Hard Metal (HM)",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001798",
+                "name": "Solid Carbide (VHM)",
+                "count": 4,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001667",
+                "name": "Zinc",
+                "count": 3,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000749",
+                "name": "Thermoplastics",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000004160",
+                "name": "Sheet Metal",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000003615",
+                "name": "Iron",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001799",
+                "name": "High-Speed Steel (HSS)",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000382",
+                "name": "Carbon",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000004666",
+                "name": "Tool Steel",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000755",
+                "name": "Composite Materials",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000000754",
+                "name": "Technical Plastics",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001800",
+                "name": "High-Alloy High-Speed Steel (HSS-E)",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000000-30000001801",
+                "name": "Powder Metallurgical High-Speed Steel (HSS-E-PM)",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Material",
+            "count": 903,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000002",
+            "children": [
+              {
+                "code": "400000002-30000000024",
+                "name": "Individual Parts",
+                "count": 513,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000025",
+                "name": "Small Batches",
+                "count": 477,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000026",
+                "name": "Medium Batches",
+                "count": 394,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000023",
+                "name": "Prototypes",
+                "count": 353,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000002-30000000027",
+                "name": "Large Batches",
+                "count": 313,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Batch Size",
+            "count": 739,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000003",
+            "children": [
+              {
+                "code": "400000003-30000000053",
+                "name": "Grinding",
+                "count": 230,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000051",
+                "name": "Deburring",
+                "count": 197,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000040",
+                "name": "Hardening",
+                "count": 196,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000054",
+                "name": "Polishing",
+                "count": 168,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000049",
+                "name": "Laser Engraving",
+                "count": 165,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000028",
+                "name": "Galvanization",
+                "count": 164,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000037",
+                "name": "Anodization",
+                "count": 159,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000048",
+                "name": "Engraving",
+                "count": 152,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000034",
+                "name": "Burnishing",
+                "count": 137,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000050",
+                "name": "Blasting",
+                "count": 136,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000029",
+                "name": "Chromium Plating Services",
+                "count": 131,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000045",
+                "name": "Painting",
+                "count": 131,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000046",
+                "name": "Powder Coating",
+                "count": 123,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000030",
+                "name": "Nickel Plating Services",
+                "count": 121,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000041",
+                "name": "Nitrating",
+                "count": 107,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000036",
+                "name": "Passivation",
+                "count": 98,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000052",
+                "name": "Vibratory Finishing",
+                "count": 97,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000038",
+                "name": "Chromating",
+                "count": 92,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000044",
+                "name": "Pickling",
+                "count": 81,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000043",
+                "name": "Nitrocarburizing",
+                "count": 77,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000035",
+                "name": "Phosphating",
+                "count": 74,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000055",
+                "name": "Electropolishing",
+                "count": 72,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000042",
+                "name": "Carbonitriding",
+                "count": 71,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000031",
+                "name": "Tin Plating Services",
+                "count": 69,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000047",
+                "name": "Printing",
+                "count": 63,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000032",
+                "name": "Copper Plating Services",
+                "count": 54,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000039",
+                "name": "Plastic Coating",
+                "count": 53,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000003-30000000033",
+                "name": "Gold Plating Services",
+                "count": 49,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Further Treatment",
+            "count": 718,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000001",
+            "children": [
+              {
+                "code": "400000001-30000000021",
+                "name": "Medium",
+                "count": 495,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000000020",
+                "name": "Small",
+                "count": 409,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000000022",
+                "name": "Large",
+                "count": 319,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000001-30000000019",
+                "name": "Micro",
+                "count": 163,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Workpiece Dimensions",
+            "count": 612,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "400000083",
+            "children": [
+              {
+                "code": "400000083-30000000000",
+                "name": "Metal",
+                "count": 38,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000000011",
+                "name": "Wood",
+                "count": 15,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000000012",
+                "name": "Plastic",
+                "count": 8,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000006922",
+                "name": "Light Metal",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001794",
+                "name": "Hard Metal",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000002131",
+                "name": "Other",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000003067",
+                "name": "Medical Technology",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000002989",
+                "name": "Manufacturing",
+                "count": 2,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000002887",
+                "name": "Automotive Industry",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001828",
+                "name": "Universal Drills",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000003946",
+                "name": "Food Industry",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000004230",
+                "name": "Building Construction",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000003066",
+                "name": "Mechanical Engineering",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000002893",
+                "name": "Consumer Goods",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001650",
+                "name": "Universal",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000003790",
+                "name": "Construction Industry",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001825",
+                "name": "Wood Drill",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000001824",
+                "name": "Metal Drill",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000007448",
+                "name": "Vacuum Technology",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              },
+              {
+                "code": "400000083-30000063852",
+                "name": "Metal Construction",
+                "count": 1,
+                "link": false,
+                "isHiddenFilter": true
+              }
+            ],
+            "name": "Area of Application",
+            "count": 77,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "countries": [
+          {
+            "code": "DE",
+            "name": "Germany",
+            "count": 1777,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "TR",
+            "name": "Türkiye",
+            "count": 196,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "IT",
+            "name": "Italy",
+            "count": 104,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "CH",
+            "name": "Switzerland",
+            "count": 75,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "AT",
+            "name": "Austria",
+            "count": 75,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "FR",
+            "name": "France",
+            "count": 73,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "PL",
+            "name": "Poland",
+            "count": 66,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "ES",
+            "name": "Spain",
+            "count": 64,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "count": 41,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "CZ",
+            "name": "Czechia",
+            "count": 40,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "PT",
+            "name": "Portugal",
+            "count": 38,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "BG",
+            "name": "Bulgaria",
+            "count": 24,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "count": 23,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "BE",
+            "name": "Belgium",
+            "count": 17,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "SI",
+            "name": "Slovenia",
+            "count": 15,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "RO",
+            "name": "Romania",
+            "count": 15,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "LT",
+            "name": "Lithuania",
+            "count": 10,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "RS",
+            "name": "Serbia",
+            "count": 9,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "GR",
+            "name": "Greece",
+            "count": 7,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "UA",
+            "name": "Ukraine",
+            "count": 6,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "SK",
+            "name": "Slovakia",
+            "count": 6,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "HU",
+            "name": "Hungary",
+            "count": 6,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "SE",
+            "name": "Sweden",
+            "count": 4,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "MK",
+            "name": "North Macedonia",
+            "count": 4,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "HR",
+            "name": "Croatia",
+            "count": 4,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "BA",
+            "name": "Bosnia & Herzegovina",
+            "count": 4,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "LV",
+            "name": "Latvia",
+            "count": 3,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "FI",
+            "name": "Finland",
+            "count": 3,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "DK",
+            "name": "Denmark",
+            "count": 3,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "NO",
+            "name": "Norway",
+            "count": 2,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "EE",
+            "name": "Estonia",
+            "count": 2,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "MT",
+            "name": "Malta",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "MD",
+            "name": "Moldova",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "IE",
+            "name": "Ireland",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "AL",
+            "name": "Albania",
+            "count": 1,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "categories": [
+          {
+            "code": "200136",
+            "name": "Machining",
+            "count": 1102,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200067",
+            "name": "CNC Machines",
+            "count": 176,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "601951",
+            "name": "Contract Grinding",
+            "count": 139,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "601601",
+            "name": "CNC Manufacturing",
+            "count": 103,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200068",
+            "name": "Milling Machines",
+            "count": 102,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200879",
+            "name": "Toolmaking",
+            "count": 79,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200160",
+            "name": "Metalworking",
+            "count": 75,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200069",
+            "name": "Lathes",
+            "count": 51,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200146",
+            "name": "Forming",
+            "count": 50,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "601597",
+            "name": "Contract Manufacturing",
+            "count": 48,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "300119",
+            "name": "Precision Parts",
+            "count": 45,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200141",
+            "name": "Cutting & Blanks",
+            "count": 39,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200153",
+            "name": "Laser Processing",
+            "count": 37,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "200070",
+            "name": "Cutting Machines",
+            "count": 37,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "supplierType": [
+          {
+            "code": "production",
+            "name": "Manufacturer/Producer",
+            "count": 2407,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "customerSpecificManufacturing",
+            "name": "Customer-specific manufacturer",
+            "count": 1267,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "distribution",
+            "name": "Distributor",
+            "count": 1167,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "service",
+            "name": "Service provider",
+            "count": 1489,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "code": "wholesaler",
+            "name": "Wholesaler",
+            "count": 165,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "audits": [
+          {
+            "name": "verified",
+            "count": 607,
+            "link": false,
+            "isHiddenFilter": true
+          },
+          {
+            "name": "top_responder",
+            "count": 311,
+            "link": false,
+            "isHiddenFilter": true
+          }
+        ],
+        "price": {
+          "priceDistributions": null,
+          "original_maxPrice": "10000001",
+          "minPrice": null,
+          "original_minPrice": "0",
+          "maxPrice": null,
+          "original_priceDistributions": null,
+          "newPriceDistributions": [
+            {
+              "minPrice": 0,
+              "count": 78,
+              "maxPrice": 5
+            },
+            {
+              "minPrice": 5,
+              "count": 73,
+              "maxPrice": 25
+            },
+            {
+              "minPrice": 25,
+              "count": 101,
+              "maxPrice": 100
+            },
+            {
+              "minPrice": 100,
+              "count": 85,
+              "maxPrice": 600
+            },
+            {
+              "minPrice": 600,
+              "count": 103,
+              "maxPrice": 0
+            }
+          ],
+          "validPriceCount": 416
+        },
+        "vcategoryList": null
+      },
+      "offerIds": "2254374#1998486#2555482#2238170#2320343",
+      "totalCount": 2794,
+      "products": [
+        {
+          "uuid": "406477f0-1f81-436b-9972-f56b5b8e5e77",
+          "slug": "lavorazioni-meccaniche-cnc-precisione-efficienza-e-qualita-made-in-italy-36098639",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0442f385-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0442f385-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/04f726f0-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/059e5f7f-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/065608c4-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/06efb033-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/078d025a-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/083ee959-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/08ee41a8-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/09af2da4-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0a409eba-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0abf4311-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/0b6fb181-4fbf-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Machining – Precision, Efficiency, and Quality Made in Italy",
+          "price": null,
+          "company": {
+            "uuid": "60c6f3f9-e165-43d9-a3bb-140d5a45588d",
+            "name": "MEC.P SRL",
+            "slug": "mecp-srl-22295693",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22295693",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/bfa0beb7-fa59-4b7b-b145-513ce5132cb7.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 0,
+            "ep_id": "",
+            "country_code": "IT",
+            "average_response_time": null,
+            "founding_year": "2020",
+            "icbu_company_id": "84525317",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36098639",
+          "company_slug": "mecp-srl-22295693",
+          "company_uuid": "60c6f3f9-e165-43d9-a3bb-140d5a45588d",
+          "is_showcased": "1",
+          "description": "CNC machining offers unparalleled precision and quality in the mechanical manufacturing sector. By utilizing lathes and CNC machining centers, we are ...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "82ce10e34bb9414185b2d41d8b9e4455",
+          "space_type": "relevance",
+          "auction_id": 2254374,
+          "rank_score_info": "pG:4.0,rankS:6.458432404315948E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7843190431594849,group_identify:3.0,rel_group_variable:6.458432404315948E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Unmatched precision in complex parts",
+            "Custom solutions tailored to specs",
+            "Advanced tech ensures top reliability"
+          ]
+        },
+        {
+          "uuid": "cbe9ba2f-d45d-4ab4-a7a9-8757476cda43",
+          "slug": "5-axis-cnc-35881081",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/cb82dfd6-4fe9-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/cb82dfd6-4fe9-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "5-axis CNC",
+          "price": null,
+          "company": {
+            "uuid": "477e730b-2022-3f36-9ff2-250355fef4ea",
+            "name": "ASSIS.TER. TECH SOLUTIONS S.R.L.",
+            "slug": "assister-tech-solutions-srl-22275509",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22275509",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/b16952bf-8654-4c1a-b93f-3c18a80ae967.jpeg",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 5,
+            "ep_id": "00000005557712-001",
+            "country_code": "IT",
+            "average_response_time": null,
+            "founding_year": "2018",
+            "icbu_company_id": "44494666",
+            "ep_slug": "ASSISTER-TECH-SOLUTIONS-SRL",
+            "response_rate": null
+          },
+          "slug_id": "35881081",
+          "company_slug": "assister-tech-solutions-srl-22275509",
+          "company_uuid": "477e730b-2022-3f36-9ff2-250355fef4ea",
+          "is_showcased": "1",
+          "description": "The 5-axis CNC machine is an advanced machining device designed to perform milling, turning, and processing operations on complex parts with high prec...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "82ce10e34bb9414185b2d41d8b9e4455",
+          "space_type": "relevance",
+          "auction_id": 1998486,
+          "rank_score_info": "pG:4.0,rankS:6.45810016802597E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7809966802597046,group_identify:3.0,rel_group_variable:6.45810016802597E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Mills complex geometries with 5-axis precision",
+            "Handles multiple materials for diverse projects",
+            "Reduces setup time with advanced automation"
+          ]
+        },
+        {
+          "uuid": "c6d17ffa-5f26-40ee-a51c-a36bb8761f4f",
+          "slug": "producent-elementy-wycinane-na-cnc-frezowanie-drewna-cnc-frezowanie-sklejki-hurtowe-zamowienia-36378263",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/dceda143-fe7d-11ef-95db-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/dceda143-fe7d-11ef-95db-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d08e58ba-fe7d-11ef-9e93-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/cea1dcb4-fe7d-11ef-84e4-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0eb21530-fe7e-11ef-bbc8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d3932345-fe7d-11ef-afd8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/8d78db8c-fe85-11ef-9c6a-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/86eec059-fe85-11ef-a0ef-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/92d276fd-fe85-11ef-9b7d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/d8e5e861-fe7d-11ef-8f42-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/78004b73-fe85-11ef-bc6e-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/800ddb7c-fe85-11ef-afd8-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/766facaa-fe7d-11ef-bbc8-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "PRODUCER - CNC Cut Elements CNC Wood Milling CNC Plywood Milling - Wholesale Orders",
+          "price": null,
+          "company": {
+            "uuid": "9648cced-16c9-3a56-90ca-9d866935c6bf",
+            "name": "KRESPA",
+            "slug": "krespa-22172662",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22172662",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2e841a2f-8a4b-4785-bd18-a5c68ba8d5f0.gif",
+            "emailExisting": true,
+            "distribution_area": "international",
+            "certificates_count": 0,
+            "ep_id": "00000005437539-776670001",
+            "country_code": "PL",
+            "average_response_time": "from_24h_to_48h",
+            "founding_year": "1951",
+            "icbu_company_id": "2543148",
+            "ep_slug": "KRESPA",
+            "response_rate": "0.69"
+          },
+          "slug_id": "36378263",
+          "company_slug": "krespa-22172662",
+          "company_uuid": "9648cced-16c9-3a56-90ca-9d866935c6bf",
+          "is_showcased": "1",
+          "description": "We offer professional CNC milling services for plywood, plexiglass, wood, and MDF. With modern milling centers and CNC plotters, we have the capabilit...",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "82ce10e34bb9414185b2d41d8b9e4455",
+          "space_type": "relevance",
+          "auction_id": 2555482,
+          "rank_score_info": "pG:4.0,rankS:6.457577971733093E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7757747173309326,group_identify:3.0,rel_group_variable:6.457577971733093E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision CNC milling for diverse materials",
+            "Handles complex projects with high accuracy",
+            "Versatile processing up to 3000x1500mm"
+          ]
+        },
+        {
+          "uuid": "be5fe81a-5045-4d0d-9bbb-7c74f6684b0e",
+          "slug": "mecanizado-cnc-de-alta-precision-fresado-y-torneado-36089169",
+          "image": {
+            "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/420cdda5-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/420cdda5-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/43fd5769-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/434edcee-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+            },
+            {
+              "url": "https://supplier-offers-media-staging.s3.eu-central-1.amazonaws.com/42a4eb83-4fe5-11f1-8d1d-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "High Precision CNC Machining | Milling and Turning",
+          "price": {
+            "currency": "EUR",
+            "min": 50,
+            "max": 10000
+          },
+          "company": {
+            "uuid": "3e985a07-15b0-4fa6-89dc-fee62c7511c5",
+            "name": "LUGER INDUSTRIAL, S. L.",
+            "slug": "luger-industrial-s-l-22283261",
+            "email": "",
+            "indexable": true,
+            "is_customer": false,
+            "company_id": "22283261",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/c9ab517d-397a-4f57-aeb5-c515f7073a11.png",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "",
+            "country_code": "ES",
+            "average_response_time": null,
+            "founding_year": "1974",
+            "icbu_company_id": "65892226",
+            "ep_slug": "",
+            "response_rate": null
+          },
+          "slug_id": "36089169",
+          "company_slug": "luger-industrial-s-l-22283261",
+          "company_uuid": "3e985a07-15b0-4fa6-89dc-fee62c7511c5",
+          "is_showcased": "1",
+          "description": "Machining – CNC Control: Precision and Reliability\n\nWe offer CNC machining services for medium and large-sized parts. We have a wide range of machinin...",
+          "minimum_order_quantity": {
+            "unit": "piece",
+            "value": "100"
+          },
+          "traceinfo_id": "82ce10e34bb9414185b2d41d8b9e4455",
+          "space_type": "relevance",
+          "auction_id": 2238170,
+          "rank_score_info": "pG:4.0,rankS:6.457064245260239E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_verified:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7706374526023865,group_identify:3.0,rel_group_variable:6.457064245260239E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "CNC machining for complex parts",
+            "Versatile solutions for automotive & aerospace",
+            "Millimeter accuracy in every process"
+          ]
+        },
+        {
+          "uuid": "1d33a3c2-26a9-4774-9b6b-82c02f5663b2",
+          "slug": "servicos-de-cnc-servicos-de-cnc-eixo-2-36128941",
+          "image": {
+            "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/8abc89de-0597-11f0-9cac-0a58a9feac02.jpeg"
+          },
+          "images": [
+            {
+              "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/8abc89de-0597-11f0-9cac-0a58a9feac02.jpeg"
+            }
+          ],
+          "language": "en",
+          "name": "CNC Services - CNC Services Axis 2",
+          "price": null,
+          "company": {
+            "uuid": "da2f54dd-d959-46bf-965e-819632f476da",
+            "name": "António de Oliveira Ferreira, LDA",
+            "slug": "antonio-de-oliveira-ferreira-lda-22301269",
+            "email": "",
+            "indexable": true,
+            "is_customer": true,
+            "company_id": "22301269",
+            "logo_url": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/2351372d-3650-4be1-92b9-6719f2847a94.jpeg",
+            "emailExisting": true,
+            "distribution_area": "europe",
+            "certificates_count": 1,
+            "ep_id": "",
+            "country_code": "PT",
+            "average_response_time": "more_than_72h",
+            "founding_year": "",
+            "icbu_company_id": "91446950",
+            "ep_slug": "",
+            "response_rate": "0.38"
+          },
+          "slug_id": "36128941",
+          "company_slug": "antonio-de-oliveira-ferreira-lda-22301269",
+          "company_uuid": "da2f54dd-d959-46bf-965e-819632f476da",
+          "is_showcased": "1",
+          "description": "Automated machining of complex parts with high precision, reducing waste and increasing productivity.",
+          "minimum_order_quantity": null,
+          "traceinfo_id": "82ce10e34bb9414185b2d41d8b9e4455",
+          "space_type": "relevance",
+          "auction_id": 2320343,
+          "rank_score_info": "pG:4.0,rankS:6.456295929468155E8,human_group:3.0,cate_match:1.0,text_match_en:1.0,showcased:1.0,newboost:0.0,is_new_membership:0.0,cate_boost:0.0,cate_ft:0.0,cate_deboost:0.0,relematch_bert_v1:0.7629542946815491,group_identify:3.0,rel_group_variable:6.456295929468155E8",
+          "relevanceType": "good",
+          "sell_points": [
+            "Precision machining for complex parts",
+            "Reduces material waste significantly",
+            "Boosts manufacturing productivity"
+          ]
+        }
+      ],
+      "serviceLatency": "ha3_all_search:196,rank_service:73,qp:21,preprocess:0,ha3_summary:5,",
+      "pageIndex": 2,
+      "fxbCategoryId": 0,
+      "traceinfoId": "82ce10e34bb9414185b2d41d8b9e4455",
+      "tppBuckets": "56648#0#487554#9_56648#13498#2584509#5_56648#14103#2587213#1_56648#14109#2587225#1_56648#13064#2577009#2_56648#14083#2587159#8_56648#13549#2585302#1",
+      "engineTime": 415,
+      "keyword": "cnc",
+      "newPriceFilter": "1",
+      "atmosphereTime": 0,
+      "cpvCategory": "601856",
+      "frontAbTestPrice": "",
+      "frontAbTestJsonString": "{\"frontAbTestShowMore\":\"1\"}",
+      "meta": {
+        "keywords": "cnc",
+        "metaKeywords": "cnc",
+        "title": "Europages Showroom: Discover 2794 cnc-Targeted Products for Efficient Purchasing",
+        "site": "europages.co.uk",
+        "description": "Explore a curated selection of 2794 products tailored to your cnc on Europages Showroom. Simplify your purchasing process with our cnc-driven product showcase, connecting you to top suppliers effortlessly.",
+        "canonicalUrl": "https://www.europages.co.uk/en/showroom/cnc/p-2",
+        "h1": "",
+        "alternates": [],
+        "index": false,
+        "follow": true
+      },
+      "internalLinks": [],
+      "relatedKeywords": [
+        {
+          "internalLinkUrl": "/companies/marketing-agencies-in-london-uk.html",
+          "internalLinkName": "marketing agencies in london uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/courier-companies-in-the-uk.html",
+          "internalLinkName": "courier companies in the uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/marketing-agencies-in-london.html",
+          "internalLinkName": "marketing agencies in london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/translation-agencies-in-uk.html",
+          "internalLinkName": "translation agencies in uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/wholesalers-uk.html",
+          "internalLinkName": "wholesalers uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/private-label-cosmetics.html",
+          "internalLinkName": "private label cosmetics",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/iphone-16-pro-max-price",
+          "internalLinkName": "iphone 16 pro max price",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/logistics-companies-in-london",
+          "internalLinkName": "logistics companies in london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/iphone-15-pro-price-in-uk",
+          "internalLinkName": "iphone 15 pro price in uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/wind",
+          "internalLinkName": "wind",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/playstation-5-price",
+          "internalLinkName": "playstation 5 price",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/prefabricated-houses.html",
+          "internalLinkName": "prefabricated houses",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/private-label.html",
+          "internalLinkName": "private label",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/best-cheap-printer",
+          "internalLinkName": "best cheap printer",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/refurbishment-contractors-london.html",
+          "internalLinkName": "refurbishment contractors london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/plastics-moulding.html",
+          "internalLinkName": "plastics moulding",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/sofa-manufacturers-in-the-uk.html",
+          "internalLinkName": "sofa manufacturers in the uk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/insect-exterminators.html",
+          "internalLinkName": "insect exterminators",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/aluminium-sheeting.html",
+          "internalLinkName": "aluminium sheeting",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/adhesive-tape.html",
+          "internalLinkName": "adhesive tape",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/motor-oils.html",
+          "internalLinkName": "motor oils",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/engineering-companies-london.html",
+          "internalLinkName": "engineering companies london",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/electronics-manufacturing-services",
+          "internalLinkName": "electronics manufacturing services",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/translation-agencies.html",
+          "internalLinkName": "translation agencies",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/fire-extinguishers.html",
+          "internalLinkName": "fire extinguishers",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/scaffolding.html",
+          "internalLinkName": "scaffolding",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/plastic-components.html",
+          "internalLinkName": "plastic components",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/suction-excavators.html",
+          "internalLinkName": "suction excavators",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/candle-wax-bulk",
+          "internalLinkName": "candle wax bulk",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/industrial-waste-management.html",
+          "internalLinkName": "industrial waste management",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/commercial-vacuum-cleaner",
+          "internalLinkName": "commercial vacuum cleaner",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/seeking-distributor.html",
+          "internalLinkName": "seeking distributor",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/wooden-crates-and-boxes.html",
+          "internalLinkName": "wooden crates and boxes",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/fmcg.html",
+          "internalLinkName": "fmcg",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/audio-visual-equipment-professional.html",
+          "internalLinkName": "audio-visual equipment- professional",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/rubber-products.html",
+          "internalLinkName": "rubber products",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/en/showroom/rental-of-generators",
+          "internalLinkName": "Rental of Generators",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/clothing.html",
+          "internalLinkName": "clothing",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/air-filters.html",
+          "internalLinkName": "air filters",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/companies/powders-in-sachets.html",
+          "internalLinkName": "powders in sachets",
+          "ahref": true
+        }
+      ],
+      "learnMoreDescriptionSimple": null,
+      "learnMoreDescriptionComplex": null,
+      "cache": false
+    }
+  }
+}

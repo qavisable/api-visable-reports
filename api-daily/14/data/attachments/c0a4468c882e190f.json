@@ -1,0 +1,19 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/showroom-cate/data?category=not-a-real-showroom-cate-999999&version=cate_re&platform=wlw&site_code=DE&language=de",
+  "durationMs": 655,
+  "params": {
+    "category": "not-a-real-showroom-cate-999999",
+    "version": "cate_re",
+    "platform": "wlw",
+    "site_code": "DE",
+    "language": "de"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "Accept-Language": "de",
+    "X-Application-Id": "homepage-frontend",
+    "x-host": "www.wlw-staging.de"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/linkrelations/refresh/status?domain=www.wlw.de",
+  "durationMs": 685,
+  "params": {
+    "domain": "www.wlw.de"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}
