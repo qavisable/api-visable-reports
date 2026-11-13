@@ -1,0 +1,345 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: ui/tests/company/publish-company.spec.ts >> user registered via API can create a company on UI
+- Location: ui/tests/company/publish-company.spec.ts:17:5
+
+# Error details
+
+```
+TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /let['’]s go/i })
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - banner [ref=f1e4]:
+      - generic [ref=f1e7]:
+        - generic [ref=f1e8] [cursor=pointer]
+        - button "Get quotes" [ref=f1e13] [cursor=pointer]
+        - button "Request Hub" [ref=f1e24] [cursor=pointer]
+        - button "Become a supplier" [ref=f1e36] [cursor=pointer]
+        - link "Messages" [ref=f1e46] [cursor=pointer]:
+          - /url: /en/conversations
+        - button [ref=f1e57] [cursor=pointer]
+        - link "QA" [ref=f1e65] [cursor=pointer]:
+          - /url: /en/user-frontend/profile
+        - button "DE" [ref=f1e70] [cursor=pointer]
+    - main [ref=f1e78]:
+      - heading "Create your company profile" [level=1] [ref=f1e79]
+      - generic [ref=f1e80]:
+        - heading "Company information" [level=2] [ref=f1e81]
+        - paragraph [ref=f1e82]: Information will be displayed to buyers who visit your company profile.
+        - generic [ref=f1e83]:
+          - generic [ref=f1e84]:
+            - generic [ref=f1e85]:
+              - generic [ref=f1e86]:
+                - generic "Company name" [ref=f1e87]
+                - textbox [ref=f1e89]
+                - generic [ref=f1e90]: Please enter the name of your company
+              - button "information-circle" [ref=f1e93]:
+                - img "information-circle"
+            - generic [ref=f1e95]:
+              - generic "Country of company registration" [ref=f1e96]
+              - button "Spain arrow-down" [ref=f1e97]:
+                - generic [ref=f1e98]: Spain
+                - img "arrow-down" [ref=f1e100]
+            - generic [ref=f1e102]:
+              - generic "VAT number" [ref=f1e103]
+              - textbox "E.g. ESB12345678" [ref=f1e105]: ESX12345678
+          - separator [ref=f1e106]
+          - generic [ref=f1e107]:
+            - generic [ref=f1e108]:
+              - generic [ref=f1e109]: Company address
+              - paragraph
+            - generic [ref=f1e110]:
+              - generic [ref=f1e111]:
+                - generic "Street and number" [ref=f1e112]
+                - textbox [ref=f1e114]: 123 Main Street
+              - generic [ref=f1e115]:
+                - generic "Address (optional)" [ref=f1e116]
+                - textbox [ref=f1e118]: Floor 3, Unit 4
+              - generic [ref=f1e119]:
+                - generic [ref=f1e120]:
+                  - generic "Postal code" [ref=f1e121]
+                  - textbox [ref=f1e123]: "12345"
+                - generic [ref=f1e124]:
+                  - generic "City" [ref=f1e125]
+                  - textbox [ref=f1e127]: Springfield
+          - generic [ref=f1e128]:
+            - generic [ref=f1e129]:
+              - generic [ref=f1e130]: Company contact
+              - paragraph [ref=f1e131]: This will be the main contact on your company profile.
+            - generic [ref=f1e132]:
+              - generic [ref=f1e133]:
+                - generic [ref=f1e134]:
+                  - generic "Company email" [ref=f1e135]
+                  - textbox [ref=f1e137]: testqa+2240810@visable.com
+                - generic [ref=f1e138]:
+                  - generic "Company website (optional)" [ref=f1e139]
+                  - textbox "E.g. www.company.com" [ref=f1e141]
+              - generic [ref=f1e142]:
+                - generic [ref=f1e144]:
+                  - generic "Country code" [ref=f1e145]
+                  - button "Country code" [ref=f1e146]:
+                    - generic [ref=f1e147]: "+34"
+                    - img "arrow-down" [ref=f1e149]
+                - generic [ref=f1e151]:
+                  - generic "Company phone number" [ref=f1e152]
+                  - textbox [ref=f1e154]: "2079460958"
+      - generic [ref=f1e155]:
+        - heading "Tell us about your business" [level=2] [ref=f1e156]
+        - generic [ref=f1e157]:
+          - generic [ref=f1e158]:
+            - generic [ref=f1e159]: Key data
+            - paragraph [ref=f1e160]: This information will be used to categorise your company in our search results.
+          - generic [ref=f1e161]:
+            - generic [ref=f1e162]:
+              - generic [ref=f1e164]:
+                - generic "Number of employees" [ref=f1e165]
+                - button "1-4 arrow-down" [ref=f1e166]:
+                  - generic [ref=f1e167]: 1-4
+                  - img "arrow-down" [ref=f1e169]
+              - generic [ref=f1e172]:
+                - generic "Delivery area" [ref=f1e173]
+                - button "Regional arrow-down" [ref=f1e174]:
+                  - generic [ref=f1e175]: Regional
+                  - img "arrow-down" [ref=f1e177]
+            - generic [ref=f1e181] [cursor=pointer]:
+              - generic [ref=f1e182]: Company type
+              - generic [ref=f1e184]:
+                - generic [ref=f1e185]: Distributor
+                - button [ref=f1e187]
+              - img "arrow-down" [ref=f1e190]
+            - generic [ref=f1e193]:
+              - generic "Business sector" [ref=f1e194]
+              - button "Accumulator and battery technology arrow-down" [ref=f1e195]:
+                - generic [ref=f1e196]: Accumulator and battery technology
+                - img "arrow-down" [ref=f1e198]
+      - button "Publish company profile" [active] [ref=f1e201] [cursor=pointer]
+    - contentinfo [ref=f1e202]:
+      - generic [ref=f1e203]:
+        - generic [ref=f1e204]:
+          - generic [ref=f1e205]:
+            - generic [ref=f1e206]:
+              - generic [ref=f1e207]:
+                - generic [ref=f1e208]: Start with
+                - generic [ref=f1e212]: today.
+              - generic [ref=f1e213]: Use the full potential of Europe's leading B2B marketplace. Start now for free.
+            - generic [ref=f1e214]:
+              - link "My company overview" [ref=f1e216] [cursor=pointer]:
+                - /url: /en/my-account/company-selection
+              - button "Unlock our exclusive benefits" [ref=f1e223] [cursor=pointer]
+              - link "account My account" [ref=f1e228] [cursor=pointer]:
+                - /url: /en/user-frontend/settings
+                - img "account" [ref=f1e229]
+                - generic [ref=f1e231]: My account
+            - generic [ref=f1e232]:
+              - generic [ref=f1e233]: "Download our app from the App stores:"
+              - generic [ref=f1e234]:
+                - link "Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917" [ref=f1e235] [cursor=pointer]:
+                  - /url: https://europages.app.link/websiteFooter?$desktop_url=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Feuropages-b2b-sourcing%2Fid6459474480%3Fl%3Den
+                  - img "Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917" [ref=f1e236]
+                - link [ref=f1e245] [cursor=pointer]:
+                  - /url: https://europages.app.link/websiteFooter?$desktop_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.visable.ep%26hl%3Den
+          - generic [ref=f1e259]:
+            - generic [ref=f1e261]:
+              - generic [ref=f1e262]: For Buyers
+              - list [ref=f1e267]:
+                - listitem [ref=f1e268]:
+                  - link "Request for Quotes" [ref=f1e269] [cursor=pointer]:
+                    - /url: /en/rfq
+                - listitem [ref=f1e270]:
+                  - link "Inside Business" [ref=f1e271] [cursor=pointer]:
+                    - /url: https://www.europages.co.uk/inside-business/start
+                - listitem [ref=f1e272]:
+                  - link "Help Center for Buyers" [ref=f1e273] [cursor=pointer]:
+                    - /url: https://help.europages.com/en/purchaser
+                - listitem [ref=f1e274]:
+                  - link "Buyers Success Stories" [ref=f1e275] [cursor=pointer]:
+                    - /url: https://www.europages.co.uk/inside-business/introduction-to-europages/interviews
+            - generic [ref=f1e277]:
+              - generic [ref=f1e278]: For Suppliers
+              - list [ref=f1e283]:
+                - listitem [ref=f1e284]:
+                  - link "List your company" [ref=f1e285] [cursor=pointer]:
+                    - /url: /en/supplier-registration
+                - listitem [ref=f1e286]:
+                  - link "Visable Media Services" [ref=f1e287] [cursor=pointer]:
+                    - /url: https://www.visable.com/en_int/online-marketing
+                - listitem [ref=f1e288]:
+                  - link "Help Center for Suppliers" [ref=f1e289] [cursor=pointer]:
+                    - /url: https://help.europages.com/en/supplier
+                - listitem [ref=f1e290]:
+                  - link "Suppliers Success Stories" [ref=f1e291] [cursor=pointer]:
+                    - /url: https://www.europages.co.uk/inside-business/introduction-to-europages/customer-testimonial
+            - generic [ref=f1e293]:
+              - generic [ref=f1e294]: More about Visable
+              - list [ref=f1e299]:
+                - listitem [ref=f1e300]:
+                  - link "Press" [ref=f1e301] [cursor=pointer]:
+                    - /url: https://www.visable.com/en_int/about-us/press
+                - listitem [ref=f1e302]:
+                  - link "Contact" [ref=f1e303] [cursor=pointer]:
+                    - /url: https://www.visable.com/en_int/contact-us
+                - listitem [ref=f1e304]:
+                  - link "Career" [ref=f1e305] [cursor=pointer]:
+                    - /url: https://www.visable.com/en_int/career
+                - listitem [ref=f1e306]:
+                  - link "About us" [ref=f1e307] [cursor=pointer]:
+                    - /url: https://www.visable.com/en_int/about-us
+            - generic [ref=f1e309]:
+              - generic [ref=f1e310]: Trust and partners
+              - generic [ref=f1e315]:
+                - link "BME Certified with BME Seal of Approval" [ref=f1e317] [cursor=pointer]:
+                  - /url: https://www.bme.de/services/siegel/anbietersuche-europages
+                  - img "BME" [ref=f1e318]
+                  - generic [ref=f1e319]: Certified with BME Seal of Approval
+                - generic [ref=f1e320]: This site is protected by reCAPTCHA
+                - generic [ref=f1e324]: Partner of the marketplace
+        - generic [ref=f1e331]:
+          - generic [ref=f1e332]:
+            - link "linkedin" [ref=f1e333] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/europages
+              - img "linkedin" [ref=f1e334]
+            - link [ref=f1e336] [cursor=pointer]:
+              - /url: https://www.facebook.com/europages
+            - link [ref=f1e339] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/europagesvideo
+            - link [ref=f1e342] [cursor=pointer]:
+              - /url: https://x.com/europages
+          - list [ref=f1e345]:
+            - listitem [ref=f1e346]:
+              - link "General Conditions of Use" [ref=f1e347] [cursor=pointer]:
+                - /url: https://www.europages.co.uk/company/legal-notice/terms-of-use
+            - listitem [ref=f1e348]:
+              - link "Privacy policy" [ref=f1e349] [cursor=pointer]:
+                - /url: https://www.europages.co.uk/company/legal-notice/privacy-policy-1
+            - listitem [ref=f1e350]:
+              - link "Privacy notice" [ref=f1e351] [cursor=pointer]:
+                - /url: https://www.europages.co.uk/company/legal-notice/privacy-notice
+            - listitem [ref=f1e352]:
+              - link "Cookie policy" [ref=f1e353] [cursor=pointer]:
+                - /url: https://www.europages.co.uk/company/legal-notice/cookie-policy
+  - iframe [ref=f1e354]
+```
+
+# Test source
+
+```ts
+  13  |     return this.page
+  14  |       .locator('.vis-core-form-input')
+  15  |       .filter({ has: this.page.locator('label', { hasText: labelText }) });
+  16  |   }
+  17  | 
+  18  |   private inputByLabel(labelText: string): Locator {
+  19  |     return this.formField(labelText).locator('input');
+  20  |   }
+  21  | 
+  22  |   private buttonByLabel(labelText: string): Locator {
+  23  |     return this.formField(labelText).locator('button');
+  24  |   }
+  25  | 
+  26  |   async openNewCompany(): Promise<void> {
+  27  |     // wlw staging often drops the session unless we hit `/` first so the cookie attaches.
+  28  |     // ep does not need that hop.
+  29  |     if (this.product === 'wlw') {
+  30  |       await this.page.goto('/');
+  31  |       await dismissCookieBanner(this.page);
+  32  |     }
+  33  |     await this.page.goto('/en/my-account/new-company');
+  34  |     await dismissCookieBanner(this.page);
+  35  |   }
+  36  | 
+  37  |   async fillCompanyName(name: string): Promise<void> {
+  38  |     const input = this.inputByLabel('Company name');
+  39  |     await expect(input).toBeVisible({ timeout: 15_000 });
+  40  |     await input.clear();
+  41  |     await input.fill(name);
+  42  |   }
+  43  | 
+  44  |   async selectCountry(country: string): Promise<void> {
+  45  |     await this.buttonByLabel('Country of company registration').click();
+  46  |     await this.page.getByText(country, { exact: true }).click({ timeout: 15_000 });
+  47  |   }
+  48  | 
+  49  |   async fillVatId(vatId: string): Promise<void> {
+  50  |     await this.inputByLabel('VAT number').fill(vatId);
+  51  |   }
+  52  | 
+  53  |   async fillAddress(street: string, additional: string, zip: string, city: string): Promise<void> {
+  54  |     await this.inputByLabel('Street and number').fill(street);
+  55  |     await expect(this.inputByLabel('Street and number')).toHaveValue(street);
+  56  |     await this.inputByLabel('Address (optional)').fill(additional);
+  57  |     await expect(this.inputByLabel('Address (optional)')).toHaveValue(additional);
+  58  |     await this.inputByLabel('Postal code').fill(zip);
+  59  |     await expect(this.inputByLabel('Postal code')).toHaveValue(zip);
+  60  |     await this.inputByLabel('City').fill(city);
+  61  |     await expect(this.inputByLabel('City')).toHaveValue(city);
+  62  |   }
+  63  | 
+  64  |   async fillContactEmail(email: string): Promise<void> {
+  65  |     await this.inputByLabel('Company email').fill(email);
+  66  |   }
+  67  | 
+  68  |   async fillPhone(number: string): Promise<void> {
+  69  |     const input = this.inputByLabel('Company phone number');
+  70  |     await input.fill(number);
+  71  |     await expect(input).toHaveValue(number.replace(/\s/g, ''));
+  72  |   }
+  73  | 
+  74  |   async selectEmployeesCount(value: string): Promise<void> {
+  75  |     const button = this.buttonByLabel('Number of employees');
+  76  |     await button.click();
+  77  |     await this.page.getByText(value, { exact: true }).click();
+  78  |     await expect(button).toContainText(value);
+  79  |   }
+  80  | 
+  81  |   async selectDeliveryArea(area: string): Promise<void> {
+  82  |     const button = this.buttonByLabel('Delivery area');
+  83  |     await button.click();
+  84  |     await this.page.getByText(area, { exact: true }).click();
+  85  |     await expect(button).toContainText(area);
+  86  |   }
+  87  | 
+  88  |   async selectMainActivity(activity: string): Promise<void> {
+  89  |     const container = this.page.locator('div.field-container[name="main_activities"]');
+  90  |     const arrow = container.locator('svg.arrow');
+  91  |     const menu = container.locator('ul.menu');
+  92  |     const checkbox = menu.locator(`input#${activity}`);
+  93  |     const optionLabel = menu.locator(`label[for="${activity}"]`);
+  94  | 
+  95  |     await arrow.click();
+  96  |     await expect(menu).toBeVisible({ timeout: 15_000 });
+  97  |     await optionLabel.click();
+  98  |     await expect(checkbox).toBeChecked();
+  99  |     await arrow.click();
+  100 |     await expect(menu).toBeHidden({ timeout: 10_000 });
+  101 |   }
+  102 | 
+  103 |   async selectBusinessSector(sector: string): Promise<void> {
+  104 |     const button = this.buttonByLabel('Business sector');
+  105 |     await button.click();
+  106 |     await this.page.getByText(sector, { exact: true }).click();
+  107 |     await expect(button).toContainText(sector);
+  108 |   }
+  109 | 
+  110 |   async publishCompany(): Promise<void> {
+  111 |     await this.page.getByRole('button', { name: 'Publish company profile' }).click();
+  112 |     // Onboarding success modal after submit (`ps.onboarding_modal.button`).
+> 113 |     await this.page.getByRole('button', { name: /let['’]s go/i }).click();
+      |                                                                   ^ TimeoutError: locator.click: Timeout 30000ms exceeded.
+  114 |   }
+  115 | }
+  116 | 
+```
