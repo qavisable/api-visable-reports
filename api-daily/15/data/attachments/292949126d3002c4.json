@@ -1,0 +1,9 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/get/maxsalesbottomlinkrelationid",
+  "durationMs": 872,
+  "params": {},
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

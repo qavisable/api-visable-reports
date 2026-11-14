@@ -1,0 +1,11 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/linkrelations/refresh/status?domain=www.europages.de",
+  "durationMs": 625,
+  "params": {
+    "domain": "www.europages.de"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

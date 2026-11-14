@@ -1,0 +1,656 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 202,
+  "headers": {
+    "date": "Sat, 14 Nov 2026 02:12:45 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "bsList": null,
+      "breadCrumbs": [
+        {
+          "name": "All business sectors",
+          "url": "/bs"
+        },
+        {
+          "name": "Health",
+          "url": null
+        }
+      ],
+      "banner": "https://d18yn9dcojt05d.cloudfront.net/apps/visable-dev/v-landingpage-frontend/category-image/health.jpg",
+      "title": "Health",
+      "pageText": {
+        "viewMore": "VIEW MORE",
+        "seeLess": "SEE LESS",
+        "pserp": "All Products",
+        "pserpDesc": "Click any keyword to see relevant products in search results.",
+        "cserp": "All Companies",
+        "cserpDesc": "Click any keyword to see relevant suppliers in search results.",
+        "showroom": "Showroom page",
+        "showroomDesc": "Click any keyword to see the relevant showroom page.",
+        "showroomCate": "All Categories",
+        "showroomCateDesc": "Click any keyword to see all relevant product categories.",
+        "forWord": "for"
+      },
+      "cserp": [
+        {
+          "name": "Health centres",
+          "url": "/companies/health%20centres.html"
+        },
+        {
+          "name": "Hospital and medical services",
+          "url": "/companies/hospital%20and%20medical%20services.html"
+        },
+        {
+          "name": "Patient telemonitoring",
+          "url": "/companies/patient%20telemonitoring.html"
+        },
+        {
+          "name": "Social services",
+          "url": "/companies/social%20services.html"
+        }
+      ],
+      "pserp": null,
+      "showroom": [
+        {
+          "name": "Acid Reflux",
+          "url": "/en/showroom/acid%20reflux"
+        },
+        {
+          "name": "Allergies",
+          "url": "/en/showroom/allergies"
+        },
+        {
+          "name": "Anxiety Attack",
+          "url": "/en/showroom/anxiety%20attack"
+        },
+        {
+          "name": "Apple Cider Vinegar Benefits",
+          "url": "/en/showroom/apple%20cider%20vinegar%20benefits"
+        },
+        {
+          "name": "Ashwagandha Benefits",
+          "url": "/en/showroom/ashwagandha%20benefits"
+        },
+        {
+          "name": "Bipolar Disorder",
+          "url": "/en/showroom/bipolar%20disorder"
+        },
+        {
+          "name": "Bloated Stomach",
+          "url": "/en/showroom/bloated%20stomach"
+        },
+        {
+          "name": "Bloating",
+          "url": "/en/showroom/bloating"
+        },
+        {
+          "name": "Blood Pressure",
+          "url": "/en/showroom/blood%20pressure"
+        },
+        {
+          "name": "Blood Sugar Levels",
+          "url": "/en/showroom/blood%20sugar%20levels"
+        },
+        {
+          "name": "Cardiologist",
+          "url": "/en/showroom/cardiologist"
+        },
+        {
+          "name": "Cholesterol",
+          "url": "/en/showroom/cholesterol"
+        },
+        {
+          "name": "Cholesterol Levels",
+          "url": "/en/showroom/cholesterol%20levels"
+        },
+        {
+          "name": "Constipation",
+          "url": "/en/showroom/constipation"
+        },
+        {
+          "name": "Constipation Relief",
+          "url": "/en/showroom/constipation%20relief"
+        },
+        {
+          "name": "Cough",
+          "url": "/en/showroom/cough"
+        },
+        {
+          "name": "Crohn's Disease",
+          "url": "/en/showroom/crohn%27s%20disease"
+        },
+        {
+          "name": "Depression",
+          "url": "/en/showroom/depression"
+        },
+        {
+          "name": "Depression And Anxiety",
+          "url": "/en/showroom/depression%20and%20anxiety"
+        },
+        {
+          "name": "Diarrhea",
+          "url": "/en/showroom/diarrhea"
+        },
+        {
+          "name": "Disease",
+          "url": "/en/showroom/disease"
+        },
+        {
+          "name": "Dizziness",
+          "url": "/en/showroom/dizziness"
+        },
+        {
+          "name": "Doctor",
+          "url": "/en/showroom/doctor"
+        },
+        {
+          "name": "Ear Infection",
+          "url": "/en/showroom/ear%20infection"
+        },
+        {
+          "name": "Emphysema",
+          "url": "/en/showroom/emphysema"
+        },
+        {
+          "name": "Fever",
+          "url": "/en/showroom/fever"
+        },
+        {
+          "name": "Flu",
+          "url": "/en/showroom/flu"
+        },
+        {
+          "name": "Foot And Mouth Disease",
+          "url": "/en/showroom/foot%20and%20mouth%20disease"
+        },
+        {
+          "name": "Gallstones",
+          "url": "/en/showroom/gallstones"
+        },
+        {
+          "name": "General Practitioner Near Me",
+          "url": "/en/showroom/general%20practitioner%20near%20me"
+        },
+        {
+          "name": "Gout",
+          "url": "/en/showroom/gout"
+        },
+        {
+          "name": "Headaches",
+          "url": "/en/showroom/headaches"
+        },
+        {
+          "name": "Health",
+          "url": "/en/showroom/health"
+        },
+        {
+          "name": "Heart Failure",
+          "url": "/en/showroom/heart%20failure"
+        },
+        {
+          "name": "Heartburn",
+          "url": "/en/showroom/heartburn"
+        },
+        {
+          "name": "Hepatitis",
+          "url": "/en/showroom/hepatitis"
+        },
+        {
+          "name": "Hepatitis A",
+          "url": "/en/showroom/hepatitis%20a"
+        },
+        {
+          "name": "Hepatitis B",
+          "url": "/en/showroom/hepatitis%20b"
+        },
+        {
+          "name": "Hepatitis C",
+          "url": "/en/showroom/hepatitis%20c"
+        },
+        {
+          "name": "High Blood Pressure",
+          "url": "/en/showroom/high%20blood%20pressure"
+        },
+        {
+          "name": "Hypertension",
+          "url": "/en/showroom/hypertension"
+        },
+        {
+          "name": "Indigestion",
+          "url": "/en/showroom/indigestion"
+        },
+        {
+          "name": "Inflammation",
+          "url": "/en/showroom/inflammation"
+        },
+        {
+          "name": "Influenza",
+          "url": "/en/showroom/influenza"
+        },
+        {
+          "name": "Insomnia",
+          "url": "/en/showroom/insomnia"
+        },
+        {
+          "name": "Kegel Exercises",
+          "url": "/en/showroom/kegel%20exercises"
+        },
+        {
+          "name": "Kidney Stones",
+          "url": "/en/showroom/kidney%20stones"
+        },
+        {
+          "name": "Lactose Intolerance",
+          "url": "/en/showroom/lactose%20intolerance"
+        },
+        {
+          "name": "Lion's Mane Benefits",
+          "url": "/en/showroom/lion%27s%20mane%20benefits"
+        },
+        {
+          "name": "Magnesium Benefits",
+          "url": "/en/showroom/magnesium%20benefits"
+        },
+        {
+          "name": "Magnesium For Sleep",
+          "url": "/en/showroom/magnesium%20for%20sleep"
+        },
+        {
+          "name": "Malaria",
+          "url": "/en/showroom/malaria"
+        },
+        {
+          "name": "Menopause",
+          "url": "/en/showroom/menopause"
+        },
+        {
+          "name": "Myhealthonline",
+          "url": "/en/showroom/myhealthonline"
+        },
+        {
+          "name": "Nausea",
+          "url": "/en/showroom/nausea"
+        },
+        {
+          "name": "Nhs App",
+          "url": "/en/showroom/nhs%20app"
+        },
+        {
+          "name": "Nhs Bmi",
+          "url": "/en/showroom/nhs%20bmi"
+        },
+        {
+          "name": "Omega 3",
+          "url": "/en/showroom/omega%203"
+        },
+        {
+          "name": "Ovulation",
+          "url": "/en/showroom/ovulation"
+        },
+        {
+          "name": "Pain On Right Side Of Stomach",
+          "url": "/en/showroom/pain%20on%20right%20side%20of%20stomach"
+        },
+        {
+          "name": "Podiatrist",
+          "url": "/en/showroom/podiatrist"
+        },
+        {
+          "name": "Probiotics",
+          "url": "/en/showroom/probiotics"
+        },
+        {
+          "name": "Rheumatoid Arthritis",
+          "url": "/en/showroom/rheumatoid%20arthritis"
+        },
+        {
+          "name": "Schizophrenia",
+          "url": "/en/showroom/schizophrenia"
+        },
+        {
+          "name": "Sinus",
+          "url": "/en/showroom/sinus"
+        },
+        {
+          "name": "Smoking",
+          "url": "/en/showroom/smoking"
+        },
+        {
+          "name": "Sore Throat",
+          "url": "/en/showroom/sore%20throat"
+        },
+        {
+          "name": "Sore Throat Remedies",
+          "url": "/en/showroom/sore%20throat%20remedies"
+        },
+        {
+          "name": "Stomach",
+          "url": "/en/showroom/stomach"
+        },
+        {
+          "name": "Stomach Ulcers",
+          "url": "/en/showroom/stomach%20ulcers"
+        },
+        {
+          "name": "Tension Headache",
+          "url": "/en/showroom/tension%20headache"
+        },
+        {
+          "name": "Throat Infection",
+          "url": "/en/showroom/throat%20infection"
+        },
+        {
+          "name": "Triglycerides",
+          "url": "/en/showroom/triglycerides"
+        },
+        {
+          "name": "Type 2 Diabetes",
+          "url": "/en/showroom/type%202%20diabetes"
+        },
+        {
+          "name": "Ulcerative Colitis",
+          "url": "/en/showroom/ulcerative%20colitis"
+        },
+        {
+          "name": "Ulcers",
+          "url": "/en/showroom/ulcers"
+        },
+        {
+          "name": "Utis",
+          "url": "/en/showroom/utis"
+        },
+        {
+          "name": "Vitamin D Deficiency",
+          "url": "/en/showroom/vitamin%20d%20deficiency"
+        },
+        {
+          "name": "Water Infection",
+          "url": "/en/showroom/water%20infection"
+        },
+        {
+          "name": "Yeast Infection",
+          "url": "/en/showroom/yeast%20infection"
+        }
+      ],
+      "showroomCate": [
+        {
+          "name": "Medical Devices",
+          "url": "/en/showroom-cate/medical-devices-611167"
+        },
+        {
+          "name": "Orthopedic Supplies",
+          "url": "/en/showroom-cate/orthopedic-supplies-611417"
+        },
+        {
+          "name": "Carpet Cleaners",
+          "url": "/en/showroom-cate/carpet-cleaners-612887"
+        },
+        {
+          "name": "Orthopedic Shoe Insoles",
+          "url": "/en/showroom-cate/orthopedic-shoe-insoles-611440"
+        },
+        {
+          "name": "Sanitary Cleaners",
+          "url": "/en/showroom-cate/sanitary-cleaners-612864"
+        },
+        {
+          "name": "Detergents",
+          "url": "/en/showroom-cate/detergents-612941"
+        },
+        {
+          "name": "Magnetic Resonance Imaging",
+          "url": "/en/showroom-cate/magnetic-resonance-imaging-611213"
+        },
+        {
+          "name": "Dishwasher Cleaners",
+          "url": "/en/showroom-cate/dishwasher-cleaners-612874"
+        },
+        {
+          "name": "Contouring",
+          "url": "/en/showroom-cate/contouring-616795"
+        },
+        {
+          "name": "Orthopedic Shoes",
+          "url": "/en/showroom-cate/orthopedic-shoes-611358"
+        },
+        {
+          "name": "Dental Supplies",
+          "url": "/en/showroom-cate/dental-supplies-200712"
+        },
+        {
+          "name": "Medical Technology",
+          "url": "/en/showroom-cate/medical-technology-611159"
+        },
+        {
+          "name": "Industrial Cleaning Cloths",
+          "url": "/en/showroom-cate/industrial-cleaning-cloths-612981"
+        },
+        {
+          "name": "Cleaning supplies",
+          "url": "/en/showroom-cate/cleaning-supplies-100074"
+        },
+        {
+          "name": "Microfiber Towels",
+          "url": "/en/showroom-cate/microfiber-towels-301059"
+        },
+        {
+          "name": "CBD Flowers",
+          "url": "/en/showroom-cate/cbd-flowers-611628"
+        },
+        {
+          "name": "Aids for the Disabled",
+          "url": "/en/showroom-cate/aids-for-the-disabled-611501"
+        },
+        {
+          "name": "Cleaning and care products",
+          "url": "/en/showroom-cate/cleaning-and-care-products-100073"
+        },
+        {
+          "name": "Antigen Tests",
+          "url": "/en/showroom-cate/antigen-tests-611596"
+        },
+        {
+          "name": "Cleaning Products",
+          "url": "/en/showroom-cate/cleaning-products-612852"
+        },
+        {
+          "name": "Cleaning Wipes",
+          "url": "/en/showroom-cate/cleaning-wipes-200790"
+        },
+        {
+          "name": "Hearing Aids",
+          "url": "/en/showroom-cate/hearing-aids-611211"
+        },
+        {
+          "name": "Metal Cleaners",
+          "url": "/en/showroom-cate/metal-cleaners-301052"
+        },
+        {
+          "name": "Mandrels",
+          "url": "/en/showroom-cate/mandrels-611285"
+        },
+        {
+          "name": "Ultrasound Machines",
+          "url": "/en/showroom-cate/ultrasound-machines-611194"
+        },
+        {
+          "name": "Phytopharmaceuticals",
+          "url": "/en/showroom-cate/phytopharmaceuticals-611510"
+        },
+        {
+          "name": "Medical Instruments",
+          "url": "/en/showroom-cate/medical-instruments-300885"
+        },
+        {
+          "name": "Veterinary Supplies",
+          "url": "/en/showroom-cate/veterinary-supplies-611497"
+        },
+        {
+          "name": "Cleaning Supplies",
+          "url": "/en/showroom-cate/cleaning-supplies-612972"
+        },
+        {
+          "name": "Shoe Care Products",
+          "url": "/en/showroom-cate/shoe-care-products-612967"
+        },
+        {
+          "name": "Progressive Lenses",
+          "url": "/en/showroom-cate/progressive-lenses-611494"
+        },
+        {
+          "name": "Cleaning Brushes",
+          "url": "/en/showroom-cate/cleaning-brushes-612988"
+        },
+        {
+          "name": "Wheelchairs",
+          "url": "/en/showroom-cate/wheelchairs-611354"
+        },
+        {
+          "name": "Progressive Glasses",
+          "url": "/en/showroom-cate/progressive-glasses-611474"
+        },
+        {
+          "name": "Bandages",
+          "url": "/en/showroom-cate/bandages-611427"
+        },
+        {
+          "name": "Insulin",
+          "url": "/en/showroom-cate/insulin-611520"
+        },
+        {
+          "name": "Eyeglass Frames",
+          "url": "/en/showroom-cate/eyeglass-frames-611492"
+        },
+        {
+          "name": "Stone Cleaners",
+          "url": "/en/showroom-cate/stone-cleaners-612898"
+        },
+        {
+          "name": "Household Cleaners",
+          "url": "/en/showroom-cate/household-cleaners-612855"
+        },
+        {
+          "name": "Massage Accessories",
+          "url": "/en/showroom-cate/massage-accessories-611633"
+        },
+        {
+          "name": "Mold Remover",
+          "url": "/en/showroom-cate/mold-remover-612919"
+        },
+        {
+          "name": "Delicate Detergents",
+          "url": "/en/showroom-cate/delicate-detergents-612943"
+        },
+        {
+          "name": "Floor Cleaners",
+          "url": "/en/showroom-cate/floor-cleaners-612883"
+        },
+        {
+          "name": "Pedicure",
+          "url": "/en/showroom-cate/pedicure-616794"
+        },
+        {
+          "name": "Dish Soaps",
+          "url": "/en/showroom-cate/dish-soaps-612870"
+        },
+        {
+          "name": "Tile Cleaners",
+          "url": "/en/showroom-cate/tile-cleaners-612893"
+        },
+        {
+          "name": "Mops",
+          "url": "/en/showroom-cate/mops-613004"
+        },
+        {
+          "name": "Laundry Aids",
+          "url": "/en/showroom-cate/laundry-aids-612953"
+        },
+        {
+          "name": "Sanitary Supplies",
+          "url": "/en/showroom-cate/sanitary-supplies-200715"
+        },
+        {
+          "name": "Ultrasound Devices",
+          "url": "/en/showroom-cate/ultrasound-devices-611193"
+        },
+        {
+          "name": "Cosmetic Services",
+          "url": "/en/showroom-cate/cosmetic-services-201047"
+        },
+        {
+          "name": "Pipe Cleaners",
+          "url": "/en/showroom-cate/pipe-cleaners-612894"
+        },
+        {
+          "name": "Haircuts",
+          "url": "/en/showroom-cate/haircuts-616797"
+        },
+        {
+          "name": "Automotive Cleaning Products",
+          "url": "/en/showroom-cate/automotive-cleaning-products-612902"
+        },
+        {
+          "name": "Healthcare and cosmetic services",
+          "url": "/en/showroom-cate/healthcare-and-cosmetic-services-100104"
+        },
+        {
+          "name": "Pharmaceuticals",
+          "url": "/en/showroom-cate/pharmaceuticals-611508"
+        },
+        {
+          "name": "Medical Practice Furnishings",
+          "url": "/en/showroom-cate/medical-practice-furnishings-200711"
+        },
+        {
+          "name": "Cooling Compresses",
+          "url": "/en/showroom-cate/cooling-compresses-611363"
+        },
+        {
+          "name": "Car Care Products",
+          "url": "/en/showroom-cate/car-care-products-612970"
+        },
+        {
+          "name": "Care Wax",
+          "url": "/en/showroom-cate/care-wax-612960"
+        },
+        {
+          "name": "Wheelchair Accessories",
+          "url": "/en/showroom-cate/wheelchair-accessories-611505"
+        },
+        {
+          "name": "Progressive Contact Lenses",
+          "url": "/en/showroom-cate/progressive-contact-lenses-611487"
+        },
+        {
+          "name": "Urine Test Strips",
+          "url": "/en/showroom-cate/urine-test-strips-611359"
+        }
+      ],
+      "meta": {
+        "keywords": null,
+        "metaKeywords": "Health",
+        "title": "Biotechnologies, Health Centres, Medical Equipment in Europages",
+        "site": null,
+        "description": "Search for companies in the Biotechnologies, Health Centres, Medical Equipment in EUROPAGES in Europe",
+        "canonicalUrl": null,
+        "h1": null,
+        "alternates": null,
+        "index": null,
+        "follow": null
+      }
+    }
+  }
+}

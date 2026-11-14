@@ -1,0 +1,246 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 794,
+  "headers": {
+    "date": "Sat, 14 Nov 2026 02:12:02 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "description": null,
+      "explanation": null,
+      "internalLinkViews": null,
+      "canonical": {
+        "slug": "cnc",
+        "url": "/de/showroom/cnc"
+      },
+      "findQuotesForContent": null,
+      "relatedKeywords": [
+        {
+          "internalLinkUrl": "/de/showroom/deutsche-post-dhl-kundenservice-telefonnummer",
+          "internalLinkName": "deutsche post dhl kundenservice telefonnummer",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/zigarettenautomaten-in-meiner-naehe",
+          "internalLinkName": "zigarettenautomaten in meiner nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/kassensysteme-fuer-kommunale-verwaltungen",
+          "internalLinkName": "kassensysteme fuer kommunale verwaltungen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/arbeitnehmer-online-datev-login",
+          "internalLinkName": "arbeitnehmer online datev login",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/wo-kann-man-serioes-muenzen-verkaufen",
+          "internalLinkName": "wo kann man seriös münzen verkaufen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/gruenschnitt-entsorgen-in-meiner-naehe",
+          "internalLinkName": "grünschnitt entsorgen in meiner nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/bio-fleisch-vom-bauern-in-der-naehe",
+          "internalLinkName": "bio fleisch vom bauern in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/moebel-outlet-holland-venlo",
+          "internalLinkName": "möbel outlet holland venlo",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/miele-kundendienst-in-meiner-naehe",
+          "internalLinkName": "miele kundendienst in meiner nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/vodafone-hotline-nummer",
+          "internalLinkName": "vodafone hotline nummer",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/dixi-klo-kaufen-preis",
+          "internalLinkName": "dixi klo kaufen preis",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/kostenlose-altreifenentsorgung",
+          "internalLinkName": "kostenlose altreifenentsorgung",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/whirlpool-kaufen-outdoor",
+          "internalLinkName": "whirlpool kaufen outdoor",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/feuerloescher-wartung-in-der-naehe",
+          "internalLinkName": "feuerlöscher wartung in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/mobiler-wlan-router-mit-sim-karte-ohne-vertrag-media-markt",
+          "internalLinkName": "mobiler wlan router mit sim karte ohne vertrag media markt",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/holzpellets-haendler-in-der-naehe",
+          "internalLinkName": "holzpellets händler in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/bestueckung-von-leiterplatten",
+          "internalLinkName": "bestueckung von leiterplatten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/bettfedernreinigung",
+          "internalLinkName": "bettfedernreinigung",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/spanferkel",
+          "internalLinkName": "spanferkel",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/nuernberger-lebkuchen-werksverkauf",
+          "internalLinkName": "nürnberger lebkuchen werksverkauf",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/vermietung-von-bautrocknungsgeraeten",
+          "internalLinkName": "vermietung von bautrocknungsgeraeten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/dhl-kundenservice-telefonnummer-kostenlos",
+          "internalLinkName": "dhl kundenservice telefonnummer kostenlos",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/kleinen-bagger-mieten-kosten",
+          "internalLinkName": "kleinen bagger mieten kosten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/garagentor-hoermann",
+          "internalLinkName": "garagentor hörmann",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/gebraucht-container-kaufen",
+          "internalLinkName": "gebraucht container kaufen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/anhaenger-auto-mieten",
+          "internalLinkName": "anhänger auto mieten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/software-fuer-architekten-und-bauingenieure",
+          "internalLinkName": "software fuer architekten und bauingenieure",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/aktenvernichtung-vor-ort",
+          "internalLinkName": "aktenvernichtung vor ort",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/gasflasche-11-kg-kaufen-in-der-naehe",
+          "internalLinkName": "gasflasche 11 kg kaufen in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/wo-kann-ich-alte-muenzen-schaetzen-lassen",
+          "internalLinkName": "wo kann ich alte münzen schätzen lassen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/holzbalken-kaufen-in-der-naehe",
+          "internalLinkName": "holzbalken kaufen in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/frischen-fisch-kaufen-in-der-naehe",
+          "internalLinkName": "frischen fisch kaufen in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/cnc-drehteile",
+          "internalLinkName": "cnc drehteile",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/computerreparatur-in-meiner-naehe",
+          "internalLinkName": "computerreparatur in meiner nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/kartonagen",
+          "internalLinkName": "kartonagen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/automatisierungstechnik",
+          "internalLinkName": "automatisierungstechnik",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/bosch-hausgeraete-kundendienst-in-der-naehe",
+          "internalLinkName": "bosch hausgeräte kundendienst in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/kurierdienste",
+          "internalLinkName": "kurierdienste",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/hhc-vape-tankstelle",
+          "internalLinkName": "hhc vape tankstelle",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/obi-bautrockner-mieten",
+          "internalLinkName": "obi bautrockner mieten",
+          "ahref": true
+        }
+      ],
+      "topSearchForContent": null,
+      "findQuotesForName": "Lieferanten und Produkte entdecken",
+      "topSearchForName": "Top-Suchen",
+      "index": false,
+      "metaDescription": "Entdecken Sie CNC-Produkte von verifizierten Lieferanten für Präzisionsfertigung und maschinelle Bearbeitung",
+      "metaTitle": "CNC — geprüfte Produkte und Lösungen | WLW",
+      "metaKeyword": "cnc",
+      "h1": "CNC-Produkte",
+      "learnMoreDescriptionSimple": null,
+      "learnMoreDescriptionComplex": "<main>\n<div class=\"card\">\n    <h2 id=\"types\">Types of CNC</h2>\n    <p><strong>CNC-Maschinen</strong> sind präzise Werkzeuge zur automatischen Bearbeitung von Materialien. Sie übernehmen die Rolle eines \"digitalen Handwerkers\", der mit höchster Genauigkeit arbeitet. Ob in der Metallindustrie oder im Modellbau, CNC-Technologie ist unverzichtbar für komplexe Formen und Serienproduktion. Die Vorteile liegen in der Effizienz, der Wiederholgenauigkeit und der Vielseitigkeit.</p>\n    <div class=\"tip\">\n        <p><strong>Kernvorteile:</strong> Präzision und Flexibilität — Perfekt für anspruchsvolle Projekte mit geringer Fehlerquote.</p>\n    </div>\n    <div class=\"comparison\">\n        <div class=\"comparison-item\">\n            <h3>CNC-Fräsen</h3>\n            <p>CNC-Fräsmaschinen arbeiten wie ein hochpräziser Bohrer, der Material schichtweise entfernt. Sie nutzen rotierende Fräsköpfe aus Hartmetall und können Holz, Metall oder Kunststoff bearbeiten. Die Maschinen sind robust gebaut und bieten hohe Stabilität bei komplexen 3D-Formen.</p>\n            <p><span class=\"highlight\">Am besten geeignet:</span> Prototypenbau, Möbelherstellung, industrielle Teilefertigung.</p>\n        </div>\n        <div class=\"comparison-item\">\n            <h3>CNC-Drehen</h3>\n            <p>Beim CNC-Drehen dreht sich das Werkstück, während ein Schneidewerkzeug die gewünschte Form erzeugt. Diese Technik ist ideal für symmetrische Teile wie Achsen oder Gewinde. Die Maschinen bestehen oft aus gehärtetem Stahl und ermöglichen hohe Drehzahlen für glatte Oberflächen.</p>\n            <p><span class=\"highlight\">Am besten geeignet:</span> Automobilindustrie, Ersatzteilfertigung, Präzisionsmechanik.</p>\n        </div>\n        <div class=\"comparison-item\">\n            <h3>CNC-Laserschneiden</h3>\n            <p>Wie ein ultrapräzises Messer schneidet der Laserstrahl Materialien ohne mechanischen Verschleiß. Besonders bei dünnen Blechen oder komplizierten Mustern zeigt diese Technologie ihre Stärke. Die Systeme nutzen CO2- oder Faserlaser und sind energieeffizient.</p>\n            <p><span class=\"highlight\">Am besten geeignet:</span> Dekorative Elemente, Schablonenherstellung, Metallverarbeitung.</p>\n        </div>\n    </div>\n\n    <div class=\"table-container\">\n        <table>\n            <thead>\n                <tr>\n                    <th>Produkttyp</th>\n                    <th>Kerntechnologie</th>\n                    <th>Präzision (µm)</th>\n                    <th>Geschwindigkeit (mm/min)</th>\n                    <th>Zielgruppe</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td>CNC-Fräsen</td>\n                    <td>Fräskopf, Linearführung</td>\n                    <td>10–50</td>\n                    <td>500–5000</td>\n                    <td>Handwerker, Ingenieure</td>\n                </tr>\n                <tr>\n                    <td>CNC-Drehen</td>\n                    <td>Drehspindel, CNC-Steuerung</td>\n                    <td>5–30</td>\n                    <td>1000–6000</td>\n                    <td>Industrie, Kleinserien</td>\n                </tr>\n                <tr>\n                    <td>CNC-Laserschneiden</td>\n                    <td>Faserlaser, Optiksystem</td>\n                    <td>5–20</td>\n                    <td>1000–10000</td>\n                    <td>Kreative, Designer</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n<div class=\"card\">\n    <h2 id=\"choosing\">Wie man eine CNC-Maschine auswählt</h2>\n    <p>Die Wahl der idealen CNC-Maschine erfordert die systematische Bewertung von fünf entscheidenden Dimensionen. Dieser Leitfaden führt Sie durch den gesamten Prozess, von der Bedarfsanalyse bis zur endgültigen Entscheidung.</p>\n\n    <div class=\"comparison\">\n        <div class=\"comparison-item\">\n            <h3>Anforderungsanalyse</h3>\n            <p>Definieren Sie zunächst Ihre spezifischen Anforderungen. Berücksichtigen Sie dabei Faktoren wie das Material (Holz, Metall, Kunststoff), die maximale Bearbeitungsgröße und die gewünschte Präzision. Eine Faustregel lautet: Die Positioniergenauigkeit sollte mindestens ±0,01 mm betragen, um hochpräzise Ergebnisse zu gewährleisten.</p>\n            <p><span class=\"highlight\">Tipp:</span> Überprüfen Sie die maximale Werkstückgröße anhand Ihrer geplanten Projekte, um unnötige Kosten zu vermeiden.</p>\n        </div>\n        <div class=\"comparison-item\">\n            <h3>Technische Spezifikationen</h3>\n            <p>Bewerten Sie die technischen Parameter wie Spindeldrehzahl (üblicherweise zwischen 8.000 und 24.000 U/min), Vorschubgeschwindigkeit und Steifigkeit des Rahmens. Ein stabiler Rahmen reduziert Vibrationen und verbessert die Oberflächenqualität.</p>\n            <p><span class=\"highlight\">Tipp:</span> Achten Sie auf die Bauweise des Maschinenbetts – Gusseisen ist robuster als Stahlblechkonstruktionen.</p>\n        </div>\n        <div class=\"comparison-item\">\n            <h3>Kosten-Nutzen-Analyse</h3>\n            <p>Vergleichen Sie verschiedene Modelle basierend auf Ihrem Budget. Für Einsteigermodelle liegen die Preise zwischen €5.000 und €15.000, während professionelle Maschinen oft €20.000 bis €50.000 kosten. Prüfen Sie auch die Betriebskosten, einschließlich Energieverbrauch und Wartung.</p>\n            <p><span class=\"highlight\">Tipp:</span> Investieren Sie in eine Maschine mit einer längeren Garantiezeit (mindestens 2 Jahre), um langfristige Sicherheit zu gewährleisten.</p>\n        </div>\n    </div>\n\n    <div class=\"tip\">\n        <p><strong>Professioneller Rat:</strong> Nutzen Sie Reverse-Engineering-Strategien – analysieren Sie erfolgreiche Anwendungsbeispiele in Ihrer Branche. Beispielsweise können Sie bei der Herstellung von Prototypen die Zykluszeit um 20 % reduzieren, indem Sie eine Hochgeschwindigkeits-CNC wählen.</p>\n    </div>\n\n    <div class=\"table-container\">\n        <table>\n            <thead>\n                <tr>\n                    <th>Kaufkriterium</th>\n                    <th>Bewertungspunkte</th>\n                    <th>Positioniergenauigkeit</th>\n                    <th>Spindeldrehzahl</th>\n                    <th>Priorität</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td>Genauigkeit</td>\n                    <td>Prüfung der Positioniergenauigkeit mittels ISO-Standard</td>\n                    <td>±0,01 mm bis ±0,1 mm</td>\n                    <td>90 % der Maximalwerte</td>\n                    <td>Hoch</td>\n                </tr>\n                <tr>\n                    <td>Materialfestigkeit</td>\n                    <td>Überprüfung der Rahmenmaterialien (Gusseisen vs. Stahl)</td>\n                    <td>Gewicht ab 500 kg</td>\n                    <td>A+</td>\n                    <td>Hoch</td>\n                </tr>\n                <tr>\n                    <td>Leistung</td>\n                    <td>Messung der maximalen Spindeldrehzahl</td>\n                    <td>8.000 - 24.000 U/min</td>\n                    <td>85 % Effizienz</td>\n                    <td>Mittel</td>\n                </tr>\n                <tr>\n                    <td>Sicherheit</td>\n                    <td>CE-Zertifizierung überprüfen</td>\n                    <td>EN ISO 12100-konform</td>\n                    <td>100 % Compliance</td>\n                    <td>Hoch</td>\n                </tr>\n                <tr>\n                    <td>Betriebskosten</td>\n                    <td>Energieverbrauch pro Stunde messen</td>\n                    <td>< 5 kW/h</td>\n                    <td>70 % Effizienz</td>\n                    <td>Niedrig</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n<div class=\"card\">\n    <h2 id=\"faq\">Häufig gestellte Fragen zu CNC</h2>\n\n    <div class=\"faq-item\">\n        <div class=\"faq-question\"><h3>Welche Kriterien sollte ich bei der Auswahl einer CNC-Maschine beachten?</h3></div>\n        <p>Bei der Auswahl einer CNC-Maschine ist es wichtig, die Anforderungen Ihrer Produktion genau zu analysieren. Insbesondere sollten Sie auf folgende Aspekte achten:</p>\n        \n        <ul>\n            <li><strong>Funktionsmerkmale</strong>: Die Präzision und Wiederholgenauigkeit sind entscheidend. Für die meisten industriellen Anwendungen liegt der ISO 230-Standard für Positioniergenauigkeit bei ±0,01 mm.</li>\n            <li><strong>Anwendungsbereiche</strong>: Einsteigermodelle eignen sich gut für Holzbearbeitung oder einfache Metallanwendungen, während professionelle Maschinen mit höherer Leistung und Drehmoment für anspruchsvolle Materialien wie Titan oder rostfreien Stahl entwickelt sind.</li>\n        </ul>\n        \n        <p>Professionelle Empfehlungen/Tipps:</p>\n        <ol>\n            <li>Prüfen Sie, ob das Gerät eine Zertifizierung nach ISO 9001 (Qualitätsmanagement) besitzt.</li>\n            <li>Vergleichen Sie die maximale Werkstückgröße, um sicherzustellen, dass sie Ihren Bedarf deckt.</li>\n            <li>Berücksichtigen Sie den Energieverbrauch und die Verfügbarkeit von Ersatzteilen.</li>\n        </ol>\n    </div>\n\n    <div class=\"faq-item\">\n        <div class=\"faq-question\"><h3>Wie kann ich die Lebensdauer meiner CNC-Maschine verlängern?</h3></div>\n        <p>Die regelmäßige Wartung ist entscheidend, um die Lebensdauer Ihrer CNC-Maschine zu optimieren. Dabei spielen sowohl mechanische als auch elektronische Komponenten eine Rolle.</p>\n        \n        <div class=\"table-container\">\n            <table>\n                <thead>\n                    <tr>\n                        <th>Komponente</th>\n                        <th>Wartungsintervall</th>\n                        <th>Empfohlene Maßnahmen</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>Schmiersystem</td>\n                        <td>Alle 50 Betriebsstunden</td>\n                        <td>Überprüfen Sie den Ölstand und wechseln Sie bei Bedarf.</td>\n                    </tr>\n                    <tr>\n                        <td>Kühlsystem</td>\n                        <td>Monatlich</td>\n                        <td>Reinigen Sie Filter und überprüfen Sie die Kühlflüssigkeit.</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        \n        <p>Professionelle Empfehlungen/Tipps:</p>\n        <ul>\n            <li>Verwenden Sie nur Originalersatzteile, um die Leistung des Systems nicht zu beeinträchtigen.</li>\n            <li>Führen Sie regelmäßig Software-Updates durch, um Fehler zu beheben und neue Funktionen freizuschalten.</li>\n            <li>Trainieren Sie Ihre Mitarbeiter im Umgang mit der Maschine, um Fehlbedienungen zu minimieren.</li>\n        </ul>\n    </div>\n\n    <div class=\"faq-item\">\n        <div class=\"faq-question\"><h3>Welche Sicherheitsvorkehrungen sind bei der Bedienung einer CNC-Maschine wichtig?</h3></div>\n        <p>Die Sicherheit hat bei der Verwendung von CNC-Maschinen höchste Priorität. Es gibt klare Vorgaben in Normen wie ISO 12100, die Risiken minimieren sollen.</p>\n        \n        <ul>\n            <li><strong>Funktionssicherheit</strong>: Not-Aus-Schalter müssen gemäß EN 60204-1 installiert sein.</li>\n            <li><strong>Arbeitsschutz</strong>: Tragen Sie immer Schutzausrüstung, insbesondere bei der Bearbeitung von Metallen, wo Späne fliegen können.</li>\n        </ul>\n        \n        <p>Professionelle Empfehlungen/Tipps:</p>\n        <ol>\n            <li>Installieren Sie Schutzabdeckungen, um direkten Kontakt mit beweglichen Teilen zu verhindern.</li>\n            <li>Halten Sie den Arbeitsbereich sauber, um Stolperfallen oder Ablenkungen zu vermeiden.</li>\n            <li>Testen Sie Programme zunächst im Leerlauf, bevor Sie mit dem eigentlichen Material arbeiten.</li>\n        </ol>\n    </div>\n\n    <div class=\"faq-item\">\n        <div class=\"faq-question\"><h3>Was ist der Unterschied zwischen 3-Achsen- und 5-Achsen-CNC-Maschinen?</h3></div>\n        <p>Der Hauptunterschied liegt in der Flexibilität und Komplexität der Bearbeitung. Während 3-Achsen-Maschinen ideal für einfache Formen sind, bieten 5-Achsen-Maschinen mehr Freiheitsgrade.</p>\n        \n        <div class=\"table-container\">\n            <table>\n                <thead>\n                    <tr>\n                        <th>Merkmal</th>\n                        <th>3-Achsen</th>\n                        <th>5-Achsen</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>Bearbeitungsflexibilität</td>\n                        <td>Einfache Geometrien</td>\n                        <td>Komplexe Freiformflächen</td>\n                    </tr>\n                    <tr>\n                        <td>Kosten</td>\n                        <td>Günstiger</td>\n                        <td>Teurer</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        \n        <p>Professionelle Empfehlungen/Tipps:</p>\n        <ul>\n            <li>Wählen Sie eine 3-Achsen-Maschine, wenn Ihre Projekte hauptsächlich aus einfachen Bauteilen bestehen.</li>\n            <li>Für die Luftfahrt- oder Medizintechnikbranche ist eine 5-Achsen-Maschine oft unerlässlich.</li>\n            <li>Beachten Sie, dass 5-Achsen-Maschinen höhere Schulungsanforderungen an die Bediener stellen.</li>\n        </ul>\n    </div>\n</div></main>",
+      "alternates": null,
+      "structureABFlag": "A",
+      "h1TagABFlag": "A"
+    }
+  }
+}

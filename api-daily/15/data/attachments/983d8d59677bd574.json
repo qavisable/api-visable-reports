@@ -1,0 +1,163 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 631,
+  "headers": {
+    "date": "Sat, 14 Nov 2026 02:12:32 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": [
+      {
+        "id": 371,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "waffen und munition",
+        "normalizeKeyword": "waffen-und-munition",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.047092",
+        "gmtModified": "2026-07-20T05:54:17.047092"
+      },
+      {
+        "id": 364,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "vibratoren",
+        "normalizeKeyword": "vibratoren",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.031767",
+        "gmtModified": "2026-07-20T05:54:17.031767"
+      },
+      {
+        "id": 252,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "magnet-ass-y",
+        "normalizeKeyword": "magnet-ass-y",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.178326",
+        "gmtModified": "2026-07-20T05:54:14.178326"
+      },
+      {
+        "id": 229,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "kondome",
+        "normalizeKeyword": "kondome",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.887549",
+        "gmtModified": "2026-07-20T05:54:12.887549"
+      },
+      {
+        "id": 161,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "erotik kostenlos",
+        "normalizeKeyword": "erotik-kostenlos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.920498",
+        "gmtModified": "2026-07-20T05:54:10.920498"
+      },
+      {
+        "id": 158,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "erotik",
+        "normalizeKeyword": "erotik",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.911912",
+        "gmtModified": "2026-07-20T05:54:10.911912"
+      },
+      {
+        "id": 117,
+        "scene": "showroom",
+        "site": "europages.de",
+        "keyword": "amfepramon ohne rezept",
+        "normalizeKeyword": "amfepramon-ohne-rezept",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.556116",
+        "gmtModified": "2026-07-20T05:54:09.556116"
+      },
+      {
+        "id": 73,
+        "scene": "cserp",
+        "site": null,
+        "keyword": "agencias-de-escorts-barcelona",
+        "normalizeKeyword": "agencias-de-escorts-barcelona",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.604161",
+        "gmtModified": "2026-07-16T03:53:00.604161"
+      },
+      {
+        "id": 72,
+        "scene": "cserp",
+        "site": null,
+        "keyword": "escorte",
+        "normalizeKeyword": "escorte",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.602576",
+        "gmtModified": "2026-07-16T03:53:00.602576"
+      },
+      {
+        "id": 71,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "vagosex",
+        "normalizeKeyword": "vagosex",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.600906",
+        "gmtModified": "2026-07-16T03:53:00.600906"
+      },
+      {
+        "id": 70,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "mujeres-maduras-desnudas",
+        "normalizeKeyword": "mujeres-maduras-desnudas",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.599325",
+        "gmtModified": "2026-07-16T03:53:00.599325"
+      },
+      {
+        "id": 69,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "xxxtik",
+        "normalizeKeyword": "xxxtik",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.597354",
+        "gmtModified": "2026-07-16T03:53:00.597354"
+      },
+      {
+        "id": 68,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "pprno",
+        "normalizeKeyword": "pprno",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.59563",
+        "gmtModified": "2026-07-16T03:53:00.59563"
+      },
+      {
+        "id": 67,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "xxnxxx",
+        "normalizeKeyword": "xxnxxx",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.589017",
+        "gmtModified": "2026-07-16T03:53:00.589017"
+      }
+    ]
+  }
+}

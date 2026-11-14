@@ -1,0 +1,17 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/showroom/v1/crumbs?keyword=&siteId=wlw&language=de",
+  "durationMs": 631,
+  "params": {
+    "keyword": "",
+    "siteId": "wlw",
+    "language": "de"
+  },
+  "headers": {
+    "Content-Type": "application/json",
+    "dynamictoken": "***",
+    "Accept-Language": "de",
+    "X-Application-Id": "homepage-frontend",
+    "x-host": "www.wlw-staging.de"
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 1326,
+  "headers": {
+    "date": "Sat, 14 Nov 2026 02:11:53 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "categoryName": "Transformatorenstationen",
+      "categorySubtitle": "",
+      "categoryType": "leaf",
+      "categoryLogoUrl": null,
+      "categoryTitle": "Transformatorenstationen auf wlw.de : 1455 Lieferanten & 0 Produkte online",
+      "totalCompanyCount": 1455,
+      "totalProductCount": 0,
+      "childNodes": null,
+      "supplierRecom": [
+        {
+          "companyId": "1498354",
+          "uuid": "00505682-f25b-1ee9-bd91-d295202797fb",
+          "slug": "electro-sistem-deutschland-gmbh-1498354",
+          "averageResponseTime": null,
+          "certificatesCount": "3",
+          "city": "Eisenberg, (Pfalz)",
+          "countryCode": "DE",
+          "distributionArea": "international",
+          "employeeCount": "50-99",
+          "foundingYear": "1996",
+          "supplierTypeCounts": [
+            {
+              "supplierType": "production",
+              "count": 1
+            }
+          ],
+          "productCount": "1",
+          "responseRate": 0,
+          "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/5e55c271-d975-4880-a259-52074909fd7b.png",
+          "portfolioProducts": [
+            {
+              "productId": null,
+              "name": "Transformatorenstationen mit Mittelspannungsschaltanlage Trafo und Niederspannungsverteilung, Trafostationen, Mietstationen",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0c6bc68e-dea1-11ed-ab3e-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "transformatorenstationen-mit-mittelspannungsschaltanlage-transformator-und-niederspannungsverteilung-trafostationen-19569994",
+              "detailUrl": null
+            }
+          ],
+          "highlightings": {
+            "name": "Electro Sistem Deutschland GmbH",
+            "description": "...Transformatorenstationen in Beton oder Stahl: \nKompakte Stationen bis 6.5 MVA, 33 kV, \nBegehbare Stationen bis 5 MVA, 33 kV, \nÜbergabestationen bis 33..."
+          },
+          "name": "Electro Sistem Deutschland GmbH",
+          "street": "Am Gielbrunnen 25-27",
+          "zipcode": "67304",
+          "email": "",
+          "companyShotDescstring": null,
+          "isCustomer": true,
+          "acronym": "ESD",
+          "companyUrl": null,
+          "epId": "00000005312188-001",
+          "epSlug": ""
+        },
+        {
+          "companyId": "1316028",
+          "uuid": "00505682-f25b-1ee9-bd91-d29a807497fb",
+          "slug": "klaus-koehler-beton-und-fertigteilwerk-gmbh-1316028",
+          "averageResponseTime": "less_than_24h",
+          "certificatesCount": "6",
+          "city": "Luckenwalde",
+          "countryCode": "DE",
+          "distributionArea": "europe",
+          "employeeCount": "50-99",
+          "foundingYear": "1947",
+          "supplierTypeCounts": [
+            {
+              "supplierType": "distribution",
+              "count": 1
+            },
+            {
+              "supplierType": "production",
+              "count": 1
+            },
+            {
+              "supplierType": "service",
+              "count": 1
+            }
+          ],
+          "productCount": "10",
+          "responseRate": 0.5,
+          "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/dfe10daa-6e31-4925-9884-32597e702083.jpeg",
+          "portfolioProducts": [
+            {
+              "productId": null,
+              "name": "Kompaktstation, Transformatorenstationen aus Beton",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/89b88271-52a1-11f1-996b-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "kompaktstation-transformatorenstationen-aus-beton-35885763",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Entwässerungsrinnen aus Beton, Schlitzrinnen",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/ba07ac2c-8d29-11ee-ac29-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "entwaesserungsrinnen-aus-beton-schlitzrinnen-33450633",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Beton-Multifunktionsschächte",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bb28d4e8-8d29-11ee-b81d-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "beton-multifunktionsschaechte-33450636",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Fertigteil-Fundamente",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/ba9af55e-8d29-11ee-ac29-0a58a9feac02.png"
+                }
+              ],
+              "slug": "fertigteil-fundamente-33450635",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Schotterhalteplatten",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/bb905867-8d29-11ee-990c-0a58a9feac02.png"
+                }
+              ],
+              "slug": "schotterhalteplatten-33450637",
+              "detailUrl": null
+            }
+          ],
+          "highlightings": {
+            "name": "Klaus Köhler Beton- und Fertigteilwerk GmbH",
+            "description": "Wir produzieren hochwertige Beton-Fertigteile für den Tiefbau.\nDas Köhler Betonfertigteilwerk ist mit einem Output von durchschnittlich 40.000 Tonnen..."
+          },
+          "name": "Klaus Köhler Beton- und Fertigteilwerk GmbH",
+          "street": "Treuenbrietzener Tor 40",
+          "zipcode": "14943",
+          "email": "",
+          "companyShotDescstring": null,
+          "isCustomer": true,
+          "acronym": "KKH",
+          "companyUrl": null,
+          "epId": "00000005347704-001",
+          "epSlug": ""
+        },
+        {
+          "companyId": "1807742",
+          "uuid": "00505682-f25b-1ee9-bd91-d26c0073b7fb",
+          "slug": "esaver-gmbh-1807742",
+          "averageResponseTime": "more_than_72h",
+          "certificatesCount": "3",
+          "city": "Ehningen",
+          "countryCode": "DE",
+          "distributionArea": "europe",
+          "employeeCount": "50-99",
+          "foundingYear": "2001",
+          "supplierTypeCounts": [
+            {
+              "supplierType": "service",
+              "count": 1
+            },
+            {
+              "supplierType": "distribution",
+              "count": 1
+            },
+            {
+              "supplierType": "production",
+              "count": 1
+            },
+            {
+              "supplierType": "customer_specific_manufacturing",
+              "count": 1
+            }
+          ],
+          "productCount": "31",
+          "responseRate": 0.33,
+          "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/52ce047a-975c-49fb-a218-33db0f137ae7.png",
+          "portfolioProducts": [
+            {
+              "productId": null,
+              "name": "Trafostationen mit vollständigem Elektroausbau und moderner MS-/NS-Technik",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/13c3839c-d9b7-492a-bac5-b479ba7a0903.png"
+                }
+              ],
+              "slug": "trafostationen-mit-vollstaendigem-elektroausbau-und-moderner-mvlv-technik-35009926",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Schlüsselfertige Beton-Trafostationen für Industrie und Gewerbe",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/61458f8f-532b-11f1-b4ac-0a58a9feac02.jpeg"
+                }
+              ],
+              "slug": "beton-trafostationen-mit-robustem-design-und-schluesselfertiger-lieferung-36445181",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Transformatoren mit hoher Betriebssicherheit und Energieeffizienz",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/5e66eeec-7dd3-11f0-ae3f-0a58a9feac02.png"
+                }
+              ],
+              "slug": "transformatoren-mit-hoher-betriebssicherheit-und-energieeffizienz-nach-din-en-50588-1-36345077",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Mittelspannungsschaltanlagen für Industrie und Gewerbe",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/99d75366-ceb1-11f0-9a32-0a58a9feac02.png"
+                }
+              ],
+              "slug": "mittelspannungsschaltanlagen-mit-hoher-betriebssicherheit-und-modularer-bauweise-36345060",
+              "detailUrl": null
+            },
+            {
+              "productId": null,
+              "name": "Traforeinigungen zur Erhöhung der Betriebssicherheit",
+              "images": [
+                {
+                  "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/74889b2a-7dce-11f0-a5e9-0a58a9feac02.png"
+                }
+              ],
+              "slug": "traforeinigungen-zur-erhoehung-der-betriebssicherheit-36345054",
+              "detailUrl": null
+            }
+          ],
+          "highlightings": {
+            "name": "eSaver GmbH",
+            "description": "Wir planen, bauen und modernisieren Energieanlagen für industrielle und gewerbliche Anwendungen, von Transformatoren und Trafostationen bis hin zu Mittel..."
+          },
+          "name": "eSaver GmbH",
+          "street": "Im Letten 16 /1",
+          "zipcode": "71139",
+          "email": "",
+          "companyShotDescstring": null,
+          "isCustomer": true,
+          "acronym": "ESA",
+          "companyUrl": null,
+          "epId": "00000005311267-001",
+          "epSlug": ""
+        }
+      ],
+      "supplierCards": {
+        "companyId": "1780903",
+        "uuid": "00505682-f25b-1ee9-bd91-d26acddcd7fb",
+        "slug": "transformare-gmbh-1780903",
+        "averageResponseTime": "from_24h_to_48h",
+        "certificatesCount": "1",
+        "city": "Wittenberge",
+        "countryCode": "DE",
+        "distributionArea": "national",
+        "employeeCount": "50-99",
+        "foundingYear": "1990",
+        "supplierTypeCounts": [
+          {
+            "supplierType": "production",
+            "count": 1
+          },
+          {
+            "supplierType": "service",
+            "count": 1
+          }
+        ],
+        "productCount": "5",
+        "responseRate": 0.33,
+        "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/d00a9a33-2ebd-4106-8bfa-a81999de439c.jpeg",
+        "portfolioProducts": [
+          {
+            "productId": null,
+            "name": "Trafo- und Mittel­spannungs­stationen",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/acff5260-5380-11f1-b4ac-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "trafo-und-mittelspannungsstationen-35211901",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Trafostationen und Mittelspannungsstationen",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/61c983e8-f129-4939-84fa-32d36fa7aa6f.jpeg"
+              }
+            ],
+            "slug": "trafostationen-und-mittelspannungsstationen-38098002",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Nieder­spannungs-Schaltanlagen",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/7894431a-5567-11ef-9ae4-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "niederspannungs-schaltanlagen-35211899",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Service",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e84ae5f7-5567-11ef-a567-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "service-35211904",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Schaltanlage Niederspannung",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/a5225acf-d350-48ce-926a-04d8f634a43c.jpeg"
+              }
+            ],
+            "slug": "schaltanlage-niederspannung-38098003",
+            "detailUrl": null
+          }
+        ],
+        "highlightings": {
+          "name": "Transformare GmbH",
+          "description": "Als mittelständischer Fachbetrieb planen, montieren und sanieren wir Trafostationen für Energieversorgungsunternehmen und Stadtwerke sowie für gewerbliche..."
+        },
+        "name": "Transformare GmbH",
+        "street": "Hirtenweg 20",
+        "zipcode": "19322",
+        "email": "",
+        "companyShotDescstring": null,
+        "isCustomer": true,
+        "acronym": "TRA",
+        "companyUrl": null,
+        "epId": "00000005375822-001",
+        "epSlug": ""
+      },
+      "products": null,
+      "productList": null,
+      "breadCrumbs": [
+        {
+          "categoryName": "Elektrotechnik",
+          "categoryId": "100038",
+          "categoryUrl": "elektrotechnik-100038"
+        },
+        {
+          "categoryName": "Transformatorenstationen",
+          "categoryId": "605764",
+          "categoryUrl": null
+        }
+      ],
+      "internalLinks": null,
+      "meta": {
+        "keywords": "Transformatorenstationen",
+        "metaKeywords": "Transformatorenstationen",
+        "title": "Transformatorenstationen auf wlw.de : 1455 Lieferanten & 0 Produkte online",
+        "site": "wlw.de",
+        "description": "Transformatorenstationen auf wlw.de : 1455 Lieferanten & 0 Produkte online",
+        "canonicalUrl": "/de/showroom-cate/transformatorenstationen-605764",
+        "h1": null,
+        "alternates": [],
+        "index": null,
+        "follow": null
+      },
+      "paging": null,
+      "pageSize": 0,
+      "filters": null
+    }
+  }
+}

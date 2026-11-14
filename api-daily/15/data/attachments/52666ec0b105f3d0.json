@@ -1,0 +1,12 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/filter-panel-links?site=europages.de&page_path=%2Fshowroom%2Fcnc",
+  "durationMs": 633,
+  "params": {
+    "site": "europages.de",
+    "page_path": "/showroom/cnc"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

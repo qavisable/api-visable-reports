@@ -1,0 +1,11 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/get/showroomkeyword?domain=europages.de",
+  "durationMs": 713,
+  "params": {
+    "domain": "europages.de"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

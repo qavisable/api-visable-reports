@@ -1,0 +1,369 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 1588,
+  "headers": {
+    "date": "Sat, 14 Nov 2026 02:11:52 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "categoryName": "Elektrotechnik",
+      "categorySubtitle": "",
+      "categoryType": "root",
+      "categoryLogoUrl": null,
+      "categoryTitle": "Elektrotechnik auf wlw.de : 18663 Lieferanten & 0 Produkte online",
+      "totalCompanyCount": 18663,
+      "totalProductCount": 0,
+      "childNodes": [
+        {
+          "categoryName": "Transformatorenstationen",
+          "categoryId": "605764",
+          "categoryUrl": "transformatorenstationen-605764"
+        },
+        {
+          "categoryName": "Kühlkörper",
+          "categoryId": "605763",
+          "categoryUrl": "kuehlkoerper-605763"
+        },
+        {
+          "categoryName": "Quarze",
+          "categoryId": "605761",
+          "categoryUrl": "quarze-605761"
+        },
+        {
+          "categoryName": "Oszillatoren",
+          "categoryId": "605760",
+          "categoryUrl": "oszillatoren-605760"
+        },
+        {
+          "categoryName": "Ferrite",
+          "categoryId": "605759",
+          "categoryUrl": "ferrite-605759"
+        },
+        {
+          "categoryName": "Netzteile",
+          "categoryId": "605751",
+          "categoryUrl": "netzteile-605751"
+        },
+        {
+          "categoryName": "Elektroden",
+          "categoryId": "605670",
+          "categoryUrl": "elektroden-605670"
+        },
+        {
+          "categoryName": "Erder",
+          "categoryId": "605665",
+          "categoryUrl": "erder-605665"
+        },
+        {
+          "categoryName": "Aktuatoren",
+          "categoryId": "605663",
+          "categoryUrl": "aktuatoren-605663"
+        },
+        {
+          "categoryName": "Sicherungen",
+          "categoryId": "605645",
+          "categoryUrl": "sicherungen-605645"
+        },
+        {
+          "categoryName": "Schaltschütze",
+          "categoryId": "605643",
+          "categoryUrl": "schaltschuetze-605643"
+        },
+        {
+          "categoryName": "Relais",
+          "categoryId": "605634",
+          "categoryUrl": "relais-605634"
+        },
+        {
+          "categoryName": "Potentiometer",
+          "categoryId": "605627",
+          "categoryUrl": "potentiometer-605627"
+        },
+        {
+          "categoryName": "Kondensatoren",
+          "categoryId": "605612",
+          "categoryUrl": "kondensatoren-605612"
+        },
+        {
+          "categoryName": "Elektrospulen",
+          "categoryId": "605607",
+          "categoryUrl": "elektrospulen-605607"
+        },
+        {
+          "categoryName": "Thyristoren",
+          "categoryId": "605605",
+          "categoryUrl": "thyristoren-605605"
+        },
+        {
+          "categoryName": "Transistoren",
+          "categoryId": "605602",
+          "categoryUrl": "transistoren-605602"
+        },
+        {
+          "categoryName": "Leuchtdioden",
+          "categoryId": "605594",
+          "categoryUrl": "leuchtdioden-605594"
+        },
+        {
+          "categoryName": "Dioden",
+          "categoryId": "605588",
+          "categoryUrl": "dioden-605588"
+        },
+        {
+          "categoryName": "Mikroprozessoren",
+          "categoryId": "605587",
+          "categoryUrl": "mikroprozessoren-605587"
+        },
+        {
+          "categoryName": "Mikrocontroller",
+          "categoryId": "605586",
+          "categoryUrl": "mikrocontroller-605586"
+        },
+        {
+          "categoryName": "Integrierte Schaltkreise",
+          "categoryId": "605585",
+          "categoryUrl": "integrierte-schaltkreise-605585"
+        },
+        {
+          "categoryName": "Wafer",
+          "categoryId": "605583",
+          "categoryUrl": "wafer-605583"
+        },
+        {
+          "categoryName": "Leiterplatten",
+          "categoryId": "605577",
+          "categoryUrl": "leiterplatten-605577"
+        },
+        {
+          "categoryName": "Transformatoren",
+          "categoryId": "605571",
+          "categoryUrl": "transformatoren-605571"
+        },
+        {
+          "categoryName": "Abschirmung",
+          "categoryId": "605569",
+          "categoryUrl": "abschirmung-605569"
+        },
+        {
+          "categoryName": "Elektronische Bauelemente",
+          "categoryId": "605495",
+          "categoryUrl": "elektronische-bauelemente-605495"
+        },
+        {
+          "categoryName": "Überspannungsschutz",
+          "categoryId": "605494",
+          "categoryUrl": "ueberspannungsschutz-605494"
+        },
+        {
+          "categoryName": "SMD-Technik",
+          "categoryId": "605493",
+          "categoryUrl": "smd-technik-605493"
+        },
+        {
+          "categoryName": "Wickeltechnik",
+          "categoryId": "605492",
+          "categoryUrl": "wickeltechnik-605492"
+        },
+        {
+          "categoryName": "Hochleistungskeramik",
+          "categoryId": "605491",
+          "categoryUrl": "hochleistungskeramik-605491"
+        },
+        {
+          "categoryName": "Halbleiter",
+          "categoryId": "605490",
+          "categoryUrl": "halbleiter-605490"
+        },
+        {
+          "categoryName": "Messelektronik",
+          "categoryId": "605488",
+          "categoryUrl": "messelektronik-605488"
+        },
+        {
+          "categoryName": "Elektrotechnik (Sonstiges)",
+          "categoryId": "605477",
+          "categoryUrl": "elektrotechnik-sonstiges-605477"
+        },
+        {
+          "categoryName": "Steckverbinder",
+          "categoryId": "200395",
+          "categoryUrl": "steckverbinder-200395"
+        },
+        {
+          "categoryName": "Schalter",
+          "categoryId": "200394",
+          "categoryUrl": "schalter-200394"
+        },
+        {
+          "categoryName": "Stromrichter",
+          "categoryId": "200393",
+          "categoryUrl": "stromrichter-200393"
+        },
+        {
+          "categoryName": "Elektrische Filter",
+          "categoryId": "200389",
+          "categoryUrl": "elektrische-filter-200389"
+        },
+        {
+          "categoryName": "Widerstände",
+          "categoryId": "200384",
+          "categoryUrl": "widerstaende-200384"
+        },
+        {
+          "categoryName": "Elektroinstallationsmaterial",
+          "categoryId": "200373",
+          "categoryUrl": "elektroinstallationsmaterial-200373"
+        },
+        {
+          "categoryName": "Optoelektronik",
+          "categoryId": "200372",
+          "categoryUrl": "optoelektronik-200372"
+        },
+        {
+          "categoryName": "Elektrotechnische Baugruppen",
+          "categoryId": "200371",
+          "categoryUrl": "elektrotechnische-baugruppen-200371"
+        },
+        {
+          "categoryName": "Elektroindustrie-Maschinen",
+          "categoryId": "200369",
+          "categoryUrl": "elektroindustrie-maschinen-200369"
+        }
+      ],
+      "supplierRecom": null,
+      "supplierCards": {
+        "companyId": "477356",
+        "uuid": "00505682-f25b-1ee9-bd91-d2568d2137fb",
+        "slug": "plenge-gmbh-477356",
+        "averageResponseTime": null,
+        "certificatesCount": "3",
+        "city": "Oelde",
+        "countryCode": "DE",
+        "distributionArea": "national",
+        "employeeCount": "50-99",
+        "foundingYear": "1949",
+        "supplierTypeCounts": [
+          {
+            "supplierType": "production",
+            "count": 1
+          },
+          {
+            "supplierType": "service",
+            "count": 1
+          }
+        ],
+        "productCount": "6",
+        "responseRate": 0,
+        "logoUrl": "https://wlw-1-company-facts-media20191122174836234900000006.s3.eu-central-1.amazonaws.com/6b14e1ad-cde7-4f8e-9db1-c8cfa3fd635e.jpeg",
+        "portfolioProducts": [
+          {
+            "productId": null,
+            "name": "Hardware Engineering",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/e43b7dba-7427-11ef-be9b-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "hardware-engineering-29244619",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Schaltschrankbau",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/0f26aefa-7427-11ef-af38-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "schaltschrankbau-36817206",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Schaltschrank Montage",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/b13d4ea2-47bf-11f1-a2d2-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "schaltschrank-montage-36818976",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "Software-Inbetriebnahme",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/86b74fdf-47bf-11f1-8413-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "software-inbetriebnahme-36818973",
+            "detailUrl": null
+          },
+          {
+            "productId": null,
+            "name": "SPS-Programmierung",
+            "images": [
+              {
+                "url": "https://supplier-offers-media-production.s3.eu-central-1.amazonaws.com/03c6ec2a-5386-11f1-996b-0a58a9feac02.jpeg"
+              }
+            ],
+            "slug": "sps-programmierung-29244621",
+            "detailUrl": null
+          }
+        ],
+        "highlightings": {
+          "name": "Plenge GmbH",
+          "description": "Die Plenge GmbH ist Spezialist für Elektrotechnik, Hard- und Software-Engineering im Steuerungsbau sowie in der kundenspezifischen Herstellung von..."
+        },
+        "name": "Plenge GmbH",
+        "street": "Werner-Habig-Strasse 9",
+        "zipcode": "59302",
+        "email": "",
+        "companyShotDescstring": null,
+        "isCustomer": true,
+        "acronym": "PLE",
+        "companyUrl": null,
+        "epId": "00000005439187-001",
+        "epSlug": ""
+      },
+      "products": null,
+      "productList": null,
+      "breadCrumbs": [
+        {
+          "categoryName": "Elektrotechnik",
+          "categoryId": "100038",
+          "categoryUrl": null
+        }
+      ],
+      "internalLinks": null,
+      "meta": {
+        "keywords": "Elektrotechnik",
+        "metaKeywords": "Elektrotechnik",
+        "title": "Elektrotechnik auf wlw.de : 18663 Lieferanten & 0 Produkte online",
+        "site": "wlw.de",
+        "description": "Elektrotechnik auf wlw.de : 18663 Lieferanten & 0 Produkte online",
+        "canonicalUrl": "/de/showroom-cate/elektrotechnik-100038",
+        "h1": null,
+        "alternates": [],
+        "index": null,
+        "follow": null
+      },
+      "paging": null,
+      "pageSize": 0,
+      "filters": null
+    }
+  }
+}

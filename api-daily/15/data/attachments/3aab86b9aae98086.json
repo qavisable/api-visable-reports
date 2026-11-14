@@ -1,0 +1,684 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 208,
+  "headers": {
+    "date": "Sat, 14 Nov 2026 02:12:46 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "bsList": null,
+      "breadCrumbs": [
+        {
+          "name": "All business sectors",
+          "url": "/bs"
+        },
+        {
+          "name": "Health",
+          "url": "/bs/health"
+        },
+        {
+          "name": "Biotechnologies",
+          "url": null
+        }
+      ],
+      "banner": null,
+      "title": "Biotechnologies",
+      "pageText": {
+        "viewMore": "VIEW MORE",
+        "seeLess": "SEE LESS",
+        "pserp": "All Products",
+        "pserpDesc": "Click any keyword to see relevant products in search results.",
+        "cserp": "All Companies",
+        "cserpDesc": "Click any keyword to see relevant suppliers in search results.",
+        "showroom": "Showroom page",
+        "showroomDesc": "Click any keyword to see the relevant showroom page.",
+        "showroomCate": "All Categories",
+        "showroomCateDesc": "Click any keyword to see all relevant product categories.",
+        "forWord": "for"
+      },
+      "cserp": [
+        {
+          "name": "Artificial kidneys",
+          "url": "/companies/artificial%20kidneys.html"
+        },
+        {
+          "name": "Artificial organs",
+          "url": "/companies/artificial%20organs.html"
+        },
+        {
+          "name": "Artificial pacemakers",
+          "url": "/companies/artificial%20pacemakers.html"
+        },
+        {
+          "name": "Biochemistry - products",
+          "url": "/companies/biochemistry%20-%20products.html"
+        },
+        {
+          "name": "Biomedical equipment",
+          "url": "/companies/biomedical%20equipment.html"
+        },
+        {
+          "name": "Industrial microbiology",
+          "url": "/companies/industrial%20microbiology.html"
+        }
+      ],
+      "pserp": null,
+      "showroom": [
+        {
+          "name": "Abogen Biosciences",
+          "url": "/en/showroom/abogen%20biosciences"
+        },
+        {
+          "name": "Accutar Biotech",
+          "url": "/en/showroom/accutar%20biotech"
+        },
+        {
+          "name": "Adaptive Bio",
+          "url": "/en/showroom/adaptive%20bio"
+        },
+        {
+          "name": "Adaptivebiotech",
+          "url": "/en/showroom/adaptivebiotech"
+        },
+        {
+          "name": "Adc Biotech",
+          "url": "/en/showroom/adc%20biotech"
+        },
+        {
+          "name": "Advanced Biotech",
+          "url": "/en/showroom/advanced%20biotech"
+        },
+        {
+          "name": "Agricultural Biotech",
+          "url": "/en/showroom/agricultural%20biotech"
+        },
+        {
+          "name": "Agriculture And Bio Technology",
+          "url": "/en/showroom/agriculture%20and%20bio%20technology"
+        },
+        {
+          "name": "Amyris Biotech",
+          "url": "/en/showroom/amyris%20biotech"
+        },
+        {
+          "name": "Ansa Biotech",
+          "url": "/en/showroom/ansa%20biotech"
+        },
+        {
+          "name": "Applied Biotech",
+          "url": "/en/showroom/applied%20biotech"
+        },
+        {
+          "name": "Applikon Bioreactor",
+          "url": "/en/showroom/applikon%20bioreactor"
+        },
+        {
+          "name": "Arbor Biotechnologies",
+          "url": "/en/showroom/arbor%20biotechnologies"
+        },
+        {
+          "name": "Ark Biotech",
+          "url": "/en/showroom/ark%20biotech"
+        },
+        {
+          "name": "Asimov Biotech",
+          "url": "/en/showroom/asimov%20biotech"
+        },
+        {
+          "name": "Best Biotech Companies",
+          "url": "/en/showroom/best%20biotech%20companies"
+        },
+        {
+          "name": "Big Biotech Companies",
+          "url": "/en/showroom/big%20biotech%20companies"
+        },
+        {
+          "name": "Bio Technology",
+          "url": "/en/showroom/bio%20technology"
+        },
+        {
+          "name": "Bio Technology Company",
+          "url": "/en/showroom/bio%20technology%20company"
+        },
+        {
+          "name": "Bio Technology Examples",
+          "url": "/en/showroom/bio%20technology%20examples"
+        },
+        {
+          "name": "Bio Technology Meaning",
+          "url": "/en/showroom/bio%20technology%20meaning"
+        },
+        {
+          "name": "Bio Technology University",
+          "url": "/en/showroom/bio%20technology%20university"
+        },
+        {
+          "name": "Biotech",
+          "url": "/en/showroom/biotech"
+        },
+        {
+          "name": "Biotech 3",
+          "url": "/en/showroom/biotech%203"
+        },
+        {
+          "name": "Biotech And Bioengineering",
+          "url": "/en/showroom/biotech%20and%20bioengineering"
+        },
+        {
+          "name": "Biotech And Pharmaceutical Companies",
+          "url": "/en/showroom/biotech%20and%20pharmaceutical%20companies"
+        },
+        {
+          "name": "Biotech Companies",
+          "url": "/en/showroom/biotech%20companies"
+        },
+        {
+          "name": "Biotech Crops",
+          "url": "/en/showroom/biotech%20crops"
+        },
+        {
+          "name": "Biotech Degrees",
+          "url": "/en/showroom/biotech%20degrees"
+        },
+        {
+          "name": "Biotech Department",
+          "url": "/en/showroom/biotech%20department"
+        },
+        {
+          "name": "Biotech Examples",
+          "url": "/en/showroom/biotech%20examples"
+        },
+        {
+          "name": "Biotech Firms",
+          "url": "/en/showroom/biotech%20firms"
+        },
+        {
+          "name": "Biotech Food",
+          "url": "/en/showroom/biotech%20food"
+        },
+        {
+          "name": "Biotech Journals",
+          "url": "/en/showroom/biotech%20journals"
+        },
+        {
+          "name": "Biotech Ltd",
+          "url": "/en/showroom/biotech%20ltd"
+        },
+        {
+          "name": "Biotech Meaning",
+          "url": "/en/showroom/biotech%20meaning"
+        },
+        {
+          "name": "Biotech Medicine",
+          "url": "/en/showroom/biotech%20medicine"
+        },
+        {
+          "name": "Biotech Near Me",
+          "url": "/en/showroom/biotech%20near%20me"
+        },
+        {
+          "name": "Biotech Peptides",
+          "url": "/en/showroom/biotech%20peptides"
+        },
+        {
+          "name": "Biotech Pharma Company",
+          "url": "/en/showroom/biotech%20pharma%20company"
+        },
+        {
+          "name": "Biotech Pharmaceutical Company",
+          "url": "/en/showroom/biotech%20pharmaceutical%20company"
+        },
+        {
+          "name": "Biotech Plant",
+          "url": "/en/showroom/biotech%20plant"
+        },
+        {
+          "name": "Biotech Science",
+          "url": "/en/showroom/biotech%20science"
+        },
+        {
+          "name": "Biotech Technology",
+          "url": "/en/showroom/biotech%20technology"
+        },
+        {
+          "name": "Biotechnologies",
+          "url": "/en/showroom/biotechnologies"
+        },
+        {
+          "name": "Bloomage Biotech",
+          "url": "/en/showroom/bloomage%20biotech"
+        },
+        {
+          "name": "Chain Biotech",
+          "url": "/en/showroom/chain%20biotech"
+        },
+        {
+          "name": "Cradle Biotech",
+          "url": "/en/showroom/cradle%20biotech"
+        },
+        {
+          "name": "Debut Biotech",
+          "url": "/en/showroom/debut%20biotech"
+        },
+        {
+          "name": "Department Of Bio Technology",
+          "url": "/en/showroom/department%20of%20bio%20technology"
+        },
+        {
+          "name": "Dmc Biotechnologies",
+          "url": "/en/showroom/dmc%20biotechnologies"
+        },
+        {
+          "name": "Food Biotech",
+          "url": "/en/showroom/food%20biotech"
+        },
+        {
+          "name": "Gc012f",
+          "url": "/en/showroom/gc012f"
+        },
+        {
+          "name": "Gracell",
+          "url": "/en/showroom/gracell"
+        },
+        {
+          "name": "Gracell Biotechnologies",
+          "url": "/en/showroom/gracell%20biotechnologies"
+        },
+        {
+          "name": "Hide Biotech",
+          "url": "/en/showroom/hide%20biotech"
+        },
+        {
+          "name": "Industrial Biotech",
+          "url": "/en/showroom/industrial%20biotech"
+        },
+        {
+          "name": "Largest Biotech Companies",
+          "url": "/en/showroom/largest%20biotech%20companies"
+        },
+        {
+          "name": "Leading Biotech Companies",
+          "url": "/en/showroom/leading%20biotech%20companies"
+        },
+        {
+          "name": "List Of Biotech Companies",
+          "url": "/en/showroom/list%20of%20biotech%20companies"
+        },
+        {
+          "name": "Lonza Biotech",
+          "url": "/en/showroom/lonza%20biotech"
+        },
+        {
+          "name": "Maia Biotech",
+          "url": "/en/showroom/maia%20biotech"
+        },
+        {
+          "name": "Moderna Biotech",
+          "url": "/en/showroom/moderna%20biotech"
+        },
+        {
+          "name": "Msc Bio Technology",
+          "url": "/en/showroom/msc%20bio%20technology"
+        },
+        {
+          "name": "Msc Biotech",
+          "url": "/en/showroom/msc%20biotech"
+        },
+        {
+          "name": "Nano Biotech",
+          "url": "/en/showroom/nano%20biotech"
+        },
+        {
+          "name": "Nature Biotech",
+          "url": "/en/showroom/nature%20biotech"
+        },
+        {
+          "name": "Nautilus Biotech",
+          "url": "/en/showroom/nautilus%20biotech"
+        },
+        {
+          "name": "Pharmaceutical Biotech",
+          "url": "/en/showroom/pharmaceutical%20biotech"
+        },
+        {
+          "name": "Plant Biotech",
+          "url": "/en/showroom/plant%20biotech"
+        },
+        {
+          "name": "Puma Bio",
+          "url": "/en/showroom/puma%20bio"
+        },
+        {
+          "name": "Reddit Biotech",
+          "url": "/en/showroom/reddit%20biotech"
+        },
+        {
+          "name": "Sana Biotech",
+          "url": "/en/showroom/sana%20biotech"
+        },
+        {
+          "name": "Santa Cruz Biotech",
+          "url": "/en/showroom/santa%20cruz%20biotech"
+        },
+        {
+          "name": "Top Biotech Companies In World",
+          "url": "/en/showroom/top%20biotech%20companies%20in%20world"
+        },
+        {
+          "name": "Top Biotech Company",
+          "url": "/en/showroom/top%20biotech%20company"
+        },
+        {
+          "name": "Turn Biotechnologies",
+          "url": "/en/showroom/turn%20biotechnologies"
+        },
+        {
+          "name": "Types Of Biotech",
+          "url": "/en/showroom/types%20of%20biotech"
+        },
+        {
+          "name": "Unicorn Biotech",
+          "url": "/en/showroom/unicorn%20biotech"
+        },
+        {
+          "name": "Vir Bio",
+          "url": "/en/showroom/vir%20bio"
+        }
+      ],
+      "showroomCate": [
+        {
+          "name": "Corona Test",
+          "url": "/en/showroom-cate/corona-test-611594"
+        },
+        {
+          "name": "Rapid Tests",
+          "url": "/en/showroom-cate/rapid-tests-611588"
+        },
+        {
+          "name": "pH Test Strips",
+          "url": "/en/showroom-cate/ph-test-strips-611602"
+        },
+        {
+          "name": "Hospital Beds",
+          "url": "/en/showroom-cate/hospital-beds-611385"
+        },
+        {
+          "name": "Dentures",
+          "url": "/en/showroom-cate/dentures-300909"
+        },
+        {
+          "name": "Breast Implants",
+          "url": "/en/showroom-cate/breast-implants-611297"
+        },
+        {
+          "name": "Orthopedic Shoes",
+          "url": "/en/showroom-cate/orthopedic-shoes-611358"
+        },
+        {
+          "name": "Pharmaceuticals",
+          "url": "/en/showroom-cate/pharmaceuticals-611508"
+        },
+        {
+          "name": "Monthly Lenses",
+          "url": "/en/showroom-cate/monthly-lenses-611489"
+        },
+        {
+          "name": "Dental Supplies",
+          "url": "/en/showroom-cate/dental-supplies-200712"
+        },
+        {
+          "name": "CBD Drops",
+          "url": "/en/showroom-cate/cbd-drops-611627"
+        },
+        {
+          "name": "Progressive Lenses",
+          "url": "/en/showroom-cate/progressive-lenses-611494"
+        },
+        {
+          "name": "Wheelchairs",
+          "url": "/en/showroom-cate/wheelchairs-611354"
+        },
+        {
+          "name": "Progressive Glasses",
+          "url": "/en/showroom-cate/progressive-glasses-611474"
+        },
+        {
+          "name": "Bandages",
+          "url": "/en/showroom-cate/bandages-611427"
+        },
+        {
+          "name": "Insulin",
+          "url": "/en/showroom-cate/insulin-611520"
+        },
+        {
+          "name": "Eyeglass Frames",
+          "url": "/en/showroom-cate/eyeglass-frames-611492"
+        },
+        {
+          "name": "Massage Accessories",
+          "url": "/en/showroom-cate/massage-accessories-611633"
+        },
+        {
+          "name": "CBD Flowers",
+          "url": "/en/showroom-cate/cbd-flowers-611628"
+        },
+        {
+          "name": "Sanitary Supplies",
+          "url": "/en/showroom-cate/sanitary-supplies-200715"
+        },
+        {
+          "name": "Ultrasound Devices",
+          "url": "/en/showroom-cate/ultrasound-devices-611193"
+        },
+        {
+          "name": "Magnetic Resonance Imaging",
+          "url": "/en/showroom-cate/magnetic-resonance-imaging-611213"
+        },
+        {
+          "name": "Aids for the Disabled",
+          "url": "/en/showroom-cate/aids-for-the-disabled-611501"
+        },
+        {
+          "name": "Medical Practice Furnishings",
+          "url": "/en/showroom-cate/medical-practice-furnishings-200711"
+        },
+        {
+          "name": "Orthopedic Shoe Insoles",
+          "url": "/en/showroom-cate/orthopedic-shoe-insoles-611440"
+        },
+        {
+          "name": "Antigen Tests",
+          "url": "/en/showroom-cate/antigen-tests-611596"
+        },
+        {
+          "name": "Cooling Compresses",
+          "url": "/en/showroom-cate/cooling-compresses-611363"
+        },
+        {
+          "name": "Orthopedic Supplies",
+          "url": "/en/showroom-cate/orthopedic-supplies-611417"
+        },
+        {
+          "name": "Wheelchair Accessories",
+          "url": "/en/showroom-cate/wheelchair-accessories-611505"
+        },
+        {
+          "name": "Progressive Contact Lenses",
+          "url": "/en/showroom-cate/progressive-contact-lenses-611487"
+        },
+        {
+          "name": "Urine Test Strips",
+          "url": "/en/showroom-cate/urine-test-strips-611359"
+        },
+        {
+          "name": "Medical Devices",
+          "url": "/en/showroom-cate/medical-devices-611167"
+        },
+        {
+          "name": "CBD Powder",
+          "url": "/en/showroom-cate/cbd-powder-611630"
+        },
+        {
+          "name": "Dental Implants",
+          "url": "/en/showroom-cate/dental-implants-611295"
+        },
+        {
+          "name": "Drug Tests",
+          "url": "/en/showroom-cate/drug-tests-611593"
+        },
+        {
+          "name": "Insulin Syringes",
+          "url": "/en/showroom-cate/insulin-syringes-611231"
+        },
+        {
+          "name": "Health Products",
+          "url": "/en/showroom-cate/health-products-611605"
+        },
+        {
+          "name": "Dental Instruments",
+          "url": "/en/showroom-cate/dental-instruments-300888"
+        },
+        {
+          "name": "Antibiotics",
+          "url": "/en/showroom-cate/antibiotics-611517"
+        },
+        {
+          "name": "Incontinence Products",
+          "url": "/en/showroom-cate/incontinence-products-611342"
+        },
+        {
+          "name": "Retractors",
+          "url": "/en/showroom-cate/retractors-300891"
+        },
+        {
+          "name": "Dental Chairs",
+          "url": "/en/showroom-cate/dental-chairs-611382"
+        },
+        {
+          "name": "Medical Technology",
+          "url": "/en/showroom-cate/medical-technology-611159"
+        },
+        {
+          "name": "Face Masks",
+          "url": "/en/showroom-cate/face-masks-300900"
+        },
+        {
+          "name": "Hearing Aids",
+          "url": "/en/showroom-cate/hearing-aids-611211"
+        },
+        {
+          "name": "Dental Bridges",
+          "url": "/en/showroom-cate/dental-bridges-611396"
+        },
+        {
+          "name": "Contract Manufacturing of Pharmaceuticals",
+          "url": "/en/showroom-cate/contract-manufacturing-of-pharmaceuticals-611555"
+        },
+        {
+          "name": "Medicine and health",
+          "url": "/en/showroom-cate/medicine-and-health-100066"
+        },
+        {
+          "name": "Mandrels",
+          "url": "/en/showroom-cate/mandrels-611285"
+        },
+        {
+          "name": "Care Wheelchairs",
+          "url": "/en/showroom-cate/care-wheelchairs-611355"
+        },
+        {
+          "name": "Jojoba Oil",
+          "url": "/en/showroom-cate/jojoba-oil-611623"
+        },
+        {
+          "name": "Breast Prostheses",
+          "url": "/en/showroom-cate/breast-prostheses-611311"
+        },
+        {
+          "name": "Medical Bone Saws",
+          "url": "/en/showroom-cate/medical-bone-saws-611253"
+        },
+        {
+          "name": "Crutches",
+          "url": "/en/showroom-cate/crutches-611353"
+        },
+        {
+          "name": "Prosthetics Manufacturing",
+          "url": "/en/showroom-cate/prosthetics-manufacturing-300897"
+        },
+        {
+          "name": "Urine Bottles",
+          "url": "/en/showroom-cate/urine-bottles-611453"
+        },
+        {
+          "name": "Diabetic Supplies",
+          "url": "/en/showroom-cate/diabetic-supplies-611336"
+        },
+        {
+          "name": "Glasses",
+          "url": "/en/showroom-cate/glasses-300913"
+        },
+        {
+          "name": "Phytopharmaceuticals",
+          "url": "/en/showroom-cate/phytopharmaceuticals-611510"
+        },
+        {
+          "name": "Ultrasound Machines",
+          "url": "/en/showroom-cate/ultrasound-machines-611194"
+        },
+        {
+          "name": "Dental Splints",
+          "url": "/en/showroom-cate/dental-splints-611397"
+        },
+        {
+          "name": "Defibrillators",
+          "url": "/en/showroom-cate/defibrillators-611218"
+        },
+        {
+          "name": "Medical Instruments",
+          "url": "/en/showroom-cate/medical-instruments-300885"
+        },
+        {
+          "name": "Urine Bags",
+          "url": "/en/showroom-cate/urine-bags-611333"
+        },
+        {
+          "name": "Veterinary Supplies",
+          "url": "/en/showroom-cate/veterinary-supplies-611497"
+        },
+        {
+          "name": "Sports Glasses",
+          "url": "/en/showroom-cate/sports-glasses-611479"
+        },
+        {
+          "name": "Aloe Vera Products",
+          "url": "/en/showroom-cate/aloe-vera-products-611606"
+        }
+      ],
+      "meta": {
+        "keywords": null,
+        "metaKeywords": "Biotechnologies",
+        "title": "Biotechnologies in Europages",
+        "site": null,
+        "description": "Search for companies in the Biotechnologies in EUROPAGES in Europe",
+        "canonicalUrl": null,
+        "h1": null,
+        "alternates": null,
+        "index": null,
+        "follow": null
+      }
+    }
+  }
+}

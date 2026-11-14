@@ -1,0 +1,2923 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 665,
+  "headers": {
+    "date": "Sat, 14 Nov 2026 02:11:37 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": [
+      {
+        "id": 382,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "xxxxx-ful",
+        "normalizeKeyword": "xxxxx-ful",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.121536",
+        "gmtModified": "2026-07-20T05:54:17.121536"
+      },
+      {
+        "id": 381,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "xxxxx ful",
+        "normalizeKeyword": "xxxxx-ful",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.119348",
+        "gmtModified": "2026-07-20T05:54:17.119348"
+      },
+      {
+        "id": 380,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "xxxx45",
+        "normalizeKeyword": "xxxx45",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.117187",
+        "gmtModified": "2026-07-20T05:54:17.117187"
+      },
+      {
+        "id": 379,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "xxxtik",
+        "normalizeKeyword": "xxxtik",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.115086",
+        "gmtModified": "2026-07-20T05:54:17.115086"
+      },
+      {
+        "id": 378,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "xxxtik",
+        "normalizeKeyword": "xxxtik",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.113087",
+        "gmtModified": "2026-07-20T05:54:17.113087"
+      },
+      {
+        "id": 377,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "xxx-xxx",
+        "normalizeKeyword": "xxx-xxx",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.110991",
+        "gmtModified": "2026-07-20T05:54:17.110991"
+      },
+      {
+        "id": 376,
+        "scene": "showroom",
+        "site": "europages.es",
+        "keyword": "xxnxxx",
+        "normalizeKeyword": "xxnxxx",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.108827",
+        "gmtModified": "2026-07-20T05:54:17.108827"
+      },
+      {
+        "id": 375,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "xlove-chat",
+        "normalizeKeyword": "xlove-chat",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.10679",
+        "gmtModified": "2026-07-20T05:54:17.10679"
+      },
+      {
+        "id": 374,
+        "scene": "showroom",
+        "site": "europages.pl",
+        "keyword": "wodoodporny-spray",
+        "normalizeKeyword": "wodoodporny-spray",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.104669",
+        "gmtModified": "2026-07-20T05:54:17.104669"
+      },
+      {
+        "id": 373,
+        "scene": "cserp",
+        "site": "europages.pl",
+        "keyword": "wibrator",
+        "normalizeKeyword": "wibrator",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.102727",
+        "gmtModified": "2026-07-20T05:54:17.102727"
+      },
+      {
+        "id": 372,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "whatsapp-mitlesen-ohne-zugriff-auf-handy",
+        "normalizeKeyword": "whatsapp-mitlesen-ohne-zugriff-auf-handy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.099466",
+        "gmtModified": "2026-07-20T05:54:17.099466"
+      },
+      {
+        "id": 371,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "waffen und munition",
+        "normalizeKeyword": "waffen-und-munition",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.047092",
+        "gmtModified": "2026-07-20T05:54:17.047092"
+      },
+      {
+        "id": 370,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "vip kişiler için eskort ve güvenlik hizmetleri",
+        "normalizeKeyword": "vip-kişiler-için-eskort-ve-güvenlik-hizmetleri",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.044935",
+        "gmtModified": "2026-07-20T05:54:17.044935"
+      },
+      {
+        "id": 369,
+        "scene": "showroom",
+        "site": "europages.fr",
+        "keyword": "victoria-s-secret-pure-seduction",
+        "normalizeKeyword": "victoria-s-secret-pure-seduction",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.043046",
+        "gmtModified": "2026-07-20T05:54:17.043046"
+      },
+      {
+        "id": 368,
+        "scene": "showroom",
+        "site": "europages.fi",
+        "keyword": "victoria-s-secret-pure-seduction",
+        "normalizeKeyword": "victoria-s-secret-pure-seduction",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.0412",
+        "gmtModified": "2026-07-20T05:54:17.0412"
+      },
+      {
+        "id": 367,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "vibromasseurs",
+        "normalizeKeyword": "vibromasseurs",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.038727",
+        "gmtModified": "2026-07-20T05:54:17.038727"
+      },
+      {
+        "id": 366,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "vibrators",
+        "normalizeKeyword": "vibrators",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.03587",
+        "gmtModified": "2026-07-20T05:54:17.03587"
+      },
+      {
+        "id": 365,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "vibratori",
+        "normalizeKeyword": "vibratori",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.033735",
+        "gmtModified": "2026-07-20T05:54:17.033735"
+      },
+      {
+        "id": 364,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "vibratoren",
+        "normalizeKeyword": "vibratoren",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.031767",
+        "gmtModified": "2026-07-20T05:54:17.031767"
+      },
+      {
+        "id": 363,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "vibrateur",
+        "normalizeKeyword": "vibrateur",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.029583",
+        "gmtModified": "2026-07-20T05:54:17.029583"
+      },
+      {
+        "id": 362,
+        "scene": "showroom",
+        "site": "europages.it",
+        "keyword": "vestito-donna-sexy",
+        "normalizeKeyword": "vestito-donna-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.027159",
+        "gmtModified": "2026-07-20T05:54:17.027159"
+      },
+      {
+        "id": 361,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "verificateur-de-gain-pmu",
+        "normalizeKeyword": "verificateur-de-gain-pmu",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.025288",
+        "gmtModified": "2026-07-20T05:54:17.025288"
+      },
+      {
+        "id": 360,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "vehicle-escorting",
+        "normalizeKeyword": "vehicle-escorting",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.023117",
+        "gmtModified": "2026-07-20T05:54:17.023117"
+      },
+      {
+        "id": 359,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "vagosex",
+        "normalizeKeyword": "vagosex",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.020697",
+        "gmtModified": "2026-07-20T05:54:17.020697"
+      },
+      {
+        "id": 358,
+        "scene": "showroom",
+        "site": "wlw.ch",
+        "keyword": "vagosex",
+        "normalizeKeyword": "vagosex",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.01846",
+        "gmtModified": "2026-07-20T05:54:17.01846"
+      },
+      {
+        "id": 357,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "vagosex",
+        "normalizeKeyword": "vagosex",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.016303",
+        "gmtModified": "2026-07-20T05:54:17.016303"
+      },
+      {
+        "id": 356,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "unterwaesche-herren-sexy",
+        "normalizeKeyword": "unterwaesche-herren-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.014067",
+        "gmtModified": "2026-07-20T05:54:17.014067"
+      },
+      {
+        "id": 355,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "unterwäsche sexy",
+        "normalizeKeyword": "unterwäsche-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.012067",
+        "gmtModified": "2026-07-20T05:54:17.012067"
+      },
+      {
+        "id": 354,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "tube8",
+        "normalizeKeyword": "tube8",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.009549",
+        "gmtModified": "2026-07-20T05:54:17.009549"
+      },
+      {
+        "id": 353,
+        "scene": "showroom",
+        "site": "europages.com.tr",
+        "keyword": "tube8",
+        "normalizeKeyword": "tube8",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.007348",
+        "gmtModified": "2026-07-20T05:54:17.007348"
+      },
+      {
+        "id": 352,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-likes-kaufen-paypal",
+        "normalizeKeyword": "tiktok-likes-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.005132",
+        "gmtModified": "2026-07-20T05:54:17.005132"
+      },
+      {
+        "id": 351,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-likes-kaufen",
+        "normalizeKeyword": "tiktok-likes-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:17.001223",
+        "gmtModified": "2026-07-20T05:54:17.001223"
+      },
+      {
+        "id": 350,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "tiktok-likes-kaufen",
+        "normalizeKeyword": "tiktok-likes-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:16.994551",
+        "gmtModified": "2026-07-20T05:54:16.994551"
+      },
+      {
+        "id": 349,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-follower-kostenlos",
+        "normalizeKeyword": "tiktok-follower-kostenlos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.803676",
+        "gmtModified": "2026-07-20T05:54:15.803676"
+      },
+      {
+        "id": 348,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-follower-kaufen-paypal",
+        "normalizeKeyword": "tiktok-follower-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.800882",
+        "gmtModified": "2026-07-20T05:54:15.800882"
+      },
+      {
+        "id": 347,
+        "scene": "showroom",
+        "site": "wlw.ch",
+        "keyword": "tiktok-follower-kaufen-paypal",
+        "normalizeKeyword": "tiktok-follower-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.798605",
+        "gmtModified": "2026-07-20T05:54:15.798605"
+      },
+      {
+        "id": 346,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tiktok-account-mit-blauen-haken-kaufen",
+        "normalizeKeyword": "tiktok-account-mit-blauen-haken-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.796197",
+        "gmtModified": "2026-07-20T05:54:15.796197"
+      },
+      {
+        "id": 345,
+        "scene": "showroom",
+        "site": "wlw.ch",
+        "keyword": "tiktok-account-mit-blauen-haken-kaufen",
+        "normalizeKeyword": "tiktok-account-mit-blauen-haken-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.793697",
+        "gmtModified": "2026-07-20T05:54:15.793697"
+      },
+      {
+        "id": 344,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "tiktok-account-mit-blauen-haken-kaufen",
+        "normalizeKeyword": "tiktok-account-mit-blauen-haken-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.790724",
+        "gmtModified": "2026-07-20T05:54:15.790724"
+      },
+      {
+        "id": 343,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "tienda-erotica",
+        "normalizeKeyword": "tienda-erotica",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.782723",
+        "gmtModified": "2026-07-20T05:54:15.782723"
+      },
+      {
+        "id": 342,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "tienda erótica online",
+        "normalizeKeyword": "tienda-erótica-online",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.780471",
+        "gmtModified": "2026-07-20T05:54:15.780471"
+      },
+      {
+        "id": 341,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "testosteron-kaufen-ohne-rezept",
+        "normalizeKeyword": "testosteron-kaufen-ohne-rezept",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.777639",
+        "gmtModified": "2026-07-20T05:54:15.777639"
+      },
+      {
+        "id": 340,
+        "scene": "showroom",
+        "site": "wlw.ch",
+        "keyword": "testosteron-kaufen-ohne-rezept",
+        "normalizeKeyword": "testosteron-kaufen-ohne-rezept",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.775139",
+        "gmtModified": "2026-07-20T05:54:15.775139"
+      },
+      {
+        "id": 339,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "terminals-fuer-sportwetten",
+        "normalizeKeyword": "terminals-fuer-sportwetten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.770978",
+        "gmtModified": "2026-07-20T05:54:15.770978"
+      },
+      {
+        "id": 338,
+        "scene": "cserp",
+        "site": "wlw.ch",
+        "keyword": "terminals-fuer-sportwetten",
+        "normalizeKeyword": "terminals-fuer-sportwetten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.766366",
+        "gmtModified": "2026-07-20T05:54:15.766366"
+      },
+      {
+        "id": 337,
+        "scene": "cserp",
+        "site": "wlw.at",
+        "keyword": "terminals-fuer-sportwetten",
+        "normalizeKeyword": "terminals-fuer-sportwetten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.763323",
+        "gmtModified": "2026-07-20T05:54:15.763323"
+      },
+      {
+        "id": 336,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "taraftarium24-canlı-mac-izle",
+        "normalizeKeyword": "taraftarium24-canlı-mac-izle",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.761012",
+        "gmtModified": "2026-07-20T05:54:15.761012"
+      },
+      {
+        "id": 335,
+        "scene": "showroom",
+        "site": "europages.com.tr",
+        "keyword": "taraftarium24 maç izle",
+        "normalizeKeyword": "taraftarium24-maç-izle",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.75841",
+        "gmtModified": "2026-07-20T05:54:15.75841"
+      },
+      {
+        "id": 334,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "taraftarium24 canlı maç izle",
+        "normalizeKeyword": "taraftarium24-canlı-maç-izle",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.755337",
+        "gmtModified": "2026-07-20T05:54:15.755337"
+      },
+      {
+        "id": 333,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "tacho zurückdrehen gerät kaufen",
+        "normalizeKeyword": "tacho-zurückdrehen-gerät-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.753073",
+        "gmtModified": "2026-07-20T05:54:15.753073"
+      },
+      {
+        "id": 332,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "tables de roulette",
+        "normalizeKeyword": "tables-de-roulette",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.750987",
+        "gmtModified": "2026-07-20T05:54:15.750987"
+      },
+      {
+        "id": 331,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "suesse-titten",
+        "normalizeKeyword": "suesse-titten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.74888",
+        "gmtModified": "2026-07-20T05:54:15.74888"
+      },
+      {
+        "id": 330,
+        "scene": "cserp",
+        "site": "europages.pl",
+        "keyword": "stal-żaroodporna",
+        "normalizeKeyword": "stal-żaroodporna",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.74308",
+        "gmtModified": "2026-07-20T05:54:15.74308"
+      },
+      {
+        "id": 329,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "sprengstoffe",
+        "normalizeKeyword": "sprengstoffe",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.740206",
+        "gmtModified": "2026-07-20T05:54:15.740206"
+      },
+      {
+        "id": 328,
+        "scene": "cserp",
+        "site": "wlw.at",
+        "keyword": "sprengstoffe",
+        "normalizeKeyword": "sprengstoffe",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.737286",
+        "gmtModified": "2026-07-20T05:54:15.737286"
+      },
+      {
+        "id": 327,
+        "scene": "cserp",
+        "site": "europages.dk",
+        "keyword": "spraengstoffer",
+        "normalizeKeyword": "spraengstoffer",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.734905",
+        "gmtModified": "2026-07-20T05:54:15.734905"
+      },
+      {
+        "id": 326,
+        "scene": "cserp",
+        "site": "europages.dk",
+        "keyword": "spilleautomater",
+        "normalizeKeyword": "spilleautomater",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.73276",
+        "gmtModified": "2026-07-20T05:54:15.73276"
+      },
+      {
+        "id": 325,
+        "scene": "cserp",
+        "site": "europages.nl",
+        "keyword": "speelautomaten",
+        "normalizeKeyword": "speelautomaten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.730504",
+        "gmtModified": "2026-07-20T05:54:15.730504"
+      },
+      {
+        "id": 324,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "slot machine",
+        "normalizeKeyword": "slot-machine",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.728191",
+        "gmtModified": "2026-07-20T05:54:15.728191"
+      },
+      {
+        "id": 323,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "sexy-woman",
+        "normalizeKeyword": "sexy-woman",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.725952",
+        "gmtModified": "2026-07-20T05:54:15.725952"
+      },
+      {
+        "id": 322,
+        "scene": "showroom",
+        "site": "europages.no",
+        "keyword": "sexy-bikini",
+        "normalizeKeyword": "sexy-bikini",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.722913",
+        "gmtModified": "2026-07-20T05:54:15.722913"
+      },
+      {
+        "id": 321,
+        "scene": "cserp",
+        "site": "europages.nl",
+        "keyword": "sextoys",
+        "normalizeKeyword": "sextoys",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.649097",
+        "gmtModified": "2026-07-20T05:54:15.649097"
+      },
+      {
+        "id": 320,
+        "scene": "showroom",
+        "site": "europages.it",
+        "keyword": "sex-toys-coppia",
+        "normalizeKeyword": "sex-toys-coppia",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.647044",
+        "gmtModified": "2026-07-20T05:54:15.647044"
+      },
+      {
+        "id": 319,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "servicios-de-escolta-y-seguridad-para-vip",
+        "normalizeKeyword": "servicios-de-escolta-y-seguridad-para-vip",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.644751",
+        "gmtModified": "2026-07-20T05:54:15.644751"
+      },
+      {
+        "id": 318,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "services-d-escorte-securite",
+        "normalizeKeyword": "services-d-escorte-securite",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.642612",
+        "gmtModified": "2026-07-20T05:54:15.642612"
+      },
+      {
+        "id": 317,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "services-d-escorte-et-securite-pour-vip",
+        "normalizeKeyword": "services-d-escorte-et-securite-pour-vip",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.640347",
+        "gmtModified": "2026-07-20T05:54:15.640347"
+      },
+      {
+        "id": 316,
+        "scene": "showroom",
+        "site": "europages.es",
+        "keyword": "semillas-de-marihuanas-de-3-meses",
+        "normalizeKeyword": "semillas-de-marihuanas-de-3-meses",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.63",
+        "gmtModified": "2026-07-20T05:54:15.63"
+      },
+      {
+        "id": 315,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "selvaggina",
+        "normalizeKeyword": "selvaggina",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.627501",
+        "gmtModified": "2026-07-20T05:54:15.627501"
+      },
+      {
+        "id": 314,
+        "scene": "showroom",
+        "site": "europages.com.tr",
+        "keyword": "seks-seks-seks-olsun-seks",
+        "normalizeKeyword": "seks-seks-seks-olsun-seks",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.622931",
+        "gmtModified": "2026-07-20T05:54:15.622931"
+      },
+      {
+        "id": 313,
+        "scene": "showroom",
+        "site": "europages.com.tr",
+        "keyword": "seks seks seks alır seks",
+        "normalizeKeyword": "seks-seks-seks-alır-seks",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.620152",
+        "gmtModified": "2026-07-20T05:54:15.620152"
+      },
+      {
+        "id": 312,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "schwanz-pumpe",
+        "normalizeKeyword": "schwanz-pumpe",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.615628",
+        "gmtModified": "2026-07-20T05:54:15.615628"
+      },
+      {
+        "id": 311,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "schneidladungen-sprengmittel",
+        "normalizeKeyword": "schneidladungen-sprengmittel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.610768",
+        "gmtModified": "2026-07-20T05:54:15.610768"
+      },
+      {
+        "id": 310,
+        "scene": "showroom",
+        "site": "europages.it",
+        "keyword": "scam",
+        "normalizeKeyword": "scam",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.603368",
+        "gmtModified": "2026-07-20T05:54:15.603368"
+      },
+      {
+        "id": 309,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "scam",
+        "normalizeKeyword": "scam",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.600831",
+        "gmtModified": "2026-07-20T05:54:15.600831"
+      },
+      {
+        "id": 308,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "ruletler",
+        "normalizeKeyword": "ruletler",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.597509",
+        "gmtModified": "2026-07-20T05:54:15.597509"
+      },
+      {
+        "id": 307,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "ruleta",
+        "normalizeKeyword": "ruleta",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.594889",
+        "gmtModified": "2026-07-20T05:54:15.594889"
+      },
+      {
+        "id": 306,
+        "scene": "cserp",
+        "site": "europages.gr",
+        "keyword": "ruleta",
+        "normalizeKeyword": "ruleta",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.590474",
+        "gmtModified": "2026-07-20T05:54:15.590474"
+      },
+      {
+        "id": 305,
+        "scene": "cserp",
+        "site": "europages.dk",
+        "keyword": "ruleta",
+        "normalizeKeyword": "ruleta",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.587567",
+        "gmtModified": "2026-07-20T05:54:15.587567"
+      },
+      {
+        "id": 304,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "ropa-sexy",
+        "normalizeKeyword": "ropa-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.584908",
+        "gmtModified": "2026-07-20T05:54:15.584908"
+      },
+      {
+        "id": 303,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "rohr-japenxxx-t5-led-rohr-g5",
+        "normalizeKeyword": "rohr-japenxxx-t5-led-rohr-g5",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.580612",
+        "gmtModified": "2026-07-20T05:54:15.580612"
+      },
+      {
+        "id": 302,
+        "scene": "cserp",
+        "site": "europages.se",
+        "keyword": "ricin",
+        "normalizeKeyword": "ricin",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.577259",
+        "gmtModified": "2026-07-20T05:54:15.577259"
+      },
+      {
+        "id": 301,
+        "scene": "showroom",
+        "site": "europages.lt",
+        "keyword": "ricin",
+        "normalizeKeyword": "ricin",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.574394",
+        "gmtModified": "2026-07-20T05:54:15.574394"
+      },
+      {
+        "id": 300,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "rental-of-gambling-machines",
+        "normalizeKeyword": "rental-of-gambling-machines",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:15.568672",
+        "gmtModified": "2026-07-20T05:54:15.568672"
+      },
+      {
+        "id": 299,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "red-sin-nudo",
+        "normalizeKeyword": "red-sin-nudo",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.356738",
+        "gmtModified": "2026-07-20T05:54:14.356738"
+      },
+      {
+        "id": 298,
+        "scene": "cserp",
+        "site": "europages.fi",
+        "keyword": "pvc-pussi",
+        "normalizeKeyword": "pvc-pussi",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.354891",
+        "gmtModified": "2026-07-20T05:54:14.354891"
+      },
+      {
+        "id": 297,
+        "scene": "showroom",
+        "site": "europages.es",
+        "keyword": "purno-hup",
+        "normalizeKeyword": "purno-hup",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.352951",
+        "gmtModified": "2026-07-20T05:54:14.352951"
+      },
+      {
+        "id": 296,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "prezervatifler",
+        "normalizeKeyword": "prezervatifler",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.350677",
+        "gmtModified": "2026-07-20T05:54:14.350677"
+      },
+      {
+        "id": 295,
+        "scene": "cserp",
+        "site": "europages.pt",
+        "keyword": "preservativos",
+        "normalizeKeyword": "preservativos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.348429",
+        "gmtModified": "2026-07-20T05:54:14.348429"
+      },
+      {
+        "id": 294,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "preservativos",
+        "normalizeKeyword": "preservativos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.34643",
+        "gmtModified": "2026-07-20T05:54:14.34643"
+      },
+      {
+        "id": 293,
+        "scene": "showroom",
+        "site": "europages.it",
+        "keyword": "preservativi-personalizzati",
+        "normalizeKeyword": "preservativi-personalizzati",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.344299",
+        "gmtModified": "2026-07-20T05:54:14.344299"
+      },
+      {
+        "id": 292,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "preservatifs",
+        "normalizeKeyword": "preservatifs",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.342023",
+        "gmtModified": "2026-07-20T05:54:14.342023"
+      },
+      {
+        "id": 291,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "preservatif",
+        "normalizeKeyword": "preservatif",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.339471",
+        "gmtModified": "2026-07-20T05:54:14.339471"
+      },
+      {
+        "id": 290,
+        "scene": "cserp",
+        "site": "wlw.com",
+        "keyword": "prescription-free-drugs",
+        "normalizeKeyword": "prescription-free-drugs",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.337371",
+        "gmtModified": "2026-07-20T05:54:14.337371"
+      },
+      {
+        "id": 289,
+        "scene": "cserp",
+        "site": "wlw.com",
+        "keyword": "prescription-drugs",
+        "normalizeKeyword": "prescription-drugs",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.334287",
+        "gmtModified": "2026-07-20T05:54:14.334287"
+      },
+      {
+        "id": 288,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "préservatifs",
+        "normalizeKeyword": "préservatifs",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.331753",
+        "gmtModified": "2026-07-20T05:54:14.331753"
+      },
+      {
+        "id": 287,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "pprno",
+        "normalizeKeyword": "pprno",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.329407",
+        "gmtModified": "2026-07-20T05:54:14.329407"
+      },
+      {
+        "id": 286,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "pprno",
+        "normalizeKeyword": "pprno",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.326636",
+        "gmtModified": "2026-07-20T05:54:14.326636"
+      },
+      {
+        "id": 285,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "pporno",
+        "normalizeKeyword": "pporno",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.260886",
+        "gmtModified": "2026-07-20T05:54:14.260886"
+      },
+      {
+        "id": 284,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "pporno",
+        "normalizeKeyword": "pporno",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.258846",
+        "gmtModified": "2026-07-20T05:54:14.258846"
+      },
+      {
+        "id": 283,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "poupee-realiste-en-silicone",
+        "normalizeKeyword": "poupee-realiste-en-silicone",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.256954",
+        "gmtModified": "2026-07-20T05:54:14.256954"
+      },
+      {
+        "id": 282,
+        "scene": "cserp",
+        "site": "europages.nl",
+        "keyword": "porner",
+        "normalizeKeyword": "porner",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.254715",
+        "gmtModified": "2026-07-20T05:54:14.254715"
+      },
+      {
+        "id": 281,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "porner",
+        "normalizeKeyword": "porner",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.251211",
+        "gmtModified": "2026-07-20T05:54:14.251211"
+      },
+      {
+        "id": 280,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "pormo",
+        "normalizeKeyword": "pormo",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.248885",
+        "gmtModified": "2026-07-20T05:54:14.248885"
+      },
+      {
+        "id": 279,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "pormo",
+        "normalizeKeyword": "pormo",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.24692",
+        "gmtModified": "2026-07-20T05:54:14.24692"
+      },
+      {
+        "id": 278,
+        "scene": "cserp",
+        "site": "europages.cz",
+        "keyword": "pormo",
+        "normalizeKeyword": "pormo",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.244649",
+        "gmtModified": "2026-07-20T05:54:14.244649"
+      },
+      {
+        "id": 277,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "poorno",
+        "normalizeKeyword": "poorno",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.242664",
+        "gmtModified": "2026-07-20T05:54:14.242664"
+      },
+      {
+        "id": 276,
+        "scene": "showroom",
+        "site": "europages.si",
+        "keyword": "podporni-stebri",
+        "normalizeKeyword": "podporni-stebri",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.240355",
+        "gmtModified": "2026-07-20T05:54:14.240355"
+      },
+      {
+        "id": 275,
+        "scene": "cserp",
+        "site": "europages.ee",
+        "keyword": "plüüsmänguasjad",
+        "normalizeKeyword": "plüüsmänguasjad",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.238188",
+        "gmtModified": "2026-07-20T05:54:14.238188"
+      },
+      {
+        "id": 274,
+        "scene": "showroom",
+        "site": "europages.it",
+        "keyword": "pigiama-donna-sexy",
+        "normalizeKeyword": "pigiama-donna-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.23601",
+        "gmtModified": "2026-07-20T05:54:14.23601"
+      },
+      {
+        "id": 273,
+        "scene": "showroom",
+        "site": "europages.it",
+        "keyword": "photoshop-download-craccato",
+        "normalizeKeyword": "photoshop-download-craccato",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.23388",
+        "gmtModified": "2026-07-20T05:54:14.23388"
+      },
+      {
+        "id": 272,
+        "scene": "cserp",
+        "site": "europages.pl",
+        "keyword": "oporniki-do-chłodnic",
+        "normalizeKeyword": "oporniki-do-chłodnic",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.231515",
+        "gmtModified": "2026-07-20T05:54:14.231515"
+      },
+      {
+        "id": 271,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "noleggio-slot-machine",
+        "normalizeKeyword": "noleggio-slot-machine",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.229383",
+        "gmtModified": "2026-07-20T05:54:14.229383"
+      },
+      {
+        "id": 270,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "nackte-frauen-kalender",
+        "normalizeKeyword": "nackte-frauen-kalender",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.227254",
+        "gmtModified": "2026-07-20T05:54:14.227254"
+      },
+      {
+        "id": 269,
+        "scene": "showroom",
+        "site": "europages.it",
+        "keyword": "mutandine-sexi",
+        "normalizeKeyword": "mutandine-sexi",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.219832",
+        "gmtModified": "2026-07-20T05:54:14.219832"
+      },
+      {
+        "id": 268,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "munitions",
+        "normalizeKeyword": "munitions",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.217866",
+        "gmtModified": "2026-07-20T05:54:14.217866"
+      },
+      {
+        "id": 267,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "munitions",
+        "normalizeKeyword": "munitions",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.215812",
+        "gmtModified": "2026-07-20T05:54:14.215812"
+      },
+      {
+        "id": 266,
+        "scene": "cserp",
+        "site": "wlw.at",
+        "keyword": "munitions",
+        "normalizeKeyword": "munitions",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.213648",
+        "gmtModified": "2026-07-20T05:54:14.213648"
+      },
+      {
+        "id": 265,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "munitions",
+        "normalizeKeyword": "munitions",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.211606",
+        "gmtModified": "2026-07-20T05:54:14.211606"
+      },
+      {
+        "id": 264,
+        "scene": "showroom",
+        "site": "europages.es",
+        "keyword": "munecas-hinchables-realistas",
+        "normalizeKeyword": "munecas-hinchables-realistas",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.209549",
+        "gmtModified": "2026-07-20T05:54:14.209549"
+      },
+      {
+        "id": 263,
+        "scene": "showroom",
+        "site": "europages.es",
+        "keyword": "mujeres-maduras-desnudas",
+        "normalizeKeyword": "mujeres-maduras-desnudas",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.20752",
+        "gmtModified": "2026-07-20T05:54:14.20752"
+      },
+      {
+        "id": 262,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "mt2-melanotan-kaufen",
+        "normalizeKeyword": "mt2-melanotan-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.202815",
+        "gmtModified": "2026-07-20T05:54:14.202815"
+      },
+      {
+        "id": 261,
+        "scene": "showroom",
+        "site": "europages.es",
+        "keyword": "met-art-x-com",
+        "normalizeKeyword": "met-art-x-com",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.200745",
+        "gmtModified": "2026-07-20T05:54:14.200745"
+      },
+      {
+        "id": 260,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "melanotan-2-kaufen",
+        "normalizeKeyword": "melanotan-2-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.198554",
+        "gmtModified": "2026-07-20T05:54:14.198554"
+      },
+      {
+        "id": 259,
+        "scene": "showroom",
+        "site": "europages.fr",
+        "keyword": "meilleur-masturbateur-homme",
+        "normalizeKeyword": "meilleur-masturbateur-homme",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.196224",
+        "gmtModified": "2026-07-20T05:54:14.196224"
+      },
+      {
+        "id": 258,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "mayorista-articulos-eroticos",
+        "normalizeKeyword": "mayorista-articulos-eroticos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.193875",
+        "gmtModified": "2026-07-20T05:54:14.193875"
+      },
+      {
+        "id": 257,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "massaggi-erotici",
+        "normalizeKeyword": "massaggi-erotici",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.191605",
+        "gmtModified": "2026-07-20T05:54:14.191605"
+      },
+      {
+        "id": 256,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "massage-thai-erotique",
+        "normalizeKeyword": "massage-thai-erotique",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.189016",
+        "gmtModified": "2026-07-20T05:54:14.189016"
+      },
+      {
+        "id": 255,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "masajes-eroticos",
+        "normalizeKeyword": "masajes-eroticos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.186673",
+        "gmtModified": "2026-07-20T05:54:14.186673"
+      },
+      {
+        "id": 254,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "masaje-erotico",
+        "normalizeKeyword": "masaje-erotico",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.18439",
+        "gmtModified": "2026-07-20T05:54:14.18439"
+      },
+      {
+        "id": 253,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "marihuana",
+        "normalizeKeyword": "marihuana",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.180897",
+        "gmtModified": "2026-07-20T05:54:14.180897"
+      },
+      {
+        "id": 252,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "magnet-ass-y",
+        "normalizeKeyword": "magnet-ass-y",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.178326",
+        "gmtModified": "2026-07-20T05:54:14.178326"
+      },
+      {
+        "id": 251,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "maenner-sexy-unterwaesche",
+        "normalizeKeyword": "maenner-sexy-unterwaesche",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.175224",
+        "gmtModified": "2026-07-20T05:54:14.175224"
+      },
+      {
+        "id": 250,
+        "scene": "showroom",
+        "site": "europages.es",
+        "keyword": "lubricante-sexual-mercadona",
+        "normalizeKeyword": "lubricante-sexual-mercadona",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:14.167608",
+        "gmtModified": "2026-07-20T05:54:14.167608"
+      },
+      {
+        "id": 249,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "lotto-completo-dalla-a-alla-z",
+        "normalizeKeyword": "lotto-completo-dalla-a-alla-z",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.947574",
+        "gmtModified": "2026-07-20T05:54:12.947574"
+      },
+      {
+        "id": 248,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "lotto eurojackpot scanner",
+        "normalizeKeyword": "lotto-eurojackpot-scanner",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.944577",
+        "gmtModified": "2026-07-20T05:54:12.944577"
+      },
+      {
+        "id": 247,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "lingerie-sexy-luxe",
+        "normalizeKeyword": "lingerie-sexy-luxe",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.941581",
+        "gmtModified": "2026-07-20T05:54:12.941581"
+      },
+      {
+        "id": 246,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "lingerie-sexy-feminine",
+        "normalizeKeyword": "lingerie-sexy-feminine",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.938914",
+        "gmtModified": "2026-07-20T05:54:12.938914"
+      },
+      {
+        "id": 245,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "lingerie-sexy",
+        "normalizeKeyword": "lingerie-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.936288",
+        "gmtModified": "2026-07-20T05:54:12.936288"
+      },
+      {
+        "id": 244,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "lingerie-sexy",
+        "normalizeKeyword": "lingerie-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.932525",
+        "gmtModified": "2026-07-20T05:54:12.932525"
+      },
+      {
+        "id": 243,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "lenceria erotica",
+        "normalizeKeyword": "lenceria-erotica",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.92992",
+        "gmtModified": "2026-07-20T05:54:12.92992"
+      },
+      {
+        "id": 242,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "led-tube-japenxxx-t5-led-tube-g5",
+        "normalizeKeyword": "led-tube-japenxxx-t5-led-tube-g5",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.926911",
+        "gmtModified": "2026-07-20T05:54:12.926911"
+      },
+      {
+        "id": 241,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "led-tube-japenxxx-t5-led-tube-g5",
+        "normalizeKeyword": "led-tube-japenxxx-t5-led-tube-g5",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.923367",
+        "gmtModified": "2026-07-20T05:54:12.923367"
+      },
+      {
+        "id": 240,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "led-tube-japenxxx-t5-led-rohr-g5",
+        "normalizeKeyword": "led-tube-japenxxx-t5-led-rohr-g5",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.920482",
+        "gmtModified": "2026-07-20T05:54:12.920482"
+      },
+      {
+        "id": 239,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "led-tube-japenxxx-t5-led-rohr-g5",
+        "normalizeKeyword": "led-tube-japenxxx-t5-led-rohr-g5",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.91758",
+        "gmtModified": "2026-07-20T05:54:12.91758"
+      },
+      {
+        "id": 238,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "led-rohr-japenxxx-t5-led-rohr-g5",
+        "normalizeKeyword": "led-rohr-japenxxx-t5-led-rohr-g5",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.914896",
+        "gmtModified": "2026-07-20T05:54:12.914896"
+      },
+      {
+        "id": 237,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "latex-condoms",
+        "normalizeKeyword": "latex-condoms",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.911883",
+        "gmtModified": "2026-07-20T05:54:12.911883"
+      },
+      {
+        "id": 236,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "kostenlos-porno-video-4k-internet-tv-box-medienplayer-mit-wifi-und-bluetooth",
+        "normalizeKeyword": "kostenlos-porno-video-4k-internet-tv-box-medienplayer-mit-wifi-und-bluetooth",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.909017",
+        "gmtModified": "2026-07-20T05:54:12.909017"
+      },
+      {
+        "id": 235,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "kostenlos-porno-video-4k-internet-tv-box-medienplayer-mit-wifi-und-bluetooth",
+        "normalizeKeyword": "kostenlos-porno-video-4k-internet-tv-box-medienplayer-mit-wifi-und-bluetooth",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.905922",
+        "gmtModified": "2026-07-20T05:54:12.905922"
+      },
+      {
+        "id": 234,
+        "scene": "cserp",
+        "site": "europages.cz",
+        "keyword": "kondomy",
+        "normalizeKeyword": "kondomy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.903132",
+        "gmtModified": "2026-07-20T05:54:12.903132"
+      },
+      {
+        "id": 233,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "kondome",
+        "normalizeKeyword": "kondome",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.900254",
+        "gmtModified": "2026-07-20T05:54:12.900254"
+      },
+      {
+        "id": 232,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "kondome",
+        "normalizeKeyword": "kondome",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.897228",
+        "gmtModified": "2026-07-20T05:54:12.897228"
+      },
+      {
+        "id": 231,
+        "scene": "cserp",
+        "site": "wlw.at",
+        "keyword": "kondome",
+        "normalizeKeyword": "kondome",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.893902",
+        "gmtModified": "2026-07-20T05:54:12.893902"
+      },
+      {
+        "id": 230,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "kondome",
+        "normalizeKeyword": "kondome",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.890805",
+        "gmtModified": "2026-07-20T05:54:12.890805"
+      },
+      {
+        "id": 229,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "kondome",
+        "normalizeKeyword": "kondome",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.887549",
+        "gmtModified": "2026-07-20T05:54:12.887549"
+      },
+      {
+        "id": 228,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "kondomautomaten",
+        "normalizeKeyword": "kondomautomaten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.884599",
+        "gmtModified": "2026-07-20T05:54:12.884599"
+      },
+      {
+        "id": 227,
+        "scene": "cserp",
+        "site": "wlw.ch",
+        "keyword": "kondomautomaten",
+        "normalizeKeyword": "kondomautomaten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.881778",
+        "gmtModified": "2026-07-20T05:54:12.881778"
+      },
+      {
+        "id": 226,
+        "scene": "cserp",
+        "site": "wlw.at",
+        "keyword": "kondomautomaten",
+        "normalizeKeyword": "kondomautomaten",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.878909",
+        "gmtModified": "2026-07-20T05:54:12.878909"
+      },
+      {
+        "id": 225,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "kondomautomat alt",
+        "normalizeKeyword": "kondomautomat-alt",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.876138",
+        "gmtModified": "2026-07-20T05:54:12.876138"
+      },
+      {
+        "id": 224,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "kondomautomat",
+        "normalizeKeyword": "kondomautomat",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.873262",
+        "gmtModified": "2026-07-20T05:54:12.873262"
+      },
+      {
+        "id": 223,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "kaspersky full indir",
+        "normalizeKeyword": "kaspersky-full-indir",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.870246",
+        "gmtModified": "2026-07-20T05:54:12.870246"
+      },
+      {
+        "id": 222,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "kadın fantazi iç giyim toptan",
+        "normalizeKeyword": "kadın-fantazi-iç-giyim-toptan",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.86718",
+        "gmtModified": "2026-07-20T05:54:12.86718"
+      },
+      {
+        "id": 221,
+        "scene": "cserp",
+        "site": "europages.pt",
+        "keyword": "jogos de sorte - artigos",
+        "normalizeKeyword": "jogos-de-sorte---artigos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.864035",
+        "gmtModified": "2026-07-20T05:54:12.864035"
+      },
+      {
+        "id": 220,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "jeux-de-hasard-et-d-argent",
+        "normalizeKeyword": "jeux-de-hasard-et-d-argent",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.860829",
+        "gmtModified": "2026-07-20T05:54:12.860829"
+      },
+      {
+        "id": 219,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "inyeccion-de-silicona",
+        "normalizeKeyword": "inyeccion-de-silicona",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.857921",
+        "gmtModified": "2026-07-20T05:54:12.857921"
+      },
+      {
+        "id": 218,
+        "scene": "showroom",
+        "site": "europages.it",
+        "keyword": "intimo-ragazza-14-anni",
+        "normalizeKeyword": "intimo-ragazza-14-anni",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.855079",
+        "gmtModified": "2026-07-20T05:54:12.855079"
+      },
+      {
+        "id": 217,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "insulin-ohne-rezept-kaufen",
+        "normalizeKeyword": "insulin-ohne-rezept-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.852091",
+        "gmtModified": "2026-07-20T05:54:12.852091"
+      },
+      {
+        "id": 216,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "insulin-ohne-rezept-kaufen",
+        "normalizeKeyword": "insulin-ohne-rezept-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.846355",
+        "gmtModified": "2026-07-20T05:54:12.846355"
+      },
+      {
+        "id": 215,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "insulin-kaufen-rezeptfrei",
+        "normalizeKeyword": "insulin-kaufen-rezeptfrei",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.843363",
+        "gmtModified": "2026-07-20T05:54:12.843363"
+      },
+      {
+        "id": 214,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "insulin-kaufen-rezeptfrei",
+        "normalizeKeyword": "insulin-kaufen-rezeptfrei",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.84026",
+        "gmtModified": "2026-07-20T05:54:12.84026"
+      },
+      {
+        "id": 213,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "instagram-likes-kaufen-paypal",
+        "normalizeKeyword": "instagram-likes-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.837152",
+        "gmtModified": "2026-07-20T05:54:12.837152"
+      },
+      {
+        "id": 212,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "instagram-follower-kaufen-paypal",
+        "normalizeKeyword": "instagram-follower-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.834225",
+        "gmtModified": "2026-07-20T05:54:12.834225"
+      },
+      {
+        "id": 211,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "instagram-follower-kaufen-paypal",
+        "normalizeKeyword": "instagram-follower-kaufen-paypal",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.831044",
+        "gmtModified": "2026-07-20T05:54:12.831044"
+      },
+      {
+        "id": 210,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "instagram-account-kaufen",
+        "normalizeKeyword": "instagram-account-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.827804",
+        "gmtModified": "2026-07-20T05:54:12.827804"
+      },
+      {
+        "id": 209,
+        "scene": "cserp",
+        "site": "europages.pl",
+        "keyword": "hurtownia-rolek-termoodpornych",
+        "normalizeKeyword": "hurtownia-rolek-termoodpornych",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.760252",
+        "gmtModified": "2026-07-20T05:54:12.760252"
+      },
+      {
+        "id": 208,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "hot-sale-p3-hd-xxxx-videos-indoor-led-display",
+        "normalizeKeyword": "hot-sale-p3-hd-xxxx-videos-indoor-led-display",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.75692",
+        "gmtModified": "2026-07-20T05:54:12.75692"
+      },
+      {
+        "id": 207,
+        "scene": "showroom",
+        "site": "wlw.ch",
+        "keyword": "hot-sale-p3-hd-xxxx-videos-indoor-led-display",
+        "normalizeKeyword": "hot-sale-p3-hd-xxxx-videos-indoor-led-display",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.753919",
+        "gmtModified": "2026-07-20T05:54:12.753919"
+      },
+      {
+        "id": 206,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "hostess-servıces",
+        "normalizeKeyword": "hostess-servıces",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.750888",
+        "gmtModified": "2026-07-20T05:54:12.750888"
+      },
+      {
+        "id": 205,
+        "scene": "showroom",
+        "site": "wlw.ch",
+        "keyword": "home-cam2cam",
+        "normalizeKeyword": "home-cam2cam",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.745505",
+        "gmtModified": "2026-07-20T05:54:12.745505"
+      },
+      {
+        "id": 204,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "home-cam2cam",
+        "normalizeKeyword": "home-cam2cam",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.742421",
+        "gmtModified": "2026-07-20T05:54:12.742421"
+      },
+      {
+        "id": 203,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "gummipuppe frau",
+        "normalizeKeyword": "gummipuppe-frau",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.739156",
+        "gmtModified": "2026-07-20T05:54:12.739156"
+      },
+      {
+        "id": 202,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "gummiarsch",
+        "normalizeKeyword": "gummiarsch",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.735386",
+        "gmtModified": "2026-07-20T05:54:12.735386"
+      },
+      {
+        "id": 201,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "grun-stick-porno-cleaner",
+        "normalizeKeyword": "grun-stick-porno-cleaner",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.731846",
+        "gmtModified": "2026-07-20T05:54:12.731846"
+      },
+      {
+        "id": 200,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "grun-stick-porno-cleaner",
+        "normalizeKeyword": "grun-stick-porno-cleaner",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:12.722193",
+        "gmtModified": "2026-07-20T05:54:12.722193"
+      },
+      {
+        "id": 199,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "grossiste-musc-intime",
+        "normalizeKeyword": "grossiste-musc-intime",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.108134",
+        "gmtModified": "2026-07-20T05:54:11.108134"
+      },
+      {
+        "id": 198,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "grossiste-chaussures-sexy",
+        "normalizeKeyword": "grossiste-chaussures-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.103439",
+        "gmtModified": "2026-07-20T05:54:11.103439"
+      },
+      {
+        "id": 197,
+        "scene": "cserp",
+        "site": "europages.pt",
+        "keyword": "grossista-de-lingerie-erotica",
+        "normalizeKeyword": "grossista-de-lingerie-erotica",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.100447",
+        "gmtModified": "2026-07-20T05:54:11.100447"
+      },
+      {
+        "id": 196,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "grenades",
+        "normalizeKeyword": "grenades",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.097381",
+        "gmtModified": "2026-07-20T05:54:11.097381"
+      },
+      {
+        "id": 195,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "grand-pasha-bet",
+        "normalizeKeyword": "grand-pasha-bet",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.094275",
+        "gmtModified": "2026-07-20T05:54:11.094275"
+      },
+      {
+        "id": 194,
+        "scene": "showroom",
+        "site": "europages.fr",
+        "keyword": "gode-pour-femme",
+        "normalizeKeyword": "gode-pour-femme",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.090873",
+        "gmtModified": "2026-07-20T05:54:11.090873"
+      },
+      {
+        "id": 193,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "geldspielautomaten euro gebraucht kaufen",
+        "normalizeKeyword": "geldspielautomaten-euro-gebraucht-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.087903",
+        "gmtModified": "2026-07-20T05:54:11.087903"
+      },
+      {
+        "id": 192,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "geile-warenautomaten-gmbh",
+        "normalizeKeyword": "geile-warenautomaten-gmbh",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.084778",
+        "gmtModified": "2026-07-20T05:54:11.084778"
+      },
+      {
+        "id": 191,
+        "scene": "showroom",
+        "site": "europages.cz",
+        "keyword": "gbl-čistič",
+        "normalizeKeyword": "gbl-čistič",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.081032",
+        "gmtModified": "2026-07-20T05:54:11.081032"
+      },
+      {
+        "id": 190,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "gambling machines",
+        "normalizeKeyword": "gambling-machines",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.078054",
+        "gmtModified": "2026-07-20T05:54:11.078054"
+      },
+      {
+        "id": 189,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "fre-porrno",
+        "normalizeKeyword": "fre-porrno",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.074998",
+        "gmtModified": "2026-07-20T05:54:11.074998"
+      },
+      {
+        "id": 188,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "frauen-mit-grossen-schwaenzen",
+        "normalizeKeyword": "frauen-mit-grossen-schwaenzen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.071676",
+        "gmtModified": "2026-07-20T05:54:11.071676"
+      },
+      {
+        "id": 187,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "foto-xxx-ful",
+        "normalizeKeyword": "foto-xxx-ful",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.06869",
+        "gmtModified": "2026-07-20T05:54:11.06869"
+      },
+      {
+        "id": 186,
+        "scene": "cserp",
+        "site": "europages.no",
+        "keyword": "fornikling",
+        "normalizeKeyword": "fornikling",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.065689",
+        "gmtModified": "2026-07-20T05:54:11.065689"
+      },
+      {
+        "id": 185,
+        "scene": "cserp",
+        "site": "europages.dk",
+        "keyword": "fornikling",
+        "normalizeKeyword": "fornikling",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.062692",
+        "gmtModified": "2026-07-20T05:54:11.062692"
+      },
+      {
+        "id": 184,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "firearms",
+        "normalizeKeyword": "firearms",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.059628",
+        "gmtModified": "2026-07-20T05:54:11.059628"
+      },
+      {
+        "id": 183,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "fickmaschine",
+        "normalizeKeyword": "fickmaschine",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.056572",
+        "gmtModified": "2026-07-20T05:54:11.056572"
+      },
+      {
+        "id": 182,
+        "scene": "showroom",
+        "site": "wlw.ch",
+        "keyword": "fick-fock",
+        "normalizeKeyword": "fick-fock",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.053627",
+        "gmtModified": "2026-07-20T05:54:11.053627"
+      },
+      {
+        "id": 181,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "fake-instagram-account-kaufen",
+        "normalizeKeyword": "fake-instagram-account-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.050609",
+        "gmtModified": "2026-07-20T05:54:11.050609"
+      },
+      {
+        "id": 180,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "fabricante-de-armas-y-municion",
+        "normalizeKeyword": "fabricante-de-armas-y-municion",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.046967",
+        "gmtModified": "2026-07-20T05:54:11.046967"
+      },
+      {
+        "id": 179,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "fabricant-de-lingerie-erotique",
+        "normalizeKeyword": "fabricant-de-lingerie-erotique",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:11.043927",
+        "gmtModified": "2026-07-20T05:54:11.043927"
+      },
+      {
+        "id": 178,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "fabricant de lingerie érotique",
+        "normalizeKeyword": "fabricant-de-lingerie-érotique",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.99702",
+        "gmtModified": "2026-07-20T05:54:10.99702"
+      },
+      {
+        "id": 177,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "eskort-bayanlar",
+        "normalizeKeyword": "eskort-bayanlar",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.993993",
+        "gmtModified": "2026-07-20T05:54:10.993993"
+      },
+      {
+        "id": 176,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "escorte",
+        "normalizeKeyword": "escorte",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.990878",
+        "gmtModified": "2026-07-20T05:54:10.990878"
+      },
+      {
+        "id": 175,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "escort-service-frankfurt",
+        "normalizeKeyword": "escort-service-frankfurt",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.987932",
+        "gmtModified": "2026-07-20T05:54:10.987932"
+      },
+      {
+        "id": 174,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "escort service",
+        "normalizeKeyword": "escort-service",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.984927",
+        "gmtModified": "2026-07-20T05:54:10.984927"
+      },
+      {
+        "id": 173,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "escort",
+        "normalizeKeyword": "escort",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.981798",
+        "gmtModified": "2026-07-20T05:54:10.981798"
+      },
+      {
+        "id": 172,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "escort",
+        "normalizeKeyword": "escort",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.978845",
+        "gmtModified": "2026-07-20T05:54:10.978845"
+      },
+      {
+        "id": 171,
+        "scene": "cserp",
+        "site": "europages.nl",
+        "keyword": "erotische-winkel",
+        "normalizeKeyword": "erotische-winkel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.973585",
+        "gmtModified": "2026-07-20T05:54:10.973585"
+      },
+      {
+        "id": 170,
+        "scene": "cserp",
+        "site": "europages.nl",
+        "keyword": "erotische-artikelen",
+        "normalizeKeyword": "erotische-artikelen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.970497",
+        "gmtModified": "2026-07-20T05:54:10.970497"
+      },
+      {
+        "id": 169,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "erotique",
+        "normalizeKeyword": "erotique",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.967327",
+        "gmtModified": "2026-07-20T05:54:10.967327"
+      },
+      {
+        "id": 168,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "erotikmoebel",
+        "normalizeKeyword": "erotikmoebel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.964298",
+        "gmtModified": "2026-07-20T05:54:10.964298"
+      },
+      {
+        "id": 167,
+        "scene": "cserp",
+        "site": "wlw.ch",
+        "keyword": "erotikmoebel",
+        "normalizeKeyword": "erotikmoebel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.961248",
+        "gmtModified": "2026-07-20T05:54:10.961248"
+      },
+      {
+        "id": 166,
+        "scene": "cserp",
+        "site": "wlw.at",
+        "keyword": "erotikmoebel",
+        "normalizeKeyword": "erotikmoebel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.958103",
+        "gmtModified": "2026-07-20T05:54:10.958103"
+      },
+      {
+        "id": 165,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "erotik-masaj",
+        "normalizeKeyword": "erotik-masaj",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.936275",
+        "gmtModified": "2026-07-20T05:54:10.936275"
+      },
+      {
+        "id": 164,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "erotik-artikel",
+        "normalizeKeyword": "erotik-artikel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.928683",
+        "gmtModified": "2026-07-20T05:54:10.928683"
+      },
+      {
+        "id": 163,
+        "scene": "cserp",
+        "site": "wlw.ch",
+        "keyword": "erotik-artikel",
+        "normalizeKeyword": "erotik-artikel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.92594",
+        "gmtModified": "2026-07-20T05:54:10.92594"
+      },
+      {
+        "id": 162,
+        "scene": "cserp",
+        "site": "wlw.at",
+        "keyword": "erotik-artikel",
+        "normalizeKeyword": "erotik-artikel",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.923212",
+        "gmtModified": "2026-07-20T05:54:10.923212"
+      },
+      {
+        "id": 161,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "erotik kostenlos",
+        "normalizeKeyword": "erotik-kostenlos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.920498",
+        "gmtModified": "2026-07-20T05:54:10.920498"
+      },
+      {
+        "id": 160,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "erotik ürünler",
+        "normalizeKeyword": "erotik-ürünler",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.917592",
+        "gmtModified": "2026-07-20T05:54:10.917592"
+      },
+      {
+        "id": 159,
+        "scene": "showroom",
+        "site": "wlw.at",
+        "keyword": "erotik",
+        "normalizeKeyword": "erotik",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.91485",
+        "gmtModified": "2026-07-20T05:54:10.91485"
+      },
+      {
+        "id": 158,
+        "scene": "cserp",
+        "site": "europages.de",
+        "keyword": "erotik",
+        "normalizeKeyword": "erotik",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.911912",
+        "gmtModified": "2026-07-20T05:54:10.911912"
+      },
+      {
+        "id": 157,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "einarmige-banditen-slot-machines",
+        "normalizeKeyword": "einarmige-banditen-slot-machines",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.908419",
+        "gmtModified": "2026-07-20T05:54:10.908419"
+      },
+      {
+        "id": 156,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "e-porner",
+        "normalizeKeyword": "e-porner",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.901535",
+        "gmtModified": "2026-07-20T05:54:10.901535"
+      },
+      {
+        "id": 155,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "drugs",
+        "normalizeKeyword": "drugs",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.897505",
+        "gmtModified": "2026-07-20T05:54:10.897505"
+      },
+      {
+        "id": 154,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "download-microsoft-office-kostenlos",
+        "normalizeKeyword": "download-microsoft-office-kostenlos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.885312",
+        "gmtModified": "2026-07-20T05:54:10.885312"
+      },
+      {
+        "id": 153,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "deutsche-tiktok-follower-kaufen",
+        "normalizeKeyword": "deutsche-tiktok-follower-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.882283",
+        "gmtModified": "2026-07-20T05:54:10.882283"
+      },
+      {
+        "id": 152,
+        "scene": "showroom",
+        "site": "europages.es",
+        "keyword": "descargar-clave-de-licencia-para-fifa-22-pc",
+        "normalizeKeyword": "descargar-clave-de-licencia-para-fifa-22-pc",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.878798",
+        "gmtModified": "2026-07-20T05:54:10.878798"
+      },
+      {
+        "id": 151,
+        "scene": "showroom",
+        "site": "europages.nl",
+        "keyword": "dames sexy kleding",
+        "normalizeKeyword": "dames-sexy-kleding",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.875304",
+        "gmtModified": "2026-07-20T05:54:10.875304"
+      },
+      {
+        "id": 150,
+        "scene": "showroom",
+        "site": "europages.fr",
+        "keyword": "culotte-sexy-transparente",
+        "normalizeKeyword": "culotte-sexy-transparente",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:10.870191",
+        "gmtModified": "2026-07-20T05:54:10.870191"
+      },
+      {
+        "id": 149,
+        "scene": "showroom",
+        "site": "europages.com.tr",
+        "keyword": "converter-youtube-mp3-320-kbps",
+        "normalizeKeyword": "converter-youtube-mp3-320-kbps",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.647335",
+        "gmtModified": "2026-07-20T05:54:09.647335"
+      },
+      {
+        "id": 148,
+        "scene": "cserp",
+        "site": "europages.nl",
+        "keyword": "condooms",
+        "normalizeKeyword": "condooms",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.644945",
+        "gmtModified": "2026-07-20T05:54:09.644945"
+      },
+      {
+        "id": 147,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "condoms",
+        "normalizeKeyword": "condoms",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.639556",
+        "gmtModified": "2026-07-20T05:54:09.639556"
+      },
+      {
+        "id": 146,
+        "scene": "cserp",
+        "site": "wlw.com",
+        "keyword": "condom",
+        "normalizeKeyword": "condom",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.637013",
+        "gmtModified": "2026-07-20T05:54:09.637013"
+      },
+      {
+        "id": 145,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "condom",
+        "normalizeKeyword": "condom",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.632354",
+        "gmtModified": "2026-07-20T05:54:09.632354"
+      },
+      {
+        "id": 144,
+        "scene": "showroom",
+        "site": "europages.es",
+        "keyword": "comprar-semillas-marihuana",
+        "normalizeKeyword": "comprar-semillas-marihuana",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.618754",
+        "gmtModified": "2026-07-20T05:54:09.618754"
+      },
+      {
+        "id": 143,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "casinos",
+        "normalizeKeyword": "casinos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.616271",
+        "gmtModified": "2026-07-20T05:54:09.616271"
+      },
+      {
+        "id": 142,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "casinos",
+        "normalizeKeyword": "casinos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.614161",
+        "gmtModified": "2026-07-20T05:54:09.614161"
+      },
+      {
+        "id": 141,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "casino-stuhl-kaufen",
+        "normalizeKeyword": "casino-stuhl-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.61133",
+        "gmtModified": "2026-07-20T05:54:09.61133"
+      },
+      {
+        "id": 140,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "casino",
+        "normalizeKeyword": "casino",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.609461",
+        "gmtModified": "2026-07-20T05:54:09.609461"
+      },
+      {
+        "id": 139,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "cartomanti-gratis-whatsapp",
+        "normalizeKeyword": "cartomanti-gratis-whatsapp",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.607017",
+        "gmtModified": "2026-07-20T05:54:09.607017"
+      },
+      {
+        "id": 138,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "canabis-pflanze-kaufen",
+        "normalizeKeyword": "canabis-pflanze-kaufen",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.605244",
+        "gmtModified": "2026-07-20T05:54:09.605244"
+      },
+      {
+        "id": 137,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "camera espion",
+        "normalizeKeyword": "camera-espion",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.603227",
+        "gmtModified": "2026-07-20T05:54:09.603227"
+      },
+      {
+        "id": 136,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "caluanie-muelear-oxidize",
+        "normalizeKeyword": "caluanie-muelear-oxidize",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.601072",
+        "gmtModified": "2026-07-20T05:54:09.601072"
+      },
+      {
+        "id": 135,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "caluanie-muelear-oxidize",
+        "normalizeKeyword": "caluanie-muelear-oxidize",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.599273",
+        "gmtModified": "2026-07-20T05:54:09.599273"
+      },
+      {
+        "id": 134,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "caluanie muelear oxidize msds",
+        "normalizeKeyword": "caluanie-muelear-oxidize-msds",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.596685",
+        "gmtModified": "2026-07-20T05:54:09.596685"
+      },
+      {
+        "id": 133,
+        "scene": "cserp",
+        "site": "europages.com.tr",
+        "keyword": "caluanie muelear üreticileri",
+        "normalizeKeyword": "caluanie-muelear-üreticileri",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.594609",
+        "gmtModified": "2026-07-20T05:54:09.594609"
+      },
+      {
+        "id": 132,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "caluanie",
+        "normalizeKeyword": "caluanie",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.592314",
+        "gmtModified": "2026-07-20T05:54:09.592314"
+      },
+      {
+        "id": 131,
+        "scene": "cserp",
+        "site": "europages.fr",
+        "keyword": "caluanie",
+        "normalizeKeyword": "caluanie",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.590457",
+        "gmtModified": "2026-07-20T05:54:09.590457"
+      },
+      {
+        "id": 130,
+        "scene": "cserp",
+        "site": "europages.pt",
+        "keyword": "calcado-fetiche",
+        "normalizeKeyword": "calcado-fetiche",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.587934",
+        "gmtModified": "2026-07-20T05:54:09.587934"
+      },
+      {
+        "id": 129,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "buy-red-mercury",
+        "normalizeKeyword": "buy-red-mercury",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.585075",
+        "gmtModified": "2026-07-20T05:54:09.585075"
+      },
+      {
+        "id": 128,
+        "scene": "cserp",
+        "site": "europages.pl",
+        "keyword": "broń i amunicja",
+        "normalizeKeyword": "broń-i-amunicja",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.583286",
+        "gmtModified": "2026-07-20T05:54:09.583286"
+      },
+      {
+        "id": 127,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "bordeln",
+        "normalizeKeyword": "bordeln",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.579916",
+        "gmtModified": "2026-07-20T05:54:09.579916"
+      },
+      {
+        "id": 126,
+        "scene": "cserp",
+        "site": "europages.dk",
+        "keyword": "boernforlystelse",
+        "normalizeKeyword": "boernforlystelse",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.578075",
+        "gmtModified": "2026-07-20T05:54:09.578075"
+      },
+      {
+        "id": 125,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "beeg",
+        "normalizeKeyword": "beeg",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.574844",
+        "gmtModified": "2026-07-20T05:54:09.574844"
+      },
+      {
+        "id": 124,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "beate-uhse-gummipuppe",
+        "normalizeKeyword": "beate-uhse-gummipuppe",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.57182",
+        "gmtModified": "2026-07-20T05:54:09.57182"
+      },
+      {
+        "id": 123,
+        "scene": "showroom",
+        "site": "wlw.de",
+        "keyword": "bdsm-strafbock",
+        "normalizeKeyword": "bdsm-strafbock",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.569496",
+        "gmtModified": "2026-07-20T05:54:09.569496"
+      },
+      {
+        "id": 122,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "barcelona-escorts",
+        "normalizeKeyword": "barcelona-escorts",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.566242",
+        "gmtModified": "2026-07-20T05:54:09.566242"
+      },
+      {
+        "id": 121,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "attestation-of-gambling-machines",
+        "normalizeKeyword": "attestation-of-gambling-machines",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.564138",
+        "gmtModified": "2026-07-20T05:54:09.564138"
+      },
+      {
+        "id": 120,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "articulos-eroticos",
+        "normalizeKeyword": "articulos-eroticos",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.562016",
+        "gmtModified": "2026-07-20T05:54:09.562016"
+      },
+      {
+        "id": 119,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "articoli-per-giochi-d-azzardo",
+        "normalizeKeyword": "articoli-per-giochi-d-azzardo",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.559928",
+        "gmtModified": "2026-07-20T05:54:09.559928"
+      },
+      {
+        "id": 118,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "articoli-erotici",
+        "normalizeKeyword": "articoli-erotici",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.558054",
+        "gmtModified": "2026-07-20T05:54:09.558054"
+      },
+      {
+        "id": 117,
+        "scene": "showroom",
+        "site": "europages.de",
+        "keyword": "amfepramon ohne rezept",
+        "normalizeKeyword": "amfepramon-ohne-rezept",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.556116",
+        "gmtModified": "2026-07-20T05:54:09.556116"
+      },
+      {
+        "id": 116,
+        "scene": "showroom",
+        "site": "europages.it",
+        "keyword": "amatoriale-mature-italiane",
+        "normalizeKeyword": "amatoriale-mature-italiane",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.554007",
+        "gmtModified": "2026-07-20T05:54:09.554007"
+      },
+      {
+        "id": 115,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "alquiler de maquinas tragamonedas",
+        "normalizeKeyword": "alquiler-de-maquinas-tragamonedas",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.551521",
+        "gmtModified": "2026-07-20T05:54:09.551521"
+      },
+      {
+        "id": 114,
+        "scene": "cserp",
+        "site": "wlw.de",
+        "keyword": "aktfotografie",
+        "normalizeKeyword": "aktfotografie",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.539558",
+        "gmtModified": "2026-07-20T05:54:09.539558"
+      },
+      {
+        "id": 113,
+        "scene": "cserp",
+        "site": "wlw.at",
+        "keyword": "aktfotografie",
+        "normalizeKeyword": "aktfotografie",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.536762",
+        "gmtModified": "2026-07-20T05:54:09.536762"
+      },
+      {
+        "id": 112,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "agencias-de-escorts-en-madrid",
+        "normalizeKeyword": "agencias-de-escorts-en-madrid",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.534834",
+        "gmtModified": "2026-07-20T05:54:09.534834"
+      },
+      {
+        "id": 111,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "agencias-de-escorts-barcelona",
+        "normalizeKeyword": "agencias-de-escorts-barcelona",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.532825",
+        "gmtModified": "2026-07-20T05:54:09.532825"
+      },
+      {
+        "id": 110,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "agencias scorts madrid",
+        "normalizeKeyword": "agencias-scorts-madrid",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.529647",
+        "gmtModified": "2026-07-20T05:54:09.529647"
+      },
+      {
+        "id": 109,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "agencia-escorts-madrid",
+        "normalizeKeyword": "agencia-escorts-madrid",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.525812",
+        "gmtModified": "2026-07-20T05:54:09.525812"
+      },
+      {
+        "id": 108,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "agencia-escort-madrid",
+        "normalizeKeyword": "agencia-escort-madrid",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.523031",
+        "gmtModified": "2026-07-20T05:54:09.523031"
+      },
+      {
+        "id": 107,
+        "scene": "cserp",
+        "site": "europages.es",
+        "keyword": "agencia escort barcelona",
+        "normalizeKeyword": "agencia-escort-barcelona",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.518685",
+        "gmtModified": "2026-07-20T05:54:09.518685"
+      },
+      {
+        "id": 106,
+        "scene": "cserp",
+        "site": "europages.co.uk",
+        "keyword": "adult-magazines",
+        "normalizeKeyword": "adult-magazines",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.456861",
+        "gmtModified": "2026-07-20T05:54:09.456861"
+      },
+      {
+        "id": 105,
+        "scene": "cserp",
+        "site": "europages.it",
+        "keyword": "abbigliamento-sexy",
+        "normalizeKeyword": "abbigliamento-sexy",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.45479",
+        "gmtModified": "2026-07-20T05:54:09.45479"
+      },
+      {
+        "id": 104,
+        "scene": "showroom",
+        "site": "europages.bg",
+        "keyword": "снимки-момичета-голи",
+        "normalizeKeyword": "снимки-момичета-голи",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.452203",
+        "gmtModified": "2026-07-20T05:54:09.452203"
+      },
+      {
+        "id": 103,
+        "scene": "showroom",
+        "site": "europages.bg",
+        "keyword": "сексуални-стимуланти-за-мъже",
+        "normalizeKeyword": "сексуални-стимуланти-за-мъже",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.44939",
+        "gmtModified": "2026-07-20T05:54:09.44939"
+      },
+      {
+        "id": 102,
+        "scene": "showroom",
+        "site": "europages.bg",
+        "keyword": "женски-презерватив",
+        "normalizeKeyword": "женски-презерватив",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.446864",
+        "gmtModified": "2026-07-20T05:54:09.446864"
+      },
+      {
+        "id": 101,
+        "scene": "showroom",
+        "site": "europages.bg",
+        "keyword": "голи-жени",
+        "normalizeKeyword": "голи-жени",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.444279",
+        "gmtModified": "2026-07-20T05:54:09.444279"
+      },
+      {
+        "id": 100,
+        "scene": "cserp",
+        "site": "europages.pl",
+        "keyword": "żaroodporne-tkaniny-szklane",
+        "normalizeKeyword": "żaroodporne-tkaniny-szklane",
+        "enabled": true,
+        "gmtCreate": "2026-07-20T05:54:09.430876",
+        "gmtModified": "2026-07-20T05:54:09.430876"
+      },
+      {
+        "id": 73,
+        "scene": "cserp",
+        "site": null,
+        "keyword": "agencias-de-escorts-barcelona",
+        "normalizeKeyword": "agencias-de-escorts-barcelona",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.604161",
+        "gmtModified": "2026-07-16T03:53:00.604161"
+      },
+      {
+        "id": 72,
+        "scene": "cserp",
+        "site": null,
+        "keyword": "escorte",
+        "normalizeKeyword": "escorte",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.602576",
+        "gmtModified": "2026-07-16T03:53:00.602576"
+      },
+      {
+        "id": 71,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "vagosex",
+        "normalizeKeyword": "vagosex",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.600906",
+        "gmtModified": "2026-07-16T03:53:00.600906"
+      },
+      {
+        "id": 70,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "mujeres-maduras-desnudas",
+        "normalizeKeyword": "mujeres-maduras-desnudas",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.599325",
+        "gmtModified": "2026-07-16T03:53:00.599325"
+      },
+      {
+        "id": 69,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "xxxtik",
+        "normalizeKeyword": "xxxtik",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.597354",
+        "gmtModified": "2026-07-16T03:53:00.597354"
+      },
+      {
+        "id": 68,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "pprno",
+        "normalizeKeyword": "pprno",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.59563",
+        "gmtModified": "2026-07-16T03:53:00.59563"
+      },
+      {
+        "id": 67,
+        "scene": "showroom",
+        "site": null,
+        "keyword": "xxnxxx",
+        "normalizeKeyword": "xxnxxx",
+        "enabled": true,
+        "gmtCreate": "2026-07-16T03:53:00.589017",
+        "gmtModified": "2026-07-16T03:53:00.589017"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/actuator/health",
+  "durationMs": 630,
+  "params": {},
+  "headers": {
+    "dynamic-token": "***"
+  }
+}

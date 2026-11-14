@@ -1,0 +1,11 @@
+{
+  "method": "GET",
+  "url": "https://api.staging.visable.io/traffic-mesh/background/filter-panel-links?site=wlw.de",
+  "durationMs": 697,
+  "params": {
+    "site": "wlw.de"
+  },
+  "headers": {
+    "dynamic-token": "***"
+  }
+}
