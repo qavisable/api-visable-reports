@@ -1,0 +1,76 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 124,
+  "headers": {
+    "date": "Sat, 14 Nov 2026 22:04:28 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "x-envoy-upstream-service-time": "15",
+    "access-control-allow-origin": "https://www.wlw-staging.de",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "962d22d2-be3b-4d1e-8474-e7e784dcc75b",
+    "type": "browser",
+    "expires_at": "2026-11-15T00:04:21.35853Z",
+    "issued_at": "2026-11-14T22:04:21.35853Z",
+    "request_url": "https://www.wlw-staging.de/self-service/registration/browser",
+    "active": "code",
+    "ui": {
+      "action": "/",
+      "method": "GET",
+      "nodes": [
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "csrf_token",
+            "type": "hidden",
+            "value": "PQ8u85/UyjnGL0qh8S40A06vjPMMJVSinJJOShpjr56H8nrrj1pfSRuV4agklnYQadVAR6M0G2SXuKWw1Jng1g==",
+            "required": true,
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "a",
+          "group": "code",
+          "attributes": {
+            "href": "/",
+            "title": {
+              "id": 1070009,
+              "text": "Continue",
+              "type": "info"
+            },
+            "id": "continue",
+            "node_type": "a"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070009,
+              "text": "Continue",
+              "type": "info"
+            }
+          }
+        }
+      ],
+      "messages": [
+        {
+          "id": 1080002,
+          "text": "You successfully verified your email address.",
+          "type": "success"
+        }
+      ]
+    },
+    "state": "passed_challenge"
+  }
+}
