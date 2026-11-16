@@ -1,0 +1,19 @@
+{
+  "status": 202,
+  "statusText": "Accepted",
+  "durationMs": 136,
+  "headers": {
+    "server": "awselb/2.0",
+    "date": "Mon, 16 Nov 2026 22:04:48 GMT",
+    "content-length": "2022",
+    "connection": "keep-alive",
+    "x-amzn-waf-action": "challenge",
+    "cache-control": "no-store, max-age=0",
+    "content-type": "text/html; charset=UTF-8",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "86400",
+    "access-control-allow-methods": "OPTIONS,GET,POST",
+    "access-control-expose-headers": "x-amzn-waf-action"
+  },
+  "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGQcWDifw8bvZUds+WsgmwOAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMS7ntY+Ku6J+v8HEBAgEQgDvRzDxzPcsg+UelgY0v2RrmPMcjwGVBN9cAveugxUT5gYRFJet6OwnnXTqE5MWOgPQEjj7PRz2HtzTPFg==\",\n          \"iv\":\"CgAFZRtMAwAAAITU\",\n          \"context\":\"xrRWCO43yBpbJFp+dGP+06j9i2XjjWmtMcg7q/VVHJL4ij/HPR7PJeiRbcleEVkcq47zMdmizyQi364Jk0F83ZH1IQcm/g19VcQJLZ/hbCTj8qNZyfgpL9vLNOOEUnc3RKeftTuodE07qfvBYAWOQ2mBLrBISN0EynAPlL6p9LA/Go2PqLeto14g9u3/X7/7VuQ00LsEK6ZQAgR8gt/Ir5dDaP0LVsKu/Yb0EnTDdnRSD3BC7rLpuOotdXyTjgJtOwUgCuSumsqYOSELpF1oHP93HrjRlt6RoZewbNNGbCHJguKhFy5bxnZuZFv0kG2Pi7Or6sIrqeXCz8r9mmpGh/97c2+Pp9k5GqzJaAbhLMbzKy5PTFrFQbZbzYct65W2rd8Li8HFbe4zdJF4gE8=\"\n};\n    </script>\n    <script src=\"https://86efa1b670ce.644752ca.eu-central-1.token.awswaf.com/86efa1b670ce/2a571d06c07d/4f58403ec1f5/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n</body>\n</html>"
+}

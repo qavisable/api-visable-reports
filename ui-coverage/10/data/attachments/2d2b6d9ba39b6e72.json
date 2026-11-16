@@ -1,0 +1,5 @@
+{
+  "method": "GET",
+  "url": "https://www.wlw-staging.de/.ory/kratos/sessions/whoami",
+  "durationMs": 633
+}
