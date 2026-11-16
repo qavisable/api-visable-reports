@@ -1,0 +1,85 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 110,
+  "headers": {
+    "date": "Mon, 16 Nov 2026 02:14:37 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "x-kratos-authenticated-identity-id": "919e1fa9-71fc-4091-a718-92a72758ecfa",
+    "x-envoy-upstream-service-time": "4",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "f86f6d5c-fa2b-4bd3-a9a7-424102be011b",
+    "active": true,
+    "expires_at": "2026-12-16T02:14:37.77337Z",
+    "authenticated_at": "2026-11-16T02:14:37.77337Z",
+    "authenticator_assurance_level": "aal1",
+    "authentication_methods": [
+      {
+        "method": "password",
+        "aal": "aal1",
+        "completed_at": "2026-11-16T02:14:37.773248011Z"
+      }
+    ],
+    "issued_at": "2026-11-16T02:14:37.77337Z",
+    "identity": {
+      "id": "919e1fa9-71fc-4091-a718-92a72758ecfa",
+      "schema_id": "v2",
+      "schema_url": "https://www.europages-staging.de/.ory/kratos/schemas/djI",
+      "state": "active",
+      "state_changed_at": "2026-11-16T02:14:30.100254Z",
+      "traits": {
+        "email": "test+1794795269171114@automation.com",
+        "profile_registration": {
+          "phone": "+49 - 1701234567",
+          "surname": "ApiTest",
+          "given_name": "QA",
+          "salutation": "mr",
+          "country_code": "GB",
+          "preferred_language": "en"
+        }
+      },
+      "verifiable_addresses": [
+        {
+          "id": "78f4ef8c-96b8-427f-bcdb-a56062a49efe",
+          "value": "test+1794795269171114@automation.com",
+          "verified": true,
+          "via": "email",
+          "status": "completed",
+          "verified_at": "2026-11-16T02:14:36.939207Z",
+          "created_at": "2026-11-16T02:14:30.105032Z",
+          "updated_at": "2026-11-16T02:14:30.105032Z"
+        }
+      ],
+      "recovery_addresses": [
+        {
+          "id": "f6009ad8-e3fd-40b0-93ed-e5e0ab235913",
+          "value": "test+1794795269171114@automation.com",
+          "via": "email",
+          "created_at": "2026-11-16T02:14:30.109899Z",
+          "updated_at": "2026-11-16T02:14:30.109899Z"
+        }
+      ],
+      "metadata_public": null,
+      "created_at": "2026-11-16T02:14:30.101703Z",
+      "updated_at": "2026-11-16T02:14:30.101703Z",
+      "organization_id": null
+    },
+    "devices": [
+      {
+        "id": "01d00c18-a604-4818-b698-25fb8d45d383",
+        "ip_address": "20.55.214.67",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+        "location": ""
+      }
+    ]
+  }
+}
