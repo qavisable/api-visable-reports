@@ -1,0 +1,10 @@
+{
+  "method": "GET",
+  "url": "https://www.wlw-staging.de/.ory/kratos/self-service/verification/flows?id=dea41c8f-001c-4d50-aae3-792255a3e407",
+  "durationMs": 120,
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.wlw-staging.de",
+    "Referer": "https://www.wlw-staging.de/en/verification"
+  }
+}

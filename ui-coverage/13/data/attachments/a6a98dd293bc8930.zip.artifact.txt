@@ -1,0 +1,4 @@
+This attachment was moved out of the Pages report to keep it lightweight.
+Artifact name: ui-coverage-heavy-media-13
+Workflow run: https://github.com/visable-dev/Platform-Tests/actions/runs/44624552788
+Download the artifact to open the original media file.

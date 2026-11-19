@@ -1,0 +1,125 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 120,
+  "headers": {
+    "date": "Thu, 19 Nov 2026 22:02:48 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "x-envoy-upstream-service-time": "6",
+    "access-control-allow-origin": "https://www.wlw-staging.de",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "dea41c8f-001c-4d50-aae3-792255a3e407",
+    "type": "browser",
+    "expires_at": "2026-11-20T00:02:43.527442Z",
+    "issued_at": "2026-11-19T22:02:43.527442Z",
+    "request_url": "https://www.wlw-staging.de/self-service/registration/browser",
+    "active": "code",
+    "ui": {
+      "action": "https://www.wlw-staging.de/.ory/kratos/self-service/verification?flow=dea41c8f-001c-4d50-aae3-792255a3e407",
+      "method": "POST",
+      "nodes": [
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "method",
+            "type": "hidden",
+            "value": "code",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "code",
+            "type": "text",
+            "required": true,
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070011,
+              "text": "Verification code",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "method",
+            "type": "submit",
+            "value": "code",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070009,
+              "text": "Continue",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "csrf_token",
+            "type": "hidden",
+            "value": "CI5thwF4R/g4JjiOX7tvVqfOOAY87DM8bS3dFrRWgyhCTy1p3TrccMDhU53qG5OJUE9eC//aMyq7sazMYl/h1Q==",
+            "required": true,
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "email",
+            "type": "submit",
+            "value": "test+17951257621978368@automation.com",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070008,
+              "text": "Resend code",
+              "type": "info"
+            }
+          }
+        }
+      ],
+      "messages": [
+        {
+          "id": 1080003,
+          "text": "An email containing a verification code has been sent to the email address you provided. If you have not received an email, check the spelling of the address and make sure to use the address you registered with.",
+          "type": "info"
+        }
+      ]
+    },
+    "state": "sent_email"
+  }
+}
