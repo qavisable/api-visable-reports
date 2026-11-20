@@ -1,0 +1,125 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 150,
+  "headers": {
+    "date": "Fri, 20 Nov 2026 02:14:31 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "x-envoy-upstream-service-time": "3",
+    "access-control-allow-origin": "https://www.europages-staging.de",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "81141e6b-94b2-428f-9848-02ace6b8028e",
+    "type": "browser",
+    "expires_at": "2026-11-20T04:14:24.193491Z",
+    "issued_at": "2026-11-20T02:14:24.193491Z",
+    "request_url": "https://www.europages-staging.de/self-service/registration/browser",
+    "active": "code",
+    "ui": {
+      "action": "https://www.europages-staging.de/.ory/kratos/self-service/verification?flow=81141e6b-94b2-428f-9848-02ace6b8028e",
+      "method": "POST",
+      "nodes": [
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "method",
+            "type": "hidden",
+            "value": "code",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "code",
+            "type": "text",
+            "required": true,
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070011,
+              "text": "Verification code",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "method",
+            "type": "submit",
+            "value": "code",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070009,
+              "text": "Continue",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "csrf_token",
+            "type": "hidden",
+            "value": "I8Hr6kuav+FM8pXtuF5jXbtpr/gULRI1o6+qeerpvqLdkqTCNZumJQkbASEBkvrUxA1anewuki0XWMyHdBx0Dw==",
+            "required": true,
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "email",
+            "type": "submit",
+            "value": "test+1795140863154220@automation.com",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070008,
+              "text": "Resend code",
+              "type": "info"
+            }
+          }
+        }
+      ],
+      "messages": [
+        {
+          "id": 1080003,
+          "text": "An email containing a verification code has been sent to the email address you provided. If you have not received an email, check the spelling of the address and make sure to use the address you registered with.",
+          "type": "info"
+        }
+      ]
+    },
+    "state": "sent_email"
+  }
+}
