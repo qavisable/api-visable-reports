@@ -1,0 +1,351 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: ui/tests/product/category-listing.spec.ts >> shows the first product card structure
+- Location: ui/tests/product/category-listing.spec.ts:36:5
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: locator('[data-test="breadcrumbs"]').first()
+Expected: visible
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" locator('[data-test="breadcrumbs"]').first() with timeout 60000ms
+  - waiting for locator('[data-test="breadcrumbs"]').first()
+    - waiting for navigation to finish...
+    - navigated to "https://www.europages-staging.de/en/showroom-cate/metal%20and%20metal%20products-100068"
+
+```
+
+```yaml
+- banner:
+  - img
+  - textbox "Search form":
+    - /placeholder: ""
+  - text: children's clothing deodorants kitchen utensils children's clothing
+  - button "Search"
+  - button "Get quotes":
+    - img
+    - text: Get quotes
+  - button "Request Hub":
+    - img
+    - text: Request Hub
+  - button "Become a supplier":
+    - img
+    - text: Become a supplier
+  - button:
+    - img
+  - button "account Sign in":
+    - img "account"
+    - text: Sign in
+  - button "DE"
+  - text: We prioritize suppliers and products that deliver to your country (
+  - strong: Germany
+  - text: ). To change this, please change your country.
+  - button "Keep"
+  - button "Change"
+- text: There are no results for (metal and metal products-100068)
+- img "There are no results for(metal and metal products-100068)"
+- text: Similar products based on your current search
+- link "Previous":
+  - /url: "#"
+  - img "Previous"
+- link "1":
+  - /url: "#"
+- link "2":
+  - /url: "#"
+- link "3":
+  - /url: "#"
+- link "Next":
+  - /url: "#"
+  - img "Next"
+- img "verified"
+- link "ODPLAMIACZ DR BECKMANN 50ML KAWA WINA SOKI IMP 4082":
+  - /url: /en/company/kosmet-hurt-j-wnuk-spoka-komandytowa-22330300/products/odplamiacz-dr-beckmann-50ml-kawa-wina-soki-imp-4082-37523024
+  - img "ODPLAMIACZ DR BECKMANN 50ML KAWA WINA SOKI IMP 4082"
+- link "ODPLAMIACZ DR BECKMANN 50ML KAWA WINA SOKI IMP 4082":
+  - /url: /en/company/kosmet-hurt-j-wnuk-spoka-komandytowa-22330300/products/odplamiacz-dr-beckmann-50ml-kawa-wina-soki-imp-4082-37523024
+- link "Cipherlab Workstation EU, ARS38WCCNNE01":
+  - /url: /en/company/antegis-gmbh-etiketten-barcodesysteme-547528/products/cipherlab-arbeitsstation-eu-ars38wccnne01-36813163
+  - img "Cipherlab Workstation EU, ARS38WCCNNE01"
+- link "Cipherlab Workstation EU, ARS38WCCNNE01":
+  - /url: /en/company/antegis-gmbh-etiketten-barcodesysteme-547528/products/cipherlab-arbeitsstation-eu-ars38wccnne01-36813163
+- img "verified"
+- img "response time"
+- link "Sanpellegrino Grapefruit Drink (Regular can 33 cl)":
+  - /url: /en/company/gusti-ditalia-srl-sb-22391926/products/la-bibita-pompelmo-sanpellegrino-lattina-regular-da-33-cl-38344086
+  - img "Sanpellegrino Grapefruit Drink (Regular can 33 cl)"
+- link "Sanpellegrino Grapefruit Drink (Regular can 33 cl)":
+  - /url: /en/company/gusti-ditalia-srl-sb-22391926/products/la-bibita-pompelmo-sanpellegrino-lattina-regular-da-33-cl-38344086
+- link "Soluble extracts for instant beverages":
+  - /url: /en/company/finzelberg-gmbh-co-kg-20134724/products/loesliche-extrakte-fuer-instant-getraenke-35352757
+  - img "Soluble extracts for instant beverages"
+- link "Soluble extracts for instant beverages":
+  - /url: /en/company/finzelberg-gmbh-co-kg-20134724/products/loesliche-extrakte-fuer-instant-getraenke-35352757
+- link "Microsoft Office 2013 Professional Plus License":
+  - /url: /en/company/lowsoft-ug-haftungsbeschraenkt-20439037/products/microsoft-office-2013-professional-plus-lizenz-35584448
+  - img "Microsoft Office 2013 Professional Plus License"
+- link "Microsoft Office 2013 Professional Plus License":
+  - /url: /en/company/lowsoft-ug-haftungsbeschraenkt-20439037/products/microsoft-office-2013-professional-plus-lizenz-35584448
+- img "verified"
+- img "response time"
+- link "10000mAh Solar Power Bank | Fast Charging Portable Battery with Integrated Cables":
+  - /url: /en/company/eumo-22266014/products/batterie-externe-solaire-10-000-mah-charge-rapide-et-polyvalente-36463538
+  - img "10000mAh Solar Power Bank | Fast Charging Portable Battery with Integrated Cables"
+- link "10000mAh Solar Power Bank | Fast Charging Portable Battery with Integrated Cables":
+  - /url: /en/company/eumo-22266014/products/batterie-externe-solaire-10-000-mah-charge-rapide-et-polyvalente-36463538
+- link "Used Clothing Collection":
+  - /url: /en/company/knebel-textilrecycling-gmbh-1846910/products/altkleidersammlung-35216231
+  - img "Used Clothing Collection"
+- link "Used Clothing Collection":
+  - /url: /en/company/knebel-textilrecycling-gmbh-1846910/products/altkleidersammlung-35216231
+- link "Used Clothing Frankfurt am Main Circle":
+  - /url: /en/company/skc-textilrecycling-kg-22368134/products/gebrauchte-kleidung-kreis-frankfurt-am-main-36537297
+  - img "Used Clothing Frankfurt am Main Circle"
+- link "Used Clothing Frankfurt am Main Circle":
+  - /url: /en/company/skc-textilrecycling-kg-22368134/products/gebrauchte-kleidung-kreis-frankfurt-am-main-36537297
+- link "Amazon Electro Mix A/B Truck – 32 XL Pallets":
+  - /url: /en/company/wwwbijuymodacom-22155956/products/distribuidor-mayorista-de-excedentes-distribuidor-mayorista-y-exportador-35299967
+  - img "Amazon Electro Mix A/B Truck – 32 XL Pallets"
+- link "Amazon Electro Mix A/B Truck – 32 XL Pallets":
+  - /url: /en/company/wwwbijuymodacom-22155956/products/distribuidor-mayorista-de-excedentes-distribuidor-mayorista-y-exportador-35299967
+- img "verified"
+- img "response time"
+- link "Refurbished Second Hand Laptops Offering Tested Performance Practical Features And Cost Effective Solutions For Modern Use":
+  - /url: /en/company/a-a-wholesale-ltd-22411790/products/refurbished-second-hand-laptops-offering-tested-performance-practical-features-and-cost-effective-solutions-for-modern-use-38855138
+  - img "Refurbished Second Hand Laptops Offering Tested Performance Practical Features And Cost Effective Solutions For Modern Use"
+- link "Refurbished Second Hand Laptops Offering Tested Performance Practical Features And Cost Effective Solutions For Modern Use":
+  - /url: /en/company/a-a-wholesale-ltd-22411790/products/refurbished-second-hand-laptops-offering-tested-performance-practical-features-and-cost-effective-solutions-for-modern-use-38855138
+- link "Palettes B2B – Exclusive Offers for Professionals 🔹":
+  - /url: /en/company/eurostocklots-ltd-22294576/products/palettes-b2b-offres-exclusives-pour-professionnels--36107558
+  - img "Palettes B2B – Exclusive Offers for Professionals 🔹"
+- link "Palettes B2B – Exclusive Offers for Professionals 🔹":
+  - /url: /en/company/eurostocklots-ltd-22294576/products/palettes-b2b-offres-exclusives-pour-professionnels--36107558
+- img "verified"
+- img "response time"
+- link "original used clothes - certification":
+  - /url: /en/company/west-hungary-textil-kft-20047287/products/eredeti-hasznalt-ruhak-igazolas-35807767
+  - img "original used clothes - certification"
+- link "original used clothes - certification":
+  - /url: /en/company/west-hungary-textil-kft-20047287/products/eredeti-hasznalt-ruhak-igazolas-35807767
+- img "verified"
+- img "response time"
+- link "Schweppes beverages in cans and bottles for trade and gastronomy | YUCAT GmbH":
+  - /url: /en/company/yucat-gmbh-22421244/products/schweppes-getraenke-in-dosen-und-flaschen-fuer-handel-und-gastronomie-yucat-gmbh-39355344
+  - img "Schweppes beverages in cans and bottles for trade and gastronomy | YUCAT GmbH"
+- link "Schweppes beverages in cans and bottles for trade and gastronomy | YUCAT GmbH":
+  - /url: /en/company/yucat-gmbh-22421244/products/schweppes-getraenke-in-dosen-und-flaschen-fuer-handel-und-gastronomie-yucat-gmbh-39355344
+- link "PALLETS OF 10 bags of 25 kilos of mixed summer shoes for women, men, and children":
+  - /url: /en/company/fripein-store-united-22254256/products/palettes-de-10-sacs-de-25-kilos-de-chaussures-mixte-ete-femme-homme-enfants-35399966
+  - img "PALLETS OF 10 bags of 25 kilos of mixed summer shoes for women, men, and children"
+- link "PALLETS OF 10 bags of 25 kilos of mixed summer shoes for women, men, and children":
+  - /url: /en/company/fripein-store-united-22254256/products/palettes-de-10-sacs-de-25-kilos-de-chaussures-mixte-ete-femme-homme-enfants-35399966
+- img "response time"
+- link "IT Hardware Supplier & Partner for Businesses – IT Procurement & Equipment for SMEs from a Single Source":
+  - /url: /en/company/webovo-webdesign-it-loesungen-22372616/products/it-hardware-lieferant-partner-fuer-unternehmen-it-beschaffung-ausstattung-fuer-kmu-aus-einer-hand-36599917
+  - img "IT Hardware Supplier & Partner for Businesses – IT Procurement & Equipment for SMEs from a Single Source"
+- link "IT Hardware Supplier & Partner for Businesses – IT Procurement & Equipment for SMEs from a Single Source":
+  - /url: /en/company/webovo-webdesign-it-loesungen-22372616/products/it-hardware-lieferant-partner-fuer-unternehmen-it-beschaffung-ausstattung-fuer-kmu-aus-einer-hand-36599917
+- img "Request for quotes"
+- heading "Request for quotes" [level=2]
+- text: Create one request and get multiple quotes from verified suppliers.
+- list:
+  - listitem: Only relevant suppliers
+  - listitem: Data privacy compliant
+- link "Get multiple quotes":
+  - /url: /en/rfq
+- text: Easy and 100% free
+- contentinfo:
+  - text: Start with
+  - img
+  - text: today. Use the full potential of Europe's leading B2B marketplace. Start now for free.
+  - button "List my company":
+    - img
+    - text: List my company
+  - button "Unlock our exclusive benefits":
+    - img
+    - text: Unlock our exclusive benefits
+  - button "account Sign in to account":
+    - img "account"
+    - text: Sign in to account
+  - text: "Download our app from the App stores:"
+  - link "Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917":
+    - /url: https://europages.app.link/websiteFooter?$desktop_url=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Feuropages-b2b-sourcing%2Fid6459474480%3Fl%3Den
+    - img "Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917"
+  - link:
+    - /url: https://europages.app.link/websiteFooter?$desktop_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.visable.ep%26hl%3Den
+    - img
+  - text: For Buyers
+  - list:
+    - listitem:
+      - link "Request for Quotes":
+        - /url: /en/rfq
+    - listitem:
+      - link "Inside Business":
+        - /url: https://www.europages.co.uk/inside-business/start
+    - listitem:
+      - link "Help Center for Buyers":
+        - /url: https://help.europages.com/en/purchaser
+    - listitem:
+      - link "Buyers Success Stories":
+        - /url: https://www.europages.co.uk/inside-business/introduction-to-europages/interviews
+  - text: For Suppliers
+  - list:
+    - listitem:
+      - link "List your company":
+        - /url: /en/supplier-registration
+    - listitem:
+      - link "Visable Media Services":
+        - /url: https://www.visable.com/en_int/online-marketing
+    - listitem:
+      - link "Help Center for Suppliers":
+        - /url: https://help.europages.com/en/supplier
+    - listitem:
+      - link "Suppliers Success Stories":
+        - /url: https://www.europages.co.uk/inside-business/introduction-to-europages/customer-testimonial
+  - text: More about Visable
+  - list:
+    - listitem:
+      - link "Press":
+        - /url: https://www.visable.com/en_int/about-us/press
+    - listitem:
+      - link "Contact":
+        - /url: https://www.visable.com/en_int/contact-us
+    - listitem:
+      - link "Career":
+        - /url: https://www.visable.com/en_int/career
+    - listitem:
+      - link "About us":
+        - /url: https://www.visable.com/en_int/about-us
+  - text: Trust and partners
+  - link "BME Certified with BME Seal of Approval":
+    - /url: https://www.bme.de/services/siegel/anbietersuche-europages
+    - img "BME"
+    - text: Certified with BME Seal of Approval
+  - text: This site is protected by reCAPTCHA
+  - img
+  - text: Partner of the marketplace
+  - link "linkedin":
+    - /url: https://www.linkedin.com/company/europages
+    - img "linkedin"
+  - link:
+    - /url: https://www.facebook.com/europages
+    - img
+  - link:
+    - /url: https://www.youtube.com/user/europagesvideo
+    - img
+  - link:
+    - /url: https://x.com/europages
+    - img
+  - list:
+    - listitem:
+      - link "General Conditions of Use":
+        - /url: https://www.europages.co.uk/company/legal-notice/terms-of-use
+    - listitem:
+      - link "Privacy policy":
+        - /url: https://www.europages.co.uk/company/legal-notice/privacy-policy-1
+    - listitem:
+      - link "Privacy notice":
+        - /url: https://www.europages.co.uk/company/legal-notice/privacy-notice
+    - listitem:
+      - link "Cookie policy":
+        - /url: https://www.europages.co.uk/company/legal-notice/cookie-policy
+- iframe
+```
+
+# Test source
+
+```ts
+  1  | import { expect, type Locator, type Page } from '@playwright/test';
+  2  | import { buyerPages } from '../../../config/buyer-pages';
+  3  | import type { ProductFamily } from '../../../config/platforms';
+  4  | import { dismissCookieBanner } from '../../../fixtures/staging-traps';
+  5  | 
+  6  | /**
+  7  |  * Product listing screen shared by CPV (`/showroom-cate/`) and Showroom (`/showroom/`).
+  8  |  * Cypress kept two byte-identical POMs; here one screen takes the path from `config/buyer-pages.ts`.
+  9  |  */
+  10 | export class ProductListingPage {
+  11 |   constructor(
+  12 |     private readonly page: Page,
+  13 |     private readonly product: ProductFamily,
+  14 |   ) {}
+  15 | 
+  16 |   breadcrumbs(): Locator {
+  17 |     return this.page.locator('[data-test="breadcrumbs"]').first();
+  18 |   }
+  19 | 
+  20 |   resultContainer(): Locator {
+  21 |     return this.page.locator('[data-test="product-search-results"]').first();
+  22 |   }
+  23 | 
+  24 |   productCards(): Locator {
+  25 |     return this.page.locator('[data-test="product"]');
+  26 |   }
+  27 | 
+  28 |   productNames(): Locator {
+  29 |     return this.page.locator('[data-test="product-name"]');
+  30 |   }
+  31 | 
+  32 |   companyNames(): Locator {
+  33 |     return this.page.locator('[data-test="company-name"]');
+  34 |   }
+  35 | 
+  36 |   filterControls(): Locator {
+  37 |     return this.page.locator(
+  38 |       '[data-test="multi-checkbox-filter-item"], [data-test="location-filter"], [data-test="detect-location"], [data-test="filter-sorting"]',
+  39 |     );
+  40 |   }
+  41 | 
+  42 |   pagination(): Locator {
+  43 |     return this.page.locator('[data-test="pagination"]').first();
+  44 |   }
+  45 | 
+  46 |   quotesEntry(): Locator {
+  47 |     return this.page.locator('[data-test="quotes-entry"]').first();
+  48 |   }
+  49 | 
+  50 |   firstProductCard(): Locator {
+  51 |     return this.productCards().first();
+  52 |   }
+  53 | 
+  54 |   /** Card content overlays the anchor, so the click is forced (Cypress forced it too). */
+  55 |   firstProductLink(): Locator {
+  56 |     return this.firstProductCard().locator('a[href]').first();
+  57 |   }
+  58 | 
+  59 |   /** Accepts a relative path (product staging host) or an absolute domain-smoke URL. */
+  60 |   async open(pathOrUrl: string = buyerPages(this.product).showroom): Promise<void> {
+  61 |     await this.page.goto(pathOrUrl, { waitUntil: 'domcontentloaded' });
+  62 |     await dismissCookieBanner(this.page);
+> 63 |     await expect(this.breadcrumbs()).toBeVisible({ timeout: 60_000 });
+     |                                      ^ Error: expect(locator).toBeVisible() failed
+  64 |   }
+  65 | 
+  66 |   /**
+  67 |    * Listing cards open the PDP in a new tab (`target="_blank"`), so the popup is returned.
+  68 |    * Card content overlays the anchor, hence the forced click (Cypress forced it too).
+  69 |    */
+  70 |   async openFirstProduct(): Promise<Page> {
+  71 |     const link = this.firstProductLink();
+  72 |     await link.scrollIntoViewIfNeeded();
+  73 |     const [popup] = await Promise.all([
+  74 |       this.page.waitForEvent('popup'),
+  75 |       link.click({ force: true }),
+  76 |     ]);
+  77 |     await popup.waitForLoadState('domcontentloaded');
+  78 |     return popup;
+  79 |   }
+  80 | }
+  81 | 
+```
