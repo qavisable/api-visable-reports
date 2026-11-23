@@ -1,0 +1,117 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 688,
+  "headers": {
+    "date": "Mon, 23 Nov 2026 02:14:18 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "traceid": "21038c2217954000580588527e0e29",
+    "set-cookie": "***",
+    "requestid": "210398b8mweugqhq-135418497",
+    "x-requestid": "210398b8mweugqhq-135418497",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.termRecommend-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "21038c2217954000580588527e0e29",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "11",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "12",
+    "timing-allow-origin": "*",
+    "eagleid": "21038c2217954000580588527e0e29",
+    "server-timing": "rt;dur=0.012,eagleid;desc=21038c2217954000580588527e0e29,brt;dur=11",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "success": true,
+    "model": {
+      "engineTime": 6,
+      "results": [
+        {
+          "highlighted": "straw hat",
+          "text": "straw hat"
+        },
+        {
+          "highlighted": "deodorants",
+          "text": "deodorants"
+        },
+        {
+          "highlighted": "sewing",
+          "text": "sewing"
+        },
+        {
+          "highlighted": "lighter",
+          "text": "lighter"
+        },
+        {
+          "highlighted": "international recruitment",
+          "text": "international recruitment"
+        },
+        {
+          "highlighted": "children's clothing",
+          "text": "children's clothing"
+        },
+        {
+          "highlighted": "beverages",
+          "text": "beverages"
+        },
+        {
+          "highlighted": "grinding wheels",
+          "text": "grinding wheels"
+        },
+        {
+          "highlighted": "rugs",
+          "text": "rugs"
+        },
+        {
+          "highlighted": "dog chew",
+          "text": "dog chew"
+        },
+        {
+          "highlighted": "buffer storage",
+          "text": "buffer storage"
+        },
+        {
+          "highlighted": "oxygen",
+          "text": "oxygen"
+        },
+        {
+          "highlighted": "wallpaper",
+          "text": "wallpaper"
+        },
+        {
+          "highlighted": "cutlery",
+          "text": "cutlery"
+        },
+        {
+          "highlighted": "security services",
+          "text": "security services"
+        },
+        {
+          "highlighted": "turbine",
+          "text": "turbine"
+        },
+        {
+          "highlighted": "facade cleaning",
+          "text": "facade cleaning"
+        },
+        {
+          "highlighted": "hand warmer",
+          "text": "hand warmer"
+        }
+      ],
+      "debugMode": false
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "method": "GET",
+  "url": "https://www.wlw-staging.de/search-api-proxy/pre.aiSearch.termRecommend?searchText=cnc&language=en&platform=pc&topLevelDomain=de&site=wlw&country=DE&ufsSessionId=***&terminalType=pc&debugFlag=true&useMock=true",
+  "durationMs": 652,
+  "params": {
+    "searchText": "cnc",
+    "language": "en",
+    "platform": "pc",
+    "topLevelDomain": "de",
+    "site": "wlw",
+    "country": "DE",
+    "ufsSessionId": "***",
+    "terminalType": "pc",
+    "debugFlag": "true",
+    "useMock": "true"
+  }
+}

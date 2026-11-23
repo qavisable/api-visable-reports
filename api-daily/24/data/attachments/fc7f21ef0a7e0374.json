@@ -1,0 +1,129 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 652,
+  "headers": {
+    "date": "Mon, 23 Nov 2026 02:14:16 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "traceid": "21038f2b17954000560535131e0e47",
+    "set-cookie": "***",
+    "requestid": "210386eamwbs4b8w-168635098",
+    "x-requestid": "210386eamwbs4b8w-168635098",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.termRecommend-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "content-encoding": "gzip",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "21038f2b17954000560535131e0e47",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "18",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "20",
+    "timing-allow-origin": "*",
+    "eagleid": "21038f2b17954000560535131e0e47",
+    "server-timing": "rt;dur=0.020,eagleid;desc=21038f2b17954000560535131e0e47,brt;dur=18",
+    "x-user-traffic": "external"
+  },
+  "body": {
+    "success": true,
+    "model": {
+      "engineTime": 10,
+      "debugInfo": {
+        "country": "",
+        "traceInfoId": "6c3786b6-0698-4783-bab6-1031ee63e6e9",
+        "loginId": "",
+        "rLabAppId": "com.alibaba.icbu.rlabservice.RLabAppId@e9ece3cd",
+        "utdid": "ai-search-exp",
+        "siteId": "wlw",
+        "language": "en",
+        "rLabSuccess": true,
+        "platform": "pc",
+        "rLabResultId": "ff910fb1b8ebce1b968914ad10def63d"
+      },
+      "results": [
+        {
+          "highlighted": "straw hat",
+          "text": "straw hat"
+        },
+        {
+          "highlighted": "deodorants",
+          "text": "deodorants"
+        },
+        {
+          "highlighted": "sewing",
+          "text": "sewing"
+        },
+        {
+          "highlighted": "lighter",
+          "text": "lighter"
+        },
+        {
+          "highlighted": "international recruitment",
+          "text": "international recruitment"
+        },
+        {
+          "highlighted": "children's clothing",
+          "text": "children's clothing"
+        },
+        {
+          "highlighted": "beverages",
+          "text": "beverages"
+        },
+        {
+          "highlighted": "grinding wheels",
+          "text": "grinding wheels"
+        },
+        {
+          "highlighted": "rugs",
+          "text": "rugs"
+        },
+        {
+          "highlighted": "dog chew",
+          "text": "dog chew"
+        },
+        {
+          "highlighted": "buffer storage",
+          "text": "buffer storage"
+        },
+        {
+          "highlighted": "oxygen",
+          "text": "oxygen"
+        },
+        {
+          "highlighted": "wallpaper",
+          "text": "wallpaper"
+        },
+        {
+          "highlighted": "cutlery",
+          "text": "cutlery"
+        },
+        {
+          "highlighted": "security services",
+          "text": "security services"
+        },
+        {
+          "highlighted": "turbine",
+          "text": "turbine"
+        },
+        {
+          "highlighted": "facade cleaning",
+          "text": "facade cleaning"
+        },
+        {
+          "highlighted": "hand warmer",
+          "text": "hand warmer"
+        }
+      ],
+      "debugMode": true
+    }
+  }
+}
