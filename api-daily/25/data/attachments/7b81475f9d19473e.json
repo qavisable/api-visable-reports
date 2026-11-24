@@ -1,0 +1,118 @@
+{
+  "status": 503,
+  "statusText": "",
+  "durationMs": 1936,
+  "headers": {
+    "date": "Tue, 24 Nov 2026 02:13:49 GMT",
+    "content-type": "application/vnd.spring-boot.actuator.v3+json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE"
+  },
+  "body": {
+    "status": "DOWN",
+    "components": {
+      "db": {
+        "status": "DOWN",
+        "components": {
+          "dataSource": {
+            "status": "DOWN",
+            "components": {
+              "READ": {
+                "status": "DOWN",
+                "details": {
+                  "database": "PostgreSQL",
+                  "validationQuery": "SET statement_timeout = '30000'",
+                  "error": "org.springframework.dao.DataIntegrityViolationException: StatementCallback; SQL [SET statement_timeout = '30000']; No results were returned by the query."
+                }
+              },
+              "WRITE": {
+                "status": "UP",
+                "details": {
+                  "database": "PostgreSQL",
+                  "validationQuery": "isValid()"
+                }
+              }
+            }
+          },
+          "readDataSource": {
+            "status": "DOWN",
+            "details": {
+              "database": "PostgreSQL",
+              "validationQuery": "SET statement_timeout = '30000'",
+              "error": "org.springframework.dao.DataIntegrityViolationException: StatementCallback; SQL [SET statement_timeout = '30000']; No results were returned by the query."
+            }
+          },
+          "routingDataSource": {
+            "status": "DOWN",
+            "components": {
+              "READ": {
+                "status": "DOWN",
+                "details": {
+                  "database": "PostgreSQL",
+                  "validationQuery": "SET statement_timeout = '30000'",
+                  "error": "org.springframework.dao.DataIntegrityViolationException: StatementCallback; SQL [SET statement_timeout = '30000']; No results were returned by the query."
+                }
+              },
+              "WRITE": {
+                "status": "UP",
+                "details": {
+                  "database": "PostgreSQL",
+                  "validationQuery": "isValid()"
+                }
+              }
+            }
+          },
+          "writeDataSource": {
+            "status": "UP",
+            "details": {
+              "database": "PostgreSQL",
+              "validationQuery": "isValid()"
+            }
+          }
+        }
+      },
+      "discoveryComposite": {
+        "description": "Discovery Client not initialized",
+        "status": "UNKNOWN",
+        "components": {
+          "discoveryClient": {
+            "description": "Discovery Client not initialized",
+            "status": "UNKNOWN"
+          }
+        }
+      },
+      "diskSpace": {
+        "status": "UP",
+        "details": {
+          "total": 22014345216,
+          "free": 17699446784,
+          "threshold": 10485760,
+          "path": "/home/admin/app/.",
+          "exists": true
+        }
+      },
+      "ping": {
+        "status": "UP"
+      },
+      "redis": {
+        "status": "UP",
+        "details": {
+          "version": "6.2.6"
+        }
+      },
+      "refreshScope": {
+        "status": "UP"
+      },
+      "ssl": {
+        "status": "UP",
+        "details": {
+          "validChains": [],
+          "invalidChains": []
+        }
+      }
+    }
+  }
+}

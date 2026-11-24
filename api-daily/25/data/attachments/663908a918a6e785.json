@@ -1,0 +1,129 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 696,
+  "headers": {
+    "date": "Tue, 24 Nov 2026 02:14:31 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "traceid": "21038c2217954864715045201e0f83",
+    "set-cookie": "***",
+    "requestid": "210398b8mweugqhq-151223671",
+    "x-requestid": "210398b8mweugqhq-151223671",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.termRecommend-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "content-encoding": "gzip",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "21038c2217954864715045201e0f83",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "12",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "13",
+    "timing-allow-origin": "*",
+    "eagleid": "21038c2217954864715045201e0f83",
+    "server-timing": "rt;dur=0.013,eagleid;desc=21038c2217954864715045201e0f83,brt;dur=12",
+    "x-user-traffic": "external"
+  },
+  "body": {
+    "success": true,
+    "model": {
+      "engineTime": 6,
+      "debugInfo": {
+        "country": "",
+        "traceInfoId": "ce55e173-4adc-4d10-87f1-59ff42e35e07",
+        "loginId": "",
+        "rLabAppId": "com.alibaba.icbu.rlabservice.RLabAppId@e9ece3cd",
+        "utdid": "ai-search-exp",
+        "siteId": "wlw",
+        "language": "en",
+        "rLabSuccess": true,
+        "platform": "pc",
+        "rLabResultId": "9e7a04681b67157800e0c88630eb9223"
+      },
+      "results": [
+        {
+          "highlighted": "woodworking machines",
+          "text": "woodworking machines"
+        },
+        {
+          "highlighted": "loreal",
+          "text": "loreal"
+        },
+        {
+          "highlighted": "frozen pizza",
+          "text": "frozen pizza"
+        },
+        {
+          "highlighted": "car filters",
+          "text": "car filters"
+        },
+        {
+          "highlighted": "washing machine",
+          "text": "washing machine"
+        },
+        {
+          "highlighted": "shutters",
+          "text": "shutters"
+        },
+        {
+          "highlighted": "household goods",
+          "text": "household goods"
+        },
+        {
+          "highlighted": "vodka",
+          "text": "vodka"
+        },
+        {
+          "highlighted": "car seats",
+          "text": "car seats"
+        },
+        {
+          "highlighted": "clocks",
+          "text": "clocks"
+        },
+        {
+          "highlighted": "spare parts for trucks",
+          "text": "spare parts for trucks"
+        },
+        {
+          "highlighted": "bathroom mirror",
+          "text": "bathroom mirror"
+        },
+        {
+          "highlighted": "funeral supplies",
+          "text": "funeral supplies"
+        },
+        {
+          "highlighted": "buy loose wood chips nearby",
+          "text": "buy loose wood chips nearby"
+        },
+        {
+          "highlighted": "rare earth",
+          "text": "rare earth"
+        },
+        {
+          "highlighted": "dormakaba",
+          "text": "dormakaba"
+        },
+        {
+          "highlighted": "electric motorcycles",
+          "text": "electric motorcycles"
+        },
+        {
+          "highlighted": "optics",
+          "text": "optics"
+        }
+      ],
+      "debugMode": true
+    }
+  }
+}
