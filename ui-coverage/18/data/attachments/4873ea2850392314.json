@@ -1,0 +1,76 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 170,
+  "headers": {
+    "date": "Tue, 24 Nov 2026 22:03:50 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "x-envoy-upstream-service-time": "35",
+    "access-control-allow-origin": "https://www.europages-staging.de",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "86fa9458-b97b-431f-9417-d14c11b08a8f",
+    "type": "browser",
+    "expires_at": "2026-11-25T00:03:45.022207Z",
+    "issued_at": "2026-11-24T22:03:45.022207Z",
+    "request_url": "https://www.europages-staging.de/self-service/registration/browser",
+    "active": "code",
+    "ui": {
+      "action": "/",
+      "method": "GET",
+      "nodes": [
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "csrf_token",
+            "type": "hidden",
+            "value": "Mg4J7Kz/GA28/GnguQNGjmTZj2q4kMgc1c/59vdTkYC3Ata6NDi1CQvgVbmuxCNL008H5TLw6LyoKZh7utXP1Q==",
+            "required": true,
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "a",
+          "group": "code",
+          "attributes": {
+            "href": "/",
+            "title": {
+              "id": 1070009,
+              "text": "Continue",
+              "type": "info"
+            },
+            "id": "continue",
+            "node_type": "a"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070009,
+              "text": "Continue",
+              "type": "info"
+            }
+          }
+        }
+      ],
+      "messages": [
+        {
+          "id": 1080002,
+          "text": "You successfully verified your email address.",
+          "type": "success"
+        }
+      ]
+    },
+    "state": "passed_challenge"
+  }
+}
