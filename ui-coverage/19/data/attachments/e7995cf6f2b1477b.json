@@ -1,0 +1,77 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 667,
+  "headers": {
+    "date": "Wed, 25 Nov 2026 22:03:49 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "set-cookie": "***",
+    "x-envoy-upstream-service-time": "559",
+    "access-control-allow-origin": "https://www.europages-staging.de",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "identity": {
+      "id": "f294db22-140c-4774-8d46-5ce8a9842687",
+      "schema_id": "v2",
+      "schema_url": "https://www.europages-staging.de/.ory/kratos/schemas/djI",
+      "state": "active",
+      "state_changed_at": "2026-11-25T22:03:48.869873451Z",
+      "traits": {
+        "email": "test+17956442278413001@automation.com",
+        "profile_registration": {
+          "given_name": "QA",
+          "surname": "ApiTest",
+          "salutation": "mr",
+          "preferred_language": "en",
+          "country_code": "GB",
+          "phone": "+49 - 1701234567"
+        }
+      },
+      "verifiable_addresses": [
+        {
+          "id": "6f4906d8-d41d-4c0d-b607-98f821cddd5e",
+          "value": "test+17956442278413001@automation.com",
+          "verified": false,
+          "via": "email",
+          "status": "sent",
+          "created_at": "2026-11-25T22:03:48.880775Z",
+          "updated_at": "2026-11-25T22:03:48.880775Z"
+        }
+      ],
+      "recovery_addresses": [
+        {
+          "id": "0e0d58bc-6cf2-49bb-b642-7a9803547ac2",
+          "value": "test+17956442278413001@automation.com",
+          "via": "email",
+          "created_at": "2026-11-25T22:03:48.886356Z",
+          "updated_at": "2026-11-25T22:03:48.886356Z"
+        }
+      ],
+      "metadata_public": null,
+      "created_at": "2026-11-25T22:03:48.87256Z",
+      "updated_at": "2026-11-25T22:03:48.87256Z",
+      "organization_id": null
+    },
+    "continue_with": [
+      {
+        "action": "redirect_browser_to",
+        "redirect_browser_to": "/"
+      },
+      {
+        "action": "show_verification_ui",
+        "flow": {
+          "id": "6ebd5612-e50f-4d3f-ab73-44131927d2ab",
+          "verifiable_address": "test+17956442278413001@automation.com",
+          "url": "/.ory/backend/self-service/verification/browser/ui?flow=6ebd5612-e50f-4d3f-ab73-44131927d2ab"
+        }
+      }
+    ]
+  }
+}
