@@ -1,0 +1,117 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 580,
+  "headers": {
+    "date": "Wed, 25 Nov 2026 02:13:18 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "traceid": "21038c2217955727980718214e0d11",
+    "set-cookie": "***",
+    "requestid": "21039ef1mweowuw2-166462514",
+    "x-requestid": "21039ef1mweowuw2-166462514",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.termRecommend-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "content-encoding": "gzip",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "21038c2217955727980718214e0d11",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "11",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "12",
+    "timing-allow-origin": "*",
+    "eagleid": "21038c2217955727980718214e0d11",
+    "server-timing": "rt;dur=0.012,eagleid;desc=21038c2217955727980718214e0d11,brt;dur=11",
+    "x-user-traffic": "external"
+  },
+  "body": {
+    "success": true,
+    "model": {
+      "engineTime": 5,
+      "results": [
+        {
+          "highlighted": "victoria secrets",
+          "text": "victoria secrets"
+        },
+        {
+          "highlighted": "woodworking machines",
+          "text": "woodworking machines"
+        },
+        {
+          "highlighted": "baby foods",
+          "text": "baby foods"
+        },
+        {
+          "highlighted": "duvet",
+          "text": "duvet"
+        },
+        {
+          "highlighted": "household goods",
+          "text": "household goods"
+        },
+        {
+          "highlighted": "car seats",
+          "text": "car seats"
+        },
+        {
+          "highlighted": "balcony railing",
+          "text": "balcony railing"
+        },
+        {
+          "highlighted": "natural wigs",
+          "text": "natural wigs"
+        },
+        {
+          "highlighted": "oxygen",
+          "text": "oxygen"
+        },
+        {
+          "highlighted": "frozen pizza",
+          "text": "frozen pizza"
+        },
+        {
+          "highlighted": "candle jar",
+          "text": "candle jar"
+        },
+        {
+          "highlighted": "funeral supplies",
+          "text": "funeral supplies"
+        },
+        {
+          "highlighted": "spare parts for trucks",
+          "text": "spare parts for trucks"
+        },
+        {
+          "highlighted": "fodder and straw",
+          "text": "fodder and straw"
+        },
+        {
+          "highlighted": "security services",
+          "text": "security services"
+        },
+        {
+          "highlighted": "stainless steel tube",
+          "text": "stainless steel tube"
+        },
+        {
+          "highlighted": "electric motorcycles",
+          "text": "electric motorcycles"
+        },
+        {
+          "highlighted": "optics",
+          "text": "optics"
+        }
+      ],
+      "debugMode": false
+    }
+  }
+}

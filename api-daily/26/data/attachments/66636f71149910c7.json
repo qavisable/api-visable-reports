@@ -1,0 +1,129 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 727,
+  "headers": {
+    "date": "Wed, 25 Nov 2026 02:13:16 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "traceid": "21038f2b17955727960984717e0d1f",
+    "set-cookie": "***",
+    "requestid": "210398b8mweugqhq-164882823",
+    "x-requestid": "210398b8mweugqhq-164882823",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.termRecommend-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "content-encoding": "gzip",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "21038f2b17955727960984717e0d1f",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "14",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "15",
+    "timing-allow-origin": "*",
+    "eagleid": "21038f2b17955727960984717e0d1f",
+    "server-timing": "rt;dur=0.015,eagleid;desc=21038f2b17955727960984717e0d1f,brt;dur=14",
+    "x-user-traffic": "external"
+  },
+  "body": {
+    "success": true,
+    "model": {
+      "engineTime": 6,
+      "debugInfo": {
+        "country": "",
+        "traceInfoId": "26e37f02-4cda-4aac-968a-80aca1721100",
+        "loginId": "",
+        "rLabAppId": "com.alibaba.icbu.rlabservice.RLabAppId@e9ece3cd",
+        "utdid": "ai-search-exp",
+        "siteId": "wlw",
+        "language": "en",
+        "rLabSuccess": true,
+        "platform": "pc",
+        "rLabResultId": "f651edc0510c11aeaf22979afefc930d"
+      },
+      "results": [
+        {
+          "highlighted": "victoria secrets",
+          "text": "victoria secrets"
+        },
+        {
+          "highlighted": "woodworking machines",
+          "text": "woodworking machines"
+        },
+        {
+          "highlighted": "baby foods",
+          "text": "baby foods"
+        },
+        {
+          "highlighted": "duvet",
+          "text": "duvet"
+        },
+        {
+          "highlighted": "household goods",
+          "text": "household goods"
+        },
+        {
+          "highlighted": "car seats",
+          "text": "car seats"
+        },
+        {
+          "highlighted": "balcony railing",
+          "text": "balcony railing"
+        },
+        {
+          "highlighted": "natural wigs",
+          "text": "natural wigs"
+        },
+        {
+          "highlighted": "oxygen",
+          "text": "oxygen"
+        },
+        {
+          "highlighted": "frozen pizza",
+          "text": "frozen pizza"
+        },
+        {
+          "highlighted": "candle jar",
+          "text": "candle jar"
+        },
+        {
+          "highlighted": "funeral supplies",
+          "text": "funeral supplies"
+        },
+        {
+          "highlighted": "spare parts for trucks",
+          "text": "spare parts for trucks"
+        },
+        {
+          "highlighted": "fodder and straw",
+          "text": "fodder and straw"
+        },
+        {
+          "highlighted": "security services",
+          "text": "security services"
+        },
+        {
+          "highlighted": "stainless steel tube",
+          "text": "stainless steel tube"
+        },
+        {
+          "highlighted": "electric motorcycles",
+          "text": "electric motorcycles"
+        },
+        {
+          "highlighted": "optics",
+          "text": "optics"
+        }
+      ],
+      "debugMode": true
+    }
+  }
+}

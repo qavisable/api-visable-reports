@@ -1,0 +1,85 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 151,
+  "headers": {
+    "date": "Wed, 25 Nov 2026 02:13:30 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "x-kratos-authenticated-identity-id": "4bdfe989-b21c-40ad-9723-3c0b68235358",
+    "x-envoy-upstream-service-time": "9",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "5884228a-ed3d-44a6-a67b-6469a5db8b0d",
+    "active": true,
+    "expires_at": "2026-12-25T02:13:30.351813Z",
+    "authenticated_at": "2026-11-25T02:13:30.351813Z",
+    "authenticator_assurance_level": "aal1",
+    "authentication_methods": [
+      {
+        "method": "password",
+        "aal": "aal1",
+        "completed_at": "2026-11-25T02:13:30.351600522Z"
+      }
+    ],
+    "issued_at": "2026-11-25T02:13:30.351813Z",
+    "identity": {
+      "id": "4bdfe989-b21c-40ad-9723-3c0b68235358",
+      "schema_id": "v2",
+      "schema_url": "https://www.wlw-staging.de/.ory/kratos/schemas/djI",
+      "state": "active",
+      "state_changed_at": "2026-11-25T02:13:21.549312Z",
+      "traits": {
+        "email": "test+17955728005741401@automation.com",
+        "profile_registration": {
+          "phone": "+49 - 1701234567",
+          "surname": "ApiTest",
+          "given_name": "QA",
+          "salutation": "mr",
+          "country_code": "DE",
+          "preferred_language": "en"
+        }
+      },
+      "verifiable_addresses": [
+        {
+          "id": "6ce3831e-d6e9-4963-8bf0-b811c234da58",
+          "value": "test+17955728005741401@automation.com",
+          "verified": true,
+          "via": "email",
+          "status": "completed",
+          "verified_at": "2026-11-25T02:13:29.254751Z",
+          "created_at": "2026-11-25T02:13:21.565273Z",
+          "updated_at": "2026-11-25T02:13:21.565273Z"
+        }
+      ],
+      "recovery_addresses": [
+        {
+          "id": "0167f480-060e-479e-a082-e340e2f23096",
+          "value": "test+17955728005741401@automation.com",
+          "via": "email",
+          "created_at": "2026-11-25T02:13:21.578051Z",
+          "updated_at": "2026-11-25T02:13:21.578051Z"
+        }
+      ],
+      "metadata_public": null,
+      "created_at": "2026-11-25T02:13:21.552092Z",
+      "updated_at": "2026-11-25T02:13:21.552092Z",
+      "organization_id": null
+    },
+    "devices": [
+      {
+        "id": "07a25ca7-a53a-4f79-b5ac-4d19b65c43bd",
+        "ip_address": "57.151.143.180",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+        "location": ""
+      }
+    ]
+  }
+}
