@@ -1,0 +1,293 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 200,
+  "headers": {
+    "date": "Thu, 26 Nov 2026 22:05:24 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "set-cookie": "***",
+    "x-envoy-upstream-service-time": "11",
+    "access-control-allow-origin": "https://www.europages-staging.de",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "2dac01b4-e77d-4a5f-b589-20ed46bd535f",
+    "organization_id": null,
+    "type": "browser",
+    "expires_at": "2026-11-27T00:05:24.37763867Z",
+    "issued_at": "2026-11-26T22:05:24.37763867Z",
+    "request_url": "https://www.europages-staging.de/self-service/login/browser",
+    "ui": {
+      "action": "https://www.europages-staging.de/.ory/kratos/self-service/login?flow=2dac01b4-e77d-4a5f-b589-20ed46bd535f",
+      "method": "POST",
+      "nodes": [
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "alibaba",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010002,
+              "text": "Sign in with alibaba",
+              "type": "info",
+              "context": {
+                "provider": "alibaba",
+                "provider_id": "alibaba"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "apple",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010002,
+              "text": "Sign in with apple",
+              "type": "info",
+              "context": {
+                "provider": "apple",
+                "provider_id": "apple"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "google",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010002,
+              "text": "Sign in with google",
+              "type": "info",
+              "context": {
+                "provider": "google",
+                "provider_id": "google"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "oidc",
+          "attributes": {
+            "name": "provider",
+            "type": "submit",
+            "value": "internal",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010002,
+              "text": "Sign in with internal",
+              "type": "info",
+              "context": {
+                "provider": "internal",
+                "provider_id": "internal"
+              }
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "csrf_token",
+            "type": "hidden",
+            "value": "BRBIPg8GnF635StBODhrwtIxru2Eam65zk72eGTGyhWeG6ZhKGexW0JosOoMwvgR4UoIZClGf6lqM5qVJz8WEQ==",
+            "required": true,
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "default",
+          "attributes": {
+            "name": "identifier",
+            "type": "text",
+            "value": "",
+            "required": true,
+            "autocomplete": "username webauthn",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070002,
+              "text": "E-Mail",
+              "type": "info",
+              "context": {
+                "name": "traits.email",
+                "title": "E-Mail"
+              }
+            }
+          }
+        },
+        {
+          "type": "script",
+          "group": "webauthn",
+          "attributes": {
+            "src": "https://www.europages-staging.de/.ory/kratos/.well-known/ory/webauthn.js",
+            "async": true,
+            "referrerpolicy": "no-referrer",
+            "crossorigin": "anonymous",
+            "integrity": "sha512-Dg0gN3fy+JoKxRp9Zda/4KYn3SlMdaKjs3fK5g6nDVQ/CVakD1dfMQyvRtJeiAtzSMEFviJbBLcVSrsBPGsFBA==",
+            "type": "text/javascript",
+            "id": "webauthn_script",
+            "nonce": "5a9a4288-9953-47a5-bb04-43899c011ee9",
+            "node_type": "script"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "passkey",
+          "attributes": {
+            "name": "passkey_login_trigger",
+            "type": "button",
+            "value": "",
+            "disabled": false,
+            "onclick": "window.oryPasskeyLogin()",
+            "onclickTrigger": "oryPasskeyLogin",
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010021,
+              "text": "Sign in with passkey",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "passkey",
+          "attributes": {
+            "name": "passkey_login",
+            "type": "hidden",
+            "disabled": false,
+            "onload": "window.oryPasskeyLoginAutocompleteInit()",
+            "onloadTrigger": "oryPasskeyLoginAutocompleteInit",
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "passkey",
+          "attributes": {
+            "name": "passkey_challenge",
+            "type": "hidden",
+            "value": "{\"publicKey\":{\"challenge\":\"hf5bcTOGFD_3zXh1O2PEeLcPF9Dccy-Cj-WOS7pFCUI\",\"timeout\":300000,\"rpId\":\"www.europages-staging.de\",\"userVerification\":\"preferred\"}}",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {}
+        },
+        {
+          "type": "input",
+          "group": "code",
+          "attributes": {
+            "name": "method",
+            "type": "submit",
+            "value": "code",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010015,
+              "text": "Send sign in code",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "password",
+          "attributes": {
+            "name": "password",
+            "type": "password",
+            "required": true,
+            "autocomplete": "current-password",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1070001,
+              "text": "Password",
+              "type": "info"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "group": "password",
+          "attributes": {
+            "name": "method",
+            "type": "submit",
+            "value": "password",
+            "disabled": false,
+            "node_type": "input"
+          },
+          "messages": [],
+          "meta": {
+            "label": {
+              "id": 1010022,
+              "text": "Sign in with password",
+              "type": "info"
+            }
+          }
+        }
+      ]
+    },
+    "created_at": "2026-11-26T22:05:24.38321Z",
+    "updated_at": "2026-11-26T22:05:24.38321Z",
+    "refresh": false,
+    "requested_aal": "aal1",
+    "state": "choose_method"
+  }
+}
