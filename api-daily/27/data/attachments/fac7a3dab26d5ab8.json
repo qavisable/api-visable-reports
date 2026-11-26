@@ -1,0 +1,15 @@
+{
+  "method": "GET",
+  "url": "https://www.europages-staging.de/search-api-proxy/pre.aiSearch.supplierTextSearch?query=+++&language=en&site=ep&country=GB&pageSize=30&ufsSessionId=***&terminalType=pc&topLevelDomain=co.uk",
+  "durationMs": 686,
+  "params": {
+    "query": "   ",
+    "language": "en",
+    "site": "ep",
+    "country": "GB",
+    "pageSize": "30",
+    "ufsSessionId": "***",
+    "terminalType": "pc",
+    "topLevelDomain": "co.uk"
+  }
+}

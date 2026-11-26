@@ -1,0 +1,129 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 505,
+  "headers": {
+    "date": "Thu, 26 Nov 2026 02:12:59 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "traceid": "21038f2b17956591793491226e0eec",
+    "set-cookie": "***",
+    "requestid": "210398b8mweugqhq-179708695",
+    "x-requestid": "210398b8mweugqhq-179708695",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.termRecommend-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "content-encoding": "gzip",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "21038f2b17956591793491226e0eec",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "13",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "14",
+    "timing-allow-origin": "*",
+    "eagleid": "21038f2b17956591793491226e0eec",
+    "server-timing": "rt;dur=0.014,eagleid;desc=21038f2b17956591793491226e0eec,brt;dur=13",
+    "x-user-traffic": "external"
+  },
+  "body": {
+    "success": true,
+    "model": {
+      "engineTime": 6,
+      "debugInfo": {
+        "country": "",
+        "traceInfoId": "7ab66c4c-b5ac-4d69-8e07-4f43e0c7cdbc",
+        "loginId": "",
+        "rLabAppId": "com.alibaba.icbu.rlabservice.RLabAppId@e9ece3cd",
+        "utdid": "ai-search-exp",
+        "siteId": "wlw",
+        "language": "en",
+        "rLabSuccess": true,
+        "platform": "pc",
+        "rLabResultId": "92e42c11911b13529788a319ef5dc53a"
+      },
+      "results": [
+        {
+          "highlighted": "sea fish",
+          "text": "sea fish"
+        },
+        {
+          "highlighted": "playground",
+          "text": "playground"
+        },
+        {
+          "highlighted": "international recruitment",
+          "text": "international recruitment"
+        },
+        {
+          "highlighted": "stainless steel cup",
+          "text": "stainless steel cup"
+        },
+        {
+          "highlighted": "diesel generators",
+          "text": "diesel generators"
+        },
+        {
+          "highlighted": "water filter",
+          "text": "water filter"
+        },
+        {
+          "highlighted": "ball valve",
+          "text": "ball valve"
+        },
+        {
+          "highlighted": "pcb manufacturer",
+          "text": "pcb manufacturer"
+        },
+        {
+          "highlighted": "accessories for pets",
+          "text": "accessories for pets"
+        },
+        {
+          "highlighted": "standing fan",
+          "text": "standing fan"
+        },
+        {
+          "highlighted": "heater",
+          "text": "heater"
+        },
+        {
+          "highlighted": "optical fiber",
+          "text": "optical fiber"
+        },
+        {
+          "highlighted": "pool",
+          "text": "pool"
+        },
+        {
+          "highlighted": "offset printing machines",
+          "text": "offset printing machines"
+        },
+        {
+          "highlighted": "lead acid battery",
+          "text": "lead acid battery"
+        },
+        {
+          "highlighted": "bathroom mirror",
+          "text": "bathroom mirror"
+        },
+        {
+          "highlighted": "drinks   import export",
+          "text": "drinks   import export"
+        },
+        {
+          "highlighted": "optical",
+          "text": "optical"
+        }
+      ],
+      "debugMode": true
+    }
+  }
+}

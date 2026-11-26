@@ -1,0 +1,117 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 650,
+  "headers": {
+    "date": "Thu, 26 Nov 2026 02:13:01 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "traceid": "21613e1717956591814792637e0c65",
+    "set-cookie": "***",
+    "requestid": "0b1583e8mwbrur4w-213036253",
+    "x-requestid": "0b1583e8mwbrur4w-213036253",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.termRecommend-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "content-encoding": "gzip",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "21613e1717956591814792637e0c65",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "14",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "15",
+    "timing-allow-origin": "*",
+    "eagleid": "21613e1717956591814792637e0c65",
+    "server-timing": "rt;dur=0.015,eagleid;desc=21613e1717956591814792637e0c65,brt;dur=14",
+    "x-user-traffic": "external"
+  },
+  "body": {
+    "success": true,
+    "model": {
+      "engineTime": 6,
+      "results": [
+        {
+          "highlighted": "sea fish",
+          "text": "sea fish"
+        },
+        {
+          "highlighted": "playground",
+          "text": "playground"
+        },
+        {
+          "highlighted": "international recruitment",
+          "text": "international recruitment"
+        },
+        {
+          "highlighted": "stainless steel cup",
+          "text": "stainless steel cup"
+        },
+        {
+          "highlighted": "diesel generators",
+          "text": "diesel generators"
+        },
+        {
+          "highlighted": "water filter",
+          "text": "water filter"
+        },
+        {
+          "highlighted": "ball valve",
+          "text": "ball valve"
+        },
+        {
+          "highlighted": "pcb manufacturer",
+          "text": "pcb manufacturer"
+        },
+        {
+          "highlighted": "accessories for pets",
+          "text": "accessories for pets"
+        },
+        {
+          "highlighted": "standing fan",
+          "text": "standing fan"
+        },
+        {
+          "highlighted": "heater",
+          "text": "heater"
+        },
+        {
+          "highlighted": "optical fiber",
+          "text": "optical fiber"
+        },
+        {
+          "highlighted": "pool",
+          "text": "pool"
+        },
+        {
+          "highlighted": "offset printing machines",
+          "text": "offset printing machines"
+        },
+        {
+          "highlighted": "lead acid battery",
+          "text": "lead acid battery"
+        },
+        {
+          "highlighted": "bathroom mirror",
+          "text": "bathroom mirror"
+        },
+        {
+          "highlighted": "drinks   import export",
+          "text": "drinks   import export"
+        },
+        {
+          "highlighted": "optical",
+          "text": "optical"
+        }
+      ],
+      "debugMode": false
+    }
+  }
+}
