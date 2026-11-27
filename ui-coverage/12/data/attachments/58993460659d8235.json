@@ -1,8 +1,0 @@
-{
-  "method": "GET",
-  "url": "https://www.wlw-staging.de/en/verification?flow=72469c41-40d5-424f-84bf-842f01a03fb8",
-  "durationMs": 155,
-  "headers": {
-    "Accept": "text/html"
-  }
-}
