@@ -1,0 +1,17 @@
+{
+  "method": "GET",
+  "url": "https://www.europages-staging.de/search-api-proxy/pre.aiSearch.termRecommend?searchText=cnc&language=en&platform=pc&topLevelDomain=co.uk&site=ep&country=GB&ufsSessionId=***&terminalType=pc&debugFlag=true&useMock=true",
+  "durationMs": 440,
+  "params": {
+    "searchText": "cnc",
+    "language": "en",
+    "platform": "pc",
+    "topLevelDomain": "co.uk",
+    "site": "ep",
+    "country": "GB",
+    "ufsSessionId": "***",
+    "terminalType": "pc",
+    "debugFlag": "true",
+    "useMock": "true"
+  }
+}

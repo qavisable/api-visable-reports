@@ -1,0 +1,117 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 491,
+  "headers": {
+    "date": "Fri, 27 Nov 2026 09:15:05 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "traceid": "21038c2217957709056146428e0f83",
+    "set-cookie": "***",
+    "requestid": "210386eamwbs4b8w-230752844",
+    "x-requestid": "210386eamwbs4b8w-230752844",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.termRecommend-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "content-encoding": "gzip",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "21038c2217957709056146428e0f83",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "11",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "12",
+    "timing-allow-origin": "*",
+    "eagleid": "21038c2217957709056146428e0f83",
+    "server-timing": "rt;dur=0.012,eagleid;desc=21038c2217957709056146428e0f83,brt;dur=11",
+    "x-user-traffic": "external"
+  },
+  "body": {
+    "success": true,
+    "model": {
+      "engineTime": 5,
+      "results": [
+        {
+          "highlighted": "cbd cartridge",
+          "text": "cbd cartridge"
+        },
+        {
+          "highlighted": "mini perfume",
+          "text": "mini perfume"
+        },
+        {
+          "highlighted": "wooden briquettes",
+          "text": "wooden briquettes"
+        },
+        {
+          "highlighted": "ball valve",
+          "text": "ball valve"
+        },
+        {
+          "highlighted": "woodworking machines",
+          "text": "woodworking machines"
+        },
+        {
+          "highlighted": "electronic products",
+          "text": "electronic products"
+        },
+        {
+          "highlighted": "water filter",
+          "text": "water filter"
+        },
+        {
+          "highlighted": "entlackung",
+          "text": "entlackung"
+        },
+        {
+          "highlighted": "straw hat",
+          "text": "straw hat"
+        },
+        {
+          "highlighted": "ecoflow",
+          "text": "ecoflow"
+        },
+        {
+          "highlighted": "costume jewelry",
+          "text": "costume jewelry"
+        },
+        {
+          "highlighted": "handheld fan",
+          "text": "handheld fan"
+        },
+        {
+          "highlighted": "heater",
+          "text": "heater"
+        },
+        {
+          "highlighted": "funeral supplies",
+          "text": "funeral supplies"
+        },
+        {
+          "highlighted": "optical fiber",
+          "text": "optical fiber"
+        },
+        {
+          "highlighted": "spare parts for trucks",
+          "text": "spare parts for trucks"
+        },
+        {
+          "highlighted": "heating elements",
+          "text": "heating elements"
+        },
+        {
+          "highlighted": "copper cathode",
+          "text": "copper cathode"
+        }
+      ],
+      "debugMode": false
+    }
+  }
+}

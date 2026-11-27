@@ -1,0 +1,21 @@
+{
+  "status": 400,
+  "statusText": "",
+  "durationMs": 482,
+  "headers": {
+    "date": "Fri, 27 Nov 2026 09:15:32 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE"
+  },
+  "body": {
+    "timestamp": "2026-11-27T09:15:32.349+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/background/filter-panel-links"
+  }
+}
