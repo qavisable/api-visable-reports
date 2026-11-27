@@ -1,0 +1,39 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 543,
+  "headers": {
+    "date": "Fri, 27 Nov 2026 09:10:07 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "content-length": "99",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "traceid": "21038f2b17957706078403345e0e04",
+    "set-cookie": "***",
+    "requestid": "0b0fec1amwev48ro-197282330",
+    "x-requestid": "0b0fec1amwev48ro-197282330",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.supplierTextSearch-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "21038f2b17957706078403345e0e04",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "5",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "6",
+    "timing-allow-origin": "*",
+    "eagleid": "21038f2b17957706078403345e0e04",
+    "server-timing": "rt;dur=0.006,eagleid;desc=21038f2b17957706078403345e0e04,brt;dur=5",
+    "x-user-traffic": "external"
+  },
+  "body": {
+    "success": false,
+    "msgInfo": "query and imageUrl cannot be both empty",
+    "msgCode": "ILLEGAL_ARGUMENTS"
+  }
+}
