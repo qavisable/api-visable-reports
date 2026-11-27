@@ -1,0 +1,16 @@
+{
+  "method": "GET",
+  "url": "https://www.wlw-staging.de/search-api-proxy/pre.aiSearch.supplierTextSearch?query=&language=en&site=wlw&country=DE&pageSize=30&ufsSessionId=***&terminalType=pc&topLevelDomain=de&imageUrl=",
+  "durationMs": 588,
+  "params": {
+    "query": "",
+    "language": "en",
+    "site": "wlw",
+    "country": "DE",
+    "pageSize": "30",
+    "ufsSessionId": "***",
+    "terminalType": "pc",
+    "topLevelDomain": "de",
+    "imageUrl": ""
+  }
+}
