@@ -1,0 +1,264 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 1038,
+  "headers": {
+    "date": "Fri, 27 Nov 2026 09:32:41 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,PUT,POST,PATCH,OPTIONS,HEAD,DELETE",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "code": 200,
+    "success": true,
+    "msg": null,
+    "data": {
+      "algBts": null,
+      "returnCount": 0,
+      "offerInfo": null,
+      "translateTime": 0,
+      "pageSize": 0,
+      "paging": null,
+      "debugInfo": null,
+      "filters": null,
+      "offerIds": null,
+      "totalCount": 0,
+      "products": null,
+      "serviceLatency": null,
+      "pageIndex": 0,
+      "fxbCategoryId": 0,
+      "traceinfoId": null,
+      "tppBuckets": null,
+      "engineTime": 0,
+      "keyword": null,
+      "newPriceFilter": null,
+      "atmosphereTime": 0,
+      "cpvCategory": null,
+      "frontAbTestPrice": null,
+      "frontAbTestJsonString": null,
+      "meta": {
+        "keywords": null,
+        "metaKeywords": null,
+        "title": "CNC nicht verfügbar – Alternativen entdecken",
+        "site": null,
+        "description": "Dieses Produkt ist nicht mehr verfügbar. Entdecken Sie Tausende weiterer Produktangebote und verifizierter Lieferanten auf CNC.",
+        "canonicalUrl": "https://www.wlw.de/de/showroom/cnc",
+        "h1": "CNC — Alternative Produkte und Lieferanten entdecken",
+        "alternates": null,
+        "index": true,
+        "follow": true
+      },
+      "internalLinks": [],
+      "relatedKeywords": [
+        {
+          "internalLinkUrl": "/de/showroom/deutsche-post-dhl-kundenservice-telefonnummer",
+          "internalLinkName": "deutsche post dhl kundenservice telefonnummer",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/zigarettenautomaten-in-meiner-naehe",
+          "internalLinkName": "zigarettenautomaten in meiner nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/kassensysteme-fuer-kommunale-verwaltungen",
+          "internalLinkName": "kassensysteme fuer kommunale verwaltungen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/arbeitnehmer-online-datev-login",
+          "internalLinkName": "arbeitnehmer online datev login",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/wo-kann-man-serioes-muenzen-verkaufen",
+          "internalLinkName": "wo kann man seriös münzen verkaufen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/gruenschnitt-entsorgen-in-meiner-naehe",
+          "internalLinkName": "grünschnitt entsorgen in meiner nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/bio-fleisch-vom-bauern-in-der-naehe",
+          "internalLinkName": "bio fleisch vom bauern in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/moebel-outlet-holland-venlo",
+          "internalLinkName": "möbel outlet holland venlo",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/miele-kundendienst-in-meiner-naehe",
+          "internalLinkName": "miele kundendienst in meiner nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/vodafone-hotline-nummer",
+          "internalLinkName": "vodafone hotline nummer",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/dixi-klo-kaufen-preis",
+          "internalLinkName": "dixi klo kaufen preis",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/kostenlose-altreifenentsorgung",
+          "internalLinkName": "kostenlose altreifenentsorgung",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/whirlpool-kaufen-outdoor",
+          "internalLinkName": "whirlpool kaufen outdoor",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/feuerloescher-wartung-in-der-naehe",
+          "internalLinkName": "feuerlöscher wartung in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/mobiler-wlan-router-mit-sim-karte-ohne-vertrag-media-markt",
+          "internalLinkName": "mobiler wlan router mit sim karte ohne vertrag media markt",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/holzpellets-haendler-in-der-naehe",
+          "internalLinkName": "holzpellets händler in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/bestueckung-von-leiterplatten",
+          "internalLinkName": "bestueckung von leiterplatten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/bettfedernreinigung",
+          "internalLinkName": "bettfedernreinigung",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/spanferkel",
+          "internalLinkName": "spanferkel",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/nuernberger-lebkuchen-werksverkauf",
+          "internalLinkName": "nürnberger lebkuchen werksverkauf",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/vermietung-von-bautrocknungsgeraeten",
+          "internalLinkName": "vermietung von bautrocknungsgeraeten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/dhl-kundenservice-telefonnummer-kostenlos",
+          "internalLinkName": "dhl kundenservice telefonnummer kostenlos",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/kleinen-bagger-mieten-kosten",
+          "internalLinkName": "kleinen bagger mieten kosten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/garagentor-hoermann",
+          "internalLinkName": "garagentor hörmann",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/gebraucht-container-kaufen",
+          "internalLinkName": "gebraucht container kaufen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/anhaenger-auto-mieten",
+          "internalLinkName": "anhänger auto mieten",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/software-fuer-architekten-und-bauingenieure",
+          "internalLinkName": "software fuer architekten und bauingenieure",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/aktenvernichtung-vor-ort",
+          "internalLinkName": "aktenvernichtung vor ort",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/gasflasche-11-kg-kaufen-in-der-naehe",
+          "internalLinkName": "gasflasche 11 kg kaufen in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/wo-kann-ich-alte-muenzen-schaetzen-lassen",
+          "internalLinkName": "wo kann ich alte münzen schätzen lassen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/holzbalken-kaufen-in-der-naehe",
+          "internalLinkName": "holzbalken kaufen in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/frischen-fisch-kaufen-in-der-naehe",
+          "internalLinkName": "frischen fisch kaufen in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/cnc-drehteile",
+          "internalLinkName": "cnc drehteile",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/computerreparatur-in-meiner-naehe",
+          "internalLinkName": "computerreparatur in meiner nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/kartonagen",
+          "internalLinkName": "kartonagen",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/automatisierungstechnik",
+          "internalLinkName": "automatisierungstechnik",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/bosch-hausgeraete-kundendienst-in-der-naehe",
+          "internalLinkName": "bosch hausgeräte kundendienst in der nähe",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/suche/kurierdienste",
+          "internalLinkName": "kurierdienste",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/hhc-vape-tankstelle",
+          "internalLinkName": "hhc vape tankstelle",
+          "ahref": true
+        },
+        {
+          "internalLinkUrl": "/de/showroom/obi-bautrockner-mieten",
+          "internalLinkName": "obi bautrockner mieten",
+          "ahref": true
+        }
+      ],
+      "learnMoreDescriptionSimple": null,
+      "learnMoreDescriptionComplex": null,
+      "cache": false
+    }
+  }
+}
