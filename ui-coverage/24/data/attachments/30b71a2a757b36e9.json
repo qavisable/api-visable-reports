@@ -1,0 +1,81 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "durationMs": 157,
+  "headers": {
+    "date": "Fri, 27 Nov 2026 22:02:43 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding, Cookie",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "x-kratos-authenticated-identity-id": "26632da8-0f58-4d2a-bc59-bb28ab4597f7",
+    "x-envoy-upstream-service-time": "6",
+    "strict-transport-security": "max-age=31536000",
+    "x-user-traffic": "external",
+    "content-encoding": "gzip"
+  },
+  "body": {
+    "id": "a2d4a194-0529-4b7c-b926-2aa82c85fb81",
+    "active": true,
+    "expires_at": "2026-12-27T22:02:43.108387Z",
+    "authenticated_at": "2026-11-27T22:02:43.108387Z",
+    "authenticator_assurance_level": "aal1",
+    "authentication_methods": [
+      {
+        "method": "password",
+        "aal": "aal1",
+        "completed_at": "2026-11-27T22:02:43.108228086Z"
+      }
+    ],
+    "issued_at": "2026-11-27T22:02:43.108387Z",
+    "identity": {
+      "id": "26632da8-0f58-4d2a-bc59-bb28ab4597f7",
+      "schema_id": "v2",
+      "schema_url": "https://www.wlw-staging.de/.ory/kratos/schemas/djI",
+      "state": "active",
+      "state_changed_at": "2024-09-11T12:02:38.409415Z",
+      "traits": {
+        "email": "test@account.com",
+        "profile_registration": {
+          "surname": "account",
+          "given_name": "purchaser"
+        }
+      },
+      "verifiable_addresses": [
+        {
+          "id": "89e32862-6c80-4bde-b84c-c3007f9acc03",
+          "value": "test@account.com",
+          "verified": true,
+          "via": "email",
+          "status": "completed",
+          "verified_at": "2026-05-28T08:23:16.656417Z",
+          "created_at": "2024-09-11T12:02:38.41527Z",
+          "updated_at": "2024-09-11T12:02:38.41527Z"
+        }
+      ],
+      "recovery_addresses": [
+        {
+          "id": "51092c9c-7b31-4936-9d8e-ac720baa4a44",
+          "value": "test@account.com",
+          "via": "email",
+          "created_at": "2024-09-11T12:02:38.4247Z",
+          "updated_at": "2024-09-11T12:02:38.4247Z"
+        }
+      ],
+      "metadata_public": null,
+      "created_at": "2024-09-11T12:02:38.410869Z",
+      "updated_at": "2026-05-28T08:23:38.820831Z",
+      "organization_id": null
+    },
+    "devices": [
+      {
+        "id": "3604c250-7844-49e5-b9d9-ed573ae27b36",
+        "ip_address": "172.182.226.22",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+        "location": ""
+      }
+    ]
+  }
+}
