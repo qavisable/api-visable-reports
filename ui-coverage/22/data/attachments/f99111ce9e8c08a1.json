@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "url": "https://www.europages-staging.de/.ory/kratos/self-service/login?flow=7c04e0c2-c666-43a4-ba62-2e94ed79d55a",
+  "durationMs": 164,
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.europages-staging.de",
+    "Referer": "https://www.europages-staging.de/en/login",
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "csrf_token": "***",
+    "method": "password",
+    "identifier": "anytherm.redaktion@gmail.com"
+  }
+}

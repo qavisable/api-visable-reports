@@ -1,0 +1,10 @@
+{
+  "method": "GET",
+  "url": "https://www.europages-staging.de/.ory/kratos/self-service/verification/flows?id=7a259343-9951-496c-9dfd-9c8d196d9cb2",
+  "durationMs": 156,
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.europages-staging.de",
+    "Referer": "https://www.europages-staging.de/en/verification"
+  }
+}

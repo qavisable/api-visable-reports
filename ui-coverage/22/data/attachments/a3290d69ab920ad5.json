@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "url": "https://www.europages-staging.de/.ory/kratos/self-service/verification?flow=8a6f7c1c-a650-4033-ad3c-42ba82dc57d8",
+  "durationMs": 180,
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.europages-staging.de",
+    "Referer": "https://www.europages-staging.de/en/verification",
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "csrf_token": "***",
+    "method": "code",
+    "code": "724292"
+  }
+}

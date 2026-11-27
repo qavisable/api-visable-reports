@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "url": "https://www.wlw-staging.de/.ory/kratos/self-service/verification?flow=5193d868-d4d0-427e-9c68-44abdf0430f2",
+  "durationMs": 211,
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.wlw-staging.de",
+    "Referer": "https://www.wlw-staging.de/en/verification",
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "csrf_token": "***",
+    "method": "code",
+    "code": "053415"
+  }
+}

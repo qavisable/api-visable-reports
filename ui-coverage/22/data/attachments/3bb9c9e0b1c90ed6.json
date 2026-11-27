@@ -1,0 +1,17 @@
+{
+  "method": "POST",
+  "url": "https://www.wlw-staging.de/.ory/kratos/self-service/login?flow=9582d0f4-edb9-46b7-a0a2-1ea73cb9a2f3",
+  "durationMs": 505,
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.wlw-staging.de",
+    "Referer": "https://www.wlw-staging.de/en/login",
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "csrf_token": "***",
+    "method": "password",
+    "identifier": "test@account.com",
+    "password": "***"
+  }
+}

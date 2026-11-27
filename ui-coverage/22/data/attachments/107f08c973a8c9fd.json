@@ -1,0 +1,25 @@
+{
+  "status": 401,
+  "statusText": "Unauthorized",
+  "durationMs": 165,
+  "headers": {
+    "date": "Fri, 27 Nov 2026 09:10:05 GMT",
+    "content-type": "application/json",
+    "content-length": "206",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "ory-error-id": "",
+    "vary": "Cookie",
+    "x-envoy-upstream-service-time": "10"
+  },
+  "body": {
+    "error": {
+      "code": 401,
+      "status": "Unauthorized",
+      "request": "60e2fb6a-be81-4e5e-b4fe-ca3aa7531ef9",
+      "reason": "No valid session credentials found in the request.",
+      "message": "The request could not be authorized"
+    }
+  }
+}

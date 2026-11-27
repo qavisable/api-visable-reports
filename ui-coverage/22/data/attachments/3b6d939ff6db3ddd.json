@@ -1,0 +1,8 @@
+{
+  "method": "GET",
+  "url": "https://www.europages-staging.de/en/verification?flow=7a259343-9951-496c-9dfd-9c8d196d9cb2",
+  "durationMs": 169,
+  "headers": {
+    "Accept": "text/html"
+  }
+}

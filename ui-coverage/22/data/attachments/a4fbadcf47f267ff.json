@@ -1,0 +1,17 @@
+{
+  "method": "POST",
+  "url": "https://www.wlw-staging.de/.ory/kratos/self-service/login?flow=0de5d37a-e8be-4686-8b0e-94e7df8e2518",
+  "durationMs": 1534,
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.wlw-staging.de",
+    "Referer": "https://www.wlw-staging.de/en/login",
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "csrf_token": "***",
+    "method": "password",
+    "identifier": "anytherm.redaktion@gmail.com",
+    "password": "***"
+  }
+}

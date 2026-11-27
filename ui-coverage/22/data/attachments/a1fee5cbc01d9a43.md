@@ -1,0 +1,181 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: ui/tests/search/ai-company-search-regression.spec.ts >> AI company search regression >> Company cards >> shows required elements on the first company card
+- Location: ui/tests/search/ai-company-search-regression.spec.ts:132:9
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByTestId('search-results').first()
+Expected: visible
+Timeout: 60000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" getByTestId('search-results').first() with timeout 60000ms
+  - waiting for getByTestId('search-results').first()
+
+```
+
+```yaml
+- heading "503 Service Temporarily Unavailable" [level=1]
+```
+
+# Test source
+
+```ts
+  1   | /** AI company search C-SERP — page load, reasoning panel, filters, company cards. */
+  2   | import { expect, type Locator, type Page } from '@playwright/test';
+  3   | import { aiCompanySearchDefaults } from '../../../config/ai-company-search';
+  4   | import { urlFor, type ProductFamily } from '../../../config/platforms';
+  5   | import {
+  6   |   dismissSerpOverlays,
+  7   |   dismissDeliveryModalIfPresent,
+  8   |   expectValidLink,
+  9   |   serpCompanyCards,
+  10  |   serpHeaderSearchInput,
+  11  |   serpHeaderSearchSubmit,
+  12  |   serpReasoningVisibleContent,
+  13  |   setAiSearchExperimentCookie,
+  14  |   visibleSerpReasoningToggle,
+  15  | } from './ai-search-helpers';
+  16  | import { SerpFilters } from './serp-filters';
+  17  | 
+  18  | export class AiCompanySearchPage {
+  19  |   private readonly filters: SerpFilters;
+  20  | 
+  21  |   constructor(
+  22  |     private readonly page: Page,
+  23  |     private readonly product: ProductFamily,
+  24  |   ) {
+  25  |     this.filters = new SerpFilters(page);
+  26  |   }
+  27  | 
+  28  |   cards(): Locator {
+  29  |     return serpCompanyCards(this.page);
+  30  |   }
+  31  | 
+  32  |   async open(query: string = aiCompanySearchDefaults(this.product).query): Promise<void> {
+  33  |     const { pagePath } = aiCompanySearchDefaults(this.product);
+  34  |     await setAiSearchExperimentCookie(this.page.context(), urlFor(this.product));
+  35  |     // The SERP keeps long-lived requests open, so `load` can hang for a minute-plus;
+  36  |     // `waitForReady` asserts the real readiness signals instead.
+  37  |     await this.page.goto(`${pagePath}?isPserpFirst=1&q=${encodeURIComponent(query)}`, {
+  38  |       waitUntil: 'domcontentloaded',
+  39  |     });
+  40  |     await this.waitForReady();
+  41  |   }
+  42  | 
+  43  |   async waitForReady(): Promise<void> {
+  44  |     await expect(this.page.getByTestId('loader')).toHaveCount(0, { timeout: 90_000 });
+> 45  |     await expect(this.page.getByTestId('search-results').first()).toBeVisible({
+      |                                                                   ^ Error: expect(locator).toBeVisible() failed
+  46  |       timeout: 60_000,
+  47  |     });
+  48  |     await dismissDeliveryModalIfPresent(this.page);
+  49  |     await expect(this.cards().first()).toBeVisible({ timeout: 90_000 });
+  50  |     await dismissSerpOverlays(this.page);
+  51  |   }
+  52  | 
+  53  |   async expectPageStructure(): Promise<void> {
+  54  |     await expect(this.page.getByTestId('header').first()).toBeAttached();
+  55  |     await expect(serpHeaderSearchInput(this.page)).toBeAttached();
+  56  |     await expect(this.page.getByTestId('search-results').first()).toBeVisible();
+  57  |   }
+  58  | 
+  59  |   /** The page owns its URL context, so specs do not read env paths or hosts. */
+  60  |   async expectPageUrl(): Promise<void> {
+  61  |     const { pagePath } = aiCompanySearchDefaults(this.product);
+  62  |     await expect(this.page).toHaveURL(new RegExp(pagePath));
+  63  |     expect(new URL(this.page.url()).host).toBe(new URL(urlFor(this.product)).host);
+  64  |   }
+  65  | 
+  66  |   async expectResults(minCount = 1): Promise<void> {
+  67  |     await expect(this.cards().nth(minCount - 1)).toBeAttached({ timeout: 30_000 });
+  68  |   }
+  69  | 
+  70  |   async expectCardVisible(index = 0): Promise<void> {
+  71  |     await expect(this.cards().nth(index)).toBeVisible();
+  72  |   }
+  73  | 
+  74  |   async expectUrlContainsQuery(query: string): Promise<void> {
+  75  |     await expect.poll(() => new URL(this.page.url()).searchParams.get('q')).toBe(query);
+  76  |   }
+  77  | 
+  78  |   async searchFromHeader(query: string): Promise<void> {
+  79  |     await serpHeaderSearchInput(this.page).fill(query);
+  80  |     await dismissSerpOverlays(this.page);
+  81  |     await serpHeaderSearchSubmit(this.page).click();
+  82  |     await expect(this.page).toHaveURL(/\/(suche|search|recherche)/);
+  83  |     await this.waitForReady();
+  84  |     await this.expectUrlContainsQuery(query);
+  85  |   }
+  86  | 
+  87  |   async expectTabsVisible(): Promise<void> {
+  88  |     await expect(this.page.getByTestId('companies-tab')).toBeVisible();
+  89  |     await expect(this.page.getByTestId('products-tab')).toBeVisible();
+  90  |   }
+  91  | 
+  92  |   async switchToProductTab(): Promise<void> {
+  93  |     await dismissSerpOverlays(this.page);
+  94  |     await this.page.getByTestId('products-tab').click({ force: true });
+  95  |     await expect(this.page).toHaveURL(/\/products/, { timeout: 30_000 });
+  96  |   }
+  97  | 
+  98  |   async expectBreadcrumbs(): Promise<void> {
+  99  |     const breadcrumbs = this.page.getByTestId('breadcrumbs').first();
+  100 |     await expect(breadcrumbs).toBeVisible();
+  101 |     await expect(breadcrumbs.locator('a').first()).toBeAttached();
+  102 |   }
+  103 | 
+  104 |   async expectPaginationIfPresent(): Promise<void> {
+  105 |     const pagination = this.page.getByTestId('pagination').first();
+  106 |     if ((await pagination.count()) === 0) {
+  107 |       return;
+  108 |     }
+  109 |     await expect(pagination).toBeVisible();
+  110 |   }
+  111 | 
+  112 |   async expectReasoningPanelExpandedIfPresent(): Promise<boolean> {
+  113 |     const toggle = await visibleSerpReasoningToggle(this.page);
+  114 |     if (!toggle) {
+  115 |       return false;
+  116 |     }
+  117 |     await dismissSerpOverlays(this.page);
+  118 |     await toggle.click({ force: true });
+  119 |     await expect(serpReasoningVisibleContent(this.page)).toBeVisible({ timeout: 15_000 });
+  120 |     return true;
+  121 |   }
+  122 | 
+  123 |   async expectReasoningPanelCycleIfPresent(): Promise<boolean> {
+  124 |     const toggle = await visibleSerpReasoningToggle(this.page);
+  125 |     if (!toggle) {
+  126 |       return false;
+  127 |     }
+  128 |     await dismissSerpOverlays(this.page);
+  129 |     await toggle.click({ force: true });
+  130 |     await expect(serpReasoningVisibleContent(this.page)).toBeVisible({ timeout: 15_000 });
+  131 |     await toggle.click({ force: true });
+  132 |     await expect(toggle).toBeVisible();
+  133 |     return true;
+  134 |   }
+  135 | 
+  136 |   async expectCompanyFilters(): Promise<void> {
+  137 |     await this.filters.expectCompanyFilters();
+  138 |   }
+  139 | 
+  140 |   async expectSortingVisible(): Promise<void> {
+  141 |     await this.filters.expectSortingVisible();
+  142 |   }
+  143 | 
+  144 |   async openSortingOptions(): Promise<void> {
+  145 |     await this.filters.openSortingOptions();
+```

@@ -1,0 +1,17 @@
+{
+  "method": "POST",
+  "url": "https://www.europages-staging.de/.ory/kratos/self-service/login?flow=2c609ff9-caa6-4589-9200-585a1a07e2fc",
+  "durationMs": 526,
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.europages-staging.de",
+    "Referer": "https://www.europages-staging.de/en/login",
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "csrf_token": "***",
+    "method": "password",
+    "identifier": "test+17957707345065974@automation.com",
+    "password": "***"
+  }
+}
