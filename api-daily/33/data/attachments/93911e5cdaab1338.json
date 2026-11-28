@@ -1,0 +1,117 @@
+{
+  "status": 200,
+  "statusText": "",
+  "durationMs": 519,
+  "headers": {
+    "date": "Sat, 28 Nov 2026 02:12:08 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "traceid": "2161383d17958319286286036e0e48",
+    "set-cookie": "***",
+    "requestid": "0b1583e8mwbrur4w-240998234",
+    "x-requestid": "0b1583e8mwbrur4w-240998234",
+    "x-apiid": "com.alibaba.v.buyer:pre.aiSearch.termRecommend-1",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "content-encoding": "gzip",
+    "ups-target-key": "deapi.alibaba.com.vipserver",
+    "x-protocol": "HTTP/1.1",
+    "eagleeye-traceid": "2161383d17958319286286036e0e48",
+    "strict-transport-security": "max-age=31536000, max-age=31536000",
+    "s-brt": "10",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "s-rt": "12",
+    "timing-allow-origin": "*",
+    "eagleid": "2161383d17958319286286036e0e48",
+    "server-timing": "rt;dur=0.012,eagleid;desc=2161383d17958319286286036e0e48,brt;dur=10",
+    "x-user-traffic": "external"
+  },
+  "body": {
+    "success": true,
+    "model": {
+      "engineTime": 5,
+      "results": [
+        {
+          "highlighted": "wholesale bale clothing",
+          "text": "wholesale bale clothing"
+        },
+        {
+          "highlighted": "reinforcing steel",
+          "text": "reinforcing steel"
+        },
+        {
+          "highlighted": "disposable wooden cutlery",
+          "text": "disposable wooden cutlery"
+        },
+        {
+          "highlighted": "sandblasting",
+          "text": "sandblasting"
+        },
+        {
+          "highlighted": "heater",
+          "text": "heater"
+        },
+        {
+          "highlighted": "wooden briquettes",
+          "text": "wooden briquettes"
+        },
+        {
+          "highlighted": "woodworking machines",
+          "text": "woodworking machines"
+        },
+        {
+          "highlighted": "water filter",
+          "text": "water filter"
+        },
+        {
+          "highlighted": "industrial engineering",
+          "text": "industrial engineering"
+        },
+        {
+          "highlighted": "prefabricated houses",
+          "text": "prefabricated houses"
+        },
+        {
+          "highlighted": "ecoflow",
+          "text": "ecoflow"
+        },
+        {
+          "highlighted": "smart lock",
+          "text": "smart lock"
+        },
+        {
+          "highlighted": "dog toys",
+          "text": "dog toys"
+        },
+        {
+          "highlighted": "event technology",
+          "text": "event technology"
+        },
+        {
+          "highlighted": "mini perfume",
+          "text": "mini perfume"
+        },
+        {
+          "highlighted": "seeds",
+          "text": "seeds"
+        },
+        {
+          "highlighted": "optical fiber",
+          "text": "optical fiber"
+        },
+        {
+          "highlighted": "camping",
+          "text": "camping"
+        }
+      ],
+      "debugMode": false
+    }
+  }
+}

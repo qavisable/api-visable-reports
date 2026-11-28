@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"Supplier","Endpoint Tests","","0","0","0","2","0"
+"Buyer","Endpoint Tests","","0","0","12","94","0"
+"UG","Functional Tests","","0","0","65","14","0"
+"Connection","Business Scenario Tests","","0","0","2","0","0"
+"Connection","Endpoint Tests","","0","0","2","0","0"
